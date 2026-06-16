@@ -1062,5 +1062,13 @@
       "Solarpunk",
       "Community Project"
     ]
+  },
+  {
+    "title": "blog.nordbye.it",
+    "url": "https://blog.nordbye.it/",
+    "source": "https://github.com/mortennordbye/homelab",
+    "tags": [
+      "Technology Blog"
+    ]
   }
 ]

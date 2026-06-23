@@ -1062,5 +1062,15 @@
       "Solarpunk",
       "Community Project"
     ]
+  },
+  {
+    "title": "Sebastian Zehner",
+    "url": "https://sebastianzehner.com",
+    "source": "https://github.com/sebastianzehner/blog",
+    "tags": [
+      "Personal Site",
+      "Blog",
+      "Techlab"
+    ]
   }
 ]

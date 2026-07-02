@@ -151,6 +151,21 @@ The default file can be used as a template to create additional languages, or re
 | `params.author.links` | _Not set_ | The links to display alongside the author's details. The config file contains example links which can simply be uncommented to enable. The order that the links are displayed is determined by the order they appear in the array. Custom links can be added by providing corresponding SVG icon assets in `assets/icons/`. |
 <!-- prettier-ignore-end -->
 
+### Client-side language redirect
+
+Blowfish can optionally redirect visitors to a matching translated page entirely in the browser. The feature is disabled by default, requires no server-side component, and uses `localStorage` instead of cookies to remember language choices made through the existing language dropdown.
+
+When enabled, the browser-language redirect runs only on home pages by default. If none of the visitor's browser languages match an available translation, Blowfish can redirect to `fallbackLanguage` when that translation exists. If `fallbackLanguage` is not set, Blowfish uses Hugo's default content language. A language chosen manually from the dropdown is stored and preferred on later visits when the current page has a matching translated URL.
+
+```toml
+[languageRedirect]
+  enabled = false
+  storageKey = "blowfish_preferred_language"
+  # fallbackLanguage = "en"
+  browserRedirectHomeOnly = true
+  storedLanguageRedirect = true
+```
+
 ### Menus
 
 Blowfish also supports language-specific menu configurations. Menu config files follow the same naming format as the languages file. Simply provide the language code in the file name to tell Hugo which language the file relates to.
@@ -201,6 +216,11 @@ Many of the article defaults here can be overridden on a per article basis by sp
 | `smartTOC` | _Not set_ | Activate smart Table of Contents, items in view will be highlighted. |
 | `smartTOCHideUnfocusedChildren` | _Not set_ | When smart Table of Contents is turned on, this will hide deeper levels of the table when they are not in focus. |
 | `fingerprintAlgorithm` | `"sha512"` | Hash algorithm for CSS/JS file fingerprinting to prevent browser caching issues. Valid values are `sha512` (default), `sha384`, `sha256`. |
+| `languageRedirect.enabled` | `false` | Enables client-side language redirects for multilingual sites. Disabled by default for backwards compatibility. |
+| `languageRedirect.storageKey` | `"blowfish_preferred_language"` | The `localStorage` key used to persist manual language dropdown selections. |
+| `languageRedirect.fallbackLanguage` | Hugo's default content language | Language to redirect to when no browser language matches and that language has a translation for the current page. |
+| `languageRedirect.browserRedirectHomeOnly` | `true` | Restricts browser-language redirects to home pages to avoid surprising visitors who open deep links. |
+| `languageRedirect.storedLanguageRedirect` | `true` | Allows a stored manual language selection to redirect translated pages when a matching translation exists. |
 
 ### Header
 

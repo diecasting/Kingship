@@ -20,7 +20,7 @@
   {{- /* Resolve the author: first `authors` front matter key looked up in data/authors/, else the site author. */ -}}
   {{- $author := .Site.Params.Author -}}
   {{- with .Params.authors -}}
-    {{- with index site.Data.authors (index . 0 | lower) -}}
+    {{- with index hugo.Data.authors (index . 0 | lower) -}}
       {{- $author = . -}}
     {{- end -}}
   {{- end -}}

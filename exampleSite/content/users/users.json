@@ -1064,6 +1064,38 @@
     ]
   },
   {
+    "title": "www.azriel.id",
+    "url": "https://www.azriel.id/",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Blog",
+      "learning",
+      "Portfolio"
+    ]
+  },
+  {
+    "title": "Douwe Zumker",
+    "url": "https://douwez.dev",
+    "source": "n/a",
+    "tags": [
+      "Personal site",
+      "Blog",
+      "Photography"
+    ]
+  },
+  {
+    "title": "fionnlinux.com",
+    "url": "https://fionnlinux.com",
+    "source": "https://github.com/fionnlinux/fionnlinux.com",
+    "tags": [
+      "Personal site",
+      "Blog",
+      "Linux",
+      "Open Source"
+    ]
+  },
+  {
     "title": "techtrailpulse.com",
     "url": "https://techtrailpulse.com",
     "source": "https://github.com/gregpuzzles1/blog",
@@ -1072,3 +1104,4 @@
     ]
   }
 ]
+

@@ -41,10 +41,9 @@ We don't just cast metal; we engineer reliability. Our advanced manufacturing fa
 
 Kingship implements a comprehensive Quality Management System to ensure zero-defect die casting products for automotive, aerospace, and medical applications.
 
-<!-- 区块 1：X光检测 (无损检测) - 左图右文 -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-10 items-center">
   <div>
-    <img src="/Kingship/img/X-Ray Detector.webp" alt="Real-time X-Ray Inspection for Porosity Detection in Die Casting" class="w-full h-auto rounded-lg shadow-md max-w-xl mx-auto SEO-optimized-image">
+    <img src="/img/X-Ray Detector.webp" alt="Real-time X-Ray Inspection for Porosity Detection in Die Casting" class="w-full h-auto rounded-lg shadow-md max-w-xl mx-auto SEO-optimized-image">
     <p class="text-center text-xs text-neutral-500 mt-2">Real-time X-Ray Porosity Analysis</p>
   </div>
   <div class="prose dark:prose-invert">
@@ -54,7 +53,6 @@ Kingship implements a comprehensive Quality Management System to ensure zero-def
   </div>
 </div>
 
-<!-- 区块 2：证书 (行业认可) - 右图左文 -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-10 items-center">
   <div class="prose dark:prose-invert order-2 md:order-1">
     <h4>Global Manufacturing Certification</h4>
@@ -62,21 +60,20 @@ Kingship implements a comprehensive Quality Management System to ensure zero-def
     <p class="text-sm font-medium">Keywords: TF1949 Certified Manufacturer, ISO9001 Certification, Process Control.</p>
   </div>
   <div class="order-1 md:order-2">
-    <img src="/Kingship/img/TF1949-ISO9001 Certification.webp" alt="TF1949 ISO9001 Certification for Quality Management in Die Casting" class="w-full h-auto rounded-lg shadow-md max-w-xl mx-auto SEO-optimized-image">
+    <img src="/img/TF1949-ISO9001 Certification.webp" alt="TF1949 ISO9001 Certification for Quality Management in Die Casting" class="w-full h-auto rounded-lg shadow-md max-w-xl mx-auto SEO-optimized-image">
     <p class="text-center text-xs text-neutral-500 mt-2">Global Quality Certifications</p>
   </div>
 </div>
 
-<!-- 区块 3：表面处理 & 气密性检测 - 左图右文 -->
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-10 items-center">
   <div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       <div>
-        <img src="/Kingship/img/SureTech 650 Surface treatment.webp" alt="SureTech 650 Chemical Surface Treatment for Die Cast Parts" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
+        <img src="/img/SureTech 650 Surface treatment.webp" alt="SureTech 650 Chemical Surface Treatment for Die Cast Parts" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
         <p class="text-center text-xs text-neutral-500 mt-2">Surface Treatment</p>
       </div>
       <div>
-        <img src="/Kingship/img/Leakaging Testing Equipment.webp" alt="Automated Leakage Testing Equipment for Airtightness Validation" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
+        <img src="/img/Leakaging Testing Equipment.webp" alt="Automated Leakage Testing Equipment for Airtightness Validation" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
         <p class="text-center text-xs text-neutral-500 mt-2">Airtightness Testing</p>
       </div>
     </div>
@@ -88,9 +85,8 @@ Kingship implements a comprehensive Quality Management System to ensure zero-def
   </div>
 </div>
 
-<!-- 区块 4：CNC 精密加工 - 单张大图（最后压轴） -->
 <div class="w-full my-12">
-  <img src="/Kingship/img/High Precision CNC Wokshop.webp" alt="Modern CNC Machining Workshop for Die Casting Post-Processing" class="w-full h-auto rounded-xl shadow-lg SEO-optimized-image">
+  <img src="/img/High Precision CNC Wokshop.webp" alt="Modern CNC Machining Workshop for Die Casting Post-Processing" class="w-full h-auto rounded-xl shadow-lg SEO-optimized-image">
   <p class="text-center text-xs text-neutral-500 mt-2">Our High-Precision CNC Machining Center</p>
   <div class="prose dark:prose-invert max-w-3xl mx-auto mt-6">
     <h4>Precision CNC Post-Processing</h4>
@@ -111,7 +107,7 @@ Kingship implements a comprehensive Quality Management System to ensure zero-def
 
 ---
 
-## 🔬 Rigorous Quality Assurance & Defect Control
+## 🛡️ Rigorous Quality Assurance & Defect Control
 
 We eliminate sub-surface porosity and internal defects before they affect your production line. Our continuous inspection protocol guarantees **Zero-Defect** delivery.
 

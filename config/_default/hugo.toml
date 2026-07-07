@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://diecasting.github.io/Kingship/"
+baseURL = "https://kingship.alumcasting.com/"
 canonifyURLs = false
 relativeURLs = false
 

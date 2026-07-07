@@ -33,17 +33,12 @@
       </nav>
     {{ end }}
   {{ end }}
+  
   <div class="flex items-center justify-between">
-    {{/* Copyright */}}
+    {{/* Copyright - 这里已经被我们强行修正 */}}
     {{ if .Site.Params.footer.showCopyright | default true }}
       <p class="text-sm text-neutral-500 dark:text-neutral-400">
-        {{- with replace .Site.Params.copyright "{ year }" now.Year }}
-          {{ . | markdownify }}
-        {{- else }}
-          &copy;
-          {{ now.Format "2006" }}
-          {{ .Site.Params.Author.name | markdownify }}
-        {{- end }}
+        &copy; {{ now.Format "2006" }} KingShip Precision Manufacturing. All rights reserved.
       </p>
     {{ end }}
 
@@ -60,6 +55,7 @@
       </p>
     {{ end }}
   </div>
+  
   {{ if not .Site.Params.disableImageZoom | default true }}
     <script>
       mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {

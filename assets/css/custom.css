@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Blowfish 主题全站主内容区域【彻底加宽 + 绝对居中】终极修正样式
+   ========================================================================== */
+
+/* 1. 强行打破主题顶层的布局偏左限制，将主框架彻底居中并拓宽 */
+.layout-background main,
+.layout-page main,
+main .relative.flex.flex-grow,
+main .grid {
+    display: block !important;       /* 解除原有的 flex/grid 偏左定位 */
+    max-width: 1280px !important;    /* 升级为工业级大厂宽屏标准 1280px */
+    margin-left: auto !important;    /* 强制左边距自动平衡 */
+    margin-right: auto !important;   /* 强制右边距自动平衡，实现绝对居中 */
+    width: 100% !important;
+}
+
+/* 2. 移除右侧因为隐藏了目录(TOC)而留下的巨大空白占位 */
+main .prose-container,
+main article,
+main .max-w-prose {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* 3. 确保正文文本、标题、表格、段落在大宽屏下优雅地呼吸延伸 */
+.prose {
+    max-width: 100% !important;      /* 允许正文文字跟随大框架完全撑开 */
+    text-align: left !important;     /* 保持文字左对齐的专业阅读习惯 */
+}
+
+/* 4. 专门针对底部的“询盘表单 (RFQ Form)”外层容器进行居中和优雅拓宽 */
+section, 
+section .max-w-3xl, 
+section .max-w-5xl, 
+.rfq-container {
+    max-width: 1150px !important;    /* 让表单横向展开，输入框更长更专业 */
+    margin-left: auto !important;    /* 表单单独强制在正中间对齐 */
+    margin-right: auto !important;
+}
+
+/* 5. 修正顶部大标题、阅读时间、作者信息的容器，使其完美对齐正文居中 */
+main header, 
+main .meta-space,
+main article > div:first-child {
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

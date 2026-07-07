@@ -1,0 +1,63 @@
+<style>
+  /* 1. 强行把主容器和网格彻底拉到屏幕正中间，并撑开到 1280px */
+  main, 
+  .layout-background main, 
+  main .grid, 
+  .prose-container,
+  main article {
+      display: block !important;
+      max-width: 1280px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      width: 100% !important;
+      float: none !important;
+  }
+
+  /* 2. 放行并恢复 Hero 区域的背景图弹性渲染（防止被 display:block 冲掉） */
+  main .bg-blob,
+  main .hero-area,
+  .layout-background > div:first-child {
+      display: flex !important;
+  }
+
+  /* 3. 允许正文、表格和段落等内容跟随大框架自由舒展 */
+  .prose, .max-w-prose {
+      max-width: 100% !important;
+      width: 100% !important;
+  }
+
+  /* 4. 纠正顶部大标题和作者信息的左挂状态，使其整体居中对齐 */
+  main header, 
+  main .meta-space,
+  main article > div:first-child {
+      max-width: 100% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+  }
+
+  /* 5. 让底部的询盘表单也舒展开并保持正中对齐 */
+  section, 
+  section .max-w-3xl, 
+  section .max-w-5xl, 
+  .rfq-container {
+      max-width: 1150px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+  }
+
+  /* 6. ⚡ 强行抹除底部的分享区域与所有个人社交图标（一网打尽） */
+  footer .flex.flex-wrap,
+  footer .space-x-5,
+  .share-buttons,
+  footer div[class*="space-x"],
+  footer a[href*="linkedin"],
+  footer a[href*="twitter"],
+  footer a[href*="facebook"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      height: 0 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+  }
+</style>

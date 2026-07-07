@@ -3,11 +3,17 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://localhost:1313"
+baseURL = "https://diecasting.github.io/Kingship/"
+canonifyURLs = false
+relativeURLs = false
 defaultContentLanguage = "en"
-disableLanguages = [] #to allow translation work requiring shipping to production
 
-# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+title = "KingShip Precision"
+
+# 精准禁用不需要的演示语言，强迫 Hugo 只编译纯英文站（告别 300 个文件的臃肿包袱）
+disableLanguages = ["fr", "de", "it", "pt", "es", "ja", "zh-cn"]
+
+defaultContentLanguageInSubdir = false
 
 enableRobotsTXT = true
 summaryLength = 30
@@ -18,7 +24,30 @@ buildFuture = false
 
 enableEmoji = true
 
-googleAnalytics = "G-PEDMYR1V0K"
+googleAnalytics = ""
+
+# ==========================================================================
+# 🎯 主题核心全局参数（已加入：彻底关闭分享、关联卡片和作者模块）
+# ==========================================================================
+[params]
+  # 1. 允许加载 assets/css/custom.css，让我们的个性化调整真正生效！
+  customCSS = ["css/custom.css"]
+  
+  # 2. 彻底打破 Blowfish 默认偏左和偏窄的限制，直接升级为大厂主流宽屏
+  maxContentWidth = "max-w-screen-xl" 
+  
+  # 3. 确保单页面的头部 hero 区域也能跟着一起平滑加宽居中
+  headerWidth = "max-w-screen-xl"
+
+  # 4. ❌ 彻底全站隐藏底部的社交分享图标（如 LinkedIn, X, Facebook 等小图标）
+  showSharing = false
+
+  # 5. ❌ 彻底全站隐藏底部的相关文章卡片（不再显示那三个不相干的大框卡片）
+  showRelated = false
+
+  # 6. ❌ 彻底隐藏页面上下的作者头像与名称（让页面回归纯粹的 B2B 企业官网风格，而非个人博客）
+  showAuthor = false
+  showAuthorBottom = false
 
 [pagination]
   pagerSize = 102
@@ -41,7 +70,8 @@ googleAnalytics = "G-PEDMYR1V0K"
   home = ["HTML", "RSS", "JSON"]
 
 [related]
-  threshold = 0
+  # 降维控制：将相关性阈值调高，防止意外渲染相关文章
+  threshold = 100
   toLower = false
 
     [[related.indices]]
@@ -65,24 +95,21 @@ googleAnalytics = "G-PEDMYR1V0K"
         weight = 10
 
     [[related.indices]]
-      applyFilter = false
-      name = 'fragmentrefs'
-      type = 'fragments'
-      weight = 10
+        name = "fragmentrefs"
+        type = 'fragments'
+        weight = 10
 
 # Render only specific parts of the site for faster development. 
-# Note that there are more files are ignored in development/hugo.toml
-#
-# Usage: `hugo --renderSegments core` or `hugo --renderSegments core,en_only`
 [segments]
   [segments.core]
     [[segments.core.includes]]
-      # Debug core pages
       path = '{/,/docs,/docs/**,/samples,/samples/**}'
   [segments.en_only]
     [[segments.en_only.includes]]
-      # Alternatively, you can use environment variable
-      #   - UNIX: HUGO_DISABLELANGUAGES='it ja zh-cn' npm run example:core
-      #   - Windows CMD: set "HUGO_DISABLELANGUAGES=it ja zh-cn" && npm run example:core
-      #   - Windows PowerShell: $env:HUGO_DISABLELANGUAGES="it ja zh-cn"; npm run example:core
       lang = 'en'
+
+# --- 核心安全放行：允许在 Markdown 中渲染 HTML 询盘表单 ---
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

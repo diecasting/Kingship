@@ -19,11 +19,13 @@ We don't just cast metal; we engineer reliability. Our advanced manufacturing fa
 ### 1. Aluminum Alloy Die Casting
 * **Common Material Grades:** ADC12, A380, A356, A360
 * **Key Advantage:** Excellent thermal conductivity, high dimensional stability, and lightweight structural performance.
+* **Technical Reference:** Read our [Engineering Guide to ADC12 Properties](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) and [A356 Structural Integrity Guide](https://alumcasting.com/a356-aluminum-die-casting-for-automotive-parts-structural-integrity/).
 * **Ideal For:** Automotive powertrain components, electronic enclosures, and heat sinks.
 
 ### 2. Magnesium Alloy Die Casting
 * **Common Material Grades:** AZ91D, AM60B
 * **Key Advantage:** Ultimate weight reduction (33% lighter than aluminum) with high strength-to-weight ratio and superior EMI/RFI shielding.
+* **Technical Reference:** Learn why we choose specific alloys in our [Magnesium vs Aluminum Die Casting Guide](https://alumcasting.com/magnesium-vs-aluminum-die-casting/).
 * **Ideal For:** Lightweight automotive brackets, aerospace components, and premium handheld devices.
 
 ### Technical Production Capabilities
@@ -48,16 +50,14 @@ Kingship implements a comprehensive Quality Management System to ensure zero-def
   </div>
   <div class="prose dark:prose-invert">
     <h4>Non-Destructive X-Ray Inspection</h4>
-    <p>Our facility utilizes advanced, real-time X-ray detector systems for non-destructive testing (NDT). This critical step ensures complete structural integrity of both Aluminum and Magnesium castings, detecting internal porosity, cracks, and inclusions that are otherwise invisible.</p>
-    <p class="text-sm font-medium">Keywords: Porosity Detection, NDT Testing, Real-time X-ray Analysis.</p>
+    <p>Our facility utilizes advanced, real-time X-ray detector systems for non-destructive testing (NDT). This critical step ensures complete structural integrity, detecting internal porosity, cracks, and inclusions. Learn more in our guide: <a href="https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/">5 Methods to Eliminate Porosity</a>.</p>
   </div>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-10 items-center">
   <div class="prose dark:prose-invert order-2 md:order-1">
     <h4>Global Manufacturing Certification</h4>
-    <p>We strictly adhere to international manufacturing standards. Our TF1949 and ISO9001 certifications demonstrate our unwavering commitment to quality consistency, process control, and continuous improvement in all high-pressure die casting operations.</p>
-    <p class="text-sm font-medium">Keywords: TF1949 Certified Manufacturer, ISO9001 Certification, Process Control.</p>
+    <p>We strictly adhere to international manufacturing standards. Our <a href="https://alumcasting.com/iatf-16949-high-tolerance-automotive-cnc-machining-supplier/">IATF 16949 and ISO9001 certifications</a> demonstrate our unwavering commitment to quality consistency, process control, and continuous improvement in all high-pressure die casting operations.</p>
   </div>
   <div class="order-1 md:order-2">
     <img src="/img/TF1949-ISO9001 Certification.webp" alt="TF1949 ISO9001 Certification for Quality Management in Die Casting" class="w-full h-auto rounded-lg shadow-md max-w-xl mx-auto SEO-optimized-image">
@@ -81,7 +81,6 @@ Kingship implements a comprehensive Quality Management System to ensure zero-def
   <div class="prose dark:prose-invert">
     <h4>Advanced Finishing & Testing</h4>
     <p>Beyond casting, we provide complete downstream services. Our integrated line includes precision surface treatments like SureTech 650. For pressure-sealed components, we conduct automated, real-time leakage testing to ensure precise airtightness and fluid-handling performance.</p>
-    <p class="text-sm font-medium">Keywords: Pressure Testing, Surface Finish, SureTech 650, Leak Testing.</p>
   </div>
 </div>
 
@@ -107,23 +106,14 @@ Kingship implements a comprehensive Quality Management System to ensure zero-def
 
 ---
 
-## 🛡️ Rigorous Quality Assurance & Defect Control
-
-We eliminate sub-surface porosity and internal defects before they affect your production line. Our continuous inspection protocol guarantees **Zero-Defect** delivery.
-
-* **Porosity & Defect Control:** Advanced vacuum-assisted die casting combined with real-time shot speed monitoring and optimal venting designs.
-* **Testing Equipment:** In-house X-Ray Defect Detectors, CMM (Coordinate Measuring Machines), Spectrometers for precise chemical composition analysis, and Leak Testing lines.
-* **International Standards:** Operating under strict ISO 9001 and IATF 16949-compliant quality management systems.
-
----
-
 ## 💼 Seamless Turnkey Solutions: From Design to Delivery
 
 Partner with us and streamline your entire supply chain under one single roof:
-1. **DFM & Mold Design:** Collaborative engineering to optimize your part geometry for efficient mass production.
+1. **DFM & Mold Design:** Collaborative engineering to optimize your part geometry for efficient mass production. Read our <a href="https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/">DFM Design Guide</a>.
 2. **Simulation:** Comprehensive Magma/Moldflow analysis to eliminate cold shuts and air entrapment early.
-3. **Surface Finishing:** In-house shot blasting, powder coating, anodizing, and chromate conversion.
-4. **Global Logistics:** Secure, sea-freight/air-freight ready packaging tailored for direct-to-assembly-line delivery in US, Europe, and Japan.
+3. **Specialized Prototyping:** Explore our <a href="https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/">Bridge Tooling services</a> for efficient small-batch production.
+4. **EV Industry Expertise:** We provide specialized manufacturing for <a href="https://alumcasting.com/ev-battery-housing-die-casting/">EV Battery Housing components</a>.
+5. **Global Logistics:** Secure, sea-freight/air-freight ready packaging tailored for direct-to-assembly-line delivery in US, Europe, and Japan.
 
 ---
 

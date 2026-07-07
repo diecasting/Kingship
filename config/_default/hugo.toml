@@ -4,7 +4,9 @@
 
 theme = "blowfish"
 baseURL = "https://kingship.alumcasting.com/"
-canonifyURLs = false
+
+# 🎯 核心修正：开启绝对根路径，强迫 Hugo 使用绝对域名渲染所有 CSS/JS，彻底根治乱码裸奔
+canonifyURLs = true
 relativeURLs = false
 
 # 🎯 默认主语言设为英文

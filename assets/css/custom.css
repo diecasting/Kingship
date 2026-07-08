@@ -48,3 +48,21 @@ main article > div:first-child {
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
+/* 强制隐藏页面底部的分享社交媒体图标栏 */
+.share-buttons, .share-links, .social-share, .footer .flex.flex-wrap.gap-2 {
+    display: none !important;
+}
+/* 彻底隐藏页面底部的所有分享图标 */
+.flex.flex-wrap.gap-2.mt-4, 
+a[href*="reddit.com/submit"], 
+a[href*="api.whatsapp.com"], 
+a[href*="t.me/share"] {
+    display: none !important;
+}
+
+/* 彻底隐藏页面底部的社交联系图标栏 */
+.social-links, 
+.flex-wrap.gap-2.justify-center {
+    display: none !important;
+}

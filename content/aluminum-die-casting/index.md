@@ -5,96 +5,68 @@ heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "img/5000Ton Die Casting Machine.webp"
-featureImageAlt: "High volume aluminum high pressure die casting production line with Yizumi fleets"
+featureImage: "/img/5000ton-die-casting-machine.webp"
+featureImageAlt: "5000-Ton High Pressure Die Casting Machine for Large Scale Automotive Structural Components"
 showTableOfContents: false
 ---
 
 {{< center_style >}}
 
-
 ## ⚙️ Engineering Excellence in Aluminum Casting
 
-Aluminum alloy high-pressure die casting (HPDC) is the bedrock of modern lightweight, high-strength industrial manufacturing. Our advanced facilities provide stable and high-precision casting engineering tailored for demanding sectors. With over 20 years of expertise in tool design, mold flow analysis, and mechanical engineering, we ensure that every shot complies with zero-defect delivery standards, ensuring your critical parts reach cross-border assembly lines ready for seamless installation.
+Aluminum alloy high-pressure die casting (HPDC) is the bedrock of modern lightweight, high-strength industrial manufacturing. Our advanced facilities provide stable and high-precision casting engineering tailored for demanding sectors. With over 20 years of expertise in tool design, mold flow analysis, and mechanical engineering, we ensure that every shot complies with zero-defect delivery standards, ensuring your critical parts reach cross-border assembly lines ready for seamless installation. Learn more about our [one-stop die casting, CNC machining, and surface finishing services](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/).
 
 ### 🔬 Superior Material Grades & Mechanical Integrity
 We work with specialized global aluminum alloy grades to optimize thermal conductivity, structural elasticity, and anti-corrosion properties:
-* **ADC12 / AlSi9Cu3:** Excellent castability, perfect for complex geometric housings, transmission gearboxes, and automotive engine components.
-* **A380 / AlSi8Cu3Nb:** High mechanical properties and exceptional pressure tightness; the global benchmark for heavy-duty industrial brackets and structural chassis.
-* **A356 / A360:** Superb fluid handling capabilities and structural ductility, ideal for protective anodized coatings, airtight electronic heat sinks, and marine-grade components.
+
+* **ADC12 / AlSi9Cu3:** Excellent castability, perfect for complex geometric housings. Explore our [ADC12 properties engineering guide](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/).
+* **A380 / AlSi8Cu3Nb:** High mechanical properties; the global benchmark for heavy-duty industrial brackets. See [A380 alloy properties](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/).
+* **A356 / A360:** Superb structural ductility, ideal for airtight electronic heat sinks. Read our [A356 structural integrity guide](https://alumcasting.com/a356-aluminum-die-casting-for-automotive-parts-structural-integrity/).
+
+![High volume aluminum high pressure die casting production line](/img/5000ton-die-casting-machine.webp)
+*Alt: Large scale 5000T aluminum die casting machine for automotive structural components.*
 
 ---
 
 ## 🏭 Manufacturing Spectrum & Capabilities
 
-Our tool-making shop utilizes sophisticated CAD/CAM environments running Pro/E, UG, and advanced Magma/Moldflow simulations to eliminate critical air entrapment and cold shuts before the steel mold block is cut. Our manufacturing capabilities bridge heavy automotive components with thin-walled structural housings.
+Our tool-making shop utilizes sophisticated CAD/CAM environments running Pro/E, UG, and advanced Magma/Moldflow simulations to [reduce die casting costs through DFM analysis](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/).
 
 ### Technical Limits for Aluminum Castings
-| Engineering Parameter | Production Specification | Industrial Core Application |
-| :--- | :--- | :--- |
-| **Machine Tonnage Range** | 400 Tons to 5000 Tons (Yizumi Fleets) | Large powertrain blocks to intricate thin-wall structures |
-| **Wall Thickness Target** | Minimum 1.5 mm (Thin-wall optimization) | Optimized lightweight electric vehicle (EV) structures |
-| **Machining Accuracy** | CNC tolerances down to ±0.01 mm | Precise mating surfaces, O-ring grooves, threaded blind holes |
-| **Surface Treatment Options** | Shot Blasting, Powder Coating, E-Coating, Chromate Passivation | High anti-corrosion rating, SureTech 650 specialty finishes |
+| Engineering Parameter | Production Specification |
+| :--- | :--- |
+| **Machine Tonnage Range** | 400 Tons to 5000 Tons [Learn more](https://alumcasting.com/large-scale-5000t-aluminum-die-casting-factory-china/) |
+| **Wall Thickness Target** | Minimum 1.5 mm [Check DFM guide](https://alumcasting.com/minimum-draft-angle-for-aluminium-die-casting-dfm-guide/) |
+| **Machining Accuracy** | CNC tolerances down to ±0.01 mm |
+| **Surface Treatment** | Shot Blasting, Powder Coating, E-Coating [Finishing Guide](https://alumcasting.com/post-casting-treatments-finishing-options-aluminum/) |
 
-### Comprehensive Material Property Comparison Table
-| Aluminum Alloy Grade | Tensile Strength (MPa) | Yield Strength (MPa) | Elongation (%) | Thermal Conductivity (W/m·K) |
-| :--- | :--- | :--- | :--- | :--- |
-| **ADC12 (AlSi9Cu3)** | 310 | 160 | 3.5% | 96 |
-| **A380 (AlSi8Cu3)** | 320 | 160 | 3.5% | 96 |
-| **A356 (AlSi7Mg)** | 280 | 220 | 5.0% | 150 |
-| **A360 (AlSi10Mg)** | 300 | 170 | 5.0% | 113 |
+![Precision CNC machining workshop](/img/high-precision-cnc-wokshop.webp)
+*Alt: High-precision CNC workshop for tight-tolerance die-cast post-processing.*
 
 ---
 
-## 🛡️ Robust Quality Testing for Automotive & Electronics
+## 🛡️ Robust Quality Testing
 
-Kingship implements an uncompromising Quality Management System operating under strict international automotive standards. Every single batch of high-pressure aluminum cast components undergoes structural and mechanical verification to eliminate sub-surface porosity before reaching downstream CNC machining centers:
+Kingship implements a comprehensive Quality Management System [IATF 16949 certified](https://alumcasting.com/iatf-16949-high-tolerance-automotive-cnc-machining-supplier/).
 
-1. **Porosity & Defect Control:** Advanced vacuum-assisted injection cells integrated with real-time shot speed curve monitoring and optimal multi-stage venting designs.
-2. **Dimensional Stability:** 100% CMM (Coordinate Measuring Machines) mapping against native 3D CAD models to guarantee tight tolerances for critical alignment faces and mating profiles.
-3. **Internal Structural Integrity:** Real-time, non-destructive X-ray inspection (NDT) targeting micro-porosity, thermal cracks, and internal inclusions to preserve cross-sectional wall density.
-4. **Fluid Containment Validation:** Automated, high-precision air leakage testing equipment to ensure exact airtightness for pressure-sealed housings, coolant manifolds, and oil pans.
+1. **Porosity Control:** We use [5 methods to eliminate porosity](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/) in pressure die casting.
+2. **Inspection:** Our facility is equipped with advanced [X-ray defect detection and CMM equipment](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/).
+3. **Validation:** Automated leakage testing for airtightness in [EV battery housing](https://alumcasting.com/ev-battery-housing-die-casting/).
 
----
-
-## 📍 Global Supply Chain & Geographic Verification
-
-Operating from our advanced precision production hub in **Hengli Town, Dongguan City**—the world-renowned center for advanced tooling and mold engineering—we seamlessly bridge rapid industrial prototyping with massive global scale manufacturing. Our strategic location within the Greater Bay Area manufacturing cluster ensures optimized international logistics, allowing containerized sea freight and expedited air cargo shipments to be dispatched efficiently through Shenzhen and Hong Kong shipping hubs directly to assembly facilities across North America, Europe, and Asia.
+![Real-time X-Ray inspection for porosity detection](/img/x-ray-detector.webp)
+*Alt: Real-time X-ray NDT testing to ensure internal structural integrity of castings.*
 
 ---
+
+## 💼 Turnkey Solutions & Logistics
+We bridge rapid industrial prototyping with massive global scale manufacturing. Whether you need [bridge tooling for low-volume](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/) or [full-scale production scaling](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/), we provide end-to-end support.
 
 <section class="w-full mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800">
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">Request A Technical Quote</h2>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
-      Have a die casting project? Submit your specifications and 2D/3D drawings (STP, STEP, IGS, PDF). Our tooling professionals will reply within 24 hours.
+      Have a die casting project? <a href="https://alumcasting.com/contact/">Contact our experts</a> for a formal quotation within 24 hours.
     </p>
-
     {{< rfq_form >}}
   </div>
 </section>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Kingship Precision Aluminum Die Casting",
-  "image": "https://kingship.alumcasting.com/img/5000Ton%20Die%20Casting%20Machine.webp",
-  "description": "Professional precision aluminum high pressure die casting, advanced mold tool design, and tight-tolerance CNC machining services provider based in Hengli, Dongguan.",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Dongguan",
-    "addressRegion": "Guangdong",
-    "addressCountry": "CN",
-    "streetAddress": "Hengli Town"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "23.0234",
-    "longitude": "113.9631"
-  },
-  "url": "https://kingship.alumcasting.com/aluminum-die-casting/",
-  "telephone": "",
-  "priceRange": "$$$"
-}
-</script>

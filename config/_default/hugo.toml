@@ -98,6 +98,9 @@ googleAnalytics = ""
   # 6. ❌ 彻底隐藏页面上下的作者头像与名称（让页面回归纯粹的 B2B 企业官网风格，而非个人博客）
   showAuthor = false
   showAuthorBottom = false
+ 
+  # 彻底关闭页面分享组件
+  sharing = false
 
 [pagination]
   pagerSize = 102

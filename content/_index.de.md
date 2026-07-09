@@ -45,7 +45,7 @@ Kingship implementiert ein umfassendes Qualitätsmanagementsystem, um fehlerfrei
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-10 items-center">
   <div>
-    <img src="/img/X-Ray-Detector.webp" alt="Echtzeit-Röntgeninspektion zur Porositätsprüfung beim Druckguss" class="w-full h-auto rounded-lg shadow-md max-w-xl mx-auto SEO-optimized-image">
+    <img src="/img/x-ray-detector.webp" alt="Echtzeit-Röntgeninspektion zur Porositätsprüfung beim Druckguss" class="w-full h-auto rounded-lg shadow-md max-w-xl mx-auto SEO-optimized-image">
     <p class="text-center text-xs text-neutral-500 mt-2">Echtzeit-Röntgenporositätsanalyse</p>
   </div>
   <div class="prose dark:prose-invert">
@@ -69,11 +69,11 @@ Kingship implementiert ein umfassendes Qualitätsmanagementsystem, um fehlerfrei
   <div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       <div>
-        <img src="/img/SureTech-650-Surface-treatment.webp" alt="SureTech 650 chemische Oberflächenbehandlung für Druckgussteile" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
+        <img src="/img/suretech-650-surface-treatment.webp" alt="SureTech 650 chemische Oberflächenbehandlung für Druckgussteile" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
         <p class="text-center text-xs text-neutral-500 mt-2">Oberflächenbehandlung</p>
       </div>
       <div>
-        <img src="/img/Leakaging-Testing-Equipment.webp" alt="Automatisierte Dichtheitsprüfgeräte für die Luftdichtheitsvalidierung" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
+        <img src="/img/leakaging-testing-equipment.webp" alt="Automatisierte Dichtheitsprüfgeräte für die Luftdichtheitsvalidierung" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
         <p class="text-center text-xs text-neutral-500 mt-2">Dichtheitsprüfung</p>
       </div>
     </div>
@@ -85,7 +85,7 @@ Kingship implementiert ein umfassendes Qualitätsmanagementsystem, um fehlerfrei
 </div>
 
 <div class="w-full my-12">
-  <img src="/img/High-Precision-CNC-Wokshop.webp" alt="Moderner CNC-Bearbeitungsworkshop für die Druckguss-Nachbearbeitung" class="w-full h-auto rounded-xl shadow-lg SEO-optimized-image">
+  <img src="/img/high-precision-cnc-workshop.webp" alt="Moderner CNC-Bearbeitungsworkshop für die Druckguss-Nachbearbeitung" class="w-full h-auto rounded-xl shadow-lg SEO-optimized-image">
   <p class="text-center text-xs text-neutral-500 mt-2">Unser hochpräzises CNC-Bearbeitungszentrum</p>
   <div class="prose dark:prose-invert max-w-3xl mx-auto mt-6">
     <h4>Präzise CNC-Nachbearbeitung</h4>

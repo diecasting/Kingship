@@ -66,3 +66,13 @@ a[href*="t.me/share"] {
 .flex-wrap.gap-2.justify-center {
     display: none !important;
 }
+
+/* 强制隐藏 Header 中的品牌名称，只保留 Logo */
+.main-menu a[href="/"], .main-menu a[href="/de/"] {
+    font-size: 0 !important;
+}
+
+/* 或者更精准的：通过隐藏 span 标签来实现 */
+.main-menu span.sr-only {
+    display: none !important;
+}

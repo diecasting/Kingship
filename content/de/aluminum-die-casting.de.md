@@ -40,7 +40,7 @@ Unsere Werkzeugbauabteilung nutzt hochentwickelte CAD/CAM-Umgebungen mit Pro/E, 
 | **Bearbeitungsgenauigkeit** | CNC-Toleranzen bis zu ±0,01 mm |
 | **Oberflächenbehandlung** | Kugelstrahlen, Pulverbeschichten, E-Coating [Veredelungs-Leitfaden](https://alumcasting.com/post-casting-treatments-finishing-options-aluminum/) |
 
-![Hochpräzisions-CNC-Bearbeitungswerkstatt](/img/high-precision-cnc-wokshop.webp)
+![Hochpräzisions-CNC-Bearbeitungswerkstatt](/img/high-precision-cnc-workshop.webp)
 *Alt: Hochpräzisions-CNC-Werkstatt für die Nachbearbeitung von Druckgussteilen mit engen Toleranzen.*
 
 ---

@@ -45,7 +45,7 @@ Kingship implements a comprehensive Quality Management System to ensure zero-def
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-10 items-center">
   <div>
-    <img src="/img/X-Ray-Detector.webp" alt="Real-time X-Ray Inspection for Porosity Detection in Die Casting" class="w-full h-auto rounded-lg shadow-md max-w-xl mx-auto SEO-optimized-image">
+    <img src="/img/x-ray-detector.webp" alt="Real-time X-Ray Inspection for Porosity Detection in Die Casting" class="w-full h-auto rounded-lg shadow-md max-w-xl mx-auto SEO-optimized-image">
     <p class="text-center text-xs text-neutral-500 mt-2">Real-time X-Ray Porosity Analysis</p>
   </div>
   <div class="prose dark:prose-invert">
@@ -69,11 +69,11 @@ Kingship implements a comprehensive Quality Management System to ensure zero-def
   <div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       <div>
-        <img src="/img/SureTech-650-Surface-treatment.webp" alt="SureTech 650 Chemical Surface Treatment for Die Cast Parts" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
+        <img src="/img/suretech-650-surface-treatment.webp" alt="SureTech 650 Chemical Surface Treatment for Die Cast Parts" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
         <p class="text-center text-xs text-neutral-500 mt-2">Surface Treatment</p>
       </div>
       <div>
-        <img src="/img/Leakaging-Testing-Equipment.webp" alt="Automated Leakage Testing Equipment for Airtightness Validation" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
+        <img src="/img/leakaging-testing-equipment.webp" alt="Automated Leakage Testing Equipment for Airtightness Validation" class="w-full h-auto rounded-lg shadow SEO-optimized-image">
         <p class="text-center text-xs text-neutral-500 mt-2">Airtightness Testing</p>
       </div>
     </div>
@@ -85,7 +85,7 @@ Kingship implements a comprehensive Quality Management System to ensure zero-def
 </div>
 
 <div class="w-full my-12">
-  <img src="/img/High-Precision-CNC-Wokshop.webp" alt="Modern CNC Machining Workshop for Die Casting Post-Processing" class="w-full h-auto rounded-xl shadow-lg SEO-optimized-image">
+  <img src="/img/high-precision-cnc-workshop.webp" alt="Modern CNC Machining Workshop for Die Casting Post-Processing" class="w-full h-auto rounded-xl shadow-lg SEO-optimized-image">
   <p class="text-center text-xs text-neutral-500 mt-2">Our High-Precision CNC Machining Center</p>
   <div class="prose dark:prose-invert max-w-3xl mx-auto mt-6">
     <h4>Precision CNC Post-Processing</h4>

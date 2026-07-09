@@ -1,109 +1,57 @@
-# -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
-# https://blowfish.page/docs/getting-started/
-
 theme = "blowfish"
 baseURL = "https://kingship.alumcasting.com/"
 
-# 🎯 核心修正：开启绝对根路径，强迫 Hugo 使用绝对域名渲染所有 CSS/JS，彻底根治乱码裸奔
-canonifyURLs = true
-relativeURLs = false
-
-# 🎯 默认主语言设为英文
+# 核心修正：移除 contentDir 的硬编码，改用标准 Hugo 路径模式
 defaultContentLanguage = "en"
 title = "KingShip Precision"
-
-# 🎯 释放语言：注释掉原先的禁用列表，允许德、西、法、日、韩、意语全量编译
-# disableLanguages = ["fr", "de", "it", "pt", "es", "ja", "zh-cn"]
-
-# 🎯 保持默认：英文主站留在根目录，小语种生成在子目录下（如 /de/ /es/ 等）
 defaultContentLanguageInSubdir = false
 
 enableRobotsTXT = true
 summaryLength = 30
 hasCJKLanguage = true
-
 buildDrafts = false
 buildFuture = false
-
 enableEmoji = true
-googleAnalytics = ""
 
 # ==========================================================================
-# 🌍 多语言站点内容映射配置 (Languages Configuration)
-# 🎯 已全面升级新版规范：用 label 替代 languageName，完美消除本地编译警告
+# 🌍 修正后的多语言配置 (使用标准 Hugo 路径结构)
 # ==========================================================================
+[languages]
+  [languages.en]
+    label = "English"
+    weight = 1
+    locale = "en-us"
 
-# 1. 默认英文站 (English)
-[languages.en]
-  label = "English"
-  contentDir = "content"
-  weight = 1
+  [languages.de]
+    label = "Deutsch"
+    weight = 2
+    locale = "de-de"
 
-# 2. 德语站 (German)
-[languages.de]
-  label = "Deutsch"
-  contentDir = "content.de"   # 本地对应的德语文件夹
-  weight = 2
-
-# 3. 西班牙语站 (Spanish)
-[languages.es]
-  label = "Español"
-  contentDir = "content.es"   # 本地对应的西语文件夹
-  weight = 3
-
-# 4. 法语站 (French)
-[languages.fr]
-  label = "Français"
-  contentDir = "content.fr"   # 本地对应的法语文件夹
-  weight = 4
-
-# 5. 日语站 (Japanese)
-[languages.ja]
-  label = "日本語"
-  contentDir = "content.ja"   # 本地对应的日语文件夹
-  weight = 5
-
-# 6. 韩语站 (Korean)
-[languages.ko]
-  label = "한국어"
-  contentDir = "content.ko"   # 本地对应的韩语文件夹
-  weight = 6
-
-# 7. 意大利语站 (Italian)
-[languages.it]
-  label = "Italiano"
-  contentDir = "content.it"   # 本地对应的意语文件夹
-  weight = 7
+# 其他语言暂时注释，待德语稳定后再逐步添加，避免冲突
+# [languages.es] ... 
 
 # ==========================================================================
-# 🎯 主题核心全局参数（彻底关闭分享、关联卡片和作者模块）
+# 🎯 主题核心全局参数
 # ==========================================================================
 [params]
-  # 1. 允许加载 assets/css/custom.css，让我们的个性化调整真正生效！
   customCSS = ["css/custom.css"]
-  
-  # 2. 彻底打破 Blowfish 默认偏左和偏窄的限制，直接升级为大厂主流宽屏
   maxContentWidth = "max-w-screen-xl" 
-  
-  # 3. 确保单页面的头部 hero 区域也能跟着一起平滑加宽居中
   headerWidth = "max-w-screen-xl"
-
-  # 4. ❌ 彻底全站隐藏底部的社交分享图标（如 LinkedIn, X, Facebook 等小图标）
+  
+  # 全局关闭博客特有的社交/作者信息
   showSharing = false
-
-  # 5. ❌ 彻底全站隐藏底部的相关文章卡片（不再显示那三个不相干的大框卡片）
   showRelated = false
-
-  # 6. ❌ 彻底隐藏页面上下的作者头像与名称（让页面回归纯粹的 B2B 企业官网风格，而非个人博客）
   showAuthor = false
   showAuthorBottom = false
- 
-  # 彻底关闭页面分享组件
   sharing = false
 
-[pagination]
-  pagerSize = 102
+# ==========================================================================
+# 🛠️ Markup 设置 (确保 RFQ 表单 HTML 可渲染)
+# ==========================================================================
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [imaging]
   anchor = 'Center'
@@ -118,51 +66,3 @@ googleAnalytics = ""
   changefreq = 'always'
   filename = 'sitemap.xml'
   priority = 0.5
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-
-[related]
-  # 降维控制：将相关性阈值调高，防止意外渲染相关文章
-  threshold = 100
-  toLower = false
-
-    [[related.indices]]
-        name = "tags"
-        weight = 100
-
-    [[related.indices]]
-        name = "categories"
-        weight = 100
-
-    [[related.indices]]
-        name = "series"
-        weight = 50
-
-    [[related.indices]]
-        name = "authors"
-        weight = 20
-
-    [[related.indices]]
-        name = "date"
-        weight = 10
-
-    [[related.indices]]
-        name = "fragmentrefs"
-        type = 'fragments'
-        weight = 10
-
-# Render only specific parts of the site for faster development. 
-[segments]
-  [segments.core]
-    [[segments.core.includes]]
-      path = '{/,/docs,/docs/**,/samples,/samples/**}'
-  [segments.en_only]
-    [[segments.en_only.includes]]
-      lang = 'en'
-
-# --- 核心安全放行：允许在 Markdown 中渲染 HTML 询盘表单 ---
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true

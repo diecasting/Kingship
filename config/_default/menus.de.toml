@@ -1,69 +1,24 @@
-# -- Hauptmenü --
-# Das Hauptmenü wird in der Kopfzeile oben auf der Seite angezeigt.
-
 [[main]]
-  name = "Dokumentation"
-  pageRef = "docs"
+  name = "Startseite"
+  url = "/"
   weight = 10
 
 [[main]]
-  name = "Shortcodes"
-  pageRef = "docs/shortcodes"
-  weight = 15
-
-[[main]]
-  name = "Beispiele"
+  name = "Aluminium-Druckguss"
+  url = "/de/aluminum-die-casting/"
   weight = 20
 
 [[main]]
-  name = "Vorlagen"
-  parent = "Beispiele"
-  pageRef = "samples"
-  weight = 16
-
-[[main]]
-  name = "Galerie"
-  parent = "Beispiele"
-  pageRef = "examples"
+  name = "Magnesium-Druckguss"
+  url = "/de/magnesium-die-casting/"
   weight = 30
 
 [[main]]
-  name = "Rezepte"
-  parent = "Beispiele"
-  pageRef = "guides"
+  name = "Technischer Blog"
+  url = "/de/blog/"
   weight = 40
 
 [[main]]
-  name = "Benutzer"
-  pageRef = "users"
-  weight = 90
-
-[[main]]
-  name = "Merch"
-  url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
-  weight = 100
-
-[[main]]
-  identifier = "twitter"
-  pre = "x-twitter"
-  url = "https://twitter.com/burufugu"
-  weight = 200
-
-[[main]]
-  identifier = "github"
-  pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
-  weight = 400
-
-
-# -- Fußzeilenmenü --
-
- [[footer]]
-   name = "Tags"
-   pageRef = "tags"
-   weight = 10
-
- [[footer]]
-   name = "Autoren"
-   pageRef = "authors"
-   weight = 20
+  name = "Angebot anfragen"
+  url = "/de/contact/"
+  weight = 50

@@ -19,11 +19,15 @@ enableEmoji = true
 [languages]
   [languages.en]
     label = "English"
+    languageName = "English"
+    title = "KingShip Precision"
     weight = 1
     locale = "en-us"
 
   [languages.de]
     label = "Deutsch"
+    languageName = "Deutsch"
+    title = "KingShip Präzisionsdruckguss"
     weight = 2
     locale = "de-de"
 

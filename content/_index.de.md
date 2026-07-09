@@ -4,7 +4,7 @@ description: "Über 20 Jahre Erfahrung in Werkzeugdesign, Präzisionsdruckguss u
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "img/5000Ton Die Casting Machine.webp"
+featureImage: "/img/5000Ton Die Casting Machine.webp"
 featureImageAlt: "5000-Tonnen-Hochdruckgussmaschine für großflächige Strukturbauteile in der Automobilindustrie"
 ---
 

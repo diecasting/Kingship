@@ -45,8 +45,8 @@ enableEmoji = true
   # 全局关闭博客特有的社交/作者信息
   showSharing = false
   showRelated = false
-  showAuthor = false
-  showAuthorBottom = false
+  showAuthor = true
+  showAuthorBottom = true
   sharing = false
 
 # ==========================================================================
@@ -70,3 +70,4 @@ enableEmoji = true
   changefreq = 'always'
   filename = 'sitemap.xml'
   priority = 0.5
+  

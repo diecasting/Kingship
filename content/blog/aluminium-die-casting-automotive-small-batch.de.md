@@ -1,8 +1,9 @@
 ---
 title: "Aluminium-Druckguss für Automobilindustrie Kleinserie: Präzision & Flexibilität"
 date: 2026-07-10
-authors:
-  - hank
+showAuthor: false
+showAuthorBottom: false
+authors: []
 description: "Expertenwissen zu Aluminium-Druckguss für die Automobilindustrie Kleinserie. Erfahren Sie mehr über DFM, CNC-Bearbeitung und Qualitätssicherung."
 keywords: ["Aluminium-Druckguss Automobilindustrie Kleinserie", "Druckguss Kleinserie", "Automobilbauteile Aluminium"]
 ---

@@ -1,0 +1,29 @@
+[[main]]
+  name = "Inicio"
+  url = "/es/"
+  weight = 10
+
+[[main]]
+  name = "Fundicion de aluminio"
+  url = "/es/aluminum-die-casting/"
+  weight = 20
+
+[[main]]
+  name = "Fundicion de magnesio"
+  url = "/es/magnesium-die-casting/"
+  weight = 30
+
+[[main]]
+  name = "Blog tecnico"
+  url = "/es/blog/"
+  weight = 40
+
+[[main]]
+  name = "Tags"
+  url = "/es/tags/"
+  weight = 45
+
+[[main]]
+  name = "Solicitar cotizacion"
+  url = "/es/contact/"
+  weight = 50

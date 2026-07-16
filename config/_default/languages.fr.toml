@@ -1,0 +1,20 @@
+locale = "fr"
+label = "Français"
+weight = 4
+title = "KingShip"
+
+[params]
+  displayName = "Français"
+  isoCode = "fr"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = ""
+  description = "Services professionnels de fonderie sous pression aluminium et magnesium"
+
+[params.author]
+  name = "KingShip"
+  email = ""
+  image = ""
+  headline = ""
+  bio = ""
+  links = []

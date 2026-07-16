@@ -1,10 +1,10 @@
 ﻿---
-title: Avanc茅
+title: "DFM"
+description: "Contenus en francais sur DFM, reduction de couts et industrialisation."
+layout: "list"
 ---
 
-Ceci est le tag "Avanc茅". Comme pour les autres pages de liste dans Blowfish, vous pouvez ajouter du contenu personnalis茅 aux termes de taxonomie individuels et il sera affich茅 en haut de la liste des termes.
-
-Vous pouvez 茅galement utiliser ces pages de contenu pour d茅finir des m茅tadonn茅es Hugo comme les titres et les descriptions qui seront utilis茅s pour le SEO et d'autres fins.
+Ce tag agrege automatiquement les articles francais avec le tag DFM.
 
 ## FAQ
 

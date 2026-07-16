@@ -1,0 +1,29 @@
+[[main]]
+  name = "Accueil"
+  url = "/fr/"
+  weight = 10
+
+[[main]]
+  name = "Fonderie aluminium"
+  url = "/fr/aluminum-die-casting/"
+  weight = 20
+
+[[main]]
+  name = "Fonderie magnesium"
+  url = "/fr/magnesium-die-casting/"
+  weight = 30
+
+[[main]]
+  name = "Blog technique"
+  url = "/fr/blog/"
+  weight = 40
+
+[[main]]
+  name = "Tags"
+  url = "/fr/tags/"
+  weight = 45
+
+[[main]]
+  name = "Demander un devis"
+  url = "/fr/contact/"
+  weight = 50

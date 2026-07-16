@@ -1,0 +1,20 @@
+locale = "ja"
+label = "日本語"
+weight = 5
+title = "KingShip"
+
+[params]
+  displayName = "日本語"
+  isoCode = "ja"
+  rtl = false
+  dateFormat = "2006年1月2日"
+  logo = ""
+  description = "アルミニウムとマグネシウムの精密ダイカストサービス"
+
+[params.author]
+  name = "KingShip"
+  email = ""
+  image = ""
+  headline = ""
+  bio = ""
+  links = []

@@ -31,6 +31,27 @@ enableEmoji = true
     weight = 2
     locale = "de-de"
 
+  [languages.es]
+    label = "Español"
+    languageName = "Español"
+    title = "KingShip Fundicion a Presion"
+    weight = 3
+    locale = "es-es"
+
+  [languages.fr]
+    label = "Français"
+    languageName = "Français"
+    title = "KingShip Fonderie Sous Pression"
+    weight = 4
+    locale = "fr-fr"
+
+  [languages.ja]
+    label = "日本語"
+    languageName = "日本語"
+    title = "KingShip 精密ダイカスト"
+    weight = 5
+    locale = "ja-jp"
+
 # 其他语言暂时注释，待德语稳定后再逐步添加，避免冲突
 # [languages.es] ... 
 

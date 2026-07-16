@@ -1,0 +1,20 @@
+locale = "es"
+label = "Español"
+weight = 3
+title = "KingShip"
+
+[params]
+  displayName = "Español"
+  isoCode = "es"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = ""
+  description = "Servicios profesionales de fundicion a presion de aluminio y magnesio"
+
+[params.author]
+  name = "KingShip"
+  email = ""
+  image = ""
+  headline = ""
+  bio = ""
+  links = []

@@ -1,10 +1,10 @@
 ﻿---
-title: Avanzado
+title: "Material"
+description: "Seleccion de materiales en fundicion a presion: ADC12, A380 y aleaciones de magnesio."
+layout: "list"
 ---
 
-Esta es la etiqueta "Avanzado". Al igual que otras p谩ginas de listado en Blowfish, puedes agregar contenido personalizado a t茅rminos de taxonom铆a individuales y se mostrar谩 en la parte superior del listado de t茅rminos.
-
-Tambi茅n puedes usar estas p谩ginas de contenido para definir metadatos de Hugo como t铆tulos y descripciones que se usar谩n para SEO y otros prop贸sitos.
+Esta etiqueta agrega automaticamente los articulos en espanol con tag Material.
 
 ## FAQ
 

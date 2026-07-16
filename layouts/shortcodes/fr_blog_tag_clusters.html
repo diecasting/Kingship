@@ -1,0 +1,26 @@
+{{/* Dynamic FR blog clusters based on article tags */}}
+{{ $pages := where .Site.RegularPages "Section" "blog" }}
+{{ $pages = where $pages "Draft" "!=" true }}
+{{ $pages = where $pages "Lang" "fr" }}
+{{ $pages = sort $pages "Date" "desc" }}
+
+{{ $groups := slice
+  (dict "tag" "EV" "title" "EV, etancheite et gestion thermique")
+  (dict "tag" "CNC" "title" "CNC et precision de fabrication")
+  (dict "tag" "Quality" "title" "Qualite et validation serie")
+  (dict "tag" "DFM" "title" "DFM, cout et industrialisation")
+}}
+
+{{ range $groups }}
+  {{ $tag := .tag }}
+  {{ $title := .title }}
+  {{ $groupPages := where $pages "Params.tags" "intersect" (slice $tag) }}
+  {{ if gt (len $groupPages) 0 }}
+### {{ $title }}
+
+  {{ range $groupPages }}
+- [{{ .Title }}]({{ .RelPermalink }})
+  {{ end }}
+
+  {{ end }}
+{{ end }}

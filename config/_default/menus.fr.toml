@@ -14,14 +14,24 @@
   weight = 30
 
 [[main]]
+  name = "Rheocasting semi-solide"
+  url = "/fr/semi-solid-rheocasting/"
+  weight = 32
+
+[[main]]
+  name = "Usinage CNC"
+  url = "/fr/cnc-machining/"
+  weight = 34
+
+[[main]]
+  name = "Outillage de moulage"
+  url = "/fr/tooling/"
+  weight = 36
+
+[[main]]
   name = "Blog technique"
   url = "/fr/blog/"
   weight = 40
-
-[[main]]
-  name = "Tags"
-  url = "/fr/tags/"
-  weight = 45
 
 [[main]]
   name = "Demander un devis"

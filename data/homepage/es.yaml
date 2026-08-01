@@ -55,7 +55,7 @@ overview:
       anchor: "capability-magnesium"
     - name: "Colada semi-sólida (Rheocasting)"
       summary: "Componentes rheocast de baja porosidad y tratables térmicamente para aplicaciones estructurales."
-      url: ""
+      url: "/es/semi-solid-rheocasting/"
       anchor: "capability-rheocasting"
     - name: "Piezas estructurales de 5000T"
       summary: "Piezas estructurales grandes de pared delgada en nuestra máquina de 5000 toneladas."
@@ -63,11 +63,11 @@ overview:
       anchor: "capability-5000t"
     - name: "Mecanizado CNC de precisión"
       summary: "Mecanizado y postprocesado CNC de 3, 4 y 5 ejes de piezas inyectadas."
-      url: ""
+      url: "/es/cnc-machining/"
       anchor: "capability-cnc"
     - name: "Utillaje de moldeo por inyección"
       summary: "Diseño, fabricación y mantenimiento de utillajes internos para larga vida útil."
-      url: ""
+      url: "/es/tooling/"
       anchor: "capability-tooling"
 
 capabilities:

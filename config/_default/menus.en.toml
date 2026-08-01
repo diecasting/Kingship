@@ -14,6 +14,21 @@
   weight = 30
 
 [[main]]
+  name = "Semi-Solid Rheocasting"
+  url = "/semi-solid-rheocasting/"
+  weight = 32
+
+[[main]]
+  name = "CNC Machining"
+  url = "/cnc-machining/"
+  weight = 34
+
+[[main]]
+  name = "Die Casting Tooling"
+  url = "/tooling/"
+  weight = 36
+
+[[main]]
   name = "Technical Blog"
   url = "/blog/"
   weight = 40

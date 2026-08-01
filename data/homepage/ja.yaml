@@ -51,7 +51,7 @@ overview:
       anchor: "capability-magnesium"
     - name: "半凝固レオキャスト"
       summary: "構造用途向け、低気孔で熱処理可能なレオキャスト部品。"
-      url: ""
+      url: "/ja/semi-solid-rheocasting/"
       anchor: "capability-rheocasting"
     - name: "5000トン大型構造鋳造"
       summary: "5000トンマシンによる特大薄肉構造部品。"
@@ -59,11 +59,11 @@ overview:
       anchor: "capability-5000t"
     - name: "高精度CNC加工"
       summary: "鋳造部品の3・4・5軸CNC加工と後処理。"
-      url: ""
+      url: "/ja/cnc-machining/"
       anchor: "capability-cnc"
     - name: "ダイカスト金型"
       summary: "長寿命な社内金型の設計・製造・保守。"
-      url: ""
+      url: "/ja/tooling/"
       anchor: "capability-tooling"
 
 capabilities:

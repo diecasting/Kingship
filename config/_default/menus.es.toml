@@ -14,14 +14,24 @@
   weight = 30
 
 [[main]]
+  name = "Colada semi-sólida"
+  url = "/es/semi-solid-rheocasting/"
+  weight = 32
+
+[[main]]
+  name = "Mecanizado CNC"
+  url = "/es/cnc-machining/"
+  weight = 34
+
+[[main]]
+  name = "Utillaje de moldeo"
+  url = "/es/tooling/"
+  weight = 36
+
+[[main]]
   name = "Blog tecnico"
   url = "/es/blog/"
   weight = 40
-
-[[main]]
-  name = "Tags"
-  url = "/es/tags/"
-  weight = 45
 
 [[main]]
   name = "Solicitar cotizacion"

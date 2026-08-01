@@ -14,14 +14,24 @@
   weight = 30
 
 [[main]]
+  name = "半凝固レオキャスト"
+  url = "/ja/semi-solid-rheocasting/"
+  weight = 32
+
+[[main]]
+  name = "CNC加工"
+  url = "/ja/cnc-machining/"
+  weight = 34
+
+[[main]]
+  name = "ダイカスト金型"
+  url = "/ja/tooling/"
+  weight = 36
+
+[[main]]
   name = "技術ブログ"
   url = "/ja/blog/"
   weight = 40
-
-[[main]]
-  name = "タグ"
-  url = "/ja/tags/"
-  weight = 45
 
 [[main]]
   name = "見積依頼"

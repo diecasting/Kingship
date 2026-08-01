@@ -55,7 +55,7 @@ overview:
       anchor: "capability-magnesium"
     - name: "Rheocasting semi-solide"
       summary: "Composants rheocast peu poreux et traitables thermiquement pour applications structurelles."
-      url: ""
+      url: "/fr/semi-solid-rheocasting/"
       anchor: "capability-rheocasting"
     - name: "Pièces structurelles 5000T"
       summary: "Grandes pièces structurelles à paroi mince sur notre machine de 5000 tonnes."
@@ -63,11 +63,11 @@ overview:
       anchor: "capability-5000t"
     - name: "Usinage CNC de précision"
       summary: "Usinage et post-traitement CNC 3, 4 et 5 axes des pièces moulées."
-      url: ""
+      url: "/fr/cnc-machining/"
       anchor: "capability-cnc"
     - name: "Outillage de moulage"
       summary: "Conception, fabrication et maintenance d'outillages internes pour longue durée de vie."
-      url: ""
+      url: "/fr/tooling/"
       anchor: "capability-tooling"
 
 capabilities:

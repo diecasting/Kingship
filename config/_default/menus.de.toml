@@ -9,14 +9,29 @@
   weight = 20
 
 [[main]]
+  name = "Magnesium-Druckguss"
+  url = "/de/magnesium-die-casting/"
+  weight = 30
+
+[[main]]
+  name = "Semi-Solid-Rheocasting"
+  url = "/de/semi-solid-rheocasting/"
+  weight = 32
+
+[[main]]
+  name = "CNC-Bearbeitung"
+  url = "/de/cnc-machining/"
+  weight = 34
+
+[[main]]
+  name = "Werkzeugbau"
+  url = "/de/tooling/"
+  weight = 36
+
+[[main]]
   name = "Technischer Blog"
   url = "/de/blog/"
   weight = 40
-
-[[main]]
-  name = "Tags"
-  url = "/de/tags/"
-  weight = 45
 
 [[main]]
   name = "Angebot anfragen"

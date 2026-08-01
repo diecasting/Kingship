@@ -59,7 +59,7 @@ overview:
       anchor: "capability-magnesium"
     - name: "Semi-Solid Rheocasting"
       summary: "Low-porosity, heat-treatable rheocast components for structural applications."
-      url: ""
+      url: "/semi-solid-rheocasting/"
       anchor: "capability-rheocasting"
     - name: "5000T Large Structural Casting"
       summary: "Extra-large thin-wall structural castings on our 5000-ton die casting machine."
@@ -67,11 +67,11 @@ overview:
       anchor: "capability-5000t"
     - name: "Precision CNC Machining"
       summary: "3, 4 and 5-axis CNC machining and post-processing for cast components."
-      url: ""
+      url: "/cnc-machining/"
       anchor: "capability-cnc"
     - name: "Die Casting Tooling"
       summary: "In-house tool design, manufacturing and maintenance for long mold life."
-      url: ""
+      url: "/tooling/"
       anchor: "capability-tooling"
 
 capabilities:

@@ -45,14 +45,26 @@
     "@type": "OfferCatalog",
     "name": "Precision Die Casting & Machining Services",
     "itemListElement": [
-      {{ range $i, $svc := $company.services }}{{ if $i }}, {{ end }}{
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "{{ $svc.name | safeJS }}",
-          "url": "{{ $base }}{{ strings.TrimPrefix "/" $svc.url_path | safeJS }}"
-        }
-      }{{ end }}
+      {{- /* Only emit an Offer when a published page actually exists at
+              url_path. Prevents 404 Service URLs in the homepage schema for
+              services with no landing page yet (semi-solid-rheocasting,
+              cnc-machining, tooling). site.GetPage resolves across all
+              languages, so this behaves identically on every language
+              homepage. */ -}}
+      {{- $n := 0 -}}
+      {{- range $svc := $company.services -}}
+        {{- with site.GetPage $svc.url_path -}}
+          {{- if gt $n 0 }}, {{ end -}}{
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "{{ $svc.name | safeJS }}",
+              "url": "{{ $base }}{{ strings.TrimPrefix "/" $svc.url_path | safeJS }}"
+            }
+          }
+          {{- $n = add $n 1 -}}
+        {{- end -}}
+      {{- end -}}
     ]
   }
 }

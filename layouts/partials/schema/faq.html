@@ -1,0 +1,24 @@
+{{- /* schema/faq.html — FAQPage JSON-LD
+   Data: front matter `schema.faq` (list of {question, answer})
+   Called by: schema.html (homepage or any page with schema.faq) */ -}}
+
+{{- $faq := .Params.schema.faq -}}
+{{- if $faq -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "{{ .Permalink }}#faq",
+  "mainEntity": [
+    {{ range $i, $item := $faq }}{{ if $i }}, {{ end }}{
+      "@type": "Question",
+      "name": "{{ $item.question | safeJS }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ $item.answer | safeJS }}"
+      }
+    }{{ end }}
+  ]
+}
+</script>
+{{- end -}}

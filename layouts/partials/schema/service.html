@@ -1,0 +1,38 @@
+{{- /* schema/service.html — Service JSON-LD
+   Data: site.Data.company.services (data/company.yaml)
+   Detects the current page against each service url_path (any language prefix).
+   Called by: schema.html (service landing pages) */ -}}
+
+{{- $company := hugo.Data.company -}}
+{{- $rel := .RelPermalink -}}
+{{- $matched := slice -}}
+{{- range $company.services -}}
+  {{- $sp := .url_path -}}
+  {{- if or (eq $rel $sp) (eq $rel (printf "/de%s" $sp)) (eq $rel (printf "/es%s" $sp)) (eq $rel (printf "/fr%s" $sp)) (eq $rel (printf "/ja%s" $sp)) -}}
+    {{- $matched = $matched | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- with (index $matched 0) -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "{{ $.Permalink }}#service",
+  "name": "{{ .name | safeJS }}",
+  {{ with .description }}"description": "{{ . | safeJS }}",{{ end }}
+  "url": "{{ $.Permalink | safeJS }}",
+  "serviceType": "{{ .schema_type | safeJS }}",
+  "provider": {
+    "@type": "Organization",
+    "@id": "{{ $.Site.BaseURL }}#organization"
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "{{ $company.brand | safeJS }}"
+  },
+  "areaServed": [
+    {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}"{{ $ind | safeJS }}"{{ end }}
+  ]
+}
+</script>
+{{- end -}}

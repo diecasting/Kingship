@@ -1,0 +1,24 @@
+{{- /* schema/website.html — WebSite JSON-LD
+   Data: site.Data.company (data/company.yaml)
+   Called by: schema.html (homepage) */ -}}
+
+{{- $company := hugo.Data.company -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $loc := (index $company.languages $lang) | default $company.languages.en -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "{{ .Site.BaseURL }}#website",
+  "name": "{{ .Site.Title | safeJS }}",
+  "alternateName": "{{ $company.brand | safeJS }}",
+  "url": "{{ .Site.BaseURL | safeJS }}",
+  "description": "{{ $loc.description | safeJS }}",
+  "inLanguage": "{{ .Site.Language.Lang | safeJS }}",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "{{ .Site.BaseURL }}#organization"
+  }
+}
+</script>

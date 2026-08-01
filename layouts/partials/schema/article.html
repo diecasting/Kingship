@@ -1,0 +1,40 @@
+{{- /* schema/article.html — Article JSON-LD
+   Data: site.Data.company (data/company.yaml) for author/publisher identity
+   Called by: schema.html (article / single pages) */ -}}
+
+{{- $company := hugo.Data.company -}}
+{{- $iso := "2006-01-02T15:04:05-07:00" -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "{{ .Permalink }}#article",
+  "headline": "{{ .Title | plainify | safeJS }}",
+  "name": "{{ .Title | plainify | safeJS }}",
+  {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
+  "url": "{{ .Permalink | safeJS }}",
+  {{ with .Site.Language.Lang }}"inLanguage": "{{ . | safeJS }}",{{ end }}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}#webpage"
+  },
+  {{ with .PublishDate }}"datePublished": "{{ .Format $iso | safeJS }}",{{ end }}
+  {{ with .Lastmod }}"dateModified": "{{ .Format $iso | safeJS }}",{{ end }}
+  "author": {
+    "@type": "Organization",
+    "name": "{{ $company.shortName | default $company.name | safeJS }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "{{ .Site.BaseURL }}#organization"
+  }{{ with .Section }},
+  "articleSection": "{{ . | safeJS }}"{{ end }}{{ if .Keywords }},
+  "keywords": [
+    {{ range $i, $kw := .Keywords }}{{ if $i }}, {{ end }}"{{ $kw | safeJS }}"{{ end }}
+  ]{{ else }}{{ with .Params.tags }},
+  "keywords": [
+    {{ range $i, $tag := . }}{{ if $i }}, {{ end }}"{{ $tag | safeJS }}"{{ end }}
+  ]{{ end }}{{ end }}
+}
+</script>

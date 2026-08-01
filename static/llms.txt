@@ -1,0 +1,27 @@
+# llms.txt — KingShip (AlumCasting) Manufacturing
+
+KingShip (Dongguan) Precision Manufacturing Co., Ltd. — brand: AlumCasting.
+A B2B manufacturer of high-precision aluminum and magnesium alloy die casting
+components, serving automotive, EV, aerospace and industrial customers worldwide.
+
+## Capabilities
+- High-pressure aluminum die casting (ADC12, A380, A356, A360)
+- High-pressure magnesium die casting (AZ91D, AM60B)
+- Semi-solid rheocasting for low-porosity structural parts
+- Precision CNC machining and post-processing (3/4/5-axis)
+- In-house die casting tooling design, manufacturing and maintenance
+- Real-time X-ray porosity (NDT) and airtightness / pressure leak testing
+
+## Materials
+- Aluminum alloys: ADC12, A380, A356, A360
+- Magnesium alloys: AZ91D, AM60B
+
+## Industries Served
+- Automotive
+- EV (electric vehicles)
+- Aerospace
+- Industrial equipment
+
+## Official Resources
+- Website: https://kingship.alumcasting.com/
+- Technical authority / knowledge hub: https://alumcasting.com/

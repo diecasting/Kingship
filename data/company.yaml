@@ -1,0 +1,122 @@
+# ==========================================================================
+# company.yaml — KingShip company identity for the GEO Schema Engine
+# Consumed by layouts/partials/schema/*.html (NO hardcoded JSON-LD in pages).
+# Edit this file to update Organization / Manufacturer / Service / WebSite
+# structured data across all languages.
+# ==========================================================================
+
+# --- Core identity ---
+name: "Kingship (Dongguan) Precision Manufacturing Co., Ltd."   # legal name (used as legalName)
+shortName: "KingShip"                                          # display name (Organization.name)
+brand: "AlumCasting"
+url: "https://kingship.alumcasting.com"
+wordpressAuthority: "https://alumcasting.com/"
+
+# --- Visual assets (must return HTTP 200) ---
+logo: "https://kingship.alumcasting.com/favicon.png"
+images:
+  - "https://kingship.alumcasting.com/img/high-precision-cnc-workshop.webp"
+  - "https://kingship.alumcasting.com/img/x-ray-detector.webp"
+
+# --- Postal address ---
+address:
+  locality: "Dongguan"
+  region: "Guangdong"
+  country: "CN"
+
+# --- Capabilities / expertise (ManufacturingBusiness.knowsAbout) ---
+knowsAbout:
+  - "Aluminum Die Casting (ADC12, A356, A380)"
+  - "Magnesium Die Casting (AZ91D, AM60B)"
+  - "Semi-Solid Rheocasting"
+  - "High-Precision CNC Post-Processing"
+  - "Non-Destructive Testing via real-time X-ray"
+  - "Airtightness and pressure leak testing"
+
+# --- Certifications ---
+certifications:
+  - "ISO 9001"
+  - "IATF 16949"
+
+# --- Sales contact point ---
+contactPoint:
+  contactType: "sales"
+  url: "https://kingship.alumcasting.com/contact/"
+
+# --- Multilingual marketing text (rendered at Organization / WebSite level) ---
+languages:
+  en:
+    description: "KingShip is a premier B2B manufacturer specializing in high-precision aluminum and magnesium alloy high-pressure die casting, in-house CNC post-processing, real-time X-ray porosity detection, and professional tooling engineering."
+    keywords:
+      - "High Pressure Die Casting"
+      - "Aluminum Die Casting Services"
+      - "Magnesium Die Casting"
+      - "Semi-Solid Rheocasting"
+      - "Precision CNC Machining"
+      - "Porosity Detection"
+      - "B2B Castings Supplier"
+  de:
+    description: "KingShip ist ein führender B2B-Hersteller für Präzisions-Hochdruck-Druckguss aus Aluminium- und Magnesiumlegierungen mit interner CNC-Nachbearbeitung, Echtzeit-Röntgenporositätsprüfung und Werkzeugbau."
+    keywords:
+      - "Hochdruck-Druckguss"
+      - "Aluminium-Druckguss"
+      - "Magnesium-Druckguss"
+      - "Semi-Solid-Rheocasting"
+      - "Präzise CNC-Bearbeitung"
+  es:
+    description: "KingShip es un fabricante B2B líder especializado en fundición a presión de alta precisión en aleaciones de aluminio y magnesio, mecanizado CNC interno, detección de porosidad por rayos X en tiempo real e ingeniería de moldes."
+    keywords:
+      - "Fundición a presión de aluminio"
+      - "Fundición a presión de magnesio"
+      - "Semi-Solid Rheocasting"
+      - "Mecanizado CNC de precisión"
+  fr:
+    description: "KingShip est un fabricant B2B de premier plan spécialisé dans le moulage sous pression de précision en alliages d'aluminium et de magnésium, l'usinage CN interne, la détection de porosité par rayons X en temps réel et la conception d'outillages."
+    keywords:
+      - "Moulage sous pression d'aluminium"
+      - "Moulage sous pression de magnésium"
+      - "Semi-Solid Rheocasting"
+      - "Usinage CNC de précision"
+  ja:
+    description: "KingShipは、高精度アルミニウム・マグネシウム合金高圧ダイカスト、社内CNC後処理、リアルタイムX線気孔検査、専門的な金型設計を専門とする有力なB2Bメーカーです。"
+    keywords:
+      - "アルミダイカスト"
+      - "マグネシウムダイカスト"
+      - "Semi-Solid Rheocasting"
+      - "精密CNC加工"
+
+# --- Services (drives Service schema + homepage OfferCatalog) ---
+# url_path must match the published section path (with or without language prefix).
+services:
+  - id: "aluminum-die-casting"
+    name: "Aluminum Die Casting"
+    url_path: "/aluminum-die-casting/"
+    schema_type: "AluminumDieCasting"
+    description: "High-pressure aluminum die casting in ADC12, A380 and A356 alloys with tight-tolerance dimensional control and in-house CNC finishing."
+  - id: "magnesium-die-casting"
+    name: "Magnesium Die Casting"
+    url_path: "/magnesium-die-casting/"
+    schema_type: "MagnesiumDieCasting"
+    description: "Lightweight magnesium die casting in AZ91D and AM60B for automotive, EV and electronics enclosures."
+  - id: "semi-solid-rheocasting"
+    name: "Semi Solid Rheocasting"
+    url_path: "/semi-solid-rheocasting/"
+    schema_type: "Rheocasting"
+    description: "Semi-solid rheocasting for low-porosity, high-integrity structural components."
+  - id: "cnc-machining"
+    name: "CNC Machining"
+    url_path: "/cnc-machining/"
+    schema_type: "CncMachining"
+    description: "Precision 3/4/5-axis CNC machining and post-processing for cast components."
+  - id: "die-casting-tooling"
+    name: "Die Casting Tooling"
+    url_path: "/tooling/"
+    schema_type: "Tooling"
+    description: "In-house die casting tooling design, manufacturing and maintenance."
+
+# --- Industries served (areaServed) ---
+industries:
+  - "Automotive"
+  - "EV"
+  - "Aerospace"
+  - "Industrial"

@@ -1,0 +1,30 @@
+{{- /* schema/webpage.html — WebPage JSON-LD for the current page
+   Data: site.Data.company (data/company.yaml)
+   Called by: schema.html (homepage) */ -}}
+
+{{- $company := hugo.Data.company -}}
+{{- $hero := "" -}}
+{{- with $company.images }}{{ $hero = index . 0 }}{{ end -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "{{ .Permalink }}#webpage",
+  "url": "{{ .Permalink | safeJS }}",
+  "name": "{{ .Title | plainify | safeJS }}",
+  {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "{{ .Site.BaseURL }}#website"
+  }{{ if $hero }},
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "{{ $hero | safeJS }}"
+  }{{ end }},
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "@id": "{{ .Permalink }}#breadcrumb"
+  }
+}
+</script>

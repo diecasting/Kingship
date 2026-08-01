@@ -1,0 +1,87 @@
+{{- /* schema/organization.html
+   Emits: Organization (with Brand) + ManufacturingBusiness (Manufacturer)
+   Data:  site.Data.company (data/company.yaml)
+   Called by: schema.html (homepage) */ -}}
+
+{{- $company := hugo.Data.company -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $loc := (index $company.languages $lang) | default $company.languages.en -}}
+{{- $base := .Site.BaseURL -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "{{ $base }}#organization",
+  "name": "{{ $company.shortName | default $company.name | safeJS }}",
+  "legalName": "{{ $company.name | safeJS }}",
+  "alternateName": "{{ $company.brand | safeJS }}",
+  "url": "{{ $company.url | safeJS }}",
+  "logo": "{{ $company.logo | safeJS }}",
+  "image": [
+    {{ range $i, $img := $company.images }}{{ if $i }}, {{ end }}"{{ $img | safeJS }}"{{ end }}
+  ],
+  "description": "{{ $loc.description | safeJS }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ $company.address.locality | safeJS }}",
+    "addressRegion": "{{ $company.address.region | safeJS }}",
+    "addressCountry": "{{ $company.address.country | safeJS }}"
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "{{ $company.brand | safeJS }}"
+  },
+  "knowsAbout": [
+    {{ range $i, $ka := $company.knowsAbout }}{{ if $i }}, {{ end }}"{{ $ka | safeJS }}"{{ end }}
+  ],
+  "certifications": [
+    {{ range $i, $c := $company.certifications }}{{ if $i }}, {{ end }}"{{ $c | safeJS }}"{{ end }}
+  ],
+  "areaServed": [
+    {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}"{{ $ind | safeJS }}"{{ end }}
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Precision Die Casting & Machining Services",
+    "itemListElement": [
+      {{ range $i, $svc := $company.services }}{{ if $i }}, {{ end }}{
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "{{ $svc.name | safeJS }}",
+          "url": "{{ $base }}{{ strings.TrimPrefix "/" $svc.url_path | safeJS }}"
+        }
+      }{{ end }}
+    ]
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ManufacturingBusiness",
+  "@id": "{{ $base }}#manufacturing-business",
+  "name": "{{ $company.shortName | default $company.name | safeJS }}",
+  "legalName": "{{ $company.name | safeJS }}",
+  "url": "{{ $company.url | safeJS }}",
+  "logo": "{{ $company.logo | safeJS }}",
+  "image": [
+    {{ range $i, $img := $company.images }}{{ if $i }}, {{ end }}"{{ $img | safeJS }}"{{ end }}
+  ],
+  "description": "{{ $loc.description | safeJS }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ $company.address.locality | safeJS }}",
+    "addressRegion": "{{ $company.address.region | safeJS }}",
+    "addressCountry": "{{ $company.address.country | safeJS }}"
+  },
+  "knowsAbout": [
+    {{ range $i, $ka := $company.knowsAbout }}{{ if $i }}, {{ end }}"{{ $ka | safeJS }}"{{ end }}
+  ],
+  "certifications": [
+    {{ range $i, $c := $company.certifications }}{{ if $i }}, {{ end }}"{{ $c | safeJS }}"{{ end }}
+  ]
+}
+</script>

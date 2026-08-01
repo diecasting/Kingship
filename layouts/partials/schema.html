@@ -1,91 +1,43 @@
-{{ if .IsHome -}}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": {{ site.Home.Permalink | safeURL }},
-    "name": "{{ .Site.Title | safeJS }}",
-    {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
-    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
-    "url": {{ site.Home.Permalink | safeURL }},
-    {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
-    "publisher" : {
-      "@type": "Person",
-      "name": "{{ .Site.Params.Author.name | safeJS }}"
-    }
-  }
-  </script>
-{{ else }}
-  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
-  {{- /* Resolve the author: first `authors` front matter key looked up in data/authors/, else the site author. */ -}}
-  {{- $author := .Site.Params.Author -}}
-  {{- with .Params.authors -}}
-    {{- with index hugo.Data.authors (index . 0 | lower) -}}
-      {{- $author = . -}}
+{{- /* =========================================================================
+   schema.html — KingShip GEO Schema Engine (entry point)
+   --------------------------------------------------------------------------
+   Data-driven: reads data/company.yaml via .Site.Data.company.
+   No hardcoded JSON-LD lives in page layouts.
+
+   Page routing:
+     Homepage            -> Organization + ManufacturingBusiness + WebSite
+                            + WebPage (+ FAQPage when schema.faq is set)
+     Service landing page -> Service + BreadcrumbList
+     Article (single)     -> Article + BreadcrumbList
+     Other (section/list) -> BreadcrumbList
+   ========================================================================= */ -}}
+
+{{- $company := hugo.Data.company -}}
+{{- if not $company -}}{{- errorf "SEO: data/company.yaml is missing — schema engine cannot run." -}}{{- end -}}
+
+{{- if .IsHome -}}
+  {{ partial "schema/organization.html" . }}
+  {{ partial "schema/website.html" . }}
+  {{ partial "schema/webpage.html" . }}
+  {{ partial "schema/faq.html" . }}
+{{- else -}}
+  {{- /* Detect a service landing page (exact path, any language prefix). */ -}}
+  {{- $rel := .RelPermalink -}}
+  {{- $isService := false -}}
+  {{- range $company.services -}}
+    {{- $sp := .url_path -}}
+    {{- if or (eq $rel $sp) (eq $rel (printf "/de%s" $sp)) (eq $rel (printf "/es%s" $sp)) (eq $rel (printf "/fr%s" $sp)) (eq $rel (printf "/ja%s" $sp)) -}}
+      {{- $isService = true -}}
     {{- end -}}
   {{- end -}}
-  {{- /* sameAs from social profiles: data/authors uses `social`, the site author uses `links` (each a {platform: url} map). */ -}}
-  {{- $sameAs := slice -}}
-  {{- range (or $author.social $author.links) -}}
-    {{- range $platform, $url := . -}}
-      {{- if not (strings.HasPrefix $url "mailto:") -}}
-        {{- $sameAs = $sameAs | append $url -}}
-      {{- end -}}
-    {{- end -}}
+
+  {{- if $isService -}}
+    {{ partial "schema/service.html" . }}
+    {{ partial "schema/breadcrumb.html" . }}
+  {{- else if eq .Kind "page" -}}
+    {{ partial "schema/article.html" . }}
+    {{ partial "schema/breadcrumb.html" . }}
+  {{- else -}}
+    {{ partial "schema/breadcrumb.html" . }}
   {{- end -}}
-  <script type="application/ld+json">
-  [{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "articleSection": "{{ (site.GetPage .Section).Title | safeJS }}",
-    "name": "{{ .Title | safeJS }}",
-    "headline": "{{ .Title | safeJS }}",
-    {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
-    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
-    "url" : {{ .Permalink }},
-    "author" : {
-      "@type": "Person",
-      "name": "{{ $author.name | safeJS }}"{{ with $author.image }},
-      "image": {{ . | absURL }}{{ end }}{{ if $sameAs }},
-      "sameAs": [{{ range $i, $u := $sameAs }}{{ if $i }}, {{ end }}{{ $u }}{{ end }}]{{ end }}
-    },
-    {{ with .PublishDate }}"copyrightYear": "{{ .Format "2006" }}",{{ end }}
-    {{ with .Date }}"dateCreated": "{{ .Format $iso8601 }}",{{ end }}
-    {{ with .PublishDate }}"datePublished": "{{ .Format $iso8601 }}",{{ end }}
-    {{ with .ExpiryDate }}"expires": "{{ .Format $iso8601 }}",{{ end }}
-    {{ with .Lastmod }}"dateModified": "{{ .Format $iso8601 }}",{{ end }}
-    {{ if .Keywords }}
-    {{ with .Keywords }}"keywords": {{ . }},{{ end }}
-    {{ else }}
-    {{ with .Params.tags }}"keywords": {{ . }},{{ end }}
-    {{ end }}
-    "mainEntityOfPage": {{ .Permalink }},
-    "wordCount": "{{ .WordCount }}"
-  }{{ if site.Params.enableStructuredBreadcrumbs | default false }},
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {{- $position := 0 -}}
-      {{- range .Ancestors -}}
-        {{- if not .IsHome -}}
-          {{- $position = add $position 1 -}}
-          {
-            "@type": "ListItem",
-            "position": {{ $position }},
-            "name": "{{ .Title }}",
-            "item": {{ .Permalink }}
-          },
-        {{- end -}}
-      {{- end -}}
-      {{- $position = add $position 1 -}}
-      {
-        "@type": "ListItem",
-        "position": {{ $position }},
-        "name": "{{ .Title }}",
-        "item": {{ .Permalink }}
-      }
-    ]
-  }{{ end }}]
-  </script>
-{{ end }}
+{{- end -}}

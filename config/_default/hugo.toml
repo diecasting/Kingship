@@ -19,35 +19,30 @@ enableEmoji = true
 [languages]
   [languages.en]
     label = "English"
-    languageName = "English"
     title = "KingShip Precision"
     weight = 1
     locale = "en-us"
 
   [languages.de]
     label = "Deutsch"
-    languageName = "Deutsch"
     title = "KingShip Präzisionsdruckguss"
     weight = 2
     locale = "de-de"
 
   [languages.es]
     label = "Español"
-    languageName = "Español"
     title = "KingShip Fundicion a Presion"
     weight = 3
     locale = "es-es"
 
   [languages.fr]
     label = "Français"
-    languageName = "Français"
     title = "KingShip Fonderie Sous Pression"
     weight = 4
     locale = "fr-fr"
 
   [languages.ja]
     label = "日本語"
-    languageName = "日本語"
     title = "KingShip 精密ダイカスト"
     weight = 5
     locale = "ja-jp"

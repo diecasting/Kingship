@@ -1,0 +1,428 @@
+# ==========================================================================
+# data/homepage/en.yaml — English homepage content for KingShip
+# Consumed by layouts/partials/sections/*.html (modular industrial homepage).
+# Images are hot-linked from alumcasting.com (verified HTTP 200).
+# All prose is rendered into structured H2/H3 modules for SEO/GEO.
+# ==========================================================================
+
+hero:
+  eyebrow: "High-Pressure Die Casting & CNC Machining Since 2003"
+  title: "Precision Aluminum & Magnesium Die Casting for Automotive, EV and Aerospace"
+  subtitle: "KingShip engineers end-to-end die casting manufacturing — from mold-flow simulation and 5000T large structural casting to tight-tolerance CNC finishing and real-time X-ray porosity inspection."
+  image:
+    url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+    alt: "5000-ton high-pressure aluminum die casting machine producing large automotive structural components"
+    title: "5000T Die Casting Machine for Large Structural Parts"
+  primary_cta:
+    label: "Request a Quote"
+    url: "#rfq"
+  secondary_cta:
+    label: "Explore Capabilities"
+    url: "#capabilities"
+
+intro:
+  heading: "Who We Are"
+  lead: "A vertically integrated B2B die casting manufacturer delivering reliability from molten metal to finished component."
+  body: |
+    KingShip (Dongguan) Precision Manufacturing Co., Ltd. is a dedicated B2B supplier of
+    high-pressure aluminum and magnesium alloy die casting, in-house CNC post-processing,
+    semi-solid rheocasting and professional tooling engineering. For more than two decades we
+    have helped automotive, electric-vehicle, aerospace, medical and industrial customers turn
+    demanding geometries into repeatable, high-integrity production parts.
+
+    We are not a trading company. Every casting is produced inside our own Dongguan facility,
+    where modern cold-chamber die casting cells are integrated with fully automated robotic
+    extraction, real-time X-ray porosity detection and a high-precision CNC machining center.
+    This vertical integration lets us control dimensional accuracy, surface quality and lead
+    time across the entire process — design, simulation, casting, machining, finishing and
+    inspection — under a single quality management system certified to ISO 9001 and IATF 16949.
+
+    Our engineering team collaborates with customers from the first DFM review, using Magma
+    and Moldflow simulation to eliminate cold shuts, air entrapment and shrinkage porosity
+    before the first tool is cut. The result is a shorter development cycle, lower piece cost
+    and structural components that pass qualification on the first try. Whether you need a
+    lightweight magnesium bracket, a heat-treatable semi-solid rheocast part, or a 5000T large
+    structural casting for an EV battery platform, KingShip is built to be your long-term
+    manufacturing partner.
+
+overview:
+  heading: "Manufacturing Capability Overview"
+  lead: "Six integrated processes that take your program from prototype to high-volume production."
+  items:
+    - id: "aluminum-die-casting"
+      name: "Aluminum Die Casting"
+      summary: "High-pressure die casting in ADC12, A380 and A356 with tight-tolerance CNC finishing."
+      url: "#capability-aluminum"
+    - id: "magnesium-die-casting"
+      name: "Magnesium Die Casting"
+      summary: "Lightweight AZ91D and AM60B magnesium die casting for weight-critical components."
+      url: "#capability-magnesium"
+    - id: "semi-solid-rheocasting"
+      name: "Semi-Solid Rheocasting"
+      summary: "Low-porosity, heat-treatable rheocast components for structural applications."
+      url: "#capability-rheocasting"
+    - id: "5000t-structural-casting"
+      name: "5000T Large Structural Casting"
+      summary: "Extra-large thin-wall structural castings on our 5000-ton die casting machine."
+      url: "#capability-5000t"
+    - id: "precision-cnc-machining"
+      name: "Precision CNC Machining"
+      summary: "3, 4 and 5-axis CNC machining and post-processing for cast components."
+      url: "#capability-cnc"
+    - id: "die-casting-tooling"
+      name: "Die Casting Tooling"
+      summary: "In-house tool design, manufacturing and maintenance for long mold life."
+      url: "#capability-tooling"
+
+capabilities:
+  - id: "aluminum-die-casting"
+    anchor: "capability-aluminum"
+    name: "Aluminum Die Casting"
+    heading: "Aluminum Die Casting"
+    body: |
+      Aluminum high-pressure die casting is the backbone of our production. We cast a wide range
+      of structural and functional components in ADC12, A380, A356 and A360 alloys, balancing
+      thermal conductivity, corrosion resistance and dimensional stability for demanding service
+      environments. Our cold-chamber machines span 400T to 5000T, allowing us to serve everything
+      from intricate thin-wall enclosures to large automotive structural parts in a single shot.
+
+      Every aluminum die casting program begins with mold-flow simulation. By modeling filling,
+      solidification and cooling before tooling is built, we remove cold shuts, misruns and
+      shrinkage porosity at the design stage rather than on the production line. Post-casting,
+      in-house CNC machining centers hold critical mating surfaces to ±0.01 mm, and secondary
+      operations such as anodizing, powder coating, shot blasting and impregnation are coordinated
+      within the same facility.
+
+      Typical applications include automotive powertrain housings, EV battery trays and brackets,
+      heat sinks, lighting housings and electronic enclosures. For customers who need verified
+      material behavior, we publish engineering references on ADC12 properties and A356 structural
+      integrity so design teams can specify with confidence.
+    materials:
+      - "ADC12"
+      - "A380"
+      - "A356"
+      - "A360"
+    processes:
+      - "High-Pressure Die Casting"
+      - "CNC Machining"
+      - "Anodizing & Powder Coating"
+      - "Impregnation"
+    equipment:
+      - "400T–5000T Cold Chamber Machines"
+      - "5-Axis CNC Machining Centers"
+    applications:
+      - "Automotive powertrain"
+      - "EV battery housings"
+      - "Heat sinks & enclosures"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/06/A356-aluminum-die-casting-porosity-control.webp"
+      alt: "A356 aluminum die casting component under porosity control inspection"
+      title: "A356 Aluminum Die Casting"
+    learn_more: "/aluminum-die-casting/"
+
+  - id: "magnesium-die-casting"
+    anchor: "capability-magnesium"
+    name: "Magnesium Die Casting"
+    heading: "Magnesium Die Casting"
+    body: |
+      Magnesium die casting delivers the ultimate weight reduction — roughly one-third lighter
+      than aluminum at comparable stiffness — making it the material of choice for weight-critical
+      automotive, aerospace and premium electronics components. KingShip casts AZ91D and AM60B
+      magnesium alloys on dedicated hot- and cold-chamber machines, with minimum wall thickness
+      down to 1.0 mm for thin-wall, complex geometries.
+
+      Magnesium's high strength-to-weight ratio and excellent EMI/RFI shielding are valuable for
+      electric-vehicle brackets, sensor housings, drone frames and handheld devices. We protect
+      surface integrity with passivation and electroplating processes tuned for magnesium
+      corrosion resistance, and we verify wall thickness and internal quality with real-time
+      X-ray inspection before shipment.
+
+      Because magnesium casting demands strict process control, our engineers manage melt
+      protection, injection velocity and die temperature closely to avoid oxidation and hot
+      cracking. The outcome is a lightweight, dimensionally stable component that helps OEMs hit
+      aggressive vehicle-mass and range targets without sacrificing structural performance.
+    materials:
+      - "AZ91D"
+      - "AM60B"
+    processes:
+      - "High-Pressure Magnesium Die Casting"
+      - "Passivation"
+      - "Electroplating"
+    equipment:
+      - "160T–2250T Magnesium Die Casting Machines"
+      - "Real-Time X-Ray Inspection"
+    applications:
+      - "Automotive brackets"
+      - "Aerospace components"
+      - "Premium handheld devices"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      alt: "Lightweight magnesium die cast aerospace and 3C electronic parts"
+      title: "Magnesium Die Casting Parts"
+    learn_more: "/magnesium-die-casting/"
+
+  - id: "semi-solid-rheocasting"
+    anchor: "capability-rheocasting"
+    name: "Semi-Solid Rheocasting"
+    heading: "Semi-Solid Rheocasting"
+    body: |
+      Semi-solid rheocasting is our solution for parts that must combine low porosity, high
+      ductility and heat-treatability. By forming the alloy in its semi-solid state — a slurry of
+      solid globules suspended in liquid — rheocasting almost eliminates gas entrapment and
+      shrinkage porosity that conventional high-pressure die casting cannot fully avoid.
+
+      The result is a casting that can be T5 or T6 heat treated, welded and mechanically worked,
+      opening the door to structural safety components where flaw-free integrity is non-negotiable.
+      KingShip operates a Yizumi semi-solid rheocasting system and validates microstructural
+      uniformity with metallography and real-time X-ray comparison, so customers can qualify
+      rheocast parts for crash-relevant and load-bearing applications.
+
+      Rheocasting is especially attractive for EV and aerospace structural nodes, suspension
+      brackets and booms where fatigue life matters. By reducing porosity at the source, we shrink
+      the inspection burden downstream and improve the predictability of every shipped lot.
+    materials:
+      - "A356 Rheocast"
+      - "Custom Aluminum Slurries"
+    processes:
+      - "Semi-Solid Rheocasting"
+      - "T5 / T6 Heat Treatment"
+      - "Metallographic Validation"
+    equipment:
+      - "Yizumi Semi-Solid Rheocasting System"
+      - "X-Ray Porosity Testing"
+    applications:
+      - "EV structural nodes"
+      - "Aerospace brackets"
+      - "Fatigue-critical components"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/06/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
+      alt: "Semi-solid rheocast microstructure compared with X-ray porosity testing"
+      title: "Semi-Solid Rheocasting Microstructure"
+
+  - id: "5000t-structural-casting"
+    anchor: "capability-5000t"
+    name: "5000T Large Structural Casting"
+    heading: "5000T Large Structural Casting"
+    body: |
+      Our 5000-ton cold-chamber die casting machine is built for the largest, thinnest-wall
+      structural components in the automotive and EV industries. Large structural castings — such
+      as battery tray side rails, shock towers, tunnel housings and crossmembers — consolidate
+      what used to be dozens of stamped and welded stampings into a single, stiff, lightweight
+      aluminum part.
+
+      Producing these parts demands more than tonnage. It requires precise shot control, thermal
+      management of a very large die, and disciplined process windows to keep warpage and porosity
+      in check across a meter-scale footprint. KingShip's engineering team models the entire
+      casting system, then validates first articles with CMM, X-ray and leak testing before ramp.
+
+      By integrating large structural casting with in-house CNC machining and finishing, we deliver
+      a dimensionally complete assembly-ready component, not just a raw casting. This reduces
+      customer inbound logistics, welding distortion risk and total program cost while improving
+      vehicle stiffness and crash performance.
+    materials:
+      - "ADC12"
+      - "A380"
+      - "A356"
+    processes:
+      - "5000T High-Pressure Die Casting"
+      - "Large-Die Thermal Management"
+      - "Assembly-Ready CNC Finishing"
+    equipment:
+      - "5000T Cold Chamber Die Casting Machine"
+      - "Large-Format CMM"
+    applications:
+      - "EV battery structures"
+      - "Shock towers & crossmembers"
+      - "Structural nodes"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+      alt: "5000-ton die casting machine producing large automotive structural components"
+      title: "5000T Large Structural Casting"
+
+  - id: "precision-cnc-machining"
+    anchor: "capability-cnc"
+    name: "Precision CNC Machining"
+    heading: "Precision CNC Machining"
+    body: |
+      Casting is only half the story. KingShip's in-house high-precision CNC workshop completes the
+      component — drilling, threading, milling and boring the critical mating surfaces that the
+      die casting process cannot reach. Our 3-axis, 4-axis and high-speed 5-axis machining centers
+      hold tolerances up to ±0.01 mm on aluminum and magnesium parts.
+
+      Because machining sits next to casting, we eliminate the hand-off delays and quality disputes
+      that come with outsourcing. Datums are consistent from cast to cut, first-article reports are
+      generated on the same floor, and last-minute design tweaks flow straight back to the cell.
+      We also perform value-added operations such as helical threading, boss facing and tight-tolerance
+      bores for sealing surfaces.
+
+      For pressure-sealed components we add automated leak testing immediately after machining, so
+      airtightness is confirmed before the part leaves the building. The net effect is a finished,
+      inspection-ready component delivered from a single supplier.
+    materials:
+      - "Aluminum Alloys"
+      - "Magnesium Alloys"
+    processes:
+      - "3 / 4 / 5-Axis CNC Machining"
+      - "Precision Drilling & Threading"
+      - "Automated Leak Testing"
+    equipment:
+      - "High-Speed 5-Axis CNC Centers"
+      - "Automated Leak Testing Equipment"
+    applications:
+      - "Sealing surfaces"
+      - "Critical mating features"
+      - "Finished components"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      alt: "Precision multi-axis CNC machining of tight-tolerance die cast parts"
+      title: "Precision CNC Machining"
+
+  - id: "die-casting-tooling"
+    anchor: "capability-tooling"
+    name: "Die Casting Tooling"
+    heading: "Die Casting Tooling"
+    body: |
+      Tooling quality defines everything that follows. KingShip operates an in-house tooling shop
+      using advanced CAD/CAM, Pro/E, UG and Moldflow simulation to design and build dies that run
+      longer and produce cleaner parts. Optimized gating and cooling systems reduce cycle time,
+      minimize porosity and extend mold life beyond 100,000 shots.
+
+      Keeping tooling under our own roof means faster iteration: engineering changes, maintenance
+      and refurbishment happen without third-party lead times. It also lets us protect proprietary
+      gating know-how and keep it consistent across a product family. For low-volume bridge programs
+      we offer bridge tooling that gets prototypes into your hands quickly before committing to a
+      full production die.
+
+      A well-engineered die is the cheapest insurance against scrap, downtime and field failures.
+      That is why KingShip treats tooling as a core competency, not a purchased commodity.
+    materials:
+      - "H13 Tool Steel"
+      - "Custom Die Materials"
+    processes:
+      - "Die Design & Simulation"
+      - "In-House Tool Manufacturing"
+      - "Maintenance & Refurbishment"
+    equipment:
+      - "CAD/CAM & Moldflow"
+      - "CNC Tool Room"
+    applications:
+      - "Production dies"
+      - "Bridge tooling"
+      - "Family tooling"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      alt: "Vertically integrated manufacturing process from casting to finishing"
+      title: "Integrated Tooling & Process"
+
+quality:
+  heading: "Quality Control & Certification"
+  lead: "A zero-defect mindset backed by international certification and non-destructive testing."
+  body: |
+    KingShip operates a comprehensive Quality Management System built for automotive, aerospace and
+    medical-grade expectations. Our facility is certified to IATF 16949 and ISO 9001, and every
+    high-pressure die casting operation is governed by documented process control, statistical
+    monitoring and continuous improvement.
+
+    Structural integrity is verified, not assumed. Real-time X-ray detector systems perform
+    non-destructive testing to reveal internal porosity, cracks and inclusions that surface
+    inspection would miss. Coordinate Measuring Machines (CMM) confirm dimensional accuracy
+    against the CAD model, while automated leak testing validates airtightness and fluid-handling
+    performance for pressure-sealed components. Finishing steps such as SureTech 650 surface
+    treatment complete the downstream process.
+
+    This layered inspection strategy means customers receive parts that are qualified before
+    shipment, not discovered defective on the assembly line — protecting your line, your schedule
+    and your brand.
+  standards:
+    - "ISO 9001"
+    - "IATF 16949"
+  methods:
+    - "Real-time X-Ray Inspection"
+    - "CMM Dimensional Verification"
+    - "Automated Leak Testing"
+    - "SureTech 650 Surface Treatment"
+  image:
+    url: "https://alumcasting.com/wp-content/uploads/2026/05/TF1949-ISO9001-Certification.webp"
+    alt: "TF1949 ISO 9001 certification for quality management in die casting"
+    title: "ISO 9001 & IATF 16949 Certified"
+
+equipment:
+  heading: "Production Equipment"
+  lead: "Modern, integrated machinery that keeps quality and throughput under one roof."
+  items:
+    - name: "5000T Die Casting Machine"
+      desc: "Extra-large cold-chamber high-pressure die casting for meter-scale structural components."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+        alt: "5000-ton high-pressure die casting machine for large structural parts"
+        title: "5000T Die Casting Machine"
+    - name: "Precision CNC Machining Centers"
+      desc: "High-speed 3, 4 and 5-axis machining for tight-tolerance post-processing."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/High-Precision-CNC-Wokshop.webp"
+        alt: "High-precision CNC machining workshop for die casting post-processing"
+        title: "CNC Machining Workshop"
+    - name: "CMM Inspection Equipment"
+      desc: "Coordinate measuring machines verify dimensional accuracy against CAD models."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/CMM-Inspection-Equipment.webp"
+        alt: "CMM inspection equipment for dimensional verification"
+        title: "CMM Inspection"
+    - name: "X-Ray Porosity Detection"
+      desc: "Real-time X-ray systems perform non-destructive internal porosity inspection."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/X-Ray-Detector.webp"
+        alt: "Real-time X-ray detector for porosity inspection in die casting"
+        title: "X-Ray Porosity Detection"
+
+industries:
+  heading: "Industries We Serve"
+  lead: "Material and process expertise tuned to the demands of each sector."
+  items:
+    - name: "Automotive"
+      desc: "Powertrain, structural and thermal-management components with IATF 16949 discipline."
+    - name: "EV"
+      desc: "Battery structures, housings and brackets for lightweight, long-range platforms."
+    - name: "Industrial"
+      desc: "Durable enclosures, frames and mechanism parts for demanding environments."
+    - name: "Medical"
+      desc: "Clean, dimensionally stable components for diagnostic and device applications."
+    - name: "Aerospace"
+      desc: "Lightweight, high-integrity magnesium and aluminum parts for flight applications."
+
+technical_resources:
+  heading: "Technical Resources"
+  lead: "Deep-dive engineering guides on alloys, porosity control and die casting design."
+  body: |
+    KingShip maintains an open technical library covering die casting alloy selection, porosity
+    elimination, DFM cost reduction and EV-specific manufacturing. These resources help design and
+    sourcing teams make better decisions before they ever request a quote.
+  link:
+    url: "https://alumcasting.com/"
+    label: "Explore the AlumCasting technical library"
+
+faq:
+  heading: "Frequently Asked Questions"
+  items:
+    - question: "What aluminum and magnesium alloys do you cast?"
+      answer: "We cast ADC12, A380, A356 and A360 aluminum alloys, plus AZ91D and AM60B magnesium alloys. Rheocasting slurries and custom compositions are available on request."
+    - question: "What is your maximum die casting machine tonnage?"
+      answer: "Our largest machine is a 5000-ton cold-chamber high-pressure die casting machine, capable of producing meter-scale thin-wall structural components for automotive and EV platforms."
+    - question: "Do you provide in-house CNC machining and inspection?"
+      answer: "Yes. We operate 3, 4 and 5-axis CNC machining centers and perform CMM dimensional verification, real-time X-ray porosity inspection and automated leak testing in-house."
+    - question: "Are you certified to automotive quality standards?"
+      answer: "KingShip is certified to ISO 9001 and IATF 16949, and our quality management system is built for automotive, aerospace and medical-grade requirements."
+    - question: "Can you help with design for manufacturability (DFM)?"
+      answer: "Absolutely. We run Magma and Moldflow simulation during the design phase to eliminate porosity and cold shuts before tooling, shortening development time and lowering piece cost."
+    - question: "What is the typical quotation lead time?"
+      answer: "For a well-defined RFQ with drawings and requirements, we typically return a comprehensive engineering review and formal quotation within 24 hours."
+    - question: "Do you support low-volume bridge tooling?"
+      answer: "Yes. We offer bridge tooling for efficient small-batch prototyping and validation before committing to a full production die."
+
+rfq:
+  heading: "Request a Quote"
+  lead: "Send your drawings and requirements — get an engineering review and formal quotation within 24 hours."
+  body: |
+    Tell us about your material, wall thickness, tolerances, surface treatment and estimated annual
+    volume. Our engineering team will review your project and respond with a practical,
+    cost-optimized manufacturing plan.

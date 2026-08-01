@@ -1,0 +1,399 @@
+# ==========================================================================
+# data/homepage/es.yaml — Página de inicio en español (KingShip)
+# Estructura idéntica a en.yaml; contenido traducido.
+# Imágenes referenciadas desde alumcasting.com (HTTP 200 verificado).
+# ==========================================================================
+
+hero:
+  eyebrow: "Moldeo por inyección a alta presión y mecanizado CNC desde 2003"
+  title: "Moldeo por inyección de precisión de aluminio y magnesio para automoción, EV y aeronáutica"
+  subtitle: "KingShip desarrolla fabricación de piezas inyectadas de principio a fin — desde la simulación de llenado y piezas estructurales de 5000T hasta el mecanizado CNC de alta precisión y la inspección de porosidad por rayos X en tiempo real."
+  image:
+    url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+    alt: "Máquina de moldeo por inyección de aluminio de 5000 toneladas produciendo grandes piezas estructurales de automoción"
+    title: "Máquina de inyección de 5000T para piezas estructurales grandes"
+  primary_cta:
+    label: "Solicitar cotización"
+    url: "#rfq"
+  secondary_cta:
+    label: "Explorar capacidades"
+    url: "#capabilities"
+
+intro:
+  heading: "Quiénes somos"
+  lead: "Un fabricante B2B de moldeo por inyección verticalmente integrado, de la fundición al componente terminado."
+  body: |
+    KingShip (Dongguan) Precision Manufacturing Co., Ltd. es un proveedor B2B especializado en moldeo
+    por inyección a alta presión de aleaciones de aluminio y magnesio, mecanizado CNC interno,
+    colada semi-sólida (rheocasting) y ingeniería de utillaje profesional. Durante más de dos décadas
+    hemos ayudado a clientes de automoción, vehículos eléctricos, aeronáutica, medicina e industria a
+    convertir geometrías exigentes en piezas de producción repetibles y de alta integridad.
+
+    No somos una empresa comercial. Cada pieza se produce en nuestras propias instalaciones de Dongguan,
+    donde células modernas de moldeo por inyección en cámara fría se integran con extracción robotizada
+    totalmente automatizada, detección de porosidad por rayos X en tiempo real y un centro de mecanizado
+    CNC de alta precisión. Esta integración vertical nos permite controlar la precisión dimensional, la
+    calidad superficial y el plazo de entrega en todo el proceso — diseño, simulación, moldeo, mecanizado,
+    acabado e inspección — bajo un único sistema de gestión de calidad certificado según ISO 9001 e IATF 16949.
+
+    Nuestro equipo de ingeniería colabora con los clientes desde la primera revisión DFM, utilizando
+    simulación Magma y Moldflow para eliminar rechazos en frío, atrapamiento de aire y porosidad por
+    contracción antes de fabricar el primer utillaje. El resultado es un ciclo de desarrollo más corto,
+    un menor coste por pieza y componentes estructurales que se califican a la primera.
+
+overview:
+  heading: "Resumen de capacidades de fabricación"
+  lead: "Seis procesos integrados que acompañan su programa del prototipo a la producción en serie."
+  items:
+    - id: "aluminum-die-casting"
+      name: "Moldeo por inyección de aluminio"
+      summary: "Moldeo por inyección a alta presión en ADC12, A380 y A356 con mecanizado CNC de precisión."
+      url: "#capability-aluminum"
+    - id: "magnesium-die-casting"
+      name: "Moldeo por inyección de magnesio"
+      summary: "Moldeo por inyección de magnesio AZ91D y AM60B para componentes críticos de peso."
+      url: "#capability-magnesium"
+    - id: "semi-solid-rheocasting"
+      name: "Colada semi-sólida (Rheocasting)"
+      summary: "Componentes rheocast de baja porosidad y tratables térmicamente para aplicaciones estructurales."
+      url: "#capability-rheocasting"
+    - id: "5000t-structural-casting"
+      name: "Piezas estructurales de 5000T"
+      summary: "Piezas estructurales grandes de pared delgada en nuestra máquina de 5000 toneladas."
+      url: "#capability-5000t"
+    - id: "precision-cnc-machining"
+      name: "Mecanizado CNC de precisión"
+      summary: "Mecanizado y postprocesado CNC de 3, 4 y 5 ejes de piezas inyectadas."
+      url: "#capability-cnc"
+    - id: "die-casting-tooling"
+      name: "Utillaje de moldeo por inyección"
+      summary: "Diseño, fabricación y mantenimiento de utillajes internos para larga vida útil."
+      url: "#capability-tooling"
+
+capabilities:
+  - id: "aluminum-die-casting"
+    anchor: "capability-aluminum"
+    name: "Moldeo por inyección de aluminio"
+    heading: "Moldeo por inyección de aluminio"
+    body: |
+      El moldeo por inyección de aluminio a alta presión es la base de nuestra producción. Fundimos una
+      amplia gama de componentes estructurales y funcionales en las aleaciones ADC12, A380, A356 y A360,
+      equilibrando conductividad térmica, resistencia a la corrosión y estabilidad dimensional. Nuestras
+      máquinas en cámara fría abarcan de 400T a 5000T, permitiendo desde carcasas finas y complejas hasta
+      grandes piezas estructurales de automoción en un solo disparo.
+
+      Cada programa comienza con una simulación de llenado. Al modelar llenado, solidificación y
+      enfriamiento antes de construir el utillaje, eliminamos rechazos en frío, atrapamientos de aire y
+      porosidad por contracción en la fase de diseño. Tras el moldeo, los centros CNC internos mantienen
+      las superficies de acoplamiento críticas en ±0,01 mm, y operaciones como anodizado, recubrimiento en
+      polvo, granallado e impregnación se coordinan en la misma planta.
+
+      Las aplicaciones típicas incluyen carcasas de tren motriz, bandejas y soportes de baterías EV,
+      disipadores de calor y carcasas electrónicas.
+    materials:
+      - "ADC12"
+      - "A380"
+      - "A356"
+      - "A360"
+    processes:
+      - "Moldeo por inyección a alta presión"
+      - "Mecanizado CNC"
+      - "Anodizado y recubrimiento en polvo"
+      - "Impregnación"
+    equipment:
+      - "Máquinas en cámara fría 400T–5000T"
+      - "Centros CNC de 5 ejes"
+    applications:
+      - "Tren motriz de automoción"
+      - "Carcasas de baterías EV"
+      - "Disipadores y carcasas"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/06/A356-aluminum-die-casting-porosity-control.webp"
+      alt: "Componente de moldeo por inyección de aluminio A356 bajo control de porosidad"
+      title: "Moldeo por inyección de aluminio A356"
+    learn_more: "/es/aluminum-die-casting/"
+
+  - id: "magnesium-die-casting"
+    anchor: "capability-magnesium"
+    name: "Moldeo por inyección de magnesio"
+    heading: "Moldeo por inyección de magnesio"
+    body: |
+      El moldeo por inyección de magnesio ofrece la máxima reducción de peso — aproximadamente un tercio
+      más ligero que el aluminio con rigidez comparable — y es el material preferido para componentes de
+      automoción, aeronáutica y electrónica premium que son críticos de peso. KingShip funde las aleaciones
+      AZ91D y AM60B en máquinas dedicadas, con espesor de pared mínimo de 1,0 mm para geometrías complejas.
+
+      La alta resistencia con bajo peso y el excelente blindaje EMI/RFI del magnesio son valiosos para
+      soportes de EV, carcasas de sensores y dispositivos portátiles. Protegemos la integridad superficial
+      con pasivación y galvanizado, y verificamos el espesor y la calidad interna con inspección por rayos X
+      en tiempo real antes del envío.
+
+      Como el moldeo de magnesio exige un control estricto, nuestros ingenieros gestionan la protección del
+      baño, la velocidad de inyección y la temperatura del molde para evitar oxidación y grietas en caliente.
+    materials:
+      - "AZ91D"
+      - "AM60B"
+    processes:
+      - "Moldeo por inyección de magnesio a alta presión"
+      - "Pasivación"
+      - "Galvanizado"
+    equipment:
+      - "Máquinas de magnesio 160T–2250T"
+      - "Inspección por rayos X en tiempo real"
+    applications:
+      - "Soportes de automoción"
+      - "Componentes aeronáuticos"
+      - "Dispositivos portátiles premium"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      alt: "Piezas de magnesio ligeras para aeronáutica y electrónica 3C"
+      title: "Moldeo por inyección de magnesio"
+    learn_more: "/es/magnesium-die-casting/"
+
+  - id: "semi-solid-rheocasting"
+    anchor: "capability-rheocasting"
+    name: "Colada semi-sólida (Rheocasting)"
+    heading: "Colada semi-sólida (Rheocasting)"
+    body: |
+      El rheocasting semi-sólido es nuestra solución para piezas que deben combinar baja porosidad, alta
+      ductilidad y capacidad de tratamiento térmico. Al conformar la aleación en estado semi-sólido — una
+      suspensión de glóbulos sólidos en líquido — se eliminan casi por completo los atrapamientos de gas y
+      la porosidad por contracción que el moldeo convencional no evita.
+
+      El resultado es una pieza que puede recibir tratamiento térmico T5 o T6, soldarse y mecanizarse,
+      abriendo la puerta a componentes estructurales de seguridad. KingShip opera un sistema Yizumi de
+      rheocasting semi-sólido y valida la uniformidad microestructural con metalografía y rayos X en tiempo real.
+
+      El rheocasting es especialmente atractivo para nodos estructurales de EV y aeronáutica, y componentes
+      donde la vida a fatiga es decisiva.
+    materials:
+      - "A356 Rheocast"
+      - "Barbotinas de aluminio personalizadas"
+    processes:
+      - "Rheocasting semi-sólido"
+      - "Tratamiento térmico T5 / T6"
+      - "Validación metalográfica"
+    equipment:
+      - "Sistema Yizumi de rheocasting semi-sólido"
+      - "Prueba de porosidad por rayos X"
+    applications:
+      - "Nodos estructurales EV"
+      - "Soportes aeronáuticos"
+      - "Componentes críticos de fatiga"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/06/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
+      alt: "Microestructura rheocast semi-sólida frente a prueba de porosidad por rayos X"
+      title: "Microestructura rheocast semi-sólida"
+
+  - id: "5000t-structural-casting"
+    anchor: "capability-5000t"
+    name: "Piezas estructurales de 5000T"
+    heading: "Piezas estructurales de 5000T"
+    body: |
+      Nuestra máquina de moldeo por inyección en cámara fría de 5000 toneladas está construida para las
+      piezas estructurales más grandes y de pared más delgada de las industrias automotriz y de EV. Las
+      piezas estructurales grandes — como rieles laterales de bandejas de baterías, torres de amortiguación
+      y travesaños — consolidan lo que antes eran docenas de chapa y soldaduras en una sola pieza de aluminio
+      ligera y rígida.
+
+      Producir estas piezas exige más que tonelaje: requiere control preciso del disparo, gestión térmica de
+      un utillaje muy grande y ventanas de proceso disciplinadas para controlar la deformación y la porosidad.
+      KingShip modela todo el sistema de colada y valida las primeras piezas con CMM, rayos X y pruebas de fugas.
+
+      Al integrar el moldeo estructural grande con el mecanizado CNC interno, entregamos un componente
+      terminado y listo para montaje, no solo una pieza bruta.
+    materials:
+      - "ADC12"
+      - "A380"
+      - "A356"
+    processes:
+      - "Moldeo por inyección de 5000T"
+      - "Gestión térmica de utillaje grande"
+      - "Mecanizado CNC listo para montaje"
+    equipment:
+      - "Máquina de 5000T en cámara fría"
+      - "CMM de gran formato"
+    applications:
+      - "Estructuras de baterías EV"
+      - "Torres de amortiguación y travesaños"
+      - "Nodos estructurales"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+      alt: "Máquina de 5000 toneladas produciendo grandes piezas estructurales de automoción"
+      title: "Piezas estructurales de 5000T"
+
+  - id: "precision-cnc-machining"
+    anchor: "capability-cnc"
+    name: "Mecanizado CNC de precisión"
+    heading: "Mecanizado CNC de precisión"
+    body: |
+      El moldeo es solo la mitad de la historia. El centro CNC interno de KingShip completa el componente —
+      taladrando, roscando, fresando y mandrinando las superficies de acoplamiento críticas que el moldeo
+      no alcanza. Nuestros centros de 3, 4 y 5 ejes de alta velocidad mantienen tolerancias de ±0,01 mm.
+
+      Al estar el mecanizado junto al moldeo, eliminamos retrasos y disputas de calidad del outsourcing.
+      Las referencias son consistentes del molde al corte, y los cambios de diseño fluyen directamente a la
+      célula. También realizamos operaciones de roscado helicoidal y mandrinado de altas tolerancias.
+
+      Para componentes sellados por presión, añadimos pruebas de fugas automatizadas tras el mecanizado,
+      confirmando la estanqueidad antes de que la pieza salga de la planta.
+    materials:
+      - "Aleaciones de aluminio"
+      - "Aleaciones de magnesio"
+    processes:
+      - "Mecanizado CNC 3 / 4 / 5 ejes"
+      - "Taladrado y roscado de precisión"
+      - "Prueba de fugas automatizada"
+    equipment:
+      - "Centros CNC de 5 ejes de alta velocidad"
+      - "Equipo de prueba de fugas automatizada"
+    applications:
+      - "Superficies de estanqueidad"
+      - "Funciones de acoplamiento críticas"
+      - "Componentes terminados"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      alt: "Mecanizado CNC multi-eje de precisión de piezas inyectadas de alta tolerancia"
+      title: "Mecanizado CNC de precisión"
+
+  - id: "die-casting-tooling"
+    anchor: "capability-tooling"
+    name: "Utillaje de moldeo por inyección"
+    heading: "Utillaje de moldeo por inyección"
+    body: |
+      La calidad del utillaje lo define todo. KingShip opera un taller de utillaje interno con CAD/CAM
+      avanzado, Pro/E, UG y simulación Moldflow para diseñar y construir utillajes que duran más y producen
+      piezas más limpias. Los sistemas optimizados de bebedero y enfriamiento reducen el ciclo, minimizan la
+      porosidad y extienden la vida útil por encima de 100.000 disparos.
+
+      Mantener el utillaje en nuestras instalaciones significa iteración más rápida: cambios, mantenimiento y
+      retoques sin plazos de terceros. También ofrecemos utillaje puente para prototipos de bajo volumen antes
+      de comprometer un utillaje de producción completo.
+
+      Un utillaje bien diseñado es el seguro más económico contra el desecho y los fallos de campo.
+    materials:
+      - "Acero para utillaje H13"
+      - "Materiales de utillaje personalizados"
+    processes:
+      - "Diseño y simulación de utillajes"
+      - "Fabricación interna de utillajes"
+      - "Mantenimiento y retoques"
+    equipment:
+      - "CAD/CAM y Moldflow"
+      - "Taller CNC de utillajes"
+    applications:
+      - "Utillajes de producción"
+      - "Utillaje puente"
+      - "Utillaje de familia"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      alt: "Proceso de fabricación verticalmente integrado del moldeo al acabado"
+      title: "Utillaje integrado"
+
+quality:
+  heading: "Control de calidad y certificación"
+  lead: "Una mentalidad de cero defectos respaldada por certificación internacional y ensayo no destructivo."
+  body: |
+    KingShip opera un sistema de gestión de calidad integral para expectativas de automoción, aeronáutica
+    y medicina. Nuestras instalaciones están certificadas según IATF 16949 e ISO 9001, y cada operación de
+    moldeo por inyección se rige por control de proceso documentado y mejora continua.
+
+    La integridad estructural se verifica, no se asume. Los detectores de rayos X en tiempo real realizan
+    ensayos no destructivos para revelar porosidad interna, grietas e inclusiones. Las máquinas de medición
+    por coordenadas (CMM) confirman la precisión dimensional, mientras las pruebas de fugas validan la
+    estanqueidad de componentes sellados por presión.
+
+    Esta estrategia por capas significa que los clientes reciben piezas calificadas antes del envío.
+  standards:
+    - "ISO 9001"
+    - "IATF 16949"
+  methods:
+    - "Inspección por rayos X en tiempo real"
+    - "Verificación dimensional CMM"
+    - "Prueba de fugas automatizada"
+    - "Tratamiento superficial SureTech 650"
+  image:
+    url: "https://alumcasting.com/wp-content/uploads/2026/05/TF1949-ISO9001-Certification.webp"
+    alt: "Certificación TF1949 ISO 9001 para gestión de calidad en moldeo por inyección"
+    title: "Certificado ISO 9001 e IATF 16949"
+
+equipment:
+  heading: "Equipo de producción"
+  lead: "Maquinaria moderna e integrada que mantiene calidad y rendimiento bajo un mismo techo."
+  items:
+    - name: "Máquina de moldeo de 5000T"
+      desc: "Máquina en cámara fría de gran formato para componentes estructurales de escala métrica."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+        alt: "Máquina de moldeo por inyección de 5000 toneladas para piezas estructurales grandes"
+        title: "Máquina de moldeo de 5000T"
+    - name: "Centros CNC de precisión"
+      desc: "Mecanizado de 3, 4 y 5 ejes de alta velocidad para postprocesado de alta tolerancia."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/High-Precision-CNC-Wokshop.webp"
+        alt: "Taller de mecanizado CNC de alta precisión para postprocesado de piezas inyectadas"
+        title: "Taller CNC"
+    - name: "Equipo de inspección CMM"
+      desc: "Máquinas de medición por coordenadas verifican la precisión dimensional frente al CAD."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/CMM-Inspection-Equipment.webp"
+        alt: "Equipo de inspección CMM para verificación dimensional"
+        title: "Inspección CMM"
+    - name: "Detección de porosidad por rayos X"
+      desc: "Sistemas de rayos X en tiempo real realizan inspección interna no destructiva."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/X-Ray-Detector.webp"
+        alt: "Detector de rayos X en tiempo real para inspección de porosidad en moldeo por inyección"
+        title: "Detección de porosidad por rayos X"
+
+industries:
+  heading: "Sectores que servimos"
+  lead: "Experiencia en materiales y procesos ajustada a las exigencias de cada sector."
+  items:
+    - name: "Automoción"
+      desc: "Componentes de tren motriz, estructurales y de gestión térmica con disciplina IATF 16949."
+    - name: "EV"
+      desc: "Estructuras de baterías, carcasas y soportes para plataformas ligeras de gran autonomía."
+    - name: "Industrial"
+      desc: "Carcasas, marcos y piezas mecánicas duraderas para entornos exigentes."
+    - name: "Médica"
+      desc: "Componentes limpios y dimensionalmente estables para diagnóstico y dispositivos."
+    - name: "Aeronáutica"
+      desc: "Piezas ligeras de alta integridad en magnesio y aluminio para aplicaciones de vuelo."
+
+technical_resources:
+  heading: "Recursos técnicos"
+  lead: "Guías de ingeniería a fondo sobre aleaciones, control de porosidad y diseño de moldeo."
+  body: |
+    KingShip mantiene una biblioteca técnica abierta sobre selección de aleaciones, eliminación de porosidad,
+    reducción de costes DFM y fabricación específica para EV. Estos recursos ayudan a los equipos a decidir
+    mejor antes de solicitar una cotización.
+  link:
+    url: "https://alumcasting.com/"
+    label: "Explorar la biblioteca técnica de AlumCasting"
+
+faq:
+  heading: "Preguntas frecuentes"
+  items:
+    - question: "¿Qué aleaciones de aluminio y magnesio moldea?"
+      answer: "Moldeamos las aleaciones de aluminio ADC12, A380, A356 y A360, y las de magnesio AZ91D y AM60B. También ofrecemos barbotinas rheocast y composiciones personalizadas."
+    - question: "¿Cuál es su tonelaje máximo de máquina?"
+      answer: "Nuestra máquina más grande es una de moldeo por inyección en cámara fría de 5000 toneladas, capaz de producir piezas estructurales de pared delgada a escala métrica."
+    - question: "¿Ofrecen mecanizado e inspección CNC internos?"
+      answer: "Sí. Operamos centros CNC de 3, 4 y 5 ejes, además de verificación dimensional CMM, inspección de porosidad por rayos X en tiempo real y pruebas de fugas automatizadas."
+    - question: "¿Están certificados según estándares de calidad automotriz?"
+      answer: "KingShip está certificado según ISO 9001 e IATF 16949, con un sistema de gestión de calidad orientado a automoción, aeronáutica y medicina."
+    - question: "¿Ayudan con el diseño para fabricabilidad (DFM)?"
+      answer: "Por supuesto. Realizamos simulación Magma y Moldflow en la fase de diseño para eliminar porosidad y rechazos en frío antes del utillaje."
+    - question: "¿Cuánto tarda una cotización?"
+      answer: "Para un RFQ claro con planos y requisitos, normalmente respondemos con una revisión de ingeniería y cotización formal en 24 horas."
+    - question: "¿Ofrecen utillaje puente para bajo volumen?"
+      answer: "Sí. Ofrecemos utillaje puente para prototipos y validación de lotes pequeños antes de comprometer un utillaje de producción completo."
+
+rfq:
+  heading: "Solicitar cotización"
+  lead: "Envíe sus planos y requisitos — obtenga una revisión de ingeniería y cotización formal en 24 horas."
+  body: |
+    Cuéntenos sobre su material, espesor de pared, tolerancias, tratamiento superficial y volumen anual
+    estimado. Nuestro equipo de ingeniería revisará su proyecto y responderá con un plan de fabricación
+    práctico y optimizado en costes.

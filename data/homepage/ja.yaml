@@ -1,0 +1,377 @@
+# ==========================================================================
+# data/homepage/ja.yaml — 日本語ホームページ (KingShip)
+# 構造は en.yaml と同一、翻訳済み。
+# 画像は alumcasting.com から参照（HTTP 200 確認済み）。
+# ==========================================================================
+
+hero:
+  eyebrow: "高圧ダイカストとCNC加工 — 2003年から"
+  title: "自動車・EV・航空宇宙向け高精度アルミニウム・マグネシウムダイカスト"
+  subtitle: "KingShip は金型充填シミュレーション、5000トン大型構造物鋳造から、高精度CNC仕上げ、リアルタイムX線気孔検査まで、一貫したダイカスト製造を提供します。"
+  image:
+    url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+    alt: "自動車用大型構造部品を生産する5000トンアルミニウム高圧ダイカストマシン"
+    title: "大型構造部品用5000トンダイカストマシン"
+  primary_cta:
+    label: "見積もりを依頼"
+    url: "#rfq"
+  secondary_cta:
+    label: "製造能力を見る"
+    url: "#capabilities"
+
+intro:
+  heading: "会社概要"
+  lead: "溶解から完成部品までを一貫生産する、垂直統合型のB2Bダイカストメーカー。"
+  body: |
+    KingShip（東莞）精密製造有限公司は、アルミニウム・マグネシウム合金の高圧ダイカスト、社内CNC後処理、
+    半凝固レオキャスト、プロ用金型設計を専門とするB2Bサプライヤーです。20年以上にわたり、自動車、電気
+    自動車（EV）、航空宇宙、医療、産業機器のお客様が抱える厳しい形状を、再現性の高い高品位な量産部品へ
+    と変えるお手伝いをしてきました。
+
+    私たちは商社ではありません。すべての鋳物は自社の東莞工場で生産され、最新のコールドチャンバー
+    ダイカストセルに完全自動ロボット取出し、リアルタイムX線気孔検査、高精度CNC加工センターが統合されて
+    います。この垂直統合により、設計・シミュレーション・鋳造・加工・仕上げ・検査の全工程を、ISO 9001および
+    IATF 16949認証の一元的な品質マネジメントシステムのもとで管理できます。
+
+    当社のエンジニアリングチームは最初のDFMレビューからお客様と協業し、Magma・Moldflowシミュレーションを
+    用いて、金型製作前にコールドショット、巻き込み、収縮巣を排除します。その結果、開発期間の短縮、部品
+    単価の低減、そして初回で合格する構造部品を実現します。
+
+overview:
+  heading: "製造能力の概要"
+  lead: "プロトタイプから量産まで、お客様のプログラムを支える6つの統合プロセス。"
+  items:
+    - id: "aluminum-die-casting"
+      name: "アルミニウムダイカスト"
+      summary: "ADC12・A380・A356を用いた高圧ダイカストと高精度CNC仕上げ。"
+      url: "#capability-aluminum"
+    - id: "magnesium-die-casting"
+      name: "マグネシウムダイカスト"
+      summary: "軽量なAZ91D・AM60Bマグネシウムダイカストで重量 critical 部品に対応。"
+      url: "#capability-magnesium"
+    - id: "semi-solid-rheocasting"
+      name: "半凝固レオキャスト"
+      summary: "構造用途向け、低気孔で熱処理可能なレオキャスト部品。"
+      url: "#capability-rheocasting"
+    - id: "5000t-structural-casting"
+      name: "5000トン大型構造鋳造"
+      summary: "5000トンマシンによる特大薄肉構造部品。"
+      url: "#capability-5000t"
+    - id: "precision-cnc-machining"
+      name: "高精度CNC加工"
+      summary: "鋳造部品の3・4・5軸CNC加工と後処理。"
+      url: "#capability-cnc"
+    - id: "die-casting-tooling"
+      name: "ダイカスト金型"
+      summary: "長寿命な社内金型の設計・製造・保守。"
+      url: "#capability-tooling"
+
+capabilities:
+  - id: "aluminum-die-casting"
+    anchor: "capability-aluminum"
+    name: "アルミニウムダイカスト"
+    heading: "アルミニウムダイカスト"
+    body: |
+      アルミニウム高圧ダイカストは当社生産の柱です。ADC12・A380・A356・A360合金で幅広い構造・機能部品を
+      鋳造し、熱伝導性、耐食性、寸法安定性のバランスをとります。コールドチャンバーマシンは400トンから
+      5000トンまで対応し、複雑な薄肉エンクロージャから自動車用大型構造部品まで単一ショットで生産可能です。
+
+      すべてのアルミダイカストプログラムは充填シミュレーションから始まります。金型製作前に充填・凝固・冷却を
+      モデル化することで、コールドショットや巻き込み、収縮巣を設計段階で排除します。鋳造後、社内CNC加工
+      センターが重要な接合面を±0.01mmに保持し、陽極酸化・粉体塗装・ショットブラスト・含浸などの二次工程を
+      同じ工場内で統括します。
+
+      代表的な用途は、パワートレイン筐体、EVバッテリートレイ・ブラケット、ヒートシンク、電子機器筐体です。
+    materials:
+      - "ADC12"
+      - "A380"
+      - "A356"
+      - "A360"
+    processes:
+      - "高圧ダイカスト"
+      - "CNC加工"
+      - "陽極酸化・粉体塗装"
+      - "含浸処理"
+    equipment:
+      - "400〜5000トン コールドチャンバーマシン"
+      - "5軸CNC加工センター"
+    applications:
+      - "パワートレイン"
+      - "EVバッテリー筐体"
+      - "ヒートシンク・筐体"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/06/A356-aluminum-die-casting-porosity-control.webp"
+      alt: "気孔管理下のA356アルミニウムダイカスト部品"
+      title: "A356アルミニウムダイカスト"
+    learn_more: "/ja/aluminum-die-casting/"
+
+  - id: "magnesium-die-casting"
+    anchor: "capability-magnesium"
+    name: "マグネシウムダイカスト"
+    heading: "マグネシウムダイカスト"
+    body: |
+      マグネシウムダイカストは最大の軽量化を実現します。アルミニウムより約3分の1軽く、同等の剛性を持つため、
+      重量に敏感な自動車・航空宇宙・プレミアム電子部品の材料として選ばれます。KingShip はAZ91D・AM60B合金を
+      専用マシンで鋳造し、最小肉厚1.0mmの薄肉複雑形状に対応します。
+
+      マグネシウムの高比強度と優れたEMI/RFIシールド性は、EVブラケット、センサー筐体、ドローンフレーム、
+      ハンディ機器に最適です。パッシベーションと電気めっきで表面を保護し、出荷前にリアルタイムX線検査で
+      肉厚と内部品質を確認します。
+
+      マグネシウム鋳造には厳格な工程管理が必要なため、当社エンジニアが溶解保護・注入速度・金型温度を
+      密に管理し、酸化やホットクラックを防ぎます。
+    materials:
+      - "AZ91D"
+      - "AM60B"
+    processes:
+      - "高圧マグネシウムダイカスト"
+      - "パッシベーション"
+      - "電気めっき"
+    equipment:
+      - "160〜2250トン マグネシウムダイカストマシン"
+      - "リアルタイムX線検査"
+    applications:
+      - "自動車ブラケット"
+      - "航空宇宙部品"
+      - "プレミアムハンディ機器"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      alt: "航空宇宙および3C電子用軽量マグネシウムダイカスト部品"
+      title: "マグネシウムダイカスト部品"
+    learn_more: "/ja/magnesium-die-casting/"
+
+  - id: "semi-solid-rheocasting"
+    anchor: "capability-rheocasting"
+    name: "半凝固レオキャスト"
+    heading: "半凝固レオキャスト"
+    body: |
+      半凝固レオキャストは、低気孔・高延性・熱処理性を兼ね備えた部品のための解決策です。合金を半凝固状態
+      （液体中に固形グロブールを懸濁させたスラリー）で成形することで、従来の高圧ダイカストでは防ぎきれない
+      ガス巻き込みや収縮巣をほぼ排除します。
+
+      その結果、T5・T6熱処理や溶接、機械加工が可能な鋳物となり、安全性が重要な構造部品の扉が開きます。
+      KingShip はYizumi製半凝固レオキャストシステムを導入し、金属組織とリアルタイムX線の比較により
+      微細構造の均一性を検証します。
+
+      レオキャストは、EVや航空宇宙の構造ノード、疲労が課題となる部品に特に有効です。
+    materials:
+      - "A356レオキャスト"
+      - "カスタムアルミスラリー"
+    processes:
+      - "半凝固レオキャスト"
+      - "T5 / T6熱処理"
+      - "金属組織検証"
+    equipment:
+      - "Yizumi半凝固レオキャストシステム"
+      - "X線気孔試験"
+    applications:
+      - "EV構造ノード"
+      - "航空宇宙ブラケット"
+      - "疲労-critical部品"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/06/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
+      alt: "半凝固レオキャスト組織とX線気孔試験の比較"
+      title: "半凝固レオキャスト組織"
+
+  - id: "5000t-structural-casting"
+    anchor: "capability-5000t"
+    name: "5000トン大型構造鋳造"
+    heading: "5000トン大型構造鋳造"
+    body: |
+      当社の5000トンコールドチャンバー高圧ダイカストマシンは、自動車・EV業界の最大かつ最も薄肉な構造部品の
+      ためにあります。バッテリートレイ側レール、ショックタワー、トンネルハウジング、クロスメンバーなどの
+      大型構造部品は、かつて数十の板金・溶接部品を、単一の軽量で剛性の高いアルミ部品に統合します。
+
+      この部品の生産にはトン数以上のものが必要です。特大金型のショット制御、熱管理、およびメートル規模の
+      ひずみと気孔を抑える規律あるプロセス窓が求められます。KingShip は鋳造システム全体をモデル化し、CMM・
+      X線・漏れ試験で初物を検証してから量産へ移行します。
+
+      大型構造鋳造と社内CNC加工を統合することで、粗鋳物ではなく、組立完了済みの寸法完成部品を納入します。
+    materials:
+      - "ADC12"
+      - "A380"
+      - "A356"
+    processes:
+      - "5000トン高圧ダイカスト"
+      - "大型金型熱管理"
+      - "組立完了CNC仕上げ"
+    equipment:
+      - "5000トンコールドチャンバーマシン"
+      - "大型CMM"
+    applications:
+      - "EVバッテリー構造"
+      - "ショックタワー・クロスメンバー"
+      - "構造ノード"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+      alt: "自動車用大型構造部品を生産する5000トンマシン"
+      title: "5000トン大型構造鋳造"
+
+  - id: "precision-cnc-machining"
+    anchor: "capability-cnc"
+    name: "高精度CNC加工"
+    heading: "高精度CNC加工"
+    body: |
+      鋳造は物語の半分にすぎません。KingShip の社内高精度CNC加工センターが部品を完成させます。ダイカスト
+      工程では届かない重要な接合面の穴あけ、タップ、フライス、リーミングを行います。3・4・5軸高速センターが
+      アルミ・マグネシウム部品を±0.01mmの公差で保持します。
+
+      加工が鋳造の隣にあるため、外注による遅延や品質上の言い争いがなくなります。鋳造から切削まで基準が
+      一貫し、初物レポートは同じフロアで生成され、設計変更は即座にセルへ反映されます。
+
+      耐圧シール部品には加工直後に自動漏れ試験を追加し、部品が工場を出る前に気密性を確認します。
+    materials:
+      - "アルミ合金"
+      - "マグネシウム合金"
+    processes:
+      - "3 / 4 / 5軸CNC加工"
+      - "高精度穴あけ・タップ"
+      - "自動漏れ試験"
+    equipment:
+      - "高速5軸CNCセンター"
+      - "自動漏れ試験装置"
+    applications:
+      - "シール面"
+      - "重要接合特徴"
+      - "完成部品"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      alt: "高精度多軸CNC加工による高精度ダイカスト部品"
+      title: "高精度CNC加工"
+
+  - id: "die-casting-tooling"
+    anchor: "capability-tooling"
+    name: "ダイカスト金型"
+    heading: "ダイカスト金型"
+    body: |
+      金型の品質がその後のすべてを決めます。KingShip は先進のCAD/CAM、Pro/E、UG、Moldflowシミュレーションを
+      備えた社内金型工場で、長く稼働し、よりきれいな部品を生む金型を設計・製作します。最適化された湯口・
+      冷却系はサイクル時間を短縮し、気孔を最小化し、型寿命を10万ショット以上に延ばします。
+
+      金型を自社内に置くことは、より速い反復を意味します。設計変更、保守、改修がサードパーティの納期なしで
+      行えます。また、本格量産金型に踏み切る前のブリッジ金型も提供します。
+
+      よく設計された金型は、スクラップやダウンタイム、現場不良を防ぐ最も安い保険です。
+    materials:
+      - "H13金型鋼"
+      - "カスタム金型材"
+    processes:
+      - "金型設計・シミュレーション"
+      - "社内金型製造"
+      - "保守・改修"
+    equipment:
+      - "CAD/CAM・Moldflow"
+      - "CNC金型工房"
+    applications:
+      - "量産金型"
+      - "ブリッジ金型"
+      - "ファミリー金型"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      alt: "鋳造から仕上げまでの垂直統合製造プロセス"
+      title: "統合金型・プロセス"
+
+quality:
+  heading: "品質管理と認証"
+  lead: "国際認証と非破壊検査に支えられた、ゼロディフェクトの姿勢。"
+  body: |
+    KingShip は自動車・航空宇宙・医療グレードの要求に応える包括的な品質マネジメントシステムを運用しています。
+    当社施設はIATF 16949およびISO 9001の認証を取得しており、すべての高圧ダイカスト作業は文書化された
+    プロセス管理と継続的改善のもとで行われます。
+
+    構造的完全性は前提ではなく検証されます。リアルタイムX線検出システムが非破壊検査を行い、内部気孔・
+    割れ・巻き込みを可視化します。座標測定機（CMM）がCADモデルに対する寸法精度を確認し、自動漏れ試験が
+    耐圧シール部品の気密性を検証します。
+
+    この多層検査により、お客様は出荷前に合格した部品を受け取ることになります。
+  standards:
+    - "ISO 9001"
+    - "IATF 16949"
+  methods:
+    - "リアルタイムX線検査"
+    - "CMM寸法検証"
+    - "自動漏れ試験"
+    - "SureTech 650表面処理"
+  image:
+    url: "https://alumcasting.com/wp-content/uploads/2026/05/TF1949-ISO9001-Certification.webp"
+    alt: "ダイカスト品質管理のTF1949 ISO 9001認証"
+    title: "ISO 9001・IATF 16949認証"
+
+equipment:
+  heading: "生産設備"
+  lead: "品質と生産性を一つの屋根の下に保つ、近代的な統合機械。"
+  items:
+    - name: "5000トンダイカストマシン"
+      desc: "メートル規模の構造部品用の特大コールドチャンバー高圧ダイカスト。"
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+        alt: "大型構造部品用の5000トン高圧ダイカストマシン"
+        title: "5000トンダイカストマシン"
+    - name: "高精度CNC加工センター"
+      desc: "高精度後処理用の高速3・4・5軸加工。"
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/High-Precision-CNC-Wokshop.webp"
+        alt: "ダイカスト後処理用の高精度CNC加工ワークショップ"
+        title: "CNC加工ワークショップ"
+    - name: "CMM検査装置"
+      desc: "座標測定機がCADモデルに対する寸法精度を検証。"
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/CMM-Inspection-Equipment.webp"
+        alt: "寸法検証用CMM検査装置"
+        title: "CMM検査"
+    - name: "X線気孔検出"
+      desc: "リアルタイムX線システムが非破壊の内部気孔検査を実施。"
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/X-Ray-Detector.webp"
+        alt: "ダイカスト気孔検査用リアルタイムX線検出器"
+        title: "X線気孔検出"
+
+industries:
+  heading: "対応産業"
+  lead: "各セクターの要求に合わせた材料・プロセス専門知識。"
+  items:
+    - name: "自動車"
+      desc: "IATF 16949に基づくパワートレイン・構造・熱管理部品。"
+    - name: "EV"
+      desc: "軽量・長航続プラットフォーム向けバッテリー構造・筐体・ブラケット。"
+    - name: "産業機器"
+      desc: "過酷な環境向けの耐久性ある筐体・フレーム・機構部品。"
+    - name: "医療"
+      desc: "診断・機器向けの清潔で寸法安定的な部品。"
+    - name: "航空宇宙"
+      desc: "飛行用途向けの軽量・高完全性マグネシウム・アルミ部品。"
+
+technical_resources:
+  heading: "技術リソース"
+  lead: "合金・気孔制御・ダイカスト設計に関する詳細なエンジニアリングガイド。"
+  body: |
+    KingShip は合金選定、気孔排除、DFMコスト削減、EV特有の製造に関するオープンな技術ライブラリを維持して
+    います。これらのリソースは、見積もり依頼前に設計・購買チームがより良い意思決定を行うのに役立ちます。
+  link:
+    url: "https://alumcasting.com/"
+    label: "AlumCasting技術ライブラリを見る"
+
+faq:
+  heading: "よくある質問"
+  items:
+    - question: "どのアルミ・マグネシウム合金を鋳造しますか？"
+      answer: "アルミニウムはADC12・A380・A356・A360、マグネシウムはAZ91D・AM60Bを鋳造します。レオキャストスラリーやカスタム組成も対応可能です。"
+    - question: "最大のマシントン数は？"
+      answer: "最大は5000トンのコールドチャンバー高圧ダイカストマシンで、メートル規模の薄肉構造部品を生産できます。"
+    - question: "社内CNC加工と検査に対応していますか？"
+      answer: "はい。3・4・5軸CNC加工センターに加え、CMM寸法検証、リアルタイムX線気孔検査、自動漏れ試験を社内で実施します。"
+    - question: "自動車品質基準の認証を取得していますか？"
+      answer: "KingShip はISO 9001およびIATF 16949を取得しており、自動車・航空宇宙・医療向けの品質マネジメントシステムを構築しています。"
+    - question: "DFM（製造性設計）に対応していますか？"
+      answer: "もちろんです。金型製作前の設計段階でMagma・Moldflowシミュレーションを実施し、気孔やコールドショットを排除します。"
+    - question: "見積もりのリードタイムは？"
+      answer: "図面と要件の明確なRFQについては、通常24時間以内に技術レビューと正式見積もりをご返信します。"
+    - question: "小ロット向けブリッジ金型に対応していますか？"
+      answer: "はい。本格量産金型に踏み切る前の小ロット試作・検証向けにブリッジ金型を提供します。"
+
+rfq:
+  heading: "見積もりを依頼"
+  lead: "図面と要件をお送りください — 24時間以内に技術レビューと正式見積もりをご提供します。"
+  body: |
+    材料、肉厚、公差、表面処理、想定年間数量をお知らせください。当社エンジニアリングチームがプロジェクトを
+    検討し、実践的でコスト最適化された製造計画で回答します。

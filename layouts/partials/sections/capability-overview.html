@@ -1,0 +1,18 @@
+{{- /* sections/capability-overview.html — Capability overview grid (module 03).
+   Data: hugo.Data.homepage.<lang>.overview */ -}}
+{{- $lang := .Lang -}}
+{{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
+{{- with $hp.overview -}}
+<section id="capabilities" class="container mx-auto px-4 py-12 md:py-16">
+  <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white">{{ .heading }}</h2>
+  {{- with .lead -}}<p class="mt-3 text-neutral-600 dark:text-neutral-300 max-w-3xl">{{ . }}</p>{{- end -}}
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+    {{- range .items -}}
+    <a href="{{ .url }}" class="group block p-6 rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 hover:border-blue-500 hover:shadow-lg transition">
+      <h3 class="text-lg font-semibold text-neutral-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400">{{ .name }}</h3>
+      <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">{{ .summary }}</p>
+    </a>
+    {{- end -}}
+  </div>
+</section>
+{{- end -}}

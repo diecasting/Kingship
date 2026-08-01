@@ -1,0 +1,38 @@
+{{- /* schema/image-object.html — ImageObject @graph for the homepage.
+   Collects hero + capability + equipment images from the homepage data,
+   de-duplicates by url, and emits an ImageObject node per unique image.
+   Called by: schema.html (homepage only). */ -}}
+{{- $lang := .Lang -}}
+{{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
+{{- if $hp -}}
+  {{- $imgs := slice -}}
+  {{- with $hp.hero.image }}{{ $imgs = $imgs | append . }}{{ end -}}
+  {{- range $hp.capabilities }}{{ with .image }}{{ $imgs = $imgs | append . }}{{ end }}{{ end -}}
+  {{- range $hp.equipment.items }}{{ with .image }}{{ $imgs = $imgs | append . }}{{ end }}{{ end -}}
+  {{- $seen := dict -}}
+  {{- $unique := slice -}}
+  {{- range $imgs -}}
+    {{- if not (index $seen .url) -}}
+      {{- $unique = $unique | append . -}}
+      {{- $seen = merge $seen (dict .url true) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $unique -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {{- range $i, $img := $unique -}}
+      {{- if $i }}, {{ end -}}
+    {
+      "@type": "ImageObject",
+      "url": "{{ $img.url | safeJS }}",
+      "description": "{{ $img.alt | safeJS }}",
+      "name": "{{ $img.title | safeJS }}"
+    }
+    {{- end -}}
+  ]
+}
+</script>
+  {{- end -}}
+{{- end -}}

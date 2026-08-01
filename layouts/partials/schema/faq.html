@@ -3,6 +3,11 @@
    Called by: schema.html (homepage or any page with schema.faq) */ -}}
 
 {{- $faq := .Params.schema.faq -}}
+{{- if .IsHome -}}
+  {{- $lang := .Lang -}}
+  {{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
+  {{- $faq = $hp.faq.items -}}
+{{- end -}}
 {{- if $faq -}}
 <script type="application/ld+json">
 {

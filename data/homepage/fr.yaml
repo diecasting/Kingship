@@ -1,0 +1,400 @@
+# ==========================================================================
+# data/homepage/fr.yaml — Page d'accueil en français (KingShip)
+# Structure identique à en.yaml; contenu traduit.
+# Images référencées depuis alumcasting.com (HTTP 200 vérifié).
+# ==========================================================================
+
+hero:
+  eyebrow: "Moulage sous pression et usinage CNC depuis 2003"
+  title: "Moulage de précision en aluminium et magnésium pour l'automobile, le VE et l'aéronautique"
+  subtitle: "KingShip conçoit une fabrication de pièces moulées de bout en bout — de la simulation de remplissage et des pièces structurelles 5000T à l'usinage CNC de haute précision et au contrôle de porosité par rayons X en temps réel."
+  image:
+    url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+    alt: "Machine de moulage par injection d'aluminium de 5000 tonnes produisant de grandes pièces structurelles automobiles"
+    title: "Machine d'injection 5000T pour grandes pièces structurelles"
+  primary_cta:
+    label: "Demander un devis"
+    url: "#rfq"
+  secondary_cta:
+    label: "Explorer les capacités"
+    url: "#capabilities"
+
+intro:
+  heading: "Qui nous sommes"
+  lead: "Un fabricant B2B de moulage par injection verticalement intégré, du métal liquide à la pièce finie."
+  body: |
+    KingShip (Dongguan) Precision Manufacturing Co., Ltd. est un fournisseur B2B spécialisé dans le moulage
+    sous pression haute pression d'alliages d'aluminium et de magnésium, l'usinage CNC interne, le
+    rheocasting semi-solide et la conception d'outillages professionnels. Depuis plus de deux décennies,
+    nous aidons les clients de l'automobile, du véhicule électrique, de l'aéronautique, du médical et de
+    l'industrie à transformer des géométries exigeantes en pièces de production répétables et de haute intégrité.
+
+    Nous ne sommes pas un courtier. Chaque pièce est produite dans notre propre usine de Dongguan, où des
+    cellules de moulage sous pression en chambre froide modernes sont intégrées à une extraction robotisée
+    entièrement automatisée, à la détection de porosité par rayons X en temps réel et à un centre d'usinage
+    CNC de haute précision. Cette intégration verticale nous permet de contrôler la précision dimensionnelle,
+    la qualité de surface et le délai sur l'ensemble du processus — conception, simulation, moulage, usinage,
+    finition et inspection — sous un unique système de management de la qualité certifié ISO 9001 et IATF 16949.
+
+    Notre équipe d'ingénierie collabore avec les clients dès le premier examen DFM, en utilisant la simulation
+    Magma et Moldflow pour éliminer les coulées à froid, le piégeage d'air et la porosité par retrait avant
+    la fabrication du premier outillage. Le résultat est un cycle de développement plus court, un coût par
+    pièce réduit et des composants structurels qualifiés du premier coup.
+
+overview:
+  heading: "Aperçu des capacités de fabrication"
+  lead: "Six processus intégrés qui accompagnent votre programme du prototype à la série."
+  items:
+    - id: "aluminum-die-casting"
+      name: "Moulage d'aluminium"
+      summary: "Moulage sous pression haute pression en ADC12, A380 et A356 avec usinage CNC de précision."
+      url: "#capability-aluminum"
+    - id: "magnesium-die-casting"
+      name: "Moulage de magnésium"
+      summary: "Moulage de magnésium AZ91D et AM60B pour composants critiques en poids."
+      url: "#capability-magnesium"
+    - id: "semi-solid-rheocasting"
+      name: "Rheocasting semi-solide"
+      summary: "Composants rheocast peu poreux et traitables thermiquement pour applications structurelles."
+      url: "#capability-rheocasting"
+    - id: "5000t-structural-casting"
+      name: "Pièces structurelles 5000T"
+      summary: "Grandes pièces structurelles à paroi mince sur notre machine de 5000 tonnes."
+      url: "#capability-5000t"
+    - id: "precision-cnc-machining"
+      name: "Usinage CNC de précision"
+      summary: "Usinage et post-traitement CNC 3, 4 et 5 axes des pièces moulées."
+      url: "#capability-cnc"
+    - id: "die-casting-tooling"
+      name: "Outillage de moulage"
+      summary: "Conception, fabrication et maintenance d'outillages internes pour longue durée de vie."
+      url: "#capability-tooling"
+
+capabilities:
+  - id: "aluminum-die-casting"
+    anchor: "capability-aluminum"
+    name: "Moulage d'aluminium"
+    heading: "Moulage d'aluminium"
+    body: |
+      Le moulage sous pression d'aluminium est la base de notre production. Nous coulons un large éventail
+      de composants structurels et fonctionnels dans les alliages ADC12, A380, A356 et A360, en équilibrant
+      conductivité thermique, résistance à la corrosion et stabilité dimensionnelle. Nos machines en chambre
+      froide couvrent de 400T à 5000T, permettant des carters fins complexes comme de grandes pièces
+      structurelles automobiles en un seul coup.
+
+      Chaque programme commence par une simulation de remplissage. En modélisant remplissage, solidification
+      et refroidissement avant la fabrication de l'outillage, nous éliminons les coulées à froid, le
+      piégeage d'air et la porosité par retrait dès la conception. Après le moulage, les centres CNC internes
+      maintiennent les surfaces d'accouplement critiques à ±0,01 mm, et les opérations telles qu'anodisation,
+      revêtement en poudre, grenaillage et imprégnation sont coordonnées dans la même usine.
+
+      Les applications typiques incluent les carters de groupe motopropulseur, les berceaux et supports de
+      batteries VE, les dissipateurs thermiques et les carters électroniques.
+    materials:
+      - "ADC12"
+      - "A380"
+      - "A356"
+      - "A360"
+    processes:
+      - "Moulage sous pression haute pression"
+      - "Usinage CNC"
+      - "Anodisation et revêtement poudre"
+      - "Imprégnation"
+    equipment:
+      - "Machines en chambre froide 400T–5000T"
+      - "Centres CNC 5 axes"
+    applications:
+      - "Groupe motopropulseur"
+      - "Batteries VE"
+      - "Dissipateurs et carters"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/06/A356-aluminum-die-casting-porosity-control.webp"
+      alt: "Composant moulé aluminimum A356 sous contrôle de porosité"
+      title: "Moulage d'aluminium A356"
+    learn_more: "/fr/aluminum-die-casting/"
+
+  - id: "magnesium-die-casting"
+    anchor: "capability-magnesium"
+    name: "Moulage de magnésium"
+    heading: "Moulage de magnésium"
+    body: |
+      Le moulage de magnésium offre la réduction de poids maximale — environ un tiers plus léger que
+      l'aluminium à rigidité comparable — et est le matériau de choix pour les composants automobiles,
+      aéronautiques et électroniques premium critiques en poids. KingShip coule les alliages AZ91D et AM60B
+      sur des machines dédiées, avec une épaisseur de paroi minimale de 1,0 mm pour des géométries complexes.
+
+      La résistance élevée à poids faible et le blindage EMI/RFI excellents du magnésium sont précieux pour
+      les supports VE, les carters de capteurs et les appareils portables. Nous protégeons l'intégrité de
+      surface par passivation et galvanoplastie, et vérifions l'épaisseur et la qualité interne par inspection
+      aux rayons X en temps réel avant l'expédition.
+
+      Comme le moulage du magnésium exige un contrôle strict, nos ingénieurs gèrent la protection du bain, la
+      vitesse d'injection et la température du moule pour éviter oxydation et fissures à chaud.
+    materials:
+      - "AZ91D"
+      - "AM60B"
+    processes:
+      - "Moulage sous pression de magnésium"
+      - "Passivation"
+      - "Galvanoplastie"
+    equipment:
+      - "Machines magnésium 160T–2250T"
+      - "Inspection rayons X temps réel"
+    applications:
+      - "Supports automobiles"
+      - "Composants aéronautiques"
+      - "Appareils portables premium"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      alt: "Pièces magnésium légères pour aéronautique et électronique 3C"
+      title: "Moulage de magnésium"
+    learn_more: "/fr/magnesium-die-casting/"
+
+  - id: "semi-solid-rheocasting"
+    anchor: "capability-rheocasting"
+    name: "Rheocasting semi-solide"
+    heading: "Rheocasting semi-solide"
+    body: |
+      Le rheocasting semi-solide est notre solution pour les pièces qui doivent combiner faible porosité,
+      haute ductilité et aptitude au traitement thermique. En formant l'alliage à l'état semi-solide — une
+      suspension de globules solides dans le liquide — on élimine quasiment les piégeages de gaz et la
+      porosité par retrait que le moulage conventionnel ne peut éviter.
+
+      Le résultat est une pièce pouvant recevoir un traitement thermique T5 ou T6, être soudée et usinée,
+      ouvrant la voie à des composants structurels de sécurité. KingShip exploite un système Yizumi de
+      rheocasting semi-solide et valide l'uniformité microstructurale par métallographie et rayons X temps réel.
+
+      Le rheocasting est particulièrement attractif pour les nœuds structurels VE et aéronautiques, et les
+      composants soumis à la fatigue.
+    materials:
+      - "A356 Rheocast"
+      - "Barbotines d'aluminium personnalisées"
+    processes:
+      - "Rheocasting semi-solide"
+      - "Traitement thermique T5 / T6"
+      - "Validation métallographique"
+    equipment:
+      - "Système Yizumi rheocasting semi-solide"
+      - "Test porosité rayons X"
+    applications:
+      - "Nœuds structurels VE"
+      - "Supports aéronautiques"
+      - "Composants critiques fatigue"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/06/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
+      alt: "Microstructure rheocast semi-solide comparée au test porosité rayons X"
+      title: "Microstructure rheocast semi-solide"
+
+  - id: "5000t-structural-casting"
+    anchor: "capability-5000t"
+    name: "Pièces structurelles 5000T"
+    heading: "Pièces structurelles 5000T"
+    body: |
+      Notre machine de moulage sous pression en chambre froide de 5000 tonnes est conçue pour les plus grandes
+      pièces structurelles à paroi la plus fine des industries automobile et VE. Les grandes pièces
+      structurelles — comme les rails latéraux de berceaux de batteries, les tours d'amortissement et les
+      traversants — consolident ce qui était des dizaines de tôles et soudures en une seule pièce d'aluminium
+      légère et rigide.
+
+      Produire ces pièces exige plus que de la tonne: un contrôle précis du coup, une gestion thermique d'un
+      moule très grand et des fenêtres de processus disciplinées pour maîtriser la déformation et la porosité.
+      KingShip modélise tout le système de coulée et valide les premières pièces par MMT, rayons X et test d'étanchéité.
+
+      En intégrant le moulage structurel grand format à l'usinage CNC interne, nous livrons un composant
+      fini prêt au montage, et non une simple pièce brute.
+    materials:
+      - "ADC12"
+      - "A380"
+      - "A356"
+    processes:
+      - "Moulage sous pression 5000T"
+      - "Gestion thermique grand moule"
+      - "Usinage CNC prêt au montage"
+    equipment:
+      - "Machine 5000T chambre froide"
+      - "MMT grand format"
+    applications:
+      - "Structures batteries VE"
+      - "Tours amortissement et traversants"
+      - "Nœuds structurels"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+      alt: "Machine 5000 tonnes produisant de grandes pièces structurelles automobiles"
+      title: "Pièces structurelles 5000T"
+
+  - id: "precision-cnc-machining"
+    anchor: "capability-cnc"
+    name: "Usinage CNC de précision"
+    heading: "Usinage CNC de précision"
+    body: |
+      Le moulage n'est que la moitié de l'histoire. Le centre CNC interne de KingShip complète la pièce —
+      perçage, taraudage, fraisage et alésage des surfaces d'accouplement critiques que le moulage n'atteint
+      pas. Nos centres 3, 4 et 5 axes haute vitesse maintiennent des tolérances de ±0,01 mm.
+
+      L'usinage étant à côté du moulage, nous supprimons les retards et litiges de sous-traitance. Les
+      références sont cohérentes du moulage à la coupe, et les modifications de conception remontent
+      immédiatement à la cellule. Nous réalisons aussi taraudage hélicoïdal et alésage de haute tolérance.
+
+      Pour les composants étanches sous pression, nous ajoutons des tests d'étanchéité automatisés après
+      l'usinage, confirmant l'étanchéité avant la sortie de l'usine.
+    materials:
+      - "Alliages d'aluminium"
+      - "Alliages de magnésium"
+    processes:
+      - "Usinage CNC 3 / 4 / 5 axes"
+      - "Perçage et taraudage de précision"
+      - "Test d'étanchéité automatisé"
+    equipment:
+      - "Centres CNC 5 axes haute vitesse"
+      - "Équipement test étanchéité automatisé"
+    applications:
+      - "Surfaces d'étanchéité"
+      - "Fonctions d'accouplement critiques"
+      - "Composants finis"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      alt: "Usinage CNC multi-axes de précision de pièces moulées à haute tolérance"
+      title: "Usinage CNC de précision"
+
+  - id: "die-casting-tooling"
+    anchor: "capability-tooling"
+    name: "Outillage de moulage"
+    heading: "Outillage de moulage"
+    body: |
+      La qualité de l'outillage définit tout le reste. KingShip exploite un atelier d'outillage interne avec
+      CAO/FAO avancée, Pro/E, UG et simulation Moldflow pour concevoir et construire des outillages qui
+      durent plus longtemps et produisent des pièces plus propres. Les systèmes optimisés d'alimentation et
+      de refroidissement réduisent le cycle, minimisent la porosité et prolongent la durée de vie au-delà
+      de 100 000 coups.
+
+      Garder l'outillage sous notre toit signifie une itération plus rapide: modifications, maintenance et
+      rénovation sans délais tiers. Nous proposons aussi l'outillage pont pour prototypes à faible volume
+      avant de s'engager dans un outillage de production complet.
+
+      Un outillage bien conçu est l'assurance la moins chère contre la casse et les défaillances terrain.
+    materials:
+      - "Acier d'outillage H13"
+      - "Matériaux d'outillage personnalisés"
+    processes:
+      - "Conception et simulation d'outillage"
+      - "Fabrication interne d'outillages"
+      - "Maintenance et rénovation"
+    equipment:
+      - "CAO/FAO et Moldflow"
+      - "Atelier CNC outillage"
+    applications:
+      - "Outillages de production"
+      - "Outillage pont"
+      - "Outillage de famille"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      alt: "Processus de fabrication verticalement intégré du moulage à la finition"
+      title: "Outillage intégré"
+
+quality:
+  heading: "Contrôle qualité et certification"
+  lead: "Un état d'esprit zéro défaut soutenu par certification internationale et contrôle non destructif."
+  body: |
+    KingShip exploite un système de management de la qualité complet pour les exigences automobile,
+    aéronautique et médicale. Notre usine est certifiée IATF 16949 et ISO 9001, et chaque opération de
+    moulage sous pression est régie par un contrôle de processus documenté et l'amélioration continue.
+
+    L'intégrité structurelle est vérifiée, pas supposée. Les détecteurs de rayons X en temps réel réalisent
+    un contrôle non destructif pour révéler porosité interne, fissures et inclusions. Les machines à mesurer
+    tridimensionnelles (MMT) confirment la précision dimensionnelle, tandis que les tests d'étanchéité
+    valident les composants étanches sous pression.
+
+    Cette stratégie par couches signifie que les clients reçoivent des pièces qualifiées avant l'expédition.
+  standards:
+    - "ISO 9001"
+    - "IATF 16949"
+  methods:
+    - "Inspection rayons X temps réel"
+    - "Vérification dimensionnelle MMT"
+    - "Test d'étanchéité automatisé"
+    - "Traitement de surface SureTech 650"
+  image:
+    url: "https://alumcasting.com/wp-content/uploads/2026/05/TF1949-ISO9001-Certification.webp"
+    alt: "Certification TF1949 ISO 9001 pour la qualité en moulage sous pression"
+    title: "Certifié ISO 9001 et IATF 16949"
+
+equipment:
+  heading: "Équipement de production"
+  lead: "Machines modernes et intégrées qui maintiennent qualité et débit sous un même toit."
+  items:
+    - name: "Machine de moulage 5000T"
+      desc: "Machine en chambre froide grand format pour composants structurels à l'échelle métrique."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+        alt: "Machine de moulage sous pression 5000 tonnes pour grandes pièces structurelles"
+        title: "Machine de moulage 5000T"
+    - name: "Centres CNC de précision"
+      desc: "Usinage 3, 4 et 5 axes haute vitesse pour post-traitement de haute tolérance."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/High-Precision-CNC-Wokshop.webp"
+        alt: "Atelier d'usinage CNC haute précision pour post-traitement des pièces moulées"
+        title: "Atelier CNC"
+    - name: "Équipement d'inspection MMT"
+      desc: "Les machines à mesurer tridimensionnelles vérifient la précision dimensionnelle face au CAO."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/CMM-Inspection-Equipment.webp"
+        alt: "Équipement d'inspection MMT pour vérification dimensionnelle"
+        title: "Inspection MMT"
+    - name: "Détection de porosité rayons X"
+      desc: "Systèmes de rayons X en temps réel réalisent un contrôle interne non destructif."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/X-Ray-Detector.webp"
+        alt: "Détecteur rayons X temps réel pour contrôle porosité en moulage"
+        title: "Détection porosité rayons X"
+
+industries:
+  heading: "Secteurs desservis"
+  lead: "Expertise matériaux et processus adaptée aux exigences de chaque secteur."
+  items:
+    - name: "Automobile"
+      desc: "Composants groupe motopropulseur, structurels et gestion thermique avec discipline IATF 16949."
+    - name: "VE"
+      desc: "Structures batteries, carters et supports pour plateformes légères longue autonomie."
+    - name: "Industriel"
+      desc: "Carters, cadres et pièces mécaniques durables pour environnements exigeants."
+    - name: "Médical"
+      desc: "Composants propres et dimensionnellement stables pour diagnostic et dispositifs."
+    - name: "Aéronautique"
+      desc: "Pièces légères haute intégrité en magnésium et aluminium pour applications de vol."
+
+technical_resources:
+  heading: "Ressources techniques"
+  lead: "Guides d'ingénierie approfondis sur alliages, contrôle de porosité et conception de moulage."
+  body: |
+    KingShip maintient une bibliothèque technique ouverte sur le choix des alliages, l'élimination de la
+    porosité, la réduction des coûts DFM et la fabrication spécifique VE. Ces ressources aident les équipes
+    à mieux décider avant de demander un devis.
+  link:
+    url: "https://alumcasting.com/"
+    label: "Explorer la bibliothèque technique AlumCasting"
+
+faq:
+  heading: "Questions fréquentes"
+  items:
+    - question: "Quels alliages d'aluminium et magnésium coulez-vous ?"
+      answer: "Nous coulons les alliages d'aluminium ADC12, A380, A356 et A360, ainsi que les alliages de magnésium AZ91D et AM60B. Barbotines rheocast et compositions personnalisées disponibles sur demande."
+    - question: "Quelle est votre force de serrage maximale ?"
+      answer: "Notre plus grande machine est une presse de moulage sous pression en chambre froide de 5000 tonnes, capable de produire des pièces structurelles à paroi mince à l'échelle métrique."
+    - question: "Proposez-vous usinage et inspection CNC internes ?"
+      answer: "Oui. Nous exploitons des centres CNC 3, 4 et 5 axes, ainsi que vérification MMT, inspection de porosité rayons X temps réel et tests d'étanchéité automatisés."
+    - question: "Êtes-vous certifiés selon les normes automobiles ?"
+      answer: "KingShip est certifié ISO 9001 et IATF 16949, avec un système qualité orienté automobile, aéronautique et médical."
+    - question: "Aidez-vous au DFM (conception pour la fabricabilité) ?"
+      answer: "Bien sûr. Nous réalisons la simulation Magma et Moldflow en phase conception pour éliminer porosité et coulées à froid avant l'outillage."
+    - question: "Quel est le délai de devis ?"
+      answer: "Pour un RFQ clair avec plans et exigences, nous renvoyons généralement une revue d'ingénierie et un devis formel sous 24 heures."
+    - question: "Proposez-vous l'outillage pont pour faible volume ?"
+      answer: "Oui. Nous proposons l'outillage pont pour prototypes et validation de petits lots avant de s'engager dans un outillage de production complet."
+
+rfq:
+  heading: "Demander un devis"
+  lead: "Envoyez vos plans et exigences — recevez une revue d'ingénierie et un devis formel sous 24 heures."
+  body: |
+    Indiquez-nous votre matériau, épaisseur de paroi, tolérances, traitement de surface et volume annuel
+    estimé. Notre équipe d'ingénierie examinera votre projet et répondra avec un plan de fabrication
+    pratique et optimisé en coûts.

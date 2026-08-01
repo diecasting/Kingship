@@ -1,0 +1,404 @@
+# ==========================================================================
+# data/homepage/de.yaml — Deutsche Startseite (KingShip)
+# Struktur identisch zu en.yaml; Inhalte übersetzt.
+# Bilder werden von alumcasting.com referenziert (HTTP 200 verifiziert).
+# ==========================================================================
+
+hero:
+  eyebrow: "Hochdruck-Druckguss & CNC-Bearbeitung seit 2003"
+  title: "Präziser Aluminium- und Magnesium-Druckguss für Automobilbau, EV und Luftfahrt"
+  subtitle: "KingShip entwickelt Druckguss-Fertigung aus einer Hand – von der Formsimulation und 5000-Tonnen-Strukturbauteilen bis zur CNC-Feinbearbeitung und Echtzeit-Röntgen-Porositätsprüfung."
+  image:
+    url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+    alt: "5000-Tonnen-Hochdruck-Aluminiumgussmaschine für große Automobilstrukturbauteile"
+    title: "5000T-Gussmaschine für große Strukturbauteile"
+  primary_cta:
+    label: "Angebot anfordern"
+    url: "#rfq"
+  secondary_cta:
+    label: "Fähigkeiten entdecken"
+    url: "#capabilities"
+
+intro:
+  heading: "Wer wir sind"
+  lead: "Ein vertikal integrierter B2B-Druckgusshersteller – vom flüssigen Metall bis zum fertigen Bauteil."
+  body: |
+    KingShip (Dongguan) Precision Manufacturing Co., Ltd. ist ein spezialisierter B2B-Lieferant für
+    Hochdruck-Druckguss aus Aluminium- und Magnesiumlegierungen, interne CNC-Nachbearbeitung,
+    Semi-Solid-Rheocasting und professionellen Werkzeugbau. Seit mehr als zwei Jahrzehnten helfen wir
+    Kunden aus Automobilbau, Elektrofahrzeugen, Luftfahrt, Medizintechnik und Industrie, anspruchsvolle
+    Geometrien in wiederholbare, hochintegritäre Serienteile zu verwandeln.
+
+    Wir sind kein Handelsunternehmen. Jedes Bauteil wird in unserer eigenen Anlage in Dongguan gefertigt,
+    wo moderne Kaltkammer-Druckgusszellen mit vollautomatisierter Roboterentnahme, Echtzeit-Röntgen-
+    Porositätsprüfung und einem präzisen CNC-Bearbeitungszentrum integriert sind. Diese vertikale
+    Integration gibt uns Kontrolle über Maßhaltigkeit, Oberflächenqualität und Lieferzeit über den
+    gesamten Prozess – von Design, Simulation, Guss, Bearbeitung, Veredelung bis Prüfung – unter einem
+    einzigen, nach ISO 9001 und IATF 16949 zertifizierten Qualitätsmanagementsystem.
+
+    Unser Engineering-Team arbeitet ab der ersten DFM-Besprechung mit den Kunden, nutzt Magma- und
+    Moldflow-Simulation, um kalte Läufe, Lufteinschlüsse und Schrumpfporosität zu eliminieren, bevor
+    das erste Werkzeug gefertigt wird. Das Ergebnis ist ein kürzerer Entwicklungszyklus, niedrigere
+    Stückkosten und Strukturbauteile, die beim ersten Mal qualifiziert werden.
+
+overview:
+  heading: "Überblick über die Fertigungskompetenzen"
+  lead: "Sechs integrierte Prozesse, die Ihr Projekt vom Prototyp bis zur Großserie begleiten."
+  items:
+    - id: "aluminum-die-casting"
+      name: "Aluminium-Druckguss"
+      summary: "Hochdruck-Druckguss in ADC12, A380 und A356 mit toleranzgenauer CNC-Bearbeitung."
+      url: "#capability-aluminum"
+    - id: "magnesium-die-casting"
+      name: "Magnesium-Druckguss"
+      summary: "Leichter AZ91D- und AM60B-Magnesium-Druckguss für gewichtskritische Bauteile."
+      url: "#capability-magnesium"
+    - id: "semi-solid-rheocasting"
+      name: "Semi-Solid-Rheocasting"
+      summary: "Porositätsarme, wärmebehandelbare Rheoguss-Bauteile für Strukturanwendungen."
+      url: "#capability-rheocasting"
+    - id: "5000t-structural-casting"
+      name: "5000T-Strukturguss"
+      summary: "Extragroße dünnwandige Strukturgüsse auf unserer 5000-Tonnen-Maschine."
+      url: "#capability-5000t"
+    - id: "precision-cnc-machining"
+      name: "Präzise CNC-Bearbeitung"
+      summary: "3-, 4- und 5-Achs-CNC-Bearbeitung und Nachbearbeitung von Gussteilen."
+      url: "#capability-cnc"
+    - id: "die-casting-tooling"
+      name: "Druckguss-Werkzeuge"
+      summary: "Interner Werkzeugbau für lange Werkzeugstandzeiten."
+      url: "#capability-tooling"
+
+capabilities:
+  - id: "aluminum-die-casting"
+    anchor: "capability-aluminum"
+    name: "Aluminium-Druckguss"
+    heading: "Aluminium-Druckguss"
+    body: |
+      Der Hochdruck-Aluminiumdruckguss ist das Rückgrat unserer Fertigung. Wir gießen eine breite
+      Palette struktureller und funktionaler Bauteile in den Legierungen ADC12, A380, A356 und A360
+      und balancieren Wärmeleitfähigkeit, Korrosionsbeständigkeit und Formstabilität für anspruchsvolle
+      Einsatzumgebungen. Unsere Kaltkammer-Maschinen decken 400T bis 5000T ab – von filigranen
+      Dünnwandgehäusen bis zu großen Automobilstrukturbauteilen in einem Schuss.
+
+      Jedes Aluminium-Druckgussprogramm beginnt mit einer Formfüllsimulation. Durch die Modellierung
+      von Füllung, Erstarrung und Abkühlung vor dem Werkzeugbau entfernen wir kalte Läufe,
+      Lufteinschlüsse und Schrumpfporosität bereits in der Designphase. Nach dem Guss halten die
+      internen CNC-Bearbeitungszentren kritische Passflächen auf ±0,01 mm; Sekundärprozesse wie
+      Eloxieren, Pulverbeschichten, Kugelstrahlen und Impregnieren laufen in derselben Anlage.
+
+      Typische Anwendungen sind Antriebsgehäuse, EV-Batterieträger und -halterungen, Kühlkörper,
+      Leuchtengehäuse und Elektronikgehäuse.
+    materials:
+      - "ADC12"
+      - "A380"
+      - "A356"
+      - "A360"
+    processes:
+      - "Hochdruck-Druckguss"
+      - "CNC-Bearbeitung"
+      - "Eloxieren & Pulverbeschichten"
+      - "Impregnieren"
+    equipment:
+      - "Kaltkammer-Maschinen 400T–5000T"
+      - "5-Achs-CNC-Bearbeitungszentren"
+    applications:
+      - "Antriebsstrang"
+      - "EV-Batteriegehäuse"
+      - "Kühlkörper & Gehäuse"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/06/A356-aluminum-die-casting-porosity-control.webp"
+      alt: "A356-Aluminiumdruckguss-Bauteil unter Porositätskontrolle"
+      title: "A356-Aluminiumdruckguss"
+    learn_more: "/de/aluminum-die-casting/"
+
+  - id: "magnesium-die-casting"
+    anchor: "capability-magnesium"
+    name: "Magnesium-Druckguss"
+    heading: "Magnesium-Druckguss"
+    body: |
+      Magnesium-Druckguss bietet die maximale Gewichtsreduzierung – etwa ein Drittel leichter als
+      Aluminium bei vergleichbarer Steifigkeit – und ist daher das Material der Wahl für
+      gewichtskritische Automobil-, Luftfahrt- und Premium-Elektronikbauteile. KingShip gießt die
+      Magnesiumlegierungen AZ91D und AM60B auf dedizierten Maschinen, mit Mindestwandstärken bis
+      1,0 mm für dünnwandige, komplexe Geometrien.
+
+      Die hohe Festigkeit bei geringem Gewicht und die exzellente EMI/RFI-Abschirmung von Magnesium
+      sind wertvoll für EV-Halterungen, Sensorgehäuse, Drohnenrahmen und Handgeräte. Wir schützen die
+      Oberfläche mit Passivierung und Galvanisierung, die auf Magnesiumkorrosionsbeständigkeit
+      abgestimmt sind, und verifizieren Wandstärke und Innere Qualität per Echtzeit-Röntgenprüfung.
+
+      Da Magnesiumguss strikte Prozesskontrolle erfordert, steuern unsere Ingenieure Schmelzschutz,
+      Einspritzgeschwindigkeit und Werkzeugtemperatur eng, um Oxidation und Heißriss zu vermeiden.
+    materials:
+      - "AZ91D"
+      - "AM60B"
+    processes:
+      - "Hochdruck-Magnesium-Druckguss"
+      - "Passivierung"
+      - "Galvanisieren"
+    equipment:
+      - "Magnesium-Druckgussmaschinen 160T–2250T"
+      - "Echtzeit-Röntgenprüfung"
+    applications:
+      - "Automobilhalterungen"
+      - "Luftfahrtbauteile"
+      - "Premium-Handgeräte"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      alt: "Leichte Magnesium-Druckguss-Luftfahrt- und 3C-Elektronikteile"
+      title: "Magnesium-Druckguss"
+    learn_more: "/magnesium-die-casting/"
+
+  - id: "semi-solid-rheocasting"
+    anchor: "capability-rheocasting"
+    name: "Semi-Solid-Rheocasting"
+    heading: "Semi-Solid-Rheocasting"
+    body: |
+      Semi-Solid-Rheocasting ist unsere Lösung für Bauteile, die niedrige Porosität, hohe Duktilität
+      und Wärmebehandelbarkeit kombinieren müssen. Durch die Umformung der Legierung im teilerstarrten
+      Zustand – ein Brei aus festen Globularen in Flüssigkeit – vermeidet Rheocasting Gaseinschlüsse
+      und Schrumpfporosität, die der konventionelle Hochdruck-Druckguss nicht vollständig verhindern kann.
+
+      Das Ergebnis ist ein Guss, der T5- oder T6-wärmebehandelt, geschweißt und mechanisch bearbeitet
+      werden kann – ideal für strukturelle Sicherheitsbauteile mit makelloser Integrität. KingShip
+      betreibt ein Yizumi-Rheocasting-System und validiert die Gefügegleichmäßigkeit metallografisch
+      sowie im Echtzeit-Röntgenvergleich.
+
+      Rheocasting ist besonders attraktiv für EV- und Luftfahrt-Strukturknoten, Fahrwerkshalterungen
+      und Ausleger, bei denen die Ermüdungsfestigkeit entscheidet.
+    materials:
+      - "A356 Rheocast"
+      - "Kundenspezifische Aluminium-Breie"
+    processes:
+      - "Semi-Solid-Rheocasting"
+      - "T5 / T6 Wärmebehandlung"
+      - "Metallografische Validierung"
+    equipment:
+      - "Yizumi Semi-Solid-Rheocasting-System"
+      - "Röntgen-Porositätsprüfung"
+    applications:
+      - "EV-Strukturknoten"
+      - "Luftfahrt-Halterungen"
+      - "Ermüdungskritische Bauteile"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/06/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
+      alt: "Semi-Solid-Rheoguss-Gefüge im Vergleich mit Röntgen-Porositätsprüfung"
+      title: "Semi-Solid-Rheocasting-Gefüge"
+
+  - id: "5000t-structural-casting"
+    anchor: "capability-5000t"
+    name: "5000T-Strukturguss"
+    heading: "5000T-Strukturguss"
+    body: |
+      Unsere 5000-Tonnen-Kaltkammer-Druckgussmaschine ist für die größten, dünnwandigsten
+      Strukturbauteile der Automobil- und EV-Industrie gebaut. Große Strukturgüsse – wie
+      Batterieträger-Seitenprofile, Domlager, Tunnelgehäuse und Querträger – fassen das zusammen, was
+      früher Dutzende Blech- und Schweißteile waren, in ein einziges, steifes, leichtes Aluminiumteil.
+
+      Die Fertigung dieser Teile verlangt mehr als nur Tonnen. Sie erfordert präzise Schusskontrolle,
+      Wärmemanagement eines sehr großen Werkzeugs und disziplinierte Prozessfenster, um Verzug und
+      Porosität über eine meter große Fläche zu beherrschen. KingShip modelliert das gesamte
+      Gießsystem und validiert Erstmuster mit CMM, Röntgen und Lecktest vor der Hochlaufphase.
+
+      Durch die Integration von Großstrukturguss mit interner CNC-Bearbeitung liefern wir ein
+      maßhaltiges, montagefertiges Bauteil – nicht nur einen Rohguss.
+    materials:
+      - "ADC12"
+      - "A380"
+      - "A356"
+    processes:
+      - "5000T-Hochdruck-Druckguss"
+      - "Großwerkzeug-Wärmemanagement"
+      - "Montagefertige CNC-Bearbeitung"
+    equipment:
+      - "5000T-Kaltkammer-Druckgussmaschine"
+      - "Großformat-CMM"
+    applications:
+      - "EV-Batteriestrukturen"
+      - "Domlager & Querträger"
+      - "Strukturknoten"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+      alt: "5000-Tonnen-Gussmaschine für große Automobilstrukturbauteile"
+      title: "5000T-Strukturguss"
+
+  - id: "precision-cnc-machining"
+    anchor: "capability-cnc"
+    name: "Präzise CNC-Bearbeitung"
+    heading: "Präzise CNC-Bearbeitung"
+    body: |
+      Guss ist nur die halbe Geschichte. Kingships internes CNC-Bearbeitungszentrum vervollständigt
+      das Bauteil – Bohren, Gewinden, Fräsen und Reiben der kritischen Passflächen, die der
+      Druckgussprozess nicht erreicht. Unsere 3-, 4- und 5-Achs-Hochgeschwindigkeitszentren halten
+      Toleranzen bis ±0,01 mm an Aluminium- und Magnesiumteilen.
+
+      Da die Bearbeitung direkt neben dem Guss steht, entfallen Übergabe-Verzögerungen und
+      Qualitätsstreitigkeiten des Outsourcings. Bezüge sind vom Guss bis zum Schnitt konsistent,
+      Erstmesser werden auf demselben Boden erzeugt, und letzte Konstruktionsänderungen fließen
+      sofort zurück in die Zelle.
+
+      Für druckgedichtete Bauteile fügen wir automatische Lecktests direkt nach der Bearbeitung hinzu,
+      sodass die Dichtheit bestätigt ist, bevor das Teil das Haus verlässt.
+    materials:
+      - "Aluminiumlegierungen"
+      - "Magnesiumlegierungen"
+    processes:
+      - "3 / 4 / 5-Achs-CNC-Bearbeitung"
+      - "Präzises Bohren & Gewinden"
+      - "Automatisierter Lecktest"
+    equipment:
+      - "Hochgeschwindigkeits-5-Achs-CNC-Zentren"
+      - "Automatische Lecktestanlage"
+    applications:
+      - "Dichtflächen"
+      - "Kritische Passfeatures"
+      - "Fertigbauteile"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      alt: "Präzise Multi-Achs-CNC-Bearbeitung toleranzgenauer Gussteile"
+      title: "Präzise CNC-Bearbeitung"
+
+  - id: "die-casting-tooling"
+    anchor: "capability-tooling"
+    name: "Druckguss-Werkzeuge"
+    heading: "Druckguss-Werkzeuge"
+    body: |
+      Die Werkzeugqualität bestimmt alles, was folgt. KingShip betreibt eine interne Werkzeugbauabteilung
+      mit moderner CAD/CAM, Pro/E, UG und Moldflow-Simulation, um Werkzeuge zu entwerfen und zu bauen,
+      die länger laufen und sauberere Teile erzeugen. Optimierte Anguss- und Kühlsysteme reduzieren
+      Zykluszeit, minimieren Porosität und verlängern die Werkzeugstandzeit über 100.000 Schuss.
+
+      Werkzeugbau unter eigenem Dach bedeutet schnellere Iteration: Konstruktionsänderungen, Wartung und
+      Aufarbeitung erfolgen ohne Fremdlieferzeiten. So schützen wir unser Know-how und halten es
+      konsistent über eine Produktfamilie. Für Kleinserien bieten wir Bridge-Tooling, das Prototypen
+      schnell in Ihre Hände spielt, bevor ein volles Produktionswerkzeug gebaut wird.
+    materials:
+      - "H13-Werkzeugstahl"
+      - "Kundenspezifische Werkzeugmaterialien"
+    processes:
+      - "Werkzeugdesign & Simulation"
+      - "Interner Werkzeugbau"
+      - "Wartung & Aufarbeitung"
+    equipment:
+      - "CAD/CAM & Moldflow"
+      - "CNC-Werkzeugraum"
+    applications:
+      - "Produktionswerkzeuge"
+      - "Bridge-Tooling"
+      - "Familienwerkzeuge"
+    image:
+      url: "https://alumcasting.com/wp-content/uploads/2026/03/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      alt: "Vertikal integrierter Fertigungsprozess vom Guss bis zur Veredelung"
+      title: "Integrierter Werkzeugbau"
+
+quality:
+  heading: "Qualitätskontrolle & Zertifizierung"
+  lead: "Eine Null-Fehler-Mentalität, gestützt auf internationale Zertifizierung und zerstörungsfreie Prüfung."
+  body: |
+    KingShip betreibt ein umfassendes Qualitätsmanagementsystem für Automobil-, Luftfahrt- und
+    medizinische Anforderungen. Unsere Anlage ist nach IATF 16949 und ISO 9001 zertifiziert, und jeder
+    Hochdruck-Druckgussvorgang wird durch dokumentierte Prozesskontrolle, statistische Überwachung und
+    kontinuierliche Verbesserung gesteuert.
+
+    Strukturelle Integrität wird verifiziert, nicht angenommen. Echtzeit-Röntgendetektoren führen
+    zerstörungsfreie Prüfung durch, um innere Porosität, Risse und Einschlüsse sichtbar zu machen.
+    Koordinatenmessgeräte (CMM) bestätigen die Maßhaltigkeit gegen das CAD-Modell, während automatische
+    Lecktests die Dichtheit druckgedichteter Bauteile validieren.
+
+    Diese mehrschichtige Prüfstrategie bedeutet: Kunden erhalten Bauteile, die vor dem Versand
+    qualifiziert sind – nicht erst auf der Montagelinie als fehlerhaft entdeckt werden.
+  standards:
+    - "ISO 9001"
+    - "IATF 16949"
+  methods:
+    - "Echtzeit-Röntgenprüfung"
+    - "CMM-Maßhaltigkeitsprüfung"
+    - "Automatisierter Lecktest"
+    - "SureTech 650 Oberflächenbehandlung"
+  image:
+    url: "https://alumcasting.com/wp-content/uploads/2026/05/TF1949-ISO9001-Certification.webp"
+    alt: "TF1949 ISO 9001 Zertifizierung für Qualitätsmanagement im Druckguss"
+    title: "Nach ISO 9001 & IATF 16949 zertifiziert"
+
+equipment:
+  heading: "Produktionsausrüstung"
+  lead: "Moderne, integrierte Maschinen, die Qualität und Durchsatz unter einem Dach halten."
+  items:
+    - name: "5000T-Druckgussmaschine"
+      desc: "Extra große Kaltkammer-Hochdruck-Druckgussmaschine für meter große Strukturbauteile."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+        alt: "5000-Tonnen-Hochdruck-Druckgussmaschine für große Strukturbauteile"
+        title: "5000T-Druckgussmaschine"
+    - name: "Präzise CNC-Bearbeitungszentren"
+      desc: "Hochgeschwindigkeits-3-, 4- und 5-Achs-Bearbeitung für toleranzgenaue Nachbearbeitung."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/High-Precision-CNC-Wokshop.webp"
+        alt: "Hochpräzises CNC-Bearbeitungszentrum für Druckguss-Nachbearbeitung"
+        title: "CNC-Bearbeitungszentrum"
+    - name: "CMM-Prüfgeräte"
+      desc: "Koordinatenmessgeräte verifizieren die Maßhaltigkeit gegen CAD-Modelle."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/CMM-Inspection-Equipment.webp"
+        alt: "CMM-Prüfgeräte zur dimensionalen Verifikation"
+        title: "CMM-Prüfung"
+    - name: "Röntgen-Porositätsprüfung"
+      desc: "Echtzeit-Röntgensysteme führen zerstörungsfreie interne Porositätsprüfung durch."
+      image:
+        url: "https://alumcasting.com/wp-content/uploads/2026/05/X-Ray-Detector.webp"
+        alt: "Echtzeit-Röntgendetektor zur Porositätsprüfung im Druckguss"
+        title: "Röntgen-Porositätsprüfung"
+
+industries:
+  heading: "Branchen, die wir bedienen"
+  lead: "Material- und Prozesskompetenz, abgestimmt auf die Anforderungen jedes Sektors."
+  items:
+    - name: "Automobil"
+      desc: "Antriebs-, Struktur- und Wärmemanagementbauteile mit IATF-16949-Disziplin."
+    - name: "EV"
+      desc: "Batteriestrukturen, Gehäuse und Halterungen für leichte, langstreckenfähige Plattformen."
+    - name: "Industrie"
+      desc: "Langlebige Gehäuse, Rahmen und Mechanikteile für anspruchsvolle Umgebungen."
+    - name: "Medizintechnik"
+      desc: "Saubere, maßhaltige Bauteile für Diagnostik- und Medizingeräte."
+    - name: "Luftfahrt"
+      desc: "Leichte, hochintegritäre Magnesium- und Aluminiumteile für den Flugbetrieb."
+
+technical_resources:
+  heading: "Technische Ressourcen"
+  lead: "Tiefergehende Engineering-Leitfäden zu Legierungen, Porositätskontrolle und Druckguss-Design."
+  body: |
+    KingShip pflegt eine offene technische Bibliothek zu Legierungsauswahl, Porositätsbeseitigung,
+    DFM-Kostenreduzierung und EV-spezifischer Fertigung. Diese Ressourcen helfen Konstruktions- und
+    Beschaffungsteams, bessere Entscheidungen zu treffen, bevor sie ein Angebot anfordern.
+  link:
+    url: "https://alumcasting.com/"
+    label: "Die AlumCasting-Technikbibliothek erkunden"
+
+faq:
+  heading: "Häufig gestellte Fragen"
+  items:
+    - question: "Welche Aluminium- und Magnesiumlegierungen gießen Sie?"
+      answer: "Wir gießen die Aluminiumlegierungen ADC12, A380, A356 und A360 sowie die Magnesiumlegierungen AZ91D und AM60B. Rheoguss-Breie und Sonderzusammensetzungen auf Anfrage."
+    - question: "Welche maximale Maschinen-Schließkraft haben Sie?"
+      answer: "Unsere größte Maschine ist eine 5000-Tonnen-Kaltkammer-Hochdruck-Druckgussmaschine, die meter große dünnwandige Strukturbauteile fertigen kann."
+    - question: "Bieten Sie interne CNC-Bearbeitung und Prüfung?"
+      answer: "Ja. Wir betreiben 3-, 4- und 5-Achs-CNC-Bearbeitungszentren sowie CMM-Maßprüfung, Echtzeit-Röntgen-Porositätsprüfung und automatische Lecktests."
+    - question: "Sind Sie nach Automobilqualitätsstandards zertifiziert?"
+      answer: "KingShip ist nach ISO 9001 und IATF 16949 zertifiziert; unser Qualitätsmanagementsystem ist für Automobil-, Luftfahrt- und Medizintechnik-Anforderungen ausgelegt."
+    - question: "Unterstützen Sie DFM (Design for Manufacturability)?"
+      answer: "Ja. Wir führen Magma- und Moldflow-Simulation in der Designphase durch, um Porosität und kalte Läufe vor dem Werkzeugbau zu eliminieren."
+    - question: "Wie lange dauert eine Angebotserstellung?"
+      answer: "Für ein klares RFQ mit Zeichnungen und Anforderungen liefern wir in der Regel innerhalb von 24 Stunden eine Engineering-Bewertung und ein formelles Angebot."
+    - question: "Bieten Sie Bridge-Tooling für Kleinserien?"
+      answer: "Ja. Wir bieten Bridge-Tooling für effiziente Kleinserien-Prototypen und -validierung, bevor ein volles Produktionswerkzeug gebaut wird."
+
+rfq:
+  heading: "Angebot anfordern"
+  lead: "Senden Sie Ihre Zeichnungen und Anforderungen – innerhalb von 24 Stunden erhalten Sie eine Engineering-Bewertung und ein formelles Angebot."
+  body: |
+    Teilen Sie uns Material, Wandstärke, Toleranzen, Oberflächenbehandlung und geschätztes
+    Jahresvolumen mit. Unser Engineering-Team prüft Ihr Projekt und antwortet mit einem praktischen,
+    kostenoptimierten Fertigungsplan.

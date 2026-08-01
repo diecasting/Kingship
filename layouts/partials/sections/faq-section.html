@@ -1,0 +1,20 @@
+{{- /* sections/faq-section.html — FAQ module (module 14).
+   Data: hugo.Data.homepage.<lang>.faq (also feeds FAQPage schema). */ -}}
+{{- $lang := .Lang -}}
+{{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
+{{- with $hp.faq -}}
+<section id="faq" class="container mx-auto px-4 py-12 md:py-16">
+  <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white text-center">{{ .heading }}</h2>
+  <div class="max-w-3xl mx-auto mt-8 space-y-3">
+    {{- range .items -}}
+    <details class="group rounded-lg border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 px-4 py-3">
+      <summary class="cursor-pointer font-medium text-neutral-900 dark:text-white list-none flex justify-between items-center">
+        <span>{{ .question }}</span>
+        <span class="text-blue-500 group-open:rotate-45 transition-transform">+</span>
+      </summary>
+      <div class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">{{ .answer }}</div>
+    </details>
+    {{- end -}}
+  </div>
+</section>
+{{- end -}}

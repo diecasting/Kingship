@@ -1,35 +1,6 @@
-{{- /* home/page.html — KingShip modular homepage.
-   When .Params.modular_homepage is true, render the 15 data-driven
-   industrial sections (data/homepage/<lang>.yaml). Otherwise fall back
-   to the legacy Markdown .Content rendering (multi-language safe).
-   The legacy inline Formspree form is preserved verbatim in the
-   fallback branch. */ -}}
-
-{{- if .Params.modular_homepage -}}
-  {{ partial "sections/hero.html" . }}
-  {{ partial "sections/company-intro.html" . }}
-  {{ partial "sections/capability-overview.html" . }}
-  {{ partial "sections/capability-detail.html" . }}
-  {{ partial "sections/quality-control.html" . }}
-  {{ partial "sections/equipment-showcase.html" . }}
-  {{ partial "sections/industry-applications.html" . }}
-  {{ partial "sections/technical-resources.html" . }}
-  {{ partial "sections/faq-section.html" . }}
-  {{ partial "sections/rfq-cta.html" . }}
-{{- else -}}
-<article class="max-w-full prose dark:prose-invert">
-  {{ with .Title }}
-    <header>
-      <h1>{{ . | emojify }}</h1>
-    </header>
-  {{ end }}
-  <section class="w-full">{{ .Content }}</section>
-</article>
-<section>
-  {{ partial "recent-articles/main.html" . }}
-</section>
-
-<!-- 注意：这里的 action 使用了免费的 Formspree 服务，可以直接把询盘转发到你的 hank@alumcasting.com 邮箱 -->
+{{/* rfq-form.html — Verbatim KingShip RFQ form (Formspree).
+   Action and fields preserved exactly. Rendered by sections/rfq-cta.html
+   and kept identical to the legacy homepage form. */}}
 <form action="https://formspree.io/f/xpqgbdly" method="POST" style="max-width: 100%; margin: 0 auto; font-family: sans-serif;">
   
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 24px;">
@@ -85,4 +56,3 @@
     </button>
   </div>
 </form>
-{{- end -}}

@@ -1,0 +1,13 @@
+{{- /* sections/company-intro.html — Company introduction module (module 02).
+   Data: hugo.Data.homepage.<lang>.intro */ -}}
+{{- $lang := .Lang -}}
+{{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
+{{- with $hp.intro -}}
+<section class="container mx-auto px-4 py-12 md:py-16">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white mb-4">{{ .heading }}</h2>
+    {{- with .lead -}}<p class="text-lg text-blue-600 dark:text-blue-400 font-medium mb-6">{{ . }}</p>{{- end -}}
+    <div class="prose dark:prose-invert max-w-none">{{ .body | markdownify }}</div>
+  </div>
+</section>
+{{- end -}}

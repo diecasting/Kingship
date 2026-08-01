@@ -1,0 +1,54 @@
+{{- /* sections/capability-detail.html — Six capability detail modules (modules 04-09).
+   Loops hugo.Data.homepage.<lang>.capabilities. Industrial B2B, responsive,
+   micro-labels localized via dict. */ -}}
+{{- $lang := .Lang -}}
+{{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
+{{- $L := dict
+  "en" (dict "materials" "Materials" "processes" "Processes" "equipment" "Equipment" "applications" "Applications" "learn" "Learn more")
+  "de" (dict "materials" "Werkstoffe" "processes" "Prozesse" "equipment" "Ausrüstung" "applications" "Anwendungen" "learn" "Mehr erfahren")
+  "es" (dict "materials" "Materiales" "processes" "Procesos" "equipment" "Equipo" "applications" "Aplicaciones" "learn" "Saber más")
+  "fr" (dict "materials" "Matériaux" "processes" "Procédés" "equipment" "Équipement" "applications" "Applications" "learn" "En savoir plus")
+  "ja" (dict "materials" "材料" "processes" "プロセス" "equipment" "設備" "applications" "用途" "learn" "詳細を見る")
+-}}
+{{- $labels := index $L $lang | default (index $L "en") -}}
+{{- range $hp.capabilities -}}
+<section id="{{ .anchor }}" class="container mx-auto px-4 py-10 md:py-14 border-t border-neutral-100 dark:border-neutral-800">
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+    <div class="prose dark:prose-invert max-w-none order-2 lg:order-1">
+      <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white">{{ .heading }}</h2>
+      {{- with .body -}}<div class="mt-4">{{ . | markdownify }}</div>{{- end -}}
+      {{- with .materials -}}
+      <div class="mt-4">
+        <span class="font-semibold text-neutral-700 dark:text-neutral-200">{{ $labels.materials }}: </span>
+        {{- range . -}}<span class="inline-block mr-2 mb-2 px-2 py-1 text-xs rounded bg-neutral-100 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200">{{ . }}</span>{{- end -}}
+      </div>
+      {{- end -}}
+      {{- with .processes -}}
+      <div class="mt-2">
+        <span class="font-semibold text-neutral-700 dark:text-neutral-200">{{ $labels.processes }}: </span>
+        {{- range . -}}<span class="inline-block mr-2 mb-2 px-2 py-1 text-xs rounded bg-neutral-100 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200">{{ . }}</span>{{- end -}}
+      </div>
+      {{- end -}}
+      {{- with .equipment -}}
+      <div class="mt-2">
+        <span class="font-semibold text-neutral-700 dark:text-neutral-200">{{ $labels.equipment }}: </span>
+        {{- range . -}}<span class="inline-block mr-2 mb-2 px-2 py-1 text-xs rounded bg-neutral-100 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200">{{ . }}</span>{{- end -}}
+      </div>
+      {{- end -}}
+      {{- with .applications -}}
+      <div class="mt-2">
+        <span class="font-semibold text-neutral-700 dark:text-neutral-200">{{ $labels.applications }}: </span>
+        {{- range . -}}<span class="inline-block mr-2 mb-2 px-2 py-1 text-xs rounded bg-neutral-100 dark:bg-neutral-700 text-neutral-700 dark:text-neutral-200">{{ . }}</span>{{- end -}}
+      </div>
+      {{- end -}}
+      {{- with .learn_more -}}<a href="{{ . }}" class="inline-block mt-5 px-5 py-2 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-700 transition">{{ $labels.learn }}</a>{{- end -}}
+    </div>
+    {{- with .image -}}
+    <div class="order-1 lg:order-2">
+      <img src="{{ .url }}" alt="{{ .alt }}" title="{{ .title }}" loading="lazy"
+           class="w-full h-auto rounded-xl shadow-lg">
+    </div>
+    {{- end -}}
+  </div>
+</section>
+{{- end -}}

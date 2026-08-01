@@ -1,0 +1,22 @@
+{{- /* sections/hero.html — Homepage hero module (module 01).
+   Data: hugo.Data.homepage.<lang>.hero */ -}}
+{{- $lang := .Lang -}}
+{{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
+{{- with $hp.hero -}}
+<section class="relative w-full overflow-hidden bg-neutral-900">
+  <div class="absolute inset-0">
+    <img src="{{ .image.url }}" alt="{{ .image.alt }}" title="{{ .image.title }}" loading="lazy"
+         class="w-full h-full object-cover opacity-70">
+    <div class="absolute inset-0 bg-gradient-to-b from-neutral-900/80 to-neutral-900/60"></div>
+  </div>
+  <div class="relative container mx-auto px-4 py-24 md:py-32 text-center">
+    {{- with .eyebrow -}}<p class="text-sm uppercase tracking-widest text-blue-300 font-semibold mb-3">{{ . }}</p>{{- end -}}
+    <h1 class="text-3xl md:text-5xl font-bold text-white leading-tight max-w-4xl mx-auto">{{ .title }}</h1>
+    {{- with .subtitle -}}<p class="mt-6 text-base md:text-lg text-neutral-200 max-w-3xl mx-auto">{{ . }}</p>{{- end -}}
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      {{- with .primary_cta -}}<a href="{{ .url }}" class="inline-block px-8 py-3 rounded-md bg-blue-600 hover:bg-blue-700 text-white font-semibold transition">{{ .label }}</a>{{- end -}}
+      {{- with .secondary_cta -}}<a href="{{ .url }}" class="inline-block px-8 py-3 rounded-md border border-white/60 text-white hover:bg-white/10 font-semibold transition">{{ .label }}</a>{{- end -}}
+    </div>
+  </div>
+</section>
+{{- end -}}

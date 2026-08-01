@@ -9,11 +9,6 @@
   weight = 20
 
 [[main]]
-  name = "Magnesium-Druckguss"
-  url = "/de/magnesium-die-casting/"
-  weight = 30
-
-[[main]]
   name = "Technischer Blog"
   url = "/de/blog/"
   weight = 40

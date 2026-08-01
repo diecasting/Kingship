@@ -1,4 +1,4 @@
 ---
-title: Authors
+title: Categories
 robots: "noindex, follow"
 ---

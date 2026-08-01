@@ -1,4 +1,4 @@
 ---
-title: Authors
+title: Series
 robots: "noindex, follow"
 ---

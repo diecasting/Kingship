@@ -8,6 +8,65 @@ disableHeroImageFilter: true
 featureImage: "/img/5000ton-die-casting-machine.webp"
 featureImageAlt: "5000-Ton High Pressure Die Casting Machine for Large Scale Automotive Structural Components"
 showTableOfContents: false
+service:
+  name: "Aluminum Die Casting"
+  category: "High-Pressure Die Casting"
+  tagline: "Precision aluminum HPDC from 400T to 5000T, engineered for automotive, EV, and electronics structural components."
+  materials:
+    - "ADC12 / AlSi9Cu3"
+    - "A380 / AlSi8Cu3"
+    - "A356 / A360"
+  processes:
+    - "High Pressure Die Casting"
+    - "CNC Machining"
+    - "Mold Flow & DFM Analysis"
+  equipment:
+    - "5000T HPDC Machine"
+    - "400T–5000T Die Casting Fleet"
+    - "High-Precision CNC Workshop"
+  specifications:
+    - label: "Machine Tonnage"
+      value: "400T – 5000T"
+    - label: "Min. Wall Thickness"
+      value: "1.5 mm"
+    - label: "CNC Tolerance"
+      value: "±0.01 mm"
+    - label: "Surface Treatment"
+      value: "Shot Blasting, Powder Coating, E-Coating"
+  industries:
+    - "Automotive"
+    - "EV"
+    - "Electronics"
+  applications:
+    - "Structural Components"
+    - "Heat Sinks"
+    - "Housings & Enclosures"
+  quality:
+    - "X-ray Porosity Inspection"
+    - "PPAP Documentation"
+    - "CMM Dimensional Verification"
+  certifications:
+    - "IATF 16949"
+    - "ISO 9001"
+  seo_keywords:
+    - "aluminum die casting"
+    - "ADC12 A380 A356 die casting"
+    - "5000T aluminum die casting China"
+  related_resources:
+    - title: "ADC12 Properties Engineering Guide"
+      url: "https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/"
+    - title: "A380 Alloy Properties"
+      url: "https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/"
+  wordpress_resources:
+    - title: "One-stop Die Casting, CNC & Finishing"
+      url: "https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/"
+  faq:
+    - q: "What aluminum alloys do you cast?"
+      a: "We routinely cast ADC12, A380, and A356, selected per your thermal, strength, and corrosion requirements."
+    - q: "What is your maximum part size?"
+      a: "Our 5000T machine supports large structural components; typical wall thickness starts at 1.5 mm with CNC tolerance to ±0.01 mm."
+    - q: "Do you support automotive quality standards?"
+      a: "Yes — we operate to IATF 16949 / ISO 9001 with X-ray porosity inspection and full PPAP documentation."
 ---
 
 {{< center_style >}}

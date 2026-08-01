@@ -1,0 +1,29 @@
+{{/*
+  service-hero.html — Service summary band (Phase 3B).
+  Renders only when .Params.service.name is present.
+  Shows: category eyebrow, service name, optional tagline, industry chips.
+*/}}
+{{ with .Params.service }}
+  {{ if .name }}
+    <section class="border-y border-neutral-200 bg-primary-50 py-12 dark:border-neutral-800 dark:bg-primary-900/10">
+      <div class="container mx-auto max-w-5xl px-4">
+        {{ with .category }}
+          <p class="mb-2 text-sm font-semibold uppercase tracking-wider text-primary-600 dark:text-primary-400">{{ . }}</p>
+        {{ end }}
+        <h2 class="text-3xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-50 sm:text-4xl">{{ .name }}</h2>
+        {{ with .tagline }}
+          <p class="mt-4 max-w-2xl text-lg text-neutral-600 dark:text-neutral-300">{{ . }}</p>
+        {{ end }}
+        {{ with .industries }}
+          {{ if gt (len .) 0 }}
+            <div class="mt-6 flex flex-wrap gap-2">
+              {{ range . }}
+                <span class="inline-flex items-center rounded-full bg-white px-3 py-1 text-sm font-medium text-neutral-700 shadow-sm ring-1 ring-neutral-200 dark:bg-neutral-800 dark:text-neutral-200 dark:ring-neutral-700">{{ . }}</span>
+              {{ end }}
+            </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

@@ -78,6 +78,20 @@
       </div>
     </section>
 
+    {{/* Service architecture sections (Phase 3) — only for pages with `service` front matter */}}
+    {{ if .Params.service }}
+      {{ partial "sections/service/service-hero.html" . }}
+      {{ partial "sections/service/materials.html" . }}
+      {{ partial "sections/service/manufacturing-process.html" . }}
+      {{ partial "sections/service/equipment.html" . }}
+      {{ partial "sections/service/capability-specifications.html" . }}
+      {{ partial "sections/service/applications.html" . }}
+      {{ partial "sections/service/quality-control.html" . }}
+      {{ partial "sections/service/technical-resources.html" . }}
+      {{ partial "sections/service/faq.html" . }}
+      {{ partial "sections/service/service-cta.html" . }}
+    {{ end }}
+
     {{/* Footer */}}
     <footer class="pt-8 max-w-prose print:hidden">
       {{ partial "article-pagination.html" . }}

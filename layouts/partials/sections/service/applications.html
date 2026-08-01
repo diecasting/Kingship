@@ -1,0 +1,18 @@
+{{/*
+  applications.html — Application chips (Phase 3B).
+  Renders only when .Params.service.applications has >=1 item.
+*/}}
+{{ with .Params.service.applications }}
+  {{ if gt (len .) 0 }}
+    <section class="py-12 sm:py-16">
+      <div class="container mx-auto max-w-5xl px-4">
+        <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 sm:text-3xl">Typical Applications</h2>
+        <div class="mt-8 flex flex-wrap gap-3">
+          {{ range . }}
+            <span class="inline-flex items-center rounded-lg bg-neutral-100 px-4 py-2 text-sm font-medium text-neutral-700 dark:bg-neutral-800 dark:text-neutral-200">{{ . }}</span>
+          {{ end }}
+        </div>
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,35 @@
+{{/*
+  quality-control.html — Quality controls + certifications (Phase 3B).
+  Renders when .Params.service.quality or .Params.service.certifications has >=1 item.
+*/}}
+{{ $q := .Params.service.quality }}
+{{ $c := .Params.service.certifications }}
+{{ if or (and $q (gt (len $q) 0)) (and $c (gt (len $c) 0)) }}
+  <section class="bg-neutral-50 py-12 dark:bg-neutral-900/40 sm:py-16">
+    <div class="container mx-auto max-w-5xl px-4">
+      <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 sm:text-3xl">Quality &amp; Certifications</h2>
+      <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
+        {{ with $q }}{{ if gt (len .) 0 }}
+        <div>
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">Quality Control</h3>
+          <ul class="mt-4 space-y-2">
+            {{ range . }}
+              <li class="flex items-start gap-2 text-neutral-700 dark:text-neutral-200"><span class="text-primary-500" aria-hidden="true">✓</span><span>{{ . }}</span></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}{{ end }}
+        {{ with $c }}{{ if gt (len .) 0 }}
+        <div>
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">Certifications</h3>
+          <div class="mt-4 flex flex-wrap gap-2">
+            {{ range . }}
+              <span class="inline-flex items-center rounded-full border border-primary-200 bg-primary-50 px-3 py-1 text-sm font-medium text-primary-700 dark:border-primary-800 dark:bg-primary-900/30 dark:text-primary-300">{{ . }}</span>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}{{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

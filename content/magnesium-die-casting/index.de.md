@@ -8,6 +8,7 @@ disableHeroImageFilter: true
 featureImage: "/img/magnesium-die-casting-banner.webp"
 featureImageAlt: "Hochpräzise Magnesium-Warm- und Kaltkammer-Druckguss-Produktionsflotte"
 showTableOfContents: false
+url: "/de/magnesium-die-casting/"
 ---
 
 {{< center_style >}}

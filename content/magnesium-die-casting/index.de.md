@@ -1,6 +1,6 @@
 ---
-title: "Hochpräzisions-Druckguss für Magnesiumlegierungen"
-description: "Führender Hersteller für Magnesiumdruckguss in Guangdong, spezialisiert auf dünnwandige Strukturbauteile aus AZ91D und AM60B für die Automobil- und Luftfahrtindustrie."
+title: "Hochpräziser Magnesium-Hochdruckguss"
+description: "Führender Magnesium-Druckgießer in Guangdong, spezialisiert auf dünnwandige Strukturbauteile aus AZ91D und AM60B für Automobil- und Luftfahrtanwendungen."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
@@ -9,6 +9,64 @@ featureImage: "/img/magnesium-die-casting-banner.webp"
 featureImageAlt: "Hochpräzise Magnesium-Warm- und Kaltkammer-Druckguss-Produktionsflotte"
 showTableOfContents: false
 url: "/de/magnesium-die-casting/"
+service:
+  name: "Magnesium-Druckguss"
+  category: "Hochdruckguss"
+  tagline: "Leichtbau-Magnesium-HPDC von 400T bis 3000T, entwickelt für dünnwandige Strukturbauteile in Automotive, EV und Luftfahrt."
+  materials:
+    - "AZ91D"
+    - "AM60B / AM50A"
+  processes:
+    - "Hochdruckguss (HPDC)"
+    - "CNC-Bearbeitung"
+    - "Fließ- & DFM-Analyse"
+  equipment:
+    - "3000T-HPDC-Maschine"
+    - "400T–3000T-Druckguss-Flotte"
+    - "Hochpräzise CNC-Werkstatt"
+  specifications:
+    - label: "Schließkraft"
+      value: "400T – 3000T"
+    - label: "Min. Wandstärke"
+      value: "1,0 mm"
+    - label: "CNC-Toleranz"
+      value: "±0,01 mm"
+    - label: "Oberflächenbehandlung"
+      value: "MAO-Beschichtung, E-Coating"
+  industries:
+    - "Automobil"
+    - "EV"
+    - "Luftfahrt"
+  applications:
+    - "Strukturbauteile"
+    - "Gehäuse & Umhausungen"
+    - "Sicherheitsbauteile"
+  quality:
+    - "Röntgen-Porositätsprüfung"
+    - "CMM-Maßverifikation"
+    - "Automobil-Qualitätsrahmen (IATF 16949)"
+  certifications:
+    - "IATF 16949"
+    - "ISO 9001"
+  seo_keywords:
+    - "magnesium druckguss"
+    - "AZ91D AM60B guss"
+    - "magnesium hpdc china"
+  related_resources:
+    - title: "Technischer Leitfaden zu AZ91D-Eigenschaften"
+      url: "https://alumcasting.com/az91d-magnesium-die-casting-automotive-parts/"
+    - title: "Eigenschaften der AM60B-Legierung"
+      url: "https://alumcasting.com/am60b-magnesium-alloy-die-casting-suppliers/"
+  wordpress_resources:
+    - title: "Komplettlösung Druckguss, CNC & Veredelung"
+      url: "https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/"
+  faq:
+    - q: "Welche Magnesiumlegierungen gießen Sie?"
+      a: "Wir gießen regelmäßig AZ91D, AM60B und AM50A – ausgewählt nach Ihren Anforderungen an Festigkeit, Duktilität und Korrosionsbeständigkeit."
+    - q: "Wie groß ist Ihr maximales Bauteil?"
+      a: "Unsere 3000T-Maschine fertigt große dünnwandige Strukturbauteile; die typische Wandstärke beginnt bei 1,0 mm bei einer CNC-Toleranz von ±0,01 mm."
+    - q: "Erfüllen Sie Automobil-Qualitätsstandards?"
+      a: "Ja – wir arbeiten nach IATF 16949 / ISO 9001 mit zerstörungsfreier Röntgen-Porositätsprüfung und vollständiger PPAP-Dokumentation."
 ---
 
 {{< center_style >}}
@@ -63,7 +121,7 @@ Wir arbeiten nach einem [Automobil-Qualitätsrahmen](https://alumcasting.com/iat
   </p>
   <div class="flex justify-center gap-4">
     <a href="https://kingship.alumcasting.com/de/contact/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">Angebot anfordern</a>
-    <a href="https://kingship.alumcasting.com/de/about-alumcasting-die-casting-expert/" class="bg-white dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 px-8 py-3 rounded-lg font-semibold transition">Expertenberatung</a>
+    <a href="https://alumcasting.com/about-alumcasting-die-casting-expert/" class="bg-white dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 px-8 py-3 rounded-lg font-semibold transition">Expertenberatung</a>
   </div>
 </section>
 

@@ -9,7 +9,7 @@ keywords: ["CNC Nachbearbeitung Druckgussteile", "Funktionsflaechen Automotive",
 tags: ["CNC", "Quality", "Automotive", "Process"]
 ---
 
-Bei hochbelasteten Automobilbauteilen entscheidet die CNC-Nachbearbeitung ueber Funktion und Montagefaehigkeit. Eine saubere Referenzkette von Guss bis Endmessung ist Pflicht.
+Bei hochbelasteten Automobilbauteilen entscheidet die [CNC](/de/cnc-machining)-Nachbearbeitung ueber Funktion und Montagefaehigkeit. Eine saubere Referenzkette von Guss bis Endmessung ist Pflicht.
 
 ![Hochpraezisions-CNC-Werkstatt fuer Druckgussteile](/img/high-precision-cnc-workshop.webp "Praezise CNC-Endbearbeitung")
 
@@ -23,7 +23,7 @@ Weitere Details zur Fertigung finden Sie in den [Manufacturing Capabilities](htt
 
 ## Kombination mit Druckgussprozess
 
-CNC-Qualitaet ist direkt vom Rohteil abhaengig. Deshalb sollten DFM, Werkzeugauslegung und Prozessparameter vor SOP gemeinsam bewertet werden.
+CNC-Qualitaet ist direkt vom Rohteil abhaengig. Deshalb sollten DFM, [Werkzeug](/de/tooling)auslegung und Prozessparameter vor SOP gemeinsam bewertet werden.
 
 ![CMM-Messung zur Geometrieabsicherung](/img/hexagon-coordinate-measuring-machine-inspection.webp "Seriennahe CMM-Absicherung")
 

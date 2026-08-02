@@ -9,7 +9,7 @@ keywords: ["CNC fundicion a presion", "tolerancias piezas fundidas", "CMM automo
 tags: ["CNC", "Quality", "Automotive"]
 ---
 
-En componentes automotrices, la calidad final depende de la continuidad entre fundicion y mecanizado CNC. Una estrategia correcta de referencias reduce retrabajos y dispersion dimensional.
+En componentes automotrices, la calidad final depende de la continuidad entre fundicion y [mecanizado](/es/cnc-machining) CNC. Una estrategia correcta de referencias reduce retrabajos y dispersion dimensional.
 
 ![Taller CNC de alta precision](/img/high-precision-cnc-workshop.webp "Mecanizado de precision")
 

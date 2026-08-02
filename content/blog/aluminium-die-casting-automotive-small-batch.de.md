@@ -15,7 +15,7 @@ In der modernen Automobilentwicklung ist die Zeitspanne zwischen Prototyping und
 ## Warum Kleinserien im Druckguss eine eigene Strategie erfordern
 Viele OEMs und Tier-1-Zulieferer stehen vor der Herausforderung, kleine Losgrößen mit derselben Präzision wie Großserien produzieren zu müssen. Der Prozess erfordert eine spezialisierte Expertise in [Druckguss und CNC-Nachbearbeitung](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/), um die Maßhaltigkeit trotz geringer Stückzahlen zu gewährleisten.
 
-Bei der Planung von Kleinserien ist die [Brückentechnologie für das Aluminium-Druckguss](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/) oft der Schlüssel zum Erfolg, um initiale Werkzeugkosten zu optimieren.
+Bei der Planung von Kleinserien ist die [Brückentechnologie für das Aluminium-Druckguss](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/) oft der Schlüssel zum Erfolg, um initiale [Werkzeug](/de/tooling)kosten zu optimieren.
 
 ## Prozesssicherheit: Von der Legierung zur Qualitätssicherung
 Die Wahl der Legierung beeinflusst maßgeblich die Performance des Endprodukts. Während [A380 Aluminium-Druckguss](https://alumcasting.com/a380-aluminum-die-casting-service/) ein Klassiker ist, bieten moderne Verfahren wie die [Vakuum-unterstützte Druckgusstechnik](https://alumcasting.com/vacuum-assisted-die-casting-vs-conventional-hpdc-air-tightness/) signifikante Vorteile bei der Dichtigkeit und Strukturintegrität.
@@ -24,7 +24,7 @@ Die Wahl der Legierung beeinflusst maßgeblich die Performance des Endprodukts. 
 
 Ein kritischer Faktor bei der Herstellung von Automobilteilen ist die Porenfreiheit. Durch gezielte [Maßnahmen zur Vermeidung von Porosität](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/) und eine durchgängige Überwachung mittels [Röntgeninspektion bei Gussteilen](https://alumcasting.com/porosity-control-x-ray-inspection-castings/) stellen wir sicher, dass jedes Bauteil den hohen Sicherheitsanforderungen gerecht wird.
 
-## Präzision in der Nachbearbeitung
+## Präzision in der Nach[bearbeitung](/de/cnc-machining)
 Nach dem Guss ist die Bearbeitung oft der entscheidende Schritt für die Passgenauigkeit im Fahrzeug. Durch unsere [Hochpräzisions-CNC-Bearbeitung für Automobilteile](https://alumcasting.com/high-tolerance-automotive-cnc-machining/) garantieren wir enge Toleranzen.
 
 ![Qualitätskontrolle mit Hexagon CMM](/img/hexagon-coordinate-measuring-machine-inspection.webp "Präzisionsmessung mittels Hexagon CMM Technologie")

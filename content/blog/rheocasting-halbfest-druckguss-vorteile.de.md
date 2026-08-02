@@ -9,7 +9,7 @@ keywords: ["Rheocasting halbfester Druckguss", "Strukturbauteile Aluminium", "Po
 tags: ["Process", "Material", "Quality", "Aluminum"]
 ---
 
-Rheocasting gewinnt an Bedeutung, wenn klassische HPDC-Fenster an Grenzen stossen. Die halbfeste Prozessfuehrung kann bei geeigneter Bauteilgeometrie Porositaet reduzieren und die mechanische Performance verbessern.
+[Rheocasting](/de/semi-solid-rheocasting) gewinnt an Bedeutung, wenn klassische HPDC-Fenster an Grenzen stossen. Die halbfeste Prozessfuehrung kann bei geeigneter Bauteilgeometrie Porositaet reduzieren und die mechanische Performance verbessern.
 
 ![Moderne Druckgusswerkstatt mit fortschrittlichen Anlagen](/img/yizumi-die-casting-machine-shop.webp "Anlagenumgebung fuer moderne Druckgussverfahren")
 
@@ -21,7 +21,7 @@ Rheocasting gewinnt an Bedeutung, wenn klassische HPDC-Fenster an Grenzen stosse
 
 Als Grundlage fuer die Prozesswahl hilft ein Blick auf [Die-Casting-Defekte und Loesungen](https://alumcasting.com/die-casting-defects-solutions-pro-guide/) und [Porositaetskontrolle per Roentgen](https://alumcasting.com/porosity-control-x-ray-inspection-castings/).
 
-## Kombination mit DFM und Nachbearbeitung
+## Kombination mit DFM und Nach[bearbeitung](/de/cnc-machining)
 
 Auch beim Rheocasting entscheidet die fruehe DFM-Phase ueber die Wirtschaftlichkeit. Mit [cost-down DFM fuer Druckgusswerkzeuge](https://alumcasting.com/cost-down-dfm-design-aluminum-die-casting-molds/) und einer abgestimmten [CNC-Strategie](https://alumcasting.com/high-tolerance-automotive-cnc-machining/) lassen sich robuste Serienprozesse aufbauen.
 

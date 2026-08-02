@@ -9,7 +9,7 @@ keywords: ["ADC12 vs A380", "Aluminium Legierungsvergleich Druckguss", "Werkstof
 tags: ["Material", "Aluminum", "DFM", "Cost"]
 ---
 
-Die Legierungswahl bestimmt im Druckguss nicht nur die Festigkeit, sondern auch Zykluszeit, Ausschussquote und Nachbearbeitungsaufwand. Fuer viele Projekte stehen [ADC12](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) und [A380](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/) im direkten Vergleich.
+Die Legierungswahl bestimmt im Druckguss nicht nur die Festigkeit, sondern auch Zykluszeit, Ausschussquote und Nach[bearbeitung](/de/cnc-machining)saufwand. Fuer viele Projekte stehen [ADC12](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) und [A380](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/) im direkten Vergleich.
 
 ![Aluminium-Druckgussteile fuer Serienanwendungen](/img/aluminum-die-casting-parts-storage.webp "Serienfertigung mit verschiedenen Legierungen")
 

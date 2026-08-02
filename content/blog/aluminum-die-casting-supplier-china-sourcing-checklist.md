@@ -21,7 +21,7 @@ Ask for objective data first:
 
 - Machine tonnage range and shot size capability for your part family.
 - Typical wall thickness window and achievable flatness.
-- In-house CNC, CMM, and X-ray availability.
+- In-house [CNC](/cnc-machining), CMM, and X-ray availability.
 - Vacuum die casting readiness for sealing-critical housings.
 
 If these basics are missing, a low quote usually becomes a high total cost after rework, delays, and warranty exposure.
@@ -50,7 +50,7 @@ Useful reference: [IATF 16949 high-tolerance automotive supplier](https://alumca
 
 ## 4. Review Lead Time Risk From RFQ to SOP
 
-Do not accept a single "tooling lead time" number. Ask for phase-by-phase timing:
+Do not accept a single "[tooling](/tooling) lead time" number. Ask for phase-by-phase timing:
 
 - RFQ response and technical clarification.
 - DFM freeze and tool design release.

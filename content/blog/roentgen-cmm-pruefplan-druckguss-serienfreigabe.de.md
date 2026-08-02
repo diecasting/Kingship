@@ -23,7 +23,7 @@ Zur technischen Einordnung hilft der Ueberblick zu [CMM- und X-Ray-Inspektion im
 
 ## Daten rueck in den Prozess fuehren
 
-Messdaten sollten nicht im Reporting enden, sondern direkt in Werkzeug- und Prozessanpassungen fliessen. Das senkt Ausschuss und stabilisiert die Serienkennzahlen.
+Messdaten sollten nicht im Reporting enden, sondern direkt in [Werkzeug](/de/tooling)- und Prozessanpassungen fliessen. Das senkt Ausschuss und stabilisiert die Serienkennzahlen.
 
 ![CMM-Messtechnik fuer geometrische Toleranzen](/img/hexagon-coordinate-measuring-machine-inspection.webp "Geometrische Absicherung fuer die Serienfreigabe")
 

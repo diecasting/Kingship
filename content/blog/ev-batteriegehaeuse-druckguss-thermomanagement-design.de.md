@@ -15,7 +15,7 @@ EV-Batteriegehaeuse muessen hohe Anforderungen an Steifigkeit, Dichtheit und Wae
 
 ## Thermomanagement beginnt im Bauteildesign
 
-Wandstaerken, Rippenlayout und Kontaktflaechen beeinflussen die Temperaturfuehrung im Betrieb. Werden diese Punkte zu spaet betrachtet, steigen Werkzeugkorrekturen und Zykluskosten.
+Wandstaerken, Rippenlayout und Kontaktflaechen beeinflussen die Temperaturfuehrung im Betrieb. Werden diese Punkte zu spaet betrachtet, steigen [Werkzeug](/de/tooling)korrekturen und Zykluskosten.
 
 ## Luftdichtheit und Prozessstabilitaet
 

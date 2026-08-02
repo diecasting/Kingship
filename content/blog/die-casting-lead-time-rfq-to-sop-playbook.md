@@ -9,7 +9,7 @@ keywords: ["die casting lead time", "rfq to sop die casting", "die casting proje
 tags: ["DFM", "Quality", "Process"]
 ---
 
-Most launch delays in die casting programs are not caused by one major failure. They come from unmanaged handoffs between RFQ, DFM, tooling, trial loops, and quality validation.
+Most launch delays in die casting programs are not caused by one major failure. They come from unmanaged handoffs between RFQ, DFM, [tooling](/tooling), trial loops, and quality validation.
 
 This playbook gives procurement and engineering teams a practical path to shorten cycle time without increasing quality risk.
 
@@ -19,7 +19,7 @@ This playbook gives procurement and engineering teams a practical path to shorte
 
 - RFQ and technical clarification.
 - DFM review and design freeze.
-- Tool design, machining, and assembly.
+- Tool design, [machining](/cnc-machining), and assembly.
 - T1/T2 trials with parameter optimization.
 - Dimensional and functional validation.
 - PPAP closure and SOP release.

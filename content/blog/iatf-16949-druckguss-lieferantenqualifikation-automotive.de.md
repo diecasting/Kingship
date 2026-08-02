@@ -24,7 +24,7 @@ Ein guter Startpunkt ist die Referenz zu [IATF 16949 und hochpraeziser Automobil
 
 ## Qualitaetskette im Druckguss aufbauen
 
-Die wirksamste Umsetzung verbindet Gussprozess, CNC, Roentgen und Lecktest in einem konsistenten Datensystem. So werden Fehler frueh erkannt und nachhaltig beseitigt.
+Die wirksamste Umsetzung verbindet Gussprozess, [CNC](/de/cnc-machining), Roentgen und Lecktest in einem konsistenten Datensystem. So werden Fehler frueh erkannt und nachhaltig beseitigt.
 
 ![Roentgenpruefung zur Fehlerdetektion im Serienprozess](/img/x-ray-detector.webp "NDT-Analyse als Bestandteil der Lieferantenqualifikation")
 

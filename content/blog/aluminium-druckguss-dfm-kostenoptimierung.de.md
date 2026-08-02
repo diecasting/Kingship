@@ -29,9 +29,9 @@ Die Legierungswahl bestimmt Bearbeitbarkeit, Dichtheit und mechanische Reserven:
 
 ![Moderne Yizumi-Druckgusswerkstatt](/img/yizumi-die-casting-machine-shop.webp "Produktion mit modernem Maschinenpark")
 
-## 3. Nachbearbeitung und Qualitaet frueh mitdenken
+## 3. Nach[bearbeitung](/de/cnc-machining) und Qualitaet frueh mitdenken
 
-Viele Kosten entstehen nicht im Guss, sondern bei Korrekturen in der Nachbearbeitung. Deshalb sollten CNC-Aufmasse, Bezugsflaechen und Pruefstrategie bereits vor Werkzeugfreigabe feststehen. Ein bewaehrter Weg ist die Kombination aus [One-Stop Druckguss + CNC + Oberflaechenbehandlung](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/) und klaren Pruefplaenen.
+Viele Kosten entstehen nicht im Guss, sondern bei Korrekturen in der Nachbearbeitung. Deshalb sollten CNC-Aufmasse, Bezugsflaechen und Pruefstrategie bereits vor [Werkzeug](/de/tooling)freigabe feststehen. Ein bewaehrter Weg ist die Kombination aus [One-Stop Druckguss + CNC + Oberflaechenbehandlung](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/) und klaren Pruefplaenen.
 
 ![Hochpraezise CNC-Nachbearbeitung im Druckgussumfeld](/img/high-precision-cnc-workshop.webp "CNC-Bearbeitung fuer enge Toleranzen")
 

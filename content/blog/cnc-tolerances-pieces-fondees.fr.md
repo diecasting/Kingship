@@ -9,7 +9,7 @@ keywords: ["CNC fonderie sous pression", "tolerances pieces fondees", "CMM autom
 tags: ["CNC", "Quality", "Automotive"]
 ---
 
-La performance d une piece sous pression se joue souvent au stade CNC. En definissant correctement references, surcotes et sequence d usinage, on reduit fortement la variabilite serie.
+La performance d une piece sous pression se joue souvent au stade [CNC](/fr/cnc-machining). En definissant correctement references, surcotes et sequence d usinage, on reduit fortement la variabilite serie.
 
 ![Atelier CNC de haute precision](/img/high-precision-cnc-workshop.webp "Usinage de precision")
 

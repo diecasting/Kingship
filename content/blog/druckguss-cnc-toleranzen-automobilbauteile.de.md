@@ -9,7 +9,7 @@ keywords: ["Druckguss CNC Toleranzen", "Automobilbauteile Aluminium", "CMM Messp
 tags: ["CNC", "Quality", "Automotive", "Process"]
 ---
 
-In Automotive-Projekten reicht ein gutes Gussbild allein nicht aus. Entscheidend ist die stabile Ueberfuehrung in die CNC-Nachbearbeitung mit definierten Bezugsflaechen und messbarer Prozessfaehigkeit. Genau hier liegen die Staerken von [hochpraeziser CNC-Bearbeitung fuer Automobilteile](https://alumcasting.com/high-tolerance-automotive-cnc-machining/).
+In Automotive-Projekten reicht ein gutes Gussbild allein nicht aus. Entscheidend ist die stabile Ueberfuehrung in die [CNC](/de/cnc-machining)-Nachbearbeitung mit definierten Bezugsflaechen und messbarer Prozessfaehigkeit. Genau hier liegen die Staerken von [hochpraeziser CNC-Bearbeitung fuer Automobilteile](https://alumcasting.com/high-tolerance-automotive-cnc-machining/).
 
 ![Hochpraezisions-CNC-Workshop im Druckgussumfeld](/img/high-precision-cnc-workshop.webp "CNC-Bearbeitung mit engen Toleranzen")
 

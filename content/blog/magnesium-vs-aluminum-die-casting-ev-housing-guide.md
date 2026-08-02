@@ -9,7 +9,7 @@ keywords: ["magnesium vs aluminum die casting", "EV housing die casting", "magne
 tags: ["EV", "Material", "DFM", "Cost"]
 ---
 
-For EV housings, choosing between magnesium and aluminum die casting is not only a material decision. It affects structural performance, corrosion strategy, tooling life, cycle time, and final program economics.
+For EV housings, choosing between [magnesium](/magnesium-die-casting) and aluminum die casting is not only a material decision. It affects structural performance, corrosion strategy, tooling life, cycle time, and final program economics.
 
 This guide gives sourcing and engineering teams a decision framework focused on production reality.
 
@@ -49,7 +49,7 @@ Program teams often underestimate implementation risk:
 
 - Supplier experience with magnesium melt handling and safety controls.
 - Die temperature management and shot profile stability.
-- Downstream machining and fixture strategy for thin walls.
+- Downstream [machining](/cnc-machining) and fixture strategy for thin walls.
 
 A technically valid material still fails commercially when process capability is immature.
 

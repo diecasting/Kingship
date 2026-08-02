@@ -13,7 +13,7 @@ Zwischen Prototyp und Vollserie liegt oft eine kritische Phase mit hohem Zeitdru
 
 ![Druckgussmaschine fuer flexible Kleinserienfertigung](/img/5000ton-die-casting-machine.webp "Skalierbare Produktion von Kleinserie bis Serie")
 
-## Wann ein Brueckenwerkzeug sinnvoll ist
+## Wann ein Bruecken[werkzeug](/de/tooling) sinnvoll ist
 
 Typische Szenarien:
 
@@ -33,7 +33,7 @@ Nach erfolgreicher Kleinserie sollten folgende Punkte nahtlos ueberfuehrt werden
 
 - finaler Werkzeugdatensatz,
 - Pruefplan mit CMM/Roentgen,
-- abgestimmte CNC- und Oberflaechenprozesse.
+- abgestimmte [CNC](/de/cnc-machining)- und Oberflaechenprozesse.
 
 Mehr zur integrierten Umsetzung finden Sie unter [Manufacturing Capabilities](https://alumcasting.com/manufacturing-capabilities/) oder direkt per [Kontakt](https://alumcasting.com/contact/).
 

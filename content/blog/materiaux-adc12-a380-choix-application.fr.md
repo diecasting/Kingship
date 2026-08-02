@@ -9,7 +9,7 @@ keywords: ["ADC12", "A380", "choix materiaux", "fonderie aluminium"]
 tags: ["Material", "Aluminum", "DFM"]
 ---
 
-Le choix alliage influence directement porosite, performances mecaniques et rendement usinage.
+Le choix alliage influence directement porosite, performances mecaniques et rendement [usinage](/fr/cnc-machining).
 
 ![Pieces en aluminium sous pression](/img/aluminum-die-casting-parts-storage.webp "Production aluminium")
 

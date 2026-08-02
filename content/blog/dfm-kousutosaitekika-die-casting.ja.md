@@ -9,7 +9,7 @@ keywords: ["DFM", "金型コスト", "ダイカスト量産", "工程最適化"]
 tags: ["DFM", "Cost", "Process"]
 ---
 
-設計初期でDFMを実施すると、金型修正の手戻りを抑え、量産移行のリスクを低減できます。
+設計初期でDFMを実施すると、[金型](/ja/tooling)修正の手戻りを抑え、量産移行のリスクを低減できます。
 
 ![自動化ダイカストライン](/img/automated-die-casting-production-line.webp "量産安定化")
 

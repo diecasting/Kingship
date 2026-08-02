@@ -9,7 +9,7 @@ keywords: ["Magnesium Druckguss MAO", "Korrosionsschutz Magnesiumteile", "AZ91D 
 tags: ["Material", "Quality", "Surface", "Automotive"]
 ---
 
-Magnesium ist im Leichtbau kaum zu ersetzen, verlangt aber ein konsequentes Korrosionskonzept. Dieser Beitrag zeigt, wie [MAO-Oberflaechenschutz fuer Magnesium-Druckguss](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/) in der Praxis robust umgesetzt wird.
+[Magnesium](/de/magnesium-die-casting) ist im Leichtbau kaum zu ersetzen, verlangt aber ein konsequentes Korrosionskonzept. Dieser Beitrag zeigt, wie [MAO-Oberflaechenschutz fuer Magnesium-Druckguss](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/) in der Praxis robust umgesetzt wird.
 
 ![Magnesium-Druckgusslinie fuer leichte Strukturteile](/img/magnesium-die-casting-banner.webp "Produktionslinie fuer Magnesium HPDC")
 
@@ -17,7 +17,7 @@ Magnesium ist im Leichtbau kaum zu ersetzen, verlangt aber ein konsequentes Korr
 
 Die Beschichtung kann nur so gut sein wie die Grundlegierung. Fuer viele Anwendungen sind [AZ91D-Legierungen im Druckguss](https://alumcasting.com/az91d-magnesium-die-casting-automotive-parts/) eine sichere Wahl, waehrend [AM60B fuer crashrelevante Komponenten](https://alumcasting.com/am60b-magnesium-alloy-die-casting-suppliers/) Vorteile bei Duktilitaet bietet.
 
-Ergaenzend lohnt sich der systematische [Vergleich von Magnesium und Aluminium im Druckguss](https://alumcasting.com/magnesium-vs-aluminum-die-casting/), bevor Werkzeug- und Prozessfenster final fixiert werden.
+Ergaenzend lohnt sich der systematische [Vergleich von Magnesium und Aluminium im Druckguss](https://alumcasting.com/magnesium-vs-aluminum-die-casting/), bevor [Werkzeug](/de/tooling)- und Prozessfenster final fixiert werden.
 
 ## Prozesskette fuer stabile Oberflaechenqualitaet
 

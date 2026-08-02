@@ -9,7 +9,7 @@ keywords: ["die casting vs cnc machining", "die casting or cnc for production", 
 tags: ["DFM", "Cost", "CNC", "Process"]
 ---
 
-When teams compare die casting and CNC machining, the right answer depends on annual volume, geometry complexity, tolerance strategy, and launch timing.
+When teams compare die casting and [CNC machining](/cnc-machining), the right answer depends on annual volume, geometry complexity, tolerance strategy, and launch timing.
 
 This guide helps sourcing and product teams choose the process that minimizes total project risk.
 
@@ -18,7 +18,7 @@ This guide helps sourcing and product teams choose the process that minimizes to
 ## Quick Decision Rule
 
 - Use CNC-first when quantity is low, geometry is still changing, and speed to first article is critical.
-- Use die casting when annual demand can absorb tooling cost and repeatability matters in mass production.
+- Use die casting when annual demand can absorb [tooling](/tooling) cost and repeatability matters in mass production.
 
 ## 1. Cost Structure Differences
 

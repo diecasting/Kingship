@@ -9,7 +9,7 @@ keywords: ["die casting tooling cost breakdown", "aluminum die casting mold cost
 tags: ["DFM", "Cost", "Tooling"]
 ---
 
-Tooling cost is one of the most misunderstood parts of die casting sourcing. A single number without scope detail is a risk signal.
+[Tooling](/tooling) cost is one of the most misunderstood parts of die casting sourcing. A single number without scope detail is a risk signal.
 
 This breakdown helps teams compare tooling quotes on technical substance, not headline price.
 

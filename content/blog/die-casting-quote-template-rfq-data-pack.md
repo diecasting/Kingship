@@ -32,7 +32,7 @@ This template gives procurement and engineering teams a practical RFQ structure 
 - SOP monthly demand and annual run rate.
 - Program life and EAU forecast.
 
-Without volume context, suppliers cannot optimize tooling strategy or unit economics.
+Without volume context, suppliers cannot optimize [tooling](/tooling) strategy or unit economics.
 
 ## 3. Quality and Validation Requirements
 
@@ -58,7 +58,7 @@ Ask each supplier to return the same structure:
 
 - Tooling cost split by die set, inserts, and fixtures.
 - Unit price at different annual volumes.
-- Separate line items for CNC, surface treatment, and inspection.
+- Separate line items for [CNC](/cnc-machining), surface treatment, and inspection.
 - NRE assumptions and validity period.
 - Lead-time chart from RFQ to SOP.
 

@@ -17,7 +17,7 @@ EV筐体では、内部欠陥の低減と気密性能の両立が重要です。
 
 1. 低速から高速への切替位置を安定化。
 2. 高速射出前の十分な排気。
-3. 金型温度のばらつき抑制。
+3. [金型](/ja/tooling)温度のばらつき抑制。
 
 比較情報として、[真空支援HPDCと従来HPDCの差](https://alumcasting.com/vacuum-assisted-die-casting-vs-conventional-hpdc-air-tightness/)も参考になります。
 

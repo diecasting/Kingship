@@ -9,7 +9,7 @@ keywords: ["ADC12", "A380", "材料選定", "アルミダイカスト"]
 tags: ["Material", "Aluminum", "DFM"]
 ---
 
-ADC12とA380の選定は、強度、鋳造性、後加工コストに直接影響します。
+ADC12とA380の選定は、強度、鋳造性、後[加工](/ja/cnc-machining)コストに直接影響します。
 
 ![アルミダイカスト部品ストレージ](/img/aluminum-die-casting-parts-storage.webp "アルミ部品量産")
 

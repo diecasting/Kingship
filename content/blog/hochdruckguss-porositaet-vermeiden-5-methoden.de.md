@@ -9,7 +9,7 @@ keywords: ["Porositaet Hochdruckguss", "Lufteinschluesse vermeiden", "Vakuum HPD
 tags: ["Quality", "Process", "Porosity", "DFM"]
 ---
 
-Porositaet ist einer der haeufigsten Gruende fuer Ausschuss im Aluminium-Druckguss. Fuer belastete Gehaeuse und Strukturteile ist deshalb ein stabiles Gesamtsystem aus Werkzeug, Prozess und Pruefung entscheidend. Eine gute Basis bietet dieser Beitrag zu [5 Methoden zur Beseitigung von Porositaet](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/).
+Porositaet ist einer der haeufigsten Gruende fuer Ausschuss im Aluminium-Druckguss. Fuer belastete Gehaeuse und Strukturteile ist deshalb ein stabiles Gesamtsystem aus [Werkzeug](/de/tooling), Prozess und Pruefung entscheidend. Eine gute Basis bietet dieser Beitrag zu [5 Methoden zur Beseitigung von Porositaet](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/).
 
 ![Roentgeninspektion fuer Porositaetsanalyse](/img/x-ray-detector.webp "Echtzeit-Roentgen fuer innere Fehler")
 
@@ -29,7 +29,7 @@ Unstabile Werkzeugtemperaturen erzeugen lokale Erstarrungsprobleme. Eine fruehe 
 
 ## 4. Legierung und Gussparameter passend waehlen
 
-Die Auswahl zwischen [ADC12](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) und [A380](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/) beeinflusst Fliesseigenschaften, Festigkeit und Nachbearbeitungskosten.
+Die Auswahl zwischen [ADC12](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) und [A380](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/) beeinflusst Fliesseigenschaften, Festigkeit und Nach[bearbeitung](/de/cnc-machining)skosten.
 
 ## 5. Pruefstrategie in die Serie integrieren
 

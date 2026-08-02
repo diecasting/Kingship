@@ -17,7 +17,7 @@ Aplicar DFM desde la fase de diseno reduce cambios tardios en herramienta y mejo
 
 - Revisar geometria, espesores y direccion de desmoldeo.
 - Definir estrategia de alimentacion y ventilacion.
-- Vincular criterios de calidad con viabilidad de mecanizado.
+- Vincular criterios de calidad con viabilidad de [mecanizado](/es/cnc-machining).
 
 Referencia tecnica: [how DFM reduces die casting costs](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/).
 

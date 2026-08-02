@@ -21,7 +21,7 @@ Wichtige Prozessziele:
 
 1. Fruehes Evakuieren vor der schnellen Schussphase.
 2. Stabiler Umschaltpunkt zwischen V1 und V2.
-3. Reproduzierbare Werkzeugtemperatur fuer gleichmaessige Erstarrung.
+3. Reproduzierbare [Werkzeug](/de/tooling)temperatur fuer gleichmaessige Erstarrung.
 
 ## DFM und Werkzeugauslegung fuer luftdichte Gehaeuse
 
@@ -32,7 +32,7 @@ Eine saubere DFM-Phase senkt spaetere Kosten und Fehlerquote. Mit [DFM-Analyse i
 Typische Design-Regeln fuer EV-Cover:
 
 - Moeglichst gleichmaessige Wandstaerken zur Vermeidung lokaler Hotspots.
-- Definierte Dichtflaechen mit ausreichender CNC-Nachbearbeitungszugabe.
+- Definierte Dichtflaechen mit ausreichender [CNC](/de/cnc-machining)-Nachbearbeitungszugabe.
 - Fruehe Beruecksichtigung von Dichtheitspruefung und Montagekonzept.
 
 ## Qualitaetssicherung: Von der Porositaetskontrolle bis zur Leckpruefung

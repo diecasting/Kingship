@@ -61,10 +61,12 @@
   <figure>
     <img
       src="{{ . }}"
-      alt="{{ $alt }}"
-      loading="eager"
+      alt="{{ site.Title }}"
+      title="{{ site.Title }}"
+      loading="lazy"
       decoding="async"
-      fetchpriority="high"
+      width="100%"
+      height="100%"
       class="w-full rounded-lg single_hero_round nozoom"
       {{ if $style }}style="{{ $style | safeCSS }}"{{ end }}>
     {{ if $caption }}

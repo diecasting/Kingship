@@ -8,6 +8,7 @@
      Homepage            -> Organization + ManufacturingBusiness + WebSite
                             + WebPage (+ FAQPage when schema.faq is set)
      Service landing page -> Service + BreadcrumbList
+     Industry landing page-> CollectionPage + BreadcrumbList
      Article (single)     -> Article + BreadcrumbList
      Other (section/list) -> BreadcrumbList
    ========================================================================= */ -}}
@@ -32,9 +33,28 @@
     {{- end -}}
   {{- end -}}
 
+  {{- /* Detect an industry landing page (exact path, any language prefix). */ -}}
+  {{- $isIndustry := false -}}
+  {{- range $company.industries -}}
+    {{- $ip := .url_path -}}
+    {{- if or (eq $rel $ip) (eq $rel (printf "/de%s" $ip)) (eq $rel (printf "/es%s" $ip)) (eq $rel (printf "/fr%s" $ip)) (eq $rel (printf "/ja%s" $ip)) -}}
+      {{- $isIndustry = true -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Detect the industry HUB (section landing at /industries/). */ -}}
+  {{- $isIndustryHub := false -}}
+  {{- if or (eq $rel "/industries/") (eq $rel "/de/industries/") (eq $rel "/es/industries/") (eq $rel "/fr/industries/") (eq $rel "/ja/industries/") -}}
+    {{- $isIndustryHub = true -}}
+  {{- end -}}
+
   {{- if $isService -}}
     {{ partial "schema/service.html" . }}
     {{ partial "schema/breadcrumb.html" . }}
+  {{- else if or $isIndustry $isIndustryHub -}}
+    {{ partial "schema/industry.html" (dict "page" . "isHub" $isIndustryHub) }}
+    {{ partial "schema/breadcrumb.html" . }}
+    {{ partial "schema/faq.html" . }}
   {{- else if eq .Kind "page" -}}
     {{ partial "schema/article.html" . }}
     {{ partial "schema/breadcrumb.html" . }}

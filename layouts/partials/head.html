@@ -48,6 +48,14 @@
       {{ end }}
     {{ end }}
   {{ end }}
+  {{ with .AllTranslations }}
+    {{ $xDefault := "" }}
+    {{ range . }}
+      {{ if eq .Language.Lang "en" }}{{ $xDefault = .Permalink }}{{ end }}
+    {{ end }}
+    {{ if $xDefault }}<link rel="alternate" hreflang="x-default" href="{{ $xDefault }}">{{ end }}
+  {{ end }}
+
   {{ range .AlternativeOutputFormats }}
     {{ printf `
       <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink ($.Site.Title | emojify) |

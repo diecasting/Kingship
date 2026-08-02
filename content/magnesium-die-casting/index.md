@@ -8,6 +8,64 @@ disableHeroImageFilter: true
 featureImage: "/img/magnesium-die-casting-banner.webp"
 featureImageAlt: "High-precision magnesium alloy hot and cold chamber die casting production fleet"
 showTableOfContents: false
+service:
+  name: "Magnesium Die Casting"
+  category: "High-Pressure Die Casting"
+  tagline: "Lightweight magnesium HPDC from 400T to 3000T, engineered for automotive, EV, and aerospace thin-wall structural components."
+  materials:
+    - "AZ91D"
+    - "AM60B / AM50A"
+  processes:
+    - "High Pressure Die Casting"
+    - "CNC Machining"
+    - "Mold Flow & DFM Analysis"
+  equipment:
+    - "3000T HPDC Machine"
+    - "400T–3000T Die Casting Fleet"
+    - "High-Precision CNC Workshop"
+  specifications:
+    - label: "Machine Tonnage"
+      value: "400T – 3000T"
+    - label: "Min. Wall Thickness"
+      value: "1.0 mm"
+    - label: "CNC Tolerance"
+      value: "±0.01 mm"
+    - label: "Surface Treatment"
+      value: "MAO Coating, E-Coating"
+  industries:
+    - "Automotive"
+    - "EV"
+    - "Aerospace"
+  applications:
+    - "Structural Components"
+    - "Housings & Enclosures"
+    - "Safety Components"
+  quality:
+    - "X-ray Porosity Inspection"
+    - "CMM Dimensional Verification"
+    - "Automotive Quality Framework (IATF 16949)"
+  certifications:
+    - "IATF 16949"
+    - "ISO 9001"
+  seo_keywords:
+    - "magnesium die casting"
+    - "AZ91D AM60B die casting"
+    - "magnesium HPDC China"
+  related_resources:
+    - title: "AZ91D Properties Engineering Guide"
+      url: "https://alumcasting.com/az91d-magnesium-die-casting-automotive-parts/"
+    - title: "AM60B Alloy Properties"
+      url: "https://alumcasting.com/am60b-magnesium-alloy-die-casting-suppliers/"
+  wordpress_resources:
+    - title: "One-stop Die Casting, CNC & Finishing"
+      url: "https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/"
+  faq:
+    - q: "What magnesium alloys do you cast?"
+      a: "We routinely cast AZ91D, AM60B, and AM50A, selected per your strength, ductility, and corrosion-resistance requirements."
+    - q: "What is your maximum part size?"
+      a: "Our 3000T machine supports large thin-wall structural components; typical wall thickness starts at 1.0 mm with CNC tolerance to ±0.01 mm."
+    - q: "Do you support automotive quality standards?"
+      a: "Yes — we operate to IATF 16949 / ISO 9001 with non-destructive X-ray porosity inspection and full PPAP documentation."
 ---
 
 {{< center_style >}}

@@ -20,6 +20,8 @@
         width="96"
         height="96"
         alt="{{ $.Site.Params.Author.name | default " Author" }}"
+        title="{{ $.Site.Params.Author.name | default " Author" }}"
+        loading="lazy"
         src="{{ $final.RelPermalink }}"
         data-zoom-src="{{ $squareImage.RelPermalink }}">
     {{ else }}
@@ -36,6 +38,8 @@
         width="96"
         height="96"
         alt="{{ $.Site.Params.Author.name | default " Author" }}"
+        title="{{ $.Site.Params.Author.name | default " Author" }}"
+        loading="lazy"
         src="{{ $final.RelPermalink }}"
         data-zoom-src="{{ $squareImage.RelPermalink }}">
     {{ end }}

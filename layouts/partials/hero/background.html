@@ -74,9 +74,12 @@
       id="background-image"
       src="{{ . }}"
       role="presentation"
-      loading="eager"
+      alt="{{ site.Title }}"
+      title="{{ site.Title }}"
+      loading="lazy"
       decoding="async"
-      fetchpriority="high"
+      width="100%"
+      height="100%"
       class="absolute inset-0 w-full h-full object-cover"
       {{ if $style }}style="{{ $style | safeCSS }}"{{ end }}>
     <div

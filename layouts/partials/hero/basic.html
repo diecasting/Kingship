@@ -54,9 +54,12 @@
     <img
       src="{{ . }}"
       role="presentation"
-      loading="eager"
+      alt="{{ site.Title }}"
+      title="{{ site.Title }}"
+      loading="lazy"
       decoding="async"
-      fetchpriority="high"
+      width="100%"
+      height="100%"
       class="w-full h-full nozoom object-cover"
       {{ if $style }}style="{{ $style | safeCSS }}"{{ end }}>
   </div>

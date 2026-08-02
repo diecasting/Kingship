@@ -31,7 +31,7 @@
     "name": "{{ $company.brand | safeJS }}"
   },
   "areaServed": [
-    {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}"{{ $ind | safeJS }}"{{ end }}
+    {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}"{{ $ind.name | safeJS }}"{{ end }}
   ]
 }
 </script>

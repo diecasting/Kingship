@@ -90,9 +90,12 @@
     <img
       src="{{ . }}"
       role="presentation"
-      loading="eager"
+      alt="{{ site.Title }}"
+      title="{{ site.Title }}"
+      loading="lazy"
       decoding="async"
-      fetchpriority="high"
+      width="100%"
+      height="100%"
       class="w-full h-full nozoom object-cover"
       {{ with $.Params.imagePositionFeature }}style="object-position: {{ . }};"{{ end }}>
   </div>
@@ -110,9 +113,12 @@
       id="background-image-main"
       src="{{ . }}"
       role="presentation"
-      loading="eager"
+      alt="{{ site.Title }}"
+      title="{{ site.Title }}"
+      loading="lazy"
       decoding="async"
-      fetchpriority="high"
+      width="100%"
+      height="100%"
       class="absolute inset-0 h-full w-full object-cover"
       {{ if $style }}style="{{ $style | safeCSS }}"{{ end }}>
   {{ end }}

@@ -39,7 +39,7 @@
     {{ range $i, $c := $company.certifications }}{{ if $i }}, {{ end }}"{{ $c | safeJS }}"{{ end }}
   ],
   "areaServed": [
-    {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}"{{ $ind | safeJS }}"{{ end }}
+    {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}"{{ $ind.name | safeJS }}"{{ end }}
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",

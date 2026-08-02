@@ -1,0 +1,101 @@
+{{- /* layouts/industries/single.html
+   Industry Landing Page renderer. Visible content is driven by the data model
+   in data/company.yaml (industries[].url_path matched against the page's
+   canonical path) for the hero/description/related-services, plus the page's
+   own front matter for the SEO title/description and the FAQ accordion
+   (`.Params.schema.faq`, which also feeds the FAQPage JSON-LD engine).
+   The markdown body (`.Content`) carries the page's editorial copy.
+   Added in Phase 5C-1 (routing architecture); content authored in 5C-2A.
+   Wrapped in `define "main"` so baseof.html (and the schema engine in
+   head.html) applies. */ -}}
+
+{{ define "main" }}
+  {{- /* Resolve the industry record from the data model by canonical path,
+         stripping any language prefix so /de/industries/automotive/ matches
+         /industries/automotive/. */ -}}
+  {{- $parts := split (trim .RelPermalink "/") "/" -}}
+  {{- if in (slice "en" "de" "es" "fr" "ja") (index $parts 0) -}}{{- $parts = after 1 $parts -}}{{- end -}}
+  {{- $canon := printf "/%s/" (delimit $parts "/") -}}
+  {{- $ind := dict -}}
+  {{- range site.Data.company.industries -}}
+    {{- if eq .url_path $canon -}}{{- $ind = . -}}{{- end -}}
+  {{- end -}}
+
+  <section class="mx-auto max-w-5xl px-4 py-16">
+    <header class="mb-10">
+      {{ with $ind.name }}<h1 class="text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-50">{{ . }}</h1>{{ end }}
+      {{ with $ind.description }}<p class="mt-4 max-w-2xl text-lg text-neutral-600 dark:text-neutral-300">{{ . }}</p>{{ end }}
+    </header>
+
+    {{ with $ind.hero_image }}<img src="{{ . }}" alt="{{ $ind.name }}" class="mb-12 w-full rounded-xl object-cover" />{{ end }}
+
+    {{ with .Content }}<div class="mb-12 max-w-3xl text-neutral-700 dark:text-neutral-300">{{ . }}</div>{{ end }}
+
+    {{ with $ind.services }}
+    <section class="mb-12">
+      <h2 class="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-50">Related Services</h2>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {{- range . -}}
+          {{- $sid := . -}}
+          {{- range site.Data.company.services -}}
+            {{- if eq .id $sid -}}
+              <a href="{{ .url_path | relLangURL }}" class="block rounded-xl border border-neutral-200 p-6 shadow-sm transition hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800">
+                <h3 class="text-lg font-semibold text-neutral-900 dark:text-neutral-50">{{ .name }}</h3>
+                {{ with .description }}<p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">{{ . }}</p>{{ end }}
+              </a>
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      </div>
+    </section>
+    {{ end }}
+
+    {{/* Knowledge-cluster cross-links to the manufacturing blog (Phase 5C-4).
+       Resolved via Hugo GetPage so the URL localizes automatically per language.
+       The section only renders when at least one referenced article resolves in
+       the current language (blog translations added later will light it up). */}}
+    {{ with $ind.related_articles }}
+      {{- $articles := slice -}}
+      {{- range . -}}
+        {{- with site.GetPage .ref -}}{{- $articles = $articles | append . -}}{{- end -}}
+      {{- end -}}
+      {{- if $articles -}}
+    <section class="mb-12">
+      <h2 class="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-50">Related Manufacturing Articles</h2>
+      <div class="grid gap-6 sm:grid-cols-2">
+        {{- range $articles -}}
+            <a href="{{ .RelPermalink }}" class="block rounded-xl border border-neutral-200 p-6 shadow-sm transition hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800">
+              <h3 class="text-lg font-semibold text-neutral-900 dark:text-neutral-50">{{ .Title }}</h3>
+              {{ with .Description }}<p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">{{ . }}</p>{{ end }}
+            </a>
+        {{- end -}}
+      </div>
+    </section>
+      {{- end -}}
+    {{ end }}
+
+    {{/* FAQ — single source of truth: .Params.schema.faq (also drives FAQPage JSON-LD). */}}
+    {{ with .Params.schema.faq }}
+      {{ if gt (len .) 0 }}
+      <section class="mb-12">
+        <h2 class="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-50">Frequently Asked Questions</h2>
+        <div class="space-y-3">
+          {{ range . }}
+            <details class="group rounded-xl border border-neutral-200 bg-white dark:border-neutral-700 dark:bg-neutral-800">
+              <summary class="flex cursor-pointer list-none items-center justify-between px-5 py-4 font-semibold text-neutral-900 dark:text-neutral-100">
+                <span>{{ .question }}</span>
+                <span class="text-xl leading-none text-primary-500 transition group-open:rotate-45" aria-hidden="true">+</span>
+              </summary>
+              <div class="px-5 pb-4 text-neutral-600 dark:text-neutral-300">{{ .answer }}</div>
+            </details>
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
+    {{ end }}
+
+    <section>
+      <a href="{{ "/contact/" | relLangURL }}" class="inline-flex items-center rounded-lg bg-primary-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-primary-500">Request a Quote</a>
+    </section>
+  </section>
+{{ end }}

@@ -114,10 +114,71 @@ services:
     schema_type: "Tooling"
     description: "In-house die casting tooling design, manufacturing and maintenance."
 
-# --- Industries served (areaServed) ---
+# --- Industries served (content model + areaServed) ---
+# Structured model driving /industries/<slug>/ landing pages (Phase 5C-2
+# content) and the Industry JSON-LD (layouts/partials/schema/industry.html).
+# `slug` + `url_path` are the canonical routing keys; `services` lists the
+# service ids (see `services` above) that serve this vertical; `name` is the
+# value emitted in Service/Organization `areaServed`. The marketing copy for
+# the homepage "Industries We Serve" block lives in data/homepage/*.yaml and
+# is intentionally separate from this canonical data model.
 industries:
-  - "Automotive"
-  - "EV"
-  - "Aerospace"
-  - "Industrial"
-  - "Medical"
+  - slug: automotive
+    name: "Automotive"
+    url_path: "/industries/automotive/"
+    description: "Powertrain, structural and thermal-management components with IATF 16949 discipline."
+    hero_image: "https://kingship.alumcasting.com/img/automated-die-casting-production-line.webp"
+    services:
+      - aluminum-die-casting
+      - magnesium-die-casting
+      - cnc-machining
+      - die-casting-tooling
+      - semi-solid-rheocasting
+  - slug: electric-vehicle
+    name: "Electric Vehicle"
+    url_path: "/industries/electric-vehicle/"
+    description: "Battery structures, housings and brackets for lightweight, long-range platforms."
+    hero_image: "https://kingship.alumcasting.com/img/leakaging-testing-equipment.webp"
+    services:
+      - aluminum-die-casting
+      - magnesium-die-casting
+      - cnc-machining
+      - die-casting-tooling
+      - semi-solid-rheocasting
+  - slug: aerospace
+    name: "Aerospace"
+    url_path: "/industries/aerospace/"
+    description: "Lightweight, high-integrity magnesium and aluminum parts for flight applications."
+    hero_image: "https://kingship.alumcasting.com/img/magnesium-die-casting-banner.webp"
+    services:
+      - magnesium-die-casting
+      - semi-solid-rheocasting
+    # Knowledge-cluster cross-links to the manufacturing blog (Phase 5C-4).
+    # `ref` is a content-relative path resolved via Hugo GetPage so the URL
+    # localizes automatically per language; title/URL come from the page.
+    related_articles:
+      - ref: "blog/magnesium-die-casting-for-aerospace-lightweight-components.md"
+      - ref: "blog/semi-solid-rheocasting-applications-in-aerospace-manufacturing.md"
+  - slug: industrial
+    name: "Industrial"
+    url_path: "/industries/industrial/"
+    description: "Durable enclosures, frames and mechanism parts for demanding environments."
+    hero_image: "https://kingship.alumcasting.com/img/aluminum-die-casting-parts-storage.webp"
+    services:
+      - aluminum-die-casting
+      - magnesium-die-casting
+      - cnc-machining
+      - die-casting-tooling
+  - slug: medical
+    name: "Medical"
+    url_path: "/industries/medical/"
+    description: "Clean, dimensionally stable components for diagnostic and device applications."
+    hero_image: "https://kingship.alumcasting.com/img/hexagon-coordinate-measuring-machine-inspection.webp"
+    services:
+      - cnc-machining
+    # Knowledge-cluster cross-links to the manufacturing blog (Phase 5C-4).
+    # `ref` is a content-relative path resolved via Hugo GetPage so the URL
+    # localizes automatically per language; title/URL come from the page.
+    related_articles:
+      - ref: "blog/aluminum-housings-for-medical-devices.md"
+      - ref: "blog/precision-cnc-machining-for-medical-equipment-components.md"

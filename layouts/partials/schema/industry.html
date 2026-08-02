@@ -1,0 +1,118 @@
+{{- /* schema/industry.html — Industry Landing Page JSON-LD
+   Data: site.Data.company.industries (data/company.yaml)
+   Detects the current page against each industry url_path (any language prefix)
+   and emits a CollectionPage describing the vertical and its related services.
+   Called by: schema.html (industry landing pages) */ -}}
+
+{{- $company := hugo.Data.company -}}
+{{- $page := .page | default . -}}
+{{- $isHub := .isHub | default false -}}
+{{- $rel := $page.RelPermalink -}}
+{{- $matched := slice -}}
+{{- range $company.industries -}}
+  {{- $ip := .url_path -}}
+  {{- if or (eq $rel $ip) (eq $rel (printf "/de%s" $ip)) (eq $rel (printf "/es%s" $ip)) (eq $rel (printf "/fr%s" $ip)) (eq $rel (printf "/ja%s" $ip)) -}}
+    {{- $matched = $matched | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- if $isHub -}}
+{{- /* Industry HUB: CollectionPage over the full service catalog. */ -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ $page.Permalink }}#webpage",
+  "name": "{{ $page.Title | safeJS }}",
+  {{ with $page.Description }}"description": "{{ . | safeJS }}",{{ end }}
+  "url": "{{ $page.Permalink | safeJS }}",
+  "isPartOf": { "@type": "WebSite", "@id": "{{ $page.Site.BaseURL }}#website" },
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {{- $n := 0 -}}
+      {{- range $company.services -}}
+        {{- if gt $n 0 }}, {{ end -}}{
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "{{ .name | safeJS }}",
+            "url": "{{ $page.Site.BaseURL }}{{ strings.TrimPrefix "/" .url_path | safeJS }}"
+          }
+        }
+        {{- $n = add $n 1 -}}
+      {{- end -}}
+    ]
+  }
+}
+</script>
+{{- else -}}
+{{- with (index $matched 0) -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ $page.Permalink }}#webpage",
+  "name": "{{ .name | safeJS }}",
+  {{ with .description }}"description": "{{ . | safeJS }}",{{ end }}
+  "url": "{{ $page.Permalink | safeJS }}",
+  "isPartOf": { "@type": "WebSite", "@id": "{{ $page.Site.BaseURL }}#website" }
+  {{- with .hero_image -}},
+  "image": "{{ . | safeJS }}"
+  {{- end -}},
+  "about": {
+    "@type": "Thing",
+    "name": "{{ .name | safeJS }}"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {{- $n := 0 -}}
+      {{- range .services -}}
+        {{- $sid := . -}}
+        {{- range $company.services -}}
+          {{- if eq .id $sid -}}
+            {{- if gt $n 0 }}, {{ end -}}{
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "{{ .name | safeJS }}",
+                "url": "{{ $page.Site.BaseURL }}{{ strings.TrimPrefix "/" .url_path | safeJS }}"
+              }
+            }
+            {{- $n = add $n 1 -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    ]
+  }
+  {{- /* Knowledge-cluster: BlogPosting ItemList references (Phase 5C-4).
+         Emitted only when the industry defines `related_articles` AND at least
+         one referenced article resolves via Hugo GetPage (so it localizes per
+         language; blog translations added later will populate it automatically). */ -}}
+  {{- $articles := slice -}}
+  {{- with .related_articles -}}
+    {{- range . -}}{{- with site.GetPage .ref -}}{{- $articles = $articles | append . -}}{{- end -}}{{- end -}}
+  {{- end -}}
+  {{- if $articles -}}
+  ,
+  "blogPosts": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {{- $bn := 0 -}}
+      {{- range $articles -}}
+        {{- if gt $bn 0 }}, {{ end -}}{
+          "@type": "BlogPosting",
+          "headline": "{{ .Title | plainify | safeJS }}",
+          "name": "{{ .Title | plainify | safeJS }}",
+          {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
+          "url": "{{ .Permalink | safeJS }}"
+        }
+        {{- $bn = add $bn 1 -}}
+      {{- end -}}
+    ]
+  }
+  {{- end -}}
+}
+</script>
+{{- end -}}
+{{- end -}}

@@ -207,3 +207,22 @@ a[href*="t.me/share"] {
   color: var(--hy-navy); line-height: 1;
 }
 .hy-stat__label { color: var(--muted, #5b6b7b); font-size: .95rem; margin-top: 6px; }
+
+/* Hybrid 网格助手 —— 绕开 legacy `main .grid{display:block!important}` 覆盖，
+   新分区布局统一使用 .hy-grid 而非 Tailwind .grid。 */
+.hy-grid { display: grid; }
+.hy-grid--2 { grid-template-columns: 1fr; }
+.hy-grid--3 { grid-template-columns: 1fr; }
+.hy-grid--4 { grid-template-columns: 1fr; }
+.hy-grid--5 { grid-template-columns: 1fr; }
+@media (min-width: 768px) {
+  .hy-grid--3 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .hy-grid--4 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .hy-grid--5 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+}
+@media (min-width: 1024px) {
+  .hy-grid--2 { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .hy-grid--3 { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .hy-grid--4 { grid-template-columns: repeat(4, minmax(0,1fr)); }
+  .hy-grid--5 { grid-template-columns: repeat(5, minmax(0,1fr)); }
+}

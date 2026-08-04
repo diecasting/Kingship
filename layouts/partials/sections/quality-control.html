@@ -3,29 +3,46 @@
 {{- $lang := .Lang -}}
 {{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
 {{- with $hp.quality -}}
-<section class="container mx-auto px-4 py-12 md:py-16 bg-neutral-50 dark:bg-neutral-900/40">
-  <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-    <div class="prose dark:prose-invert max-w-none order-2 lg:order-1">
-      <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white">{{ .heading }}</h2>
-      {{- with .lead -}}<p class="mt-3 text-blue-600 dark:text-blue-400 font-medium">{{ . }}</p>{{- end -}}
-      {{- with .body -}}<div class="mt-4">{{ . | markdownify }}</div>{{- end -}}
-      {{- with .standards -}}
-      <div class="mt-4 flex flex-wrap gap-2">
-        {{- range . -}}<span class="px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-sm font-semibold">{{ . }}</span>{{- end -}}
+<section class="bg-neutral-50 dark:bg-neutral-900/40 py-12 md:py-16">
+  <div class="mx-auto max-w-screen-xl px-4">
+    <div class="hy-grid hy-grid--2 gap-8 items-center">
+      <div class="prose dark:prose-invert max-w-none order-2 lg:order-1">
+        <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white">{{ .heading }}</h2>
+        {{- with .lead -}}<p class="mt-3 text-[#0c4a8e] dark:text-[#60a5fa] font-medium">{{ . }}</p>{{- end -}}
+        {{- with .body -}}<div class="mt-4">{{ . | markdownify }}</div>{{- end -}}
+        {{- with .methods -}}
+        <ul class="mt-4 space-y-1 text-sm text-neutral-600 dark:text-neutral-300">
+          {{- range . -}}<li class="flex items-center gap-2"><span class="text-[#d98c0c]">✓</span>{{ . }}</li>{{- end -}}
+        </ul>
+        {{- end -}}
+      </div>
+      {{- with .image -}}
+      <div class="order-1 lg:order-2">
+        <img src="{{ .url }}" alt="{{ .alt }}" title="{{ .title }}" loading="lazy"
+             class="w-full h-auto rounded-2xl shadow-lg">
       </div>
       {{- end -}}
-      {{- with .methods -}}
-      <ul class="mt-4 space-y-1 text-sm text-neutral-600 dark:text-neutral-300">
-        {{- range . -}}<li class="flex items-center gap-2"><span class="text-blue-500">✓</span>{{ . }}</li>{{- end -}}
-      </ul>
-      {{- end -}}
     </div>
-    {{- with .image -}}
-    <div class="order-1 lg:order-2">
-      <img src="{{ .url }}" alt="{{ .alt }}" title="{{ .title }}" loading="lazy"
-           class="w-full h-auto rounded-xl shadow-lg">
+    {{- with .standards -}}
+    <div class="mt-10">
+      <div class="hy-grid hy-grid--4 gap-4">
+        {{- range . -}}
+        <div class="hy-cert text-center">
+          <div class="text-lg font-bold text-[#0c4a8e] dark:text-[#60a5fa]">{{ . }}</div>
+          <div class="mt-1 text-xs text-neutral-500 dark:text-neutral-400">Certified quality system</div>
+        </div>
+        {{- end -}}
+      </div>
     </div>
     {{- end -}}
+    <div class="mt-8">
+      <div class="hy-grid hy-grid--4 gap-4">
+        <div class="text-center"><div class="hy-stat__num">23</div><div class="hy-stat__label">Years of precision manufacturing (Since 2003)</div></div>
+        <div class="text-center"><div class="hy-stat__num">5000T</div><div class="hy-stat__label">Largest die casting machine</div></div>
+        <div class="text-center"><div class="hy-stat__num">2</div><div class="hy-stat__label">Quality certifications (ISO 9001 · IATF 16949)</div></div>
+        <div class="text-center"><div class="hy-stat__num">X-Ray</div><div class="hy-stat__label">Real-time porosity inspection</div></div>
+      </div>
+    </div>
   </div>
 </section>
 {{- end -}}

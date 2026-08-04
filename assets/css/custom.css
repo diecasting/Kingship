@@ -76,3 +76,134 @@ a[href*="t.me/share"] {
 .main-menu span.sr-only {
     display: none !important;
 }
+
+/* ==========================================================================
+   V2 Hybrid Design System (2026-08-04)
+   借鉴 industrial-manufacturer-hugo-template-2.1 的工业制造视觉语言，
+   以纯 CSS 落地（不依赖 @apply，确保在 Tailwind 管线内稳定编译）。
+   组件 markup 位于 layouts/partials/sections/* 等，配合 Tailwind 工具类使用。
+   ========================================================================== */
+
+:root {
+  /* Hybrid palette：保留 Kingship 亮蓝为主品牌，
+     引入 template-2.1 钢铁琥珀强调色 + 工业藏蓝（暗色带/footer）。 */
+  --hy-brand: #2563eb;
+  --hy-brand-600: #1d4ed8;
+  --hy-brand-700: #1e40af;
+  --hy-navy: #0c4a8e;
+  --hy-navy-700: #082f5b;
+  --hy-navy-900: #0b1b2c;
+  --hy-amber: #f5a623;
+  --hy-amber-600: #d98c0c;
+  --hy-amber-050: #fdf3e0;
+  --hy-radius: 14px;
+  --hy-radius-lg: 20px;
+  --hy-shadow-sm: 0 1px 2px rgba(16,32,43,.06), 0 1px 3px rgba(16,32,43,.08);
+  --hy-shadow: 0 10px 30px rgba(16,32,43,.10);
+  --hy-shadow-lg: 0 20px 48px rgba(16,32,43,.16);
+  --hy-maxw: 1200px;
+}
+
+/* Hero 渐变背景（品牌径向光晕 + 浅色竖向渐变） */
+.hy-hero {
+  background:
+    radial-gradient(1200px 420px at 82% -12%, rgba(12,74,142,.12), transparent 60%),
+    linear-gradient(180deg, #f3f7fc 0%, #ffffff 100%);
+}
+.hy-hero__eyebrow {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 999px;
+  background: var(--hy-amber-050);
+  color: var(--hy-amber-600);
+  font-weight: 600;
+  font-size: .85rem;
+  letter-spacing: .02em;
+  border: 1px solid rgba(245,166,35,.35);
+}
+
+/* 胶囊按钮基础（与 Tailwind 配合保证一致性） */
+.hy-pill {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 14px 30px; border-radius: 999px; font-weight: 600; font-size: 1rem;
+  line-height: 1; white-space: nowrap; cursor: pointer;
+  transition: transform .22s ease, background-color .22s ease, box-shadow .22s ease;
+}
+.hy-pill--primary { background: var(--hy-brand); color: #fff; box-shadow: var(--hy-shadow-sm); }
+.hy-pill--primary:hover { background: var(--hy-brand-600); transform: translateY(-2px); box-shadow: var(--hy-shadow); }
+.hy-pill--ghost { background: transparent; color: var(--hy-navy); border: 2px solid var(--hy-navy); }
+.hy-pill--ghost:hover { background: var(--hy-navy); color: #fff; transform: translateY(-2px); }
+.hy-pill--amber { background: var(--hy-amber); color: #1c1300; box-shadow: var(--hy-shadow-sm); }
+.hy-pill--amber:hover { background: var(--hy-amber-600); transform: translateY(-2px); box-shadow: var(--hy-shadow); }
+
+/* 玻璃质感 sticky header */
+.hy-glass {
+  background: rgba(255,255,255,.72);
+  backdrop-filter: saturate(160%) blur(10px);
+  -webkit-backdrop-filter: saturate(160%) blur(10px);
+  border-bottom: 1px solid rgba(227,232,238,.7);
+}
+
+/* 暗色双径向渐变 CTA 带（藏蓝 + 琥珀） */
+.hy-cta-band {
+  background:
+    radial-gradient(900px 380px at 12% 0%, rgba(245,166,35,.18), transparent 55%),
+    radial-gradient(900px 420px at 92% 100%, rgba(12,74,142,.55), transparent 55%),
+    linear-gradient(180deg, var(--hy-navy) 0%, var(--hy-navy-900) 100%);
+  color: #fff;
+}
+
+/* 交替分区底色带 */
+.hy-section-alt { background: #f5f7fa; }
+
+/* Hover-lift 卡片（亦可用 Tailwind 工具类实现） */
+.hy-lift { transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+.hy-lift:hover { transform: translateY(-4px); box-shadow: var(--hy-shadow); }
+
+/* 工艺流程步骤器 */
+.hy-process { display: flex; flex-wrap: wrap; align-items: stretch; }
+.hy-process__step { flex: 1 1 160px; position: relative; padding: 20px; text-align: center; }
+.hy-process__dot {
+  width: 48px; height: 48px; margin: 0 auto 12px; border-radius: 999px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--hy-brand); color: #fff; font-weight: 700;
+}
+.hy-process__step:not(:last-child)::after {
+  content: ""; position: absolute; top: 44px; right: -50%; width: 100%; height: 2px;
+  background: linear-gradient(90deg, var(--hy-amber), var(--hy-brand));
+}
+@media (max-width: 768px) {
+  .hy-process { flex-direction: column; }
+  .hy-process__step:not(:last-child)::after {
+    top: auto; bottom: -16px; right: 50%; width: 2px; height: 32px;
+    background: linear-gradient(180deg, var(--hy-amber), var(--hy-brand));
+  }
+}
+
+/* FAQ 手风琴（纯 CSS，<details> 驱动，镜像 template-2.1 行为） */
+.hy-faq__item { border-bottom: 1px solid var(--line, #e3e8ee); }
+.hy-faq__q {
+  width: 100%; text-align: left; background: none; border: 0; padding: 18px 0;
+  font-weight: 600; font-size: 1.05rem; color: var(--ink, #16202b); cursor: pointer;
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+}
+.hy-faq__icon { transition: transform .25s ease; color: var(--hy-brand); font-size: 1.4rem; line-height: 1; }
+.hy-faq__item[open] .hy-faq__icon { transform: rotate(45deg); }
+.hy-faq__a { max-height: 0; overflow: hidden; transition: max-height .3s ease; }
+.hy-faq__item[open] .hy-faq__a { max-height: 600px; }
+.hy-faq__a > div { padding: 0 0 18px; color: var(--muted, #5b6b7b); }
+
+/* 认证 / 信任卡 */
+.hy-cert {
+  border: 1px solid #e3e8ee; border-radius: var(--hy-radius); padding: 20px;
+  background: #fff; box-shadow: var(--hy-shadow-sm);
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.hy-cert:hover { transform: translateY(-4px); box-shadow: var(--hy-shadow); }
+
+/* 数据指标块 */
+.hy-stat__num {
+  font-size: clamp(2rem, 1.2rem + 2.4vw, 3rem); font-weight: 800;
+  color: var(--hy-navy); line-height: 1;
+}
+.hy-stat__label { color: var(--muted, #5b6b7b); font-size: .95rem; margin-top: 6px; }

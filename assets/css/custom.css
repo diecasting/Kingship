@@ -388,3 +388,80 @@ a[href*="t.me/share"] {
 .hy-footer__attr a:hover {
   color: #fff;
 }
+
+/* ==========================================================================
+   2H: Blog / 文章卡呈现重饰（仅 CSS，覆盖既有 .article-link--* 中性样式）
+   ========================================================================== */
+
+/* 卡片视图（blog 列表 / term 页 默认 cardView=true） */
+.article-link--card {
+  background: #ffffff;
+  border-color: #e3e8ee;
+  border-radius: var(--hy-radius);
+  box-shadow: var(--hy-shadow-sm);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.article-link--card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--hy-shadow);
+  border-color: var(--hy-brand);
+}
+/* 悬停渐变顶饰条 */
+.article-link--card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--hy-brand), var(--hy-amber));
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+.article-link--card:hover::after {
+  opacity: 1;
+}
+/* 标题悬停改品牌蓝 */
+.article-link--card a:hover h2 {
+  color: var(--hy-brand);
+}
+
+/* 列表视图（showCards 时的 simple 卡） */
+.article-link--simple {
+  border-radius: var(--hy-radius);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.article-link--simple:hover {
+  transform: translateY(-2px);
+}
+.article-link--simple a:hover h2 {
+  color: var(--hy-brand);
+}
+
+/* 暗色模式适配 */
+.dark .article-link--card {
+  background: #0f2336;
+  border-color: #1c3850;
+}
+.dark .article-link--card:hover {
+  border-color: var(--hy-amber);
+}
+.dark .article-link--simple {
+  background: transparent;
+}
+
+/* 单篇文章标题下方渐变装饰线（服务页与博客页共用 single.html，统一品牌感） */
+#single_header {
+  position: relative;
+  padding-bottom: 18px;
+}
+#single_header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 64px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--hy-brand), var(--hy-amber));
+}

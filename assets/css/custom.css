@@ -226,3 +226,70 @@ a[href*="t.me/share"] {
   .hy-grid--4 { grid-template-columns: repeat(4, minmax(0,1fr)); }
   .hy-grid--5 { grid-template-columns: repeat(5, minmax(0,1fr)); }
 }
+
+/* ==========================================================================
+   2F: 玻璃 Header + 渐变 Logo（仅 CSS 重饰，保留菜单结构与语言切换器逻辑）
+   ========================================================================== */
+
+/* 持久玻璃导航条：所有页面均呈现半透明毛玻璃效果，
+   与既有 hero 模糊层(#menu-blur)共存，互不冲突。 */
+.hy-header {
+  background: rgba(255, 255, 255, .72);
+  backdrop-filter: saturate(170%) blur(14px);
+  -webkit-backdrop-filter: saturate(170%) blur(14px);
+  border-bottom: 1px solid rgba(16, 32, 43, .08);
+  box-shadow: 0 6px 24px rgba(16, 32, 43, .06);
+  transition: background-color .3s ease, box-shadow .3s ease;
+}
+.dark .hy-header {
+  background: rgba(11, 27, 44, .72);
+  border-bottom-color: rgba(255, 255, 255, .08);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, .28);
+}
+
+/* 渐变 logo 环：包裹 favicon，形成品牌渐变标识 */
+.main-menu .logo {
+  border-radius: 12px;
+  padding: 3px;
+  background: linear-gradient(135deg, var(--hy-brand) 0%, var(--hy-navy) 50%, var(--hy-amber) 100%);
+  box-shadow: var(--hy-shadow-sm);
+}
+
+/* 渐变文字 wordmark（KingShip Precision） */
+.hy-logo-text {
+  background: linear-gradient(120deg, var(--hy-brand) 0%, var(--hy-navy) 55%, var(--hy-amber) 130%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: 700;
+  letter-spacing: -.01em;
+}
+.dark .hy-logo-text {
+  background: linear-gradient(120deg, #7fb0ff 0%, #cfe2ff 45%, var(--hy-amber) 130%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* 导航链接悬停渐变下划线（含语言切换标签，不含按钮图标） */
+.main-menu .bf-icon-color-hover {
+  position: relative;
+}
+.main-menu .bf-icon-color-hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--hy-brand), var(--hy-amber));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .25s ease;
+}
+.main-menu .bf-icon-color-hover:hover::after {
+  transform: scaleX(1);
+}

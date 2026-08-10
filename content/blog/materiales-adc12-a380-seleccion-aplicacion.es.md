@@ -19,7 +19,6 @@ Revise [ADC12 guide](https://alumcasting.com/aluminum-alloy-adc12-properties-eng
 
 - [DFM para reducir costes en moldes de fundicion a presion]({{< relref "blog/dfm-reduccion-costes-moldes.es.md" >}})
 - [Inspeccion por rayos X y CMM para validacion de serie]({{< relref "blog/inspeccion-rayosx-cmm-validacion-serie.es.md" >}})
-- [Tag Material en espanol]({{< relref "tags/material/_index.es.md" >}})
 - [Landing de fundicion de aluminio (ES)]({{< relref "aluminum-die-casting/index.es.md" >}})
 
 <section class="w-full mt-6">

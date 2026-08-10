@@ -19,7 +19,6 @@ Reference utile: [DFM and die casting cost reduction](https://alumcasting.com/ho
 
 - [Inspection rayons X et CMM pour la validation serie]({{< relref "blog/inspection-rayonsx-cmm-validation-serie.fr.md" >}})
 - [Choix des materiaux ADC12 et A380 selon application]({{< relref "blog/materiaux-adc12-a380-choix-application.fr.md" >}})
-- [Tag DFM en francais]({{< relref "tags/dfm/_index.fr.md" >}})
 - [Index du blog technique (FR)]({{< relref "blog/_index.fr.md" >}})
 
 <section class="w-full mt-6">

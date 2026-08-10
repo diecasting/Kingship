@@ -21,8 +21,6 @@ Consultez [factory CMM and X-ray inspection](https://alumcasting.com/die-casting
 
 - [DFM pour reduire le cout des moules en fonderie sous pression]({{< relref "blog/dfm-reduction-cout-moules.fr.md" >}})
 - [Choix des materiaux ADC12 et A380 selon application]({{< relref "blog/materiaux-adc12-a380-choix-application.fr.md" >}})
-- [Tag Quality en francais]({{< relref "tags/quality/_index.fr.md" >}})
-- [Tag CNC en francais]({{< relref "tags/cnc/_index.fr.md" >}})
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

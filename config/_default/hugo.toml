@@ -1,6 +1,9 @@
 theme = "blowfish"
 baseURL = "https://kingship.alumcasting.com/"
 
+# 禁用空的分类法页面（tags/authors/series/categories 均无内容引用），消除 GSC Soft 404
+disableKinds = ["taxonomy", "term"]
+
 # 核心修正：移除 contentDir 的硬编码，改用标准 Hugo 路径模式
 defaultContentLanguage = "en"
 title = "KingShip Precision"

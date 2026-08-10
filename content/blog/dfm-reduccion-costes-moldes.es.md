@@ -25,7 +25,6 @@ Referencia tecnica: [how DFM reduces die casting costs](https://alumcasting.com/
 
 - [Inspeccion por rayos X y CMM para validacion de serie]({{< relref "blog/inspeccion-rayosx-cmm-validacion-serie.es.md" >}})
 - [Seleccion de materiales ADC12 y A380 segun aplicacion]({{< relref "blog/materiales-adc12-a380-seleccion-aplicacion.es.md" >}})
-- [Tag DFM en espanol]({{< relref "tags/dfm/_index.es.md" >}})
 - [Indice tecnico del blog en espanol]({{< relref "blog/_index.es.md" >}})
 
 <section class="w-full mt-6">

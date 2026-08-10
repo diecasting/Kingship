@@ -19,7 +19,6 @@ References: [ADC12 engineering guide](https://alumcasting.com/aluminum-alloy-adc
 
 - [DFM pour reduire le cout des moules en fonderie sous pression]({{< relref "blog/dfm-reduction-cout-moules.fr.md" >}})
 - [Inspection rayons X et CMM pour la validation serie]({{< relref "blog/inspection-rayonsx-cmm-validation-serie.fr.md" >}})
-- [Tag Material en francais]({{< relref "tags/material/_index.fr.md" >}})
 - [Landing fonderie aluminium (FR)]({{< relref "aluminum-die-casting/index.fr.md" >}})
 
 <section class="w-full mt-6">

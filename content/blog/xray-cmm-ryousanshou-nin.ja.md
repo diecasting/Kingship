@@ -21,8 +21,6 @@ X線とCMMを分断せずに運用することで、異常原因の特定と工�
 
 - [DFMで実現するダイカスト金型コスト最適化]({{< relref "blog/dfm-kousutosaitekika-die-casting.ja.md" >}})
 - [ADC12とA380の材料選定ガイド]({{< relref "blog/adc12-a380-zairyou-sentaku.ja.md" >}})
-- [Qualityタグページ（JA）]({{< relref "tags/quality/_index.ja.md" >}})
-- [CNCタグページ（JA）]({{< relref "tags/cnc/_index.ja.md" >}})
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

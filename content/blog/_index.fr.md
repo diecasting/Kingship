@@ -11,18 +11,6 @@ layout: "list"
 
 Cette section regroupe des contenus techniques pour la production serie, l optimisation des couts et la fiabilite qualite.
 
-## Acces rapide par tags
-
-<div class="flex flex-wrap gap-3 my-5 not-prose">
-	<a href="{{< relref \"tags/ev/_index.fr.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">EV</a>
-	<a href="{{< relref \"tags/cnc/_index.fr.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">CNC</a>
-	<a href="{{< relref \"tags/quality/_index.fr.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">Quality</a>
-	<a href="{{< relref \"tags/dfm/_index.fr.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">DFM</a>
-	<a href="{{< relref \"tags/leak-test/_index.fr.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">Leak Test</a>
-	<a href="{{< relref \"tags/iatf-16949/_index.fr.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">IATF 16949</a>
-	<a href="{{< relref \"tags/material/_index.fr.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">Material</a>
-</div>
-
 ## Cluster technique 2026
 
 {{< fr_blog_tag_clusters >}}

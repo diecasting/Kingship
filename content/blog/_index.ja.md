@@ -11,18 +11,6 @@ layout: "list"
 
 このセクションでは、量産安定化、コスト最適化、品質向上に役立つ技術記事を掲載しています。
 
-## タグ別クイックアクセス
-
-<div class="flex flex-wrap gap-3 my-5 not-prose">
-	<a href="{{< relref \"tags/ev/_index.ja.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">EV</a>
-	<a href="{{< relref \"tags/cnc/_index.ja.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">CNC</a>
-	<a href="{{< relref \"tags/quality/_index.ja.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">Quality</a>
-	<a href="{{< relref \"tags/dfm/_index.ja.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">DFM</a>
-	<a href="{{< relref \"tags/leak-test/_index.ja.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">Leak Test</a>
-	<a href="{{< relref \"tags/iatf-16949/_index.ja.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">IATF 16949</a>
-	<a href="{{< relref \"tags/material/_index.ja.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">Material</a>
-</div>
-
 ## 技術クラスター 2026
 
 {{< ja_blog_tag_clusters >}}

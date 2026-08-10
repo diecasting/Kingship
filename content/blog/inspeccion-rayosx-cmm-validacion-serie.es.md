@@ -21,8 +21,6 @@ Use [CMM + X-ray factory inspection](https://alumcasting.com/die-casting-factory
 
 - [DFM para reducir costes en moldes de fundicion a presion]({{< relref "blog/dfm-reduccion-costes-moldes.es.md" >}})
 - [Seleccion de materiales ADC12 y A380 segun aplicacion]({{< relref "blog/materiales-adc12-a380-seleccion-aplicacion.es.md" >}})
-- [Tag Quality en espanol]({{< relref "tags/quality/_index.es.md" >}})
-- [Tag CNC en espanol]({{< relref "tags/cnc/_index.es.md" >}})
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

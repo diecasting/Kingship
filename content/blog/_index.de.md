@@ -13,18 +13,6 @@ Willkommen in unserer technischen Wissensdatenbank. Hier teilen unsere erfahrene
 
 *Durchsuchen Sie unten unsere technischen Publikationen:*
 
-## Schnellzugriff nach Tags
-
-<div class="flex flex-wrap gap-3 my-5 not-prose">
-	<a href="{{< relref \"tags/ev/_index.de.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">EV</a>
-	<a href="{{< relref \"tags/cnc/_index.de.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">CNC</a>
-	<a href="{{< relref \"tags/quality/_index.de.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">Quality</a>
-	<a href="{{< relref \"tags/dfm/_index.de.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">DFM</a>
-	<a href="{{< relref \"tags/leak-test/_index.de.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">Leak Test</a>
-	<a href="{{< relref \"tags/iatf-16949/_index.de.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">IATF 16949</a>
-	<a href="{{< relref \"tags/material/_index.de.md\" >}}" class="px-4 py-2 rounded-full border border-neutral-300 hover:border-primary-500 hover:text-primary-600 transition">Material</a>
-</div>
-
 ## Themencluster: Druckguss Wissen 2026
 
 {{< de_blog_tag_clusters >}}

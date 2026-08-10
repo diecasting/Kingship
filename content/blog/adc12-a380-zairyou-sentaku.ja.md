@@ -19,7 +19,6 @@ ADC12とA380の選定は、強度、鋳造性、後[加工](/ja/cnc-machining)�
 
 - [DFMで実現するダイカスト金型コスト最適化]({{< relref "blog/dfm-kousutosaitekika-die-casting.ja.md" >}})
 - [X線とCMMを組み合わせた量産承認フロー]({{< relref "blog/xray-cmm-ryousanshou-nin.ja.md" >}})
-- [Materialタグページ（JA）]({{< relref "tags/material/_index.ja.md" >}})
 - [アルミダイカストページ（JA）]({{< relref "aluminum-die-casting/index.ja.md" >}})
 
 <section class="w-full mt-6">

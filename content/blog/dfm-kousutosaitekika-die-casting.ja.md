@@ -19,7 +19,6 @@ tags: ["DFM", "Cost", "Process"]
 
 - [X線とCMMを組み合わせた量産承認フロー]({{< relref "blog/xray-cmm-ryousanshou-nin.ja.md" >}})
 - [ADC12とA380の材料選定ガイド]({{< relref "blog/adc12-a380-zairyou-sentaku.ja.md" >}})
-- [DFMタグページ（JA）]({{< relref "tags/dfm/_index.ja.md" >}})
 - [技術ブログ一覧（JA）]({{< relref "blog/_index.ja.md" >}})
 
 <section class="w-full mt-6">

@@ -60,14 +60,25 @@
         status.textContent = 'Thank you — your RFQ has been received. We will respond within 24 hours.';
         status.style.color = '#16a34a';
         // Push exactly one event per genuine successful submission.
+        // Tracking is best-effort: a failure inside dataLayer.push() must NOT be
+        // swallowed by or routed into the outer Formspree/network .catch below,
+        // which would falsely mark an already-accepted RFQ as failed and re-enable
+        // the submit button (duplicate submission risk).
         if (form.dataset.tracked !== '1') {
           window.dataLayer = window.dataLayer || [];
-          dataLayer.push({
-            event: 'rfqSuccess',
-            form_location: getLocation(form),
-            material: getMaterial(form)
-          });
-          form.dataset.tracked = '1';
+          try {
+            dataLayer.push({
+              event: 'rfqSuccess',
+              form_location: getLocation(form),
+              material: getMaterial(form)
+            });
+            form.dataset.tracked = '1';
+          } catch (trackErr) {
+            // Formspree already accepted the RFQ; only analytics failed.
+            if (window.console && console.warn) {
+              console.warn('rfqSuccess tracking skipped:', trackErr);
+            }
+          }
         }
       } else {
         return res.json().then(function (body) {

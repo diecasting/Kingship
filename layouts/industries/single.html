@@ -14,7 +14,9 @@
          stripping any language prefix so /de/industries/automotive/ matches
          /industries/automotive/. */ -}}
   {{- $parts := split (trim .RelPermalink "/") "/" -}}
-  {{- if in (slice "en" "de" "es" "fr" "ja") (index $parts 0) -}}{{- $parts = after 1 $parts -}}{{- end -}}
+  {{- $langCodes := slice -}}
+  {{- range site.Languages -}}{{- $langCodes = $langCodes | append .Lang -}}{{- end -}}
+  {{- if and (gt (len $parts) 0) (in $langCodes (index $parts 0)) -}}{{- $parts = after 1 $parts -}}{{- end -}}
   {{- $canon := printf "/%s/" (delimit $parts "/") -}}
   {{- $ind := dict -}}
   {{- range site.Data.company.industries -}}

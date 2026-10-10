@@ -1,0 +1,20 @@
+locale = "ko-kr"
+label = "한국어"
+weight = 7
+title = "KingShip Precision"
+
+[params]
+  displayName = "한국어"
+  isoCode = "ko"
+  rtl = false
+  dateFormat = "2006년 1월 2일"
+  logo = ""
+  description = "정밀 알루미늄 및 마그네슘 다이캐스팅 전문 서비스"
+
+[params.author]
+  name = "KingShip"
+  email = ""
+  image = ""
+  headline = ""
+  bio = ""
+  links = []

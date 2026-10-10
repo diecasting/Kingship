@@ -84,6 +84,22 @@ languages:
       - "マグネシウムダイカスト"
       - "Semi-Solid Rheocasting"
       - "精密CNC加工"
+  it:
+    description: "KingShip è un produttore B2B leader nella pressofusione di precisione in leghe di alluminio e magnesio, lavorazione CNC interna, rilevamento della porosità tramite raggi X in tempo reale e ingegneria di attrezzature professionali."
+    keywords:
+      - "Pressofusione ad alta pressione"
+      - "Pressofusione di alluminio"
+      - "Pressofusione di magnesio"
+      - "Rheocasting semi-solido"
+      - "Lavorazione CNC di precisione"
+  ko:
+    description: "KingShip은 고정밀 알루미늄 및 마그네슘 합금 고압 다이캐스팅, 사내 CNC 후가공, 실시간 X선 기공 검사, 전문 금형 엔지니어링을 전문으로 하는 선도적인 B2B 제조업체입니다."
+    keywords:
+      - "고압 다이캐스팅"
+      - "알루미늄 다이캐스팅"
+      - "마그네슘 다이캐스팅"
+      - "반용융 레오캐스팅"
+      - "정밀 CNC 가공"
 
 # --- Services (drives Service schema + homepage OfferCatalog) ---
 # url_path must match the published section path (with or without language prefix).

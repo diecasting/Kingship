@@ -1,49 +1,99 @@
 {{/* rfq-form.html — Verbatim KingShip RFQ form (Formspree).
-   Action and fields preserved exactly. Rendered by sections/rfq-cta.html
-   and kept identical to the legacy homepage form. */}}
+   Action, fields, values and structure preserved exactly. Labels are
+   localized via a small inline dict keyed by .Site.Language.Lang with an
+   explicit English fallback, so the five existing languages keep English. */}}
+{{ $l := .Lang | default "en" }}
+{{ $labels := dict
+  "en" (dict
+    "name" "Full Name *"
+    "company" "Company Name"
+    "email" "Business Email *"
+    "material" "Material Specification"
+    "opt_adc12" "Aluminum (ADC12 / A383)"
+    "opt_a356" "Aluminum (A356 / A360)"
+    "opt_az91d" "Magnesium (AZ91D / AM60B)"
+    "opt_other" "Other / Not Sure Yet"
+    "volume" "Estimated Annual Volume (EAV)"
+    "volume_ph" "e.g., 5,000 pcs"
+    "details" "Project Details & Requirements *"
+    "details_ph" "Please describe wall thickness, surface treatment (anodizing, powder coating, etc.), and tolerances if possible..."
+    "submit" "Submit RFQ"
+  )
+  "it" (dict
+    "name" "Nome completo *"
+    "company" "Nome azienda"
+    "email" "Email aziendale *"
+    "material" "Specifica materiale"
+    "opt_adc12" "Alluminio (ADC12 / A383)"
+    "opt_a356" "Alluminio (A356 / A360)"
+    "opt_az91d" "Magnesio (AZ91D / AM60B)"
+    "opt_other" "Altro / Non ancora sicuro"
+    "volume" "Volume annuo stimato (EAV)"
+    "volume_ph" "es. 5.000 pz"
+    "details" "Dettagli e requisiti del progetto *"
+    "details_ph" "Descriva se possibile spessore di parete, trattamento superficiale (anodizzazione, verniciatura a polvere, ecc.) e tolleranze..."
+    "submit" "Invia RFQ"
+  )
+  "ko" (dict
+    "name" "성명 *"
+    "company" "회사명"
+    "email" "비즈니스 이메일 *"
+    "material" "소재 사양"
+    "opt_adc12" "알루미늄 (ADC12 / A383)"
+    "opt_a356" "알루미늄 (A356 / A360)"
+    "opt_az91d" "마그네슘 (AZ91D / AM60B)"
+    "opt_other" "기타 / 아직 미정"
+    "volume" "예상 연간 물량(EAV)"
+    "volume_ph" "예: 5,000개"
+    "details" "프로젝트 세부사항 및 요구사항 *"
+    "details_ph" "가능한 경우 벽 두께, 표면 처리(아노다이징, 파우더 코팅 등) 및 공차를 설명해 주세요."
+    "submit" "RFQ 제출"
+  )
+}}
+{{ $t := index $labels $l | default (index $labels "en") }}
 <form action="https://formspree.io/f/xpqgbdly" method="POST" style="max-width: 100%; margin: 0 auto; font-family: sans-serif;">
   
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 24px;">
     <div>
-      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">Full Name *</label>
+      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "name" }}</label>
       <input type="text" name="name" required 
              style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box;">
     </div>
     <div>
-      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">Company Name</label>
+      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "company" }}</label>
       <input type="text" name="company" 
              style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box;">
     </div>
   </div>
 
   <div style="margin-bottom: 24px;">
-    <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">Business Email *</label>
+    <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "email" }}</label>
     <input type="email" name="_replyto" required 
            style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box;">
   </div>
 
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 24px;">
     <div>
-      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">Material Specification</label>
+      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "material" }}</label>
       <select name="material" 
               style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box; height: 47px; appearance: none; -webkit-appearance: none;">
-        <option value="Aluminum-ADC12">Aluminum (ADC12 / A383)</option>
-        <option value="Aluminum-A356">Aluminum (A356 / A360)</option>
-        <option value="Magnesium-AZ91D">Magnesium (AZ91D / AM60B)</option>
-        <option value="Other">Other / Not Sure Yet</option>
+        <option value="Aluminum-ADC12">{{ index $t "opt_adc12" }}</option>
+        <option value="Aluminum-A356">{{ index $t "opt_a356" }}</option>
+        <option value="Magnesium-AZ91D">{{ index $t "opt_az91d" }}</option>
+        <option value="Other">{{ index $t "opt_other" }}</option>
       </select>
     </div>
     <div>
-      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">Estimated Annual Volume (EAV)</label>
-      <input type="text" name="volume" placeholder="e.g., 5,000 pcs" 
+      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "volume" }}</label>
+      <input type="text" name="volume" placeholder="{{ index $t "volume_ph" }}" 
              style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box;">
     </div>
   </div>
 
   <div style="margin-bottom: 32px;">
-    <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">Project Details &amp; Requirements *</label>
+    <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "details" }}</label>
     <textarea name="message" rows="5" required 
-              placeholder="Please describe wall thickness, surface treatment (anodizing, powder coating, etc.), and tolerances if possible..." 
+              placeholder="{{ index $t "details_ph" }}" 
               style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box; line-height: 1.6; resize: vertical;"></textarea>
   </div>
 
@@ -52,7 +102,7 @@
             style="display: inline-block; padding: 14px 36px; background-color: #2563eb; color: #ffffff; font-size: 16px; font-weight: 600; border: none; border-radius: 6px; cursor: pointer; transition: background-color 0.2s ease, transform 0.1s ease; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);"
             onmouseover="this.style.backgroundColor='#1d4ed8'" 
             onmouseout="this.style.backgroundColor='#2563eb'">
-      Submit RFQ
+      {{ index $t "submit" }}
     </button>
   </div>
 </form>

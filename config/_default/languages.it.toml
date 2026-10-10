@@ -1,0 +1,20 @@
+locale = "it-it"
+label = "Italiano"
+weight = 6
+title = "KingShip Precision"
+
+[params]
+  displayName = "Italiano"
+  isoCode = "it"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = ""
+  description = "Servizi professionali di pressofusione di precisione in alluminio e magnesio"
+
+[params.author]
+  name = "KingShip"
+  email = ""
+  image = ""
+  headline = ""
+  bio = ""
+  links = []

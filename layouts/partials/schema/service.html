@@ -8,8 +8,10 @@
 {{- $matched := slice -}}
 {{- range $company.services -}}
   {{- $sp := .url_path -}}
-  {{- if or (eq $rel $sp) (eq $rel (printf "/de%s" $sp)) (eq $rel (printf "/es%s" $sp)) (eq $rel (printf "/fr%s" $sp)) (eq $rel (printf "/ja%s" $sp)) -}}
-    {{- $matched = $matched | append . -}}
+  {{- $svc := . -}}
+  {{- if eq $rel $sp -}}{{- $matched = $matched | append $svc -}}{{- end -}}
+  {{- range site.Languages -}}
+    {{- if eq $rel (printf "/%s%s" .Lang $sp) -}}{{- $matched = $matched | append $svc -}}{{- end -}}
   {{- end -}}
 {{- end -}}
 {{- with (index $matched 0) -}}

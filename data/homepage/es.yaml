@@ -9,7 +9,7 @@ hero:
   title: "Moldeo por inyección de precisión de aluminio y magnesio para automoción, EV y aeronáutica"
   subtitle: "KingShip desarrolla fabricación de piezas inyectadas de principio a fin — desde la simulación de llenado y piezas estructurales de 5000T hasta el mecanizado CNC de alta precisión y la inspección de porosidad por rayos X en tiempo real."
   image:
-    url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+    url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
     alt: "Máquina de moldeo por inyección de aluminio de 5000 toneladas produciendo grandes piezas estructurales de automoción"
     title: "Máquina de inyección de 5000T para piezas estructurales grandes"
   primary_cta:
@@ -108,7 +108,7 @@ capabilities:
       - "Carcasas de baterías EV"
       - "Disipadores y carcasas"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/06/A356-aluminum-die-casting-porosity-control.webp"
+      url: "https://alumcasting.com/images/A356-aluminum-die-casting-porosity-control.webp"
       alt: "Componente de moldeo por inyección de aluminio A356 bajo control de porosidad"
       title: "Moldeo por inyección de aluminio A356"
     learn_more: "/es/aluminum-die-casting/"
@@ -145,7 +145,7 @@ capabilities:
       - "Componentes aeronáuticos"
       - "Dispositivos portátiles premium"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      url: "https://alumcasting.com/images/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
       alt: "Piezas de magnesio ligeras para aeronáutica y electrónica 3C"
       title: "Moldeo por inyección de magnesio"
     learn_more: "/es/magnesium-die-casting/"
@@ -181,7 +181,7 @@ capabilities:
       - "Soportes aeronáuticos"
       - "Componentes críticos de fatiga"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/06/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
+      url: "https://alumcasting.com/images/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
       alt: "Microestructura rheocast semi-sólida frente a prueba de porosidad por rayos X"
       title: "Microestructura rheocast semi-sólida"
 
@@ -218,7 +218,7 @@ capabilities:
       - "Torres de amortiguación y travesaños"
       - "Nodos estructurales"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+      url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
       alt: "Máquina de 5000 toneladas produciendo grandes piezas estructurales de automoción"
       title: "Piezas estructurales de 5000T"
 
@@ -252,7 +252,7 @@ capabilities:
       - "Funciones de acoplamiento críticas"
       - "Componentes terminados"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      url: "https://alumcasting.com/images/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
       alt: "Mecanizado CNC multi-eje de precisión de piezas inyectadas de alta tolerancia"
       title: "Mecanizado CNC de precisión"
 
@@ -286,7 +286,7 @@ capabilities:
       - "Utillaje puente"
       - "Utillaje de familia"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      url: "https://alumcasting.com/images/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
       alt: "Proceso de fabricación verticalmente integrado del moldeo al acabado"
       title: "Utillaje integrado"
 
@@ -313,7 +313,7 @@ quality:
     - "Prueba de fugas automatizada"
     - "Tratamiento superficial SureTech 650"
   image:
-    url: "https://alumcasting.com/wp-content/uploads/2026/05/TF1949-ISO9001-Certification.webp"
+    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
     alt: "Certificación TF1949 ISO 9001 para gestión de calidad en moldeo por inyección"
     title: "Certificado ISO 9001 e IATF 16949"
 
@@ -324,25 +324,25 @@ equipment:
     - name: "Máquina de moldeo de 5000T"
       desc: "Máquina en cámara fría de gran formato para componentes estructurales de escala métrica."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+        url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
         alt: "Máquina de moldeo por inyección de 5000 toneladas para piezas estructurales grandes"
         title: "Máquina de moldeo de 5000T"
     - name: "Centros CNC de precisión"
       desc: "Mecanizado de 3, 4 y 5 ejes de alta velocidad para postprocesado de alta tolerancia."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/High-Precision-CNC-Wokshop.webp"
+        url: "https://alumcasting.com/images/High-Precision-CNC-Wokshop.webp"
         alt: "Taller de mecanizado CNC de alta precisión para postprocesado de piezas inyectadas"
         title: "Taller CNC"
     - name: "Equipo de inspección CMM"
       desc: "Máquinas de medición por coordenadas verifican la precisión dimensional frente al CAD."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/CMM-Inspection-Equipment.webp"
+        url: "https://alumcasting.com/images/CMM-Inspection-Equipment.webp"
         alt: "Equipo de inspección CMM para verificación dimensional"
         title: "Inspección CMM"
     - name: "Detección de porosidad por rayos X"
       desc: "Sistemas de rayos X en tiempo real realizan inspección interna no destructiva."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/X-Ray-Detector.webp"
+        url: "https://alumcasting.com/images/X-Ray-Detector.webp"
         alt: "Detector de rayos X en tiempo real para inspección de porosidad en moldeo por inyección"
         title: "Detección de porosidad por rayos X"
 

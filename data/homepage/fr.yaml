@@ -9,7 +9,7 @@ hero:
   title: "Moulage de précision en aluminium et magnésium pour l'automobile, le VE et l'aéronautique"
   subtitle: "KingShip conçoit une fabrication de pièces moulées de bout en bout — de la simulation de remplissage et des pièces structurelles 5000T à l'usinage CNC de haute précision et au contrôle de porosité par rayons X en temps réel."
   image:
-    url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+    url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
     alt: "Machine de moulage par injection d'aluminium de 5000 tonnes produisant de grandes pièces structurelles automobiles"
     title: "Machine d'injection 5000T pour grandes pièces structurelles"
   primary_cta:
@@ -108,7 +108,7 @@ capabilities:
       - "Batteries VE"
       - "Dissipateurs et carters"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/06/A356-aluminum-die-casting-porosity-control.webp"
+      url: "https://alumcasting.com/images/A356-aluminum-die-casting-porosity-control.webp"
       alt: "Composant moulé aluminimum A356 sous contrôle de porosité"
       title: "Moulage d'aluminium A356"
     learn_more: "/fr/aluminum-die-casting/"
@@ -145,7 +145,7 @@ capabilities:
       - "Composants aéronautiques"
       - "Appareils portables premium"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      url: "https://alumcasting.com/images/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
       alt: "Pièces magnésium légères pour aéronautique et électronique 3C"
       title: "Moulage de magnésium"
     learn_more: "/fr/magnesium-die-casting/"
@@ -181,7 +181,7 @@ capabilities:
       - "Supports aéronautiques"
       - "Composants critiques fatigue"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/06/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
+      url: "https://alumcasting.com/images/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
       alt: "Microstructure rheocast semi-solide comparée au test porosité rayons X"
       title: "Microstructure rheocast semi-solide"
 
@@ -218,7 +218,7 @@ capabilities:
       - "Tours amortissement et traversants"
       - "Nœuds structurels"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+      url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
       alt: "Machine 5000 tonnes produisant de grandes pièces structurelles automobiles"
       title: "Pièces structurelles 5000T"
 
@@ -252,7 +252,7 @@ capabilities:
       - "Fonctions d'accouplement critiques"
       - "Composants finis"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      url: "https://alumcasting.com/images/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
       alt: "Usinage CNC multi-axes de précision de pièces moulées à haute tolérance"
       title: "Usinage CNC de précision"
 
@@ -287,7 +287,7 @@ capabilities:
       - "Outillage pont"
       - "Outillage de famille"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      url: "https://alumcasting.com/images/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
       alt: "Processus de fabrication verticalement intégré du moulage à la finition"
       title: "Outillage intégré"
 
@@ -314,7 +314,7 @@ quality:
     - "Test d'étanchéité automatisé"
     - "Traitement de surface SureTech 650"
   image:
-    url: "https://alumcasting.com/wp-content/uploads/2026/05/TF1949-ISO9001-Certification.webp"
+    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
     alt: "Certification TF1949 ISO 9001 pour la qualité en moulage sous pression"
     title: "Certifié ISO 9001 et IATF 16949"
 
@@ -325,25 +325,25 @@ equipment:
     - name: "Machine de moulage 5000T"
       desc: "Machine en chambre froide grand format pour composants structurels à l'échelle métrique."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+        url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
         alt: "Machine de moulage sous pression 5000 tonnes pour grandes pièces structurelles"
         title: "Machine de moulage 5000T"
     - name: "Centres CNC de précision"
       desc: "Usinage 3, 4 et 5 axes haute vitesse pour post-traitement de haute tolérance."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/High-Precision-CNC-Wokshop.webp"
+        url: "https://alumcasting.com/images/High-Precision-CNC-Wokshop.webp"
         alt: "Atelier d'usinage CNC haute précision pour post-traitement des pièces moulées"
         title: "Atelier CNC"
     - name: "Équipement d'inspection MMT"
       desc: "Les machines à mesurer tridimensionnelles vérifient la précision dimensionnelle face au CAO."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/CMM-Inspection-Equipment.webp"
+        url: "https://alumcasting.com/images/CMM-Inspection-Equipment.webp"
         alt: "Équipement d'inspection MMT pour vérification dimensionnelle"
         title: "Inspection MMT"
     - name: "Détection de porosité rayons X"
       desc: "Systèmes de rayons X en temps réel réalisent un contrôle interne non destructif."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/X-Ray-Detector.webp"
+        url: "https://alumcasting.com/images/X-Ray-Detector.webp"
         alt: "Détecteur rayons X temps réel pour contrôle porosité en moulage"
         title: "Détection porosité rayons X"
 

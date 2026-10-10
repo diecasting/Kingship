@@ -10,7 +10,7 @@ hero:
   title: "Precision Aluminum & Magnesium Die Casting for Automotive, EV and Aerospace"
   subtitle: "KingShip engineers end-to-end die casting manufacturing — from mold-flow simulation and 5000T large structural casting to tight-tolerance CNC finishing and real-time X-ray porosity inspection."
   image:
-    url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+    url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
     alt: "5000-ton high-pressure aluminum die casting machine producing large automotive structural components"
     title: "5000T Die Casting Machine for Large Structural Parts"
   primary_cta:
@@ -115,7 +115,7 @@ capabilities:
       - "EV battery housings"
       - "Heat sinks & enclosures"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/06/A356-aluminum-die-casting-porosity-control.webp"
+      url: "https://alumcasting.com/images/A356-aluminum-die-casting-porosity-control.webp"
       alt: "A356 aluminum die casting component under porosity control inspection"
       title: "A356 Aluminum Die Casting"
     learn_more: "/aluminum-die-casting/"
@@ -156,7 +156,7 @@ capabilities:
       - "Aerospace components"
       - "Premium handheld devices"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      url: "https://alumcasting.com/images/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
       alt: "Lightweight magnesium die cast aerospace and 3C electronic parts"
       title: "Magnesium Die Casting Parts"
     learn_more: "/magnesium-die-casting/"
@@ -195,7 +195,7 @@ capabilities:
       - "Aerospace brackets"
       - "Fatigue-critical components"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/06/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
+      url: "https://alumcasting.com/images/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
       alt: "Semi-solid rheocast microstructure compared with X-ray porosity testing"
       title: "Semi-Solid Rheocasting Microstructure"
 
@@ -235,7 +235,7 @@ capabilities:
       - "Shock towers & crossmembers"
       - "Structural nodes"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+      url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
       alt: "5000-ton die casting machine producing large automotive structural components"
       title: "5000T Large Structural Casting"
 
@@ -273,7 +273,7 @@ capabilities:
       - "Critical mating features"
       - "Finished components"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      url: "https://alumcasting.com/images/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
       alt: "Precision multi-axis CNC machining of tight-tolerance die cast parts"
       title: "Precision CNC Machining"
 
@@ -310,7 +310,7 @@ capabilities:
       - "Bridge tooling"
       - "Family tooling"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      url: "https://alumcasting.com/images/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
       alt: "Vertically integrated manufacturing process from casting to finishing"
       title: "Integrated Tooling & Process"
 
@@ -342,7 +342,7 @@ quality:
     - "Automated Leak Testing"
     - "SureTech 650 Surface Treatment"
   image:
-    url: "https://alumcasting.com/wp-content/uploads/2026/05/TF1949-ISO9001-Certification.webp"
+    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
     alt: "TF1949 ISO 9001 certification for quality management in die casting"
     title: "ISO 9001 & IATF 16949 Certified"
 
@@ -353,25 +353,25 @@ equipment:
     - name: "5000T Die Casting Machine"
       desc: "Extra-large cold-chamber high-pressure die casting for meter-scale structural components."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+        url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
         alt: "5000-ton high-pressure die casting machine for large structural parts"
         title: "5000T Die Casting Machine"
     - name: "Precision CNC Machining Centers"
       desc: "High-speed 3, 4 and 5-axis machining for tight-tolerance post-processing."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/High-Precision-CNC-Wokshop.webp"
+        url: "https://alumcasting.com/images/High-Precision-CNC-Wokshop.webp"
         alt: "High-precision CNC machining workshop for die casting post-processing"
         title: "CNC Machining Workshop"
     - name: "CMM Inspection Equipment"
       desc: "Coordinate measuring machines verify dimensional accuracy against CAD models."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/CMM-Inspection-Equipment.webp"
+        url: "https://alumcasting.com/images/CMM-Inspection-Equipment.webp"
         alt: "CMM inspection equipment for dimensional verification"
         title: "CMM Inspection"
     - name: "X-Ray Porosity Detection"
       desc: "Real-time X-ray systems perform non-destructive internal porosity inspection."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/X-Ray-Detector.webp"
+        url: "https://alumcasting.com/images/X-Ray-Detector.webp"
         alt: "Real-time X-ray detector for porosity inspection in die casting"
         title: "X-Ray Porosity Detection"
 

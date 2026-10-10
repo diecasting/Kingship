@@ -9,7 +9,7 @@ hero:
   title: "Präziser Aluminium- und Magnesium-Druckguss für Automobilbau, EV und Luftfahrt"
   subtitle: "KingShip entwickelt Druckguss-Fertigung aus einer Hand – von der Formsimulation und 5000-Tonnen-Strukturbauteilen bis zur CNC-Feinbearbeitung und Echtzeit-Röntgen-Porositätsprüfung."
   image:
-    url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+    url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
     alt: "5000-Tonnen-Hochdruck-Aluminiumgussmaschine für große Automobilstrukturbauteile"
     title: "5000T-Gussmaschine für große Strukturbauteile"
   primary_cta:
@@ -108,7 +108,7 @@ capabilities:
       - "EV-Batteriegehäuse"
       - "Kühlkörper & Gehäuse"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/06/A356-aluminum-die-casting-porosity-control.webp"
+      url: "https://alumcasting.com/images/A356-aluminum-die-casting-porosity-control.webp"
       alt: "A356-Aluminiumdruckguss-Bauteil unter Porositätskontrolle"
       title: "A356-Aluminiumdruckguss"
     learn_more: "/de/aluminum-die-casting/"
@@ -146,7 +146,7 @@ capabilities:
       - "Luftfahrtbauteile"
       - "Premium-Handgeräte"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      url: "https://alumcasting.com/images/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
       alt: "Leichte Magnesium-Druckguss-Luftfahrt- und 3C-Elektronikteile"
       title: "Magnesium-Druckguss"
 
@@ -182,7 +182,7 @@ capabilities:
       - "Luftfahrt-Halterungen"
       - "Ermüdungskritische Bauteile"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/06/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
+      url: "https://alumcasting.com/images/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
       alt: "Semi-Solid-Rheoguss-Gefüge im Vergleich mit Röntgen-Porositätsprüfung"
       title: "Semi-Solid-Rheocasting-Gefüge"
 
@@ -219,7 +219,7 @@ capabilities:
       - "Domlager & Querträger"
       - "Strukturknoten"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+      url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
       alt: "5000-Tonnen-Gussmaschine für große Automobilstrukturbauteile"
       title: "5000T-Strukturguss"
 
@@ -255,7 +255,7 @@ capabilities:
       - "Kritische Passfeatures"
       - "Fertigbauteile"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      url: "https://alumcasting.com/images/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
       alt: "Präzise Multi-Achs-CNC-Bearbeitung toleranzgenauer Gussteile"
       title: "Präzise CNC-Bearbeitung"
 
@@ -288,7 +288,7 @@ capabilities:
       - "Bridge-Tooling"
       - "Familienwerkzeuge"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      url: "https://alumcasting.com/images/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
       alt: "Vertikal integrierter Fertigungsprozess vom Guss bis zur Veredelung"
       title: "Integrierter Werkzeugbau"
 
@@ -317,7 +317,7 @@ quality:
     - "Automatisierter Lecktest"
     - "SureTech 650 Oberflächenbehandlung"
   image:
-    url: "https://alumcasting.com/wp-content/uploads/2026/05/TF1949-ISO9001-Certification.webp"
+    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
     alt: "TF1949 ISO 9001 Zertifizierung für Qualitätsmanagement im Druckguss"
     title: "Nach ISO 9001 & IATF 16949 zertifiziert"
 
@@ -328,25 +328,25 @@ equipment:
     - name: "5000T-Druckgussmaschine"
       desc: "Extra große Kaltkammer-Hochdruck-Druckgussmaschine für meter große Strukturbauteile."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+        url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
         alt: "5000-Tonnen-Hochdruck-Druckgussmaschine für große Strukturbauteile"
         title: "5000T-Druckgussmaschine"
     - name: "Präzise CNC-Bearbeitungszentren"
       desc: "Hochgeschwindigkeits-3-, 4- und 5-Achs-Bearbeitung für toleranzgenaue Nachbearbeitung."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/High-Precision-CNC-Wokshop.webp"
+        url: "https://alumcasting.com/images/High-Precision-CNC-Wokshop.webp"
         alt: "Hochpräzises CNC-Bearbeitungszentrum für Druckguss-Nachbearbeitung"
         title: "CNC-Bearbeitungszentrum"
     - name: "CMM-Prüfgeräte"
       desc: "Koordinatenmessgeräte verifizieren die Maßhaltigkeit gegen CAD-Modelle."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/CMM-Inspection-Equipment.webp"
+        url: "https://alumcasting.com/images/CMM-Inspection-Equipment.webp"
         alt: "CMM-Prüfgeräte zur dimensionalen Verifikation"
         title: "CMM-Prüfung"
     - name: "Röntgen-Porositätsprüfung"
       desc: "Echtzeit-Röntgensysteme führen zerstörungsfreie interne Porositätsprüfung durch."
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/X-Ray-Detector.webp"
+        url: "https://alumcasting.com/images/X-Ray-Detector.webp"
         alt: "Echtzeit-Röntgendetektor zur Porositätsprüfung im Druckguss"
         title: "Röntgen-Porositätsprüfung"
 

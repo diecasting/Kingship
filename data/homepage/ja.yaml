@@ -9,7 +9,7 @@ hero:
   title: "自動車・EV・航空宇宙向け高精度アルミニウム・マグネシウムダイカスト"
   subtitle: "KingShip は金型充填シミュレーション、5000トン大型構造物鋳造から、高精度CNC仕上げ、リアルタイムX線気孔検査まで、一貫したダイカスト製造を提供します。"
   image:
-    url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+    url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
     alt: "自動車用大型構造部品を生産する5000トンアルミニウム高圧ダイカストマシン"
     title: "大型構造部品用5000トンダイカストマシン"
   primary_cta:
@@ -100,7 +100,7 @@ capabilities:
       - "EVバッテリー筐体"
       - "ヒートシンク・筐体"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/06/A356-aluminum-die-casting-porosity-control.webp"
+      url: "https://alumcasting.com/images/A356-aluminum-die-casting-porosity-control.webp"
       alt: "気孔管理下のA356アルミニウムダイカスト部品"
       title: "A356アルミニウムダイカスト"
     learn_more: "/ja/aluminum-die-casting/"
@@ -135,7 +135,7 @@ capabilities:
       - "航空宇宙部品"
       - "プレミアムハンディ機器"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      url: "https://alumcasting.com/images/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
       alt: "航空宇宙および3C電子用軽量マグネシウムダイカスト部品"
       title: "マグネシウムダイカスト部品"
     learn_more: "/ja/magnesium-die-casting/"
@@ -169,7 +169,7 @@ capabilities:
       - "航空宇宙ブラケット"
       - "疲労-critical部品"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/06/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
+      url: "https://alumcasting.com/images/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
       alt: "半凝固レオキャスト組織とX線気孔試験の比較"
       title: "半凝固レオキャスト組織"
 
@@ -203,7 +203,7 @@ capabilities:
       - "ショックタワー・クロスメンバー"
       - "構造ノード"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+      url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
       alt: "自動車用大型構造部品を生産する5000トンマシン"
       title: "5000トン大型構造鋳造"
 
@@ -235,7 +235,7 @@ capabilities:
       - "重要接合特徴"
       - "完成部品"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      url: "https://alumcasting.com/images/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
       alt: "高精度多軸CNC加工による高精度ダイカスト部品"
       title: "高精度CNC加工"
 
@@ -267,7 +267,7 @@ capabilities:
       - "ブリッジ金型"
       - "ファミリー金型"
     image:
-      url: "https://alumcasting.com/wp-content/uploads/2026/03/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      url: "https://alumcasting.com/images/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
       alt: "鋳造から仕上げまでの垂直統合製造プロセス"
       title: "統合金型・プロセス"
 
@@ -293,7 +293,7 @@ quality:
     - "自動漏れ試験"
     - "SureTech 650表面処理"
   image:
-    url: "https://alumcasting.com/wp-content/uploads/2026/05/TF1949-ISO9001-Certification.webp"
+    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
     alt: "ダイカスト品質管理のTF1949 ISO 9001認証"
     title: "ISO 9001・IATF 16949認証"
 
@@ -304,25 +304,25 @@ equipment:
     - name: "5000トンダイカストマシン"
       desc: "メートル規模の構造部品用の特大コールドチャンバー高圧ダイカスト。"
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2022/10/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
+        url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
         alt: "大型構造部品用の5000トン高圧ダイカストマシン"
         title: "5000トンダイカストマシン"
     - name: "高精度CNC加工センター"
       desc: "高精度後処理用の高速3・4・5軸加工。"
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/High-Precision-CNC-Wokshop.webp"
+        url: "https://alumcasting.com/images/High-Precision-CNC-Wokshop.webp"
         alt: "ダイカスト後処理用の高精度CNC加工ワークショップ"
         title: "CNC加工ワークショップ"
     - name: "CMM検査装置"
       desc: "座標測定機がCADモデルに対する寸法精度を検証。"
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/CMM-Inspection-Equipment.webp"
+        url: "https://alumcasting.com/images/CMM-Inspection-Equipment.webp"
         alt: "寸法検証用CMM検査装置"
         title: "CMM検査"
     - name: "X線気孔検出"
       desc: "リアルタイムX線システムが非破壊の内部気孔検査を実施。"
       image:
-        url: "https://alumcasting.com/wp-content/uploads/2026/05/X-Ray-Detector.webp"
+        url: "https://alumcasting.com/images/X-Ray-Detector.webp"
         alt: "ダイカスト気孔検査用リアルタイムX線検出器"
         title: "X線気孔検出"
 

@@ -99,7 +99,7 @@ Our tool-making shop utilizes sophisticated CAD/CAM environments running Pro/E, 
 | **Machining Accuracy** | CNC tolerances down to ±0.01 mm |
 | **Surface Treatment** | Shot Blasting, Powder Coating, E-Coating [Finishing Guide](https://alumcasting.com/post-casting-treatments-finishing-options-aluminum/) |
 
-![Precision CNC machining workshop](/img/high-precision-cnc-wokshop.webp)
+![Precision CNC machining workshop](/img/high-precision-cnc-workshop.webp)
 *Alt: High-precision CNC workshop for tight-tolerance die-cast post-processing.*
 
 ---

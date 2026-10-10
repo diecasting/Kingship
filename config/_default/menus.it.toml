@@ -5,35 +5,35 @@
 
 [[main]]
   name = "Pressofusione di Alluminio"
-  url = "/aluminum-die-casting/"
+  url = "/it/aluminum-die-casting/"
   weight = 20
 
 [[main]]
   name = "Pressofusione di Magnesio"
-  url = "/magnesium-die-casting/"
+  url = "/it/magnesium-die-casting/"
   weight = 30
 
 [[main]]
   name = "Rheocasting Semi-Solido"
-  url = "/semi-solid-rheocasting/"
+  url = "/it/semi-solid-rheocasting/"
   weight = 32
 
 [[main]]
   name = "Lavorazione CNC"
-  url = "/cnc-machining/"
+  url = "/it/cnc-machining/"
   weight = 34
 
 [[main]]
   name = "Stampi per Pressofusione"
-  url = "/tooling/"
+  url = "/it/tooling/"
   weight = 36
 
 [[main]]
   name = "Blog Tecnico"
-  url = "/blog/"
+  url = "/it/blog/"
   weight = 40
 
 [[main]]
   name = "Richiedi un Preventivo"
-  url = "/contact/"
+  url = "/it/contact/"
   weight = 50

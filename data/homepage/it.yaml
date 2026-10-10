@@ -53,15 +53,15 @@ overview:
   items:
     - name: "Pressofusione di alluminio"
       summary: "Pressofusione ad alta pressione in ADC12, A380 e A356 con finitura CNC a tolleranza stretta."
-      url: "/aluminum-die-casting/"
+      url: "/it/aluminum-die-casting/"
       anchor: "capability-aluminum"
     - name: "Pressofusione di magnesio"
       summary: "Pressofusione di magnesio AZ91D e AM60B leggero per componenti critici per il peso."
-      url: "/magnesium-die-casting/"
+      url: "/it/magnesium-die-casting/"
       anchor: "capability-magnesium"
     - name: "Rheocasting semi-solido"
       summary: "Componenti rheocast a bassa porosità e trattabili termicamente per applicazioni strutturali."
-      url: "/semi-solid-rheocasting/"
+      url: "/it/semi-solid-rheocasting/"
       anchor: "capability-rheocasting"
     - name: "Grandi strutture da 5000T"
       summary: "Grandi fusioni strutturali a parete sottile sulla nostra pressa da 5000 tonnellate."
@@ -69,11 +69,11 @@ overview:
       anchor: "capability-5000t"
     - name: "Lavorazione CNC di precisione"
       summary: "Lavorazione CNC a 3, 4 e 5 assi e post-processo per componenti fusi."
-      url: "/cnc-machining/"
+      url: "/it/cnc-machining/"
       anchor: "capability-cnc"
     - name: "Attrezzature per pressofusione"
       summary: "Progettazione, produzione e manutenzione interna di stampi per una lunga vita dello stampo."
-      url: "/tooling/"
+      url: "/it/tooling/"
       anchor: "capability-tooling"
 
 capabilities:
@@ -123,7 +123,7 @@ capabilities:
       url: "https://alumcasting.com/images/A356-aluminum-die-casting-porosity-control.webp"
       alt: "Componente in alluminio A356 sottoposto a controllo porosità in ispezione"
       title: "Pressofusione di alluminio A356"
-    learn_more: "/aluminum-die-casting/"
+    learn_more: "/it/aluminum-die-casting/"
 
   - id: "magnesium-die-casting"
     anchor: "capability-magnesium"
@@ -165,7 +165,7 @@ capabilities:
       url: "https://alumcasting.com/images/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
       alt: "Parti aerospaziali e componenti elettronici 3C leggeri in magnesio pressofuso"
       title: "Parti in magnesio pressofuso"
-    learn_more: "/magnesium-die-casting/"
+    learn_more: "/it/magnesium-die-casting/"
 
   - id: "semi-solid-rheocasting"
     anchor: "capability-rheocasting"
@@ -206,7 +206,7 @@ capabilities:
       url: "https://alumcasting.com/images/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
       alt: "Microstruttura rheocast semisolida confrontata con il test porosità a raggi X"
       title: "Microstruttura rheocast semi-solida"
-    learn_more: "/semi-solid-rheocasting/"
+    learn_more: "/it/semi-solid-rheocasting/"
 
   - id: "5000t-structural-casting"
     anchor: "capability-5000t"
@@ -290,7 +290,7 @@ capabilities:
       url: "https://alumcasting.com/images/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
       alt: "Lavorazione CNC multi-assi di precisione di parti pressofuse a tolleranza stretta"
       title: "Lavorazione CNC di precisione"
-    learn_more: "/cnc-machining/"
+    learn_more: "/it/cnc-machining/"
 
   - id: "die-casting-tooling"
     anchor: "capability-tooling"

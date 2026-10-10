@@ -47,15 +47,15 @@ overview:
   items:
     - name: "알루미늄 다이캐스팅"
       summary: "ADC12, A380, A356의 고압 다이캐스팅과 엄격한 공차의 CNC 마감."
-      url: "/aluminum-die-casting/"
+      url: "/ko/aluminum-die-casting/"
       anchor: "capability-aluminum"
     - name: "마그네슘 다이캐스팅"
       summary: "중량 절감이 중요한 부품을 위한 AZ91D, AM60B 경량 마그네슘 다이캐스팅."
-      url: "/magnesium-die-casting/"
+      url: "/ko/magnesium-die-casting/"
       anchor: "capability-magnesium"
     - name: "반용융 레오캐스팅"
       summary: "구조용 애플리케이션을 위한 저기공성, 열처리 가능한 레오캐스트 부품."
-      url: "/semi-solid-rheocasting/"
+      url: "/ko/semi-solid-rheocasting/"
       anchor: "capability-rheocasting"
     - name: "5000T 대형 구조 주조"
       summary: "5000톤 다이캐스팅 머신으로 생산하는 초대형 박벽 구조 주조."
@@ -63,11 +63,11 @@ overview:
       anchor: "capability-5000t"
     - name: "정밀 CNC 가공"
       summary: "주조 부품을 위한 3, 4, 5축 CNC 가공 및 후처리."
-      url: "/cnc-machining/"
+      url: "/ko/cnc-machining/"
       anchor: "capability-cnc"
     - name: "다이캐스팅 금형"
       summary: "금형 수명 연장을 위한 사내 금형 설계, 제작 및 유지보수."
-      url: "/tooling/"
+      url: "/ko/tooling/"
       anchor: "capability-tooling"
 
 capabilities:
@@ -110,7 +110,7 @@ capabilities:
       url: "https://alumcasting.com/images/A356-aluminum-die-casting-porosity-control.webp"
       alt: "기공 제어 검사를 받는 A356 알루미늄 다이캐스트 부품"
       title: "A356 알루미늄 다이캐스팅"
-    learn_more: "/aluminum-die-casting/"
+    learn_more: "/ko/aluminum-die-casting/"
 
   - id: "magnesium-die-casting"
     anchor: "capability-magnesium"
@@ -147,7 +147,7 @@ capabilities:
       url: "https://alumcasting.com/images/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
       alt: "경량 마그네슘 다이캐스트 항공우주 및 3C 전자 부품"
       title: "마그네슘 다이캐스트 부품"
-    learn_more: "/magnesium-die-casting/"
+    learn_more: "/ko/magnesium-die-casting/"
 
   - id: "semi-solid-rheocasting"
     anchor: "capability-rheocasting"
@@ -184,7 +184,7 @@ capabilities:
       url: "https://alumcasting.com/images/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
       alt: "반용융 레오캐스트 미세 조직과 X선 기공 시험 비교"
       title: "반용융 레오캐스트 미세 조직"
-    learn_more: "/semi-solid-rheocasting/"
+    learn_more: "/ko/semi-solid-rheocasting/"
 
   - id: "5000t-structural-casting"
     anchor: "capability-5000t"
@@ -258,7 +258,7 @@ capabilities:
       url: "https://alumcasting.com/images/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
       alt: "엄격한 공차의 다이캐스트 부품을 정밀 다축 CNC 가공"
       title: "정밀 CNC 가공"
-    learn_more: "/cnc-machining/"
+    learn_more: "/ko/cnc-machining/"
 
   - id: "die-casting-tooling"
     anchor: "capability-tooling"

@@ -1,6 +1,6 @@
 ---
-title: "Services avances de fonderie sous pression aluminium"
-description: "Fournisseur de fonderie sous pression aluminium avec parc 400T-5000T. Expertise ADC12, A380 et A356 pour automobile et electronique."
+title: "Services avancés de fonderie sous pression aluminium"
+description: "Fournisseur de fonderie sous pression aluminium avec parc 400T-5000T. Expertise ADC12, A380 et A356 pour automobile et électronique."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
@@ -14,19 +14,19 @@ showTableOfContents: false
 
 ## Excellence en fonderie aluminium pour la serie
 
-Nous appliquons le HPDC aluminium aux pieces structurelles et boitiers complexes avec une approche orientee stabilite process et cout global.
+Nous appliquons le HPDC aluminium aux pièces structurelles et boitiers complexes avec une approche orientee stabilite process et cout global.
 
 - Alliages: ADC12, A380, A356.
-- Capacite: 400T a 5000T.
-- CNC: tolerances jusqu a +/-0.01 mm.
+- Capacité: 400T a 5000T.
+- CNC: tolerances jusqu’à +/-0.01 mm.
 
-Consultez nos [capacites de fabrication](https://alumcasting.com/manufacturing-capabilities/) et notre [service integre fonderie + CNC](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/).
+Consultez nos [capacités de fabrication](https://alumcasting.com/manufacturing-capabilities/) et notre [service integre fonderie + CNC](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/).
 
 ![Ligne de production de fonderie aluminium](/img/5000ton-die-casting-machine.webp)
 
-## Qualite et validation
+## Qualité et validation
 
-Nous combinons rayons X, CMM et essais fonctionnels pour garantir la repetabilite en production serie. Voir aussi [5 methodes de reduction de porosite](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/).
+Nous combinons rayons X, CMM et essais fonctionnels pour garantir la répétabilité en production serie. Voir aussi [5 methodes de reduction de porosite](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/).
 
 ![Inspection rayons X en fonderie](/img/x-ray-detector.webp)
 

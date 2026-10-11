@@ -1,18 +1,18 @@
 ---
-title: "Servicios avanzados de fundicion a presion de aluminio"
-description: "Proveedor de fundicion a presion de aluminio con flota de 400T-5000T. Especialistas en ADC12, A380 y A356 para automocion y electronica."
+title: "Servicios avanzados de fundición a presión de aluminio"
+description: "Proveedor de fundición a presión de aluminio con flota de 400T-5000T. Especialistas en ADC12, A380 y A356 para automocion y electrónica."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/5000ton-die-casting-machine.webp"
-featureImageAlt: "Maquina de fundicion a presion de 5000 toneladas"
+featureImageAlt: "Maquina de fundición a presión de 5000 toneladas"
 showTableOfContents: false
 ---
 
 {{< center_style >}}
 
-## Ingenieria de fundicion de aluminio para serie
+## Ingeniería de fundición de aluminio para serie
 
 Aplicamos HPDC de aluminio para piezas estructurales y carcasas complejas con foco en estabilidad de proceso y coste total.
 
@@ -20,15 +20,15 @@ Aplicamos HPDC de aluminio para piezas estructurales y carcasas complejas con fo
 - Capacidad: 400T a 5000T.
 - CNC: tolerancias hasta +/-0.01 mm.
 
-Revise nuestras [capacidades de fabricacion](https://alumcasting.com/manufacturing-capabilities/) y [servicio integral de fundicion + CNC](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/).
+Revise nuestras [capacidades de fabricacion](https://alumcasting.com/manufacturing-capabilities/) y [servicio integral de fundición + CNC](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/).
 
-![Linea de produccion de fundicion de aluminio](/img/5000ton-die-casting-machine.webp)
+![Linea de produccion de fundición de aluminio](/img/5000ton-die-casting-machine.webp)
 
 ## Calidad y validacion
 
 Combinamos rayos X, CMM y pruebas funcionales para asegurar repetibilidad en serie. Tambien puede consultar [metodos para reducir porosidad](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/).
 
-![Inspeccion por rayos X en fundicion](/img/x-ray-detector.webp)
+![Inspeccion por rayos X en fundición](/img/x-ray-detector.webp)
 
 <section class="w-full mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800">
   <div class="max-w-3xl mx-auto">

@@ -9,7 +9,7 @@ title = "KingShip"
   rtl = false
   dateFormat = "2 January 2006"
   logo = ""
-  description = "Services professionnels de fonderie sous pression aluminium et magnesium"
+  description = "Services professionnels de fonderie sous pression aluminium et magnésium"
 
 [params.author]
   name = "KingShip"

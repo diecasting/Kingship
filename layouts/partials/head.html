@@ -9,8 +9,15 @@
 
   {{/* Title */}}
   {{ if .IsHome }}
-    <title>{{ .Site.Title | emojify }}</title>
-    <meta name="title" content="{{ .Site.Title | emojify }}">
+    {{ $homeTitle := .Title | plainify | emojify }}
+    {{ $brand := "KingShip" }}
+    {{ if $homeTitle }}
+      <title>{{ $homeTitle }} | {{ $brand }}</title>
+      <meta name="title" content="{{ $homeTitle }} | {{ $brand }}">
+    {{ else }}
+      <title>{{ .Site.Title | emojify }}</title>
+      <meta name="title" content="{{ .Site.Title | emojify }}">
+    {{ end }}
   {{ else }}
     <title>{{ .Title | plainify | emojify }} &middot; {{ .Site.Title | emojify }}</title>
     <meta name="title" content="{{ .Title | plainify | emojify }} &middot; {{ .Site.Title | emojify }}">

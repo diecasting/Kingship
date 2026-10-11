@@ -119,7 +119,7 @@ KingShip은 [IATF 16949 인증](https://alumcasting.com/iatf-16949-high-toleranc
 ---
 
 ## 💼 턴키 솔루션 및 물류
-당사는 rapid 산업 프로토타이핑과 대규모 글로벌 생산을 연결합니다. [저량 브리지 금형](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/)이 필요하든 [전체 생산 확장](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/)이 필요하든, 당사는 End-to-end 지원을 제공합니다.
+당사는 신속한 산업 프로토타이핑과 대규모 글로벌 생산을 연결합니다. [저량 브리지 금형](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/)이 필요하든 [전체 생산 확장](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/)이 필요하든, 당사는 End-to-end 지원을 제공합니다.
 
 <section class="w-full mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800">
   <div class="max-w-3xl mx-auto">

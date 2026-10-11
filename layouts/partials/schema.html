@@ -28,8 +28,9 @@
   {{- $isService := false -}}
   {{- range $company.services -}}
     {{- $sp := .url_path -}}
-    {{- if or (eq $rel $sp) (eq $rel (printf "/de%s" $sp)) (eq $rel (printf "/es%s" $sp)) (eq $rel (printf "/fr%s" $sp)) (eq $rel (printf "/ja%s" $sp)) -}}
-      {{- $isService = true -}}
+    {{- if eq $rel $sp -}}{{- $isService = true -}}{{- end -}}
+    {{- range site.Languages -}}
+      {{- if eq $rel (printf "/%s%s" .Lang $sp) -}}{{- $isService = true -}}{{- end -}}
     {{- end -}}
   {{- end -}}
 
@@ -37,15 +38,17 @@
   {{- $isIndustry := false -}}
   {{- range $company.industries -}}
     {{- $ip := .url_path -}}
-    {{- if or (eq $rel $ip) (eq $rel (printf "/de%s" $ip)) (eq $rel (printf "/es%s" $ip)) (eq $rel (printf "/fr%s" $ip)) (eq $rel (printf "/ja%s" $ip)) -}}
-      {{- $isIndustry = true -}}
+    {{- if eq $rel $ip -}}{{- $isIndustry = true -}}{{- end -}}
+    {{- range site.Languages -}}
+      {{- if eq $rel (printf "/%s%s" .Lang $ip) -}}{{- $isIndustry = true -}}{{- end -}}
     {{- end -}}
   {{- end -}}
 
   {{- /* Detect the industry HUB (section landing at /industries/). */ -}}
   {{- $isIndustryHub := false -}}
-  {{- if or (eq $rel "/industries/") (eq $rel "/de/industries/") (eq $rel "/es/industries/") (eq $rel "/fr/industries/") (eq $rel "/ja/industries/") -}}
-    {{- $isIndustryHub = true -}}
+  {{- if eq $rel "/industries/" -}}{{- $isIndustryHub = true -}}{{- end -}}
+  {{- range site.Languages -}}
+    {{- if eq $rel (printf "/%s/industries/" .Lang) -}}{{- $isIndustryHub = true -}}{{- end -}}
   {{- end -}}
 
   {{- if $isService -}}

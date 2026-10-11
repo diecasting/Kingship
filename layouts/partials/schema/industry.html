@@ -11,8 +11,10 @@
 {{- $matched := slice -}}
 {{- range $company.industries -}}
   {{- $ip := .url_path -}}
-  {{- if or (eq $rel $ip) (eq $rel (printf "/de%s" $ip)) (eq $rel (printf "/es%s" $ip)) (eq $rel (printf "/fr%s" $ip)) (eq $rel (printf "/ja%s" $ip)) -}}
-    {{- $matched = $matched | append . -}}
+  {{- $ind := . -}}
+  {{- if eq $rel $ip -}}{{- $matched = $matched | append $ind -}}{{- end -}}
+  {{- range site.Languages -}}
+    {{- if eq $rel (printf "/%s%s" .Lang $ip) -}}{{- $matched = $matched | append $ind -}}{{- end -}}
   {{- end -}}
 {{- end -}}
 {{- if $isHub -}}

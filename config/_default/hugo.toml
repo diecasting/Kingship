@@ -50,8 +50,20 @@ enableEmoji = true
     weight = 5
     locale = "ja-jp"
 
-# 其他语言暂时注释，待德语稳定后再逐步添加，避免冲突
-# [languages.es] ... 
+  [languages.it]
+    label = "Italiano"
+    title = "KingShip Precision"
+    weight = 6
+    locale = "it-it"
+
+  [languages.ko]
+    label = "한국어"
+    title = "KingShip Precision"
+    weight = 7
+    locale = "ko-kr"
+
+# Additional languages can be added by registering a [languages.<code>] block here,
+# creating config/_default/languages.<code>.toml + menus.<code>.toml, and translating content.
 
 # ==========================================================================
 # 🎯 主题核心全局参数

@@ -1,0 +1,39 @@
+[[main]]
+  name = "홈"
+  url = "/"
+  weight = 10
+
+[[main]]
+  name = "알루미늄 다이캐스팅"
+  url = "/ko/aluminum-die-casting/"
+  weight = 20
+
+[[main]]
+  name = "마그네슘 다이캐스팅"
+  url = "/ko/magnesium-die-casting/"
+  weight = 30
+
+[[main]]
+  name = "반용융 레오캐스팅"
+  url = "/ko/semi-solid-rheocasting/"
+  weight = 32
+
+[[main]]
+  name = "CNC 가공"
+  url = "/ko/cnc-machining/"
+  weight = 34
+
+[[main]]
+  name = "다이캐스팅 금형"
+  url = "/ko/tooling/"
+  weight = 36
+
+[[main]]
+  name = "기술 블로그"
+  url = "/ko/blog/"
+  weight = 40
+
+[[main]]
+  name = "견적 요청"
+  url = "/ko/contact/"
+  weight = 50

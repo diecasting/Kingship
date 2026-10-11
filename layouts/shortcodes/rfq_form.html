@@ -1,43 +1,87 @@
+{{/* rfq_form.html — KingShip RFQ form shortcode (Formspree, white theme,
+   file upload). Action, fields, values and structure preserved exactly.
+   Labels localized via an inline dict keyed by .Site.Language.Lang with an
+   explicit English fallback, so the five existing languages keep English. */}}
+{{ $l := .Page.Lang | default "en" }}
+{{ $labels := dict
+  "en" (dict
+    "name" "FULL NAME *"
+    "company" "COMPANY NAME"
+    "email" "BUSINESS EMAIL *"
+    "material" "MATERIAL"
+    "opt_adc12" "Aluminum (ADC12 / A383)"
+    "opt_a356" "Aluminum (A356 / A360)"
+    "opt_az91d" "Magnesium (AZ91D / AM60B)"
+    "file" "FILE UPLOAD *"
+    "details" "PROJECT DETAILS *"
+    "submit" "SEND TECHNICAL RFQ"
+  )
+  "it" (dict
+    "name" "NOME COMPLETO *"
+    "company" "NOME AZIENDA"
+    "email" "EMAIL AZIENDALE *"
+    "material" "MATERIALE"
+    "opt_adc12" "Alluminio (ADC12 / A383)"
+    "opt_a356" "Alluminio (A356 / A360)"
+    "opt_az91d" "Magnesio (AZ91D / AM60B)"
+    "file" "CARICAMENTO FILE *"
+    "details" "DETTAGLI PROGETTO *"
+    "submit" "INVIA RFQ TECNICO"
+  )
+  "ko" (dict
+    "name" "성명 *"
+    "company" "회사명"
+    "email" "비즈니스 이메일 *"
+    "material" "소재"
+    "opt_adc12" "알루미늄 (ADC12 / A383)"
+    "opt_a356" "알루미늄 (A356 / A360)"
+    "opt_az91d" "마그네슘 (AZ91D / AM60B)"
+    "file" "파일 업로드 *"
+    "details" "프로젝트 세부사항 *"
+    "submit" "기술 RFQ 전송"
+  )
+}}
+{{ $t := index $labels $l | default (index $labels "en") }}
 <form action="https://formspree.io/f/xpqgbdly" method="POST" enctype="multipart/form-data" 
       style="max-width: 800px; margin: 0 auto; font-family: sans-serif; padding: 20px; border-radius: 8px; background-color: #ffffff; box-sizing: border-box; overflow: hidden;">
   
   <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
     <div style="flex: 1; min-width: 250px;">
-      <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">FULL NAME *</label>
+      <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">{{ index $t "name" }}</label>
       <input type="text" name="name" required style="width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box;">
     </div>
     <div style="flex: 1; min-width: 250px;">
-      <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">COMPANY NAME</label>
+      <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">{{ index $t "company" }}</label>
       <input type="text" name="company" style="width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box;">
     </div>
   </div>
 
   <div style="margin-bottom: 20px;">
-    <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">BUSINESS EMAIL *</label>
+    <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">{{ index $t "email" }}</label>
     <input type="email" name="_replyto" required style="width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box;">
   </div>
 
   <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px;">
     <div style="flex: 1; min-width: 250px;">
-      <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">MATERIAL</label>
+      <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">{{ index $t "material" }}</label>
       <select name="material" style="width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box; background-color: #fff;">
-        <option value="Aluminum-ADC12">Aluminum (ADC12 / A383)</option>
-        <option value="Aluminum-A356">Aluminum (A356 / A360)</option>
-        <option value="Magnesium-AZ91D">Magnesium (AZ91D / AM60B)</option>
+        <option value="Aluminum-ADC12">{{ index $t "opt_adc12" }}</option>
+        <option value="Aluminum-A356">{{ index $t "opt_a356" }}</option>
+        <option value="Magnesium-AZ91D">{{ index $t "opt_az91d" }}</option>
       </select>
     </div>
     <div style="flex: 1; min-width: 250px;">
-      <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">FILE UPLOAD *</label>
+      <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">{{ index $t "file" }}</label>
       <input type="file" name="attachment" required style="width: 100%; padding: 8px; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box; font-size: 13px;">
     </div>
   </div>
 
   <div style="margin-bottom: 24px;">
-    <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">PROJECT DETAILS *</label>
+    <label style="display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #374151;">{{ index $t "details" }}</label>
     <textarea name="message" rows="4" required style="width: 100%; padding: 12px; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box;"></textarea>
   </div>
 
   <button type="submit" style="width: 100%; padding: 16px; background-color: #2563eb; color: #ffffff; font-weight: 700; border: none; border-radius: 6px; cursor: pointer;">
-    SEND TECHNICAL RFQ
+    {{ index $t "submit" }}
   </button>
 </form>

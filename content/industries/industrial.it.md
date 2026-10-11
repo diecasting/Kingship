@@ -14,7 +14,7 @@ schema:
       answer: "Sì. Il nostro team interno di costruzione stampi per pressofusione progetta, costruisce e mantiene gli stampi, supportando lunghi cicli di produzione industriale con qualità costante."
 ---
 
-Le attrezzature industriali devono funzionare in modo affidabile sotto carico, calore e servizio continuo. KingShip fornisce i parti robusti colati e lavorati che mantengono macchine, involucri e sistemi di automazione performanti in ambienti impegnativi.
+Le attrezzature industriali devono funzionare in modo affidabile sotto carico, calore e servizio continuo. KingShip fornisce le parti robuste colate e lavorati che mantengono macchine, involucri e sistemi di automazione performanti in ambienti impegnativi.
 
 ## Capabilità per l'industriale
 

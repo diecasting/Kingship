@@ -7,7 +7,7 @@
   {{ if gt (len .) 0 }}
     <section class="bg-neutral-50 py-12 dark:bg-neutral-900/40 sm:py-16">
       <div class="container mx-auto max-w-3xl px-4">
-        <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 sm:text-3xl">Frequently Asked Questions</h2>
+        <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 sm:text-3xl">{{ i18n "industries.frequently_asked_questions" | default "Frequently Asked Questions" }}</h2>
         <div class="mt-8 space-y-3">
           {{ range . }}
             <details class="group rounded-xl border border-neutral-200 bg-white dark:border-neutral-700 dark:bg-neutral-800">

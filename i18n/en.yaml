@@ -103,3 +103,10 @@ admonition:
   tip: "Tip"
   todo: "Todo"
   warning: "Warning"
+industries:
+  industries_we_serve: "Industries We Serve"
+  related_services: "Related Services"
+  related_manufacturing_articles: "Related Manufacturing Articles"
+  frequently_asked_questions: "Frequently Asked Questions"
+  request_a_quote: "Request a Quote"
+  related_manufacturing_services: "Related Manufacturing Services"

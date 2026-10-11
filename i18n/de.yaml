@@ -93,3 +93,10 @@ cookie_notice:
   privacy_policy: "Datenschutzerklärung"
   button: "Verstanden"
   image_alt: "Cookie-Symbol"
+industries:
+  industries_we_serve: "Branchen, die wir bedienen"
+  related_services: "Verwandte Leistungen"
+  related_manufacturing_articles: "Verwandte Artikel zur Fertigung"
+  frequently_asked_questions: "Häufig gestellte Fragen"
+  request_a_quote: "Angebot anfordern"
+  related_manufacturing_services: "Verwandte Fertigungsleistungen"

@@ -35,7 +35,7 @@
 
     {{ with $ind.services }}
     <section class="mb-12">
-      <h2 class="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-50">Related Services</h2>
+      <h2 class="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-50">{{ i18n "industries.related_services" | default "Related Services" }}</h2>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {{- range . -}}
           {{- $sid := . -}}
@@ -63,7 +63,7 @@
       {{- end -}}
       {{- if $articles -}}
     <section class="mb-12">
-      <h2 class="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-50">Related Manufacturing Articles</h2>
+      <h2 class="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-50">{{ i18n "industries.related_manufacturing_articles" | default "Related Manufacturing Articles" }}</h2>
       <div class="grid gap-6 sm:grid-cols-2">
         {{- range $articles -}}
             <a href="{{ .RelPermalink }}" class="block rounded-xl border border-neutral-200 p-6 shadow-sm transition hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800">
@@ -80,7 +80,7 @@
     {{ with .Params.schema.faq }}
       {{ if gt (len .) 0 }}
       <section class="mb-12">
-        <h2 class="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-50">Frequently Asked Questions</h2>
+        <h2 class="mb-6 text-2xl font-bold text-neutral-900 dark:text-neutral-50">{{ i18n "industries.frequently_asked_questions" | default "Frequently Asked Questions" }}</h2>
         <div class="space-y-3">
           {{ range . }}
             <details class="group rounded-xl border border-neutral-200 bg-white dark:border-neutral-700 dark:bg-neutral-800">
@@ -97,7 +97,7 @@
     {{ end }}
 
     <section>
-      <a href="{{ "/contact/" | relLangURL }}" class="inline-flex items-center rounded-lg bg-primary-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-primary-500">Request a Quote</a>
+      <a href="{{ "/contact/" | relLangURL }}" class="inline-flex items-center rounded-lg bg-primary-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-primary-500">{{ i18n "industries.request_a_quote" | default "Request a Quote" }}</a>
     </section>
   </section>
 {{ end }}

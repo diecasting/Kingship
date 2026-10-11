@@ -109,3 +109,10 @@ cookie_notice:
   privacy_policy: "プライバシーポリシー"
   button: "了解しました"
   image_alt: "Cookie アイコン"
+industries:
+  industries_we_serve: "対応産業"
+  related_services: "関連サービス"
+  related_manufacturing_articles: "関連する製造記事"
+  frequently_asked_questions: "よくある質問"
+  request_a_quote: "見積もりを依頼"
+  related_manufacturing_services: "関連製造サービス"

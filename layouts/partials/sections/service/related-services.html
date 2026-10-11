@@ -6,7 +6,7 @@
 */}}
 <section class="border-t border-neutral-200 bg-neutral-50 py-12 dark:border-neutral-800 dark:bg-neutral-900">
   <div class="container mx-auto max-w-5xl px-4">
-    <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100">Related Manufacturing Services</h2>
+    <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100">{{ i18n "industries.related_manufacturing_services" | default "Related Manufacturing Services" }}</h2>
     <p class="mt-2 text-neutral-600 dark:text-neutral-400">Explore our complementary precision manufacturing capabilities.</p>
     <div class="hy-grid hy-grid--3 mt-8 gap-4">
       {{ range hugo.Data.company.services }}

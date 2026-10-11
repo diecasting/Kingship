@@ -83,3 +83,10 @@ cookie_notice:
   privacy_policy: "politique de confidentialité"
   button: "Compris"
   image_alt: "Icône de cookie"
+industries:
+  industries_we_serve: "Industries que nous servons"
+  related_services: "Services connexes"
+  related_manufacturing_articles: "Articles connexes sur la fabrication"
+  frequently_asked_questions: "Questions fréquentes"
+  request_a_quote: "Demander un devis"
+  related_manufacturing_services: "Services de fabrication connexes"

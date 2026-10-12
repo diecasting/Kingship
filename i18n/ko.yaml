@@ -86,3 +86,10 @@ cookie_notice:
   privacy_policy: "개인정보 처리방침"
   button: "확인했습니다"
   image_alt: "쿠키 아이콘"
+industries:
+  industries_we_serve: "지원하는 산업 분야"
+  related_services: "관련 서비스"
+  related_manufacturing_articles: "제조 관련 기사"
+  frequently_asked_questions: "자주 묻는 질문"
+  request_a_quote: "견적 요청"
+  related_manufacturing_services: "관련 제조 서비스"

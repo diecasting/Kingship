@@ -97,3 +97,10 @@ cookie_notice:
   privacy_policy: "informativa sulla privacy"
   button: "Ho capito"
   image_alt: "Icona cookie"
+industries:
+  industries_we_serve: "Settori che serviamo"
+  related_services: "Servizi correlati"
+  related_manufacturing_articles: "Articoli correlati sulla fabbricazione"
+  frequently_asked_questions: "Domande frequenti"
+  request_a_quote: "Richiedi un preventivo"
+  related_manufacturing_services: "Servizi di produzione correlati"

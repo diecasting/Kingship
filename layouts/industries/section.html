@@ -6,7 +6,7 @@
 {{ define "main" }}
   <section class="mx-auto max-w-screen-xl px-4 py-16">
     <header class="mb-10">
-      <h1 class="text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-50">Industries We Serve</h1>
+      <h1 class="text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-50">{{ i18n "industries.industries_we_serve" | default "Industries We Serve" }}</h1>
       <p class="mt-4 max-w-2xl text-lg text-neutral-600 dark:text-neutral-300">Material and process expertise tuned to the demands of each sector.</p>
     </header>
     {{ with .Content }}<div class="mb-10 max-w-3xl text-neutral-700 dark:text-neutral-300">{{ . }}</div>{{ end }}

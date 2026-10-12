@@ -465,3 +465,74 @@ a[href*="t.me/share"] {
   border-radius: 3px;
   background: linear-gradient(90deg, var(--hy-brand), var(--hy-amber));
 }
+
+/* ============================================================================
+ * Service architecture sections — Tailwind utility shims
+ * ----------------------------------------------------------------------------
+ * Root cause: `assets/css/compiled/main.css` was compiled with Tailwind v4 but
+ * WITHOUT scanning the project's service section partials (added later under
+ * "Phase 3B/4B"). The classes below are used by
+ * `layouts/partials/sections/service/*.html` but are absent from the compiled
+ * bundle, so sections rendered with no vertical padding and broken grids.
+ * These shims restore the intended spacing / grid / responsive / dark-mode
+ * behaviour. Values mirror Tailwind v4 defaults (neutral = Tailwind grey scale,
+ * primary = Tailwind blue scale; brand navy #0c4a8e matches the existing
+ * arbitrary-value classes in related-services.html). No partials, templates,
+ * content, SEO or config are changed. ShowEdit fix in params.toml untouched.
+ * ==========================================================================*/
+
+/* --- Layout / spacing (CRITICAL: restores section vertical rhythm) --- */
+.py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+@media (min-width: 640px) { .sm\:py-16 { padding-top: 4rem; padding-bottom: 4rem; } }
+.px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+.mt-0\.5 { margin-top: 0.125rem; }
+.gap-8 { gap: 2rem; }
+.items-start { align-items: flex-start; }
+.tracking-wider { letter-spacing: 0.05em; }
+.leading-none { line-height: 1; }
+.w-1\/3 { width: 33.333333%; }
+
+/* --- Max-width containers --- */
+.max-w-5xl { max-width: 64rem; }
+.max-w-2xl { max-width: 42rem; }
+
+/* --- Grid template columns --- */
+.grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+@media (min-width: 1024px) { .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+/* --- Responsive heading sizes --- */
+@media (min-width: 640px) {
+  .sm\:text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+  .sm\:text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+}
+
+/* --- Border colours --- */
+.border-primary-200 { border-color: #bfdbfe; }
+.border-white\/40 { border-color: rgba(255, 255, 255, 0.4); }
+
+/* --- Divide (list separators) --- */
+.divide-y > :not([hidden]) ~ :not([hidden]) { border-top-width: 1px; }
+.divide-neutral-200 > :not([hidden]) ~ :not([hidden]) { border-color: #e5e5e5; }
+.dark .dark\:divide-neutral-700 > :not([hidden]) ~ :not([hidden]) { border-color: #404040; }
+
+/* --- Ring (focus ring on service-hero badge) --- */
+.ring-1 { box-shadow: 0 0 0 1px var(--tw-ring-color, #e5e5e5); }
+.ring-neutral-200 { --tw-ring-color: #e5e5e5; }
+.dark .dark\:ring-neutral-700 { --tw-ring-color: #404040; }
+
+/* --- Dark-mode background / border / text tints --- */
+.dark .dark\:bg-neutral-900 { background-color: #171717; }
+.dark .dark\:bg-neutral-900\/40 { background-color: rgba(23, 23, 23, 0.4); }
+.dark .dark\:bg-primary-700 { background-color: #1d4ed8; }
+.dark .dark\:bg-primary-900\/10 { background-color: rgba(30, 58, 138, 0.1); }
+.dark .dark\:bg-primary-900\/30 { background-color: rgba(30, 58, 138, 0.3); }
+.dark .dark\:border-neutral-800 { border-color: #262626; }
+.dark .dark\:border-primary-800 { border-color: #1e40af; }
+.dark .dark\:text-primary-300 { color: #93c5fd; }
+
+/* --- Hover / group / group-open brand interactions --- */
+.hover\:bg-white\/10:hover { background-color: rgba(255, 255, 255, 0.1); }
+.hover\:border-\[\#0c4a8e\]:hover { border-color: #0c4a8e; }
+.group:hover .group-hover\:text-\[\#2563eb\] { color: #2563eb; }
+.group[open] .group-open\:rotate-45 { transform: rotate(45deg); }
+.dark .group:hover .dark\:group-hover\:text-\[\#60a5fa\] { color: #60a5fa; }

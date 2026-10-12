@@ -4,7 +4,9 @@
    Called by: schema.html (homepage) */ -}}
 
 {{- $company := hugo.Data.company -}}
-{{- $lang := .Page.Language.Lang -}}
+{{- /* Nil-safe language: .Page.Language.Lang is valid here (homepage page
+       context); default keeps EN if ever empty. */ -}}
+{{- $lang := .Page.Language.Lang | default "en" -}}
 {{- $loc := (index $company.languages $lang) | default $company.languages.en -}}
 {{- $base := .Site.BaseURL -}}
 
@@ -39,7 +41,7 @@
     {{ range $i, $c := $company.certifications }}{{ if $i }}, {{ end }}"{{ $c | safeJS }}"{{ end }}
   ],
   "areaServed": [
-    {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}"{{ $ind.name | safeJS }}"{{ end }}
+    {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}{{ $iLoc := index ($ind.languages | default dict) $lang | default dict }}"{{ ($iLoc.name | default $ind.name) | safeJS }}"{{ end }}
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -54,11 +56,14 @@
       {{- $n := 0 -}}
       {{- range $svc := $company.services -}}
         {{- with site.GetPage $svc.url_path -}}
+          {{- /* Localized offer service name with top-level English fallback. */ -}}
+          {{- $sLoc := index ($svc.languages | default dict) $lang | default dict -}}
+          {{- $sName := $sLoc.name | default $svc.name -}}
           {{- if gt $n 0 }}, {{ end -}}{
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "{{ $svc.name | safeJS }}",
+              "name": "{{ $sName | safeJS }}",
               "url": "{{ $base }}{{ strings.TrimPrefix "/" $svc.url_path | safeJS }}"
             }
           }

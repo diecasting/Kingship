@@ -5,6 +5,9 @@
 
 {{- $company := hugo.Data.company -}}
 {{- $rel := .RelPermalink -}}
+{{- /* Capture the page language once; inside the `with` block below `.` is the
+       matched entry, not the page, so $lang must be resolved here. */ -}}
+{{- $lang := .Lang | default "en" -}}
 {{- $matched := slice -}}
 {{- range $company.services -}}
   {{- $sp := .url_path -}}
@@ -15,13 +18,18 @@
   {{- end -}}
 {{- end -}}
 {{- with (index $matched 0) -}}
+{{- /* Localized service name/description with top-level English fallback. */ -}}
+{{- $svcLocMap := .languages | default dict -}}
+{{- $svcLoc := index $svcLocMap $lang | default dict -}}
+{{- $svcName := $svcLoc.name | default .name -}}
+{{- $svcDesc := $svcLoc.description | default .description -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
   "@id": "{{ $.Permalink }}#service",
-  "name": "{{ .name | safeJS }}",
-  {{ with .description }}"description": "{{ . | safeJS }}",{{ end }}
+  "name": "{{ $svcName | safeJS }}",
+  {{ with $svcDesc }}"description": "{{ . | safeJS }}",{{ end }}
   "url": "{{ $.Permalink | safeJS }}",
   "serviceType": "{{ .schema_type | safeJS }}",
   "provider": {
@@ -33,7 +41,7 @@
     "name": "{{ $company.brand | safeJS }}"
   },
   "areaServed": [
-    {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}"{{ $ind.name | safeJS }}"{{ end }}
+    {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}{{ $iLoc := index ($ind.languages | default dict) $lang | default dict }}"{{ ($iLoc.name | default $ind.name) | safeJS }}"{{ end }}
   ]
 }
 </script>

@@ -5,17 +5,22 @@
   No new pages are created; no URLs/permalinks are changed.
 */}}
 <section class="border-t border-neutral-200 bg-neutral-50 py-12 dark:border-neutral-800 dark:bg-neutral-900">
+  {{- $lang := .Lang | default "en" -}}
   <div class="container mx-auto max-w-5xl px-4">
     <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100">{{ i18n "industries.related_manufacturing_services" | default "Related Manufacturing Services" }}</h2>
     <p class="mt-2 text-neutral-600 dark:text-neutral-400">Explore our complementary precision manufacturing capabilities.</p>
     <div class="hy-grid hy-grid--3 mt-8 gap-4">
       {{ range hugo.Data.company.services }}
         {{ if ne .url_path $.RelPermalink }}
+          {{- /* Localized service name with top-level English fallback. */ -}}
+          {{- $svcLocMap := .languages | default dict -}}
+          {{- $svcLoc := index $svcLocMap $lang | default dict -}}
+          {{- $svcName := $svcLoc.name | default .name -}}
           <a
             href="{{ .url_path | relLangURL }}"
             class="hy-lift group flex flex-col rounded-xl border border-neutral-200 bg-white p-5 transition hover:border-[#0c4a8e] dark:border-neutral-700 dark:bg-neutral-800">
             <span class="text-lg font-semibold text-neutral-900 group-hover:text-[#2563eb] dark:text-neutral-100 dark:group-hover:text-[#60a5fa]">
-              {{ .name }}
+              {{ $svcName }}
             </span>
             {{ with .category }}<span class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">{{ . }}</span>{{ end }}
           </a>

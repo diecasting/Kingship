@@ -10,6 +10,7 @@
    head.html) applies. */ -}}
 
 {{ define "main" }}
+  {{- $lang := .Lang | default "en" -}}
   {{- /* Resolve the industry record from the data model by canonical path,
          stripping any language prefix so /de/industries/automotive/ matches
          /industries/automotive/. */ -}}
@@ -23,13 +24,19 @@
     {{- if eq .url_path $canon -}}{{- $ind = . -}}{{- end -}}
   {{- end -}}
 
+  {{- /* Localized industry name/description with top-level English fallback. */ -}}
+  {{- $indLocMap := $ind.languages | default dict -}}
+  {{- $indLoc := index $indLocMap $lang | default dict -}}
+  {{- $indName := $indLoc.name | default $ind.name -}}
+  {{- $indDesc := $indLoc.description | default $ind.description -}}
+
   <section class="mx-auto max-w-5xl px-4 py-16">
     <header class="mb-10">
-      {{ with $ind.name }}<h1 class="text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-50">{{ . }}</h1>{{ end }}
-      {{ with $ind.description }}<p class="mt-4 max-w-2xl text-lg text-neutral-600 dark:text-neutral-300">{{ . }}</p>{{ end }}
+      {{ with $indName }}<h1 class="text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-50">{{ . }}</h1>{{ end }}
+      {{ with $indDesc }}<p class="mt-4 max-w-2xl text-lg text-neutral-600 dark:text-neutral-300">{{ . }}</p>{{ end }}
     </header>
 
-    {{ with $ind.hero_image }}<img src="{{ . }}" alt="{{ $ind.name }}" class="mb-12 w-full rounded-xl object-cover" />{{ end }}
+    {{ with $ind.hero_image }}<img src="{{ . }}" alt="{{ $indName }}" class="mb-12 w-full rounded-xl object-cover" />{{ end }}
 
     {{ with .Content }}<div class="mb-12 max-w-3xl text-neutral-700 dark:text-neutral-300">{{ . }}</div>{{ end }}
 
@@ -41,9 +48,14 @@
           {{- $sid := . -}}
           {{- range site.Data.company.services -}}
             {{- if eq .id $sid -}}
+              {{- /* Localized related-service name/description with English fallback. */ -}}
+              {{- $svcLocMap := .languages | default dict -}}
+              {{- $svcLoc := index $svcLocMap $lang | default dict -}}
+              {{- $svcName := $svcLoc.name | default .name -}}
+              {{- $svcDesc := $svcLoc.description | default .description -}}
               <a href="{{ .url_path | relLangURL }}" class="block rounded-xl border border-neutral-200 p-6 shadow-sm transition hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800">
-                <h3 class="text-lg font-semibold text-neutral-900 dark:text-neutral-50">{{ .name }}</h3>
-                {{ with .description }}<p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">{{ . }}</p>{{ end }}
+                <h3 class="text-lg font-semibold text-neutral-900 dark:text-neutral-50">{{ $svcName }}</h3>
+                {{ with $svcDesc }}<p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">{{ . }}</p>{{ end }}
               </a>
             {{- end -}}
           {{- end -}}

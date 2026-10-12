@@ -8,6 +8,9 @@
 {{- $page := .page | default . -}}
 {{- $isHub := .isHub | default false -}}
 {{- $rel := $page.RelPermalink -}}
+{{- /* Page language, resolved from the page context (the partial is invoked with
+       a dict carrying "page"). */ -}}
+{{- $lang := $page.Lang | default "en" -}}
 {{- $matched := slice -}}
 {{- range $company.industries -}}
   {{- $ip := .url_path -}}
@@ -33,11 +36,15 @@
     "itemListElement": [
       {{- $n := 0 -}}
       {{- range $company.services -}}
+        {{- /* Localized offer service name with English fallback. */ -}}
+        {{- $sLocMap := .languages | default dict -}}
+        {{- $sLoc := index $sLocMap $lang | default dict -}}
+        {{- $sName := $sLoc.name | default .name -}}
         {{- if gt $n 0 }}, {{ end -}}{
           "@type": "Offer",
           "itemOffered": {
             "@type": "Service",
-            "name": "{{ .name | safeJS }}",
+            "name": "{{ $sName | safeJS }}",
             "url": "{{ $page.Site.BaseURL }}{{ strings.TrimPrefix "/" .url_path | safeJS }}"
           }
         }
@@ -49,13 +56,18 @@
 </script>
 {{- else -}}
 {{- with (index $matched 0) -}}
+{{- /* Localized industry name/description with top-level English fallback. */ -}}
+{{- $indLocMap := .languages | default dict -}}
+{{- $indLoc := index $indLocMap $lang | default dict -}}
+{{- $indName := $indLoc.name | default .name -}}
+{{- $indDesc := $indLoc.description | default .description -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "@id": "{{ $page.Permalink }}#webpage",
-  "name": "{{ .name | safeJS }}",
-  {{ with .description }}"description": "{{ . | safeJS }}",{{ end }}
+  "name": "{{ $indName | safeJS }}",
+  {{ with $indDesc }}"description": "{{ . | safeJS }}",{{ end }}
   "url": "{{ $page.Permalink | safeJS }}",
   "isPartOf": { "@type": "WebSite", "@id": "{{ $page.Site.BaseURL }}#website" }
   {{- with .hero_image -}},
@@ -63,7 +75,7 @@
   {{- end -}},
   "about": {
     "@type": "Thing",
-    "name": "{{ .name | safeJS }}"
+    "name": "{{ $indName | safeJS }}"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -73,11 +85,15 @@
         {{- $sid := . -}}
         {{- range $company.services -}}
           {{- if eq .id $sid -}}
+            {{- /* Localized related-service offer name with English fallback. */ -}}
+            {{- $rsLocMap := .languages | default dict -}}
+            {{- $rsLoc := index $rsLocMap $lang | default dict -}}
+            {{- $rsName := $rsLoc.name | default .name -}}
             {{- if gt $n 0 }}, {{ end -}}{
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "{{ .name | safeJS }}",
+                "name": "{{ $rsName | safeJS }}",
                 "url": "{{ $page.Site.BaseURL }}{{ strings.TrimPrefix "/" .url_path | safeJS }}"
               }
             }

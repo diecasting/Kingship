@@ -109,26 +109,61 @@ services:
     url_path: "/aluminum-die-casting/"
     schema_type: "AluminumDieCasting"
     description: "High-pressure aluminum die casting in ADC12, A380 and A356 alloys with tight-tolerance dimensional control and in-house CNC finishing."
+    languages:
+      es:
+        name: "Fundición a presión de aluminio"
+        description: "Fundición a presión de aluminio de alta precisión en aleaciones ADC12, A380 y A356, con control dimensional de tolerancias ajustadas y acabado CNC interno."
+      fr:
+        name: "Moulage sous pression d'aluminium"
+        description: "Moulage sous pression d'aluminium haute pression en alliages ADC12, A380 et A356, avec un contrôle dimensionnel à tolérances serrées et une finition CNC interne."
   - id: "magnesium-die-casting"
     name: "Magnesium Die Casting"
     url_path: "/magnesium-die-casting/"
     schema_type: "MagnesiumDieCasting"
     description: "Lightweight magnesium die casting in AZ91D and AM60B for automotive, EV and electronics enclosures."
+    languages:
+      es:
+        name: "Fundición a presión de magnesio"
+        description: "Fundición a presión de magnesio ligero en AZ91D y AM60B para carrocerías automotrices, vehículos eléctricos y carcasas electrónicas."
+      fr:
+        name: "Moulage sous pression de magnésium"
+        description: "Moulage sous pression de magnésium léger en AZ91D et AM60B pour les carrosseries automobiles, véhicules électriques et boîtiers électroniques."
   - id: "semi-solid-rheocasting"
     name: "Semi Solid Rheocasting"
     url_path: "/semi-solid-rheocasting/"
     schema_type: "Rheocasting"
     description: "Semi-solid rheocasting for low-porosity, high-integrity structural components."
+    languages:
+      es:
+        name: "Reofundición semi-sólida"
+        description: "Reofundición semi-sólida para componentes estructurales de baja porosidad y alta integridad."
+      fr:
+        name: "Rhéocoulée semi-solide"
+        description: "Rhéocoulée semi-solide pour des composants structurels à faible porosité et haute intégrité."
   - id: "cnc-machining"
     name: "CNC Machining"
     url_path: "/cnc-machining/"
     schema_type: "CncMachining"
     description: "Precision 3/4/5-axis CNC machining and post-processing for cast components."
+    languages:
+      es:
+        name: "Mecanizado CNC"
+        description: "Mecanizado CNC de precisión de 3, 4 y 5 ejes y posprocesado para componentes fundidos."
+      fr:
+        name: "Usinage CNC"
+        description: "Usinage CNC de précision 3/4/5 axes et post-traitement pour les composants moulés."
   - id: "die-casting-tooling"
     name: "Die Casting Tooling"
     url_path: "/tooling/"
     schema_type: "Tooling"
     description: "In-house die casting tooling design, manufacturing and maintenance."
+    languages:
+      es:
+        name: "Utillaje de fundición a presión"
+        description: "Diseño, fabricación y mantenimiento de utillaje de fundición a presión en instalaciones propias."
+      fr:
+        name: "Outillage de moulage sous pression"
+        description: "Conception, fabrication et maintenance d'outillage de moulage sous pression en interne."
 
 # --- Industries served (content model + areaServed) ---
 # Structured model driving /industries/<slug>/ landing pages (Phase 5C-2
@@ -143,6 +178,13 @@ industries:
     name: "Automotive"
     url_path: "/industries/automotive/"
     description: "Powertrain, structural and thermal-management components with IATF 16949 discipline."
+    languages:
+      es:
+        name: "Automotriz"
+        description: "Componentes de tren motriz, estructurales y de gestión térmica con la disciplina IATF 16949."
+      fr:
+        name: "Automobile"
+        description: "Composants de groupe motopropulseur, structurels et de gestion thermique selon la norme IATF 16949."
     hero_image: "https://kingship.alumcasting.com/img/automated-die-casting-production-line.webp"
     services:
       - aluminum-die-casting
@@ -154,6 +196,13 @@ industries:
     name: "Electric Vehicle"
     url_path: "/industries/electric-vehicle/"
     description: "Battery structures, housings and brackets for lightweight, long-range platforms."
+    languages:
+      es:
+        name: "Vehículo eléctrico"
+        description: "Estructuras de batería, carcasas y soportes para plataformas ligeras de gran autonomía."
+      fr:
+        name: "Véhicule électrique"
+        description: "Structures de batteries, boîtiers et supports pour plateformes légères à longue autonomie."
     hero_image: "https://kingship.alumcasting.com/img/leakaging-testing-equipment.webp"
     services:
       - aluminum-die-casting
@@ -165,6 +214,13 @@ industries:
     name: "Aerospace"
     url_path: "/industries/aerospace/"
     description: "Lightweight, high-integrity magnesium and aluminum parts for flight applications."
+    languages:
+      es:
+        name: "Aeroespacial"
+        description: "Piezas ligeras y de alta integridad de magnesio y aluminio para aplicaciones aeronáuticas."
+      fr:
+        name: "Aéronautique"
+        description: "Pièces légères et à haute intégrité en magnésium et aluminium pour applications aéronautiques."
     hero_image: "https://kingship.alumcasting.com/img/magnesium-die-casting-banner.webp"
     services:
       - magnesium-die-casting
@@ -179,6 +235,13 @@ industries:
     name: "Industrial"
     url_path: "/industries/industrial/"
     description: "Durable enclosures, frames and mechanism parts for demanding environments."
+    languages:
+      es:
+        name: "Industrial"
+        description: "Carcasas, estructuras y piezas mecánicas duraderas para entornos exigentes."
+      fr:
+        name: "Industriel"
+        description: "Boîtiers, cadres et pièces mécaniques durables pour environnements exigeants."
     hero_image: "https://kingship.alumcasting.com/img/aluminum-die-casting-parts-storage.webp"
     services:
       - aluminum-die-casting
@@ -189,6 +252,13 @@ industries:
     name: "Medical"
     url_path: "/industries/medical/"
     description: "Clean, dimensionally stable components for diagnostic and device applications."
+    languages:
+      es:
+        name: "Médico"
+        description: "Componentes limpios y dimensionalmente estables para aplicaciones de diagnóstico y dispositivos."
+      fr:
+        name: "Médical"
+        description: "Composants propres et dimensionnellement stables pour applications de diagnostic et dispositifs médicaux."
     hero_image: "https://kingship.alumcasting.com/img/hexagon-coordinate-measuring-machine-inspection.webp"
     services:
       - cnc-machining

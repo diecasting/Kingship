@@ -1,32 +1,37 @@
 [[main]]
-  name = "Home"
-  url = "/"
-  weight = 10
+  name = "Capabilities"
+  identifier = "capabilities"
+  weight = 20
 
 [[main]]
   name = "Aluminum Die Casting"
   url = "/aluminum-die-casting/"
-  weight = 20
+  parent = "capabilities"
+  weight = 21
 
 [[main]]
   name = "Magnesium Die Casting"
   url = "/magnesium-die-casting/"
-  weight = 30
+  parent = "capabilities"
+  weight = 22
 
 [[main]]
   name = "Semi-Solid Rheocasting"
   url = "/semi-solid-rheocasting/"
-  weight = 32
+  parent = "capabilities"
+  weight = 23
 
 [[main]]
   name = "CNC Machining"
   url = "/cnc-machining/"
-  weight = 34
+  parent = "capabilities"
+  weight = 24
 
 [[main]]
   name = "Die Casting Tooling"
   url = "/tooling/"
-  weight = 36
+  parent = "capabilities"
+  weight = 25
 
 [[main]]
   name = "Technical Blog"

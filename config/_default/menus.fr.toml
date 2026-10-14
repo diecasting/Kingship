@@ -1,32 +1,37 @@
 [[main]]
-  name = "Accueil"
-  url = "/fr/"
-  weight = 10
+  name = "Capacités"
+  identifier = "capabilities"
+  weight = 20
 
 [[main]]
   name = "Fonderie aluminium"
   url = "/fr/aluminum-die-casting/"
-  weight = 20
+  parent = "capabilities"
+  weight = 21
 
 [[main]]
   name = "Fonderie magnesium"
   url = "/fr/magnesium-die-casting/"
-  weight = 30
+  parent = "capabilities"
+  weight = 22
 
 [[main]]
   name = "Rheocasting semi-solide"
   url = "/fr/semi-solid-rheocasting/"
-  weight = 32
+  parent = "capabilities"
+  weight = 23
 
 [[main]]
   name = "Usinage CNC"
   url = "/fr/cnc-machining/"
-  weight = 34
+  parent = "capabilities"
+  weight = 24
 
 [[main]]
   name = "Outillage de moulage"
   url = "/fr/tooling/"
-  weight = 36
+  parent = "capabilities"
+  weight = 25
 
 [[main]]
   name = "Blog technique"

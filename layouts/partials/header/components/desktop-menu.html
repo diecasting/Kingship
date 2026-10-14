@@ -94,12 +94,13 @@
       </div>
     </div>
   {{ else }}
+    {{ $isCTA := strings.HasSuffix .URL "/contact/" }}
     <a
       href="{{ .URL }}"
       {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:" ) }}
         target="_blank"
       {{ end }}
-      class="flex items-center bf-icon-color-hover"
+      class="{{ if $isCTA }}hy-nav-cta{{ else }}flex items-center bf-icon-color-hover{{ end }}"
       {{ with or .Name .Pre }}aria-label="{{ . }}"{{ end }}
       title="{{ .Title }}">
       {{ if .Pre }}
@@ -108,7 +109,7 @@
         </span>
       {{ end }}
       {{ if .Name }}
-        <span class="text-base font-medium break-normal">
+        <span{{ if not $isCTA }} class="text-base font-medium break-normal"{{ end }}>
           {{ .Name | markdownify }}
         </span>
       {{ end }}

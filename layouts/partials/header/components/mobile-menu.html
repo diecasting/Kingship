@@ -58,6 +58,7 @@
 {{ define "mobile-main-menu" }}
   {{ range .Site.Menus.main }}
     {{ $submenuId := printf "fullscreen-submenu-%s" (.Identifier | default .Name | anchorize) }}
+    {{ $isCTA := strings.HasSuffix .URL "/contact/" }}
     <div class="px-2">
       <a
         href="{{ .URL }}"
@@ -65,7 +66,7 @@
         {{ if or (strings.HasPrefix .URL "http:" ) (strings.HasPrefix .URL "https:" ) }}
           target="_blank"
         {{ end }}
-        class="flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200">
+        class="{{ if $isCTA }}hy-nav-cta{{ else }}flex items-center gap-4 group bf-icon-color-hover text-neutral-700 dark:text-neutral-200{{ end }}">
         {{ if .Pre }}
           <span class="flex items-center justify-center h-8 w-8 text-2xl">
             {{ partial "icon.html" .Pre }}

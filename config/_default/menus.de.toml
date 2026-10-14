@@ -1,32 +1,37 @@
 [[main]]
-  name = "Startseite"
-  url = "/"
-  weight = 10
+  name = "Leistungen"
+  identifier = "capabilities"
+  weight = 20
 
 [[main]]
   name = "Aluminium-Druckguss"
   url = "/de/aluminum-die-casting/"
-  weight = 20
+  parent = "capabilities"
+  weight = 21
 
 [[main]]
   name = "Magnesium-Druckguss"
   url = "/de/magnesium-die-casting/"
-  weight = 30
+  parent = "capabilities"
+  weight = 22
 
 [[main]]
   name = "Semi-Solid-Rheocasting"
   url = "/de/semi-solid-rheocasting/"
-  weight = 32
+  parent = "capabilities"
+  weight = 23
 
 [[main]]
   name = "CNC-Bearbeitung"
   url = "/de/cnc-machining/"
-  weight = 34
+  parent = "capabilities"
+  weight = 24
 
 [[main]]
   name = "Werkzeugbau"
   url = "/de/tooling/"
-  weight = 36
+  parent = "capabilities"
+  weight = 25
 
 [[main]]
   name = "Technischer Blog"

@@ -495,3 +495,30 @@ a[href*="t.me/share"] {
 .dark .dark\:bg-primary-900\/30 { background-color: rgb(30 58 138 / 0.3); }
 .dark .dark\:border-primary-800 { border-color: rgb(30 64 175); }
 .dark .dark\:text-primary-300 { color: rgb(147 197 253); }
+
+/* ============================================================================
+ * Header Request-a-Quote CTA — compact brand button.
+ * Reuses the established --hy-brand palette (defined above). Added for the
+ * header navigation refresh; does not modify the service-section styles above.
+ * ==========================================================================*/
+.hy-nav-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 9px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: var(--hy-brand);
+  color: #fff;
+  box-shadow: var(--hy-shadow-sm);
+  transition: transform .2s ease, background-color .2s ease, box-shadow .2s ease;
+}
+.hy-nav-cta:hover { background: var(--hy-brand-600); transform: translateY(-1px); box-shadow: var(--hy-shadow); }
+.hy-nav-cta:focus-visible { outline: 2px solid var(--hy-brand-600); outline-offset: 2px; }
+.dark .hy-nav-cta { background: var(--hy-brand-600); }
+.dark .hy-nav-cta:hover { background: var(--hy-brand); }

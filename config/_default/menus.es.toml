@@ -1,32 +1,37 @@
 [[main]]
-  name = "Inicio"
-  url = "/es/"
-  weight = 10
+  name = "Capacidades"
+  identifier = "capabilities"
+  weight = 20
 
 [[main]]
   name = "Fundicion de aluminio"
   url = "/es/aluminum-die-casting/"
-  weight = 20
+  parent = "capabilities"
+  weight = 21
 
 [[main]]
   name = "Fundicion de magnesio"
   url = "/es/magnesium-die-casting/"
-  weight = 30
+  parent = "capabilities"
+  weight = 22
 
 [[main]]
   name = "Colada semi-sólida"
   url = "/es/semi-solid-rheocasting/"
-  weight = 32
+  parent = "capabilities"
+  weight = 23
 
 [[main]]
   name = "Mecanizado CNC"
   url = "/es/cnc-machining/"
-  weight = 34
+  parent = "capabilities"
+  weight = 24
 
 [[main]]
   name = "Utillaje de moldeo"
   url = "/es/tooling/"
-  weight = 36
+  parent = "capabilities"
+  weight = 25
 
 [[main]]
   name = "Blog tecnico"

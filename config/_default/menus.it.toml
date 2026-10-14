@@ -1,32 +1,37 @@
 [[main]]
-  name = "Home"
-  url = "/"
-  weight = 10
+  name = "Capacità"
+  identifier = "capabilities"
+  weight = 20
 
 [[main]]
   name = "Pressofusione di Alluminio"
   url = "/it/aluminum-die-casting/"
-  weight = 20
+  parent = "capabilities"
+  weight = 21
 
 [[main]]
   name = "Pressofusione di Magnesio"
   url = "/it/magnesium-die-casting/"
-  weight = 30
+  parent = "capabilities"
+  weight = 22
 
 [[main]]
   name = "Rheocasting Semi-Solido"
   url = "/it/semi-solid-rheocasting/"
-  weight = 32
+  parent = "capabilities"
+  weight = 23
 
 [[main]]
   name = "Lavorazione CNC"
   url = "/it/cnc-machining/"
-  weight = 34
+  parent = "capabilities"
+  weight = 24
 
 [[main]]
   name = "Stampi per Pressofusione"
   url = "/it/tooling/"
-  weight = 36
+  parent = "capabilities"
+  weight = 25
 
 [[main]]
   name = "Blog Tecnico"

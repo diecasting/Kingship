@@ -4,7 +4,7 @@ description: "In-depth industrial case studies, mold flow analysis guides, poros
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "img/technical-blog-banner.webp"
+featureImage: "technical-blog-banner.webp"
 featureImageAlt: "Die casting engineering team analyzing mold flow simulation"
 # 💡 告诉 Hugo 这个页面作为一个列表容器来展示未来的子文章
 layout: "list"

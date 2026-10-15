@@ -4,7 +4,7 @@ description: "Approfondite case study industriali, guide all'analisi del flusso 
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "img/technical-blog-banner.webp"
+featureImage: "technical-blog-banner.webp"
 featureImageAlt: "Team di ingegneria della pressofusione che analizza la simulazione del flusso di riempimento"
 layout: "list"
 ---

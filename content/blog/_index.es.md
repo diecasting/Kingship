@@ -4,7 +4,7 @@ description: "Guias practicas sobre fundicion a presion, CNC, control de porosid
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "img/technical-blog-banner.webp"
+featureImage: "technical-blog-banner.webp"
 featureImageAlt: "Equipo de ingenieria analizando proceso de fundicion"
 layout: "list"
 ---

@@ -4,7 +4,7 @@ description: "20년 이상의 고압 다이캐스팅 전문성을 바탕으로 �
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "img/technical-blog-banner.webp"
+featureImage: "technical-blog-banner.webp"
 featureImageAlt: "몰드 플로우 시뮬레이션을 분석하는 다이캐스팅 엔지니어링 팀"
 layout: "list"
 ---

@@ -24,8 +24,8 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "/img/background.svg"
-defaultFeaturedImage = "/img/featured.svg"
+defaultBackgroundImage = "/img/magnesium-die-casting-banner.webp"
+defaultFeaturedImage = "/img/automated-die-casting-production-line.webp"
 defaultSocialImage = "/img/magnesium-die-casting-banner.webp"
 hotlinkFeatureImage = false
 # imagePosition = "50% 50%"

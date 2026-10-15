@@ -4,7 +4,7 @@ description: "Detaillierte industrielle Fallstudien, Leitfäden zur Formfüllung
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "img/technical-blog-banner.webp"
+featureImage: "technical-blog-banner.webp"
 featureImageAlt: "Druckguss-Ingenieurteam bei der Analyse der Formfüllungssimulation"
 layout: "list"
 ---

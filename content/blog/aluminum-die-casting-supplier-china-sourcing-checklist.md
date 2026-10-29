@@ -82,6 +82,8 @@ Before sending RFQs, prepare:
 
 With complete inputs, quality suppliers can usually return a usable quote and DFM direction much faster.
 
+When the shortlist is set, compare each supplier's process scope against our [custom aluminum die casting services](/aluminum-die-casting/) and [AZ91D magnesium die casting](/magnesium-die-casting/) so the RFQ maps to real production capability.
+
 ## Related Articles (Internal)
 
 - [Magnesium vs Aluminum Die Casting for EV Housings]({{< relref "blog/magnesium-vs-aluminum-die-casting-ev-housing-guide.md" >}})

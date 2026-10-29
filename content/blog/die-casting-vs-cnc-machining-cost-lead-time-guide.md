@@ -60,6 +60,8 @@ Reference: [Die casting factory CMM and X-ray inspection](https://alumcasting.co
 
 If you share your target volume and critical tolerances, we can suggest a CNC-first, casting-first, or hybrid path before you issue RFQ.
 
+If the part is aluminum, review our [custom aluminum die casting manufacturer](/aluminum-die-casting/) capabilities; for lightweight structural needs, see our [magnesium die casting manufacturer](/magnesium-die-casting/) program. Both are typically finished with in-house CNC machining on sealing faces and critical datums.
+
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">
     {{< rfq_form >}}

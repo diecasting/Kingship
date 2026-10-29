@@ -71,6 +71,8 @@ The right decision is based on total lifecycle cost, not only initial mold price
 
 If you already have 2 to 3 tooling quotes, we can help normalize the scope line-by-line so your team can compare them fairly.
 
+For aluminum programs, benchmark each quote against our [aluminum die casting tooling](/aluminum-die-casting/) scope so the die set, inserts, and trial loops map to the same technical gates.
+
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">
     {{< rfq_form >}}

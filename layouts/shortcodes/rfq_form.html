@@ -40,6 +40,18 @@
     "details" "프로젝트 세부사항 *"
     "submit" "기술 RFQ 전송"
   )
+  "ja" (dict
+    "name" "氏名 *"
+    "company" "会社名"
+    "email" "メールアドレス *"
+    "material" "材質"
+    "opt_adc12" "アルミニウム (ADC12 / A383)"
+    "opt_a356" "アルミニウム (A356 / A360)"
+    "opt_az91d" "マグネシウム (AZ91D / AM60B)"
+    "file" "ファイルアップロード *"
+    "details" "プロジェクト詳細 *"
+    "submit" "技術RFQを送信"
+  )
 }}
 {{ $t := index $labels $l | default (index $labels "en") }}
 <form action="https://formspree.io/f/xpqgbdly" method="POST" enctype="multipart/form-data" 

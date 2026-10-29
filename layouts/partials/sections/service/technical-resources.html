@@ -8,11 +8,11 @@
 {{ if or (and $r (gt (len $r) 0)) (and $w (gt (len $w) 0)) }}
   <section class="py-12 sm:py-16">
     <div class="container mx-auto max-w-5xl px-4">
-      <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 sm:text-3xl">Technical Resources</h2>
+      <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 sm:text-3xl">{{ i18n "industries.technical_resources" | default "Technical Resources" }}</h2>
       <div class="mt-8 hy-grid hy-grid--2 gap-4">
         {{ with $r }}{{ if gt (len .) 0 }}
         <div>
-          <h3 class="text-sm font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">Related Resources</h3>
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">{{ i18n "industries.related_resources" | default "Related Resources" }}</h3>
           <ul class="mt-4 space-y-2">
             {{ range . }}
               <li><a href="{{ .url }}" class="text-primary-600 hover:underline dark:text-primary-400" target="_blank" rel="noopener">{{ .title }} <span aria-hidden="true">→</span></a></li>
@@ -22,7 +22,7 @@
         {{ end }}{{ end }}
         {{ with $w }}{{ if gt (len .) 0 }}
         <div>
-          <h3 class="text-sm font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">Guides &amp; Articles</h3>
+          <h3 class="text-sm font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400">{{ i18n "industries.guides_articles" | default "Guides & Articles" }}</h3>
           <ul class="mt-4 space-y-2">
             {{ range . }}
               <li><a href="{{ .url }}" class="text-primary-600 hover:underline dark:text-primary-400" target="_blank" rel="noopener">{{ .title }} <span aria-hidden="true">→</span></a></li>

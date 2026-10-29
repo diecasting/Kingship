@@ -185,6 +185,9 @@ industries:
       fr:
         name: "Automobile"
         description: "Composants de groupe motopropulseur, structurels et de gestion thermique selon la norme IATF 16949."
+      ja:
+        name: "自動車"
+        description: "IATF 16949 の品質管理のもと、パワートレイン・構造部品・熱管理構成部品を提供。"
     hero_image: "https://kingship.alumcasting.com/img/automated-die-casting-production-line.webp"
     services:
       - aluminum-die-casting
@@ -203,6 +206,9 @@ industries:
       fr:
         name: "Véhicule électrique"
         description: "Structures de batteries, boîtiers et supports pour plateformes légères à longue autonomie."
+      ja:
+        name: "電気自動車"
+        description: "軽量で航続距離の長いプラットフォーム向けのバッテリー構造体、ハウジング、ブラケット。"
     hero_image: "https://kingship.alumcasting.com/img/leakaging-testing-equipment.webp"
     services:
       - aluminum-die-casting
@@ -259,6 +265,9 @@ industries:
       fr:
         name: "Médical"
         description: "Composants propres et dimensionnellement stables pour applications de diagnostic et dispositifs médicaux."
+      ja:
+        name: "医療機器"
+        description: "診断機器および医療機器向けの、清潔で寸法安定性に優れた構成部品。"
     hero_image: "https://kingship.alumcasting.com/img/hexagon-coordinate-measuring-machine-inspection.webp"
     services:
       - cnc-machining

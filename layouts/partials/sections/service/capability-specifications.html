@@ -7,7 +7,7 @@
   {{ if gt (len .) 0 }}
     <section class="bg-neutral-50 py-12 dark:bg-neutral-900/40 sm:py-16">
       <div class="container mx-auto max-w-5xl px-4">
-        <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 sm:text-3xl">Technical Specifications</h2>
+        <h2 class="text-2xl font-bold text-neutral-900 dark:text-neutral-100 sm:text-3xl">{{ i18n "industries.technical_specifications" | default "Technical Specifications" }}</h2>
         <div class="mt-8 overflow-hidden rounded-xl border border-neutral-200 dark:border-neutral-700">
           <table class="w-full text-left text-sm">
             <tbody class="divide-y divide-neutral-200 dark:divide-neutral-700">

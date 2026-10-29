@@ -83,6 +83,8 @@ To reduce these risks, pair the RFQ with an early DFM review: [Cost-down DFM des
 
 Need a fast feasibility check before formal RFQ? Share your 2D/3D files and target volume, and we can return a practical quote path with DFM notes.
 
+For aluminum programs, align every quote with our [high pressure aluminum die casting services](/aluminum-die-casting/) scope — machine tonnage, alloy path, and in-house CNC — before comparing piece price.
+
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">
     {{< rfq_form >}}

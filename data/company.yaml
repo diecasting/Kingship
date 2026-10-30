@@ -116,6 +116,9 @@ services:
       fr:
         name: "Moulage sous pression d'aluminium"
         description: "Moulage sous pression d'aluminium haute pression en alliages ADC12, A380 et A356, avec un contrôle dimensionnel à tolérances serrées et une finition CNC interne."
+      de:
+        name: "Aluminium-Druckguss"
+        description: "Präzisions-Aluminiumdruckguss in den Legierungen ADC12, A380 und A356, mit eng tolerierter dimensionaler Kontrolle und interner CNC-Nachbearbeitung."
   - id: "magnesium-die-casting"
     name: "Magnesium Die Casting"
     url_path: "/magnesium-die-casting/"
@@ -128,6 +131,9 @@ services:
       fr:
         name: "Moulage sous pression de magnésium"
         description: "Moulage sous pression de magnésium léger en AZ91D et AM60B pour les carrosseries automobiles, véhicules électriques et boîtiers électroniques."
+      de:
+        name: "Magnesium-Druckguss"
+        description: "Leichter Magnesiumdruckguss in AZ91D und AM60B für Karosserieteile, Elektrofahrzeuge und elektronische Gehäuse."
   - id: "semi-solid-rheocasting"
     name: "Semi Solid Rheocasting"
     url_path: "/semi-solid-rheocasting/"
@@ -140,6 +146,9 @@ services:
       fr:
         name: "Rhéocoulée semi-solide"
         description: "Rhéocoulée semi-solide pour des composants structurels à faible porosité et haute intégrité."
+      de:
+        name: "Semi-Solid-Rheocasting"
+        description: "Semi-Solid-Rheocasting für strukturelle Bauteile mit geringer Porosität und hoher Integrität."
   - id: "cnc-machining"
     name: "CNC Machining"
     url_path: "/cnc-machining/"
@@ -152,6 +161,9 @@ services:
       fr:
         name: "Usinage CNC"
         description: "Usinage CNC de précision 3/4/5 axes et post-traitement pour les composants moulés."
+      de:
+        name: "CNC-Bearbeitung"
+        description: "Präzise 3-/4-/5-Achs-CNC-Bearbeitung und Nachbearbeitung für druckgegossene Bauteile."
   - id: "die-casting-tooling"
     name: "Die Casting Tooling"
     url_path: "/tooling/"
@@ -164,6 +176,9 @@ services:
       fr:
         name: "Outillage de moulage sous pression"
         description: "Conception, fabrication et maintenance d'outillage de moulage sous pression en interne."
+      de:
+        name: "Werkzeugbau"
+        description: "Interne Konstruktion, Fertigung und Wartung von Druckgusswerkzeugen."
 
 # --- Industries served (content model + areaServed) ---
 # Structured model driving /industries/<slug>/ landing pages (Phase 5C-2

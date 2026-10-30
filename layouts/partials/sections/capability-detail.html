@@ -14,8 +14,8 @@
 {{- /* Manufacturing process stepper — new narrative element (V2 Hybrid) */ -}}
 <section class="mx-auto max-w-screen-xl px-4 py-10 md:py-14">
   <div class="max-w-3xl">
-    <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white">Our Manufacturing Process</h2>
-    <p class="mt-3 text-neutral-600 dark:text-neutral-300">From design validation to finished, inspected components — a vertically integrated flow under one quality system.</p>
+    <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white">{{ i18n "home.manufacturing_process_title" | default "Our Manufacturing Process" }}</h2>
+    <p class="mt-3 text-neutral-600 dark:text-neutral-300">{{ i18n "home.manufacturing_process_text" | default "From design validation to finished, inspected components — a vertically integrated flow under one quality system." }}</p>
   </div>
   <div class="hy-process mt-8">
     <div class="hy-process__step"><div class="hy-process__dot">1</div><div class="font-semibold text-neutral-900 dark:text-white">DFM &amp; Simulation</div><p class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">Magma &amp; Moldflow flow &amp; solidification analysis</p></div>

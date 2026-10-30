@@ -54,6 +54,13 @@ footer:
   dark_appearance: "Zum dunklen Erscheinungsbild wechseln"
   light_appearance: "Zum hellen Erscheinungsbild wechseln"
   powered_by: "Erstellt mit {{ .Hugo }} &amp; {{ .Theme }}"
+  # --- P0-D: footer UI (DE) — was English default fallback ---
+  navigation: "Navigation"
+  contact: "Kontakt"
+  contact_us: "Kontakt aufnehmen"
+  legal: "Impressum"
+  sitemap: "Sitemap"
+  tagline: "Präzisions-Aluminium- und Magnesium-Druckguss, CNC-Bearbeitung und Montage."
 
 list:
   externalurl_title: "Link zu einer externen Seite"
@@ -100,3 +107,21 @@ industries:
   frequently_asked_questions: "Häufig gestellte Fragen"
   request_a_quote: "Angebot anfordern"
   related_manufacturing_services: "Verwandte Fertigungsleistungen"
+  # --- P0-A: Service section headings (DE) — mirrors en.yaml, fixes EN fallback on DE service pages ---
+  typical_applications: "Typische Anwendungen"
+  technical_specifications: "Technische Spezifikationen"
+  equipment_capacity: "Ausstattung und Produktionskapazität"
+  manufacturing_process: "Fertigungsprozess"
+  materials_alloys: "Werkstoffe und Legierungen"
+  quality_certifications: "Qualität und Zertifizierungen"
+  quality_control: "Qualitätskontrolle"
+  certifications: "Zertifizierungen"
+  technical_resources: "Technische Ressourcen"
+  related_resources: "Verwandte Ressourcen"
+  guides_articles: "Leitfäden und Artikel"
+  ready_to_start_project: "Bereit, Ihr Projekt zu starten?"
+  contact_engineering_team: "Kontaktieren Sie unser Engineering-Team"
+  # --- P0-B: Homepage manufacturing-process block (DE) ---
+home:
+  manufacturing_process_title: "Unser Fertigungsprozess"
+  manufacturing_process_text: "Von der Designvalidierung bis zum fertig geprüften Bauteil – ein vertikal integrierter Prozess unter einem einheitlichen Qualitätsmanagementsystem."

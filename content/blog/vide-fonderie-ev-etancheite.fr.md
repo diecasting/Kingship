@@ -27,7 +27,7 @@ La combinaison rayons X, CMM et test d etancheite reste la plus robuste. Referen
 
 ![Inspection rayons X des defauts internes](/img/x-ray-detector.webp "Controle NDT")
 
-Pour un support technique: [alumcasting.com/contact](https://alumcasting.com/contact/).
+Pour un support technique: [Contact](https://kingship.alumcasting.com/fr/contact/).
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

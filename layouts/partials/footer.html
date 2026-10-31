@@ -36,9 +36,10 @@
           {{ with site.Data.company.address }}
             <li>{{ .locality }}, {{ .region }} {{ .country }}</li>
           {{ end }}
+          {{ $lang := .Lang -}}
           {{ with site.Data.company.contactPoint.url }}
             <li>
-              <a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "footer.contact_us" | default "Contact us" }}</a>
+              <a href="{{ if eq $lang "fr" }}https://kingship.alumcasting.com/fr/contact/{{ else }}{{ . }}{{ end }}" target="_blank" rel="noopener">{{ i18n "footer.contact_us" | default "Contact us" }}</a>
             </li>
           {{ end }}
         </ul>
@@ -70,7 +71,7 @@
       {{/* Copyright */}}
       {{ if .Site.Params.footer.showCopyright | default true }}
         <p class="hy-footer__copy">
-          &copy; {{ now.Format "2006" }} KingShip Precision Manufacturing. All rights reserved.
+          &copy; {{ now.Format "2006" }} KingShip Precision Manufacturing. {{ i18n "footer.all_rights_reserved" | default "All rights reserved." }}
         </p>
       {{ end }}
 

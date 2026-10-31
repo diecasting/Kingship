@@ -2,7 +2,7 @@
    Action, fields, values and structure preserved exactly. Labels are
    localized via a small inline dict keyed by .Site.Language.Lang with an
    explicit English fallback, so the five existing languages keep English. */}}
-{{ $l := .Lang | default "en" }}
+{{/* FR-SEO-04A: this partial receives the RFQ data map (not the page), so .Lang is empty; resolve language via site.Language.Lang. FR uses the fr dict; every other language forces the en fallback to stay byte-identical to baseline. */}}{{ $l := "en" }}{{ if eq site.Language.Lang "fr" }}{{ $l = "fr" }}{{ end }}
 {{ $labels := dict
   "en" (dict
     "name" "Full Name *"
@@ -48,6 +48,21 @@
     "details" "프로젝트 세부사항 및 요구사항 *"
     "details_ph" "가능한 경우 벽 두께, 표면 처리(아노다이징, 파우더 코팅 등) 및 공차를 설명해 주세요."
     "submit" "RFQ 제출"
+  )
+  "fr" (dict
+    "name" "Nom complet *"
+    "company" "Nom de l'entreprise"
+    "email" "Courriel professionnel *"
+    "material" "Spécification du matériau"
+    "opt_adc12" "Aluminium (ADC12 / A383)"
+    "opt_a356" "Aluminium (A356 / A360)"
+    "opt_az91d" "Magnésium (AZ91D / AM60B)"
+    "opt_other" "Autre / Pas encore sûr"
+    "volume" "Volume annuel estimé (EAV)"
+    "volume_ph" "ex. 5 000 pcs"
+    "details" "Détails et exigences du projet *"
+    "details_ph" "Veuillez décrire l'épaisseur de paroi, le traitement de surface (anodisation, revêtement en poudre, etc.) et les tolérances si possible..."
+    "submit" "Soumettre la demande de devis"
   )
 }}
 {{ $t := index $labels $l | default (index $labels "en") }}

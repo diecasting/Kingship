@@ -52,6 +52,18 @@
     "details" "プロジェクト詳細 *"
     "submit" "技術RFQを送信"
   )
+  "fr" (dict
+    "name" "NOM COMPLET *"
+    "company" "NOM DE L'ENTREPRISE"
+    "email" "COURRIEL PROFESSIONNEL *"
+    "material" "MATÉRIAU"
+    "opt_adc12" "Aluminium (ADC12 / A383)"
+    "opt_a356" "Aluminium (A356 / A360)"
+    "opt_az91d" "Magnésium (AZ91D / AM60B)"
+    "file" "TÉLÉVERSEMENT DE FICHIER *"
+    "details" "DÉTAILS DU PROJET *"
+    "submit" "ENVOYER LA DEMANDE RFQ TECHNIQUE"
+  )
 }}
 {{ $t := index $labels $l | default (index $labels "en") }}
 <form action="https://formspree.io/f/xpqgbdly" method="POST" enctype="multipart/form-data" 

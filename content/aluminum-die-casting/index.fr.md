@@ -34,7 +34,7 @@ Nous combinons rayons X, CMM et essais fonctionnels pour garantir la répétabil
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">Demander un devis technique</h2>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
-      Envoyez votre projet et notre equipe repond sous 24h. <a href="https://alumcasting.com/contact/">Nous contacter</a>.
+      Envoyez votre projet et notre equipe repond sous 24h. <a href="https://kingship.alumcasting.com/fr/contact/">Nous contacter</a>.
     </p>
     {{< rfq_form >}}
   </div>

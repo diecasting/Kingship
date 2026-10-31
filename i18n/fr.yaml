@@ -48,6 +48,13 @@ footer:
   dark_appearance: "Passer au thème sombre"
   light_appearance: "Passer au thème clair"
   powered_by: "Propulsé par {{ .Hugo }} &amp; {{ .Theme }}"
+  tagline: "Moulage sous pression de precision en aluminium et magnesium, usinage CNC et assemblage."
+  contact_us: "Nous contacter"
+  contact: "Contact"
+  navigation: "Navigation"
+  legal: "Mentions legales"
+  sitemap: "Plan du site"
+  all_rights_reserved: "Tous droits reserves."
 
 list:
   externalurl_title: "Lien d'article externe."

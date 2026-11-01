@@ -51,6 +51,9 @@ service:
     - "cnc machining services"
     - "5 axis aluminum machining"
     - "precision magnesium cnc China"
+    - "5 axis CNC aluminum"
+    - "CNC post casting"
+    - "PPAP CNC machining"
   related_resources:
     - title: "CNC Machining Tolerance Guide"
       url: "https://alumcasting.com/cnc-machining-tolerance-guide/"
@@ -66,6 +69,10 @@ service:
       a: "Post-cast aluminum 6061/7075 and magnesium AZ91D."
     - q: "Do you support PPAP?"
       a: "Yes — full PPAP with first-article and CMM verification."
+    - q: "What is your best CNC tolerance?"
+      a: "We hold ±0.005 mm on post-cast aluminum and magnesium with CMM verification."
+    - q: "Can you combine casting and CNC in one program?"
+      a: "Yes — cast + CNC turnkey under one PPAP eliminates vendor interface scrap and shortens lead time."
 ---
 
 ## Precision CNC Machining
@@ -78,4 +85,21 @@ Our 5-axis machining centers and high-speed turning lathes finish die-cast alumi
 - **Swiss turning** for long, slender post-cast shafts.
 - **Wire EDM** for hardened-steel fixtures and tooling details.
 
-Pair CNC machining with our [aluminum die casting](https://alumcasting.com/aluminum-die-casting/) or [magnesium die casting](https://alumcasting.com/magnesium-die-casting/) workflows. [Request a quote](https://alumcasting.com/contact/) for turnkey cast + CNC programs.
+## Why Post-Cast CNC
+
+Die casting gets you near-net shape; CNC delivers the datums, threads, and sealing faces that assemblies demand. Keeping both under one roof means one PPAP, one CMM lab, and no interface scrap between vendors.
+
+### 5-Axis Machining Capabilities
+Our 5-axis centers reach complex geometries and deep cavities in a single setup, reducing fixture count and cumulative tolerance stack-up on post-cast aluminum and magnesium.
+
+### Materials & Tolerances
+We machine post-cast aluminum 6061/7075 and magnesium AZ91D to ±0.005 mm, with Ra 0.8 µm surfaces and max part size 1200 × 800 × 600 mm.
+
+### Inspection & Quality (PPAP / CMM)
+Every lot gets first-article inspection and CMM dimensional verification in our in-house lab, with full PPAP documentation for automotive and EV programs.
+
+### Automotive & EV Applications
+From brackets and housings to precision rotors, we serve automotive and EV programs where traceability and tolerance matter.
+
+### Cast + CNC Turnkey Workflow
+Combine CNC with our [aluminum die casting](/aluminum-die-casting/) or [die casting tooling](/tooling/) workflows. [Request a quote](/contact/) for a turnkey cast + CNC program.

@@ -52,6 +52,10 @@ service:
     - "aluminum die casting"
     - "ADC12 A380 A356 die casting"
     - "5000T aluminum die casting China"
+    - "5000T aluminum HPDC"
+    - "automotive structural casting"
+    - "EV battery housing die casting"
+    - "aluminum heat sink casting"
   related_resources:
     - title: "ADC12 Properties Engineering Guide"
       url: "https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/"
@@ -67,6 +71,10 @@ service:
       a: "Our 5000T machine supports large structural components; typical wall thickness starts at 1.5 mm with CNC tolerance to ±0.01 mm."
     - q: "Do you support automotive quality standards?"
       a: "Yes — we operate to IATF 16949 / ISO 9001 with X-ray porosity inspection and full PPAP documentation."
+    - q: "Can you cast large EV structural parts?"
+      a: "Yes — our 5000T machine handles large thin-wall structural components with vacuum-assisted HPDC and X-ray verified porosity control."
+    - q: "Do you offer finishing in-house?"
+      a: "Yes — shot blasting, powder coating, and E-coating are integrated with CNC post-machining under one PPAP."
 ---
 
 {{< center_style >}}
@@ -117,6 +125,49 @@ Kingship implements a comprehensive Quality Management System [IATF 16949 certif
 
 ---
 
+## 🚗 EV & Automotive Structural Casting
+
+Lightweighting mandates push automotive OEMs toward aluminum HPDC for structural and semi-structural parts. Our 400T–5000T fleet supports large thin-wall body and chassis components where stiffness-to-weight and crash performance matter. From battery tray housings to inverter enclosures, we hold dimensional stability across high-volume runs with PPAP-backed process control.
+
+Explore how our [die casting tooling](/tooling/) and [5-axis CNC post-machining](/cnc-machining/) close the loop from tool to finished structural part.
+
+### Battery Tray & Enclosure Programs
+EV battery housings demand airtight, porosity-controlled castings. We combine vacuum-assisted HPDC, X-ray porosity inspection, and automated leakage testing to meet EV pack sealing requirements. See our engineering notes on [EV battery housing die casting](https://alumcasting.com/ev-battery-housing-die-casting/).
+
+---
+
+## 🌡️ Thermal Management & Heat Sinks
+
+Aluminum's thermal conductivity makes HPDC ideal for heat sinks, inverter cold plates, and electronic enclosures. A356/A360 grades deliver the ductility and sealing needed for liquid-cooled thermal management. Tight ±0.01 mm CNC finish ensures flatness for thermal interface surfaces.
+
+Our [ADC12 properties engineering guide](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) covers castability trade-offs for high-volume thermal parts.
+
+---
+
+## 🧪 DFM, Mold Flow & Simulation
+
+Every program starts with DFM and Magma/Moldflow simulation before steel is cut. We de-risk fill, cooling, and warpage, then validate with first-article inspection. This upfront engineering is what keeps die cost and scrap low across the 400T–5000T range.
+
+Review our [DFM cost-reduction methodology](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/).
+
+---
+
+## 🔧 Secondary Operations & Finishing
+
+Casting is half the job. We integrate shot blasting, powder coating, and E-coating, then finish on high-precision CNC centers to ±0.01 mm. Single-source accountability means one PPAP, one quality system, one shipment.
+
+See the [post-casting finishing options](https://alumcasting.com/post-casting-treatments-finishing-options-aluminum/) guide.
+
+---
+
+## 🚢 Supply Chain & Logistics
+
+With over 20 years supplying cross-border assembly lines, we manage tooling amortization, buffer stock, and bonded logistics so your line never stops. Bridge tooling supports low-volume validation; full-scale cells scale to 10,000+ units.
+
+Plan your ramp with our [production scaling playbook](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/).
+
+---
+
 ## 💼 Turnkey Solutions & Logistics
 We bridge rapid industrial prototyping with massive global scale manufacturing. Whether you need [bridge tooling for low-volume](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/) or [full-scale production scaling](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/), we provide end-to-end support.
 
@@ -124,7 +175,7 @@ We bridge rapid industrial prototyping with massive global scale manufacturing. 
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">Request A Technical Quote</h2>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
-      Have a die casting project? <a href="https://alumcasting.com/contact/">Contact our experts</a> for a formal quotation within 24 hours.
+      Have a die casting project? <a href="/contact/">Contact our experts</a> for a formal quotation within 24 hours.
     </p>
     {{< rfq_form >}}
   </div>

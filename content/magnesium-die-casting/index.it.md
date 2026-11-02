@@ -120,7 +120,7 @@ Operiamo in base a un [quadro di qualità automotive](https://alumcasting.com/ia
     Ottieni un'analisi DFM professionale e un preventivo formale dai nostri esperti di attrezzature entro 24 ore. Invia i tuoi disegni 2D/3D per iniziare.
   </p>
   <div class="flex justify-center gap-4">
-    <a href="https://alumcasting.com/contact/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">Richiedi un preventivo</a>
+    <a href="https://kingship.alumcasting.com/it/contact/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">Richiedi un preventivo</a>
     <a href="https://alumcasting.com/about-alumcasting-die-casting-expert/" class="bg-white dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 px-8 py-3 rounded-lg font-semibold transition">Consulta un esperto</a>
   </div>
 </section>

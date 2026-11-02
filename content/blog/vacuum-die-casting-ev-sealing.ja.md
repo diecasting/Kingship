@@ -27,7 +27,7 @@ X線検査、CMM、リークテストを組み合わせることで、欠陥の�
 
 ![X線による内部欠陥検査](/img/x-ray-detector.webp "ポロシティ検査")
 
-お問い合わせは [alumcasting.com/contact](https://alumcasting.com/contact/) へ。
+お問い合わせは [alumcasting.com/contact](https://kingship.alumcasting.com/ja/contact/) へ。
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

@@ -35,7 +35,7 @@ Nach erfolgreicher Kleinserie sollten folgende Punkte nahtlos ueberfuehrt werden
 - Pruefplan mit CMM/Roentgen,
 - abgestimmte [CNC](/de/cnc-machining)- und Oberflaechenprozesse.
 
-Mehr zur integrierten Umsetzung finden Sie unter [Manufacturing Capabilities](https://alumcasting.com/manufacturing-capabilities/) oder direkt per [Kontakt](https://alumcasting.com/contact/).
+Mehr zur integrierten Umsetzung finden Sie unter [Manufacturing Capabilities](https://alumcasting.com/manufacturing-capabilities/) oder direkt per [Kontakt](https://kingship.alumcasting.com/de/contact/).
 
 ## Weitere Fachartikel (intern)
 

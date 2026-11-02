@@ -79,4 +79,4 @@ DFM 기반 금형 설계부터 몰드 플로우 검증 캐비티까지, 당사�
 - 엄격한 공차의 금형 표면을 위한 **고속 금형 밀링**.
 - 첫 가공 전 충전, 냉각, 휨 위험을 제거하는 **몰드 플로우 시뮬레이션**.
 
-[알루미늄 다이캐스팅](https://alumcasting.com/aluminum-die-casting/) 또는 [마그네슘 다이캐스팅](https://alumcasting.com/magnesium-die-casting/)과 연결하여 주조 + 금형 프로그램을 완성하세요. DFM 피드백을 위해 [금형 엔지니어에게 문의](https://alumcasting.com/contact/)하세요.
+[알루미늄 다이캐스팅](https://alumcasting.com/aluminum-die-casting/) 또는 [마그네슘 다이캐스팅](https://alumcasting.com/magnesium-die-casting/)과 연결하여 주조 + 금형 프로그램을 완성하세요. DFM 피드백을 위해 [금형 엔지니어에게 문의](https://kingship.alumcasting.com/ko/contact/)하세요.

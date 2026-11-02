@@ -23,7 +23,7 @@ tags: ["CNC", "Quality", "Automotive"]
 
 ![CMMによる寸法検証](/img/hexagon-coordinate-measuring-machine-inspection.webp "幾何公差の検証")
 
-技術相談は [alumcasting.com/contact](https://alumcasting.com/contact/) から可能です。
+技術相談は [alumcasting.com/contact](https://kingship.alumcasting.com/ja/contact/) から可能です。
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

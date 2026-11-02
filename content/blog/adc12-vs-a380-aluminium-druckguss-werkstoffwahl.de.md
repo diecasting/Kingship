@@ -31,7 +31,7 @@ A380 ist fuer viele strukturelle Anwendungen attraktiv, wenn mechanische Kennwer
 
 Ergaenzend empfiehlt sich eine [DFM-Bewertung fuer Werkzeug und Prozess](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/), bevor das Material final freigegeben wird.
 
-Zum Projektstart finden Sie hier die [direkte technische Beratung](https://alumcasting.com/contact/).
+Zum Projektstart finden Sie hier die [direkte technische Beratung](https://kingship.alumcasting.com/de/contact/).
 
 ## Weitere Fachartikel (intern)
 

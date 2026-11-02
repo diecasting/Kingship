@@ -78,7 +78,7 @@ Praxisnah ist die Kombination aus Roentgen, CMM und Leak Test mit klar definiert
 }
 </script>
 
-Fuer ein konkretes Projekt erhalten Sie hier schnelle Unterstuetzung: [Kontakt](https://alumcasting.com/contact/).
+Fuer ein konkretes Projekt erhalten Sie hier schnelle Unterstuetzung: [Kontakt](https://kingship.alumcasting.com/de/contact/).
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

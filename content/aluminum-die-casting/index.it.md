@@ -125,7 +125,7 @@ Colmiamo il divario tra prototipazione industriale rapida e produzione su larga 
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">Richiedi un preventivo tecnico</h2>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
-      Hai un progetto di pressofusione? <a href="https://alumcasting.com/contact/">Contatta i nostri esperti</a> per un preventivo formale entro 24 ore.
+      Hai un progetto di pressofusione? <a href="https://kingship.alumcasting.com/it/contact/">Contatta i nostri esperti</a> per un preventivo formale entro 24 ore.
     </p>
     {{< rfq_form >}}
   </div>

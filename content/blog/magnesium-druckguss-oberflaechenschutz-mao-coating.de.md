@@ -39,7 +39,7 @@ Vor Serienfreigabe sollten Sie Porositaet, Masshaltigkeit und Dichtheit gemeinsa
 
 ![Praezisionsmessung mit CMM](/img/hexagon-coordinate-measuring-machine-inspection.webp "CMM-Messtechnik fuer enge Toleranzen")
 
-Wenn Sie eine konkrete Bauteilanfrage haben, starten Sie mit einer technischen Bewertung ueber [das Kontaktformular von alumcasting.com](https://alumcasting.com/contact/).
+Wenn Sie eine konkrete Bauteilanfrage haben, starten Sie mit einer technischen Bewertung ueber [das Kontaktformular von alumcasting.com](https://kingship.alumcasting.com/de/contact/).
 
 ## Weitere Fachartikel (intern)
 

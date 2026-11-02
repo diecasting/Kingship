@@ -34,7 +34,7 @@ Combinamos rayos X, CMM y pruebas funcionales para asegurar repetibilidad en ser
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">Solicitar cotizacion tecnica</h2>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
-      Envie su proyecto y nuestro equipo respondera en 24 horas. <a href="https://alumcasting.com/contact/">Contactar ahora</a>.
+      Envie su proyecto y nuestro equipo respondera en 24 horas. <a href="https://kingship.alumcasting.com/es/contact/">Contactar ahora</a>.
     </p>
     {{< rfq_form >}}
   </div>

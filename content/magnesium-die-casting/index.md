@@ -119,7 +119,7 @@ We operate under an [automotive quality framework](https://alumcasting.com/iatf-
     Get a professional DFM analysis and a formal quotation from our tooling experts within 24 hours. Submit your 2D/3D drawings to begin.
   </p>
   <div class="flex justify-center gap-4">
-    <a href="https://alumcasting.com/contact/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">Request A Quote</a>
+    <a href="https://kingship.alumcasting.com/contact/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">Request A Quote</a>
     <a href="https://alumcasting.com/about-alumcasting-die-casting-expert/" class="bg-white dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 px-8 py-3 rounded-lg font-semibold transition">Consult an Expert</a>
   </div>
 </section>

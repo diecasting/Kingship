@@ -79,4 +79,4 @@ service:
 - **엄격한 공차** — 금형에서 바로 ±0.01 mm의 CNC 준비 표면.
 - **경량 이점** — EV 배터리 하우징 및 구조 브래킷에 이상적.
 
-[알루미늄 다이캐스팅 역량](https://alumcasting.com/aluminum-die-casting/) 또는 [마그네슘 다이캐스팅 서비스](https://alumcasting.com/magnesium-die-casting/)를 살펴보고 공정을 비교하세요. 레오캐스트 견적은 [엔지니어에게 문의](https://alumcasting.com/contact/)하세요.
+[알루미늄 다이캐스팅 역량](https://alumcasting.com/aluminum-die-casting/) 또는 [마그네슘 다이캐스팅 서비스](https://alumcasting.com/magnesium-die-casting/)를 살펴보고 공정을 비교하세요. 레오캐스트 견적은 [엔지니어에게 문의](https://kingship.alumcasting.com/ko/contact/)하세요.

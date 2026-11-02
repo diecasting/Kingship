@@ -125,7 +125,7 @@ KingShip은 [IATF 16949 인증](https://alumcasting.com/iatf-16949-high-toleranc
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">기술 견적 요청</h2>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
-      다이캐스팅 프로젝트가 있으신가요? 24시간 이내에 공식 견적을 받으려면 <a href="https://alumcasting.com/contact/">전문가에게 문의하세요</a>.
+      다이캐스팅 프로젝트가 있으신가요? 24시간 이내에 공식 견적을 받으려면 <a href="https://kingship.alumcasting.com/ko/contact/">전문가에게 문의하세요</a>.
     </p>
     {{< rfq_form >}}
   </div>

@@ -73,7 +73,7 @@ Fixing porosity requires aligning the machine's hydraulic capability (P) with th
 
 If you have optimized your V1/V2 profiling and installed vacuum venting, yet porosity persists, look at your **die lubricant**. For production-scale programs, confirm vacuum-assist and gating capability with our [high pressure aluminum die casting services](/aluminum-die-casting/) before tooling release. If you need structural integrity for critical parts, consider our [pore-free die casting services](https://alumcasting.com/pore-free-die-casting-weldable-automotive-structural-parts/) or consult our team for [custom die casting for EV powertrain components](https://alumcasting.com/custom-aluminum-die-casting-for-ev-powertrain-components/).
 
-**Ready to optimize your casting process?** [Contact our engineering team today](https://alumcasting.com/contact/).
+**Ready to optimize your casting process?** [Contact our engineering team today](https://kingship.alumcasting.com/contact/).
 
 ## Related Reading (Internal)
 

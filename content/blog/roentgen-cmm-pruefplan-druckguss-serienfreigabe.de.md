@@ -78,7 +78,7 @@ Durch systematische Rueckkopplung in Werkzeug, Parameter und Spannkonzept statt 
 }
 </script>
 
-Fuer einen abgestimmten Pruef- und Prozessplan: [Kontakt](https://alumcasting.com/contact/).
+Fuer einen abgestimmten Pruef- und Prozessplan: [Kontakt](https://kingship.alumcasting.com/de/contact/).
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

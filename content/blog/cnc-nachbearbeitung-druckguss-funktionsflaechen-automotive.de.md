@@ -78,7 +78,7 @@ Ueblich ist eine Kombination aus CMM fuer Geometrie und Roentgen fuer innere Feh
 }
 </script>
 
-Fuer eine schnelle technische Einschaetzung: [Kontakt](https://alumcasting.com/contact/).
+Fuer eine schnelle technische Einschaetzung: [Kontakt](https://kingship.alumcasting.com/de/contact/).
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

@@ -27,7 +27,7 @@ Se recomienda combinar rayos X, CMM y leak test para validar la integridad de ca
 
 ![Inspeccion por rayos X de porosidad](/img/x-ray-detector.webp "Control interno de defectos")
 
-Para soporte de ingenieria, contacte en [alumcasting.com/contact](https://alumcasting.com/contact/).
+Para soporte de ingenieria, contacte en [alumcasting.com/contact](https://kingship.alumcasting.com/es/contact/).
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

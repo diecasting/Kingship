@@ -34,7 +34,7 @@ X線検査、CMM、機能試験を組み合わせ、量産での再現性を確�
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">技術見積を依頼</h2>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
-      図面をご共有いただければ24時間以内に技術回答します。<a href="https://alumcasting.com/contact/">お問い合わせはこちら</a>。
+      図面をご共有いただければ24時間以内に技術回答します。<a href="https://kingship.alumcasting.com/ja/contact/">お問い合わせはこちら</a>。
     </p>
     {{< rfq_form >}}
   </div>

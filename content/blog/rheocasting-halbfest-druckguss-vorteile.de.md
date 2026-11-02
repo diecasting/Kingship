@@ -27,7 +27,7 @@ Auch beim Rheocasting entscheidet die fruehe DFM-Phase ueber die Wirtschaftlichk
 
 ![CNC-Nachbearbeitung fuer kritische Funktionsflaechen](/img/high-precision-cnc-workshop.webp "Praezise Endbearbeitung fuer Strukturteile")
 
-Wenn Sie pruefen moechten, ob Rheocasting zu Ihrem Lastenheft passt, starten Sie mit einer [technischen Projektanfrage](https://alumcasting.com/contact/).
+Wenn Sie pruefen moechten, ob Rheocasting zu Ihrem Lastenheft passt, starten Sie mit einer [technischen Projektanfrage](https://kingship.alumcasting.com/de/contact/).
 
 ## Weitere Fachartikel (intern)
 

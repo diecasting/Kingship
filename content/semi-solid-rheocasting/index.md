@@ -78,4 +78,4 @@ Semi-solid rheocasting (SSR) fills the gap between conventional HPDC and forging
 - **Tight tolerances** — ±0.01 mm CNC-ready surfaces straight from the die.
 - **Lightweight edge** — ideal for EV battery housings and structural brackets.
 
-Explore our [aluminum die casting capabilities](https://alumcasting.com/aluminum-die-casting/) or [magnesium die casting services](https://alumcasting.com/magnesium-die-casting/) to compare processes. [Contact our engineers](https://alumcasting.com/contact/) for a rheocast quotation.
+Explore our [aluminum die casting capabilities](https://alumcasting.com/aluminum-die-casting/) or [magnesium die casting services](https://alumcasting.com/magnesium-die-casting/) to compare processes. [Contact our engineers](https://kingship.alumcasting.com/contact/) for a rheocast quotation.

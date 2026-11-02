@@ -35,7 +35,7 @@ Die Auswahl zwischen [ADC12](https://alumcasting.com/aluminum-alloy-adc12-proper
 
 Kombinieren Sie [Roentgen- und CMM-Inspektion](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/) mit klaren Grenzwerten fuer Freigabe und Sperrung. So wird Qualitaet reproduzierbar statt zufaellig.
 
-Wenn Sie konkrete Teile analysieren moechten, nutzen Sie den direkten [Engineering-Kontakt](https://alumcasting.com/contact/).
+Wenn Sie konkrete Teile analysieren moechten, nutzen Sie den direkten [Engineering-Kontakt](https://kingship.alumcasting.com/de/contact/).
 
 ## Weitere Fachartikel (intern)
 

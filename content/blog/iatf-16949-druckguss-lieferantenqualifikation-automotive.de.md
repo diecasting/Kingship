@@ -79,7 +79,7 @@ IATF schafft den Systemrahmen, waehrend APQP/PPAP die operative Umsetzung in Pro
 }
 </script>
 
-Wenn Sie ein qualifiziertes Projektsetup planen, nutzen Sie den direkten [Kontakt](https://alumcasting.com/contact/).
+Wenn Sie ein qualifiziertes Projektsetup planen, nutzen Sie den direkten [Kontakt](https://kingship.alumcasting.com/de/contact/).
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

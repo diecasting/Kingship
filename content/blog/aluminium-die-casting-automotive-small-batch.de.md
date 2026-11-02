@@ -36,7 +36,7 @@ Ob Prototyp oder Kleinserie, der Grad der Automatisierung beeinflusst die Wieder
 
 ![Automatisierte Druckguss-Produktionslinie](/img/automated-die-casting-production-line.webp "Automatisierte Fertigungslinie für Aluminium-Druckguss")
 
-Für weiterführende Informationen zu unseren Kapazitäten lesen Sie unsere [Design-Leitfäden für Aluminium-Druckguss](https://alumcasting.com/ultimate-aluminum-die-casting-design-guide-expert-tips/) oder kontaktieren Sie direkt unser [Engineering-Team](https://alumcasting.com/contact/).
+Für weiterführende Informationen zu unseren Kapazitäten lesen Sie unsere [Design-Leitfäden für Aluminium-Druckguss](https://alumcasting.com/ultimate-aluminum-die-casting-design-guide-expert-tips/) oder kontaktieren Sie direkt unser [Engineering-Team](https://kingship.alumcasting.com/de/contact/).
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

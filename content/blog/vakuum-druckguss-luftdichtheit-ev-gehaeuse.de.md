@@ -45,7 +45,7 @@ Wenn Sie ein neues EV-Projekt planen, finden Sie hier weitere Referenzen:
 
 - [Herstellungskapazitaeten fuer Druckguss und CNC](https://alumcasting.com/manufacturing-capabilities/)
 - [One-Stop Loesung von Druckguss bis Oberflaeche](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/)
-- [Direkter technischer Kontakt](https://alumcasting.com/contact/)
+- [Direkter technischer Kontakt](https://kingship.alumcasting.com/de/contact/)
 
 ## Weitere Fachartikel (intern)
 

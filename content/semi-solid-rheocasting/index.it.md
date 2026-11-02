@@ -79,4 +79,4 @@ Il rheocasting semi-solido (SSR) colma il divario tra l'HPDC convenzionale e la 
 - **Tolleranze strette** — superfici pronte per CNC a ±0,01 mm direttamente dallo stampo.
 - **Vantaggio leggero** — ideale per alloggiamenti batterie EV e supporti strutturali.
 
-Esplora le nostre [capacità di pressofusione di alluminio](https://alumcasting.com/aluminum-die-casting/) o i [servizi di pressofusione di magnesio](https://alumcasting.com/magnesium-die-casting/) per confrontare i processi. [Contatta i nostri ingegneri](https://alumcasting.com/contact/) per un preventivo rheocast.
+Esplora le nostre [capacità di pressofusione di alluminio](https://alumcasting.com/aluminum-die-casting/) o i [servizi di pressofusione di magnesio](https://alumcasting.com/magnesium-die-casting/) per confrontare i processi. [Contatta i nostri ingegneri](https://kingship.alumcasting.com/it/contact/) per un preventivo rheocast.

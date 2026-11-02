@@ -30,7 +30,7 @@ Zur Absicherung von Serienfreigaben sollten CMM-Daten und innere Fehleranalyse z
 
 ![Hexagon CMM fuer geometrische Verifikation](/img/hexagon-coordinate-measuring-machine-inspection.webp "CMM-Messung fuer Serienfreigabe")
 
-Fuer einen schnellen Projekt-Check koennen Sie direkt [eine technische Anfrage senden](https://alumcasting.com/contact/).
+Fuer einen schnellen Projekt-Check koennen Sie direkt [eine technische Anfrage senden](https://kingship.alumcasting.com/de/contact/).
 
 ## Weitere Fachartikel (intern)
 

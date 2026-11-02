@@ -35,7 +35,7 @@ Viele Kosten entstehen nicht im Guss, sondern bei Korrekturen in der Nachbearbei
 
 ![Hochpraezise CNC-Nachbearbeitung im Druckgussumfeld](/img/high-precision-cnc-workshop.webp "CNC-Bearbeitung fuer enge Toleranzen")
 
-Zum Abschluss gilt: DFM ist kein Einmal-Workshop, sondern ein laufender Verbesserungsprozess vom Prototyp bis zur Serie. Wenn Sie ein aktuelles Teil bewerten lassen moechten, starten Sie hier: [technische Anfrage an alumcasting.com](https://alumcasting.com/contact/).
+Zum Abschluss gilt: DFM ist kein Einmal-Workshop, sondern ein laufender Verbesserungsprozess vom Prototyp bis zur Serie. Wenn Sie ein aktuelles Teil bewerten lassen moechten, starten Sie hier: [technische Anfrage an alumcasting.com](https://kingship.alumcasting.com/de/contact/).
 
 ## Weitere Fachartikel (intern)
 

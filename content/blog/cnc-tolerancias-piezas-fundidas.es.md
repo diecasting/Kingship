@@ -23,7 +23,7 @@ Mas detalles en [high tolerance automotive CNC machining](https://alumcasting.co
 
 ![Verificacion dimensional con CMM](/img/hexagon-coordinate-measuring-machine-inspection.webp "Control geometrico en serie")
 
-Si necesita evaluacion tecnica, escriba a [alumcasting.com/contact](https://alumcasting.com/contact/).
+Si necesita evaluacion tecnica, escriba a [alumcasting.com/contact](https://kingship.alumcasting.com/es/contact/).
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

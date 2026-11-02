@@ -79,4 +79,4 @@ Dalla progettazione stampi guidata dal DFM alle cavità validate con il flusso d
 - **Fresatura ad alta velocità degli stampi** per superfici di stampo a tolleranza stretta.
 - **Simulazione del flusso di riempimento** riduce i rischi di riempimento, raffreddamento e deformazione prima del primo taglio.
 
-Collegate con la [pressofusione di alluminio](https://alumcasting.com/aluminum-die-casting/) o la [pressofusione di magnesio](https://alumcasting.com/magnesium-die-casting/) per completare un programma colata + stampi. [Parlate con i nostri ingegneri di stampi](https://alumcasting.com/contact/) per feedback DFM.
+Collegate con la [pressofusione di alluminio](https://alumcasting.com/aluminum-die-casting/) o la [pressofusione di magnesio](https://alumcasting.com/magnesium-die-casting/) per completare un programma colata + stampi. [Parlate con i nostri ingegneri di stampi](https://kingship.alumcasting.com/it/contact/) per feedback DFM.

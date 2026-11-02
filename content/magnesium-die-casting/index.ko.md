@@ -120,7 +120,7 @@ service:
     24시간 이내에 전문 DFM 분석과 공식 견적을 받으세요. 시작하려면 2D/3D 도면을 제출하세요.
   </p>
   <div class="flex justify-center gap-4">
-    <a href="https://alumcasting.com/contact/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">견적 요청</a>
+    <a href="https://kingship.alumcasting.com/ko/contact/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">견적 요청</a>
     <a href="https://alumcasting.com/about-alumcasting-die-casting-expert/" class="bg-white dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 px-8 py-3 rounded-lg font-semibold transition">전문가 상담</a>
   </div>
 </section>

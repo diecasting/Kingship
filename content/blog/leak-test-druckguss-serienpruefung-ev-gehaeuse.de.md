@@ -81,7 +81,7 @@ Bei Sicherheitsrelevanz, hoher Varianz oder nach Prozessabweichungen ist 100%-Pr
 }
 </script>
 
-Technische Unterstuetzung fuer Ihr Lastenheft: [Kontakt](https://alumcasting.com/contact/).
+Technische Unterstuetzung fuer Ihr Lastenheft: [Kontakt](https://kingship.alumcasting.com/de/contact/).
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

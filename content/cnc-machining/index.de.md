@@ -8,6 +8,7 @@ disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
 featureImageAlt: "5-Achs-CNC-Bearbeitungszentrum für eng tolerierte nachgegossene Bauteile"
 showTableOfContents: false
+url: "/de/cnc-machining/"
 service:
   name: "CNC-Bearbeitung"
   category: "Präzisionsbearbeitung"
@@ -44,9 +45,6 @@ service:
     - "Erstmusterprüfung"
     - "PPAP-Dokumentation"
     - "CMM-Maßverifikation"
-  certifications:
-    - "ISO 9001"
-    - "IATF 16949"
   seo_keywords:
     - "cnc bearbeitung dienstleistung"
     - "5 achsen aluminium bearbeitung"
@@ -78,4 +76,4 @@ Unsere 5-Achs-Bearbeitungszentren und hochgeschwindigkeits-Drehmaschinen veredel
 - **Swiss-Turning** für lange, schlanke nachgegossene Wellen.
 - **Drahterodieren** für gehärtete Stahlvorrichtungen und Werkzeugdetails.
 
-Kombinieren Sie die CNC-Bearbeitung mit unseren [Aluminium-Druckguss-](https://alumcasting.com/aluminum-die-casting/) oder [Magnesium-Druckgussworkflows](https://alumcasting.com/magnesium-die-casting/). [Fordern Sie ein Angebot](https://kingship.alumcasting.com/de/contact/) für komplett abgestimmte Guss- + CNC-Programme an.
+Kombinieren Sie die CNC-Bearbeitung mit unseren [Aluminium-Druckguss-](https://kingship.alumcasting.com/de/aluminum-die-casting/) oder [Magnesium-Druckgussworkflows](https://kingship.alumcasting.com/de/magnesium-die-casting/). [Fordern Sie ein Angebot](https://kingship.alumcasting.com/de/contact/) für komplett abgestimmte Guss- + CNC-Programme an.

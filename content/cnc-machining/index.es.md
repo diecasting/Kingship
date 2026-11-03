@@ -8,6 +8,7 @@ disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
 featureImageAlt: "Centro de mecanizado CNC de 5 ejes para piezas fundidas de tolerancia ajustada"
 showTableOfContents: false
+url: "/es/cnc-machining/"
 service:
   name: "Mecanizado CNC"
   category: "Mecanizado de precisión"
@@ -44,9 +45,6 @@ service:
     - "Inspección de primera pieza (FAI)"
     - "Documentación PPAP"
     - "Verificación dimensional por MMC"
-  certifications:
-    - "ISO 9001"
-    - "IATF 16949"
   seo_keywords:
     - "servicios de mecanizado cnc"
     - "mecanizado aluminio 5 ejes"
@@ -78,4 +76,4 @@ Nuestros centros de mecanizado de 5 ejes y tornos de alta velocidad acaban las p
 - **Torneado tipo suizo** para ejes largos y esbeltos procedentes de fundición.
 - **Electroerosión por hilo** para utillajes y detalles de molde en acero templado.
 
-Combine el mecanizado CNC con nuestros flujos de [fundición a presión de aluminio](https://alumcasting.com/aluminum-die-casting/) o de [fundición de magnesio](https://alumcasting.com/magnesium-die-casting/). [Solicite una oferta](https://kingship.alumcasting.com/es/contact/) para un programa llave en mano de fundición + CNC.
+Combine el mecanizado CNC con nuestros flujos de [fundición a presión de aluminio](https://kingship.alumcasting.com/es/aluminum-die-casting/) o de [fundición de magnesio](https://kingship.alumcasting.com/es/magnesium-die-casting/). [Solicite una oferta](https://kingship.alumcasting.com/es/contact/) para un programa llave en mano de fundición + CNC.

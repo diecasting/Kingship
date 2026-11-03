@@ -8,6 +8,7 @@ disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
 featureImageAlt: "公差の厳しい鋳造後部品向け5軸CNC加工機"
 showTableOfContents: false
+url: "/ja/cnc-machining/"
 service:
   name: "CNC加工"
   category: "精密加工"
@@ -44,9 +45,6 @@ service:
     - "初品検査"
     - "PPAP文書"
     - "CMM寸法検証"
-  certifications:
-    - "ISO 9001"
-    - "IATF 16949"
   seo_keywords:
     - "CNC加工サービス"
     - "5軸アルミ加工"
@@ -78,4 +76,4 @@ service:
 - **スイスターン** — 細長い鋳造シャフトの旋削に最適。
 - **ワイヤEDM** — 焼入れ鋼の治具や金型詳細部に使用。
 
-CNC加工を[アルミニウムダイカスト](https://alumcasting.com/aluminum-die-casting/)や[マグネシウムダイカスト](https://alumcasting.com/magnesium-die-casting/)と組み合わせ、[一貫した鋳造＋CNCプログラムの見積](https://kingship.alumcasting.com/ja/contact/)をご依頼ください。
+CNC加工を[アルミニウムダイカスト](https://kingship.alumcasting.com/ja/aluminum-die-casting/)や[マグネシウムダイカスト](https://kingship.alumcasting.com/ja/magnesium-die-casting/)と組み合わせ、[一貫した鋳造＋CNCプログラムの見積](https://kingship.alumcasting.com/ja/contact/)をご依頼ください。

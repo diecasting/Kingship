@@ -45,9 +45,6 @@ service:
     - "초도품 검사"
     - "PPAP 문서화"
     - "CMM 치수 검증"
-  certifications:
-    - "ISO 9001"
-    - "IATF 16949"
   seo_keywords:
     - "cnc 가공 서비스"
     - "5축 알루미늄 가공"
@@ -79,4 +76,4 @@ service:
 - 길고 가는 주조 후 샤프트를 위한 **스위스 턴링**.
 - 경화 강철 픽스처 및 금형 디테일을 위한 **와이어 EDM**.
 
-[알루미늄 다이캐스팅](https://alumcasting.com/aluminum-die-casting/) 또는 [마그네슘 다이캐스팅](https://alumcasting.com/magnesium-die-casting/) 작업과 CNC 가공을 결합하세요. 턴키 주조 + CNC 프로그램에 대해 [견적을 요청](https://kingship.alumcasting.com/ko/contact/)하세요.
+[알루미늄 다이캐스팅](https://kingship.alumcasting.com/ko/aluminum-die-casting/) 또는 [마그네슘 다이캐스팅](https://kingship.alumcasting.com/ko/magnesium-die-casting/) 작업과 CNC 가공을 결합하세요. 턴키 주조 + CNC 프로그램에 대해 [견적을 요청](https://kingship.alumcasting.com/ko/contact/)하세요.

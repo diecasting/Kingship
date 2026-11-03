@@ -1,6 +1,6 @@
 ---
 title: "Servicios de reofundición semisólida"
-description: "Reofundición semisólida tixotrópica para piezas estructurales de magnesio y aluminio con baja porosidad, en un parque de 400T a 2500T."
+description: "Reofundición semisólida tixotrópica para piezas estructurales de magnesio y aluminio con baja porosidad, en un parque de 400T a 3000T."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
@@ -11,21 +11,20 @@ showTableOfContents: false
 service:
   name: "Reofundición semisólida"
   category: "Fundición semisólida"
-  tagline: "Reofundición tixotrópica de baja porosidad para piezas estructurales de magnesio y aluminio, de 400T a 2500T."
+  tagline: "Reofundición tixotrópica de baja porosidad para piezas estructurales de magnesio y aluminio, de 400T a 3000T."
   materials:
     - "AZ91D / AM60B"
-    - "A356 / A360 (tocho semisólido)"
+    - "A356 / A357 / 319 (tocho semisólido)"
   processes:
     - "Reofundición semisólida (SSR)"
     - "Tixofundición"
     - "Reofundición asistida por vacío"
   equipment:
-    - "Célula de reofundición de 1600T"
-    - "Parque de máquinas de 400T–2500T"
+    - "Parque de máquinas de 400T–3000T"
     - "Línea de colada robotizada"
   specifications:
     - label: "Tonelaje de máquina"
-      value: "400T – 2500T"
+      value: "400T – 3000T"
     - label: "Espesor de pared mín."
       value: "1,2 mm"
     - label: "Tolerancia CNC"
@@ -44,38 +43,35 @@ service:
     - "Inspección de porosidad por rayos X"
     - "Documentación PPAP"
     - "Verificación dimensional por MMC"
-  certifications:
-    - "IATF 16949"
-    - "ISO 9001"
   seo_keywords:
     - "reofundición semisólida"
     - "fundición tixotrópica magnesio"
     - "fundición baja porosidad china"
   related_resources:
-    - title: "Guía del proceso de reofundición semisólida"
-      url: "https://alumcasting.com/semi-solid-rheocasting-process-guide/"
-    - title: "Propiedades de las aleaciones de magnesio en reofundición"
-      url: "https://alumcasting.com/magnesium-rheocast-alloy-properties/"
+    - title: "Servicios de fundición de magnesio"
+      url: "https://kingship.alumcasting.com/magnesium-die-casting/"
+    - title: "Capacidades de fundición a presión de aluminio"
+      url: "https://alumcasting.com/aluminum-die-casting/"
   wordpress_resources:
-    - title: "Solución integral de reofundición, CNC y acabado"
-      url: "https://alumcasting.com/one-stop-rheocast-cnc-finish/"
+    - title: "Solución integral de fundición a presión, CNC y acabado"
+      url: "https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/"
   faq:
     - q: "¿Qué es la reofundición semisólida?"
-      a: "Una pasta tixotrópica colada con una fracción sólida del 30 al 40 %, que produce piezas casi a forma final con muy baja porosidad."
+      a: "Una pasta tixotrópica colada con una fracción sólida del 30 al 65 %, que produce piezas casi a forma final con muy baja porosidad."
     - q: "¿Qué aleaciones procesan por reofundición?"
-      a: "Magnesio AZ91D y AM60B, así como tochos semisólidos de aluminio A356 y A360."
+      a: "Magnesio AZ91D y AM60B, así como tochos semisólidos de aluminio A356, A357 y 319."
     - q: "¿Cumplen los requisitos de calidad de automoción?"
-      a: "Sí. Trabajamos conforme a IATF 16949 / ISO 9001, con documentación PPAP completa e inspección de porosidad por rayos X."
+      a: "Los programas de automoción suelen requerir un QMS certificado y pueden solicitar PPAP o documentación de liberación equivalente. El estado de certificación de Kingship se confirma durante la cualificación del proyecto; el análisis de porosidad por rayos X y la verificación dimensional por CMM son métodos de inspección disponibles, definidos por proyecto."
 ---
 
 ## Reofundición semisólida de precisión
 
-La reofundición semisólida (SSR) cubre el hueco entre el HPDC convencional y la forja: entrega piezas estructurales casi a forma final y de muy baja porosidad para programas de automoción, vehículo eléctrico y aeronáutica. Nuestro parque de 400T a 2500T y las líneas de colada robotizadas producen componentes de magnesio y aluminio repetibles y libres de defectos.
+La reofundición semisólida (SSR) cubre el hueco entre el HPDC convencional y la forja: entrega piezas estructurales casi a forma final y de muy baja porosidad para programas de automoción, vehículo eléctrico y aeronáutica. Nuestro parque de 400T a 3000T y las líneas de colada robotizadas producen componentes de magnesio y aluminio repetibles.
 
 ### Por qué elegir la reofundición
 
-- **Baja porosidad por diseño** — la pasta tixotrópica evita el atrapamiento de gases.
-- **Tolerancias ajustadas** — superficies listas para repaso CNC a ±0,01 mm directamente del molde.
+- **Menor tendencia a la porosidad** — la pasta tixotrópica reduce el atrapamiento de gases frente a HPDC (referencia del sector: HPDC típicamente 2–5 %).
+- **Tolerancias ajustadas** — superficies listas para CNC; tolerancia CNC alcanzable de ±0,01 mm, confirmada por proyecto y geometría.
 - **Ventaja en aligeramiento** — idónea para bandejas de batería de VE y soportes estructurales.
 
-Descubra nuestras [capacidades de fundición a presión de aluminio](https://alumcasting.com/aluminum-die-casting/) o nuestros [servicios de fundición de magnesio](https://alumcasting.com/magnesium-die-casting/) para comparar procesos. [Contacte con nuestros ingenieros](https://kingship.alumcasting.com/es/contact/) para una oferta de reofundición.
+Descubra nuestras [capacidades de fundición a presión de aluminio](https://alumcasting.com/aluminum-die-casting/) o nuestros [servicios de fundición de magnesio](https://kingship.alumcasting.com/magnesium-die-casting/) para comparar procesos. [Contacte con nuestros ingenieros](https://kingship.alumcasting.com/es/contact/) para una oferta de reofundición.

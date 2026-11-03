@@ -45,9 +45,6 @@ service:
     - "Ispezione primo articolo"
     - "Documentazione PPAP"
     - "Verifica dimensionale CMM"
-  certifications:
-    - "ISO 9001"
-    - "IATF 16949"
   seo_keywords:
     - "servizi di lavorazione CNC"
     - "lavorazione alluminio 5 assi"
@@ -79,4 +76,4 @@ I nostri centri di lavorazione a 5 assi e torni ad alta velocità finiscono part
 - **Tornitura Swiss** per lunghi alberi post-colata snelli.
 - **EDM a filo** per dettagli di utensili e attrezzature in acciaio indurito.
 
-Abbina la lavorazione CNC ai flussi di [pressofusione di alluminio](https://alumcasting.com/aluminum-die-casting/) o [magnesio](https://alumcasting.com/magnesium-die-casting/). [Richiedi un preventivo](https://kingship.alumcasting.com/it/contact/) per programmi chiavi in mano colata + CNC.
+Abbina la lavorazione CNC ai flussi di [pressofusione di alluminio](https://kingship.alumcasting.com/it/aluminum-die-casting/) o [magnesio](https://kingship.alumcasting.com/it/magnesium-die-casting/). [Richiedi un preventivo](https://kingship.alumcasting.com/it/contact/) per programmi chiavi in mano colata + CNC.

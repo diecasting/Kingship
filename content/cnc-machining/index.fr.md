@@ -8,6 +8,7 @@ disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
 featureImageAlt: "Centre d'usinage CNC 5 axes pour pièces moulées à tolérances serrées"
 showTableOfContents: false
+url: "/fr/cnc-machining/"
 service:
   name: "Usinage CNC"
   category: "Usinage de précision"
@@ -44,9 +45,6 @@ service:
     - "Contrôle du premier article (FAI)"
     - "Dossier PPAP"
     - "Vérification dimensionnelle MMT"
-  certifications:
-    - "ISO 9001"
-    - "IATF 16949"
   seo_keywords:
     - "services d'usinage cnc"
     - "usinage aluminium 5 axes"
@@ -78,4 +76,4 @@ Nos centres d'usinage 5 axes et nos tours à grande vitesse reprennent les pièc
 - **Décolletage** pour les arbres longs et élancés issus du moulage.
 - **Électroérosion à fil** pour les montages et détails d'outillage en acier trempé.
 
-Associez l'usinage CNC à nos flux de [moulage sous pression de l'aluminium](https://alumcasting.com/aluminum-die-casting/) ou de [moulage du magnésium](https://alumcasting.com/magnesium-die-casting/). [Demandez une offre](https://kingship.alumcasting.com/fr/contact/) pour un programme clé en main fonderie + CNC.
+Associez l'usinage CNC à nos flux de [moulage sous pression de l'aluminium](https://kingship.alumcasting.com/fr/aluminum-die-casting/) ou de [moulage du magnésium](https://kingship.alumcasting.com/fr/magnesium-die-casting/). [Demandez une offre](https://kingship.alumcasting.com/fr/contact/) pour un programme clé en main fonderie + CNC.

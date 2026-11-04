@@ -26,9 +26,9 @@ service:
   specifications:
     - label: "Machine Tonnage"
       value: "400T – 3000T"
-    - label: "Min. Wall Thickness"
-      value: "1.0 mm"
-    - label: "CNC Tolerance"
+    - label: "Min. Wall Thickness (typical, project-dependent)"
+      value: "1.0 – 1.2 mm"
+    - label: "CNC Tolerance (post-machining, project-dependent)"
       value: "±0.01 mm"
     - label: "Surface Treatment"
       value: "MAO Coating, E-Coating"
@@ -43,10 +43,7 @@ service:
   quality:
     - "X-ray Porosity Inspection"
     - "CMM Dimensional Verification"
-    - "Automotive Quality Framework (IATF 16949)"
-  certifications:
-    - "IATF 16949"
-    - "ISO 9001"
+    - "Automotive Quality Framework (aligned with IATF 16949 expectations)"
   seo_keywords:
     - "magnesium die casting"
     - "AZ91D AM60B die casting"
@@ -65,7 +62,7 @@ service:
     - q: "What is your maximum part size?"
       a: "Our 3000T machine supports large thin-wall structural components; typical wall thickness starts at 1.0 mm with CNC tolerance to ±0.01 mm."
     - q: "Do you support automotive quality standards?"
-      a: "Yes — we operate to IATF 16949 / ISO 9001 with non-destructive X-ray porosity inspection and full PPAP documentation."
+      a: "Yes — our quality system is aligned with IATF 16949 / ISO 9001 expectations, with non-destructive X-ray porosity inspection and PPAP documentation provided where the customer program requires it."
 ---
 
 {{< center_style >}}

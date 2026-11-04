@@ -28,7 +28,7 @@ service:
       value: "H13 / SKD61"
     - label: "Cavity Count"
       value: "1–8 Cavities"
-    - label: "Tool Life"
+    - label: "Tool Life (typical, project-dependent)"
       value: "100k–500k Shots"
     - label: "Mold Flow"
       value: "Magma / Moldflow Sim"
@@ -42,11 +42,8 @@ service:
     - "Tooling Fixtures"
   quality:
     - "First-Article Tool Inspection"
-    - "PPAP Tooling Docs"
-    - "CMM Tool Verification"
-  certifications:
-    - "IATF 16949"
-    - "ISO 9001"
+    - "PPAP Tooling Docs (project-specific)"
+    - "CMM Tool Verification (project-based)"
   seo_keywords:
     - "die casting tooling"
     - "mold making china"
@@ -66,13 +63,13 @@ service:
     - q: "What tooling do you build?"
       a: "H13/SKD61 dies & molds with 1–8 cavities, DFM-driven."
     - q: "Which materials for tool steel?"
-      a: "H13 hot-work and SKD61 die steel, 100k–500k shot life."
+      a: "H13 hot-work and SKD61 die steel, 100k–500k shot life (typical, project-dependent)."
     - q: "Do you simulate before cutting?"
       a: "Yes — Magma/Moldflow mold-flow simulation prior to machining."
     - q: "How long does a tool take?"
       a: "Lead time scales with cavity count and simulation scope; bridge tooling accelerates first-article validation."
     - q: "Do you maintain tools after launch?"
-      a: "Yes — preventive maintenance, spare inserts, and reconditioning keep cavities at tolerance across 100k–500k shot life."
+      a: "Yes — preventive maintenance, spare inserts, and reconditioning keep cavities at tolerance across a typical 100k–500k shot life."
 ---
 
 ## Precision Die Casting Tooling

@@ -108,8 +108,7 @@ La SSR è una via a un passaggio, con sospensione a richiesta. I passaggi seguen
 
 <div class="ssr-process" style="margin:1.5rem 0;">
 
-```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 150" role="img" aria-label="Schema del flusso di processo di reoformatura semi-solida">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 150" width="100%" role="img" aria-label="Schema del flusso di processo di reoformatura semi-solida">
   <style>
     .bx{fill:#eef3f8;stroke:#2b6cb0;stroke-width:1.5;}
     .ar{stroke:#4a5568;stroke-width:1.5;fill:none;marker-end:url(#ah);}
@@ -141,7 +140,6 @@ La SSR è una via a un passaggio, con sospensione a richiesta. I passaggi seguen
   <path class="ar" d="M412,74 L436,74"/>
   <path class="ar" d="M556,74 L580,74"/>
 </svg>
-```
 
 </div>
 

@@ -73,7 +73,7 @@ service:
 
 Uno stampo per pressofusione è molto più di un semplice blocco di forma: determina il comportamento di riempimento, la porosità, la precisione dimensionale e il costo per pezzo sull'intero ciclo di vita del prodotto. Per il mercato italiano, dove gli incentivi **PNRR** e il regolamento **CRMA** (Critical Raw Materials Act) spingono verso la leggerezza strutturale e una domanda di **magnesio** in crescita, Kingship fornisce **progettazione stampi DFM, simulazione di flusso, cavità lavorate CNC/EDM e campioni qualificati T0/T1** per fusioni strutturali in alluminio e magnesio — dal primo campione alla manutenzione in serie.
 
-Questa pagina spiega come viene pianificato, simulato, prodotto e convalidato uno stampo per pressofusione, quali acciai e trattamenti entrano in gioco, come garantiamo la qualità e — soprattutto — cosa occorre fornire per un preventivo affidabile sugli stampi. L'obiettivo è supportare la progettazione di componenti strutturali leggeri, dove il rapporto rigidità/peso decide la competitività di automotive, EV ed elettronica.
+Questa pagina spiega come viene pianificato, simulato, prodotto e convalidato uno stampo per pressofusione, quali acciai e trattamenti entrano in gioco, come gestiamo la qualità e — soprattutto — cosa occorre fornire per un preventivo affidabile sugli stampi. L'obiettivo è supportare la progettazione di componenti strutturali leggeri, dove il rapporto rigidità/peso decide la competitività di automotive, EV ed elettronica.
 
 ### Stampi per pressofusione vs stampi per stampaggio a iniezione plastica
 

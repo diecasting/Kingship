@@ -24,7 +24,7 @@ service:
     - "High-Speed Turning Lathe"
     - "Wire EDM Cell"
   specifications:
-    - label: "Machining Tolerance"
+    - label: "Machining Tolerance (post-machining, project-dependent)"
       value: "±0.005 mm"
     - label: "Max. Part Size"
       value: "1200 × 800 × 600 mm"
@@ -42,11 +42,8 @@ service:
     - "Precision Rotors"
   quality:
     - "First-Article Inspection"
-    - "PPAP Documentation"
-    - "CMM Dimensional Verification"
-  certifications:
-    - "ISO 9001"
-    - "IATF 16949"
+    - "PPAP Documentation (project-specific)"
+    - "CMM Dimensional Verification (project-based)"
   seo_keywords:
     - "cnc machining services"
     - "5 axis aluminum machining"

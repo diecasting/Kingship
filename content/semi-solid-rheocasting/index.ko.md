@@ -108,8 +108,7 @@ SSR은 1단계의 '필요 시 슬러리 제조(on-demand slurry)' 방식입니�
 
 <div class="ssr-process" style="margin:1.5rem 0;">
 
-```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 150" role="img" aria-label="반용융 레오캐스팅 공정 흐름 개략도">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 150" width="100%" role="img" aria-label="반용융 레오캐스팅 공정 흐름 개략도">
   <style>
     .bx{fill:#eef3f8;stroke:#2b6cb0;stroke-width:1.5;}
     .ar{stroke:#4a5568;stroke-width:1.5;fill:none;marker-end:url(#ah);}
@@ -141,7 +140,6 @@ SSR은 1단계의 '필요 시 슬러리 제조(on-demand slurry)' 방식입니�
   <path class="ar" d="M412,74 L436,74"/>
   <path class="ar" d="M556,74 L580,74"/>
 </svg>
-```
 
 </div>
 

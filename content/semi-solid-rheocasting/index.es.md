@@ -108,8 +108,7 @@ La SSR es una ruta de un solo paso, con suspensión a demanda. Los pasos siguien
 
 <div class="ssr-process" style="margin:1.5rem 0;">
 
-```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 150" role="img" aria-label="Diagrama de flujo del proceso de reofundición semisólida">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 150" width="100%" role="img" aria-label="Diagrama de flujo del proceso de reofundición semisólida">
   <style>
     .bx{fill:#eef3f8;stroke:#2b6cb0;stroke-width:1.5;}
     .ar{stroke:#4a5568;stroke-width:1.5;fill:none;marker-end:url(#ah);}
@@ -141,7 +140,6 @@ La SSR es una ruta de un solo paso, con suspensión a demanda. Los pasos siguien
   <path class="ar" d="M412,74 L436,74"/>
   <path class="ar" d="M556,74 L580,74"/>
 </svg>
-```
 
 </div>
 

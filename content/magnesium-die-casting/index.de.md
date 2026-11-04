@@ -27,11 +27,11 @@ service:
     - label: "Schließkraft"
       value: "400T – 3000T"
     - label: "Min. Wandstärke"
-      value: "1,0 mm"
+      value: "1,0–1,2 mm (projektabhängig)"
     - label: "CNC-Toleranz"
       value: "±0,01 mm (Nachbearbeitung)"
     - label: "Oberflächenbehandlung"
-      value: "MAO-Beschichtung, E-Coating"
+      value: "Projektabhängig; bestätigte Verfahren: Strahlen und Eloxieren"
   industries:
     - "Automobil"
     - "EV"
@@ -41,9 +41,9 @@ service:
     - "Gehäuse & Umhausungen"
     - "Sicherheitsbauteile"
   quality:
-    - "Röntgen-Porositätsprüfung"
-    - "CMM-Maßverifikation"
-    - "Salzsprüh-Korrosionstest"
+    - "Prüfmerkmale und Abnahmekriterien projektspezifisch festgelegt"
+    - "Umfang von Erstmuster und Dokumentation im Angebot vereinbart"
+    - "Prüfverfahren nach Zeichnung abgestimmt"
     - "Dichtheitsprüfung"
   seo_keywords:
     - "magnesium druckguss"
@@ -63,11 +63,11 @@ service:
       url: "https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/"
   faq:
     - q: "Welche Magnesiumlegierungen gießen Sie?"
-      a: "Standardmäßig gießen wir AZ91D und AM60B. Weitere Legierungen wie AM50A sind für projektspezifische Anforderungen auf Anfrage verfügbar."
+      a: "Bestätigte Magnesiumlegierungen sind AZ91D und AM60B. AZ91D ist die gängige Universallegierung, AM60B wird bei Anforderungen an Duktilität und Schlagenergieaufnahme gewählt. Andere Legierungen werden im DFM-Prozess projektspezifisch bewertet, nicht als Standard angeboten."
     - q: "Wie groß ist Ihr maximales Bauteil?"
-      a: "Unsere 400T–3000T-HPDC-Flotte fertigt große dünnwandige Strukturbauteile; die typische Wandstärke beginnt bei 1,0 mm, die CNC-Nachbearbeitung erreicht ±0,01 mm."
-    - q: "Wie sichern Sie die Qualität und Maßhaltigkeit?"
-      a: "Über zerstörungsfreie Röntgen-Porositätsprüfung, CMM-Vermessung, Salzsprüh-Korrosionstests und Dichtheitsprüfung – ergänzt durch ein Qualitätsmanagement, das an IATF 16949- und ISO 9001-Anforderungen ausgerichtet ist (Bestätigung im Projektqualifizierungsprozess)."
+      a: "Die 400T–3000T-HPDC-Anlagen fertigen dünnwandige Strukturbauteile. Eine Wandstärke von etwa 1,0–1,2 mm ist ein projektabhängiger Richtwert, der von Werkstoff, Geometrie, Fließweg und Projektbedingungen abhängt. Eine Toleranz von ±0,01 mm ist an definierten Merkmalen unter geeigneten Nachbearbeitungsbedingungen erreichbar und wird in der Zeichnungs- und DFM-Prüfung je Merkmal bestätigt."
+    - q: "Wie werden Qualität und Maßhaltigkeit definiert?"
+      a: "Prüfmerkmale, Messverfahren, Stichprobenumfang und Dokumentation werden projektspezifisch im Angebot festgelegt. Erstmusterprüfung, PPAP-Dokumentation und CMM-gestützte Prüfung sind Beispiele für einen zu definierenden Umfang, keine pauschal enthaltenen Leistungen. Für IATF 16949 und ISO 9001 wird keine aktuelle Gültigkeit beansprucht."
 ---
 
 {{< center_style >}}
@@ -86,28 +86,28 @@ Wir vergießen primär zwei bewährte Gusslegierungen:
 
 * **[AZ91D](https://alumcasting.com/az91d-magnesium-die-casting-automotive-parts/):** Hohe Festigkeit und sehr gute Korrosionsbeständigkeit – ideal für Elektronikgehäuse und Strukturbauteile mit dünnen Wänden.
 * **[AM60B](https://alumcasting.com/am60b-magnesium-alloy-die-casting-suppliers/):** Höhere Duktilität und Schlagfestigkeit – bevorzugt für sicherheitsrelevante Automobilbauteile.
-* **AM50A / andere Legierungen:** Auf Anfrage für projektspezifische Festigkeits- und Duktilitätsanforderungen verfügbar.
+* **Weitere Legierungen:** Werden im DFM-Prozess projektspezifisch bewertet; sie sind keine bestätigten Standardwerkstoffe.
 
 | Legierung | Dichte (g/cm³) | Festigkeit | Duktilität | Typische Anwendung |
 | :--- | :--- | :--- | :--- | :--- |
 | **AZ91D** | ~1,81 | Hoch | Moderat | Gehäuse, Elektronik, Strukturteile |
 | **AM60B** | ~1,79 | Moderat | Hoch | Crash-/Sicherheitsbauteile |
-| **AM50A** | ~1,77 | Niedriger | Sehr hoch | Große deformed Bauteile (auf Anfrage) |
+| **Weitere Legierungen** | – | – | – | Nur projektspezifische DFM-Bewertung, kein Standardwerkstoff |
 
 ---
 
 ## 🏭 HPDC-Prozess & Ausstattung (400T–3000T)
 
-Unser Werk setzt eine **400T–3000T-HPDC-Flotte** ein, ergänzt durch eine hochpräzise CNC-Werkstatt für die Nachbearbeitung. Das Schmelzen und Halten von Magnesium erfolgt unter **Schutzgasatmosphäre** (SF₆-freie Mischgase), um Oxidation und Brandrisiko zu minimieren. Die vollständige [Fertigungskapazität](https://alumcasting.com/manufacturing-capabilities/) umfasst Fließpfad- und DFM-Analysen bereits in der Angebotsphase.
+Für das Programm steht ein **400T–3000T-HPDC-Maschinenbereich** zur Verfügung, ergänzt um CNC-Nachbearbeitung. Schutzgasatmosphäre und sicherer Umgang mit Schmelze und Spänen sind allgemeine industrielle Sicherheitspraktiken für Magnesium. Fließpfad- und DFM-Analysen erfolgen bereits in der Angebotsphase; siehe [Fertigungskapazität](https://alumcasting.com/manufacturing-capabilities/).
 
 ![Automatisierte Druckguss-Produktionslinie](/img/automated-die-casting-production-line.webp)
 
 | Parameter | Spezifikation |
 | :--- | :--- |
 | **Schließkraftbereich** | 400 Tonnen bis 3000 Tonnen |
-| **Wandstärke** | Mindestens 1,0 mm bis 1,2 mm |
-| **Lineare Toleranz** | CNC-Nachbearbeitung bis ±0,01 mm |
-| **Oberflächenfinish** | [MAO-Beschichtung](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/), E-Coating (KTL) |
+| **Wandstärke** | Ca. 1,0–1,2 mm, projektabhängig (Werkstoff, Geometrie, Fließweg) |
+| **Lineare Toleranz** | ±0,01 mm an definierten Merkmalen unter geeigneten Nachbearbeitungsbedingungen, projektabhängig |
+| **Oberflächenfinish** | Projektabhängig; bestätigte Verfahren: Strahlen und Eloxieren |
 
 ---
 
@@ -115,9 +115,9 @@ Unser Werk setzt eine **400T–3000T-HPDC-Flotte** ein, ergänzt durch eine hoch
 
 Magnesium erfordert spezifische Konstruktungsregeln. Wir begleiten Sie bei:
 
-1. **Brandschutz & Handling:** Geschlossene Schutzgassysteme, automatische Vakuumfüllung und werksinterne Sicherheitsprozesse für Magnesiumschmelze.
-2. **Dünnwandigkeit:** Wandstärken ab 1,0 mm sind realisierbar; Fräszonen und Verstärkungen werden werkzeugseitig geplant.
-3. **Korrosionsschutz:** [MAO-Beschichtung](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/) und E-Coating schaffen eine beständige Schutzschicht – ergänzt durch Konstruktionsmaßnahmen (Isolation gegen Kontaktkorrosion).
+1. **Brandschutz & Handling:** Schutzgasatmosphäre und sichere Handhabung von Schmelze und Spänen sind allgemeine industrielle Sicherheitspraktiken, die im Projekt mit dem Lieferanten abzustimmen sind.
+2. **Dünnwandigkeit:** Ca. 1,0–1,2 mm sind ein projektabhängiger Richtwert; Fräszonen und Verstärkungen werden werkzeugseitig geplant.
+3. **Korrosionsschutz:** Blankes Magnesium ist nicht ohne weiteres korrosionsbeständig. Strahlen und Eloxieren sind bestätigte Verfahren; [MAO-Beschichtung](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/), Konversionsschichten und E-Coating sind allgemeine Industrieoptionen, die projektspezifisch auf Eignung und Verfügbarkeit zu prüfen sind – ergänzt durch konstruktive Maßnahmen gegen Kontaktkorrosion.
 
 ![Fortschrittliche Oberflächenbehandlung für Magnesiumgussteile](/img/suretech-650-surface-treatment.webp)
 
@@ -125,7 +125,7 @@ Magnesium erfordert spezifische Konstruktungsregeln. Wir begleiten Sie bei:
 
 ## 🛡️ Qualität & Prüfung
 
-Neben der Röntgen-Porositätsprüfung und CMM-Vermessung setzen wir **Salzsprüh-Korrosionstests** und **Dichtheits-/Hermetikprüfungen** ein, wo die Anwendung es verlangt. Unser Qualitätsmanagement ist an IATF 16949- und ISO 9001-Anforderungen ausgerichtet (Nachweis im Projektqualifizierungsprozess).
+Prüfmerkmale, Messverfahren, Stichprobenumfang und Dokumentation werden projektspezifisch im Angebot festgelegt; Erstmusterprüfung, PPAP-Dokumentation und CMM-gestützte Prüfung sind Beispiele für einen zu vereinbarenden Umfang. Kingship arbeitet nach vereinbarten Projektanforderungen; für IATF 16949 und ISO 9001 wird keine aktuelle Zertifikatsgültigkeit beansprucht.
 
 ![Röntgenprüfung zur Porositätskontrolle](/img/x-ray-detector.webp)
 
@@ -143,12 +143,12 @@ Neben der Röntgen-Porositätsprüfung und CMM-Vermessung setzen wir **Salzsprü
 
 ## ⚖️ Magnesium vs. Aluminium – Gewicht
 
-| Merkmal | Magnesium (AZ91D) | Aluminium (z. B. A356) |
+| Merkmal | Magnesium (AZ91D) | Aluminium (A357) |
 | :--- | :--- | :--- |
 | **Dichte** | ~1,81 g/cm³ | ~2,68 g/cm³ |
 | **Gewicht je Volumen** | ~33 % leichter | Referenz |
 | **Dämpfung** | Sehr gut | Gut |
-| **Korrosionsschutz** | MAO/E-Coating erforderlich | Eloxieren/Pulver möglich |
+| **Korrosionsschutz** | Oberflächenbehandlung erforderlich | Eloxieren möglich |
 
 Der direkte Vergleich: [Magnesium vs. Aluminium Druckguss](https://alumcasting.com/magnesium-vs-aluminum-die-casting/). Mehr über unseren [Aluminium-Druckguss](https://kingship.alumcasting.com/de/aluminum-die-casting/) erfahren.
 
@@ -171,7 +171,7 @@ Für nochmals höhere Duktilität und dichte Gefüge bieten wir das [Semi-Solid-
 <section class="bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-8 mt-12 text-center">
   <h2 class="text-3xl font-bold mb-4 text-neutral-950 dark:text-neutral-50">Bereit für Ihr Magnesium-Projekt?</h2>
   <p class="text-lg text-neutral-600 dark:text-neutral-400 mb-8 max-w-2xl mx-auto">
-    Erhalten Sie innerhalb von 24 Stunden eine professionelle DFM-Analyse und ein formelles Angebot. Senden Sie Ihre Zeichnungen an unsere Werkzeug-Experten.
+    Senden Sie Ihre 2D/3D-Zeichnungen für eine DFM-Analyse und ein formelles Angebot. Legierung, Wandstärke, Oberflächenbehandlung und Prüfumfang werden anhand Ihrer Anforderungen bestätigt.
   </p>
   <div class="flex justify-center gap-4">
     <a href="https://kingship.alumcasting.com/de/contact/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">Angebot anfordern</a>

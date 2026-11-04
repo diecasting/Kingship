@@ -27,11 +27,11 @@ service:
     - label: "Forza di chiusura"
       value: "400T – 3000T"
     - label: "Spessore min. parete"
-      value: "1,0 mm"
+      value: "1,0–1,2 mm (in base al progetto)"
     - label: "Tolleranza CNC"
       value: "±0,01 mm (post-lavorazione)"
     - label: "Trattamento superficiale"
-      value: "Rivestimento MAO, E-Coating"
+      value: "In base al progetto; processi confermati: sabbiatura e anodizzazione"
   industries:
     - "Automotive"
     - "EV"
@@ -41,9 +41,9 @@ service:
     - "Alloggiamenti e involucri"
     - "Parti di sicurezza"
   quality:
-    - "Ispezione della porosità a raggi X"
-    - "Verifica dimensionale CMM"
-    - "Test di corrosione a nebbia salina"
+    - "Caratteristiche di controllo e criteri di accettazione definiti per progetto"
+    - "Ambito di primo articolo e documentazione concordato in offerta"
+    - "Metodo di verifica dimensionale secondo disegno"
     - "Test di tenuta"
   seo_keywords:
     - "pressofusione magnesio"
@@ -62,11 +62,11 @@ service:
       url: "https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/"
   faq:
     - q: "Quali leghe di magnesio fuse?"
-      a: "Fondiamo principalmente AZ91D e AM60B. Altre leghe come AM50A sono disponibili su richiesta per esigenze meccaniche specifiche."
+      a: "Le leghe di magnesio confermate sono AZ91D e AM60B. AZ91D è la lega generale più diffusa; AM60B si sceglie quando contano duttilità e assorbimento di energia d'urto. Altre leghe vengono valutate in DFM in base al progetto, non offerte come standard."
     - q: "Qual è la dimensione massima del pezzo?"
-      a: "La nostra flotta HPDC 400T–3000T produce grandi componenti strutturali a parete sottile; lo spessore tipico parte da 1,0 mm e la lavorazione CNC raggiunge ±0,01 mm."
-    - q: "Come garantite qualità e dimensioni?"
-      a: "Tramite ispezione della porosità a raggi X, misurazione CMM, test di corrosione a nebbia salina e di tenuta, supportati da un sistema qualità allineato a IATF 16949 e ISO 9001 (conferma durante la qualificazione del progetto)."
+      a: "Le macchine HPDC 400T–3000T producono componenti strutturali a parete sottile. Uno spessore di circa 1,0–1,2 mm è un riferimento dipendente dal progetto (lega, geometria, distanza di flusso, condizioni del progetto). Una tolleranza di ±0,01 mm può essere raggiunta su caratteristiche definite in adeguate condizioni di post-lavorazione e viene confermata per quota nella revisione del disegno e DFM."
+    - q: "Come vengono definite qualità e dimensioni?"
+      a: "Le caratteristiche da controllare, il metodo di misura, il campionamento e la documentazione si definiscono per progetto in offerta. Primo articolo, documentazione PPAP e verifica CMM sono esempi di ambito da concordare, non dotazioni incluse per impostazione predefinita. Non si dichiara validità attuale dei certificati IATF 16949 o ISO 9001."
 ---
 
 {{< center_style >}}
@@ -85,28 +85,28 @@ Fondiamo principalmente due leghe collaudate:
 
 * **[AZ91D](https://alumcasting.com/az91d-magnesium-die-casting-automotive-parts/):** alta resistenza e ottima resistenza alla corrosione – ideale per alloggiamenti elettronici e strutture a parete sottile.
 * **[AM60B](https://alumcasting.com/am60b-magnesium-alloy-die-casting-suppliers/):** maggiore duttilità e tenacità d'urto – preferita per componenti di sicurezza automobilistici.
-* **AM50A / altre leghe:** disponibili su richiesta per esigenze specifiche.
+* **Altre leghe:** valutate in DFM in base alle esigenze del progetto; non sono materiali standard confermati.
 
 | Lega | Densità (g/cm³) | Resistenza | Duttilità | Applicazione tipica |
 | :--- | :--- | :--- | :--- | :--- |
 | **AZ91D** | ~1,81 | Alta | Media | Alloggiamenti, elettronica, strutture |
 | **AM60B** | ~1,79 | Media | Alta | Parti di sicurezza |
-| **AM50A** | ~1,77 | Inferiore | Molto alta | Grandi pezzi (su richiesta) |
+| **Altre leghe** | – | – | – | Solo valutazione DFM per progetto, non materiale standard |
 
 ---
 
 ## 🏭 Processo HPDC e attrezzature (400T–3000T)
 
-Il nostro stabilimento dispone di una **flotta HPDC 400T–3000T**, completata da un'officina CNC ad alta precisione per la lavorazione secondaria. La fusione e il mantenimento del magnesio avvengono in **atmosfera di gas protettivo** (miscele prive di SF₆) per minimizzare ossidazione e rischio di ignizione. La [capacità produttiva](https://alumcasting.com/manufacturing-capabilities/) completa include analisi di flusso e DFM fin dalla fase di preventivo.
+Il programma dispone di un **range di macchine HPDC 400T–3000T**, completato dalla lavorazione CNC secondaria. L'atmosfera di gas protettivo e la gestione sicura di bagno e trucioli sono pratiche industriali generali del magnesio. L'analisi di flusso e DFM avviene fin dalla fase di preventivo; vedi la [capacità produttiva](https://alumcasting.com/manufacturing-capabilities/).
 
 ![Linea di produzione di pressofusione automatizzata](/img/automated-die-casting-production-line.webp)
 
 | Parametro | Specifica |
 | :--- | :--- |
 | **Campo di forza di chiusura** | 400 tonnellate a 3000 tonnellate |
-| **Spessore parete** | Minimo 1,0 mm a 1,2 mm |
-| **Tolleranza lineare** | Lavorazione CNC fino a ±0,01 mm |
-| **Finitura superficiale** | [Rivestimento MAO](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/), E-Coating |
+| **Spessore parete** | Circa 1,0–1,2 mm, in base al progetto (lega, geometria, distanza di flusso) |
+| **Tolleranza lineare** | ±0,01 mm su caratteristiche definite, in adeguate condizioni di post-lavorazione, in base al progetto |
+| **Finitura superficiale** | In base al progetto; processi confermati: sabbiatura e anodizzazione |
 
 ---
 
@@ -114,9 +114,9 @@ Il nostro stabilimento dispone di una **flotta HPDC 400T–3000T**, completata d
 
 Il magnesio richiede regole di progettazione specifiche. Ti supportiamo su:
 
-1. **Protezione antincendio e maneggio:** sistemi a gas protettivo chiusi, riempimento a vuoto automatico e processi di fusione sicuri.
-2. **Pareti sottili:** spessori da 1,0 mm; zone di fresatura e rinforzi pianificati a livello di stampo.
-3. **Protezione dalla corrosione:** [rivestimento MAO](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/) ed E-Coating, più misure di progettazione (isolamento contro la corrosione da contatto).
+1. **Protezione antincendio e maneggio:** l'atmosfera di gas protettivo e la gestione sicura di bagno e trucioli sono pratiche industriali generali da concordare con il fornitore per ogni progetto.
+2. **Pareti sottili:** circa 1,0–1,2 mm come riferimento dipendente dal progetto; zone di fresatura e rinforzi pianificati a livello di stampo.
+3. **Protezione dalla corrosione:** il magnesio nudo non va considerato resistente alla corrosione. Sabbiatura e anodizzazione sono processi confermati; il [rivestimento MAO](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/), gli strati di conversione e l'E-Coating sono opzioni generali di settore da valutare per progetto, insieme a misure progettuali contro la corrosione da contatto.
 
 ![Trattamento superficiale avanzato per pezzi in magnesio](/img/suretech-650-surface-treatment.webp)
 
@@ -124,7 +124,7 @@ Il magnesio richiede regole di progettazione specifiche. Ti supportiamo su:
 
 ## 🛡️ Qualità e prove
 
-Oltre all'ispezione della porosità a raggi X e alla misurazione CMM, eseguiamo **test di corrosione a nebbia salina** e **test di tenuta** quando l'applicazione lo richiede. Il nostro sistema qualità è allineato a IATF 16949 e ISO 9001 (evidenza durante la qualificazione del progetto).
+Le caratteristiche da controllare, il metodo di misura, il campionamento e la documentazione si definiscono per progetto in offerta; primo articolo, documentazione PPAP e verifica CMM sono esempi di ambito da concordare. Kingship opera secondo i requisiti concordati del progetto; non si dichiara validità attuale dei certificati IATF 16949 o ISO 9001.
 
 ![Ispezione a raggi X per il controllo della porosità](/img/x-ray-detector.webp)
 
@@ -142,12 +142,12 @@ Oltre all'ispezione della porosità a raggi X e alla misurazione CMM, eseguiamo 
 
 ## ⚖️ Magnesio vs. Alluminio – Peso
 
-| Caratteristica | Magnesio (AZ91D) | Alluminio (es. A356) |
+| Caratteristica | Magnesio (AZ91D) | Alluminio (A357) |
 | :--- | :--- | :--- |
 | **Densità** | ~1,81 g/cm³ | ~2,68 g/cm³ |
 | **Peso per volume** | ~33 % più leggero | Riferimento |
 | **Smorzamento** | Molto buono | Buono |
-| **Protezione anticorrosione** | MAO/E-Coating | Anodizzazione/Verniciatura |
+| **Protezione anticorrosione** | Trattamento superficiale necessario | Anodizzazione possibile |
 
 Confronto diretto: [magnesio vs. alluminio in pressofusione](https://alumcasting.com/magnesium-vs-aluminum-die-casting/). Scopri anche la nostra [pressofusione di alluminio](https://kingship.alumcasting.com/it/aluminum-die-casting/).
 
@@ -170,7 +170,7 @@ Per duttilità e struttura ancora più dense, offriamo il [Semi-Solid Rheocastin
 <section class="bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-xl p-8 mt-12 text-center">
   <h2 class="text-3xl font-bold mb-4 text-neutral-950 dark:text-neutral-50">Pronto per il tuo progetto in magnesio?</h2>
   <p class="text-lg text-neutral-600 dark:text-neutral-400 mb-8 max-w-2xl mx-auto">
-    Ottieni un'analisi DFM professionale e un preventivo formale entro 24 ore. Invia i tuoi disegni ai nostri esperti di attrezzature.
+    Invia i tuoi disegni 2D/3D per una revisione DFM e un preventivo formale. Lega, spessore parete, trattamento superficiale e ambito di controllo vengono confermati in base alle tue esigenze.
   </p>
   <div class="flex justify-center gap-4">
     <a href="https://kingship.alumcasting.com/it/contact/" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition">Richiedi preventivo</a>

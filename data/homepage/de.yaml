@@ -317,10 +317,13 @@ quality:
     - "Automatisierter Lecktest"
     - "SureTech 650 Oberflächenbehandlung"
   image:
-    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
-    alt: "TF1949 ISO 9001 Zertifizierung für Qualitätsmanagement im Druckguss"
-    title: "Nach ISO 9001 & IATF 16949 zertifiziert"
-
+    url: "/img/certificates/iso-9001-2015-card.webp"
+    alt: "Zertifikatsdokument ISO 9001:2015, Zertifikatsnummer DZ/CN/2411010Q, Inhaber Kingship (Dongguan) Precision Manufacturing Co., Ltd., aufgedrucktes Ablaufdatum 2027-12-17"
+    title: "ISO 9001:2015 – Zertifikat (Dokumentenkopie)"
+  standard_caption: "Norm für Qualitätsmanagementsysteme"
+  stat_label: "Qualitätsmanagement-Zertifizierungen"
+  stat_badge: "QMS"
+  cert_link: "/de/certifications/"
 equipment:
   heading: "Produktionsausrüstung"
   lead: "Moderne, integrierte Maschinen, die Qualität und Durchsatz unter einem Dach halten."

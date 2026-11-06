@@ -320,10 +320,13 @@ quality:
     - "자동 누수 시험"
     - "SureTech 650 표면 처리"
   image:
-    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
-    alt: "다이캐스팅 품질 경영을 위한 TF1949 ISO 9001 인증"
-    title: "ISO 9001 및 IATF 16949 인증"
-
+    url: "/img/certificates/iso-9001-2015-card.webp"
+    alt: "ISO 9001:2015 증명서 사본. 증명서 번호 DZ/CN/2411010Q, 명의인 Kingship (Dongguan) Precision Manufacturing Co., Ltd., 인쇄된 만료일 2027-12-17"
+    title: "ISO 9001:2015 증명서(문서 사본)"
+  standard_caption: "품질경영시스템 표준"
+  stat_label: "품질경영 인증"
+  stat_badge: "QMS"
+  cert_link: "/ko/certifications/"
 equipment:
   heading: "생산 설비"
   lead: "품질과 생산성을 한 지붕 아래 유지하는 현대적이고 통합된 기계."

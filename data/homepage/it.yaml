@@ -360,10 +360,13 @@ quality:
     - "Test di perdita automatizzato"
     - "Trattamento superficiale SureTech 650"
   image:
-    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
-    alt: "Certificazione ISO 9001 TF1949 per la gestione qualità nella pressofusione"
-    title: "Certificati ISO 9001 e IATF 16949"
-
+    url: "/img/certificates/iso-9001-2015-card.webp"
+    alt: "Copia del documento del certificato ISO 9001:2015, numero DZ/CN/2411010Q, intestato a Kingship (Dongguan) Precision Manufacturing Co., Ltd., data di scadenza stampata 2027-12-17"
+    title: "Certificato ISO 9001:2015 (copia del documento)"
+  standard_caption: "Norma per il sistema di gestione della qualità"
+  stat_label: "Certificazioni di gestione della qualità"
+  stat_badge: "SGQ"
+  cert_link: "/it/certifications/"
 equipment:
   heading: "Attrezzature di produzione"
   lead: "Macchinari moderni e integrati che mantengono qualità e produttività sotto un unico tetto."

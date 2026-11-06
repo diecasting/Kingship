@@ -42,3 +42,8 @@
   name = "Angebot anfragen"
   url = "/de/contact/"
   weight = 50
+
+[[main]]
+  name = "Zertifikate"
+  url = "/de/certifications/"
+  weight = 45

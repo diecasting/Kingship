@@ -42,3 +42,8 @@
   name = "見積依頼"
   url = "/ja/contact/"
   weight = 50
+
+[[main]]
+  name = "証明書"
+  url = "/ja/certifications/"
+  weight = 45

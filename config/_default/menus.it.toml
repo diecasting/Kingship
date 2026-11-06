@@ -42,3 +42,8 @@
   name = "Richiedi un Preventivo"
   url = "/it/contact/"
   weight = 50
+
+[[main]]
+  name = "Certificati"
+  url = "/it/certifications/"
+  weight = 45

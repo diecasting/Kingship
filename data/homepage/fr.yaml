@@ -314,10 +314,13 @@ quality:
     - "Test d'étanchéité automatisé"
     - "Traitement de surface SureTech 650"
   image:
-    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
-    alt: "Certification TF1949 ISO 9001 pour la qualité en moulage sous pression"
-    title: "Certifié ISO 9001 et IATF 16949"
-
+    url: "/img/certificates/iso-9001-2015-card.webp"
+    alt: "Copie du certificat ISO 9001:2015, numéro DZ/CN/2411010Q, au nom de Kingship (Dongguan) Precision Manufacturing Co., Ltd., date d'expiration imprimée 2027-12-17"
+    title: "Certificat ISO 9001:2015 (copie du document)"
+  standard_caption: "Norme de système de management de la qualité"
+  stat_label: "Certifications de management de la qualité"
+  stat_badge: "SMQ"
+  cert_link: "/fr/certifications/"
 equipment:
   heading: "Équipement de production"
   lead: "Machines modernes et intégrées qui maintiennent qualité et débit sous un même toit."

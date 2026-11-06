@@ -23,13 +23,17 @@
       </div>
       {{- end -}}
     </div>
+    {{- $stdCaption := .standard_caption | default "Quality management system standard" -}}
+    {{- $statLabel := .stat_label | default "Quality management certifications" -}}
+    {{- $statBadge := .stat_badge | default "QMS" -}}
+    {{- $certLink := .cert_link | default "/certifications/" -}}
     {{- with .standards -}}
     <div class="mt-10">
       <div class="hy-grid hy-grid--4 gap-4">
         {{- range . -}}
         <div class="hy-cert text-center">
           <div class="text-lg font-bold text-[#0c4a8e] dark:text-[#60a5fa]">{{ . }}</div>
-          <div class="mt-1 text-xs text-neutral-500 dark:text-neutral-400">Certified quality system</div>
+          <div class="mt-1 text-xs text-neutral-500 dark:text-neutral-400">{{ $stdCaption }}</div>
         </div>
         {{- end -}}
       </div>
@@ -39,7 +43,7 @@
       <div class="hy-grid hy-grid--4 gap-4">
         <div class="text-center"><div class="hy-stat__num">23</div><div class="hy-stat__label">Years of precision manufacturing (Since 2003)</div></div>
         <div class="text-center"><div class="hy-stat__num">5000T</div><div class="hy-stat__label">Largest die casting machine</div></div>
-        <div class="text-center"><div class="hy-stat__num">2</div><div class="hy-stat__label">Quality certifications (ISO 9001 · IATF 16949)</div></div>
+        <div class="text-center"><div class="hy-stat__num">{{ $statBadge }}</div><div class="hy-stat__label"><a class="kcert-stat-link" href="{{ $certLink }}">{{ $statLabel }}</a></div></div>
         <div class="text-center"><div class="hy-stat__num">X-Ray</div><div class="hy-stat__label">Real-time porosity inspection</div></div>
       </div>
     </div>

@@ -522,3 +522,37 @@ a[href*="t.me/share"] {
 .hy-nav-cta:focus-visible { outline: 2px solid var(--hy-brand-600); outline-offset: 2px; }
 .dark .hy-nav-cta { background: var(--hy-brand-600); }
 .dark .hy-nav-cta:hover { background: var(--hy-brand); }
+
+
+/* === KINGSHIP ISO certificate pages (ISO-CERT-01) ========================= */
+.kcert-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.25rem; margin:1.5rem 0 2.25rem; }
+.kcert-card { display:flex; flex-direction:column; background:#fff; border:1px solid #e3e8ee; border-radius:14px; overflow:hidden; box-shadow:0 1px 3px rgba(16,24,40,.06); }
+.dark .kcert-card { background:#111827; border-color:#334155; }
+.kcert-thumb { display:block; padding:.6rem; background:#f8fafc; }
+.dark .kcert-thumb { background:#0f172a; }
+.kcert-thumb img { display:block; width:100%; height:auto; border-radius:6px; background:#fff; }
+.kcert-body { display:flex; flex-direction:column; gap:.6rem; padding:1rem 1.15rem 1.25rem; flex:1; }
+.kcert-std { font-size:1.08rem; font-weight:700; color:var(--hy-brand,#0c4a8e); line-height:1.3; }
+.dark .kcert-std { color:#7dd3fc; }
+.kcert-status { display:inline-block; align-self:flex-start; font-size:.76rem; letter-spacing:.02em; padding:.22rem .55rem; border:1px solid #cbd5e1; border-radius:999px; color:#475569; }
+.dark .kcert-status { border-color:#475569; color:#cbd5e1; }
+.kcert-meta { margin:0; font-size:.84rem; line-height:1.55; }
+.kcert-meta dt { font-weight:600; color:#334155; margin-top:.45rem; }
+.kcert-meta dd { margin:0 0 .1rem; color:#475569; overflow-wrap:anywhere; }
+.dark .kcert-meta dt { color:#e2e8f0; }
+.dark .kcert-meta dd { color:#cbd5e1; }
+.kcert-note { font-size:.82rem; line-height:1.5; color:#7c2d12; background:#fff7ed; border-left:3px solid #f59e0b; padding:.55rem .7rem; border-radius:4px; }
+.dark .kcert-note { color:#fed7aa; background:#431407; }
+.kcert-links { margin-top:auto; padding-top:.6rem; display:flex; flex-wrap:wrap; gap:.5rem .9rem; }
+.kcert-links a { font-size:.84rem; color:var(--hy-brand,#0c4a8e); text-decoration:underline; text-underline-offset:2px; }
+.dark .kcert-links a { color:#7dd3fc; }
+.kcert-lb { display:none; position:fixed; inset:0; z-index:9999; overflow:auto; padding:1rem; text-align:center; background:rgba(15,23,42,.94); }
+.kcert-lb:target { display:block; }
+.kcert-lb__bar { max-width:1200px; margin:0 auto .8rem; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
+.kcert-lb__bar a { color:#fff; background:#0c4a8e; padding:.45rem .9rem; border-radius:8px; text-decoration:none; font-size:.88rem; }
+.kcert-lb img { max-width:min(1200px,96vw); max-height:82vh; width:auto; height:auto; border-radius:6px; background:#fff; box-shadow:0 18px 50px rgba(0,0,0,.55); }
+.kcert-note-block { margin:1.5rem 0; padding:.8rem 1rem; border-left:3px solid var(--hy-brand,#0c4a8e); background:#f8fafc; border-radius:4px; font-size:.92rem; }
+.dark .kcert-note-block { background:#0f172a; }
+.kcert-stat-link { color:inherit; text-decoration:underline; text-underline-offset:2px; }
+@media (max-width:640px) { .kcert-grid { grid-template-columns:1fr; } .kcert-lb { padding:.5rem; } }
+/* === end KINGSHIP ISO certificate pages ================================== */

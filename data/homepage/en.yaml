@@ -342,10 +342,13 @@ quality:
     - "Automated Leak Testing"
     - "SureTech 650 Surface Treatment"
   image:
-    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
-    alt: "TF1949 ISO 9001 certification for quality management in die casting"
-    title: "ISO 9001 & IATF 16949 Certified"
-
+    url: "/img/certificates/iso-9001-2015-card.webp"
+    alt: "ISO 9001:2015 certificate document DZ/CN/2411010Q issued to Kingship (Dongguan) Precision Manufacturing Co., Ltd., printed expiry date 2027-12-17"
+    title: "ISO 9001:2015 certificate (document copy)"
+  standard_caption: "Quality management system standard"
+  stat_label: "Quality management certifications"
+  stat_badge: "QMS"
+  cert_link: "/certifications/"
 equipment:
   heading: "Production Equipment"
   lead: "Modern, integrated machinery that keeps quality and throughput under one roof."

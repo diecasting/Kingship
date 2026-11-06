@@ -313,10 +313,13 @@ quality:
     - "Prueba de fugas automatizada"
     - "Tratamiento superficial SureTech 650"
   image:
-    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
-    alt: "Certificación TF1949 ISO 9001 para gestión de calidad en moldeo por inyección"
-    title: "Certificado ISO 9001 e IATF 16949"
-
+    url: "/img/certificates/iso-9001-2015-card.webp"
+    alt: "Copia del certificado ISO 9001:2015, número DZ/CN/2411010Q, a nombre de Kingship (Dongguan) Precision Manufacturing Co., Ltd., fecha de caducidad impresa 2027-12-17"
+    title: "Certificado ISO 9001:2015 (copia del documento)"
+  standard_caption: "Norma de sistema de gestión de la calidad"
+  stat_label: "Certificaciones de gestión de la calidad"
+  stat_badge: "SGC"
+  cert_link: "/es/certifications/"
 equipment:
   heading: "Equipo de producción"
   lead: "Maquinaria moderna e integrada que mantiene calidad y rendimiento bajo un mismo techo."

@@ -42,3 +42,8 @@
   name = "Request A Quote"
   url = "/contact/"
   weight = 50
+
+[[main]]
+  name = "Certificates"
+  url = "/certifications/"
+  weight = 45

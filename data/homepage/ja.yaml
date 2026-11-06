@@ -293,10 +293,13 @@ quality:
     - "自動漏れ試験"
     - "SureTech 650表面処理"
   image:
-    url: "https://alumcasting.com/images/TF1949-ISO9001-Certification.webp"
-    alt: "ダイカスト品質管理のTF1949 ISO 9001認証"
-    title: "ISO 9001・IATF 16949認証"
-
+    url: "/img/certificates/iso-9001-2015-card.webp"
+    alt: "ISO 9001:2015 証明書の写し。証明書番号 DZ/CN/2411010Q、名義人 Kingship (Dongguan) Precision Manufacturing Co., Ltd.、記載の満了日 2027-12-17"
+    title: "ISO 9001:2015 証明書（文書の写し）"
+  standard_caption: "品質マネジメントシステム規格"
+  stat_label: "品質マネジメント認証"
+  stat_badge: "QMS"
+  cert_link: "/ja/certifications/"
 equipment:
   heading: "生産設備"
   lead: "品質と生産性を一つの屋根の下に保つ、近代的な統合機械。"

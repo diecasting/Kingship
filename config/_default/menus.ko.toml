@@ -42,3 +42,8 @@
   name = "견적 요청"
   url = "/ko/contact/"
   weight = 50
+
+[[main]]
+  name = "증명서"
+  url = "/ko/certifications/"
+  weight = 45

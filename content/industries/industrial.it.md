@@ -16,6 +16,16 @@ schema:
 
 Le attrezzature industriali devono funzionare in modo affidabile sotto carico, calore e servizio continuo. KingShip fornisce le parti robuste colate e lavorati che mantengono macchine, involucri e sistemi di automazione performanti in ambienti impegnativi.
 
+<!-- KS-PHOTO-BEGIN workshop-packing-storage-area -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/workshop-packing-storage-area.webp" srcset="/img/workshop-packing-storage-area-480w.webp 480w, /img/workshop-packing-storage-area.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Area di imballaggio e stoccaggio dell&#x27;officina con scaffalature blu e componenti impilati" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Area di imballaggio e stoccaggio</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## Capabilità per l'industriale
 
 - Involucri e telai in alluminio ADC12, A380 e A356
@@ -24,3 +34,15 @@ Le attrezzature industriali devono funzionare in modo affidabile sotto carico, c
 - Stampi interni per cicli di produzione industriale stabili e lunghi
 
 Con colata, CNC e stampi integrati, KingShip consegna componenti industriali durevoli con il controllo dimensionale e la ripetibilità che le attrezzature di produzione richiedono.
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN complex-aluminium-casting-with-ports -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/complex-aluminium-casting-with-ports.webp" srcset="/img/complex-aluminium-casting-with-ports-480w.webp 480w, /img/complex-aluminium-casting-with-ports.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Getto complesso in alluminio con diversi innesti, diramazioni e alette di fissaggio" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Getto complesso in alluminio</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

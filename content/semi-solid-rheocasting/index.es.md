@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "Célula de producción de reofundición semisólida para componentes estructurales ligeros"
+featureImageAlt: "Pieza alargada de aluminio con dos taladros circulares y nervios de refuerzo"
 showTableOfContents: true
 url: "/es/semi-solid-rheocasting/"
 service:

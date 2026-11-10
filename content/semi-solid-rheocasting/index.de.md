@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "Semi-Solid-Rheogieß-Fertigungszelle für leichtbauoptimierte Strukturbauteile"
+featureImageAlt: "Längliches Aluminiumgussteil mit zwei runden Bohrungen und Verstärkungsrippen"
 showTableOfContents: true
 url: "/de/semi-solid-rheocasting/"
 service:

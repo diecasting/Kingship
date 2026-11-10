@@ -83,6 +83,16 @@ service:
 
 Aluminum alloy high-pressure die casting (HPDC) is the bedrock of modern lightweight, high-strength industrial manufacturing. Our advanced facilities provide stable and high-precision casting engineering tailored for demanding sectors. With over 20 years of expertise in tool design, mold flow analysis, and mechanical engineering, we ensure that every shot complies with zero-defect delivery standards, ensuring your critical parts reach cross-border assembly lines ready for seamless installation. Learn more about our [one-stop die casting, CNC machining, and surface finishing services](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/).
 
+<!-- KS-PHOTO-BEGIN die-casting-machine-robotic-arm -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/die-casting-machine-robotic-arm.webp" srcset="/img/die-casting-machine-robotic-arm-480w.webp 480w, /img/die-casting-machine-robotic-arm.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Die casting machine cell with a robotic extraction arm in front of an open mould area" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Die casting production cell</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ### 🔬 Superior Material Grades & Mechanical Integrity
 We work with specialized global aluminum alloy grades to optimize thermal conductivity, structural elasticity, and anti-corrosion properties:
 
@@ -116,6 +126,7 @@ Our tool-making shop utilizes sophisticated CAD/CAM environments running Pro/E, 
 
 Kingship implements a comprehensive Quality Management System [IATF 16949 certified](https://alumcasting.com/iatf-16949-high-tolerance-automotive-cnc-machining-supplier/).
 
+
 1. **Porosity Control:** We use [5 methods to eliminate porosity](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/) in pressure die casting.
 2. **Inspection:** Our facility is equipped with advanced [X-ray defect detection and CMM equipment](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/).
 3. **Validation:** Automated leakage testing for airtightness in [EV battery housing](https://alumcasting.com/ev-battery-housing-die-casting/).
@@ -140,7 +151,18 @@ EV battery housings demand airtight, porosity-controlled castings. We combine va
 
 Aluminum's thermal conductivity makes HPDC ideal for heat sinks, inverter cold plates, and electronic enclosures. A356/A360 grades deliver the ductility and sealing needed for liquid-cooled thermal management. Tight ±0.01 mm CNC finish ensures flatness for thermal interface surfaces.
 
+<!-- KS-PHOTO-BEGIN large-aluminium-structural-casting -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/large-aluminium-structural-casting.webp" srcset="/img/large-aluminium-structural-casting-480w.webp 300w, /img/large-aluminium-structural-casting.webp 750w" sizes="(max-width: 768px) 100vw, 800px" width="750" height="1000" loading="lazy" decoding="async" alt="Large aluminium structural frame casting with cross ribs and runners, shown as cast" style="max-width:560px;width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Large as-cast aluminium structural component</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 Our [ADC12 properties engineering guide](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) covers castability trade-offs for high-volume thermal parts.
+
 
 ---
 
@@ -166,10 +188,20 @@ With over 20 years supplying cross-border assembly lines, we manage tooling amor
 
 Plan your ramp with our [production scaling playbook](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/).
 
+
 ---
 
 ## 💼 Turnkey Solutions & Logistics
 We bridge rapid industrial prototyping with massive global scale manufacturing. Whether you need [bridge tooling for low-volume](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/) or [full-scale production scaling](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/), we provide end-to-end support.
+
+<!-- KS-PHOTO-BEGIN deburring-finishing-workstations -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/deburring-finishing-workstations.webp" srcset="/img/deburring-finishing-workstations-480w.webp 480w, /img/deburring-finishing-workstations.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Row of stainless-steel downdraft workstations used for finishing cast components" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Finishing workstations</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
 
 <section class="w-full mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800">
   <div class="max-w-3xl mx-auto">

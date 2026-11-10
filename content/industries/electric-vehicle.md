@@ -16,6 +16,16 @@ schema:
 
 Electric vehicles reward every gram saved. KingShip builds the lightweight, structurally demanding parts that let EV platforms extend range without sacrificing safety or thermal performance.
 
+<!-- KS-PHOTO-BEGIN large-aluminium-structural-casting -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/large-aluminium-structural-casting.webp" srcset="/img/large-aluminium-structural-casting-480w.webp 300w, /img/large-aluminium-structural-casting.webp 750w" sizes="(max-width: 768px) 100vw, 800px" width="750" height="1000" loading="lazy" decoding="async" alt="Large aluminium structural frame casting with cross ribs and runners, shown as cast" style="max-width:560px;width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Large as-cast aluminium structural component</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## Capabilities for electric vehicles
 
 - Battery pack structures, trays and enclosures in ADC12 and A356 aluminum
@@ -24,3 +34,15 @@ Electric vehicles reward every gram saved. KingShip builds the lightweight, stru
 - Precision CNC machining, leak testing and X-ray verification for high-voltage parts
 
 Our integrated casting, rheocasting and CNC workflow keeps wall sections thin, tolerances tight and production volume scalable under IATF 16949 discipline.
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN cmm-dimensional-inspection-lab -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cmm-dimensional-inspection-lab.webp" srcset="/img/cmm-dimensional-inspection-lab-480w.webp 480w, /img/cmm-dimensional-inspection-lab.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Metrology room with two coordinate measuring machines and inspection workstations" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Dimensional inspection laboratory</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

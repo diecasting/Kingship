@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "Präziser Druckguss-Werkzeug- und Formenbau für Aluminium & Magnesium"
+featureImageAlt: "Vierkantiges verripptes Aluminium-Druckgussgehäuse mit bearbeiteten Flächen"
 showTableOfContents: true
 url: "/de/tooling/"
 service:

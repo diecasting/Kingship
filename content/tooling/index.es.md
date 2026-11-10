@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "Utillaje de precisión para fundición a presión de aluminio y magnesio"
+featureImageAlt: "Carcasa cuadrada de aluminio con aletas, superficies mecanizadas y salientes"
 showTableOfContents: true
 url: "/es/tooling/"
 service:

@@ -16,6 +16,16 @@ schema:
 
 Los equipos industriales deben funcionar con fiabilidad bajo carga, calor y servicio continuo. KingShip suministra las piezas robustas fundidas y mecanizadas que mantienen el rendimiento de máquinas, carcasas y sistemas de automatización en entornos exigentes.
 
+<!-- KS-PHOTO-BEGIN workshop-packing-storage-area -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/workshop-packing-storage-area.webp" srcset="/img/workshop-packing-storage-area-480w.webp 480w, /img/workshop-packing-storage-area.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Zona de embalaje y almacenamiento del taller con estanterías azules y piezas apiladas" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Zona de embalaje y almacenamiento</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## Capacidades para industrial
 
 - Carcasas y marcos en aluminio ADC12, A380 y A356
@@ -24,3 +34,15 @@ Los equipos industriales deben funcionar con fiabilidad bajo carga, calor y serv
 - Utillaje interno para series industriales largas y estables
 
 Con fundición, CNC y utillaje integrados, KingShip entrega componentes industriales duraderos con el control dimensional y la repetibilidad que requieren los equipos de producción.
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN complex-aluminium-casting-with-ports -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/complex-aluminium-casting-with-ports.webp" srcset="/img/complex-aluminium-casting-with-ports-480w.webp 480w, /img/complex-aluminium-casting-with-ports.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Pieza compleja de aluminio con varios puertos, ramificaciones y orejetas de fijación" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Pieza compleja de aluminio fundido</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

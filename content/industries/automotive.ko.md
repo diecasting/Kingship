@@ -16,6 +16,16 @@ schema:
 
 KingShip은 초기 프로토타이핑부터 대량 생산까지 자동차 프로그램을 지원합니다. 당사의 알루미늄 및 마그네슘 고압 다이캐스팅, 반용융 레오캐스팅 및 사내 CNC 후처리는 현대 차량 플랫폼이 요구하는 치수 안정성과 공정 반복성을 제공합니다.
 
+<!-- KS-PHOTO-BEGIN automated-cell-with-stacked-castings -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/automated-cell-with-stacked-castings.webp" srcset="/img/automated-cell-with-stacked-castings-480w.webp 480w, /img/automated-cell-with-stacked-castings.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="적재된 알루미늄 주조품 팔레트 옆의 자동화 갠트리 생산 셀" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">자동화 셀과 적재된 주조품</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## 자동차용 역량
 
 - ADC12, A380, A356 알루미늄 파워트레인 및 변속기 하우징
@@ -24,3 +34,15 @@ KingShip은 초기 프로토타이핑부터 대량 생산까지 자동차 프로
 - 3/4/5축 CNC 가공, 기밀 및 압력 누수 테스트
 
 모든 자동차 부품은 실시간 X선 기공 검출 및 전체 추적성을 갖춘 IATF 16949 규율 하에 생산되어, 초도품부터 양산 납품까지 조립체가 내구성 및 안전 목표를 충족합니다.
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN aluminium-cast-structural-component -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/aluminium-cast-structural-component.webp" srcset="/img/aluminium-cast-structural-component-480w.webp 480w, /img/aluminium-cast-structural-component.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="675" loading="lazy" decoding="async" alt="두 개의 원형 보어와 보강 리브를 가진 긴 알루미늄 주조품" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">알루미늄 주조 구조 부품</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "5-Achs-CNC-Bearbeitungszentrum für eng tolerierte nachgegossene Bauteile"
+featureImageAlt: "Werksgang zwischen Reihen von CNC-Bearbeitungszentren auf blauem Hallenboden"
 showTableOfContents: false
 url: "/de/cnc-machining/"
 service:
@@ -84,6 +84,16 @@ service:
 
 Druckgussteile verlassen die Form mit Gusshaut, Formteilung und Schwankungen, die für Dicht-, Pass- und Anlageflächen nicht ausreichen. Erst die CNC-Zerspanung erzeugt die Funktionsflächen, auf denen Maßhaltigkeit, Position und Oberfläche nach Zeichnung entstehen. Diese Seite richtet sich an Konstrukteure, Fertigungsplaner und Einkäufer, die den Übergang vom Rohguss zur bearbeiteten Komponente spezifizieren: Bearbeitungsaufmaß, Bezugssystem, Toleranzwahl und Prüfumfang. Sie zeigt, welche Entscheidungen im Zeichnungs- und DFM-Review getroffen werden – abgestimmt auf A357, AZ91D und AM60B.
 
+<!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Werksgang zwischen Reihen von CNC-Bearbeitungszentren auf blauem Hallenboden" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC-Bearbeitungswerkstatt</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ### Warum die Nachbearbeitung über die Funktion entscheidet
 
 Ein Druckgussteil erfüllt seine Funktion selten über die Rohoberfläche. Dichtflächen, Lagerpassungen, Gewindegänge und Anlageflächen entstehen erst durch Zerspanung; die Gusshaut ist durch Formteilung, Auswerfermarken und Streuung der Schwindung geprägt. Für die Konstruktion heißt das: Nicht jedes Maß gehört in dieselbe Zeichnung, und nicht jede Fläche wird bearbeitet. Welche Merkmale nachgearbeitet werden, bestimmt Aufspannkonzept, Werkzeugwahl und Prüfaufwand. Einkäufer nutzen diese Abgrenzung, um Angebote vergleichbar zu machen – ein Stückpreis ohne Angabe zum Bearbeitungsumfang ist kaum belastbar. Der Nutzen liegt in einer belastbaren Spezifikation des Übergangs vom Rohguss zur funktionsfertigen Komponente, nicht in einer Kapazitätsliste.
@@ -93,6 +103,7 @@ Ein Druckgussteil erfüllt seine Funktion selten über die Rohoberfläche. Dicht
 ### Vom Gussteil zum Bearbeitungsaufmaß
 
 Das Bearbeitungsaufmaß ist die bewusst zugestandene Materialschicht zwischen Rohkontur und fertiger Funktionsfläche. Es muss Gusshaut, Formteilungsversatz, Auswerfermarken und Verzug sicher abtragen, ohne unnötig Zerspanungszeit zu erzeugen. Zu knapp bleibt eine harte, teils poröse Randzone stehen; zu reichlich erhöhen Schnittkräfte, Werkzeugverschleiß und Taktzeit. Da Druckguss endformnah arbeitet, liegt das Aufmaß je Merkmal unterschiedlich: an Dichtflächen und Passungen größer, an Außenkonturen oft gegen null. Formschrägen und die Trennebene beeinflussen, wo eine ebene Anlage für die erste Aufspannung entsteht. Das Aufmaß wird in der Gusszeichnung ausgewiesen und im DFM-Review mit dem Zerspanungskonzept abgeglichen – als Schnittstelle zwischen Gießerei und Fertigung, nicht als pauschaler Millimeterwert.
+
 
 ### Bezugssystem und Datumsstrategie festlegen
 
@@ -132,6 +143,16 @@ Welches Prüfmittel zum Einsatz kommt, wird projektspezifisch nach Zeichnung und
 
 Die drei bestätigten Werkstoffe verhalten sich an der Schneide unterschiedlich. A357, eine aushärtbare Aluminium-Silicium-Magnesium-Legierung, bildet kurze bis mittlere Späne; der Siliciumanteil erhöht den abrasiven Werkzeugverschleiß, weshalb Schneidstoff und Beschichtung auf die Gussrandzone abgestimmt werden. AZ91D und AM60B sind leichter, neigen zu feiner Spanbildung bei geringerer Schnittkraft, reagieren aber stärker auf Wärme: Ihre Wärmeausdehnung verlangt ruhige Temperaturführung, damit die Maßhaltigkeit erhalten bleibt. Als allgemeines Fachwissen gilt, dass feine Magnesiumspäne entzündlich sind und mit geregelter Spanabfuhr und geeigneten Löschmitteln gehandhabt werden. Eigenspannungen lösen sich beim Abtrag; Schruppen und Schlichten werden getrennt. Vertiefendes bietet die Seite zum [Magnesium-Druckguss](https://kingship.alumcasting.com/de/magnesium-die-casting/).
 
+<!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="CNC-Fräsen eines langen Aluminiumgussteils mit Kühlschmierstoff an der Schneidstelle" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC-Fräsbearbeitung eines Gussteils</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 | Werkstoff | Spanbildung und Werkzeug | Besonderheit bei der Zerspanung |
 |---|---|---|
 | A357 (AlSiMg) | Kurze bis mittlere Späne; abrasiver Verschleiß durch Silicium | Aushärtbar; Eigenspannungen nach Wärmebehandlung beachten |
@@ -142,6 +163,7 @@ Die drei bestätigten Werkstoffe verhalten sich an der Schneide unterschiedlich.
 ### Oberfläche, Gratentfernung und Nachbehandlung
 
 Die Oberflächengüte wird nicht als fester Werkswert verstanden, sondern je Funktionsfläche in der Zeichnung als Ra-Vorgabe: Eine Dichtfläche verlangt eine andere Rauheit als eine unveränderte Außenkontur. Nach der Zerspanung folgt die Gratentfernung, wobei Grate an Bohrungsaustritten und Gewindegängen Passungen und Dichtflächen nicht beschädigen dürfen. Als bestätigte Verfahren stehen Strahlen (Shot Blasting) zur Reinigung sowie Eloxieren (Anodizing) für Aluminiumoberflächen zur Verfügung; ihre Eignung wird werkstoff- und zeichnungsabhängig geprüft. Bei Magnesium erfordert jede Behandlung eine gesonderte Bewertung von Korrosionsschutz und Haftung. Weitere Beschichtungen gelten nur als allgemeine Industrieoptionen und werden projektspezifisch bewertet, nicht als vorausgesetzte Leistung.
+
 
 ### Guss und Zerspanung in einem Fertigungsablauf
 
@@ -167,6 +189,7 @@ Die Anforderungen unterscheiden sich je Bauteil. Bei Getriebe- und Achsgehäusen
 
 Drei Fragen sind bei der Lieferantenbewertung entscheidend. Wie wird die Zeichnung gelesen – trennt der Anbieter Guss- und Bearbeitungszeichnung und hält das Bezugssystem A|B|C über beide Ebenen konstant? Wie sieht das Vorrichtungskonzept aus, welche Aufsatzpunkte am Rohguss tragen, wie viele Aufspannungen entstehen und wo die Toleranzkette? Wie ist das Änderungsmanagement geregelt, wenn Aufmaß, Formteilung oder Prüfmerkmale angepasst werden? Aussagekräftig ist ein Angebot, das diese Punkte benennt, statt nur eine Toleranzzahl und einen Stückpreis zu nennen. Auch der Übergang vom Prototyp zur Serie zählt: Werkzeugstand, Vorrichtungsreife und Prüfstrategie unterscheiden sich. Die Abstimmung läuft über die [Kontaktseite](https://kingship.alumcasting.com/de/contact/).
 
+
 ### Anfrage: welche Unterlagen das Angebot tragen
 
 Ein belastbares Angebot entsteht aus vollständigen Unterlagen, nicht aus einer einzelnen Toleranzangabe: 3D-Modell (STEP/IGES), 2D-Zeichnung mit GD&T, Bezugsstellen und Zieltoleranzen je Merkmal, Werkstoff A357, AZ91D oder AM60B, Jahresbedarf und Losgröße, Oberflächenanforderung, gewünschter Prüf- und Dokumentationsumfang sowie Prototyp oder Serie. Fehlt eine Angabe, wird sie als projektspezifisch zu vereinbarende Position ausgewiesen, damit keine stillschweigende Annahme in die Kalkulation eingeht. Die Tabelle fasst den Zweck je Unterlage zusammen. Senden Sie die Unterlagen über die [Kontaktseite](https://kingship.alumcasting.com/de/contact/); von dort lässt sich auch die Abstimmung mit [Werkzeugbau](https://kingship.alumcasting.com/de/tooling/) und [Rheocasting](https://kingship.alumcasting.com/de/semi-solid-rheocasting/) anstoßen.
@@ -179,3 +202,13 @@ Ein belastbares Angebot entsteht aus vollständigen Unterlagen, nicht aus einer 
 | Jahresbedarf und Losgröße | Stückzahl, Prototyp oder Serie | Vorrichtungskonzept, Takt, Kalkulation |
 | Zieltoleranzen je Merkmal | Kritische Maße, Ra-Vorgaben | Machbarkeit im DFM-Review |
 | Prüf- und Dokumentationsumfang | Erstmuster, Nachweise | Projektspezifischer Leistungsumfang |
+
+
+
+
+<!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Großes wannenförmiges Gussteil auf dem CNC-Maschinentisch aufgespannt" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Auf dem CNC-Maschinentisch gespanntes Gussteil</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

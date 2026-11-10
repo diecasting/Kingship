@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "Precision die casting tooling and mold workshop for aluminum & magnesium"
+featureImageAlt: "Square ribbed aluminium die-cast housing with machined pads and bosses"
 showTableOfContents: false
 service:
   name: "Die Casting Tooling"

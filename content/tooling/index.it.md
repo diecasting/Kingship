@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "Costruzione stampi di precisione per pressofusione di alluminio e magnesio"
+featureImageAlt: "Cassa quadrata in alluminio pressofuso con alette e superfici lavorate"
 showTableOfContents: true
 url: "/it/tooling/"
 service:

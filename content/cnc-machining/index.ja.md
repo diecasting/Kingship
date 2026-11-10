@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "公差の厳しい鋳造後部品向け5軸CNC加工機"
+featureImageAlt: "青い床の工場でCNC加工機が両側に並ぶ通路"
 showTableOfContents: false
 url: "/ja/cnc-machining/"
 service:
@@ -84,6 +84,16 @@ service:
 
 ダイカストはニアネットシェイプで複雑な形状を一度に得られる半面、シール面・嵌合面・ねじ座面といった機能面は鋳肌のままでは成立しません。本ページでは、鋳造方案と後加工をつなぐ取り代設計、基準面と幾何公差の指定、達成できる公差の捉え方、そして見積依頼までに揃えるべき図面・データを、設計・調達の実務順に沿って整理します。要素技術の一般知識と、案件ごとに定義すべき事項を区別して読んでいただくことを想定しています。
 
+<!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="青い床の工場でCNC加工機が両側に並ぶ通路" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC加工工場</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ### なぜ後加工が部品の機能を決めるのか
 
 ダイカストの鋳肌は溶湯の流れと凝固収縮で形成され、寸法・平面度・面粗度にばらつきを残します。ガスケットの当たるシール面、軸受を圧入する嵌合穴、相手部品と締結する座面は、切削加工を経て初めて要求の幾何精度になります。設計では「どこを鋳肌のまま残し、どこを削るか」を機能から逆算し、図面に機能面の範囲を明示します。削る部位が増えるほど治具・段取り・検査の工数が増えるため、調達側は見積依頼前に機能面を洗い出すことが有効です。鋳造で得られるニアネットシェイプと、切削で達成すべき精度を分離して捉えることが、後加工を検討する出発点になります。
@@ -91,6 +101,7 @@ service:
 ### 鋳造方案と取り代（加工代）の設計
 
 取り代（加工代）は、鋳造で残る寸法・形状のばらつきを削り取って機能面を得るための余裕です。合わせ面の段差、押出しピン跡、湯口・オーバーフローの残り、湯流れ末端のひけ巣は位置が方案でほぼ決まるため、削る面と重ならないよう鋳造方案と取り代を同時に設計します。取り代が小さすぎると黒皮やひけ巣が残り、大きすぎると工数と工具負荷が増えて薄肉部の反りを招きます。目安は一律ではなく、部位の肉厚・流動距離・材質・方案で変わります。図面と DFM レビューで鋳肌を確認しながら案件ごとに設定するのが実務的です。機能面の裏側にある基準面も、取り代とセットで確保しておきます。
+
 
 ### 基準面 A・B・C と幾何公差の指定
 
@@ -127,6 +138,16 @@ service:
 
 対象は鋳造用の A357 アルミニウム合金と AZ91D・AM60B マグネシウム合金です。A357 は靭性が高く切りくずが長くつながりやすいため、すくい角の大きい刃先と切りくず排出経路の確保が工具寿命に効きます。マグネシウム合金は比重が小さく切削抵抗が低い反面、熱膨張係数が大きく、加工熱で寸法が動きやすいので、仕上げ前の温度安定と測定環境の管理が要ります。AZ91D は鋳造性に優れ硬め、AM60B は延性が高くバリやむしれが出やすいため、送りと切込みの設定を変えます。微細なマグネシウム切屑は発火性を持つことが一般に知られており、切屑の回収・消火・切削油剤の選定は安全上の一般知識として工程に組み込みます。詳細は[マグネシウムダイカスト](https://kingship.alumcasting.com/ja/magnesium-die-casting/)のページも参照してください。
 
+<!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="切削工具にクーラントを供給しながら長尺アルミニウム鋳物をCNCフライス加工する様子" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">鋳物部品のCNCフライス加工</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 | 合金 | 切削時の傾向 | 設計・段取り上の留意点 |
 |---|---|---|
 | A357（アルミニウム） | 粘性が高く切りくずが工具に付着しやすい | 刃先形状・切削油剤と切りくず排出を考慮 |
@@ -136,6 +157,7 @@ service:
 ### 面粗度、バリ取り、表面処理
 
 面粗度は Ra などの指標を図面の部位ごとに指定し、切削条件・工具・送り方向と対応づけて管理します。シール面や摺動面では数値だけでなく工具目の方向も機能に影響するため、仕上げパスを揃えることが肝要です。穴の出口、ボス際、段差部にはバリが残りやすく、後工程の組み付け傷やシール不良の原因になるため、バリ取りとエッジ処理を加工工程の一部として明示します。表面処理は案件の要求に応じて選び、確認済みの工程としてはショットブラストと陽極酸化（アルマイト）を挙げられます。化成処理・塗装などその他の仕上げは一般選択肢として、材質との適合と耐食要件を案件ごとに検討します。処理前に残る切削油や切屑の洗浄も、仕上がりを左右する実務上の要点です。
+
 
 ### 鋳造と切削を一貫した工程で組む
 
@@ -153,6 +175,7 @@ service:
 
 委託先を評価する際は、設備一覧の比較だけでなく、図面をどう読み解くかを確認します。具体的には、基準面 A・B・C の解釈、段取り数の見立て、専用治具の位置決め構想、取り代の根拠、ひけ巣・反りへの対処、検査要領の提案を図面に沿って説明できるかが判断材料になります。試作から量産への移行で治具・条件・検査項目がどう変わるか、設計変更時に図面・見積・工程がどう更新されるかという変更管理の手順も、事前の確認事項です。図面・数量・要求事項を揃えて[見積依頼](https://kingship.alumcasting.com/ja/contact/)いただくと検討が具体的になります。価格だけでなく、DFM 段階で機能面の削り残しや公差の累積を指摘できるかが、立ち上げ後の手戻りを左右します。
 
+
 ### 見積依頼に必要な図面・データ
 
 見積依頼では、加工方案と工数の見通しを左右する情報をできるだけ揃えてご提示ください。最低限必要なのは 3D モデル（STEP / IGES）、幾何公差・基準面入りの 2D 図面、材質（A357 / AZ91D / AM60B）、年間数量とロット、部位ごとの目標公差、面粗度（Ra）、検査・文書の範囲、そして試作か量産かの別です。機能面の範囲と鋳肌のまま残す面が分かると、取り代と段取りの検討が進みます。下記の提出資料と目的を参照のうえ、[お問い合わせ](https://kingship.alumcasting.com/ja/contact/)から図面をお送りください。情報が揃うほど、達成できる公差の確認と工数の見積が具体的になります。
@@ -165,3 +188,13 @@ service:
 | 年間数量・ロット | 治具方式と段取り替え頻度の計画 |
 | 部位ごとの目標公差・面粗度（Ra） | 仕上げ工程と測定要領の定義 |
 | 検査・文書の範囲、試作か量産か | 確認項目と記録様式の取り決め |
+
+
+
+
+<!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="加工前にCNC工作機械のテーブルに固定された大型トレイ状鋳物" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC工作機械テーブルに固定された鋳物</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

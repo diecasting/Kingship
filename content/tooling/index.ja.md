@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "アルミ・マグネシウム向け高精度ダイカスト金型製作"
+featureImageAlt: "加工面とボスを備えた角型フィン付きアルミニウムダイカストハウジング"
 showTableOfContents: true
 url: "/ja/tooling/"
 service:

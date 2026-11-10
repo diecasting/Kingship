@@ -16,6 +16,16 @@ schema:
 
 Elektrofahrzeuge belohnen jedes gesparte Gramm. KingShip baut die leichten, strukturell anspruchsvollen Teile, mit denen EV-Plattformen die Reichweite verlängern, ohne Sicherheit oder Wärmeverhalten zu opfern.
 
+<!-- KS-PHOTO-BEGIN large-aluminium-structural-casting -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/large-aluminium-structural-casting.webp" srcset="/img/large-aluminium-structural-casting-480w.webp 300w, /img/large-aluminium-structural-casting.webp 750w" sizes="(max-width: 768px) 100vw, 800px" width="750" height="1000" loading="lazy" decoding="async" alt="Großes Aluminium-Strukturgussbauteil mit Querrippen und Anguss, im Gusszustand" style="max-width:560px;width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Großes Aluminium-Strukturbauteil im Gusszustand</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## Fähigkeiten für Elektrofahrzeuge
 
 - Batteriepack-Strukturen, Träger und Gehäuse aus ADC12 und A356 Aluminium
@@ -24,3 +34,15 @@ Elektrofahrzeuge belohnen jedes gesparte Gramm. KingShip baut die leichten, stru
 - Präzisions-CNC-Bearbeitung, Leckprüfung und Röntgenprüfung für Hochvolt-Teile
 
 Unser integrierter Guss-, Rheocasting- und CNC-Arbeitsfluss hält Wandstärken dünn, Toleranzen eng und Produktionsvolumen unter IATF 16949-Disziplin skalierbar.
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN cmm-dimensional-inspection-lab -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cmm-dimensional-inspection-lab.webp" srcset="/img/cmm-dimensional-inspection-lab-480w.webp 480w, /img/cmm-dimensional-inspection-lab.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Messraum mit zwei Koordinatenmessgeräten und Prüfarbeitsplätzen" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Labor für Maßprüfung</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

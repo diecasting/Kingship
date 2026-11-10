@@ -16,6 +16,16 @@ schema:
 
 Les véhicules électriques valorisent chaque gramme économisé. KingShip fabrique les pièces légères et structurellement exigeantes qui permettent aux plateformes EV d'étendre leur autonomie sans sacrifier la sécurité ni les performances thermiques.
 
+<!-- KS-PHOTO-BEGIN large-aluminium-structural-casting -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/large-aluminium-structural-casting.webp" srcset="/img/large-aluminium-structural-casting-480w.webp 300w, /img/large-aluminium-structural-casting.webp 750w" sizes="(max-width: 768px) 100vw, 800px" width="750" height="1000" loading="lazy" decoding="async" alt="Grande pièce structurelle en aluminium avec nervures et système de coulée, brute de fonderie" style="max-width:560px;width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Grand composant structurel en aluminium brut de fonderie</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## Capacités pour les véhicules électriques
 
 - Structures, plateaux et enveloppes de pack batterie en aluminium ADC12 et A356
@@ -24,3 +34,15 @@ Les véhicules électriques valorisent chaque gramme économisé. KingShip fabri
 - Usinage CNC de précision, test de fuite et vérification par rayons X pour pièces haute tension
 
 Notre flux intégré de fonderie, rheocasting et CNC maintient les parois fines, les tolérances serrées et les volumes de production extensibles sous la discipline IATF 16949.
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN cmm-dimensional-inspection-lab -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cmm-dimensional-inspection-lab.webp" srcset="/img/cmm-dimensional-inspection-lab-480w.webp 480w, /img/cmm-dimensional-inspection-lab.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Salle de métrologie avec deux machines à mesurer tridimensionnelles et postes de contrôle" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Laboratoire de contrôle dimensionnel</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

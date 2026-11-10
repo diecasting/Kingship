@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "Cella di produzione per reoformatura semi-solida di componenti strutturali ottimizzati per leggerezza"
+featureImageAlt: "Getto allungato in alluminio con due fori circolari e nervature di rinforzo"
 showTableOfContents: true
 url: "/it/semi-solid-rheocasting/"
 service:

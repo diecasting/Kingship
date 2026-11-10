@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "Cellule de production de rhéocoulage semi-solide pour composants structurels optimisés toutes charges"
+featureImageAlt: "Pièce allongée en aluminium avec deux alésages circulaires et nervures de renfort"
 showTableOfContents: true
 url: "/fr/semi-solid-rheocasting/"
 service:

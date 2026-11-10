@@ -16,6 +16,16 @@ schema:
 
 産業機器は負荷、熱、連続運転のもとで信頼的に稼働する必要があります。KingShip は、過酷な環境で機械・筐体・自動化システムの性能を維持する、堅牢な鋳造および machining 部品を提供します。
 
+<!-- KS-PHOTO-BEGIN workshop-packing-storage-area -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/workshop-packing-storage-area.webp" srcset="/img/workshop-packing-storage-area-480w.webp 480w, /img/workshop-packing-storage-area.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="青いラックと保護梱包された積層部品を備えた工場の梱包・保管エリア" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">梱包・保管エリア</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## 産業機器向けの能力
 
 - ADC12、A380、A356 アルミニウム製の筐体およびフレーム
@@ -24,3 +34,15 @@ schema:
 - 安定した長期産業生産ラン向けの社内金型
 
 鋳造・CNC machining・金型を統合することで、KingShip は生産設備が求める寸法管理と再現性を備えた耐久性のある産業部品を提供します。
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN complex-aluminium-casting-with-ports -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/complex-aluminium-casting-with-ports.webp" srcset="/img/complex-aluminium-casting-with-ports-480w.webp 480w, /img/complex-aluminium-casting-with-ports.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="複数のポート、分岐、取付ラグを備えた複雑形状のアルミニウム鋳物" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">複雑形状アルミニウム鋳物</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

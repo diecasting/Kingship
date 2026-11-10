@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "Centro de mecanizado CNC de 5 ejes para piezas fundidas de tolerancia ajustada"
+featureImageAlt: "Pasillo entre hileras de centros de mecanizado CNC sobre suelo azul de taller"
 showTableOfContents: false
 url: "/es/cnc-machining/"
 service:
@@ -84,6 +84,16 @@ service:
 
 Una pieza de fundición a presión sale del molde con piel de fundición, línea de partición y variaciones de contracción que no sirven para una cara de estanqueidad, un alojamiento de rodamiento o un asiento roscado. El mecanizado CNC convierte el bruto en pieza funcional y fija cotas, posiciones y acabado según plano. Esta página se dirige a diseño, planificación de procesos y compras que especifican ese salto: sobremetal, sistema de referencias, tolerancia por cota y alcance de inspección, con A357, AZ91D y AM60B como aleaciones de partida.
 
+<!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Pasillo entre hileras de centros de mecanizado CNC sobre suelo azul de taller" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Taller de mecanizado CNC</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ### Por qué el mecanizado define la función de la pieza
 
 En una pieza fundida hay dos familias de superficies. Las de fundición son estructurales; las funcionales —juntas, asientos, taladros de centrado y apoyos— se generan por arranque de viruta. Si plano de fundición y de mecanizado reclaman la misma cota, el resultado queda ambiguo para taller e inspección. Para diseño, qué cotas se mecanizan; para compras, presupuestos con igual alcance; para calidad, el control dimensional. El criterio no es solo el precio, sino la claridad con que el proveedor separa bruto y acabado y liga cada cota crítica a su referencia.
@@ -93,6 +103,7 @@ En una pieza fundida hay dos familias de superficies. Las de fundición son estr
 ### De la pieza en bruto al sobremetal de mecanizado
 
 El sobremetal es la capa dejada a propósito entre la superficie en bruto y la cota final. Debe absorber piel de fundición, desalineo de partición, marcas de expulsor y deformación, sin tiempo de corte innecesario. En fundición a presión, que trabaja en forma casi neta, no es uniforme: crece en caras de estanqueidad y taladros de ajuste y se reduce en contornos sin tocar. La pendiente de desmoldeo condiciona el apoyo en el primer amarre; por eso sobremetal y sistema de referencias se deciden juntos. Si falta, aflora porosidad subsuperficial; si sobra, crecen esfuerzo de corte y desgaste. Su valor se indica en el plano de fundición y se contrasta cota a cota en la revisión DFM.
+
 
 ### Sistema de referencias y cotas críticas
 
@@ -132,6 +143,16 @@ El método de medición se define por proyecto; su incertidumbre forma parte del
 
 Las tres aleaciones confirmadas no se comportan igual ante la herramienta. A357, aluminio Al-Si-Mg con tratamiento térmico, da viruta corta a media; el silicio aporta abrasividad, por lo que recubrimiento y corte se ajustan a la piel de fundición. AZ91D y AM60B cortan con menor esfuerzo y viruta fina, pero su dilatación exige temperatura estable para no perder la cota en el acabado. Como conocimiento general de proceso, la viruta fina de magnesio es inflamable y se evacúa de forma controlada con extinción adecuada. Las tensiones residuales se liberan al arrancar material; separar desbaste, reposo y acabado reduce la deformación. En AM60B, más dúctil, se vigila la rebaba. Amplía la [fundición de magnesio](https://kingship.alumcasting.com/es/magnesium-die-casting/).
 
+<!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Fresado CNC de una pieza alargada de aluminio con refrigerante en la herramienta de corte" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Fresado CNC de una pieza fundida</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 | Aleación | Viruta y herramienta | Aspecto a controlar |
 |---|---|---|
 | A357 (Al-Si-Mg) | Viruta corta/media; desgaste abrasivo por Si | Tratamiento térmico y tensiones residuales |
@@ -142,6 +163,7 @@ Las tres aleaciones confirmadas no se comportan igual ante la herramienta. A357,
 ### Acabado superficial, desbarbado y tratamientos
 
 El acabado no es un valor fijo de taller, sino una especificación por superficie en el plano: el Ra de una cara de estanqueidad no es el de un contorno sin mecanizar. El orden del desbarbado importa: las rebabas en taladros y roscas no deben dañar ajustes ni juntas. Como procesos confirmados figuran el granallado (Shot Blasting) y el anodizado (Anodizing) en aluminio; su idoneidad se evalúa según aleación y plano. En magnesio, todo tratamiento exige análisis de corrosión y adherencia. Otros recubrimientos son opciones generales sujetas a revisión por proyecto. Rugosidad y rebabas quedan recogidos en el alcance de inspección.
+
 
 ### Fundición y mecanizado en un único programa
 
@@ -159,6 +181,7 @@ Las exigencias cambian con la pieza. En cárteres y tapas de transmisión mandan
 
 Tres preguntas separan a un proveedor solvente de una oferta incompleta. Primera, comprensión del plano: ¿distingue plano de fundición y de mecanizado y mantiene el sistema de referencias A|B|C entre ambos? Segunda, amarre: ¿qué apoyos usa en el bruto, cuántos amarres exige y dónde se acumula la tolerancia? Tercera, cambios: ¿cómo se gestiona una modificación de sobremetal, partición o cota de inspección? Un presupuesto que nombra estos puntos supera al que solo da un número de tolerancia y un precio. Cuenta también la transición de prototipo a serie, porque madurez del molde, utillaje y control difieren. Las dudas de DFM se plantean en la [página de contacto](https://kingship.alumcasting.com/es/contact/).
 
+
 ### Solicitud de presupuesto: documentación necesaria
 
 Un presupuesto fiable nace de documentación completa, no de una sola cifra de tolerancia: modelo 3D (STEP/IGES), plano 2D con GD&T, referencias y tolerancias objetivo por cota, aleación (A357, AZ91D o AM60B), volumen anual y lote, acabado superficial, alcance de inspección y documentación, y prototipo o serie. Lo que falte se acuerda por proyecto, sin suposiciones implícitas. La tabla resume la finalidad de cada entrega. Envíe la documentación desde la [página de contacto](https://kingship.alumcasting.com/es/contact/); desde ahí se coordina la revisión con [utillaje](https://kingship.alumcasting.com/es/tooling/) y con el [rheocasting semi-sólido](https://kingship.alumcasting.com/es/semi-solid-rheocasting/).
@@ -171,3 +194,13 @@ Un presupuesto fiable nace de documentación completa, no de una sola cifra de t
 | Volumen anual y lote | Cantidad, prototipo o serie | Utillaje, ciclo y coste por pieza |
 | Tolerancias por cota y Ra | Cotas críticas y acabado | Viabilidad en la revisión DFM |
 | Alcance de inspección | Primera pieza, registros | Definición del alcance por proyecto |
+
+
+
+
+<!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Gran pieza en forma de bandeja fijada sobre la mesa de una máquina CNC antes del mecanizado" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Pieza fijada en la mesa de una máquina CNC</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

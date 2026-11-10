@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "軽量最適化構造部品向けセミソリッド・レオキャスト生産セル"
+featureImageAlt: "2つの円形穴と補強リブを備えた長尺アルミニウム鋳物"
 showTableOfContents: true
 url: "/ja/semi-solid-rheocasting/"
 service:

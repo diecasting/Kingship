@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "엄격한 공차의 주조 후 부품용 5축 CNC 가공 센터"
+featureImageAlt: "청색 바닥 작업장에서 CNC 가공기가 양쪽으로 늘어선 통로"
 showTableOfContents: false
 url: "/ko/cnc-machining/"
 service:
@@ -84,6 +84,16 @@ service:
 
 다이캐스팅은 복잡한 형상을 한 번에 얻을 수 있지만, 실링면·압입 구멍·체결 좌면 같은 기능면은 주조 표피 그대로는 성립하지 않습니다. 이 페이지에서는 주조 방안과 후가공을 잇는 가공 여유 설계, 데이텀과 기하공차 지정, 달성 가능한 공차의 판단 기준, 견적 의뢰에 필요한 도면·데이터를 실무 순서대로 정리했습니다. 일반적인 공정 지식과 프로젝트별로 정의해야 할 사항을 구분해 읽어 주세요.
 
+<!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="청색 바닥 작업장에서 CNC 가공기가 양쪽으로 늘어선 통로" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC 가공 작업장</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ### 후가공이 부품 기능을 결정하는 이유
 
 다이캐스팅 주조 표피는 용탕 유동과 응고 수축으로 만들어져 치수·평면도·면조도에 흩어짐을 남깁니다. 가스켓이 닿는 실링면, 베어링이 압입되는 구멍, 상대 부품과 체결되는 좌면은 절삭을 거쳐야 비로소 요구한 기하 정밀도를 갖습니다. 그래서 후가공은 단순 마감이 아니라 기능을 성립시키는 공정입니다. 경량화를 위해 벽두께를 줄인 부품일수록 절삭력에 의한 처짐이 커지므로, 어느 면을 주조 상태로 두고 어느 면을 깎을지 기능에서 역산해 도면에 표시해야 합니다. 구매 담당자는 깎는 부위가 늘어날수록 지그·셋업·검사 범위가 함께 늘어난다는 점을 견적 전에 정리해 두면 공수 산정의 되돌림을 줄일 수 있습니다.
@@ -91,6 +101,7 @@ service:
 ### 주조재에서 가공 여유 설계까지
 
 가공 여유는 주조에서 남는 치수·형상 편차를 깎아내 기능면을 얻기 위한 여분입니다. 파팅선 단차, 이젝터 자국, 탕구·오버플로 잔류, 용탕 말단의 수축공은 방안에서 위치가 거의 정해지므로, 깎는 면과 겹치지 않도록 주조 방안과 가공 여유를 함께 설계합니다. 여유가 너무 작으면 흑피나 기공이 남고, 너무 크면 공수와 공구 부하가 늘어 박육부 뒤틀림을 부릅니다. 기준값은 하나로 정해지지 않으며 부위 벽두께·유동 거리·재질·방안에 따라 달라집니다. 도면과 DFM 검토에서 주조 표피 상태를 확인하며 프로젝트별로 정하는 것이 실무적입니다. 기능면 뒤쪽의 데이텀 후보면도 가공 여유와 함께 확보해 둡니다.
+
 
 ### 데이텀 A·B·C와 기하공차 지정
 
@@ -127,6 +138,16 @@ service:
 
 대상은 주조용 A357 알루미늄 합금과 AZ91D·AM60B 마그네슘 합금입니다. A357 은 절삭 중 열이 공구와 칩에 머물기 쉬워 날 끝 온도 관리와 칩 배출 경로가 공구 수명을 좌우합니다. 마그네슘 다이캐스팅 재는 비중이 작고 절삭 저항이 낮아 가볍게 깎이지만, 열팽창 계수가 커 가공열로 치수가 움직이므로 마감 전 온도 안정과 측정 환경 관리가 필요합니다. AZ91D 는 주조성이 좋고 단단한 편이며, AM60B 는 연신율이 높아 버와 찢김이 잘 생겨 이송과 절입 깊이를 다르게 잡습니다. 가는 마그네슘 칩은 발화성을 가지는 것으로 일반적으로 알려져 있어, 칩 회수·소방·절삭유 선정은 산업 안전 일반 지식으로 공정에 반영합니다. 자세한 합금 비교는 [마그네슘 다이캐스팅](https://kingship.alumcasting.com/ko/magnesium-die-casting/) 페이지에서 볼 수 있습니다.
 
+<!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="절삭 공구에 절삭유를 공급하며 긴 알루미늄 주조품을 CNC 밀링하는 장면" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">주조 부품의 CNC 밀링</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 | 합금 | 절삭 시 경향 | 설계·셋업상 유의점 |
 |---|---|---|
 | A357 (알루미늄) | 절삭열과 칩이 공구에 머물기 쉽다 | 날 끝 냉각과 칩 배출 경로 확보 |
@@ -136,6 +157,7 @@ service:
 ### 면조도, 버 제거, 표면처리
 
 면조도는 Ra 같은 지표를 도면의 부위별로 지정하고 절삭 조건·공구·이송 방향과 연결해 관리합니다. 실링면과 미끄럼면은 수치뿐 아니라 공구 자국 방향이 기능에 영향을 주므로 마감 경로를 맞추는 것이 중요합니다. 구멍 출구, 보스 가장자리, 단차부에는 버가 남기 쉬워 조립 흠집이나 실링 불량의 원인이 되므로, 버 제거와 모서리 처리를 가공 공정의 일부로 명시합니다. 표면처리는 프로젝트 요구에 따라 고르며, 확인된 공정으로는 쇼트 블라스트와 아노다이징을 들 수 있습니다. 화성피막·도장 등 그 밖의 마감은 일반 선택지로 두고 재질과의 적합성·내식 요건을 프로젝트별로 검토합니다. 처리 전에 남은 절삭유와 칩을 씻어 내는 세척·건조도 마감 품질을 좌우하는 실무 쟁점입니다.
+
 
 ### 주조와 절삭을 하나의 공정으로
 
@@ -153,6 +175,7 @@ service:
 
 협력사를 평가할 때는 설비 목록 비교만이 아니라 도면을 어떻게 읽는지 확인합니다. 데이텀 A·B·C 해석, 셋업 횟수 전망, 전용 지그의 위치 결정 구상, 가공 여유 근거, 기공·뒤틀림 대응, 검사 요령 제안을 도면을 따라 설명할 수 있는지가 판단 재료입니다. 시제품에서 양산으로 넘어갈 때 지그·조건·검사 항목이 어떻게 바뀌는지, 설계 변경 때 도면·견적·공정이 어떻게 갱신되는지라는 변경 관리 절차도 미리 확인할 사항입니다. 도면·수량·요구사항을 갖춰 [견적 의뢰](https://kingship.alumcasting.com/ko/contact/)를 주시면 검토가 구체화됩니다. 단가뿐 아니라 DFM 단계에서 기능면 미삭이나 공차 누적을 짚어 주는지가 램프업 뒤 재작업을 좌우합니다.
 
+
 ### 견적 의뢰에 필요한 도면·데이터
 
 견적 의뢰에서는 가공 방안과 공수 전망을 좌우하는 자료를 가능한 한 함께 주세요. 최소한 3D 모델(STEP / IGES), 기하공차·데이텀 포함 2D 도면, 재질(A357 / AZ91D / AM60B), 연간 수량·로트, 부위별 목표 공차, 면조도(Ra), 검사·문서 범위, 시제품 또는 양산 여부가 필요합니다. 기능면 범위와 주조 상태로 남길 면이 구분되면 가공 여유와 셋업 검토가 빨라집니다. 아래 제출 자료와 목적을 참고해 [문의하기](https://kingship.alumcasting.com/ko/contact/)로 도면을 보내 주세요. 자료가 갖춰질수록 달성 가능한 공차 확인과 공수 산정이 구체화됩니다. 도면에 기능면과 비기능면을 구분해 표시해 주면 검토 속도가 더 올라가고, 희망 검사 주기나 포장 사양이 있다면 함께 적어 주시면 공정 대안을 비교하기 쉽습니다.
@@ -165,3 +188,13 @@ service:
 | 연간 수량·로트 | 지그 방식과 셋업 교체 빈도 계획 |
 | 부위별 목표 공차·면조도 (Ra) | 마감 공정과 측정 요령 정의 |
 | 검사·문서 범위, 시제품 또는 양산 | 확인 항목과 기록 양식 합의 |
+
+
+
+
+<!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="가공 전 CNC 공작기계 테이블에 고정된 대형 트레이형 주조품" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC 공작기계 테이블에 고정된 주조품</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

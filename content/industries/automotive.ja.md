@@ -16,6 +16,16 @@ schema:
 
 KingShip は試作段階から量産まで自動車プログラムを支援します。アルミニウムおよびマグネシウムの高圧ダイカスト、Semi-Solid Rheocasting、社内 CNC 後処理により、現代の車両プラットフォームが求める寸法安定性と工程再現性を実現します。
 
+<!-- KS-PHOTO-BEGIN automated-cell-with-stacked-castings -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/automated-cell-with-stacked-castings.webp" srcset="/img/automated-cell-with-stacked-castings-480w.webp 480w, /img/automated-cell-with-stacked-castings.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="積み重ねられたアルミニウム鋳物のパレットの隣にある自動化ガントリー生産セル" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">自動化セルと積層された鋳物</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## 自動車向けの能力
 
 - ADC12、A380、A356 アルミニウムによるパワートレインおよびトランスミッション・ハウジング
@@ -24,3 +34,15 @@ KingShip は試作段階から量産まで自動車プログラムを支援し�
 - 3/4/5 軸 CNC machining、気密性・耐圧漏れ試験
 
 すべての自動車部品は IATF 16949 の規律の下、リアルタイム X 線ポロシティ検査と完全なトレーサビリティを伴って製造され、初回試作から serial 納入まで耐久性与安全性の目標を満たします。
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN aluminium-cast-structural-component -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/aluminium-cast-structural-component.webp" srcset="/img/aluminium-cast-structural-component-480w.webp 480w, /img/aluminium-cast-structural-component.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="675" loading="lazy" decoding="async" alt="2つの円形穴と補強リブを備えた長尺アルミニウム鋳物" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">アルミニウム鋳造構造部品</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

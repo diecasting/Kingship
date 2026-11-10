@@ -16,6 +16,16 @@ schema:
 
 KingShip accompagne les programmes automobiles du prototype initial jusqu'à la production en grande série. Notre moulage sous pression haute pression aluminium et magnésium, le Semi-Solid Rheocasting et l'usinage CNC interne offrent la stabilité dimensionnelle et la répétabilité exigées par les plateformes véhicules modernes.
 
+<!-- KS-PHOTO-BEGIN automated-cell-with-stacked-castings -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/automated-cell-with-stacked-castings.webp" srcset="/img/automated-cell-with-stacked-castings-480w.webp 480w, /img/automated-cell-with-stacked-castings.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Cellule de production automatisée à portique à côté de palettes de pièces en aluminium empilées" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Cellule automatisée et pièces empilées</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## Capacités pour l'automobile
 
 - Carters de groupe motopropulseur et de transmission en aluminium ADC12, A380 et A356
@@ -24,3 +34,15 @@ KingShip accompagne les programmes automobiles du prototype initial jusqu'à la 
 - Usinage CNC 3/4/5 axes, tests d'étanchéité et de fuite sous pression
 
 Chaque pièce automobile est produite sous la discipline IATF 16949 avec détection de porosité par rayons X en temps réel et traçabilité complète, afin que les assemblages atteignent leurs objectifs de durabilité et de sécurité du premier article jusqu'à la livraison en série.
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN aluminium-cast-structural-component -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/aluminium-cast-structural-component.webp" srcset="/img/aluminium-cast-structural-component-480w.webp 480w, /img/aluminium-cast-structural-component.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="675" loading="lazy" decoding="async" alt="Pièce allongée en aluminium avec deux alésages circulaires et nervures de renfort" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Composant structurel en aluminium moulé</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

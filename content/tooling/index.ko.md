@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "알루미늄 및 마그네슘용 정밀 다이캐스팅 금형 설계 및 제작"
+featureImageAlt: "가공면과 보스를 갖춘 방열핀 부착 사각 알루미늄 다이캐스팅 하우징"
 showTableOfContents: true
 url: "/ko/tooling/"
 service:

@@ -16,6 +16,16 @@ schema:
 
 KingShip respalda programas automotrices desde el prototipado temprano hasta la producción en volumen. Nuestra fundición a presión de alta presión de aluminio y magnesio, el Semi-Solid Rheocasting y el postprocesado CNC interno entregan la estabilidad dimensional y la repetibilidad de proceso que exigen las plataformas vehiculares modernas.
 
+<!-- KS-PHOTO-BEGIN automated-cell-with-stacked-castings -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/automated-cell-with-stacked-castings.webp" srcset="/img/automated-cell-with-stacked-castings-480w.webp 480w, /img/automated-cell-with-stacked-castings.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Celda de producción automatizada de pórtico junto a palés de piezas de aluminio apiladas" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Celda automatizada y piezas apiladas</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## Capacidades para automotriz
 
 - Cajas de tren motriz y transmisión en aluminio ADC12, A380 y A356
@@ -24,3 +34,15 @@ KingShip respalda programas automotrices desde el prototipado temprano hasta la 
 - Mecanizado CNC 3/4/5 ejes, pruebas de estanqueidad y fuga a presión
 
 Cada pieza automotriz se produce bajo la disciplina IATF 16949 con detección de porosidad por rayos X en tiempo real y trazabilidad completa, para que los ensamblajes cumplan objetivos de durabilidad y seguridad desde la pieza inicial hasta la entrega en serie.
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN aluminium-cast-structural-component -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/aluminium-cast-structural-component.webp" srcset="/img/aluminium-cast-structural-component-480w.webp 480w, /img/aluminium-cast-structural-component.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="675" loading="lazy" decoding="async" alt="Pieza alargada de aluminio con dos taladros circulares y nervios de refuerzo" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Componente estructural de aluminio fundido</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

@@ -16,6 +16,16 @@ schema:
 
 KingShip unterstützt Automobilprogramme vom frühen Prototyping bis zur Großserienfertigung. Unser Aluminium- und Magnesium-Hochdruckdruckguss, Semi-Solid-Rheocasting und interne CNC-Nachbearbeitung liefern die Maßhaltigkeit und Prozesswiederholbarkeit, die moderne Fahrzeugplattformen verlangen.
 
+<!-- KS-PHOTO-BEGIN automated-cell-with-stacked-castings -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/automated-cell-with-stacked-castings.webp" srcset="/img/automated-cell-with-stacked-castings-480w.webp 480w, /img/automated-cell-with-stacked-castings.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Automatisierte Portal-Fertigungszelle neben Paletten gestapelter Aluminiumgussteile" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Automatisierte Zelle und gestapelte Gussteile</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ## Fähigkeiten für den Automobilbau
 
 - Antriebsstrang- und Getriebegehäuse aus ADC12, A380 und A356 Aluminium
@@ -24,3 +34,15 @@ KingShip unterstützt Automobilprogramme vom frühen Prototyping bis zur Großse
 - 3/4/5-Achs-CNC-Bearbeitung, Dichtheits- und Druckverlustprüfung
 
 Jedes Automobilbau-Teil wird unter IATF 16949-Disziplin mit Echtzeit-Röntgen-Porositätsprüfung und vollständiger Rückverfolgbarkeit gefertigt, damit Baugruppen ihre Haltbarkeits- und Sicherheitsziele vom Erstmuster bis zur Serienlieferung erfüllen.
+
+
+
+
+
+
+<!-- KS-PHOTO-BEGIN aluminium-cast-structural-component -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/aluminium-cast-structural-component.webp" srcset="/img/aluminium-cast-structural-component-480w.webp 480w, /img/aluminium-cast-structural-component.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="675" loading="lazy" decoding="async" alt="Längliches Aluminiumgussteil mit zwei runden Bohrungen und Verstärkungsrippen" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Aluminium-Gussstrukturbauteil</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

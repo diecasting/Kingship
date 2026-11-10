@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "Outillage de moulage sous pression de précision pour aluminium et magnésium"
+featureImageAlt: "Boîtier carré en aluminium à ailettes avec plages usinées et bossages"
 showTableOfContents: true
 url: "/fr/tooling/"
 service:

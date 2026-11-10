@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "5-axis CNC machining center for tight-tolerance post-cast components"
+featureImageAlt: "Aisle between rows of CNC machining centres on a blue workshop floor"
 showTableOfContents: false
 service:
   name: "CNC Machining"
@@ -79,6 +79,16 @@ service:
 
 High-pressure die casting produces a near-net-shape blank. It does not produce the sealing faces, threaded holes, bearing seats or assembly datums that a finished part needs. CNC post-machining is where those functional features are created, and the decisions that govern it are taken on the drawing — not on the shop floor. This page is written for design engineers, process engineers, sourcing managers and quality engineers who need to specify a cast-and-machined component, decide what belongs on the casting drawing versus the machining drawing, and understand what a tolerance statement actually commits to.
 
+<!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Aisle between rows of CNC machining centres on a blue workshop floor" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC machining workshop</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 CNC machining of die-cast aluminium and magnesium components differs from machining wrought billet. The blank already has a cast skin, a parting line, draft angles, ejector marks and internal stress from solidification. Removing the skin can expose subsurface porosity; clamping on a curved cast surface can distort a thin wall; and every additional setup accumulates positional error. These are design and planning questions, and they are cheapest to answer before the die is built.
 
 ### Why post-machining determines part function
@@ -88,6 +98,7 @@ A casting can hold its general shape within the process capability of HPDC, but 
 ### From the cast blank to a machining allowance
 
 Machining allowance (stock allowance) is the material deliberately left on the casting so the tool can cut below the cast skin in one continuous pass. Too little allowance leaves skin or oxide inclusions on a sealing face; too much increases cycle time, tool load and heat input, which matters particularly on thin walls. The allowance must be planned together with gating, parting-line position and ejector placement, because the surface used as the first datum must be stable and repeatable. A DFM review that moves an ejector mark away from a datum pad is often worth more than any change to cutting parameters.
+
 
 ### Datum strategy and critical dimensions
 
@@ -119,6 +130,17 @@ A357 is the confirmed aluminium casting alloy; AZ91D and AM60B are the confirmed
 ### Surface finish, deburring and post-processing
 
 Surface finish is a drawing requirement, not a universal promise: Ra targets should be attached to the specific functional face that needs them. Deburring strategy belongs in the process plan too, because burrs on a sealing land or in a threaded boss cause assembly problems that are expensive to find after coating. Confirmed secondary processes include Shot Blasting and Anodizing; other surface treatments sometimes discussed for magnesium — conversion coatings, e-coating or micro-arc oxidation — are general industry options whose suitability, corrosion performance and availability must be evaluated per project. No corrosion-resistance claim should be made for bare magnesium without a defined treatment.
+
+<!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="CNC milling of an elongated aluminium casting with coolant applied at the cutting tool" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC milling of a cast component</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 
 | Topic | As-cast condition | After post-machining | Project-dependent decision |
 |---|---|---|---|
@@ -163,6 +185,7 @@ Ask how the supplier handles the casting-to-machining interface: who defines the
 
 The fastest route to a comparable quotation is a complete technical package. Missing GD&T or an undefined inspection scope is the most common reason two quotes for the same part are not comparable.
 
+
 | RFQ input | Why it is needed |
 |---|---|
 | 3D model (STEP / IGES) | Defines geometry for DFM, fixture and tool-path review |
@@ -175,3 +198,13 @@ The fastest route to a comparable quotation is a complete technical package. Mis
 | Prototype or series | Determines whether bridge or production tooling is appropriate |
 
 Send the package through the [contact / RFQ page](https://kingship.alumcasting.com/contact/) and the drawing and DFM review will identify which tolerances need confirmation, where allowance should be added, and what inspection plan the project requires.
+
+
+
+
+<!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Large tray-shaped casting fixtured on a CNC machine table before machining" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Casting fixtured on a CNC machine table</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

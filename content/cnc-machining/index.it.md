@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "Centro di lavorazione CNC a 5 assi per componenti post-colata a tolleranza stretta"
+featureImageAlt: "Corridoio tra file di centri di lavoro CNC su pavimento blu dell'officina"
 showTableOfContents: false
 url: "/it/cnc-machining/"
 service:
@@ -85,6 +85,16 @@ service:
 
 Un pressofuso esce dallo stampo con pelle di fusione, piano di separazione e variazioni di ritiro che non bastano a una superficie di tenuta, a una sede di cuscinetto o a un foro filettato. È l'asportazione di truciolo a trasformare il grezzo in componente funzionale, fissando quote, posizioni e finiture secondo il disegno. Questa pagina parla a progettazione, pianificazione di processo e acquisti che impostano quel passaggio: sovrametallo, datum A-B-C, tolleranza per caratteristica e piano di controllo. Le leghe di partenza sono A357, AZ91D e AM60B; ogni valore resta da confermare in revisione del disegno e analisi DFM.
 
+<!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Corridoio tra file di centri di lavoro CNC su pavimento blu dell&#x27;officina" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Officina di lavorazione CNC</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ### Perché la lavorazione definisce la funzione del pezzo
 
 Su un getto convivono due nature di superficie. Quella di fusione ha ruolo strutturale; le superfici funzionali — piani di tenuta, sedi, fori di centraggio, appoggi per guarnizioni — nascono solo con la lavorazione meccanica. Se disegno del getto e ciclo di lavorazione reclamano la stessa quota, officina e collaudo non sanno più dove intervenire. Per l'ufficio tecnico conta stabilire quali quote critiche riprendere; per gli acquisti, confrontare preventivi con lo stesso perimetro; per la qualità, costruire un controllo dimensionale sensato. Il discrimine non è il solo prezzo unitario, ma la chiarezza con cui il fornitore separa grezzo e finito e lega ogni quota critica al proprio datum.
@@ -94,6 +104,7 @@ Su un getto convivono due nature di superficie. Quella di fusione ha ruolo strut
 ### Dal grezzo al sovrametallo di lavorazione
 
 Il sovrametallo è lo spessore lasciato di proposito tra il contorno del grezzo e la quota finale. Deve coprire pelle di fusione, disallineamento del piano di separazione, segni di espulsione e deformazione, senza tempo di taglio inutile. Poiché la pressofusione lavora in forma quasi finita, non è uniforme: cresce su superfici di tenuta e accoppiamenti, si azzera sui contorni che restano grezzi. Lo sformo decide dove nasce un appoggio piano per il primo attrezzaggio, quindi sovrametallo e datum si scelgono insieme. Troppo scarso lascia emergere soffiature sottopelle; troppo abbondante alza sforzo di taglio e usura utensile. Il suo valore sta sul disegno del grezzo e viene ricontrollato caratteristica per caratteristica in revisione DFM.
+
 
 ### Quote critiche, quotatura funzionale e datum
 
@@ -133,6 +144,16 @@ Il metodo di misura si definisce per progetto; la sua incertezza rientra nell'ac
 
 Le tre leghe confermate non si comportano uguali al tagliente. L'A357, alluminio silicio-magnesio trattabile termicamente, dà truciolo corto o medio; il silicio abrasivo consuma l'utensile. AZ91D e AM60B tagliano con sforzo minore e truciolo fine, ma la dilatazione termica impone temperatura stabile per non perdere la quota in finitura. Come conoscenza generale di processo, il truciolo fine di magnesio è infiammabile e va evacuato in modo controllato, senza refrigerante acquoso. Le tensioni residue si liberano asportando materiale: separare sgrossatura, sosta e finitura riduce la deformazione. Sull'AM60B, più duttile, si controllano le bave su spigoli e imbocchi dei fori. Approfondimenti nella [pressofusione del magnesio](https://kingship.alumcasting.com/it/magnesium-die-casting/).
 
+<!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Fresatura CNC di un getto allungato in alluminio con refrigerante sull&#x27;utensile" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Fresatura CNC di un getto</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 | Lega | Truciolo e utensile | Aspetto da controllare |
 |---|---|---|
 | A357 (Al-Si-Mg) | Truciolo corto/medio; usura abrasiva da Si | Trattamento termico e tensioni residue |
@@ -143,6 +164,7 @@ Le tre leghe confermate non si comportano uguali al tagliente. L'A357, alluminio
 ### Finitura superficiale, sbavatura e trattamenti
 
 La finitura non è un dato fisso di officina, ma una prescrizione per superficie sul disegno: il Ra di una tenuta non è quello di un contorno lasciato grezzo. L'ordine della sbavatura conta, perché le bave alle uscite dei fori e sui filetti non devono danneggiare accoppiamenti o guarnizioni. Tra i processi confermati figurano la sabbiatura (Shot Blasting) e l'anodizzazione (Anodizing) dell'alluminio; l'idoneità si valuta secondo lega e disegno. Sul magnesio ogni trattamento richiede una valutazione dedicata di corrosione e adesione. Altri rivestimenti restano opzioni generali di settore, da riesaminare per progetto. La lavorazione può inoltre aprire soffiature o porosità del grezzo, i cui criteri di accettazione si concordano a monte nel capitolato tecnico.
+
 
 ### Pressofusione e lavorazione in un unico ciclo
 
@@ -160,6 +182,7 @@ Le esigenze cambiano con il componente. Su carter cambio e coperchi di trasmissi
 
 Tre domande separano un terzista solido da un'offerta incompleta. Prima, lettura del disegno: distingue disegno del getto e ciclo di lavorazione e mantiene i datum A-B-C coerenti tra i due? Seconda, attrezzaggio: quali appoggi usa sul grezzo, quante riprese del pezzo prevede, dove si accumula la catena di tolleranze? Terza, modifiche: come gestisce una variazione di sovrametallo o di quota di controllo tra prototipo e serie? Un preventivo che nomina questi punti vale più di un prezzo accompagnato da una sola cifra di tolleranza. Conta anche il passaggio da prototipo a serie, perché maturità dello stampo e strategia di controllo differiscono. I quesiti DFM si raccolgono dalla [pagina contatti](https://kingship.alumcasting.com/it/contact/) e si raccordano con la [lavorazione meccanica](https://kingship.alumcasting.com/it/cnc-machining/).
 
+
 ### Richiesta di preventivo: documenti da allegare
 
 Un preventivo affidabile nasce da documentazione completa: modello 3D (STEP/IGES), disegno 2D con GD&T e datum, lega (A357, AZ91D o AM60B), volume annuo e lotto, tolleranze target per caratteristica, finitura superficiale, piano di controllo e documentazione, e indicazione prototipo o serie. Ciò che manca compare come voce da concordare per progetto, senza assunzioni implicite in quotazione. La tabella riassume lo scopo di ogni consegna. Invia il fascicolo dalla [pagina contatti](https://kingship.alumcasting.com/it/contact/); da lì si coordina il raccordo con [stampi e attrezzaggi](https://kingship.alumcasting.com/it/tooling/) e con il [rheocasting semi-solido](https://kingship.alumcasting.com/it/semi-solid-rheocasting/).
@@ -172,3 +195,13 @@ Un preventivo affidabile nasce da documentazione completa: modello 3D (STEP/IGES
 | Volume annuo e lotto | Quantità, prototipo o serie | Attrezzaggi, ciclo, costo per pezzo |
 | Tolleranze per caratteristica e Ra | Quote critiche e finitura | Fattibilità in revisione DFM |
 | Piano di controllo | Primo articolo, registrazioni | Perimetro definito per progetto |
+
+
+
+
+<!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Grande getto a vasca fissato sul tavolo di una macchina CNC prima della lavorazione" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Getto fissato sul tavolo di una macchina CNC</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

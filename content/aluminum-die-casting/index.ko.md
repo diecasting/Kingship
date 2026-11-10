@@ -76,8 +76,19 @@ service:
 
 알루미늄 합금 고압 다이캐스팅(HPDC)은 현대 경량 고강도 산업 제조의 기초입니다. 당사의 첨단 설비는 까다로운 분야에 맞춘 안정적이고 고정밀한 주조 엔지니어링을 제공합니다. 금형 설계, 금형 충전 분석, 기계 공학 분야에서 20년 이상의 전문 지식을 바탕으로, 모든 샷이 제로 결함 납품 기준을 충족하도록 보장하여 귀사의 중요한 부품이 원활한 조립을 위해 국제 조립 라인에 도달하도록 합니다. [다이캐스팅, CNC 가공, 표면 마감 올인원 서비스](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/)에 대해 자세히 알아보세요.
 
+<!-- KS-PHOTO-BEGIN die-casting-machine-robotic-arm -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/die-casting-machine-robotic-arm.webp" srcset="/img/die-casting-machine-robotic-arm-480w.webp 480w, /img/die-casting-machine-robotic-arm.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="금형 앞에서 로봇 취출 암이 작동하는 다이캐스팅 생산 셀" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">다이캐스팅 생산 셀</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ### 🔬 우수한 재료 등급 및 기계적 무결성
 당사는 열전도율, 구조 탄성, 내식성을 최적화하기 위해 전문 글로벌 알루미늄 합금 등급으로 작업합니다:
+
 
 * **ADC12 / AlSi9Cu3:** 우수한 주조성으로 복잡한 형상 하우징에 이상적입니다. [ADC12 특성 엔지니어링 가이드](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/)를 살펴보세요.
 * **A380 / AlSi8Cu3:** 높은 기계적 특성으로 중장비 산업 브래킷의 글로벌 벤치마크입니다. [A380 합금 특성](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/)을 참조하세요.
@@ -91,6 +102,15 @@ service:
 ## 🏭 제조 범위 및 역량
 
 당사의 금형 제작장은 Pro/E, UG, 고급 Magma/Moldflow 시뮬레이션을 갖춘 정교한 CAD/CAM 환경을 활용하여 [DFM 분석을 통한 다이캐스팅 비용 절감](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/)을 수행합니다.
+
+<!-- KS-PHOTO-BEGIN large-aluminium-structural-casting -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/large-aluminium-structural-casting.webp" srcset="/img/large-aluminium-structural-casting-480w.webp 300w, /img/large-aluminium-structural-casting.webp 750w" sizes="(max-width: 768px) 100vw, 800px" width="750" height="1000" loading="lazy" decoding="async" alt="가로 리브와 탕도가 있는 대형 알루미늄 구조 주조품의 주조 상태" style="max-width:560px;width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">주조 상태의 대형 알루미늄 구조 부품</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
 
 ### 알루미늄 주조의 기술 한계
 | 엔지니어링 파라미터 | 생산 사양 |
@@ -109,9 +129,11 @@ service:
 
 KingShip은 [IATF 16949 인증](https://alumcasting.com/iatf-16949-high-tolerance-automotive-cnc-machining-supplier/)을 받은 포괄적인 품질 경영 시스템을 구현합니다.
 
+
 1. **기공 제어:** 당사는 다이캐스팅의 [기공을 제거하는 5가지 방법](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/)을 사용합니다.
 2. **검사:** 당사 시설은 고급 [X선 결함 검출 및 CMM 장비](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/)를 갖추고 있습니다.
 3. **검증:** [EV 배터리 하우징](https://alumcasting.com/ev-battery-housing-die-casting/)의 기밀성을 위한 자동 누수 시험.
+
 
 ![기공 검출을 위한 실시간 X선 검사](/img/x-ray-detector.webp)
 *Alt: 주조의 내부 구조 무결성을 보장하는 실시간 X선 NDT 테스트.*
@@ -120,6 +142,15 @@ KingShip은 [IATF 16949 인증](https://alumcasting.com/iatf-16949-high-toleranc
 
 ## 💼 턴키 솔루션 및 물류
 당사는 신속한 산업 프로토타이핑과 대규모 글로벌 생산을 연결합니다. [저량 브리지 금형](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/)이 필요하든 [전체 생산 확장](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/)이 필요하든, 당사는 End-to-end 지원을 제공합니다.
+
+<!-- KS-PHOTO-BEGIN deburring-finishing-workstations -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/deburring-finishing-workstations.webp" srcset="/img/deburring-finishing-workstations-480w.webp 480w, /img/deburring-finishing-workstations.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="주조품 마감에 사용되는 스테인리스 집진 작업대 열" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">마감 작업대</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
 
 <section class="w-full mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800">
   <div class="max-w-3xl mx-auto">
@@ -130,3 +161,5 @@ KingShip은 [IATF 16949 인증](https://alumcasting.com/iatf-16949-high-toleranc
     {{< rfq_form >}}
   </div>
 </section>
+
+

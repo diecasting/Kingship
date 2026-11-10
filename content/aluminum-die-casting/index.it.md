@@ -76,8 +76,19 @@ service:
 
 La pressofusione ad alta pressione (HPDC) di leghe di alluminio è il fondamento della moderna produzione industriale leggera ad alta resistenza. I nostri impianti avanzati offrono ingegneria di colata stabile e ad alta precisione, studiata per settori impegnativi. Con oltre 20 anni di esperienza in progettazione di stampi, analisi del flusso di riempimento e ingegneria meccanica, garantiamo che ogni colpo rispetti gli standard di consegna zero-defetti, così le vostre parti critiche raggiungono le linee di assemblaggio internazionali pronte per l'installazione senza problemi. Scoprite di più sui nostri [servizi chiavi in mano di pressofusione, lavorazione CNC e finitura superficiale](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/).
 
+<!-- KS-PHOTO-BEGIN die-casting-machine-robotic-arm -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/die-casting-machine-robotic-arm.webp" srcset="/img/die-casting-machine-robotic-arm-480w.webp 480w, /img/die-casting-machine-robotic-arm.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Cella di pressofusione con braccio robotizzato di estrazione davanti allo stampo aperto" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Cella di produzione pressofusione</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ### 🔬 Leghe di qualità superiore e integrità meccanica
 Lavoriamo con leghe di alluminio globali specializzate per ottimizzare conduttività termica, elasticità strutturale e proprietà anti-corrosione:
+
 
 * **ADC12 / AlSi9Cu3:** Eccellente colabilità, perfetta per involucri a geometria complessa. Esplorate la nostra [guida ingegneristica alle proprietà ADC12](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/).
 * **A380 / AlSi8Cu3:** Alte proprietà meccaniche; il riferimento globale per supporti industriali pesanti. Vedete [le proprietà della lega A380](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/).
@@ -91,6 +102,15 @@ Lavoriamo con leghe di alluminio globali specializzate per ottimizzare conduttiv
 ## 🏭 Spettro e capacità produttive
 
 Il nostro reparto attrezzature utilizza ambienti CAD/CAM avanzati con Pro/E, UG e simulazioni Magma/Moldflow per [ridurre i costi di pressofusione tramite l'analisi DFM](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/).
+
+<!-- KS-PHOTO-BEGIN large-aluminium-structural-casting -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/large-aluminium-structural-casting.webp" srcset="/img/large-aluminium-structural-casting-480w.webp 300w, /img/large-aluminium-structural-casting.webp 750w" sizes="(max-width: 768px) 100vw, 800px" width="750" height="1000" loading="lazy" decoding="async" alt="Grande getto strutturale in alluminio con nervature trasversali e canali di colata, grezzo" style="max-width:560px;width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Grande componente strutturale in alluminio grezzo</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
 
 ### Limiti tecnici per le fusioni di alluminio
 | Parametro ingegneristico | Specifica di produzione |
@@ -109,9 +129,11 @@ Il nostro reparto attrezzature utilizza ambienti CAD/CAM avanzati con Pro/E, UG 
 
 KingShip implementa un sistema di gestione qualità completo [certificato IATF 16949](https://alumcasting.com/iatf-16949-high-tolerance-automotive-cnc-machining-supplier/).
 
+
 1. **Controllo porosità:** Utilizziamo [5 metodi per eliminare la porosità](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/) nella pressofusione a pressione.
 2. **Ispezione:** Il nostro stabilimento è dotato di [rilevatori di difetti a raggi X e attrezzature CMM](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/).
 3. **Validazione:** Test di perdita automatizzato per l'ermeticità nelle [casse batteria EV](https://alumcasting.com/ev-battery-housing-die-casting/).
+
 
 ![Ispezione a raggi X in tempo reale per il rilevamento porosità](/img/x-ray-detector.webp)
 *Alt: Test NDT a raggi X in tempo reale per garantire l'integrità strutturale interna delle fusioni.*
@@ -120,6 +142,15 @@ KingShip implementa un sistema di gestione qualità completo [certificato IATF 1
 
 ## 💼 Soluzioni chiavi in mano e logistica
 Colmiamo il divario tra prototipazione industriale rapida e produzione su larga scala globale. Che abbiate bisogno di [attrezzature ponte per bassi volumi](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/) o di [scalabilità della produzione completa](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/), vi offriamo supporto end-to-end.
+
+<!-- KS-PHOTO-BEGIN deburring-finishing-workstations -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/deburring-finishing-workstations.webp" srcset="/img/deburring-finishing-workstations-480w.webp 480w, /img/deburring-finishing-workstations.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Fila di postazioni in acciaio inox con aspirazione per la finitura di getti" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Postazioni di finitura</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
 
 <section class="w-full mt-12 pt-8 border-t border-neutral-200 dark:border-neutral-800">
   <div class="max-w-3xl mx-auto">
@@ -130,3 +161,5 @@ Colmiamo il divario tra prototipazione industriale rapida e produzione su larga 
     {{< rfq_form >}}
   </div>
 </section>
+
+

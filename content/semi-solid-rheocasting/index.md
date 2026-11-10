@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "Semi-solid rheocasting production cell for lightweight-optimized structural components"
+featureImageAlt: "Elongated aluminium casting with two circular bores and reinforcing ribs on a green bench"
 showTableOfContents: true
 service:
   name: "Semi-Solid Rheocasting"

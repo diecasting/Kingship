@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "Centre d'usinage CNC 5 axes pour pièces moulées à tolérances serrées"
+featureImageAlt: "Allée entre rangées de centres d'usinage CNC sur un sol d'atelier bleu"
 showTableOfContents: false
 url: "/fr/cnc-machining/"
 service:
@@ -85,6 +85,16 @@ service:
 
 Une pièce de fonderie sous pression quitte le moule avec une peau de fonderie, un plan de joint et des variations de retrait qui ne conviennent ni à une portée d'étanchéité, ni à un alésage de roulement, ni à un siège fileté. La reprise d'usinage transforme ce brut en pièce fonctionnelle et fixe cotes, positions et états de surface selon le plan. Cette page s'adresse aux bureaux d'études et aux achats qui cadrent le passage : surépaisseur d'usinage, système de références, tolérance par caractéristique et périmètre de contrôle, avec A357, AZ91D et AM60B comme alliages de départ.
 
+<!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Allée entre rangées de centres d&#x27;usinage CNC sur un sol d&#x27;atelier bleu" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Atelier d&#x27;usinage CNC</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 ### Pourquoi la reprise d'usinage détermine la fonction
 
 Dans une pièce moulée cohabitent deux familles de surfaces. Les surfaces de fonderie sont structurelles ; les surfaces fonctionnelles — joints, sièges, perçages de centrage, appuis — naissent par enlèvement de matière. Si le plan de fonderie et le plan d'usinage revendiquent la même cote, l'atelier et le contrôle ne savent plus où porter l'effort. Pour le bureau d'études, l'enjeu est de désigner les cotes fonctionnelles à reprendre ; pour les achats, de comparer des devis de même périmètre ; pour la qualité, de bâtir un contrôle dimensionnel cohérent. Le critère de choix n'est pas le seul prix unitaire, mais la clarté avec laquelle le fournisseur sépare brut et fini et rattache chaque cote fonctionnelle à sa référence.
@@ -94,6 +104,7 @@ Dans une pièce moulée cohabitent deux familles de surfaces. Les surfaces de fo
 ### De la pièce brute à la surépaisseur d'usinage
 
 La surépaisseur d'usinage est la couche de matière laissée entre le contour brut et la cote finale. Elle doit absorber la peau de fonderie, le décalage du plan de joint, les traces d'éjection et la déformation, sans temps de coupe inutile. Comme la fonderie sous pression travaille en forme quasi finie, elle n'est pas uniforme : elle augmente sur les portées d'étanchéité et les ajustements, et se réduit sur les contours non repris. La dépouille conditionne l'appui du premier posage et bridage ; surépaisseur et système de références se décident donc ensemble. Trop faible, elle laisse affleurer une porosité sous-cutanée ; trop forte, elle gonfle l'effort de coupe et l'usure d'outil. Sa valeur s'inscrit sur le plan de fonderie et se confronte, caractéristique par caractéristique, à la revue DFM.
+
 
 ### Cotation GPS et système de références
 
@@ -133,6 +144,16 @@ Le moyen de mesure se définit par projet ; son incertitude fait partie de l'acc
 
 Les trois alliages confirmés ne réagissent pas de la même façon à l'arête coupante. L'A357, aluminium-silicium-magnésium apte au traitement thermique, donne un copeau court à moyen ; le silicium use l'outil par abrasion. L'AZ91D et l'AM60B coupent avec un effort réduit et un copeau fin, mais leur dilatation impose une température stable pour ne pas perdre la cote à la finition. Au titre du savoir-faire général, le copeau fin de magnésium est inflammable et s'évacue de façon contrôlée, sans fluide aqueux. Les contraintes résiduelles se libèrent à l'enlèvement de matière : dissocier ébauche, repos et finition limite la déformation. Sur l'AM60B, plus ductile, on surveille les bavures aux arêtes et aux entrées de trou. Approfondissement sur la [fonderie du magnésium](https://kingship.alumcasting.com/fr/magnesium-die-casting/).
 
+<!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Fraisage CNC d&#x27;une pièce allongée en aluminium avec lubrifiant de coupe sur l&#x27;outil" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Fraisage CNC d&#x27;une pièce moulée</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->
+
+
+
+
 | Alliage | Copeau et outil | Point à surveiller |
 |---|---|---|
 | A357 (Al-Si-Mg) | Copeau court / moyen ; usure abrasive par le Si | Traitement thermique et contraintes résiduelles |
@@ -143,6 +164,7 @@ Les trois alliages confirmés ne réagissent pas de la même façon à l'arête 
 ### État de surface, ébavurage et traitements
 
 La finition n'est pas une constante d'atelier mais une spécification par surface sur le plan : le Ra d'une portée d'étanchéité n'est pas celui d'un contour laissé brut. L'ordre de l'ébavurage compte, car les bavures aux sorties de perçage et aux filetages ne doivent ni blesser les ajustements ni compromettre le joint. Le grenaillage (Shot Blasting) et l'anodisation (Anodizing) de l'aluminium figurent parmi les procédés confirmés ; leur pertinence s'évalue selon l'alliage et le plan. Sur magnésium, tout traitement demande une analyse particulière de la corrosion et de l'adhérence. Les autres revêtements restent des options générales de l'industrie, soumises à revue par projet. L'usinage peut aussi ouvrir des porosités ou retassures du brut, dont les critères d'acceptation se conviennent en amont.
+
 
 ### Fonderie et usinage dans un même programme
 
@@ -160,6 +182,7 @@ Les exigences changent avec la pièce. Sur les carters et couvercles de boîte d
 
 Trois questions départagent une offre sérieuse d'un devis incomplet. D'abord la lecture du plan : le fournisseur distingue-t-il plan de fonderie et plan d'usinage, et maintient-il les références A, B, C de l'un à l'autre ? Ensuite le posage et bridage : quels appuis sur le brut, combien de montages, où s'accumule la chaîne de cotes ? Enfin la gestion des modifications : comment traite-t-on un changement de surépaisseur ou de cote de contrôle ? Un devis qui nomme ces points vaut mieux qu'un prix unitaire assorti d'un chiffre de tolérance isolé. Compte aussi la transition du prototype à la série, où maturité du moule et stratégie de contrôle diffèrent. Les questions de DFM se posent depuis la [page de contact](https://kingship.alumcasting.com/fr/contact/).
 
+
 ### Demande de devis : pièces à fournir
 
 Un devis fiable naît d'un dossier complet : modèle 3D (STEP/IGES), plan 2D avec cotation GPS, références et tolérances visées par caractéristique, alliage (A357, AZ91D ou AM60B), volume annuel et taille de lot, état de surface, périmètre de contrôle et documentation, et stade prototype ou série. Ce qui manque s'inscrit comme poste à convenir par projet, sans supposition implicite dans le chiffrage. Le tableau résume l'utilité de chaque pièce. Transmettez le dossier depuis la [page de contact](https://kingship.alumcasting.com/fr/contact/) ; la revue s'y coordonne avec l'[outillage](https://kingship.alumcasting.com/fr/tooling/) et le [rhéocasting semi-solide](https://kingship.alumcasting.com/fr/semi-solid-rheocasting/).
@@ -172,3 +195,13 @@ Un devis fiable naît d'un dossier complet : modèle 3D (STEP/IGES), plan 2D ave
 | Volume annuel et lot | Quantité, prototype ou série | Outillage, cycle, coût par pièce |
 | Tolérances par caractéristique et Ra | Cotes fonctionnelles et finition | Faisabilité en revue DFM |
 | Périmètre de contrôle | Premier article, enregistrements | Définition du périmètre par projet |
+
+
+
+
+<!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
+<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
+  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Grande pièce en forme de bac bridée sur la table d&#x27;une machine CNC avant usinage" style="max-width:100%;height:auto;border-radius:0.5rem;">
+  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Pièce bridée sur la table d&#x27;une machine CNC</figcaption>
+</figure>
+<!-- KS-PHOTO-END -->

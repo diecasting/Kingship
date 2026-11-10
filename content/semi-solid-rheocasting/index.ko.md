@@ -6,7 +6,7 @@ layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
 featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "경량 최적화 구조 부품용 반용융 레오캐스팅 생산 셀"
+featureImageAlt: "두 개의 원형 보어와 보강 리브를 가진 긴 알루미늄 주조품"
 showTableOfContents: true
 url: "/ko/semi-solid-rheocasting/"
 service:

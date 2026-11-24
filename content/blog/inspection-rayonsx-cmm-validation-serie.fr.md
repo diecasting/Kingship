@@ -11,11 +11,9 @@ tags: ["Quality", "CMM", "X-Ray", "Process"]
 
 Associer controle interne et mesure geometrique permet de mieux comprendre les causes de derive en serie.
 
-![Inspection rayons X](/img/x-ray-detector.webp "Defauts internes")
 
 Consultez [factory CMM and X-ray inspection](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/) pour definir un plan robuste.
 
-![Controle CMM](/img/hexagon-coordinate-measuring-machine-inspection.webp "Validation geometrique")
 
 ## Articles associes (interne)
 

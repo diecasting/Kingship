@@ -79,6 +79,10 @@
 {{- $isRemote := findRE "^(https?|data)" $url.Scheme -}}
 {{- $resource := "" -}}
 
+{{- if not .Page.Site.Params.publicMediaUseEnabled -}}
+  {{- return -}}
+{{- end -}}
+
 {{- if not $isRemote -}}
   {{- $resource = or ($.Page.Resources.GetMatch $urlStr) (resources.Get $urlStr) -}}
 {{- end -}}

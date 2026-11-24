@@ -11,7 +11,6 @@ tags: ["CNC", "Quality", "Automotive"]
 
 La performance d une piece sous pression se joue souvent au stade [CNC](/fr/cnc-machining). En definissant correctement references, surcotes et sequence d usinage, on reduit fortement la variabilite serie.
 
-![Atelier CNC de haute precision](/img/high-precision-cnc-workshop.webp "Usinage de precision")
 
 ## Bonnes pratiques
 
@@ -21,7 +20,6 @@ La performance d une piece sous pression se joue souvent au stade [CNC](/fr/cnc-
 
 Consultez [high tolerance automotive CNC machining](https://alumcasting.com/high-tolerance-automotive-cnc-machining/) et [manufacturing capabilities](https://alumcasting.com/manufacturing-capabilities/).
 
-![Mesure CMM pour validation geometrique](/img/hexagon-coordinate-measuring-machine-inspection.webp "Controle dimensionnel")
 
 Pour lancer un projet: [Contact](https://kingship.alumcasting.com/fr/contact/).
 

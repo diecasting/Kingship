@@ -11,7 +11,6 @@ tags: ["CNC", "Quality", "Automotive"]
 
 ダイカスト部品の最終品質は、鋳造条件だけでなくCNC後[加工](/ja/cnc-machining)の基準設計で決まります。工程間の整合を取ることで、再加工や不良の低減が可能です。
 
-![高精度CNC加工ライン](/img/high-precision-cnc-workshop.webp "高精度加工")
 
 ## 実務で押さえる点
 
@@ -21,7 +20,6 @@ tags: ["CNC", "Quality", "Automotive"]
 
 関連情報: [高公差自動車向けCNC加工](https://alumcasting.com/high-tolerance-automotive-cnc-machining/)、[製造能力](https://alumcasting.com/manufacturing-capabilities/)
 
-![CMMによる寸法検証](/img/hexagon-coordinate-measuring-machine-inspection.webp "幾何公差の検証")
 
 技術相談は [alumcasting.com/contact](https://kingship.alumcasting.com/ja/contact/) から可能です。
 

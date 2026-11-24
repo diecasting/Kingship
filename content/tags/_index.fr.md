@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tags techniques"
 description: "Navigation par tags pour les contenus techniques de fonderie sous pression en francais."
 layout: "list"

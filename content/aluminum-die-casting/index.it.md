@@ -1,39 +1,36 @@
 ---
-title: "Servizi di pressofusione ad alta pressione in lega di alluminio"
-description: "Fornitore di pressofusione di alluminio di precisione con flotta 400T-5000T. Specializzato in ADC12, A380, A356 per componenti automotive e complessi involucri elettronici."
+title: "Servizi di pressofusione in alluminio"
+description: "Pressofusione di alluminio per componenti automotive, EV, elettronici e industriali. Selezione leghe, input DFM, ambito ispettivo e requisiti RFQ."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/5000ton-die-casting-machine.webp"
-featureImageAlt: "Pressa per pressofusione ad alta pressione da 5000 tonnellate per grandi componenti strutturali automotive"
 showTableOfContents: false
 url: "/it/aluminum-die-casting/"
 service:
   name: "Pressofusione di alluminio"
   category: "Pressofusione ad alta pressione"
-  tagline: "Pressofusione HPDC di alluminio di precisione da 400T a 5000T, progettata per componenti strutturali automotive, EV ed elettronici."
+  tagline: "Pressofusione in alluminio per componenti automotive, EV, elettronici e industriali, con processo e ambito ispettivo definiti per progetto."
   materials:
-    - "ADC12 / AlSi9Cu3"
-    - "A380 / AlSi8Cu3"
-    - "A356 / A360"
+    - "Leghe di alluminio da confermare in fase RFQ"
+    - "Selezione lega in base alla funzione del componente"
   processes:
     - "Pressofusione ad alta pressione"
     - "Lavorazione CNC"
     - "Analisi Mold Flow e DFM"
   equipment:
-    - "Macchina HPDC da 5000T"
-    - "Flotta di pressofusione 400T–5000T"
-    - "Reparto CNC ad alta precisione"
+    - "Ciclo di pressofusione ad alta pressione"
+    - "Ambito CNC post-fusione confermato in fase RFQ"
+    - "Piano di ispezione definito per progetto"
   specifications:
-    - label: "Tonnellaggio macchina"
-      value: "400T – 5000T"
-    - label: "Spessore parete min."
-      value: "1,5 mm"
-    - label: "Tolleranza CNC"
-      value: "±0,01 mm"
+    - label: "Scelta della macchina"
+      value: "Confermata in base a dimensioni, stampo, lega e peso di colata"
+    - label: "Fattibilità pareti sottili"
+      value: "Valutata tramite DFM e analisi di flusso per la geometria specifica"
+    - label: "Tolleranza dopo lavorazione"
+      value: "Definita per caratteristica dopo verifica di datum, setup e metodo di misura"
     - label: "Trattamento superficiale"
-      value: "Sabbiatura, verniciatura a polvere, E-Coating"
+      value: "Definito dal disegno; trattamento e disponibilità confermati in fase RFQ"
   industries:
     - "Automotive"
     - "EV"
@@ -46,108 +43,111 @@ service:
     - "Ispezione porosità a raggi X"
     - "Documentazione PPAP"
     - "Verifica dimensionale CMM"
-  certifications:
-    - "IATF 16949"
-    - "ISO 9001"
+  certifications: []
   seo_keywords:
     - "pressofusione alluminio"
     - "pressofusione ADC12 A380 A356"
-    - "pressofusione alluminio 5000T Cina"
+    - "fornitore pressofusione alluminio"
+    - "pressofusione alluminio OEM ODM"
   related_resources:
-    - title: "Guida ingegneristica alle proprietà ADC12"
-      url: "https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/"
-    - title: "Proprietà lega A380"
-      url: "https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/"
+    - title: "Lavorazione CNC dei componenti pressofusi"
+      url: "/it/cnc-machining/"
+    - title: "Progettazione e costruzione stampi"
+      url: "/it/tooling/"
   wordpress_resources:
-    - title: "Pressofusione, CNC e finitura chiavi in mano"
-      url: "https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/"
+    - title: "Richiedi una revisione tecnica RFQ"
+      url: "/it/contact/"
   faq:
-    - q: "Quali leghe di alluminio colate?"
-      a: "Coliamo abitualmente ADC12, A380 e A356, selezionate in base alle esigenze termiche, di resistenza e di corrosione."
-    - q: "Qual è la dimensione massima del pezzo?"
-      a: "La nostra macchina da 5000T supporta grandi componenti strutturali; lo spessore di parete tipico parte da 1,5 mm con tolleranza CNC di ±0,01 mm."
-    - q: "Supportate gli standard qualità automotive?"
-      a: "Sì — operiamo secondo IATF 16949 / ISO 9001 con ispezione porosità a raggi X e documentazione PPAP completa."
+    - q: "Quali dati servono per valutare un componente pressofuso?"
+      a: "Servono modello 3D, disegno 2D con GD&T, lega o grado candidato, volume annuale, sezioni critiche, requisiti di tenuta e ambito ispettivo richiesto."
+    - q: "Come viene selezionata la lega di alluminio?"
+      a: "La scelta viene verificata rispetto a colabilità, resistenza, duttilità, requisiti di corrosione, finitura, lavorazione e trattamento termico del componente specifico."
+    - q: "Come vengono definiti controlli e documentazione?"
+      a: "Metodi di ispezione, campionamento, formato dei report e livello PPAP vengono concordati con il disegno e i requisiti del cliente prima del preventivo o dell'approvazione."
+    - q: "È possibile valutare componenti grandi o a parete sottile?"
+      a: "La fattibilità viene valutata in base a geometria, concetto stampo, ciclo di processo, lega, lunghezza di flusso, sovrametallo di lavorazione e requisiti ispettivi."
 ---
 
 {{< center_style >}}
 
 ## ⚙️ Eccellenza ingegneristica nella colata di alluminio
 
-La pressofusione ad alta pressione (HPDC) di leghe di alluminio è il fondamento della moderna produzione industriale leggera ad alta resistenza. I nostri impianti avanzati offrono ingegneria di colata stabile e ad alta precisione, studiata per settori impegnativi. Con oltre 20 anni di esperienza in progettazione di stampi, analisi del flusso di riempimento e ingegneria meccanica, garantiamo che ogni colpo rispetti gli standard di consegna zero-defetti, così le vostre parti critiche raggiungono le linee di assemblaggio internazionali pronte per l'installazione senza problemi. Scoprite di più sui nostri [servizi chiavi in mano di pressofusione, lavorazione CNC e finitura superficiale](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/).
+La pressofusione in alluminio viene utilizzata per componenti strutturali,
+alloggiamenti e parti per la gestione termica in cui contano ciclo produttivo e
+forma vicina al finito. KingShip esamina ogni progetto dal disegno del componente
+finito fino a stampo, processo di fusione, lavorazione CNC, piano di ispezione e
+dati RFQ.
+
+[Invia una RFQ per pressofusione in alluminio](/it/contact/) con modello 3D,
+disegno 2D, lega o grado candidato, volume annuale e ambito ispettivo richiesto.
 
 <!-- KS-PHOTO-BEGIN die-casting-machine-robotic-arm -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/die-casting-machine-robotic-arm.webp" srcset="/img/die-casting-machine-robotic-arm-480w.webp 480w, /img/die-casting-machine-robotic-arm.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Cella di pressofusione con braccio robotizzato di estrazione davanti allo stampo aperto" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Cella di produzione pressofusione</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
 
 
-### 🔬 Leghe di qualità superiore e integrità meccanica
-Lavoriamo con leghe di alluminio globali specializzate per ottimizzare conduttività termica, elasticità strutturale e proprietà anti-corrosione:
+### Selezione delle leghe di alluminio
 
+ADC12, A380 e A356/A360 possono essere usate come punto di partenza per la
+valutazione tecnica. Disponibilità e idoneità vengono però confermate solo in
+base al disegno, alla colabilità, resistenza, duttilità, corrosione, finitura,
+lavorazione e al trattamento termico richiesto dal progetto.
 
-* **ADC12 / AlSi9Cu3:** Eccellente colabilità, perfetta per involucri a geometria complessa. Esplorate la nostra [guida ingegneristica alle proprietà ADC12](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/).
-* **A380 / AlSi8Cu3:** Alte proprietà meccaniche; il riferimento globale per supporti industriali pesanti. Vedete [le proprietà della lega A380](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/).
-* **A356 / A360:** Eccellente duttilità strutturale, ideale per dissipatori di calore elettronici ermetici. Leggete la nostra [guida all'integrità strutturale A356](https://alumcasting.com/a356-aluminum-die-casting-for-automotive-parts-structural-integrity/).
-
-![Linea di produzione di pressofusione ad alta pressione di alluminio ad alto volume](/img/5000ton-die-casting-machine.webp)
-*Alt: Pressa per pressofusione ad alta pressione da 5000 tonnellate per componenti strutturali automotive di grandi dimensioni.*
 
 ---
 
-## 🏭 Spettro e capacità produttive
+## Valutazione produttiva e dati tecnici
 
-Il nostro reparto attrezzature utilizza ambienti CAD/CAM avanzati con Pro/E, UG e simulazioni Magma/Moldflow per [ridurre i costi di pressofusione tramite l'analisi DFM](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/).
+La valutazione collega il disegno del componente al concetto stampo, al sistema
+di colata e temperizzazione, alla scelta della macchina, alla lavorazione e al
+piano di ispezione. Un'eventuale simulazione supporta la verifica del progetto,
+ma non sostituisce la validazione specifica di stampo e processo.
 
 <!-- KS-PHOTO-BEGIN large-aluminium-structural-casting -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/large-aluminium-structural-casting.webp" srcset="/img/large-aluminium-structural-casting-480w.webp 300w, /img/large-aluminium-structural-casting.webp 750w" sizes="(max-width: 768px) 100vw, 800px" width="750" height="1000" loading="lazy" decoding="async" alt="Grande getto strutturale in alluminio con nervature trasversali e canali di colata, grezzo" style="max-width:560px;width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Grande componente strutturale in alluminio grezzo</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
 
-### Limiti tecnici per le fusioni di alluminio
-| Parametro ingegneristico | Specifica di produzione |
+### Punti tecnici da confermare per progetto
+| Tema tecnico | Verifica |
 | :--- | :--- |
-| **Tonnellaggio macchina** | 400 tonnellate – 5000 tonnellate [Scopri di più](https://alumcasting.com/large-scale-5000t-aluminum-die-casting-factory-china/) |
-| **Spessore parete target** | Minimo 1,5 mm [Controlla la guida DFM](https://alumcasting.com/minimum-draft-angle-for-aluminium-die-casting-dfm-guide/) |
-| **Precisione di lavorazione** | Tolleranze CNC fino a ±0,01 mm |
-| **Trattamento superficiale** | Sabbiatura, verniciatura a polvere, E-Coating [Guida finitura](https://alumcasting.com/post-casting-treatments-finishing-options-aluminum/) |
+| **Scelta macchina** | Dimensioni, stampo, lega, peso di colata e piano produttivo |
+| **Fattibilità pareti sottili** | DFM e analisi di flusso per la geometria specifica |
+| **Tolleranza di lavorazione** | Disegno, datum, setup, processo e metodo di misura |
+| **Trattamento superficiale** | Requisito del disegno, disponibilità e ambito approvato |
 
-![Reparto di lavorazione CNC ad alta precisione](/img/high-precision-cnc-workshop.webp)
+
 *Alt: Reparto di lavorazione CNC ad alta precisione per il post-processo di pressofusioni a tolleranza stretta.*
 
 ---
 
 ## 🛡️ Rigorosi test di qualità
 
-KingShip implementa un sistema di gestione qualità completo [certificato IATF 16949](https://alumcasting.com/iatf-16949-high-tolerance-automotive-cnc-machining-supplier/).
+Pianificazione ispettiva, tracciabilità e documentazione qualità del fornitore
+vengono concordate per ogni progetto. Stato corrente e ambito applicabile dei
+certificati sono confermati durante la qualifica fornitore.
 
 
-1. **Controllo porosità:** Utilizziamo [5 metodi per eliminare la porosità](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/) nella pressofusione a pressione.
-2. **Ispezione:** Il nostro stabilimento è dotato di [rilevatori di difetti a raggi X e attrezzature CMM](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/).
-3. **Validazione:** Test di perdita automatizzato per l'ermeticità nelle [casse batteria EV](https://alumcasting.com/ev-battery-housing-die-casting/).
+1. **Pianificazione porosità:** Aree critiche, criteri di accettazione, metodo ispettivo e campionamento vengono concordati per il componente.
+2. **Controllo dimensionale:** Caratteristiche, sistema di datum, metodo di misura e formato del report vengono definiti per progetto.
+3. **Tenuta:** Se richiesta, vengono concordati attrezzatura, metodo, intervallo, tempo di stabilizzazione e limite di accettazione.
 
 
-![Ispezione a raggi X in tempo reale per il rilevamento porosità](/img/x-ray-detector.webp)
-*Alt: Test NDT a raggi X in tempo reale per garantire l'integrità strutturale interna delle fusioni.*
 
 ---
 
-## 💼 Soluzioni chiavi in mano e logistica
-Colmiamo il divario tra prototipazione industriale rapida e produzione su larga scala globale. Che abbiate bisogno di [attrezzature ponte per bassi volumi](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/) o di [scalabilità della produzione completa](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/), vi offriamo supporto end-to-end.
+## Dal concetto stampo alla preparazione produzione
+
+I requisiti per prototipi o stampi ponte vengono definiti insieme al percorso
+produttivo previsto. La revisione comprende disegno, concetto stampo,
+campionatura, lavorazione, piano di ispezione e documentazione per la fase
+successiva.
 
 <!-- KS-PHOTO-BEGIN deburring-finishing-workstations -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/deburring-finishing-workstations.webp" srcset="/img/deburring-finishing-workstations-480w.webp 480w, /img/deburring-finishing-workstations.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Fila di postazioni in acciaio inox con aspirazione per la finitura di getti" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Postazioni di finitura</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -156,7 +156,7 @@ Colmiamo il divario tra prototipazione industriale rapida e produzione su larga 
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">Richiedi un preventivo tecnico</h2>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
-      Hai un progetto di pressofusione? <a href="https://kingship.alumcasting.com/it/contact/">Contatta i nostri esperti</a> per un preventivo formale entro 24 ore.
+      Hai un progetto di pressofusione? <a href="/it/contact/">Invia il pacchetto disegni per la revisione tecnica e RFQ</a>.
     </p>
     {{< rfq_form >}}
   </div>

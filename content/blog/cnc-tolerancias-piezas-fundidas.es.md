@@ -11,7 +11,6 @@ tags: ["CNC", "Quality", "Automotive"]
 
 En componentes automotrices, la calidad final depende de la continuidad entre fundicion y [mecanizado](/es/cnc-machining) CNC. Una estrategia correcta de referencias reduce retrabajos y dispersion dimensional.
 
-![Taller CNC de alta precision](/img/high-precision-cnc-workshop.webp "Mecanizado de precision")
 
 ## Recomendaciones
 
@@ -21,7 +20,6 @@ En componentes automotrices, la calidad final depende de la continuidad entre fu
 
 Mas detalles en [high tolerance automotive CNC machining](https://alumcasting.com/high-tolerance-automotive-cnc-machining/) y [capacidades de fabricacion](https://alumcasting.com/manufacturing-capabilities/).
 
-![Verificacion dimensional con CMM](/img/hexagon-coordinate-measuring-machine-inspection.webp "Control geometrico en serie")
 
 Si necesita evaluacion tecnica, escriba a [alumcasting.com/contact](https://kingship.alumcasting.com/es/contact/).
 

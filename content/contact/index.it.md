@@ -6,7 +6,7 @@ showTableOfContents: false
 url: "/it/contact/"
 ---
 
-I nostri professionisti dell'ingegneria e degli stampi esamineranno la geometria, i parametri dello spessore delle pareti e i requisiti di tolleranza per fornire un preventivo tecnico dettagliato entro 24 ore.
+I nostri professionisti dell'ingegneria e degli stampi esamineranno geometria, spessori, tolleranze e documentazione qualità. I tempi del preventivo tecnico vengono confermati dopo la revisione del pacchetto disegni e dell'ambito di progetto.
 
 ---
 

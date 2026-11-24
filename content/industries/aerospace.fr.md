@@ -1,20 +1,20 @@
 ---
-title: "Composants aérospatiaux : fonderie magnésium & aluminium | KingShip"
-description: "Composants légers et à haute intégrité en magnésium et aluminium moulés sous pression et Semi-Solid Rheocast pour applications de vol et aérospatiales."
+title: "Composants aérospatiaux : fonderie magnésium & aluminium"
+description: "Composants légers en magnésium et aluminium moulés sous pression pour applications aérospatiales ; alliage, procédé, contrôle et qualification confirmés par projet."
 translationKey: "industry-aerospace"
 schema:
   faq:
     - question: "Quelles pièces aérospatiales KingShip fabrique-t-il ?"
-      answer: "KingShip produit des composants structurels légers en magnésium et aluminium, des supports et boîtiers où la faible masse et la haute intégrité sont critiques, en Semi-Solid Rheocasting et moulage sous pression de précision."
-    - question: "Pourquoi le Semi-Solid Rheocasting est-il utilisé pour les pièces aérospatiales ?"
-      answer: "Le Semi-Solid Rheocasting offre une porosité très faible et une microstructure fine et uniforme, donnant aux composants aérospatiaux une résistance à la fatigue et une fiabilité supérieures au moulage sous pression haute pression classique."
+      answer: "KingShip étudie des projets de fonderie magnésium et aluminium pour supports, boîtiers et composants structurels. Alliage, voie de procédé et contrôle sont confirmés selon le plan et les exigences de qualification aérospatiale."
+    - question: "Le rhéocoulage semi-solide est-il une capacité de production confirmée ?"
+      answer: "Le rhéocoulage semi-solide est une voie technique dont la disponibilité de production doit être démontrée projet par projet. Procédé, équipement, matière et contrôle ne doivent pas être présumés confirmés pour l'aérospatial."
     - question: "Quels alliages sont utilisés pour la fonderie aérospatiale ?"
       answer: "Nous utilisons le magnésium AZ91D et AM60B pour les pièces critiques de poids, et l'aluminium A356 lorsqu'une résistance ou corrosion supérieure est requise."
     - question: "Comment KingShip vérifie-t-il la qualité des pièces aérospatiales ?"
-      answer: "Chaque pièce est vérifiée par détection de porosité rayons X en temps réel et inspection dimensionnelle, et nous appliquons des contrôles de procédé rigoureux adaptés aux applications critiques pour le vol."
+      answer: "Les méthodes de contrôle, l'échantillonnage et la traçabilité sont définis lors de la qualification du programme aérospatial ; aucune inspection universelle de toutes les pièces n'est revendiquée."
 ---
 
-Les programmes aérospatiaux repoussent les limites du rapport résistance/poids. KingShip livre les composants magnésium et aluminium à faible porosité et haute intégrité qui aident les structures de vol à perdre de la masse tout en conservant leur enveloppe de performance.
+Les programmes aérospatiaux privilégient le rapport résistance-poids. KingShip examine les projets de fonderie aluminium et magnésium selon le plan, le procédé, les exigences de contrôle et les preuves disponibles.
 
 ## Composants aérospatiaux légers
 
@@ -24,9 +24,9 @@ Les structures de vol exigent la masse la plus faible possible sans sacrifier l'
 
 Le magnésium est le métal structurel le plus léger, et la [fonderie magnésium](/magnesium-die-casting/) permet de former en grand volume des pièces aérospatiales complexes et critiques de masse en AZ91D et AM60B. Les applications typiques incluent supports, boîtiers, structures de siège et boîtiers d'actionneur, où chaque gramme économisé améliore la consommation et la charge utile.
 
-## Applications du Semi-Solid Rheocasting
+## Revue de la voie de procédé
 
-Pour les pièces les plus critiques pour le vol, le [Semi-Solid Rheocasting](/semi-solid-rheocasting/) offre une microstructure fine et uniforme à très faible porosité — bien au-delà du moulage sous pression haute pression classique. Cela se traduit par une résistance à la fatigue supérieure et une fiabilité pour les composants structurels, leviers et supports porteurs.
+Pour les pièces critiques de vol, la capacité du procédé, les contrôles matière et les preuves de contrôle doivent être démontrés selon la spécification du programme. Le rhéocoulage semi-solide est présenté uniquement comme une option technique ; sa disponibilité de production doit être confirmée par projet.
 
 ## Capacité de fonderie aluminium
 
@@ -34,7 +34,7 @@ Notre capacité de [fonderie aluminium](/aluminum-die-casting/) couvre l'A356 et
 
 ## Contrôle qualité
 
-Chaque pièce aérospatiale est vérifiée par détection de porosité rayons X en temps réel et inspection dimensionnelle complète. Contrôles de procédé stricts et surveillance statistique maintiennent les composants critiques pour le vol dans les spécifications, lot après lot.
+Les méthodes de contrôle, l'échantillonnage, les critères d'acceptation et la traçabilité sont définis pour chaque projet aérospatial avant approbation de la production.
 
 ## Fabrication OEM
 
@@ -42,9 +42,9 @@ En tant que partenaire de fabrication OEM, KingShip accompagne les programmes a�
 
 ## Capacités pour l'aérospatial
 
-- Composants structurels Semi-Solid Rheocast à microstructure fine et uniforme
+- Planification fonderie et contrôle définie par projet
 - Supports et boîtiers magnésium légers en AZ91D et AM60B
 - Pièces aluminium A356 pour besoins de résistance ou corrosion supérieure
-- Détection de porosité rayons X en temps réel et contrôle dimensionnel serré
+- Planification rayons X, CMM et contrôle dimensionnel définie par projet
 
-Notre procédé de rheocasting minimise la porosité et maximise la résistance à la fatigue, offrant aux ingénieurs aérospatiaux un chemin fiable du prototype à la pièce de production qualifiée.
+La voie de fabrication, les critères d'acceptation et les preuves de qualification sont convenus avant l'approbation de production.

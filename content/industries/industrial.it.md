@@ -1,5 +1,5 @@
 ---
-title: "Componenti industriali: pressofusione e lavorazione CNC | KingShip"
+title: "Componenti industriali: pressofusione e lavorazione CNC"
 description: "Involucri, telai e parti meccaniche durevoli in alluminio e magnesio per attrezzature industriali e ambienti operativi impegnativi."
 translationKey: "industry-industrial"
 schema:
@@ -11,16 +11,13 @@ schema:
     - question: "Quali materiali sono usati per i componenti industriali?"
       answer: "Utilizziamo tipicamente alluminio ADC12, A380 e A356 e magnesio AZ91D o AM60B, scelti per resistenza, comportamento termico e peso in base ai requisiti delle attrezzature."
     - question: "KingShip fornisce stampi per programmi industriali?"
-      answer: "Sì. Il nostro team interno di costruzione stampi per pressofusione progetta, costruisce e mantiene gli stampi, supportando lunghi cicli di produzione industriale con qualità costante."
+      answer: "Progettazione stampi e ambito di costruzione o manutenzione vengono confermati in RFQ in base a disegno, volume e piano di manutenzione."
 ---
 
 Le attrezzature industriali devono funzionare in modo affidabile sotto carico, calore e servizio continuo. KingShip fornisce le parti robuste colate e lavorati che mantengono macchine, involucri e sistemi di automazione performanti in ambienti impegnativi.
 
 <!-- KS-PHOTO-BEGIN workshop-packing-storage-area -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/workshop-packing-storage-area.webp" srcset="/img/workshop-packing-storage-area-480w.webp 480w, /img/workshop-packing-storage-area.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Area di imballaggio e stoccaggio dell&#x27;officina con scaffalature blu e componenti impilati" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Area di imballaggio e stoccaggio</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -31,7 +28,7 @@ Le attrezzature industriali devono funzionare in modo affidabile sotto carico, c
 - Involucri e telai in alluminio ADC12, A380 e A356
 - Parti meccaniche e supporto in magnesio AZ91D e AM60B
 - Lavorazione e finitura CNC di precisione per adattamento e funzione
-- Stampi interni per cicli di produzione industriale stabili e lunghi
+- Ambito stampi e manutenzione definito per progetto
 
 Con colata, CNC e stampi integrati, KingShip consegna componenti industriali durevoli con il controllo dimensionale e la ripetibilità che le attrezzature di produzione richiedono.
 
@@ -41,8 +38,5 @@ Con colata, CNC e stampi integrati, KingShip consegna componenti industriali dur
 
 
 <!-- KS-PHOTO-BEGIN complex-aluminium-casting-with-ports -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/complex-aluminium-casting-with-ports.webp" srcset="/img/complex-aluminium-casting-with-ports-480w.webp 480w, /img/complex-aluminium-casting-with-ports.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Getto complesso in alluminio con diversi innesti, diramazioni e alette di fissaggio" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Getto complesso in alluminio</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->

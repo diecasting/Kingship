@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tags (JA)"
 description: "Tag hub for Japanese technical articles."
 layout: "list"

@@ -1,18 +1,16 @@
 ---
 title: "Magnesium-Druckguss (HPDC) – Leichtbau aus AZ91D & AM60B"
-description: "Kingship fertigt dünnwandige Magnesium-Strukturbauteile per Hochdruckguss (400T–3000T) für Automotive, EV und Industrie. AZ91D/AM60B, korrosionsfest, präzise CNC-Nachbearbeitung."
+description: "Technischer Leitfaden zu Magnesium-HPDC mit AZ91D und AM60B: Legierungswahl, Dünnwandigkeit, Korrosionsstrategie, CNC-Nachbearbeitung sowie die im RFQ zu bestätigenden Maschinen- und Prüfanforderungen."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/magnesium-die-casting-banner.webp"
-featureImageAlt: "Magnesium-Hochdruckguss-Produktionslinie mit 400T–3000T-Maschinenflotte"
 showTableOfContents: false
 url: "/de/magnesium-die-casting/"
 service:
   name: "Magnesium-Druckguss"
   category: "Hochdruckguss"
-  tagline: "Leichtbau-Magnesium-HPDC von 400T bis 3000T – dünnwandige Strukturbauteile für Automotive, EV und Industrie."
+  tagline: "Magnesium-HPDC-Engineering mit AZ91D und AM60B; Maschinenbereich, Legierung und Design werden im DFM und RFQ bestätigt."
   materials:
     - "AZ91D"
     - "AM60B"
@@ -21,15 +19,15 @@ service:
     - "CNC-Bearbeitung"
     - "Fließ- & DFM-Analyse"
   equipment:
-    - "400T–3000T HPDC-Flotte"
+    - "HPDC-Maschinenbereich im RFQ bestätigt"
     - "Hochpräzise CNC-Werkstatt"
   specifications:
     - label: "Schließkraft"
-      value: "400T – 3000T"
+      value: "im RFQ bestätigter Maschinenbereich"
     - label: "Min. Wandstärke"
-      value: "1,0–1,2 mm (projektabhängig)"
+      value: "im RFQ bestätigen"
     - label: "CNC-Toleranz"
-      value: "±0,01 mm (Nachbearbeitung)"
+      value: "merkmalsbezogen im DFM bestätigen"
     - label: "Oberflächenbehandlung"
       value: "Projektabhängig; bestätigte Verfahren: Strahlen und Eloxieren"
   industries:
@@ -65,7 +63,7 @@ service:
     - q: "Welche Magnesiumlegierungen gießen Sie?"
       a: "Bestätigte Magnesiumlegierungen sind AZ91D und AM60B. AZ91D ist die gängige Universallegierung, AM60B wird bei Anforderungen an Duktilität und Schlagenergieaufnahme gewählt. Andere Legierungen werden im DFM-Prozess projektspezifisch bewertet, nicht als Standard angeboten."
     - q: "Wie groß ist Ihr maximales Bauteil?"
-      a: "Die 400T–3000T-HPDC-Anlagen fertigen dünnwandige Strukturbauteile. Eine Wandstärke von etwa 1,0–1,2 mm ist ein projektabhängiger Richtwert, der von Werkstoff, Geometrie, Fließweg und Projektbedingungen abhängt. Eine Toleranz von ±0,01 mm ist an definierten Merkmalen unter geeigneten Nachbearbeitungsbedingungen erreichbar und wird in der Zeichnungs- und DFM-Prüfung je Merkmal bestätigt."
+      a: "Die projektbezogen bestätigter Maschinenbereich-HPDC-Anlagen fertigen dünnwandige Strukturbauteile. Eine Wandstärke von etwa 1,0–1,2 mm ist ein projektabhängiger Richtwert, der von Werkstoff, Geometrie, Fließweg und Projektbedingungen abhängt. Eine Toleranz von ±0,01 mm ist an definierten Merkmalen unter geeigneten Nachbearbeitungsbedingungen erreichbar und wird in der Zeichnungs- und DFM-Prüfung je Merkmal bestätigt."
     - q: "Wie werden Qualität und Maßhaltigkeit definiert?"
       a: "Prüfmerkmale, Messverfahren, Stichprobenumfang und Dokumentation werden projektspezifisch im Angebot festgelegt. Erstmusterprüfung, PPAP-Dokumentation und CMM-gestützte Prüfung sind Beispiele für einen zu definierenden Umfang, keine pauschal enthaltenen Leistungen. Für IATF 16949 und ISO 9001 wird keine aktuelle Gültigkeit beansprucht."
 ---
@@ -78,7 +76,6 @@ Magnesium ist mit einer Dichte von **1,74 g/cm³** etwa **33 % leichter als Alum
 
 [Vergleichen Sie Magnesium- und Aluminiumdruckguss](https://alumcasting.com/magnesium-vs-aluminum-die-casting/), um zu verstehen, warum viele Kunden zur [Gewichtsreduzierung durch Werkstoffwechsel](https://alumcasting.com/aluminum-to-magnesium-conversion-weight-reduction/) wechseln.
 
-![Magnesium-Druckguss-Produktionslinie](/img/magnesium-die-casting-banner.webp)
 
 ### 🔬 Magnesiumlegierungen – AZ91D und AM60B
 
@@ -96,11 +93,10 @@ Wir vergießen primär zwei bewährte Gusslegierungen:
 
 ---
 
-## 🏭 HPDC-Prozess & Ausstattung (400T–3000T)
+## 🏭 HPDC-Prozess & Ausstattung (projektbezogen bestätigter Maschinenbereich)
 
-Für das Programm steht ein **400T–3000T-HPDC-Maschinenbereich** zur Verfügung, ergänzt um CNC-Nachbearbeitung. Schutzgasatmosphäre und sicherer Umgang mit Schmelze und Spänen sind allgemeine industrielle Sicherheitspraktiken für Magnesium. Fließpfad- und DFM-Analysen erfolgen bereits in der Angebotsphase; siehe [Fertigungskapazität](https://alumcasting.com/manufacturing-capabilities/).
+Für das Programm steht ein **projektbezogen bestätigter Maschinenbereich-HPDC-Maschinenbereich** zur Verfügung, ergänzt um CNC-Nachbearbeitung. Schutzgasatmosphäre und sicherer Umgang mit Schmelze und Spänen sind allgemeine industrielle Sicherheitspraktiken für Magnesium. Fließpfad- und DFM-Analysen erfolgen bereits in der Angebotsphase; siehe [Fertigungskapazität](https://alumcasting.com/manufacturing-capabilities/).
 
-![Automatisierte Druckguss-Produktionslinie](/img/automated-die-casting-production-line.webp)
 
 | Parameter | Spezifikation |
 | :--- | :--- |
@@ -119,7 +115,6 @@ Magnesium erfordert spezifische Konstruktungsregeln. Wir begleiten Sie bei:
 2. **Dünnwandigkeit:** Ca. 1,0–1,2 mm sind ein projektabhängiger Richtwert; Fräszonen und Verstärkungen werden werkzeugseitig geplant.
 3. **Korrosionsschutz:** Blankes Magnesium ist nicht ohne weiteres korrosionsbeständig. Strahlen und Eloxieren sind bestätigte Verfahren; [MAO-Beschichtung](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/), Konversionsschichten und E-Coating sind allgemeine Industrieoptionen, die projektspezifisch auf Eignung und Verfügbarkeit zu prüfen sind – ergänzt durch konstruktive Maßnahmen gegen Kontaktkorrosion.
 
-![Fortschrittliche Oberflächenbehandlung für Magnesiumgussteile](/img/suretech-650-surface-treatment.webp)
 
 ---
 
@@ -127,7 +122,6 @@ Magnesium erfordert spezifische Konstruktungsregeln. Wir begleiten Sie bei:
 
 Prüfmerkmale, Messverfahren, Stichprobenumfang und Dokumentation werden projektspezifisch im Angebot festgelegt; Erstmusterprüfung, PPAP-Dokumentation und CMM-gestützte Prüfung sind Beispiele für einen zu vereinbarenden Umfang. Kingship arbeitet nach vereinbarten Projektanforderungen; für IATF 16949 und ISO 9001 wird keine aktuelle Zertifikatsgültigkeit beansprucht.
 
-![Röntgenprüfung zur Porositätskontrolle](/img/x-ray-detector.webp)
 
 ---
 

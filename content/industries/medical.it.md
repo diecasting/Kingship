@@ -1,5 +1,5 @@
 ---
-title: "Componenti per dispositivi medici: lavorazione CNC di precisione | KingShip"
+title: "Componenti per dispositivi medici: lavorazione CNC di precisione"
 description: "Componenti lavorati puliti e dimensionalmente stabili per strumenti diagnostici e dispositivi medici, realizzati con rigorosi controlli di processo."
 translationKey: "industry-medical"
 schema:
@@ -7,9 +7,9 @@ schema:
     - question: "Quali componenti medici produce KingShip?"
       answer: "KingShip produce parti lavorate pulite e dimensionalmente stabili per strumenti diagnostici, alloggiamenti per dispositivi e fissaggi, con tolleranze strette e superficie coerente."
     - question: "Come KingShip garantisce la qualità dei componenti medici?"
-      answer: "Ogni parte è prodotta con rigorosi controlli di processo, ispezione dimensionale e piena tracciabilità, applicando la stessa disciplina usata nelle nostre operazioni certificate IATF 16949 e ISO 9001."
+      answer: "Qualita del fornitore e requisiti ispettivi vengono confermati per ogni programma medicale. Ambito del certificato e pacchetto documentale vengono concordati in RFQ."
     - question: "Quali processi sono usati per i componenti medici?"
-      answer: "I componenti medici sono prodotti principalmente tramite lavorazione CNC di precisione 3/4/5 assi per l'accuratezza e la finitura superficiale che dispositivi e strumenti richiedono."
+      answer: "I componenti medicali possono essere valutati per lavorazione CNC, con macchina, tolleranza e ambito ispettivo confermati per il singolo componente."
     - question: "KingShip può supportare la prototipazione di dispositivi medici?"
       answer: "Sì. La nostra capacità CNC porta i componenti medici dal prototipo alla produzione, mantenendo tolleranze strette e qualità ripetibile lungo il ciclo di vita del programma."
 ---
@@ -22,7 +22,7 @@ Dagli strumenti diagnostici ai dispositivi di terapia e monitoraggio, i [compone
 
 ## Lavorazione CNC di precisione
 
-I nostri [centri di lavorazione CNC di precisione](/it/cnc-machining/) eseguono programmi 3, 4 e 5 assi per le tolleranze strette e le finiture fini che i componenti medici richiedono. La capacità multiasse ci permette di mantenere geometrie complesse in una singola configurazione, riducendo la movimentazione e migliorando la ripetibilità.
+La lavorazione CNC viene valutata rispetto a disegno, datum, attrezzaggio e requisiti ispettivi del progetto. Le specifiche macchina vengono confermate per componente.
 
 ## Produzione di parti in alluminio
 
@@ -30,17 +30,17 @@ Per strutture di dispositivi più leggere e resistenti alla corrosione, la nostr
 
 ## Capacità di ispezione
 
-Ogni parte medica è verificata tramite ispezione dimensionale e controlli in processo allineati al nostro sistema certificato ISO 9001. Confermiamo caratteristiche, accoppiamenti e finiture critici affinché ogni componente sia spedito entro specifica, lotto dopo lotto.
+Metodi ispettivi, caratteristiche critiche, campionamento e criteri di accettazione vengono concordati per ogni progetto medicale.
 
 ## Tracciabilità
 
-La piena tracciabilità della produzione è integrata in ogni programma. Lotti di materiale, parametri di processo e risultati di ispezione sono registrati e recuperabili, offrendo ai clienti sanitari il controllo documentato e la responsabilità che i loro programmi regolamentari si aspettano.
+Il livello di tracciabilita viene definito in RFQ e puo includere lotto materiale, registrazioni di processo e risultati ispettivi del programma concordato.
 
 ## Capabilità per il medicale
 
-- Lavorazione CNC di precisione 3/4/5 assi per tolleranze strette e finiture fini
+- Lavorazione CNC e pianificazione ispettiva confermate per componente medicale
 - Componenti stabili e ripetibili per alloggiamenti diagnostici e di dispositivo
-- Ispezione dimensionale e piena tracciabilità della produzione
-- Supporto dal prototipo alla produzione sotto la disciplina ISO 9001
+- Controllo dimensionale e tracciabilita definiti per progetto
+- Qualifica fornitore e documentazione qualita concordate in RFQ
 
-Il nostro workflow centrato sulla lavorazione consegna l'accuratezza e la coerenza che le applicazioni mediche richiedono, con controlli qualità allineati al nostro sistema di produzione certificato.
+Requisiti ispettivi, tracciabilità e documentazione vengono definiti secondo il programma del dispositivo medico. Qualsiasi riferimento a certificati o al sistema produttivo deve essere verificato rispetto a intestatario e ambito esatti prima dell'uso.

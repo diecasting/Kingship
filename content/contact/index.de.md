@@ -6,7 +6,7 @@ showTableOfContents: false
 url: "/de/contact/"
 ---
 
-Unsere Ingenieure und Werkzeugexperten prüfen Ihre Geometrie, Wandstärkeparameter und Toleranzanforderungen, um Ihnen innerhalb von 24 Stunden ein detailliertes technisches Angebot zu erstellen.
+Unsere Ingenieure und Werkzeugexperten prüfen Geometrie, Wandstärken, Toleranzen und Qualitätsunterlagen. Der Zeitpunkt für das technische Angebot wird nach Prüfung des Zeichnungspakets und des Projektumfangs bestätigt.
 
 ---
 

@@ -11,13 +11,12 @@ tags: ["DFM", "Cost", "Process", "Aluminum"]
 
 Steigende Material- und Energiekosten erfordern ein praezises DFM-Vorgehen bereits in der Konzeptphase. Mit [DFM-Analyse zur Reduktion von Druckgusskosten](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/) lassen sich Ausschuss und Nacharbeit frueh minimieren.
 
-![Aluminium-Druckgussteile in der Serienfertigung](/img/aluminum-die-casting-parts-storage.webp "Serienbauteile aus Aluminium-Druckguss")
 
 ## 1. Geometrie fuer den Prozess entwerfen
 
 Kritische Punkte wie Rippen, Wandstaerkenspruenge und Entformungsschragen beeinflussen Fuellung und Erstarrung direkt. Fuer Konstruktionsteams lohnt ein Blick in den [umfassenden Design-Guide fuer Aluminium-Druckguss](https://alumcasting.com/ultimate-aluminum-die-casting-design-guide-expert-tips/).
 
-Bei grossen Strukturteilen kann ausserdem [5000T-Grossserien-Druckguss](https://alumcasting.com/large-scale-5000t-aluminum-die-casting-factory-china/) wirtschaftliche Vorteile bieten, wenn Bauteile konsolidiert werden.
+Bei grossen Strukturteilen kann ausserdem eine [projektbezogene HPDC-Machbarkeitsprüfung](/de/aluminum-die-casting/) wirtschaftliche Vorteile aufzeigen, wenn Bauteile konsolidiert werden.
 
 ## 2. Legierung und Parameter passend kombinieren
 
@@ -27,13 +26,11 @@ Die Legierungswahl bestimmt Bearbeitbarkeit, Dichtheit und mechanische Reserven:
 - [A380 Legierungsdaten fuer strukturelle Teile](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/)
 - [A356 fuer hoehere strukturelle Integritaet](https://alumcasting.com/a356-aluminum-die-casting-for-automotive-parts-structural-integrity/)
 
-![Moderne Yizumi-Druckgusswerkstatt](/img/yizumi-die-casting-machine-shop.webp "Produktion mit modernem Maschinenpark")
 
 ## 3. Nach[bearbeitung](/de/cnc-machining) und Qualitaet frueh mitdenken
 
 Viele Kosten entstehen nicht im Guss, sondern bei Korrekturen in der Nachbearbeitung. Deshalb sollten CNC-Aufmasse, Bezugsflaechen und Pruefstrategie bereits vor [Werkzeug](/de/tooling)freigabe feststehen. Ein bewaehrter Weg ist die Kombination aus [One-Stop Druckguss + CNC + Oberflaechenbehandlung](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/) und klaren Pruefplaenen.
 
-![Hochpraezise CNC-Nachbearbeitung im Druckgussumfeld](/img/high-precision-cnc-workshop.webp "CNC-Bearbeitung fuer enge Toleranzen")
 
 Zum Abschluss gilt: DFM ist kein Einmal-Workshop, sondern ein laufender Verbesserungsprozess vom Prototyp bis zur Serie. Wenn Sie ein aktuelles Teil bewerten lassen moechten, starten Sie hier: [technische Anfrage an alumcasting.com](https://kingship.alumcasting.com/de/contact/).
 

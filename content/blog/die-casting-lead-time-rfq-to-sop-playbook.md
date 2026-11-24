@@ -13,7 +13,6 @@ Most launch delays in die casting programs are not caused by one major failure. 
 
 This playbook gives procurement and engineering teams a practical path to shorten cycle time without increasing quality risk.
 
-![Die casting program timeline and launch tracking](/img/automated-die-casting-production-line.webp "Lead time improves with milestone discipline")
 
 ## Typical RFQ to SOP Timeline Blocks
 

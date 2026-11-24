@@ -5,7 +5,7 @@ layout: "background"
 showTableOfContents: false
 ---
 
-Our engineering and tooling professionals will review your geometry, wall thickness parameters, and tolerance requirements to provide a detailed technical quotation within 24 hours.
+Our engineering and tooling professionals will review your geometry, wall-thickness requirements, tolerances and quality documentation. Quotation timing is confirmed after the drawing package and project scope have been reviewed.
 
 ---
 

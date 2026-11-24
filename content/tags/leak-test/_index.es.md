@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Leak Test"
 description: "Pruebas de estanqueidad en fundicion a presion: criterios, metodo y validacion."
 layout: "list"

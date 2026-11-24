@@ -11,11 +11,9 @@ tags: ["Quality", "CMM", "X-Ray", "Process"]
 
 X線とCMMを分断せずに運用することで、異常原因の特定と工程改善が速くなります。
 
-![X線検査装置](/img/x-ray-detector.webp "内部欠陥検査")
 
 詳しくは [CMMとX線検査の実装例](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/) を参照してください。
 
-![CMM測定](/img/hexagon-coordinate-measuring-machine-inspection.webp "幾何公差検証")
 
 ## 関連記事（内部リンク）
 

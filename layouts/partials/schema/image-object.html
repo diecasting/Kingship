@@ -4,7 +4,7 @@
    Called by: schema.html (homepage only). */ -}}
 {{- $lang := .Lang -}}
 {{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
-{{- if $hp -}}
+{{- if and $hp .Site.Params.publicMediaUseEnabled -}}
   {{- $imgs := slice -}}
   {{- with $hp.hero.image }}{{ $imgs = $imgs | append . }}{{ end -}}
   {{- range $hp.capabilities }}{{ with .image }}{{ $imgs = $imgs | append . }}{{ end }}{{ end -}}

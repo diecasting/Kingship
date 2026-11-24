@@ -1,35 +1,38 @@
 ---
-title: "Semi-Solid-Rheogießen (SSR) — A357-Aluminium & Leichtbaustrukturbauteile"
-description: "Semi-Solid-Rheogießen (SSR) von A357-Aluminium auf 400T–3000T-Anlagen. Porositätsarmer Near-Net-Shape-Guss für EV, Automotive, Luftfahrt — Prozess, Werkstoffe, RFQ."
+title: "Semi-Solid-Rheogießen — Technischer Leitfaden zu Prozess und RFQ"
+description: "Technischer Leitfaden zum Semi-Solid-Rheogießen: Prozessroute, Kandidatenlegierungen, Designfragen sowie die für jedes RFQ zu bestätigenden Fähigkeits-, Ausrüstungs- und Prüfanforderungen."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "Längliches Aluminiumgussteil mit zwei runden Bohrungen und Verstärkungsrippen"
 showTableOfContents: true
+robots: "noindex, follow"
+sitemap:
+  disable: true
+excludeFromSearch: true
+xml: false
 url: "/de/semi-solid-rheocasting/"
 service:
   name: "Semi-Solid-Rheogießen"
   category: "Semi-Solid-Gießen"
-  tagline: "Porositätsarmes Semi-Solid-Rheogießen von A357-Aluminium-Strukturbauteilen auf einer 400T–3000T-Gießflotte, mit Magnesium (AZ91D / AM60B) als separatem Leistungsbereich."
+  tagline: "Semi-Solid-Rheogießen als technische Option; Produktionsverfügbarkeit, Legierung, Ausrüstung und Prüfumfang werden projektbezogen bestätigt."
   materials:
-    - "A357 (Aluminium — primärer Semi-Solid-Werkstoff)"
+    - "projektbezogene Aluminiumlegierung (Aluminium — primärer Semi-Solid-Werkstoff)"
     - "A356 (Aluminium — verwandter Werkstoff, projektabhängig)"
   processes:
     - "Semi-Solid-Rheogießen (SSR)"
     - "Thixogießen"
     - "Vakuum-Unterstütztes Rheogießen"
   equipment:
-    - "400T–3000T-Gießflotte"
+    - "projektbezogen bestätigter Maschinenbereich-Gießflotte"
     - "Roboter-Umgießlinie"
   specifications:
     - label: "Schließkraft (Leistungsbereich)"
-      value: "400T – 3000T"
+      value: "im RFQ bestätigter Maschinenbereich"
     - label: "Mindestwanddicke (typisch, projektabhängig)"
-      value: "1.0 – 1.2 mm"
+      value: "im RFQ bestätigen"
     - label: "CNC-Toleranz (erreichbar, nachbearbeitet, projektabhängig)"
-      value: "±0.01 mm"
+      value: "merkmalsbezogen im DFM bestätigen"
     - label: "Oberflächenbehandlung"
       value: "Strahlen, Eloxieren"
   industries:
@@ -46,10 +49,10 @@ service:
     - "CMM-Maßprüfung (projektbezogen)"
   seo_keywords:
     - "Rheogießen Aluminium"
-    - "Semi-Solid-Gießen A357"
+    - "Semi-Solid-Gießen projektbezogene Aluminiumlegierung"
     - "Thixogießen Aluminium"
     - "Rheogießen geringe Porosität"
-    - "A357 Semi-Solid-Guss"
+    - "projektbezogene Aluminiumlegierung Semi-Solid-Guss"
     - "Strukturbauteile Leichtbau"
     - "Rheogießen EV Batteriegehäuse"
     - "Semi-Solid-Gießen Lieferant China"
@@ -67,7 +70,7 @@ service:
     - q: "Was ist Semi-Solid-Rheogießen?"
       a: "Beim SSR wird Metall in seiner flüssig-festen „breiigen\" Zone (typisch 30–65 % Feststoffanteil) umgeformt, um Near-Net-Shape-Bauteile mit geringerer Porosität als beim HPDC zu erhalten. Es ist eine Weiterentwicklung des Druckgusses, kein Ersatz."
     - q: "Welche Legierungen verarbeiten Sie im Semi-Solid-Verfahren?"
-      a: "A357 ist unser primärer Semi-Solid-Aluminiumwerkstoff; A356 wird projektbezogen geprüft. AZ91D und AM60B Magnesium werden als separater Semi-Solid-/Magnesium-Leistungsbereich angeboten, nicht als Werkstoffe dieses Aluminiumprozesses. Jede Anfrage sollte Materialzertifikate enthalten."
+      a: "projektbezogene Aluminiumlegierung ist unser primärer Semi-Solid-Aluminiumwerkstoff; A356 wird projektbezogen geprüft. AZ91D und AM60B Magnesium werden als separater Semi-Solid-/Magnesium-Leistungsbereich angeboten, nicht als Werkstoffe dieses Aluminiumprozesses. Jede Anfrage sollte Materialzertifikate enthalten."
     - q: "Wie gering ist die Porosität?"
       a: "Semi-Solid-Verfahren zielen auf deutlich geringere Porosität als HPDC (Branchenreferenz: HPDC typisch 2–5 %). Ein für Kingship gültiger konkreter Wert hängt von Werkstoff, Geometrie, Prozessparametern und Prüfung ab und muss projektbezogen verifiziert werden."
     - q: "Unterstützen Sie Automobilqualität und PPAP?"
@@ -81,11 +84,13 @@ service:
     - q: "Welche Branchen nutzen semi-solid rheogegossene Teile?"
       a: "EV-Batteriegehäuse und Strukturkonsolen, Automobil-Fahrwerk und Antriebskomponenten, Luftfahrt-Konsolen und Gehäuse sowie Telekom-/5G-Gehäuse sind typische Anwendungen, bei denen geringe Porosität und Leichtbau zählen."
     - q: "Wie fordere ich ein Rheogieß-Angebot an?"
-      a: "Senden Sie ein 3D-Modell oder eine Zeichnung (STEP / IGES / PDF), Ziellegierung (z. B. A357), geschätztes Jahresvolumen, kritische Toleranzen, Oberflächenbehandlung und erforderliche Qualitätsdokumentation. Unsere Ingenieure liefern DFM-Feedback und ein Angebot."
+      a: "Senden Sie ein 3D-Modell oder eine Zeichnung (STEP / IGES / PDF), Ziellegierung (z. B. projektbezogene Aluminiumlegierung), geschätztes Jahresvolumen, kritische Toleranzen, Oberflächenbehandlung und erforderliche Qualitätsdokumentation. Unsere Ingenieure liefern DFM-Feedback und ein Angebot."
 ---
 ## Semi-Solid-Rheogießen für Leichtbaustrukturbauteile
 
-Semi-Solid-Rheogießen (SSR) schließt die Lücke zwischen konventionellem Hochdruck-Druckguss (HPDC) und Schmieden. Es liefert **Near-Net-Shape-Strukturbauteile mit geringer Porosität** für Automobil-, EV- und Luftfahrtprogramme. Kingship betreibt SSR, Thixogießen und vakuum-unterstütztes Rheogießen auf einer **400T–3000T-Gießflotte mit Roboter-Umgießlinien** und verarbeitet **A357-Aluminium** als primären Semi-Solid-Werkstoff und bietet **AZ91D / AM60B Magnesium** als separaten Leistungsbereich an.
+> Hinweis zur Fähigkeit: Diese Seite beschreibt das Semi-Solid-Verfahren als technische Option. Produktionsverfügbarkeit, Legierungsqualifizierung, Ausrüstung und Prüfumfang müssen für jedes RFQ schriftlich bestätigt werden.
+
+Semi-Solid-Rheogießen (SSR) liegt als Verfahrenskonzept zwischen konventionellem Hochdruck-Druckguss (HPDC) und Schmieden. Diese Seite erläutert die technische Route, ohne Produktionsverfügbarkeit, Legierungsqualifizierung, Ausrüstung oder Prüfumfang als bestätigt darzustellen; diese Punkte werden pro RFQ geprüft.
 
 Diese Seite erklärt, was Semi-Solid-Rheogießen ist, wie der Prozess funktioniert, wie es sich von HPDC und Thixogießen unterscheidet, welche Legierungen und Designs geeignet sind, wie wir die Qualität steuern und genau, was Sie bei einer Angebotsanfrage senden sollten.
 
@@ -121,7 +126,7 @@ SSR ist eine Ein-Schritt-Route mit Suspension auf Abruf. Die Schritte sind im sc
   </defs>
   <rect class="bx" x="6" y="45" width="118" height="58" rx="8"/>
   <text class="tx" x="65" y="70">1. Schmelzen &amp; Legieren</text>
-  <text class="txs" x="65" y="88">A357, entgasen &amp; raffinieren</text>
+  <text class="txs" x="65" y="88">projektbezogene Aluminiumlegierung, entgasen &amp; raffinieren</text>
   <rect class="bx" x="150" y="45" width="118" height="58" rx="8"/>
   <text class="tx" x="209" y="70">2. Slurry-Aufbereitung</text>
   <text class="txs" x="209" y="88">kühlen + scheran auf 30–65%</text>
@@ -144,7 +149,7 @@ SSR ist eine Ein-Schritt-Route mit Suspension auf Abruf. Die Schritte sind im sc
 
 *Schematischer Prozessablauf — illustrativ, keine spezifische Fertigungszelle.*
 
-1. **Schmelzen & legieren.** A357 (oder projektspezifischer Werkstoff) wird geschmolzen, entgast und kornverfeinert auf eine kontrollierte Chemie.
+1. **Schmelzen & legieren.** projektbezogene Aluminiumlegierung (oder projektspezifischer Werkstoff) wird geschmolzen, entgast und kornverfeinert auf eine kontrollierte Chemie.
 2. **Slurry-Aufbereitung.** Die Schmelze wird in den Zweiphasenbereich abgekühlt und durch Scherung (mechanisches oder elektromagnetisches Rühren) in eine globulare Semi-Solid-Suspension beim Ziel-Feststoffanteil überführt.
 3. **Dosieren & injizieren.** Eine kontrollierte Suspensionscharge wird in das Werkzeug injiziert. Da die Suspension thixotrop ist, verläuft die Füllung laminar und der Lufteinschluss ist minimal.
 4. **Erstarren & auswerfen.** Das Bauteil erstarrt schnell im Werkzeug und wird Near-Net-Shape ausgeworfen. Vakuumunterstützung kann die Gasporosität dort weiter senken, wo spezifiziert.
@@ -161,20 +166,20 @@ Die Prozesswahl ist ein Kompromiss zwischen Porosität, Festigkeit, Toleranzen, 
 | Füllverhalten | Laminar, geringer Lufteinschluss | Turbulent, hoher Lufteinschluss | Laminar, geringer Lufteinschluss | Festkörperumformung |
 | Porositätstendenz | Geringer als HPDC | Höher (Gas + Schwindung) | Geringer als HPDC | Sehr gering |
 | Mechanische Eigenschaften | Eher schmiedenah als HPDC | Geringer (porositätsbegrenzt) | Eher schmiedenah als HPDC | Höchste |
-| Typ. Mindestwand | 1,0–1,2 mm (projektabhängig) | ~0,8–1,0 mm | 1,0–1,2 mm | n. a. (umgeformt) |
+| Typ. Mindestwand | im RFQ bestätigen | ~0,8–1,0 mm | 1,0–1,2 mm | n. a. (umgeformt) |
 | Durchsatz / Kosten | Guss-Niveau | Guss-Niveau (niedrigste) | Guss-Niveau | Langsamste / höchste |
 | Beste Eignung | Strukturell, dichthal­tig, leicht | Großserie, dünne Wände | Strukturell, gleichmäßiger Bolzen | Höchstbelastung, einfache Formen |
 
-### Werkstoffe: A357-Aluminium und verwandte Güten
+### Werkstoffe: projektbezogene Aluminiumlegierung-Aluminium und verwandte Güten
 
-**A357 ist der primäre Semi-Solid-Aluminiumwerkstoff von Kingship.** Es ist eine Al–Si–Mg-Legierung mit höherem Magnesiumgehalt als A356, was höhere Festigkeit und gute Ansprechbarkeit auf Wärmebehandlung T5/T6 ergibt — geeignet für strukturelle und luftfahrttaugliche Bauteile.
+**Die Aluminiumlegierung ist projektspezifisch festzulegen.** Legierungsfamilie, Chemie und Wärmebehandlungsverhalten werden anhand der Zeichnung und einer freigegebenen Materialspezifikation geprüft.
 
 | Güte | Familie | Hinweise zur Semi-Solid-Verwendung |
 | --- | --- | --- |
-| **A357** | Al–Si–Mg (höheres Mg) | Primäre Güte. Höhere Festigkeit als A356; bevorzugt für strukturelle / hochzuverlässige Teile. Wärmebehandelbar (T5/T6). |
-| **A356** | Al–Si–Mg (niedrigeres Mg) | Verwandte Standardgüte; projektbezogen geprüft, wo A357s Mehrfestigkeit nicht erforderlich ist. |
-| **319** | Al–Si–Cu | Eine *eigenständige*, kupferhaltige Güte für Antriebs-/hochtemperaturbelastete Teile. Sie ist **nicht** identisch mit A357 und darf nicht damit verwechselt werden; nur angeboten, wo die Anwendung ihre Eigenschaften erfordert. |
-| **A360 / 360.0** | Al–Si (hohes Fe) | Eine Standard*-Konventionsdruckguss*-Güte. **Derzeit kein angebotener Semi-Solid-Werkstoff.** Nur gelistet, um Verwechslung mit A357 zu vermeiden. |
+| **projektbezogene Aluminiumlegierung** | Al–Si–Mg (höheres Mg) | Primäre Güte. Höhere Festigkeit als A356; bevorzugt für strukturelle / hochzuverlässige Teile. Wärmebehandelbar (T5/T6). |
+| **A356** | Al–Si–Mg (niedrigeres Mg) | Verwandte Standardgüte; projektbezogen geprüft, wo projektbezogene Aluminiumlegierungs Mehrfestigkeit nicht erforderlich ist. |
+| **319** | Al–Si–Cu | Eine *eigenständige*, kupferhaltige Güte für Antriebs-/hochtemperaturbelastete Teile. Sie ist **nicht** identisch mit projektbezogene Aluminiumlegierung und darf nicht damit verwechselt werden; nur angeboten, wo die Anwendung ihre Eigenschaften erfordert. |
+| **A360 / 360.0** | Al–Si (hohes Fe) | Eine Standard*-Konventionsdruckguss*-Güte. **Derzeit kein angebotener Semi-Solid-Werkstoff.** Nur gelistet, um Verwechslung mit projektbezogene Aluminiumlegierung zu vermeiden. |
 
 **Magnesium ist ein separater Leistungsbereich.** AZ91D und AM60B Magnesium werden innerhalb derselben Semi-Solid-/Magnesium-Rheogieß-Familie angeboten, aber sie sind **nicht** als Werkstoffe dieses Aluminiumprozesses gelistet. Wenn Ihr Programm magnesiumbasiert ist, siehe unsere [Magnesium-Druckguss-Leistungen](https://kingship.alumcasting.com/de/magnesium-die-casting/) — Materialzertifikate begleiten jede Anfrage.
 
@@ -222,7 +227,7 @@ Geringe Porosität und Leichtbau machen SSR überall attraktiv, wo Strukturleist
 - **EV-Batteriegehäuse und -träger** — dichthal­tige, leichte Gehäuse.
 - **Strukturkonsolen und Hilfsrahmen** — Fahrwerk- und Federungsbauteile.
 - **Antriebskomponenten** — Gehäuse und Träger, wo 319 (kupferhaltig) spezifiziert werden kann.
-- **Luftfahrt-Konsolen und Gehäuse** — wo A357s Festigkeit und Wärmebehandlung helfen.
+- **Luftfahrt-Konsolen und Gehäuse** — wo projektbezogene Aluminiumlegierungs Festigkeit und Wärmebehandlung helfen.
 - **Telekom-/5G-Gehäuse und Kühlkörper** — steife, leichte Aluminiumteile.
 
 ### Nachbearbeitung
@@ -242,7 +247,7 @@ Eine vollständige Anfrage lässt unsere Ingenieure schnell nützliches DFM-Feed
 | Bereitzustellen | Warum es wichtig ist |
 | --- | --- |
 | 3D-Modell / Zeichnung (STEP, IGES, PDF) | Ermöglicht DFM, Anschnitt- und Machbarkeitsprüfung. |
-| Ziellegierung (z. B. A357) | Bestimmt Prozessroute, Suspension und Wärmebehandlung. |
+| Ziellegierung (z. B. projektbezogene Aluminiumlegierung) | Bestimmt Prozessroute, Suspension und Wärmebehandlung. |
 | Geschätztes Jahresvolumen (EAU) | Bestimmt Werkzeug- und Prozesswirtschaftlichkeit. |
 | Kritische Maße & Toleranzen | Identifiziert Merkmale, die CNC vs. rohgussbedarf erfordern. |
 | Oberflächenbehandlung (Eloxieren, Strahlen) | Bestätigt Nachbearbeitungsfähigkeit. |

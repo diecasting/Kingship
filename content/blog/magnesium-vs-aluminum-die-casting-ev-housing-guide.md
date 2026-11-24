@@ -13,7 +13,6 @@ For EV housings, choosing between [magnesium](/magnesium-die-casting) and alumin
 
 This guide gives sourcing and engineering teams a decision framework focused on production reality.
 
-![EV die casting housing material decision](/img/ev-powertrain-die-cast-housing.webp "Material selection should align with performance and manufacturing risk")
 
 ## 1. Weight Reduction Potential
 

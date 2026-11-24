@@ -1,5 +1,5 @@
 ---
-title: "Medical Device Components: Precision CNC Machining | KingShip"
+title: "Medical Device Components: Precision CNC Machining"
 description: "Clean, dimensionally stable machined components for diagnostic instruments and medical devices, built with rigorous process controls."
 translationKey: "industry-medical"
 schema:
@@ -7,9 +7,9 @@ schema:
     - question: "What medical components does KingShip produce?"
       answer: "KingShip produces clean, dimensionally stable machined parts for diagnostic instruments, device housings and fixtures, with tight tolerances and consistent surface quality."
     - question: "How does KingShip ensure medical part quality?"
-      answer: "Every part is produced with rigorous process controls, dimensional inspection and full traceability, and we apply the same discipline used across our IATF 16949 and ISO 9001 certified operations."
+      answer: "Supplier quality and inspection requirements are confirmed for each medical-device program. The applicable certificate scope and documentation package are agreed at RFQ."
     - question: "Which processes are used for medical parts?"
-      answer: "Medical components are primarily produced through precision 3/4/5-axis CNC machining for the accuracy and surface finish that devices and instruments require."
+      answer: "Medical components can be reviewed for CNC post-machining, with machine, tolerance and inspection scope confirmed for the specific part."
     - question: "Can KingShip support medical device prototyping?"
       answer: "Yes. Our CNC capability takes medical parts from prototype through production, holding tight tolerances and repeatable quality across the program lifecycle."
 ---
@@ -22,7 +22,7 @@ From diagnostic instruments to therapy and monitoring devices, the [medical equi
 
 ## Precision CNC machining
 
-Our [precision CNC machining](/cnc-machining/) centers run 3, 4 and 5-axis programs for the tight tolerances and fine finishes that medical parts require. Multi-axis capability lets us hold complex geometries in a single setup, reducing handling and improving repeatability.
+CNC post-machining is reviewed against the drawing, datum scheme, fixture plan and project inspection requirements. Machine specifications are confirmed per part.
 
 ## Aluminum parts manufacturing
 
@@ -30,17 +30,17 @@ For lighter, corrosion-resistant device structures, our [aluminum parts manufact
 
 ## Inspection capability
 
-Every medical part is verified through dimensional inspection and in-process checks aligned to our ISO 9001 certified system. We confirm critical features, fits and finishes so each component ships within specification, lot after lot.
+Inspection methods, critical characteristics, sampling and acceptance criteria are agreed for each medical-device project.
 
 ## Traceability
 
-Full production traceability is built into every program. Material batches, process parameters and inspection results are recorded and retrievable, giving healthcare customers the documented control and accountability their regulatory programs expect.
+Traceability level is defined at RFQ and may include material lot, process record and inspection-result requirements for the agreed program.
 
 ## Capabilities for medical
 
-- Precision 3/4/5-axis CNC machining for tight tolerances and fine finishes
+- CNC post-machining and inspection planning confirmed per medical part
 - Stable, repeatable components for diagnostic and device housings
-- Dimensional inspection and full production traceability
-- Prototype-to-production support under ISO 9001 discipline
+- Project-defined dimensional inspection and traceability
+- Supplier qualification and quality documentation agreed at RFQ
 
-Our machining-centered workflow delivers the accuracy and consistency medical applications demand, with quality controls aligned to our certified manufacturing system.
+Inspection, traceability and documentation requirements are defined against the medical-device program. Any certificate or manufacturing-system claim must be checked against the exact holder and scope before use.

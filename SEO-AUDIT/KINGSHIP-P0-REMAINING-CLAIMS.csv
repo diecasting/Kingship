@@ -1,0 +1,15 @@
+priority,language,file,claim_area,current_risk,required_action,evidence_status,deployment_gate
+P0,DE,data/homepage/de.yaml,5000T and 400T-5000T equipment claims,Conflicts with equipment evidence,Replace with project-specific machine-selection wording,PENDING,FAIL
+P0,ES,data/homepage/es.yaml,5000T and 400T-5000T equipment claims,Conflicts with equipment evidence,Replace with project-specific machine-selection wording,PENDING,FAIL
+P0,FR,data/homepage/fr.yaml,5000T and 400T-5000T equipment claims,Conflicts with equipment evidence,Replace with project-specific machine-selection wording,PENDING,FAIL
+P0,JA,data/homepage/ja.yaml,5000T and 400T-5000T equipment claims,Conflicts with equipment evidence,Replace with project-specific machine-selection wording,PENDING,FAIL
+P0,IT,data/homepage/it.yaml,5000T and 400T-5000T equipment claims,Conflicts with equipment evidence,Replace with project-specific machine-selection wording,PENDING,FAIL
+P0,KO,data/homepage/ko.yaml,5000T and 400T-5000T equipment claims,Conflicts with equipment evidence,Replace with project-specific machine-selection wording,PENDING,FAIL
+P0,ALL,data/homepage/*.yaml,160T-2250T magnesium range,Not supported by reconciled equipment evidence,Remove specific range,REJECTED/PENDING,FAIL
+P0,ALL,data/homepage/*.yaml,blanket ±0.01 mm,No product capability study,Use feature-specific wording,REJECTED as blanket claim,FAIL
+P0,ALL,data/homepage/*.yaml,zéro-défaut/zero-defect,No universal acceptance evidence,Remove absolute quality promise,REJECTED,FAIL
+P0,ALL,data/homepage/*.yaml,100000-shot tool life,No die-history evidence,Remove numeric tool-life claim,PENDING,FAIL
+P1,ALL,data/company.yaml,Organization alternate name,No signed AlumCasting/KingShip brand assignment,Do not list AlumCasting as KingShip alias,PENDING,FAIL
+P1,ALL,data/company.yaml,Service Schema descriptions,Previously contained unsupported axes/equipment/in-house claims,Use project-specific verified descriptions,PENDING,REVIEW
+P1,ALL,content/industries/*,Industry body claims,Some English/translated sentences still imply broader capability,Continue line-by-line source review,PENDING,REVIEW
+P0,ALL,IMAGE-PUBLIC-AUTHORIZATION-REGISTER.csv,Image reuse authority,30/30 authorization records pending,Do not use images in new external media; review website rights,PENDING,FAIL

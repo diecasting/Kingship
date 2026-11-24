@@ -1,18 +1,16 @@
 ---
 title: "Moulage sous pression du magnésium (HPDC) – Alliages AZ91D et AM60B"
-description: "Kingship fabrique des pièces structurelles en magnésium à paroi mince par HPDC (400T–3000T) pour l'automobile, le VE et l'industrie. AZ91D/AM60B, protection anticorrosion, CNC de précision."
+description: "Guide technique du moulage sous pression magnésium AZ91D et AM60B : choix d'alliage, parois minces, corrosion, usinage CNC et exigences machine et contrôle à confirmer au RFQ."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/magnesium-die-casting-banner.webp"
-featureImageAlt: "Ligne de moulage sous pression du magnésium avec flotte de machines 400T–3000T"
 showTableOfContents: false
 url: "/fr/magnesium-die-casting/"
 service:
   name: "Moulage sous pression du magnésium"
   category: "Moulage sous pression"
-  tagline: "HPDC magnésium pour l'allègement de 400T à 3000T – pièces structurelles à paroi mince pour l'automobile, le VE et l'industrie."
+  tagline: "Ingénierie HPDC magnésium en AZ91D et AM60B ; machine, alliage et conception confirmés au DFM et au RFQ."
   materials:
     - "AZ91D"
     - "AM60B"
@@ -21,15 +19,15 @@ service:
     - "Usinage CNC"
     - "Analyse de flux et DFM"
   equipment:
-    - "Flotte HPDC 400T–3000T"
+    - "Encombrement machine HPDC confirmé au RFQ"
     - "Atelier CNC de haute précision"
   specifications:
     - label: "Force de fermeture"
-      value: "400T – 3000T"
+      value: "encombrement confirmé au RFQ"
     - label: "Épaisseur min. de paroi"
-      value: "1,0–1,2 mm (selon le projet)"
+      value: "à confirmer au RFQ"
     - label: "Tolérance CNC"
-      value: "±0,01 mm (après usinage)"
+      value: "faisabilité par caractéristique au DFM"
     - label: "Traitement de surface"
       value: "Selon le projet ; procédés confirmés : grenaillage et anodisation"
   industries:
@@ -64,7 +62,7 @@ service:
     - q: "Quels alliages de magnésium coulez-vous ?"
       a: "Les alliages de magnésium confirmés sont AZ91D et AM60B. AZ91D est l'alliage courant à usage général ; AM60B est retenu lorsque la ductilité et l'absorption d'énergie au choc priment. Les autres alliages sont évalués en DFM selon le projet, et non proposés en standard."
     - q: "Quelle est votre pièce maximale ?"
-      a: "Les machines HPDC 400T–3000T produisent des pièces structurelles à paroi mince. Une épaisseur d'environ 1,0–1,2 mm est un repère dépendant du projet (alliage, géométrie, distance d'écoulement, conditions du projet). Une tolérance de ±0,01 mm peut être atteinte sur des caractéristiques définies dans des conditions de reprise d'usinage adaptées ; elle est confirmée par cote lors de la revue de plan et DFM."
+      a: "Les machines HPDC encombrement machine confirmé par projet produisent des pièces structurelles à paroi mince. Une épaisseur d'environ 1,0–1,2 mm est un repère dépendant du projet (alliage, géométrie, distance d'écoulement, conditions du projet). Une tolérance de ±0,01 mm peut être atteinte sur des caractéristiques définies dans des conditions de reprise d'usinage adaptées ; elle est confirmée par cote lors de la revue de plan et DFM."
     - q: "Comment la qualité et les dimensions sont-elles définies ?"
       a: "Les caractéristiques contrôlées, la méthode de mesure, l'échantillonnage et la documentation sont définis par projet au devis. Premier article, documentation PPAP et vérification CMM sont des exemples de périmètre à convenir, non des moyens inclus par défaut. Aucune validité actuelle des certificats IATF 16949 ou ISO 9001 n'est revendiquée."
 ---
@@ -77,7 +75,6 @@ Le magnésium, d'une densité de **1,74 g/cm³**, est environ **33 % plus léger
 
 [Comparez le magnésium et l'aluminium en moulage](https://alumcasting.com/magnesium-vs-aluminum-die-casting/) pour comprendre pourquoi nombre de clients choisissent la [réduction de poids par changement de matériau](https://alumcasting.com/aluminum-to-magnesium-conversion-weight-reduction/).
 
-![Ligne de moulage sous pression du magnésium](/img/magnesium-die-casting-banner.webp)
 
 ### 🔬 Alliages de magnésium – AZ91D et AM60B
 
@@ -95,11 +92,10 @@ Nous coulons principalement deux alliages éprouvés :
 
 ---
 
-## 🏭 Procédé HPDC et équipement (400T–3000T)
+## 🏭 Procédé HPDC et équipement (encombrement machine confirmé par projet)
 
-Le programme dispose d'une **plage de machines HPDC 400T–3000T**, complétée par l'usinage CNC secondaire. L'atmosphère de gaz protecteur et la manipulation sûre du bain et des copeaux sont des pratiques industrielles générales du magnésium. L'analyse de flux et DFM est réalisée dès la phase de devis ; voir la [capacité de fabrication](https://alumcasting.com/manufacturing-capabilities/).
+Le programme dispose d'une **plage de machines HPDC encombrement machine confirmé par projet**, complétée par l'usinage CNC secondaire. L'atmosphère de gaz protecteur et la manipulation sûre du bain et des copeaux sont des pratiques industrielles générales du magnésium. L'analyse de flux et DFM est réalisée dès la phase de devis ; voir la [capacité de fabrication](https://alumcasting.com/manufacturing-capabilities/).
 
-![Ligne de production de moulage automatisée](/img/automated-die-casting-production-line.webp)
 
 | Paramètre | Spécification |
 | :--- | :--- |
@@ -118,7 +114,6 @@ Le magnésium impose des règles de conception spécifiques. Nous vous accompagn
 2. **Parois minces :** env. 1,0–1,2 mm à titre de repère dépendant du projet ; zones d'usinage et renforts planifiés au niveau de l'outillage.
 3. **Protection anticorrosion :** le magnésium nu ne doit pas être réputé résistant à la corrosion. Le grenaillage et l'anodisation sont des procédés confirmés ; le [revêtement MAO](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/), les couches de conversion et l'E-Coating sont des options générales du secteur à évaluer par projet, avec des mesures de conception contre la corrosion par contact.
 
-![Traitement de surface avancé pour pièces magnésium](/img/suretech-650-surface-treatment.webp)
 
 ---
 
@@ -126,7 +121,6 @@ Le magnésium impose des règles de conception spécifiques. Nous vous accompagn
 
 Les caractéristiques contrôlées, la méthode de mesure, l'échantillonnage et la documentation sont définis par projet au devis ; premier article, documentation PPAP et vérification CMM sont des exemples de périmètre à convenir. Kingship travaille selon les exigences convenues du projet ; aucune validité actuelle des certificats IATF 16949 ou ISO 9001 n'est revendiquée.
 
-![Inspection aux rayons X pour le contrôle de porosité](/img/x-ray-detector.webp)
 
 ---
 

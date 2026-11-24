@@ -7,6 +7,13 @@
   {{- $lang := .Lang -}}
   {{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
   {{- $faq = $hp.faq.items -}}
+  {{- if not .Site.Params.publicMediaUseEnabled -}}
+    {{- $filtered := slice -}}
+    {{- range $faq -}}
+      {{- if not (strings.Contains .answer "IATF") -}}{{- $filtered = $filtered | append . -}}{{- end -}}
+    {{- end -}}
+    {{- $faq = $filtered -}}
+  {{- end -}}
 {{- end -}}
 {{- if $faq -}}
 <script type="application/ld+json">

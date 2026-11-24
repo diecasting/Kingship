@@ -1,4 +1,4 @@
-﻿---
+---
 title: "DFM"
 description: "Contenido en espanol sobre DFM, reduccion de costes e industrializacion."
 layout: "list"

@@ -1,12 +1,10 @@
 ---
 title: "ダイカスト部品の切削加工・二次加工サービス"
-description: "ダイカスト部品の切削加工・二次加工を検討する設計・調達担当者へ。A357・AZ91D・AM60B の取り代設計、基準面と幾何公差の指定、後加工の公差の考え方、見積依頼に必要な図面・データを整理します。鋳造から仕上げ加工までの一貫対応についてもご相談いただけます。"
+description: "アルミ・マグネシウムダイカスト部品の切削・二次加工を検討する設計・調達担当者へ。取り代、基準面、検査計画、見積依頼に必要な図面・データを整理します。"
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "青い床の工場でCNC加工機が両側に並ぶ通路"
 showTableOfContents: false
 url: "/ja/cnc-machining/"
 service:
@@ -14,9 +12,8 @@ service:
   category: "精密加工"
   tagline: "鋳造後のダイカスト部品に、図面基準の切削・仕上げ加工を"
   materials:
-    - "アルミニウム合金 A357"
-    - "マグネシウム合金 AZ91D"
-    - "マグネシウム合金 AM60B"
+    - "アルミニウム鋳造合金 — RFQで確認"
+    - "マグネシウム鋳造合金 — RFQで確認"
   processes:
     - "ダイカスト後の CNC フライス・面削り"
     - "穴あけ・タッピング・ねじ切り"
@@ -29,7 +26,7 @@ service:
     - "図面・幾何公差に基づく検査工程の設定"
   specifications:
     - label: "加工公差"
-      value: "±0.01 mm（後加工・案件依存）"
+      value: "図面、基準、段取り、測定方法を確認し、部位ごとに定義"
     - label: "最大部品サイズ"
       value: "図面・案件ごとに定義"
     - label: "表面粗さ"
@@ -58,18 +55,18 @@ service:
     - "ダイカスト部品 切削加工 見積 図面 送付"
     - "ダイカスト 薄肉 反り 変形 切削で抑える"
   related_resources:
-    - title: "CNC加工公差ガイド"
-      url: "https://alumcasting.com/cnc-machining-tolerance-guide/"
-    - title: "5軸加工プレイブック"
-      url: "https://alumcasting.com/5-axis-machining-playbook/"
+    - title: "金型設計・製作"
+      url: "/ja/tooling/"
+    - title: "アルミニウム高圧ダイカスト"
+      url: "/ja/aluminum-die-casting/"
   wordpress_resources:
-    - title: "鋳造＋CNC一貫"
-      url: "https://alumcasting.com/one-stop-cast-cnc-turnkey/"
+    - title: "RFQの技術レビューを依頼"
+      url: "/ja/contact/"
   faq:
     - q: "ダイカストの取り代（加工代）はどの程度必要ですか？"
       a: "取り代は部位の機能、鋳造方案、湯流れ、合わせ面の位置によって変わります。図面と DFM レビューで鋳肌や押出しピン跡を踏まえ、案件ごとに設定します。一律の数値ではなく、確実に仕上げられる余裕を基準面とともに取り決めます。"
     - q: "切削後に達成できる公差はどのくらいですか？"
-      a: "後加工の適切な条件下で、定義した部位に ±0.01 mm を達成できる場合があります。達成値は部品形状・材料・加工プロセスと段取り・基準面（デイタム）の取り方・検査方法・案件固有の要求に左右され、図面と DFM レビューで確認します。全ての部位への一律適用ではありません。"
+      a: "達成可能な公差は、部品形状、材料、加工プロセス、段取り、基準面の取り方、検査方法によって変わります。図面とDFMレビューで部位ごとに確認し、全部位へ一律適用する数値としては扱いません。"
     - q: "鋳造と加工で基準面をどう合わせますか？"
       a: "鋳造図の基準と加工図の基準面 A・B・C を対応させ、機能寸法と位置度を同じ基準系で指定します。段取り替えが増えるほど公差が累積するため、単一の段取りで基準面から加工できる治具計画を DFM 段階で検討します。基準の取り方は図面ごとに定義します。"
     - q: "鋳造から仕上げまで一貫で依頼できますか？"
@@ -85,10 +82,7 @@ service:
 ダイカストはニアネットシェイプで複雑な形状を一度に得られる半面、シール面・嵌合面・ねじ座面といった機能面は鋳肌のままでは成立しません。本ページでは、鋳造方案と後加工をつなぐ取り代設計、基準面と幾何公差の指定、達成できる公差の捉え方、そして見積依頼までに揃えるべき図面・データを、設計・調達の実務順に沿って整理します。要素技術の一般知識と、案件ごとに定義すべき事項を区別して読んでいただくことを想定しています。
 
 <!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="青い床の工場でCNC加工機が両側に並ぶ通路" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC加工工場</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -121,7 +115,7 @@ service:
 
 後加工の公差は一律値ではなく、部位ごとに条件付きで扱います。達成できる公差の捉え方は次のとおりです。
 
-**【達成できる公差について】** 後加工の適切な条件下で、図面に定義した特定の部位には ±0.01 mm の公差を達成できる場合があります。ただし達成できる公差は、部品形状・材料・加工プロセスと段取り・基準面（デイタム）の取り方・検査方法・案件固有の要求に左右されます。図面と DFM レビューの段階で部位ごとに確認するものであり、すべての部品・すべての部位に一律に適用される包括的な値ではありません。
+**【達成できる公差について】** 達成できる公差は、部品形状・材料・加工プロセスと段取り・基準面（デイタム）の取り方・検査方法・案件固有の要求に左右されます。図面と DFM レビューの段階で部位ごとに確認し、すべての部品・すべての部位に一律に適用する値としては扱いません。
 
 したがって図面には、部位ごとの目標公差と測定方法を併記します。判定は測定温度・測定点・測定具で変わるため、検査方法まで受入基準に含めることが量産時のばらつきを抑えます。
 
@@ -139,10 +133,7 @@ service:
 対象は鋳造用の A357 アルミニウム合金と AZ91D・AM60B マグネシウム合金です。A357 は靭性が高く切りくずが長くつながりやすいため、すくい角の大きい刃先と切りくず排出経路の確保が工具寿命に効きます。マグネシウム合金は比重が小さく切削抵抗が低い反面、熱膨張係数が大きく、加工熱で寸法が動きやすいので、仕上げ前の温度安定と測定環境の管理が要ります。AZ91D は鋳造性に優れ硬め、AM60B は延性が高くバリやむしれが出やすいため、送りと切込みの設定を変えます。微細なマグネシウム切屑は発火性を持つことが一般に知られており、切屑の回収・消火・切削油剤の選定は安全上の一般知識として工程に組み込みます。詳細は[マグネシウムダイカスト](https://kingship.alumcasting.com/ja/magnesium-die-casting/)のページも参照してください。
 
 <!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="切削工具にクーラントを供給しながら長尺アルミニウム鋳物をCNCフライス加工する様子" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">鋳物部品のCNCフライス加工</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -156,7 +147,7 @@ service:
 
 ### 面粗度、バリ取り、表面処理
 
-面粗度は Ra などの指標を図面の部位ごとに指定し、切削条件・工具・送り方向と対応づけて管理します。シール面や摺動面では数値だけでなく工具目の方向も機能に影響するため、仕上げパスを揃えることが肝要です。穴の出口、ボス際、段差部にはバリが残りやすく、後工程の組み付け傷やシール不良の原因になるため、バリ取りとエッジ処理を加工工程の一部として明示します。表面処理は案件の要求に応じて選び、確認済みの工程としてはショットブラストと陽極酸化（アルマイト）を挙げられます。化成処理・塗装などその他の仕上げは一般選択肢として、材質との適合と耐食要件を案件ごとに検討します。処理前に残る切削油や切屑の洗浄も、仕上がりを左右する実務上の要点です。
+面粗度は Ra などの指標を図面の部位ごとに指定し、切削条件・工具・送り方向と対応づけて管理します。シール面や摺動面では数値だけでなく工具目の方向も機能に影響するため、仕上げパスを揃えることが肝要です。穴の出口、ボス際、段差部にはバリが残りやすく、後工程の組み付け傷やシール不良の原因になるため、バリ取りとエッジ処理を加工工程の一部として明示します。表面処理の適用可否は RFQ で確認し、化成処理・塗装などを含む候補は材質との適合と耐食要件を案件ごとに検討します。処理前に残る切削油や切屑の洗浄も、仕上がりを左右する実務上の要点です。
 
 
 ### 鋳造と切削を一貫した工程で組む
@@ -193,8 +184,5 @@ service:
 
 
 <!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="加工前にCNC工作機械のテーブルに固定された大型トレイ状鋳物" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC工作機械テーブルに固定された鋳物</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->

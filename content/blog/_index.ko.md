@@ -1,11 +1,9 @@
 ---
 title: "정밀 제조 및 금형 설계 기술 블로그"
-description: "20년 이상의 고압 다이캐스팅 전문성을 바탕으로 한 심층 산업 사례, 몰드 플로우 분석 가이드, 기공 완화 및 엔지니어링 조언."
+description: "알루미늄 및 마그네슘 다이캐스팅, 금형, 기공 제어, CNC 후가공, 검사 및 RFQ 준비를 다루는 기술 가이드."
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "technical-blog-banner.webp"
-featureImageAlt: "몰드 플로우 시뮬레이션을 분석하는 다이캐스팅 엔지니어링 팀"
 layout: "list"
 ---
 

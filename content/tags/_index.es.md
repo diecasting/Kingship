@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Tags tecnicos"
 description: "Navegacion por etiquetas para contenido tecnico de fundicion a presion en espanol."
 layout: "list"

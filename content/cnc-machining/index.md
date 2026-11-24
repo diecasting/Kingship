@@ -1,21 +1,18 @@
 ---
-title: "CNC Machining for Die-Cast Aluminium & Magnesium Components"
-description: "CNC post-machining of A357 aluminium and AZ91D/AM60B magnesium castings: machining allowance, datum strategy, conditional tolerances and RFQ inputs for sourcing teams."
+title: "CNC Machining for Die-Cast Components"
+description: "CNC post-machining for die-cast aluminum and magnesium parts: allowance, datum strategy, inspection planning and RFQ requirements."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "Aisle between rows of CNC machining centres on a blue workshop floor"
 showTableOfContents: false
 service:
   name: "CNC Machining"
   category: "Precision Machining"
-  tagline: "CNC post-machining that turns A357 aluminium and AZ91D/AM60B magnesium castings into functional, assembly-ready components."
+  tagline: "CNC post-machining for cast components, with the machining strategy and inspection scope agreed against the finished-part drawing."
   materials:
-    - "A357 aluminium casting alloy"
-    - "AZ91D magnesium casting alloy"
-    - "AM60B magnesium casting alloy"
+    - "Aluminium casting grades — confirmed at RFQ"
+    - "Magnesium casting grades — confirmed at RFQ"
   processes:
     - "CNC milling and drilling of cast components"
     - "Turning of cast features"
@@ -27,13 +24,13 @@ service:
     - "Dimensional inspection scope defined per project"
   specifications:
     - label: "Machining tolerance (post-machining, project-dependent)"
-      value: "±0.01 mm achievable on defined features under appropriate post-machining conditions"
-    - label: "HPDC machine range (casting)"
-      value: "400T – 3000T"
-    - label: "Min. wall thickness (typical, project-dependent)"
-      value: "1.0 – 1.2 mm, subject to material, geometry and flow distance"
+      value: "Defined per feature after drawing, datum, setup and inspection-method review"
+    - label: "Casting process"
+      value: "Machine and process route confirmed after part and tooling review"
+    - label: "Thin-wall feasibility"
+      value: "Reviewed against alloy, geometry, flow distance and inspection access"
     - label: "Surface finish"
-      value: "As specified on the drawing; confirmed processes include Shot Blasting and Anodizing"
+      value: "Drawing-defined; selected treatment confirmed at RFQ"
   industries:
     - "Automotive"
     - "EV"
@@ -55,35 +52,47 @@ service:
     - "casting and CNC machining integrated supplier"
     - "die casting machining RFQ drawing requirements"
   related_resources:
-    - title: "CNC Machining Tolerance Guide"
-      url: "https://alumcasting.com/cnc-machining-tolerance-guide/"
-    - title: "5-Axis Machining Playbook"
-      url: "https://alumcasting.com/5-axis-machining-playbook/"
+    - title: "Die Casting vs CNC Machining: Cost and Volume Decisions"
+      url: "/blog/die-casting-vs-cnc-machining-cost-lead-time-guide/"
+    - title: "RFQ Data Pack for a Comparable Die Casting Quote"
+      url: "/blog/die-casting-quote-template-rfq-data-pack/"
   wordpress_resources:
-    - title: "One-stop Cast + CNC Turnkey"
-      url: "https://alumcasting.com/one-stop-cast-cnc-turnkey/"
+    - title: "Die Casting Lead Time: From RFQ to SOP"
+      url: "/blog/die-casting-lead-time-rfq-to-sop-playbook/"
   faq:
-    - q: "Which materials do you machine after casting?"
-      a: "The confirmed casting alloys are A357 aluminium and the magnesium alloys AZ91D and AM60B. Machining behaviour differs between them, so cutting parameters, fixturing and thermal considerations are reviewed against the drawing for each project."
+    - q: "Which cast materials can be reviewed?"
+      a: "Aluminium and magnesium casting projects can be reviewed against the drawing, alloy condition, geometry, fixturing and inspection requirements. The exact grade is confirmed for each RFQ."
     - q: "What machining tolerance is achievable on a cast component?"
-      a: "A tolerance of ±0.01 mm can be achieved on defined features under appropriate post-machining conditions. The achievable tolerance depends on part geometry, material, machining process and setup, datum strategy, inspection method and project-specific requirements; it is confirmed during drawing and DFM review rather than applied as a blanket value to every part."
+      a: "Tolerance feasibility depends on part geometry, material, machining process, setup, datum strategy and inspection method. The requirement is reviewed feature by feature during drawing and DFM review rather than applied as a blanket value to every part."
     - q: "How should machining allowance and datums be specified?"
       a: "Provide the as-cast drawing and the finished-part drawing together, with datum A|B|C, geometric tolerances and the functional dimensions marked. Allowance, parting-line position and ejector marks are then reviewed during DFM so the first setup references a stable cast surface."
-    - q: "Can casting and CNC machining be supplied as one program?"
-      a: "Yes. Combining HPDC and post-machining in one program reduces vendor interfaces and lets DFM feedback change gating, draft or allowance before steel is cut. The inspection and documentation scope is agreed per project at RFQ stage."
+    - q: "Can casting and CNC machining be reviewed as one program?"
+      a: "The casting-to-machining interface can be reviewed together so allowance, datum strategy and inspection requirements are considered before tooling is released. The inspection and documentation scope is agreed per project at RFQ stage."
     - q: "What do you need to quote a cast-and-machined part?"
       a: "A 3D model (STEP or IGES), a 2D drawing with GD&T and datums, the alloy, annual volume and lot size, target tolerances per feature, surface finish, the required inspection and documentation scope, and whether the request is for prototypes or series production."
 ---
 
-## CNC Machining for Die-Cast Components: Allowance, Datums and Achievable Tolerances
+## CNC Post-Machining for Cast Components
+
+KingShip reviews CNC post-machining projects for die-cast components. Submit the
+STEP or IGES model, 2D drawing with GD&T, material and condition, annual volume
+and inspection requirements so the machining allowance, datum strategy,
+fixturing and quotation scope can be reviewed together.
+
+This page is written for design engineers, process engineers, sourcing managers
+and quality engineers who need to specify a cast-and-machined component and
+understand how tolerance, inspection and documentation requirements affect the
+process plan.
+
+[Send a casting and machining RFQ](/contact/) or continue with the technical
+requirements below.
+
+## Engineering Requirements for Cast-and-Machined Parts
 
 High-pressure die casting produces a near-net-shape blank. It does not produce the sealing faces, threaded holes, bearing seats or assembly datums that a finished part needs. CNC post-machining is where those functional features are created, and the decisions that govern it are taken on the drawing — not on the shop floor. This page is written for design engineers, process engineers, sourcing managers and quality engineers who need to specify a cast-and-machined component, decide what belongs on the casting drawing versus the machining drawing, and understand what a tolerance statement actually commits to.
 
 <!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Aisle between rows of CNC machining centres on a blue workshop floor" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC machining workshop</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -106,18 +115,22 @@ A datum scheme A|B|C ties the finished-part geometry to the same reference frame
 
 ### Feature design: bosses, ribs, holes, threads and sealing faces
 
-Bosses need enough local mass to support thread engagement without sinking or porosity at the root; ribs should stiffen without creating hot spots that feed shrinkage; and cored holes should be sized so the drill or tap removes a predictable amount of material. Sealing faces need a continuous machined land with a defined surface finish and no ejector marks inside the seal path. Wall thickness of approximately 1.0–1.2 mm is a project-dependent guide for thin-wall HPDC work — the achievable value depends on the alloy, part geometry, flow distance and the specific project conditions, and must be confirmed in DFM rather than assumed.
+Bosses need enough local mass to support thread engagement without sinking or porosity at the root; ribs should stiffen without creating hot spots that feed shrinkage; and cored holes should be sized so the drill or tap removes a predictable amount of material. Sealing faces need a continuous machined land with a defined surface finish and no ejector marks inside the seal path. Wall thickness is a function of alloy, part geometry, flow distance, gate and thermal design, and post-machining allowance. No universal minimum should be assumed; feasibility is confirmed for the specific part during DFM.
 
 ### Achievable tolerance and what governs it
 
-> A tolerance of ±0.01 mm can be achieved on defined features under appropriate post-machining conditions. The achievable tolerance depends on part geometry, material, machining process and setup, datum strategy, inspection method and project-specific requirements; it is confirmed during drawing and DFM review — not a blanket value for every part or every casting.
+Tolerance feasibility is defined feature by feature. It depends on part
+geometry, material, machining process and setup, datum strategy, inspection
+method and project-specific requirements. The final requirement is confirmed
+during drawing and DFM review and is not treated as a blanket value for every
+part or every casting.
 
 This distinction matters commercially. A tolerance is a property of a defined feature on a defined part, produced by a defined process and verified by a defined method — it is not a general capability statement. Thin walls deflect under clamping force; magnesium alloys expand more than aluminium with temperature; a feature reachable only in a second setup inherits the error of the first; and a measurement taken with a different method or at a different temperature can legitimately produce a different result. Requests for a single "machine capability" number should therefore be replaced with a per-feature tolerance table and an agreed inspection method.
 
 | Factor | Why it changes the achievable tolerance | What to specify at RFQ |
 |---|---|---|
 | Part geometry | Thin walls, overhangs and deep cavities deflect under cutting and clamping loads | Wall thickness, rib layout, unsupported spans |
-| Material | A357 aluminium and AZ91D/AM60B magnesium differ in thermal expansion, chip formation and stiffness | Confirmed alloy grade and condition |
+| Material | Aluminium and magnesium casting grades differ in thermal expansion, chip formation and stiffness | Alloy grade and condition for the project |
 | Machining process and setup | Each additional setup adds positional error; tool reach affects stiffness | Which features are machined in which setup |
 | Datum strategy | Inconsistent datums between casting, machining and inspection create apparent drift | Datum A\|B\|C and geometric tolerances on the drawing |
 | Inspection method | Results depend on method, temperature, fixturing and sampling plan | Agreed measurement method and acceptance criteria |
@@ -125,17 +138,21 @@ This distinction matters commercially. A tolerance is a property of a defined fe
 
 ### Machining A357 aluminium and AZ91D / AM60B magnesium
 
-A357 is the confirmed aluminium casting alloy; AZ91D and AM60B are the confirmed magnesium casting alloys. Their machining behaviour is not interchangeable. Magnesium has lower density and higher thermal expansion, cuts with lower forces, and produces fine chips that require disciplined housekeeping and appropriate fire-safety precautions — a general industry consideration, not a claim about any specific factory setup. AM60B is generally selected where ductility and impact energy absorption matter, while AZ91D is the widely used general-purpose casting alloy with a balance of castability and strength. Cutting parameters, coolant choice, tool geometry and chip evacuation should be set against the actual grade and the part, and the appropriate safety measures reviewed with the machining supplier.
+A357 aluminium and AZ91D/AM60B magnesium are common grades discussed in cast-component projects, but supplier availability and suitability must be confirmed for each RFQ. Their machining behaviour is not interchangeable. Magnesium has lower density and higher thermal expansion, cuts with lower forces, and produces fine chips that require disciplined housekeeping and appropriate fire-safety precautions — a general industry consideration, not a claim about any specific factory setup. AM60B is generally selected where ductility and impact energy absorption matter, while AZ91D is a general-purpose casting alloy with a balance of castability and strength. Cutting parameters, coolant choice, tool geometry and chip evacuation should be set against the actual grade and the part.
 
 ### Surface finish, deburring and post-processing
 
-Surface finish is a drawing requirement, not a universal promise: Ra targets should be attached to the specific functional face that needs them. Deburring strategy belongs in the process plan too, because burrs on a sealing land or in a threaded boss cause assembly problems that are expensive to find after coating. Confirmed secondary processes include Shot Blasting and Anodizing; other surface treatments sometimes discussed for magnesium — conversion coatings, e-coating or micro-arc oxidation — are general industry options whose suitability, corrosion performance and availability must be evaluated per project. No corrosion-resistance claim should be made for bare magnesium without a defined treatment.
+Surface finish is a drawing requirement, not a universal promise: Ra targets
+should be attached to the specific functional face that needs them. Deburring
+strategy belongs in the process plan too, because burrs on a sealing land or in
+a threaded boss cause assembly problems that are expensive to find after
+coating. Secondary process availability is confirmed at RFQ; suitability,
+corrosion performance and acceptance criteria must be evaluated for the actual
+alloy and application. No corrosion-resistance claim should be made for bare
+magnesium without a defined treatment.
 
 <!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="CNC milling of an elongated aluminium casting with coolant applied at the cutting tool" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC milling of a cast component</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -146,7 +163,7 @@ Surface finish is a drawing requirement, not a universal promise: Ra targets sho
 |---|---|---|---|
 | Surface | Cast skin, parting line, ejector marks | Machined functional faces | Ra target per face, deburring method |
 | Dimensional reference | Cast edges and draft surfaces | Datum A\|B\|C machined pads | Which features are inspected in which setup |
-| Appearance / protection | As-cast finish | Shot Blasting, Anodizing available | Treatment choice, masking of machined faces |
+| Appearance / protection | As-cast finish | Selected surface treatment | Treatment, availability, masking of machined faces |
 | Documentation | Casting drawing | Finished-part drawing + inspection plan | Inspection and documentation scope per project |
 
 ### Integrating casting and CNC in one program
@@ -190,7 +207,7 @@ The fastest route to a comparable quotation is a complete technical package. Mis
 |---|---|
 | 3D model (STEP / IGES) | Defines geometry for DFM, fixture and tool-path review |
 | 2D drawing with GD&T and datum A\|B\|C | Defines which features are functional and how they are verified |
-| Alloy (A357 / AZ91D / AM60B) | Determines cutting behaviour, thermal and safety considerations |
+| Alloy or candidate grade (for example A357 / AZ91D / AM60B) | Determines cutting behaviour, thermal and safety considerations |
 | Annual volume and lot size | Determines process plan, fixturing and amortisation |
 | Target tolerances per feature | Distinguishes critical from non-critical dimensions |
 | Surface finish (Ra) per face | Determines finishing and post-processing steps |
@@ -203,8 +220,5 @@ Send the package through the [contact / RFQ page](https://kingship.alumcasting.c
 
 
 <!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Large tray-shaped casting fixtured on a CNC machine table before machining" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Casting fixtured on a CNC machine table</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->

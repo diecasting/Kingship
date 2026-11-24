@@ -5,7 +5,7 @@ layout: "background"
 showTableOfContents: false
 ---
 
-形状、肉厚、公差要件を確認し、24時間以内に技術回答をお送りします。
+形状、肉厚、公差、品質資料を確認したうえで技術検討を行います。見積回答時期は、図面一式と案件範囲の確認後にご案内します。
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

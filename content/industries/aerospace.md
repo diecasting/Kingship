@@ -1,20 +1,20 @@
 ---
-title: "Aerospace Components: Magnesium & Aluminum Casting | KingShip"
-description: "Lightweight, high-integrity magnesium and aluminum die cast and semi-solid rheocast components for flight and aerospace structural applications."
+title: "Aerospace Components: Magnesium & Aluminum Casting"
+description: "Lightweight magnesium and aluminum die-cast components for aerospace applications, with alloy, process, inspection and qualification scope confirmed per project."
 translationKey: "industry-aerospace"
 schema:
   faq:
     - question: "What aerospace parts does KingShip make?"
-      answer: "KingShip produces lightweight magnesium and aluminum structural components, brackets and housings where low mass and high integrity are critical, using semi-solid rheocasting and precision die casting."
-    - question: "Why is semi-solid rheocasting used for aerospace parts?"
-      answer: "Semi-solid rheocasting yields very low porosity and fine, uniform microstructure, giving aerospace components higher fatigue strength and reliability than conventional high-pressure die casting."
+      answer: "KingShip reviews lightweight magnesium and aluminum casting projects for brackets, housings and structural components. Alloy, process route and inspection requirements are confirmed against the drawing and the aerospace program's qualification requirements."
+    - question: "Is semi-solid rheocasting a verified production capability?"
+      answer: "Semi-solid rheocasting remains an engineering route under capability verification. It is not presented as an available aerospace production process until process, equipment, material and inspection evidence are confirmed for the project."
     - question: "Which alloys are used for aerospace casting?"
       answer: "We use AZ91D and AM60B magnesium for weight-critical parts and A356 aluminum where higher strength or corrosion resistance is required."
     - question: "How does KingShip verify aerospace part quality?"
-      answer: "Every part is verified with real-time X-ray porosity detection and dimensional inspection, and we apply rigorous process controls suitable for flight-critical applications."
+      answer: "Inspection methods, sampling and traceability are defined during aerospace-program qualification; no universal every-part inspection claim is made."
 ---
 
-Aerospace programs push the limits of strength-to-weight. KingShip delivers the low-porosity, high-integrity magnesium and aluminum components that help flight structures shed mass while holding their performance envelope.
+Aerospace programs prioritize strength-to-weight. KingShip reviews magnesium and aluminum casting projects against the drawing, process route, inspection requirements and available evidence.
 
 ## Lightweight aerospace components
 
@@ -24,9 +24,9 @@ Flight structures demand the lowest possible mass without sacrificing integrity.
 
 Magnesium is the lightest structural metal, and [magnesium die casting](/magnesium-die-casting/) lets us form complex, mass-critical aerospace parts in AZ91D and AM60B at high volume. Typical applications include brackets, enclosures, seat structures and actuator housings, where every gram saved improves fuel burn and payload.
 
-## Semi-solid rheocasting applications
+## Process-route review
 
-For the most demanding flight-critical parts, [semi-solid rheocasting](/semi-solid-rheocasting/) delivers a fine, uniform microstructure with very low porosity — far beyond conventional high-pressure die casting. That translates into higher fatigue strength and reliable performance for structural components, levers and load-bearing brackets.
+For flight-critical parts, process capability, material controls and inspection evidence must be demonstrated against the program specification. Semi-solid rheocasting is presented as a technical route only; production availability requires project-specific confirmation.
 
 ## Aluminum casting capability
 
@@ -34,7 +34,7 @@ Our [aluminum die casting](/aluminum-die-casting/) capability covers A356 and ot
 
 ## Quality inspection
 
-Every aerospace part is verified with real-time X-ray porosity detection and full dimensional inspection. Tight process controls and statistical monitoring keep flight-critical components within specification, lot after lot.
+Inspection methods, sampling, acceptance criteria and traceability are defined for each aerospace project before production approval.
 
 ## OEM manufacturing
 
@@ -42,9 +42,9 @@ As an OEM manufacturing partner, KingShip supports aerospace programs from desig
 
 ## Capabilities for aerospace
 
-- Semi-solid rheocast structural components with fine, uniform microstructure
+- Project-defined casting and inspection planning
 - Lightweight magnesium brackets and housings in AZ91D and AM60B
 - A356 aluminum parts for higher strength or corrosion-resistance needs
-- Real-time X-ray porosity detection and tight dimensional control
+- Project-defined X-ray, CMM and dimensional-inspection planning
 
-Our rheocasting process minimizes porosity and maximizes fatigue resistance, giving aerospace engineers a dependable path from prototype to qualified production part.
+The manufacturing route, acceptance criteria and qualification evidence are agreed before production approval.

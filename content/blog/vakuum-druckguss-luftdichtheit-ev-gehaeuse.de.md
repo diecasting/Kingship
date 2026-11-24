@@ -11,7 +11,6 @@ tags: ["EV", "Leak Test", "Quality", "DFM"]
 
 Bei EV-Komponenten entscheidet die Dichtheit direkt ueber Sicherheit und Lebensdauer. Der [Vakuum-Druckguss fuer EV-Batteriegehaeuse](https://alumcasting.com/ev-battery-housing-die-casting/) reduziert eingeschlossene Gase und verbessert die innere Strukturqualitaet deutlich.
 
-![5000T Druckgussmaschine fuer EV-Strukturteile](/img/5000ton-die-casting-machine.webp "Grossformatige HPDC-Anlage fuer EV-Strukturteile")
 
 ## Warum Vakuum fuer EV-Bauteile unverzichtbar ist
 
@@ -27,7 +26,6 @@ Wichtige Prozessziele:
 
 Eine saubere DFM-Phase senkt spaetere Kosten und Fehlerquote. Mit [DFM-Analyse im Druckguss](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/) lassen sich kritische Bereiche wie Anschnittlage, Entlueftung und Wandstaerkenspruenge frueh absichern.
 
-![Automatisierte Produktionslinie fuer stabile Serienprozesse](/img/automated-die-casting-production-line.webp "Automatisierte HPDC-Linie mit hoher Wiederholgenauigkeit")
 
 Typische Design-Regeln fuer EV-Cover:
 
@@ -39,7 +37,6 @@ Typische Design-Regeln fuer EV-Cover:
 
 Die Kombination aus [Roentgeninspektion](https://alumcasting.com/porosity-control-x-ray-inspection-castings/) und Dichtheitspruefung ist fuer EV-Gehause heute Standard. Fuer kritische Bauteile empfiehlt sich zudem ein Blick auf [pore-free die casting](https://alumcasting.com/pore-free-die-casting-weldable-automotive-structural-parts/).
 
-![Roentgenpruefung zur Erkennung innerer Fehler](/img/x-ray-detector.webp "Echtzeit-Roentgen fuer Porositaetsanalyse")
 
 Wenn Sie ein neues EV-Projekt planen, finden Sie hier weitere Referenzen:
 

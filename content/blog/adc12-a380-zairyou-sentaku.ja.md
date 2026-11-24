@@ -11,7 +11,6 @@ tags: ["Material", "Aluminum", "DFM"]
 
 ADC12とA380の選定は、強度、鋳造性、後[加工](/ja/cnc-machining)コストに直接影響します。
 
-![アルミダイカスト部品ストレージ](/img/aluminum-die-casting-parts-storage.webp "アルミ部品量産")
 
 参考資料: [ADC12特性ガイド](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/)、[A380特性](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/)
 

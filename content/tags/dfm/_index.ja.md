@@ -1,4 +1,4 @@
-﻿---
+---
 title: "DFM"
 description: "Japanese DFM and cost optimization articles."
 layout: "list"

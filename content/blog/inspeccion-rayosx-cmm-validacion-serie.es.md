@@ -11,11 +11,9 @@ tags: ["Quality", "CMM", "X-Ray", "Process"]
 
 La validacion de serie es mas robusta cuando la inspeccion interna y la geometrica se conectan en un mismo flujo de datos.
 
-![Inspeccion por rayos X](/img/x-ray-detector.webp "Deteccion de defectos internos")
 
 Use [CMM + X-ray factory inspection](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/) para establecer criterios de aceptacion mas claros.
 
-![Control CMM en taller](/img/hexagon-coordinate-measuring-machine-inspection.webp "Medicion geometrica")
 
 ## Articulos relacionados (interno)
 

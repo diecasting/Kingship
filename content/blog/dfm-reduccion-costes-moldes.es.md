@@ -11,7 +11,6 @@ tags: ["DFM", "Cost", "Process"]
 
 Aplicar DFM desde la fase de diseno reduce cambios tardios en herramienta y mejora la repetibilidad de serie.
 
-![Linea automatizada de fundicion](/img/automated-die-casting-production-line.webp "Produccion estable para serie")
 
 ## Pasos clave
 

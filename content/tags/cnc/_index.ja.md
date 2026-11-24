@@ -1,4 +1,4 @@
-﻿---
+---
 title: "CNC"
 description: "Japanese CNC machining and tolerance articles."
 layout: "list"

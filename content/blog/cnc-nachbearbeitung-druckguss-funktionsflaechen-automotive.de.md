@@ -11,7 +11,6 @@ tags: ["CNC", "Quality", "Automotive", "Process"]
 
 Bei hochbelasteten Automobilbauteilen entscheidet die [CNC](/de/cnc-machining)-Nachbearbeitung ueber Funktion und Montagefaehigkeit. Eine saubere Referenzkette von Guss bis Endmessung ist Pflicht.
 
-![Hochpraezisions-CNC-Werkstatt fuer Druckgussteile](/img/high-precision-cnc-workshop.webp "Praezise CNC-Endbearbeitung")
 
 ## Drei Stellhebel fuer stabile Ergebnisse
 
@@ -25,7 +24,6 @@ Weitere Details zur Fertigung finden Sie in den [Manufacturing Capabilities](htt
 
 CNC-Qualitaet ist direkt vom Rohteil abhaengig. Deshalb sollten DFM, [Werkzeug](/de/tooling)auslegung und Prozessparameter vor SOP gemeinsam bewertet werden.
 
-![CMM-Messung zur Geometrieabsicherung](/img/hexagon-coordinate-measuring-machine-inspection.webp "Seriennahe CMM-Absicherung")
 
 ## Weitere Fachartikel (intern)
 

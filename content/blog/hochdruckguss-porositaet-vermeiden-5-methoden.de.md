@@ -11,7 +11,6 @@ tags: ["Quality", "Process", "Porosity", "DFM"]
 
 Porositaet ist einer der haeufigsten Gruende fuer Ausschuss im Aluminium-Druckguss. Fuer belastete Gehaeuse und Strukturteile ist deshalb ein stabiles Gesamtsystem aus [Werkzeug](/de/tooling), Prozess und Pruefung entscheidend. Eine gute Basis bietet dieser Beitrag zu [5 Methoden zur Beseitigung von Porositaet](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/).
 
-![Roentgeninspektion fuer Porositaetsanalyse](/img/x-ray-detector.webp "Echtzeit-Roentgen fuer innere Fehler")
 
 ## 1. Schussprofil sauber einstellen
 
@@ -25,7 +24,6 @@ Bei luftdichten Bauteilen ist [Vakuum-unterstuetzter Druckguss](https://alumcast
 
 Unstabile Werkzeugtemperaturen erzeugen lokale Erstarrungsprobleme. Eine fruehe [DFM-Analyse zur Kosten- und Fehlerreduktion](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/) hilft, thermisch kritische Bereiche zu identifizieren.
 
-![Automatisierte Linie mit hoher Prozessstabilitaet](/img/automated-die-casting-production-line.webp "Automatisierte Produktion fuer stabile Serien")
 
 ## 4. Legierung und Gussparameter passend waehlen
 

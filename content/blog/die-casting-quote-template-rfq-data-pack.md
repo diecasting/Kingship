@@ -13,7 +13,6 @@ Many die casting projects lose weeks in repeated quote revisions. The root cause
 
 This template gives procurement and engineering teams a practical RFQ structure that improves quote accuracy and shortens sourcing cycle time.
 
-![Die casting RFQ and cost review workflow](/img/engineering-team-reviewing-cad-models.webp "Better RFQ input produces faster and more accurate quotes")
 
 ## What a Complete Die Casting RFQ Should Include
 

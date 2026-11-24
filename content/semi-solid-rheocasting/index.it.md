@@ -1,35 +1,38 @@
 ---
-title: "Reoformatura Semi-Solida (SSR) — Alluminio A357 e componenti strutturali leggeri"
-description: "Reoformatura semi-solida (SSR) di alluminio A357 e componenti strutturali in lega leggera su flotta 400T–3000T. Parti near-net-shape a bassa porosità per EV, automotive e aerospaziale."
+title: "Reoformatura semisolida — Guida tecnica al processo e all'RFQ"
+description: "Guida tecnica alla reoformatura semisolida: percorso di processo, leghe candidate, progettazione e capacità, attrezzature e ispezione da confermare per ogni RFQ."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "Getto allungato in alluminio con due fori circolari e nervature di rinforzo"
 showTableOfContents: true
+robots: "noindex, follow"
+sitemap:
+  disable: true
+excludeFromSearch: true
+xml: false
 url: "/it/semi-solid-rheocasting/"
 service:
   name: "Reoformatura Semi-Solida"
   category: "Colata Semi-Solida"
-  tagline: "Reoformatura semi-solida di componenti strutturali in alluminio A357 a bassa porosità su flotta di colata 400T–3000T, con magnesio (AZ91D / AM60B) offerto come capacità separata."
+  tagline: "La reoformatura semisolida come opzione ingegneristica; produzione, lega, attrezzature e ispezione vengono confermate per progetto."
   materials:
-    - "A357 (Alluminio — lega semi-solida primaria)"
+    - "lega di alluminio secondo progetto (Alluminio — lega semi-solida primaria)"
     - "A356 (Alluminio — lega affine, specifica per progetto)"
   processes:
     - "Reoformatura Semi-Solida (SSR)"
     - "Tixocolata"
     - "Reoformatura Assistita da Vuoto"
   equipment:
-    - "Flotta di Colata 400T–3000T"
+    - "Flotta di Colata intervallo macchina confermato per progetto"
     - "Linea di Colata Robotizzata"
   specifications:
     - label: "Tonnellaggio Presse (intervallo di capacità)"
-      value: "400T – 3000T"
+      value: "intervallo confermato all'RFQ"
     - label: "Spessore Parete Min. (tipico, dipendente dal progetto)"
-      value: "1.0 – 1.2 mm"
+      value: "da confermare all'RFQ"
     - label: "Tolleranza CNC (conseguibile, post-lavorazione, dipendente dal progetto)"
-      value: "±0.01 mm"
+      value: "fattibilità per caratteristica nel DFM"
     - label: "Trattamento Superficiale"
       value: "Sabbiatura, Anodizzazione"
   industries:
@@ -47,9 +50,9 @@ service:
   seo_keywords:
     - "colata semi-solida"
     - "reoformatura"
-    - "lega A357"
+    - "lega lega di alluminio secondo progetto"
     - "alloggiamento batteria EV colata semi-solida"
-    - "reoformatura alluminio A357"
+    - "reoformatura alluminio lega di alluminio secondo progetto"
     - "tixocolata alluminio"
     - "colata semi-solida bassa porosità"
     - "fornitore colata semi-solida Cina"
@@ -67,7 +70,7 @@ service:
     - q: "Cos'è la reoformatura semi-solida?"
       a: "La SSR modella il metallo nella sua zona liquido-solido «pastosa» (tipicamente 30–65% di frazione solida) per ottenere componenti near-net-shape con porosità ridotta rispetto alla pressofusione HPDC. È un'evoluzione della pressofusione, non una sostituzione."
     - q: "Quali leghe lavorate in semi-solido?"
-      a: "L'A357 è la nostra lega di alluminio semi-solida primaria; la A356 viene valutata per singolo progetto. Il magnesio AZ91D e AM60B è offerto come capacità semi-solida / magnesio separata, non come materiale di questo processo alluminio. I certificati di materiale devono accompagnare ogni richiesta."
+      a: "L'lega di alluminio secondo progetto è la nostra lega di alluminio semi-solida primaria; la A356 viene valutata per singolo progetto. Il magnesio AZ91D e AM60B è offerto come capacità semi-solida / magnesio separata, non come materiale di questo processo alluminio. I certificati di materiale devono accompagnare ogni richiesta."
     - q: "Quanto è bassa la porosità?"
       a: "I processi semi-solidi mirano a una porosità sensibilmente inferiore rispetto all'HPDC (riferimento di settore: HPDC tipicamente 2–5%). Un valore concreto valido per Kingship dipende da materiale, geometria, parametri di processo e ispezione, e deve essere verificato per singolo progetto."
     - q: "Supportate la qualità automotive e il PPAP?"
@@ -77,16 +80,18 @@ service:
     - q: "Quale spessore di parete minimo può raggiungere la reoformatura semi-solida?"
       a: "Lo spessore di parete tipicamente conseguibile è 1.0–1.2 mm, ma il minimo reale dipende da lunghezza di flusso, geometria della parete, sistema di colata e materiale, ed è confermato nella revisione DFM. È un obiettivo dipendente dal progetto, non una garanzia generalizzata."
     - q: "Potete lavorare i pezzi reofusi?"
-      a: "Sì. La lavorazione CNC è un'operazione secondaria standard, con tolleranze post-lavorazione conseguibili fino a ±0.01 mm confermate per geometria e progetto. Le tolleranze di colata sono più ampie; il CNC è usato dove servono riferimenti stretti."
+      a: "Sì. La lavorazione CNC è un'operazione secondaria standard, con tolleranze post-lavorazione conseguibili fino a fattibilità per caratteristica nel DFM confermate per geometria e progetto. Le tolleranze di colata sono più ampie; il CNC è usato dove servono riferimenti stretti."
     - q: "Quali settori usano pezzi reofusi semi-solidi?"
       a: "Gli alloggiamenti e vassoi batteria EV e i supporti strutturali, i componenti di telaio e powertrain automotive, i supporti e alloggiamenti aerospaziali e gli involucri telecom / 5G sono applicazioni comuni dove contano bassa porosità e leggerezza."
     - q: "Come richiedo un preventivo per la reoformatura?"
-      a: "Inviate un modello 3D o un disegno (STEP / IGES / PDF), la lega target (es. A357), il volume annuo stimato, le tolleranze critiche, il trattamento superficiale e l'eventuale documentazione qualità richiesta. I nostri ingegneri restituiscono feedback DFM e un preventivo."
+      a: "Inviate un modello 3D o un disegno (STEP / IGES / PDF), la lega target (es. lega di alluminio secondo progetto), il volume annuo stimato, le tolleranze critiche, il trattamento superficiale e l'eventuale documentazione qualità richiesta. I nostri ingegneri restituiscono feedback DFM e un preventivo."
 ---
 
 ## Reoformatura Semi-Solida per Componenti Strutturali Leggeri
 
-La reoformatura semi-solida (SSR) colma il divario tra la pressofusione ad alta pressione convenzionale (HPDC) e la forgiatura. Fornisce **componenti strutturali near-net-shape a bassa porosità** per programmi automotive, EV e aerospaziali. Kingship esegue SSR, tixocolata e reoformatura assistita da vuoto su una **flotta di colata 400T–3000T con linee di colata robotizzate**, lavorando **alluminio A357** come lega semi-solida primaria e offrendo **magnesio AZ91D / AM60B** come capacità separata.
+> Nota sulle capacità: questa pagina presenta la via semisolida come opzione ingegneristica. Disponibilità produttiva, qualificazione delle leghe, attrezzature e ambito ispettivo devono essere confermati per iscritto per ogni RFQ.
+
+La reoformatura semisolida (SSR) si colloca come concetto tra la pressofusione convenzionale (HPDC) e la forgiatura. Questa pagina descrive il percorso ingegneristico senza considerare confermati produzione, lega, attrezzature o ambito ispettivo prima della revisione RFQ.
 
 Questa pagina spiega che cos'è la reoformatura semi-solida, come funziona il processo, come si confronta con HPDC e tixocolata, quali leghe e progetti sono adatti, come controlliamo la qualità e cosa inviare esattamente per richiedere un preventivo.
 
@@ -122,7 +127,7 @@ La SSR è una via a un passaggio, con sospensione a richiesta. I passaggi seguen
   </defs>
   <rect class="bx" x="6" y="45" width="118" height="58" rx="8"/>
   <text class="tx" x="65" y="70">1. Fusione &amp; Lega</text>
-  <text class="txs" x="65" y="88">A357, degasaggio &amp; raffinazione</text>
+  <text class="txs" x="65" y="88">lega di alluminio secondo progetto, degasaggio &amp; raffinazione</text>
   <rect class="bx" x="150" y="45" width="118" height="58" rx="8"/>
   <text class="tx" x="209" y="70">2. Prep. Sospensione</text>
   <text class="txs" x="209" y="88">raffredda + taglio a 30–65%</text>
@@ -145,7 +150,7 @@ La SSR è una via a un passaggio, con sospensione a richiesta. I passaggi seguen
 
 *Schema di flusso del processo — illustrativo, non una cella di produzione specifica.*
 
-1. **Fusione e lega.** L'A357 (o lega specifica di progetto) viene fusa, degassata e affinata per una chimica controllata.
+1. **Fusione e lega.** L'lega di alluminio secondo progetto (o lega specifica di progetto) viene fusa, degassata e affinata per una chimica controllata.
 2. **Preparazione della sospensione.** Il fuso è raffreddato nella regione bifase e sottoposto a taglio (agitazione meccanica o elettromagnetica) in una sospensione semi-solida globulare alla frazione solida target.
 3. **Dosaggio e iniezione.** Una colata controllata di sospensione è iniettata nello stampo. Poiché la sospensione è tissotropica, il riempimento è laminare e l'intrappolamento d'aria è minimo.
 4. **Solidificazione ed estrazione.** Il pezzo solidifica rapidamente nello stampo ed è estratto near-net-shape. L'assistenza a vuoto può ridurre ulteriormente la porosità da gas dove specificata.
@@ -166,16 +171,16 @@ Scegliere un processo è un compromesso tra porosità, resistenza, tolleranze, c
 | Produttività / costo | Livello colata | Livello colata (minimo) | Livello colata | Più lento / massimo |
 | Miglior impiego | Strutturale, stagno, leggero | Pareti sottili ad alto volume | Strutturale, billette costanti | Carichi massimi, forme semplici |
 
-### Materiali: Alluminio A357 e Leghe Affini
+### Materiali: Alluminio lega di alluminio secondo progetto e Leghe Affini
 
-**L'A357 è la lega di alluminio semi-solida primaria di Kingship.** È una lega Al–Si–Mg con magnesio superiore all'A356, che conferisce maggiore resistenza e buona risposta ai trattamenti termici T5/T6 — adatta a componenti strutturali e di grado aerospaziale.
+**L'lega di alluminio secondo progetto è la lega di alluminio semi-solida primaria di Kingship.** È una lega Al–Si–Mg con magnesio superiore all'A356, che conferisce maggiore resistenza e buona risposta ai trattamenti termici T5/T6 — adatta a componenti strutturali e di grado aerospaziale.
 
 | Lega | Famiglia | Note per l'uso semi-solido |
 | --- | --- | --- |
-| **A357** | Al–Si–Mg (Mg superiore) | Lega primaria. Resistenza superiore all'A356; preferita per parti strutturali / ad alta affidabilità. Trattabile termicamente (T5/T6). |
-| **A356** | Al–Si–Mg (Mg inferiore) | Lega affine workhorse; valutata per singolo progetto dove la resistenza extra dell'A357 non è richiesta. |
-| **319** | Al–Si–Cu | Lega *distinta* contenente rame, usata per parti powertrain / ad alta temperatura. Non è **la stessa** dell'A357 e non deve essere confusa con essa; quotata solo dove l'applicazione richiede le sue proprietà. |
-| **A360 / 360.0** | Al–Si (Fe alto) | Lega *convenzionale da pressofusione* standard. **Non è una lega semi-solida attualmente offerta qui.** Elencata solo per evitare confusione con l'A357. |
+| **lega di alluminio secondo progetto** | Al–Si–Mg (Mg superiore) | Lega primaria. Resistenza superiore all'A356; preferita per parti strutturali / ad alta affidabilità. Trattabile termicamente (T5/T6). |
+| **A356** | Al–Si–Mg (Mg inferiore) | Lega affine workhorse; valutata per singolo progetto dove la resistenza extra dell'lega di alluminio secondo progetto non è richiesta. |
+| **319** | Al–Si–Cu | Lega *distinta* contenente rame, usata per parti powertrain / ad alta temperatura. Non è **la stessa** dell'lega di alluminio secondo progetto e non deve essere confusa con essa; quotata solo dove l'applicazione richiede le sue proprietà. |
+| **A360 / 360.0** | Al–Si (Fe alto) | Lega *convenzionale da pressofusione* standard. **Non è una lega semi-solida attualmente offerta qui.** Elencata solo per evitare confusione con l'lega di alluminio secondo progetto. |
 
 **Il magnesio è una capacità separata.** Il magnesio AZ91D e AM60B è offerto nella stessa famiglia semi-solida / magnesio reoformatura, ma **non** è elencato come materiale di questo processo alluminio. Se il vostro programma è a base magnesio, vedete i nostri [servizi di pressofusione del magnesio](https://kingship.alumcasting.com/it/magnesium-die-casting/) — i certificati di materiale accompagnano ogni richiesta.
 
@@ -202,7 +207,7 @@ La tabella seguente riassume le linee guida tipiche di progettazione. Ogni valor
 | Rapporto costola–parete | ≤ ~0.6–0.8 | Controlla alimentazione e deformazione. |
 | Boss / distanziali | Supportati ove possibile | Minimizzare feature cieche che intrappolano la sospensione. |
 | Tolleranza di colata | CT5–CT7 (ISO 8062, indicativo) | Più ampia della lavorazione; progettare i riferimenti di conseguenza. |
-| Tolleranza CNC (post-lavorazione) | ±0.01 mm conseguibile | Applicabile a feature lavorate, confermata per geometria. |
+| Tolleranza CNC (post-lavorazione) | fattibilità per caratteristica nel DFM conseguibile | Applicabile a feature lavorate, confermata per geometria. |
 | Variazione spessore parete | Transizioni graduali | Evitare bruschi passaggi spesso–sottile che causano ritiro. |
 
 ### Controllo Qualità e Ispezione
@@ -223,14 +228,14 @@ La bassa porosità e la leggerezza rendono la SSR interessante ovunque contano p
 - **Alloggiamenti e vassoi batteria EV** — involucri leggeri e stagni.
 - **Supporti e sottotelai strutturali** — elementi di telaio e sospensione.
 - **Componenti powertrain** — alloggiamenti e portanti dove può essere specificata la 319 (contenente rame).
-- **Supporti e alloggiamenti aerospaziali** — dove aiutano la resistenza e il trattamento termico dell'A357.
+- **Supporti e alloggiamenti aerospaziali** — dove aiutano la resistenza e il trattamento termico dell'lega di alluminio secondo progetto.
 - **Involucri telecom / 5G e dissipatori** — parti in alluminio rigide e leggere.
 
 ### Operazioni Secondarie
 
 Un pezzo reofuso è di solito finito internamente per ridurre maneggiamenti e tempi di consegna:
 
-- **Lavorazione CNC** — tolleranza post-lavorazione conseguibile fino a ±0.01 mm, confermata per geometria e progetto.
+- **Lavorazione CNC** — tolleranza post-lavorazione conseguibile fino a fattibilità per caratteristica nel DFM, confermata per geometria e progetto.
 - **Sabbiatura** — preparazione superficiale e finitura estetica.
 - **Anodizzazione** — resistenza alla corrosione e aspetto.
 - **Impregnazione / sigillatura** — dove è specificata la tenuta stagna.
@@ -243,7 +248,7 @@ Una richiesta completa permette ai nostri ingegneri di restituire rapidamente un
 | Cosa fornire | Perché conta |
 | --- | --- |
 | Modello 3D / disegno (STEP, IGES, PDF) | Consente la revisione DFM, colata e fattibilità. |
-| Lega target (es. A357) | Guida il percorso di processo, sospensione e trattamento termico. |
+| Lega target (es. lega di alluminio secondo progetto) | Guida il percorso di processo, sospensione e trattamento termico. |
 | Volume annuo stimato (EAU) | Determina economia di attrezzaggio e processo. |
 | Dimensioni & tolleranze critiche | Identifica quali feature necessitano di CNC o colata diretta. |
 | Trattamento superficiale (anodizzazione, sabbiatura) | Conferma la capacità di operazioni secondarie. |

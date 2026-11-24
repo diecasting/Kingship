@@ -1,5 +1,5 @@
 ---
-title: "Medizintechnische Bauteile: Präzisions-CNC-Bearbeitung | KingShip"
+title: "Medizintechnische Bauteile: Präzisions-CNC-Bearbeitung"
 description: "Saubere, maßstabile bearbeitete Bauteile für Diagnostikinstrumente und Medizinprodukte, gefertigt mit strengen Prozesskontrollen."
 translationKey: "industry-medical"
 schema:
@@ -7,9 +7,9 @@ schema:
     - question: "Welche Medizinprodukte fertigt KingShip?"
       answer: "KingShip produziert saubere, maßstabile bearbeitete Teile für Diagnostikinstrumente, Gerätegehäuse und Vorrichtungen mit engen Toleranzen und gleichbleibender Oberflächenqualität."
     - question: "Wie stellt KingShip die Qualität von Medizinprodukten sicher?"
-      answer: "Jedes Teil wird mit strengen Prozesskontrollen, Maßprüfung und vollständiger Rückverfolgbarkeit gefertigt, und wir wenden dieselbe Disziplin an wie in unseren IATF 16949- und ISO 9001-zertifizierten Betrieben."
+      answer: "Lieferantenqualität und Prüfanforderungen werden für jedes Medizinproduktprogramm bestätigt. Zertifikatsumfang und Dokumentenpaket werden im RFQ vereinbart."
     - question: "Welche Prozesse werden für Medizinprodukte eingesetzt?"
-      answer: "Medizinische Bauteile werden primär durch Präzisions-CNC-Bearbeitung mit 3/4/5 Achsen gefertigt, um die Genauigkeit und Oberflächengüte zu erreichen, die Geräte und Instrumente verlangen."
+      answer: "Medizinische Komponenten können für CNC-Nachbearbeitung geprüft werden; Maschinen-, Toleranz- und Prüfumfang werden für das konkrete Teil bestätigt."
     - question: "Kann KingShip die Prototypenentwicklung für Medizinprodukte unterstützen?"
       answer: "Ja. Unsere CNC-Kapazität begleitet Medizinprodukte vom Prototyp bis zur Serie und hält enge Toleranzen und wiederholbare Qualität über den gesamten Programmlebenszyklus."
 ---
@@ -22,7 +22,7 @@ Von Diagnostikinstrumenten bis zu Therapie- und Überwachungsgeräten müssen di
 
 ## Präzisions-CNC-Bearbeitung
 
-Unsere [CNC-Bearbeitung](/cnc-machining/)-Zentren fahren 3-, 4- und 5-Achsen-Programme für die engen Toleranzen und feinen Oberflächen, die Medizinprodukte erfordern. Die Mehrfachachsen-Kapazität hält komplexe Geometrien in einer Aufspannung, reduziert das Handling und verbessert die Wiederholbarkeit.
+Die CNC-Nachbearbeitung wird anhand von Zeichnung, Bezugssystem, Vorrichtungsplan und projektspezifischen Prüfanforderungen bewertet. Maschinenspezifikationen werden je Teil bestätigt.
 
 ## Aluminiumbauteil-Fertigung
 
@@ -30,17 +30,17 @@ Für leichtere, korrosionsbeständige Gerätestrukturen kombiniert unsere [Alumi
 
 ## Prüfkapazität
 
-Jedes Medizinprodukt wird durch Maßprüfung und prozessbegleitende Kontrollen entsprechend unserem ISO 9001-zertifizierten System verifiziert. Wir bestätigen kritische Merkmale, Passungen und Oberflächen, damit jedes Bauteil charge für charge innerhalb der Spezifikation ausgeliefert wird.
+Prüfmethoden, kritische Merkmale, Stichproben und Abnahmekriterien werden für jedes Medizinproduktprojekt vereinbart.
 
 ## Rückverfolgbarkeit
 
-Vollständige Produktionsrückverfolgbarkeit ist in jedes Programm integriert. Materialchargen, Prozessparameter und Prüfergebnisse werden erfasst und abrufbar gehalten und geben Gesundheitskunden die dokumentierte Kontrolle und Rechenschaft, die ihre regulatorischen Programme erwarten.
+Die Rückverfolgbarkeitsebene wird im RFQ definiert und kann Materialcharge, Prozessaufzeichnung und Prüfergebnisse für das vereinbarte Programm umfassen.
 
 ## Fähigkeiten für die Medizintechnik
 
-- Präzisions-CNC-Bearbeitung mit 3/4/5 Achsen für enge Toleranzen und feine Oberflächen
+- CNC-Nachbearbeitung und Prüfplanung je Medizinteil bestätigt
 - Stabile, wiederholbare Bauteile für Diagnostik- und Gerätegehäuse
-- Maßprüfung und vollständige Produktionsrückverfolgbarkeit
-- Unterstützung vom Prototyp bis zur Serie unter ISO 9001-Disziplin
+- Projektbezogene Maßprüfung und Rückverfolgbarkeit
+- Lieferantenqualifizierung und Qualitätsdokumente im RFQ vereinbart
 
 Unser bearbeitungszentrierter Arbeitsfluss liefert die Genauigkeit und Konsistenz, die medizinische Anwendungen verlangen, mit Qualitätskontrollen, die an unser zertifiziertes Fertigungssystem angelehnt sind.

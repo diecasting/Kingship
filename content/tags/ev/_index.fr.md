@@ -1,4 +1,4 @@
-﻿---
+---
 title: "EV"
 description: "Articles techniques en francais sur EV, etancheite et production de boitiers."
 layout: "list"

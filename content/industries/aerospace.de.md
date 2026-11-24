@@ -1,20 +1,20 @@
 ---
-title: "Luft- und Raumfahrt-Bauteile: Magnesium- & Aluminiumguss | KingShip"
-description: "Leichte, hochintegritäre Magnesium- und Aluminium-Druckguss- und Semi-Solid-Rheocast-Bauteile für Flug- und Luftfahrt-Strukturanwendungen."
+title: "Luft- und Raumfahrt-Bauteile: Magnesium- & Aluminiumguss"
+description: "Leichte Magnesium- und Aluminium-Druckgussbauteile für Luftfahrtanwendungen; Legierung, Prozess, Prüfung und Qualifikationsumfang werden projektbezogen bestätigt."
 translationKey: "industry-aerospace"
 schema:
   faq:
     - question: "Welche Luftfahrt-Teile fertigt KingShip?"
-      answer: "KingShip produziert leichte Magnesium- und Aluminium-Strukturbauteile, Träger und Gehäuse, wo geringe Masse und hohe Integrität entscheidend sind, mithilfe von Semi-Solid-Rheocasting und Präzisionsdruckguss."
-    - question: "Warum wird Semi-Solid-Rheocasting für Luftfahrt-Teile eingesetzt?"
-      answer: "Semi-Solid-Rheocasting erzeugt sehr geringe Porosität und ein feines, gleichmäßiges Gefüge, das Luftfahrtbauteilen höhere Ermüdungsfestigkeit und Zuverlässigkeit verleiht als herkömmlicher Hochdruckdruckguss."
+      answer: "KingShip prüft leichte Magnesium- und Aluminium-Druckgussprojekte für Träger, Gehäuse und Strukturbauteile. Legierung, Prozessroute und Prüfanforderungen werden anhand der Zeichnung und der Luftfahrt-Qualifikationsanforderungen bestätigt."
+    - question: "Ist Semi-Solid-Rheogießen eine bestätigte Produktionsfähigkeit?"
+      answer: "Semi-Solid-Rheogießen ist eine technische Route, deren Produktionsverfügbarkeit für das jeweilige Projekt belegt werden muss. Prozess, Ausrüstung, Werkstoff und Prüfumfang dürfen nicht als bestätigte Luftfahrtfähigkeit angenommen werden."
     - question: "Welche Legierungen werden für Luftfahrt-Guss verwendet?"
       answer: "Wir verwenden AZ91D und AM60B Magnesium für gewichtskritische Teile und A356 Aluminium, wo höhere Festigkeit oder Korrosionsbeständigkeit gefordert sind."
     - question: "Wie prüft KingShip die Qualität von Luftfahrt-Teilen?"
-      answer: "Jedes Teil wird mit Echtzeit-Röntgen-Porositätsprüfung und Maßprüfung verifiziert, und wir wenden strenge Prozesskontrollen an, die für flugkritische Anwendungen geeignet sind."
+      answer: "Prüfmethoden, Stichproben und Rückverfolgbarkeit werden in der Qualifizierung des Luftfahrtprojekts festgelegt; es wird keine pauschale Vollprüfung aller Teile zugesagt."
 ---
 
-Luftfahrtprogramme treiben die Grenzen von Festigkeit bei gleichzeitig geringem Gewicht. KingShip liefert die niedrigporösen, hochintegritären Magnesium- und Aluminiumbauteile, die Flugstrukturen beim Massesparen unterstützen, ohne ihr Leistungsfenster zu verlassen.
+Luftfahrtprogramme priorisieren das Verhältnis von Festigkeit zu Gewicht. KingShip prüft Magnesium- und Aluminiumgussprojekte anhand von Zeichnung, Prozessroute, Prüfanforderungen und verfügbarer Evidenz.
 
 ## Leichte Luftfahrtbauteile
 
@@ -24,9 +24,9 @@ Flugstrukturen verlangen die geringstmögliche Masse ohne Verlust der Integritä
 
 Magnesium ist das leichteste Strukturmetall, und [Magnesium-Druckguss](/magnesium-die-casting/) ermöglicht die Serienfertigung komplexer, masskritischer Luftfahrtteile aus AZ91D und AM60B. Typische Anwendungen sind Träger, Gehäuse, Sitzelemente und Aktuatorgehäuse – jedes gesparte Gramm verbessert Treibstoffverbrauch und Nutzlast.
 
-## Anwendungen des Semi-Solid-Rheocastings
+## Prozessroutenprüfung
 
-Für die anspruchsvollsten flugkritischen Teile liefert [Semi-Solid-Rheocasting](/semi-solid-rheocasting/) ein feines, gleichmäßiges Gefüge mit sehr geringer Porosität – weit über dem herkömmlichen Hochdruckdruckguss. Das bedeutet höhere Ermüdungsfestigkeit und verlässliche Leistung für Strukturbauteile, Hebel und lasttragende Träger.
+Für flugkritische Teile müssen Prozessfähigkeit, Materialkontrolle und Prüfnachweise projektspezifisch belegt werden. Semi-Solid-Rheogießen wird nur als technische Option beschrieben; Produktionsverfügbarkeit ist vor Auftrag zu bestätigen.
 
 ## Aluminiumguss-Kompetenz
 
@@ -34,7 +34,7 @@ Unsere [Aluminium-Druckguss](/aluminum-die-casting/)-Kompetenz umfasst A356 und 
 
 ## Qualitätsprüfung
 
-Jedes Luftfahrtteil wird mit Echtzeit-Röntgen-Porositätsprüfung und vollständiger Maßprüfung verifiziert. Straffe Prozesskontrollen und statistische Überwachung halten flugkritische Bauteile charge für charge innerhalb der Spezifikation.
+Prüfmethoden, Stichproben, Abnahmekriterien und Rückverfolgbarkeit werden vor der Produktionsfreigabe für das jeweilige Luftfahrtprojekt definiert.
 
 ## OEM-Fertigung
 
@@ -42,9 +42,9 @@ Als OEM-Fertigungspartner unterstützt KingShip Luftfahrtprogramme von der ferti
 
 ## Fähigkeiten für die Luftfahrt
 
-- Semi-Solid-Rheocast-Strukturbauteile mit feinem, gleichmäßigem Gefüge
+- Projektbezogene Guss- und Prüfplanung
 - Leichte Magnesiumträger und Gehäuse aus AZ91D und AM60B
 - A356 Aluminiumteile für höhere Festigkeit oder Korrosionsbeständigkeit
-- Echtzeit-Röntgen-Porositätsprüfung und enge Maßhaltigkeitskontrolle
+- Projektbezogene Planung von Röntgen-, KMG- und Maßprüfungen
 
-Unser Rheocasting-Prozess minimiert Porosität und maximiert Ermüdungswiderstand und bietet Luftfahrtingenieuren einen verlässlichen Pfad vom Prototyp bis zum qualifizierten Serienteil.
+Prozessroute, Abnahmekriterien und Qualifikationsnachweise werden vor der Produktionsfreigabe vereinbart.

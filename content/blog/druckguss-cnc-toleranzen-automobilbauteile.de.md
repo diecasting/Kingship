@@ -11,7 +11,6 @@ tags: ["CNC", "Quality", "Automotive", "Process"]
 
 In Automotive-Projekten reicht ein gutes Gussbild allein nicht aus. Entscheidend ist die stabile Ueberfuehrung in die [CNC](/de/cnc-machining)-Nachbearbeitung mit definierten Bezugsflaechen und messbarer Prozessfaehigkeit. Genau hier liegen die Staerken von [hochpraeziser CNC-Bearbeitung fuer Automobilteile](https://alumcasting.com/high-tolerance-automotive-cnc-machining/).
 
-![Hochpraezisions-CNC-Workshop im Druckgussumfeld](/img/high-precision-cnc-workshop.webp "CNC-Bearbeitung mit engen Toleranzen")
 
 ## Referenzkette vom Guss bis zur Endpruefung
 
@@ -28,7 +27,6 @@ Fuer komplexe Projekte ist die Kombination aus [Druckguss, CNC und Oberflaechenv
 
 Zur Absicherung von Serienfreigaben sollten CMM-Daten und innere Fehleranalyse zusammen betrachtet werden. Hilfreich sind [CMM- und Roentgeninspektionen im Werk](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/) sowie robuste Standards wie [IATF 16949](https://alumcasting.com/iatf-16949-high-tolerance-automotive-cnc-machining-supplier/).
 
-![Hexagon CMM fuer geometrische Verifikation](/img/hexagon-coordinate-measuring-machine-inspection.webp "CMM-Messung fuer Serienfreigabe")
 
 Fuer einen schnellen Projekt-Check koennen Sie direkt [eine technische Anfrage senden](https://kingship.alumcasting.com/de/contact/).
 

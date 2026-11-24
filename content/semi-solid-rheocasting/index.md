@@ -1,34 +1,37 @@
 ---
-title: "Semi-Solid Rheocasting (SSR) — A357 Aluminum & Lightweight Structural Parts"
-description: "Semi-solid rheocasting (SSR) of A357 aluminum and magnesium structural components on a 400T–3000T fleet. Low-porosity-targeted near-net-shape parts for EV, automotive and aerospace — process, materials, design guide and RFQ."
+title: "Semi-Solid Rheocasting Engineering Guide — Process, Materials and RFQ"
+description: "Technical guide to semi-solid rheocasting: process route, candidate alloys, design considerations and the capability, equipment and inspection details that must be confirmed for each RFQ."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "Elongated aluminium casting with two circular bores and reinforcing ribs on a green bench"
 showTableOfContents: true
+robots: "noindex, follow"
+sitemap:
+  disable: true
+excludeFromSearch: true
+xml: false
 service:
   name: "Semi-Solid Rheocasting"
   category: "Semi-Solid Casting"
-  tagline: "Low-porosity-targeted semisolid rheocasting of A357 aluminum structural components on a 400T–3000T casting fleet, with magnesium (AZ91D / AM60B) offered as a separate capability."
+  tagline: "Semi-solid rheocasting as an engineering route; production availability, alloy qualification, equipment and inspection scope are confirmed per project."
   materials:
-    - "A357 (Aluminum — primary semi-solid grade)"
+    - "project-specific aluminium grade (Aluminum — primary semi-solid grade)"
     - "A356 (Aluminum — related grade, project-specific)"
   processes:
     - "Semi-Solid Rheocasting (SSR)"
     - "Thixocasting"
     - "Vacuum-Assisted Rheocast"
   equipment:
-    - "400T–3000T Casting Fleet"
+    - "project-confirmed machine scope Casting Fleet"
     - "Robotic Pouring Line"
   specifications:
     - label: "Machine Tonnage (capability range)"
-      value: "400T – 3000T"
+      value: "machine scope confirmed at RFQ"
     - label: "Min. Wall Thickness (typical, project-dependent)"
-      value: "1.0 – 1.2 mm"
+      value: "Confirmed against alloy, geometry and DFM"
     - label: "CNC Tolerance (achievable, post-machining, project-dependent)"
-      value: "±0.01 mm"
+      value: "feature-specific feasibility confirmed during DFM"
     - label: "Surface Treatment"
       value: "Shot Blasting, Anodizing"
   industries:
@@ -47,7 +50,7 @@ service:
     - "semi solid rheocasting"
     - "semi-solid metal casting"
     - "thixocasting aluminum"
-    - "A357 semi solid casting"
+    - "project-specific aluminium grade semi solid casting"
     - "low porosity aluminum casting"
     - "semi solid rheocasting china"
     - "rheocasting vs high pressure die casting"
@@ -66,7 +69,7 @@ service:
     - q: "What is semi-solid rheocasting?"
       a: "SSR shapes metal in its liquid-solid 'mushy' zone (typically 30–65% solid fraction) to deliver near-net-shape components with porosity reduced versus HPDC. It is an evolution of die casting, not a replacement."
     - q: "Which alloys do you process semi-solid?"
-      a: "A357 is our primary semi-solid aluminum grade; A356 is evaluated per project. AZ91D and AM60B magnesium are offered as a separate semi-solid / magnesium capability, not as materials of this aluminum process. Material certificates should accompany every inquiry."
+      a: "project-specific aluminium grade is our primary semi-solid aluminum grade; A356 is evaluated per project. AZ91D and AM60B magnesium are offered as a separate semi-solid / magnesium capability, not as materials of this aluminum process. Material certificates should accompany every inquiry."
     - q: "How low is the porosity?"
       a: "Semi-solid processes target substantially lower porosity than HPDC (industry reference: HPDC typically 2–5%). A concrete value valid for Kingship depends on material, geometry, process parameters and inspection, and must be verified per project."
     - q: "Do you support automotive quality and PPAP?"
@@ -76,16 +79,18 @@ service:
     - q: "What minimum wall thickness can semi-solid rheocasting achieve?"
       a: "Typical achievable wall thickness is 1.0–1.2 mm, but the real minimum depends on flow length, wall geometry, gating and material, and is confirmed in the DFM review. It is a project-dependent target, not a blanket guarantee."
     - q: "Can you machine the rheocast parts?"
-      a: "Yes. CNC machining is a standard secondary operation, with achievable post-machining tolerances to ±0.01 mm confirmed per geometry and project. Casting tolerances are wider; CNC is used where tight datums are required."
+      a: "Yes. CNC machining is a standard secondary operation, with achievable post-machining tolerances to feature-specific feasibility confirmed during DFM confirmed per geometry and project. Casting tolerances are wider; CNC is used where tight datums are required."
     - q: "Which industries use semi-solid rheocast parts?"
       a: "EV battery housings and structural brackets, automotive chassis and powertrain components, aerospace brackets and housings, and telecom / 5G enclosures are common applications where low porosity and lightweighting matter."
     - q: "How do I request a rheocasting quotation?"
-      a: "Send a 3D model or drawing (STEP / IGES / PDF), target alloy (e.g., A357), estimated annual volume, critical tolerances, surface treatment and any quality documentation required. Our engineers return DFM feedback and a quotation."
+      a: "Send a 3D model or drawing (STEP / IGES / PDF), target alloy (e.g., project-specific aluminium grade), estimated annual volume, critical tolerances, surface treatment and any quality documentation required. Our engineers return DFM feedback and a quotation."
 ---
 
 ## Semi-Solid Rheocasting for Lightweight Structural Components
 
-Semi-solid rheocasting (SSR) fills the gap between conventional high-pressure die casting (HPDC) and forging. It delivers **near-net-shape, low-porosity-targeted structural components** for automotive, EV and aerospace programs. Kingship runs SSR, thixocasting and vacuum-assisted rheocast on a **400T–3000T casting fleet with robotic pouring lines**, processing **A357 aluminum** as the primary semi-solid grade and offering **AZ91D / AM60B magnesium** as a separate capability.
+> Capability note: this page explains the semi-solid route as an engineering option. Production availability, alloy qualification, equipment and inspection scope require written confirmation for each RFQ.
+
+Semi-solid rheocasting (SSR) sits between conventional high-pressure die casting (HPDC) and forging as a process concept. This page explains the engineering route without treating production availability, alloy qualification, equipment or inspection scope as confirmed until they are reviewed for the RFQ.
 
 This page explains what semi-solid rheocasting is, how the process works, how it compares with HPDC and thixocasting, which alloys and designs are suitable, how we control quality, and exactly what to send when you request a quotation.
 
@@ -121,7 +126,7 @@ SSR is a one-step, slurry-on-demand route. The steps below are illustrated in th
   </defs>
   <rect class="bx" x="6" y="45" width="118" height="58" rx="8"/>
   <text class="tx" x="65" y="70">1. Melt &amp; Alloy</text>
-  <text class="txs" x="65" y="88">A357, degas &amp; refine</text>
+  <text class="txs" x="65" y="88">project-specific aluminium grade, degas &amp; refine</text>
   <rect class="bx" x="150" y="45" width="118" height="58" rx="8"/>
   <text class="tx" x="209" y="70">2. Slurry Prep</text>
   <text class="txs" x="209" y="88">cool + shear to 30–65%</text>
@@ -144,7 +149,7 @@ SSR is a one-step, slurry-on-demand route. The steps below are illustrated in th
 
 *Schematic process flow — illustrative, not a specific production cell.*
 
-1. **Melt & alloy.** A357 (or project-specific grade) is melted, degassed and grain-refined to a controlled chemistry.
+1. **Melt & alloy.** project-specific aluminium grade (or project-specific grade) is melted, degassed and grain-refined to a controlled chemistry.
 2. **Slurry preparation.** The melt is cooled into the two-phase region and sheared (mechanical or electromagnetic stirring) into a globular semi-solid slurry at the target solid fraction.
 3. **Dosing & injection.** A controlled shot of slurry is injected into the die. Because the slurry is thixotropic, fill is laminar and air entrainment is minimal.
 4. **Solidification & ejection.** The part solidifies rapidly in the die and is ejected near-net-shape. Vacuum assistance can further reduce gas porosity where specified.
@@ -165,16 +170,16 @@ Choosing a process is a trade-off between porosity, strength, tolerances, cost a
 | Throughput / cost | Casting-level | Casting-level (lowest) | Casting-level | Slowest / highest |
 | Best fit | Structural, leak-tight, lightweight | High-volume thin walls | Structural, consistent billet | Highest-load, simplest shapes |
 
-### Materials: A357 Aluminum and Related Grades
+### Material Selection and Project Qualification
 
-**A357 is Kingship's primary semi-solid aluminum grade.** It is an Al–Si–Mg alloy with higher magnesium than A356, giving higher strength and good response to T5/T6 heat treatment — suited to structural and aerospace-grade components.
+**The aluminium grade must be selected for the project.** Alloy family, chemistry and heat-treatment response should be confirmed against the drawing and an approved material specification before production planning.
 
 | Grade | Family | Notes for semi-solid use |
 | --- | --- | --- |
-| **A357** | Al–Si–Mg (higher Mg) | Primary grade. Higher strength than A356; preferred for structural / high-reliability parts. Heat-treatable (T5/T6). |
-| **A356** | Al–Si–Mg (lower Mg) | Related workhorse grade; evaluated per project where A357's extra strength is not required. |
-| **319** | Al–Si–Cu | A *distinct* copper-containing grade used for powertrain / elevated-temperature parts. It is **not** the same as A357 and must not be confused with it; quoted only where the application needs its properties. |
-| **A360 / 360.0** | Al–Si (high Fe) | A standard *conventional die-cast* grade. **Not a current semi-solid grade offered here.** Listed only to avoid confusion with A357. |
+| **Project-specific aluminium grade** | Chemistry to be confirmed | Grade and condition require material-specification and project review. |
+| **A356** | Al–Si–Mg (lower Mg) | Related workhorse grade; evaluated per project where project-specific aluminium grade's extra strength is not required. |
+| **319** | Al–Si–Cu | A *distinct* copper-containing grade used for powertrain / elevated-temperature parts. It is **not** the same as project-specific aluminium grade and must not be confused with it; quoted only where the application needs its properties. |
+| **A360 / 360.0** | Al–Si (high Fe) | A standard *conventional die-cast* grade. **Not a current semi-solid grade offered here.** Listed only to avoid confusion with project-specific aluminium grade. |
 
 **Magnesium is a separate capability.** AZ91D and AM60B magnesium are offered under the same semi-solid / magnesium rheocasting family, but they are **not** listed as materials of this aluminum process. If your program is magnesium-based, see our [magnesium die casting services](https://kingship.alumcasting.com/magnesium-die-casting/) — material certificates accompany every inquiry.
 
@@ -201,7 +206,7 @@ The table below summarises typical design guidance. Every value is **project-dep
 | Rib-to-wall ratio | ≤ ~0.6–0.8 | Controls feeding and warpage. |
 | Bosses / stand-offs | Supported where possible | Minimize blind features that trap slurry. |
 | Casting tolerance | CT5–CT7 (ISO 8062, indicative) | Wider than machining; design datums accordingly. |
-| CNC tolerance (post-machining) | ±0.01 mm achievable | Applies to machined features, confirmed per geometry. |
+| CNC tolerance (post-machining) | feature-specific feasibility confirmed during DFM achievable | Applies to machined features, confirmed per geometry. |
 | Wall thickness variation | Gradual transitions | Avoid sudden thick–thin steps that cause shrinkage. |
 
 ### Quality Control and Inspection
@@ -222,14 +227,14 @@ Low porosity and lightweighting make SSR attractive wherever structural performa
 - **EV battery housings and trays** — leak-tight, lightweight enclosures.
 - **Structural brackets and subframes** — chassis and suspension members.
 - **Powertrain components** — housings and carriers where 319 (copper-containing) may be specified.
-- **Aerospace brackets and housings** — where A357's strength and heat treatment help.
+- **Aerospace brackets and housings** — where project-specific aluminium grade's strength and heat treatment help.
 - **Telecom / 5G enclosures and heat sinks** — stiff, lightweight aluminum parts.
 
 ### Secondary Operations
 
 A rheocast part is usually finished in-house to reduce handling and lead time:
 
-- **CNC machining** — achievable post-machining tolerance to ±0.01 mm, confirmed per geometry and project.
+- **CNC machining** — achievable post-machining tolerance to feature-specific feasibility confirmed during DFM, confirmed per geometry and project.
 - **Shot blasting** — surface preparation and cosmetic finish.
 - **Anodizing** — corrosion resistance and appearance.
 - **Impregnation / sealing** — where leak-tightness is specified.
@@ -242,7 +247,7 @@ A complete inquiry lets our engineers return useful DFM feedback quickly. Use th
 | What to provide | Why it matters |
 | --- | --- |
 | 3D model / drawing (STEP, IGES, PDF) | Enables DFM, gating and feasibility review. |
-| Target alloy (e.g., A357) | Drives process route, slurry and heat treatment. |
+| Target alloy (e.g., project-specific aluminium grade) | Drives process route, slurry and heat treatment. |
 | Estimated annual volume (EAU) | Determines tooling and process economics. |
 | Critical dimensions & tolerances | Identifies which features need CNC vs as-cast. |
 | Surface treatment (anodizing, blasting) | Confirms secondary-op capability. |

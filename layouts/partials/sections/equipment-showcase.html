@@ -9,8 +9,8 @@
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
     {{- range .items -}}
     <div class="rounded-xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800 overflow-hidden flex flex-col">
-      {{- with .image -}}<img src="{{ .url }}" alt="{{ .alt }}" title="{{ .title }}" loading="lazy"
-           class="w-full h-48 object-cover">{{- end -}}
+      {{- if site.Params.publicMediaUseEnabled }}{{- with .image -}}<img src="{{ .url }}" alt="{{ .alt }}" title="{{ .title }}" loading="lazy"
+           class="w-full h-48 object-cover">{{- end -}}{{- end -}}
       <div class="p-4 flex-1">
         <h3 class="font-semibold text-neutral-900 dark:text-white">{{ .name }}</h3>
         <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-300">{{ .desc }}</p>

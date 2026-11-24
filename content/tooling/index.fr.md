@@ -1,12 +1,10 @@
 ---
 title: "Outillage de moulage sous pression & moules fonderie pour aluminium et magnésium"
-description: "Conception d'outillage assistée DFM, simulation de remplissage, usinage CNC/EDM et réception T0/T1 pour le moulage sous pression. Outillages H13/SKD61 à 1–8 cavités."
+description: "Conception d'outillage assistée DFM, simulation de remplissage, usinage CNC/EDM et réception T0/T1 pour le moulage sous pression. Outillages H13/SKD61 ; cavités et périmètre du moule définis selon le projet."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "Boîtier carré en aluminium à ailettes avec plages usinées et bossages"
 showTableOfContents: true
 url: "/fr/tooling/"
 service:
@@ -28,9 +26,9 @@ service:
     - label: "Qualité de l'acier d'outillage"
       value: "H13 / SKD61"
     - label: "Nombre de cavités"
-      value: "1–8 cavités"
+      value: "Selon volume, cycle et limites du moule"
     - label: "Durée de vie de l'outillage (typique, selon projet)"
-      value: "100 000–500 000 cycles"
+      value: "Selon le projet ; aucune garantie forfaitaire"
     - label: "Simulation de remplissage"
       value: "Magma / Moldflow (selon projet)"
   industries:

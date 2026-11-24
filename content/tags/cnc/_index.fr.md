@@ -1,4 +1,4 @@
-﻿---
+---
 title: "CNC"
 description: "Articles en francais sur usinage CNC, tolerances et controle dimensionnel."
 layout: "list"

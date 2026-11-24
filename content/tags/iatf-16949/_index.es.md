@@ -1,4 +1,4 @@
-﻿---
+---
 title: "IATF 16949"
 description: "Articulos en espanol sobre IATF 16949, cualificacion de proveedores y control de proceso."
 layout: "list"

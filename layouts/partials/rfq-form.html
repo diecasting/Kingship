@@ -2,7 +2,7 @@
    Action, fields, values and structure preserved exactly. Labels are
    localized via a small inline dict keyed by .Site.Language.Lang with an
    explicit English fallback, so the five existing languages keep English. */}}
-{{/* FR-SEO-04A: this partial receives the RFQ data map (not the page), so .Lang is empty; resolve language via site.Language.Lang. FR uses the fr dict; every other language forces the en fallback to stay byte-identical to baseline. */}}{{ $l := "en" }}{{ if eq site.Language.Lang "fr" }}{{ $l = "fr" }}{{ end }}
+{{ $l := site.Language.Lang | default "en" }}
 {{ $labels := dict
   "en" (dict
     "name" "Full Name *"
@@ -17,7 +17,56 @@
     "volume_ph" "e.g., 5,000 pcs"
     "details" "Project Details & Requirements *"
     "details_ph" "Please describe wall thickness, surface treatment (anodizing, powder coating, etc.), and tolerances if possible..."
+    "privacy" "Your details are used only to evaluate and reply to this inquiry."
     "submit" "Submit RFQ"
+  )
+  "de" (dict
+    "name" "Vollständiger Name *"
+    "company" "Firmenname"
+    "email" "Geschäftliche E-Mail *"
+    "material" "Werkstoffspezifikation"
+    "opt_adc12" "Aluminium (ADC12 / A383)"
+    "opt_a356" "Aluminium (A356 / A360)"
+    "opt_az91d" "Magnesium (AZ91D / AM60B)"
+    "opt_other" "Andere / Noch nicht sicher"
+    "volume" "Geschätzte Jahresmenge (EAV)"
+    "volume_ph" "z. B. 5.000 Stück"
+    "details" "Projektdetails und Anforderungen *"
+    "details_ph" "Bitte beschreiben Sie nach Möglichkeit Wandstärke, Oberflächenbehandlung und Toleranzen..."
+    "privacy" "Ihre Angaben werden ausschließlich zur Prüfung und Beantwortung dieser Anfrage verwendet."
+    "submit" "RFQ senden"
+  )
+  "es" (dict
+    "name" "Nombre completo *"
+    "company" "Empresa"
+    "email" "Correo profesional *"
+    "material" "Especificación del material"
+    "opt_adc12" "Aluminio (ADC12 / A383)"
+    "opt_a356" "Aluminio (A356 / A360)"
+    "opt_az91d" "Magnesio (AZ91D / AM60B)"
+    "opt_other" "Otro / Aún por definir"
+    "volume" "Volumen anual estimado (EAV)"
+    "volume_ph" "p. ej., 5.000 piezas"
+    "details" "Detalles y requisitos del proyecto *"
+    "details_ph" "Describa si es posible el espesor, el tratamiento superficial y las tolerancias..."
+    "privacy" "Sus datos se utilizan únicamente para evaluar y responder a esta consulta."
+    "submit" "Enviar RFQ"
+  )
+  "ja" (dict
+    "name" "氏名 *"
+    "company" "会社名"
+    "email" "業務用メール *"
+    "material" "材料仕様"
+    "opt_adc12" "アルミニウム（ADC12 / A383）"
+    "opt_a356" "アルミニウム（A356 / A360）"
+    "opt_az91d" "マグネシウム（AZ91D / AM60B）"
+    "opt_other" "その他 / 未定"
+    "volume" "年間予定数量"
+    "volume_ph" "例：5,000個"
+    "details" "プロジェクト詳細・要件 *"
+    "details_ph" "可能な範囲で肉厚、表面処理、公差をご記入ください。"
+    "privacy" "ご入力内容は、本お問い合わせの検討と回答にのみ使用します。"
+    "submit" "RFQを送信"
   )
   "it" (dict
     "name" "Nome completo *"
@@ -32,6 +81,7 @@
     "volume_ph" "es. 5.000 pz"
     "details" "Dettagli e requisiti del progetto *"
     "details_ph" "Descriva se possibile spessore di parete, trattamento superficiale (anodizzazione, verniciatura a polvere, ecc.) e tolleranze..."
+    "privacy" "I dati sono utilizzati solo per valutare e rispondere a questa richiesta."
     "submit" "Invia RFQ"
   )
   "ko" (dict
@@ -47,6 +97,7 @@
     "volume_ph" "예: 5,000개"
     "details" "프로젝트 세부사항 및 요구사항 *"
     "details_ph" "가능한 경우 벽 두께, 표면 처리(아노다이징, 파우더 코팅 등) 및 공차를 설명해 주세요."
+    "privacy" "입력하신 정보는 본 문의의 검토와 답변 목적으로만 사용됩니다."
     "submit" "RFQ 제출"
   )
   "fr" (dict
@@ -62,35 +113,37 @@
     "volume_ph" "ex. 5 000 pcs"
     "details" "Détails et exigences du projet *"
     "details_ph" "Veuillez décrire l'épaisseur de paroi, le traitement de surface (anodisation, revêtement en poudre, etc.) et les tolérances si possible..."
+    "privacy" "Vos informations sont utilisées uniquement pour évaluer et répondre à cette demande."
     "submit" "Soumettre la demande de devis"
   )
 }}
 {{ $t := index $labels $l | default (index $labels "en") }}
 <form action="https://formspree.io/f/xpqgbdly" method="POST" style="max-width: 100%; margin: 0 auto; font-family: sans-serif;">
+  <input type="hidden" name="_subject" value="KingShip RFQ - {{ $l | upper }}">
   
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 24px;">
     <div>
-      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "name" }}</label>
-      <input type="text" name="name" required 
+      <label for="shared-rfq-name" style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "name" }}</label>
+      <input id="shared-rfq-name" type="text" name="name" required
              style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box;">
     </div>
     <div>
-      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "company" }}</label>
-      <input type="text" name="company" 
+      <label for="shared-rfq-company" style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "company" }}</label>
+      <input id="shared-rfq-company" type="text" name="company"
              style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box;">
     </div>
   </div>
 
   <div style="margin-bottom: 24px;">
-    <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "email" }}</label>
-    <input type="email" name="_replyto" required 
+    <label for="shared-rfq-email" style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "email" }}</label>
+    <input id="shared-rfq-email" type="email" name="_replyto" required
            style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box;">
   </div>
 
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 24px;">
     <div>
-      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "material" }}</label>
-      <select name="material" 
+      <label for="shared-rfq-material" style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "material" }}</label>
+      <select id="shared-rfq-material" name="material"
               style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box; height: 47px; appearance: none; -webkit-appearance: none;">
         <option value="Aluminum-ADC12">{{ index $t "opt_adc12" }}</option>
         <option value="Aluminum-A356">{{ index $t "opt_a356" }}</option>
@@ -99,19 +152,20 @@
       </select>
     </div>
     <div>
-      <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "volume" }}</label>
-      <input type="text" name="volume" placeholder="{{ index $t "volume_ph" }}" 
+      <label for="shared-rfq-volume" style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "volume" }}</label>
+      <input id="shared-rfq-volume" type="text" name="volume" placeholder="{{ index $t "volume_ph" }}"
              style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box;">
     </div>
   </div>
 
   <div style="margin-bottom: 32px;">
-    <label style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "details" }}</label>
-    <textarea name="message" rows="5" required 
+    <label for="shared-rfq-message" style="display: block; text-transform: uppercase; letter-spacing: 0.05em; font-size: 12px; font-weight: 600; margin-bottom: 8px; color: #9ca3af;">{{ index $t "details" }}</label>
+    <textarea id="shared-rfq-message" name="message" rows="5" required
               placeholder="{{ index $t "details_ph" }}" 
               style="width: 100%; padding: 12px 16px; border: 1px solid #374151; border-radius: 6px; background-color: #111827; color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box; line-height: 1.6; resize: vertical;"></textarea>
   </div>
 
+  <p style="font-size: 12px; line-height: 1.5; color: #6b7280; margin: 0 0 12px;">{{ index $t "privacy" }}</p>
   <div style="text-align: left;">
     <button type="submit" 
             style="display: inline-block; padding: 14px 36px; background-color: #2563eb; color: #ffffff; font-size: 16px; font-weight: 600; border: none; border-radius: 6px; cursor: pointer; transition: background-color 0.2s ease, transform 0.1s ease; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);"

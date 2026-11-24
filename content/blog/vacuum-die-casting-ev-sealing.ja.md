@@ -11,7 +11,6 @@ tags: ["EV", "Leak Test", "Quality"]
 
 EV筐体では、内部欠陥の低減と気密性能の両立が重要です。[EVバッテリー筐体向けダイカスト](https://alumcasting.com/ev-battery-housing-die-casting/)では、真空化と射出条件の最適化が効果的です。
 
-![EV構造部品向け大型ダイカスト設備](/img/5000ton-die-casting-machine.webp "大型HPDC設備")
 
 ## 量産で効く管理項目
 
@@ -25,7 +24,6 @@ EV筐体では、内部欠陥の低減と気密性能の両立が重要です。
 
 X線検査、CMM、リークテストを組み合わせることで、欠陥の見逃しを減らし、工程改善に直結できます。
 
-![X線による内部欠陥検査](/img/x-ray-detector.webp "ポロシティ検査")
 
 お問い合わせは [alumcasting.com/contact](https://kingship.alumcasting.com/ja/contact/) へ。
 

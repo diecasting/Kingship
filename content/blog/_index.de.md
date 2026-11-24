@@ -1,11 +1,9 @@
 ---
 title: "Technischer Blog für Präzisionsfertigung & Werkzeugkonstruktion"
-description: "Detaillierte industrielle Fallstudien, Leitfäden zur Formfüllungsanalyse, Strategien zur Porositätsminderung und technische Beratung basierend auf über 20 Jahren Erfahrung im Druckguss."
+description: "Technische Leitfäden zu Aluminium- und Magnesium-Druckguss, Werkzeugbau, Porositätskontrolle, CNC-Nachbearbeitung, Prüfung und RFQ-Planung."
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "technical-blog-banner.webp"
-featureImageAlt: "Druckguss-Ingenieurteam bei der Analyse der Formfüllungssimulation"
 layout: "list"
 ---
 

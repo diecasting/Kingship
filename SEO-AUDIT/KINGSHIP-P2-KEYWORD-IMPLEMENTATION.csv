@@ -1,0 +1,19 @@
+priority,cluster,language,target_query,landing_url,recommended_action,evidence_status
+P1,Aluminum Die Casting,en,adc12 aerospace aluminum die casting,https://kingship.alumcasting.com/aluminum-die-casting/,Add alloy-selection and aerospace qualification questions without claiming verified aerospace approvals,Alloy education supported; capability PENDING
+P1,Aluminum Die Casting,en,precision a380 die casting service,https://kingship.alumcasting.com/aluminum-die-casting/,Clarify service scope and RFQ inputs above the fold,Project-specific service wording implemented
+P1,Aluminum Die Casting,en,precision aerospace aluminum alloy die casting,https://kingship.alumcasting.com/industries/aerospace/,Answer material and inspection planning; link to Aerospace page,Capability scope remains project-specific
+P1,CNC Machining,en,aluminum casting cnc machining service,https://kingship.alumcasting.com/cnc-machining/,Strengthen cast-to-CNC scope and drawing requirements,CNC process PARTIALLY_VERIFIED
+P1,CNC Machining,en,cnc aluminium casting machining service provider,https://kingship.alumcasting.com/cnc-machining/,Add supplier-selection and RFQ data-pack summary,CNC process PARTIALLY_VERIFIED
+P1,CNC Machining,en,casting cnc machining supplier,https://kingship.alumcasting.com/cnc-machining/,Add concise supplier capability and project-confirmation block,CNC process PARTIALLY_VERIFIED
+P1,Magnesium,en,magnesium cnc machining quote,https://kingship.alumcasting.com/cnc-machining/,Add magnesium machining RFQ inputs without claiming stock or equipment,Material scope PENDING
+P1,Tooling,en,die casting tooling design service,https://kingship.alumcasting.com/tooling/,Improve first-screen DFM and tooling-scope answer,Tooling method PARTIALLY_VERIFIED
+P1,Tooling,en,aluminum foundry transfer tooling,https://kingship.alumcasting.com/tooling/,Add transfer-tool review questions and change-control inputs,Requires verification
+P1,Medical,en,aluminum housings for medical devices,https://kingship.alumcasting.com/blog/aluminum-housings-for-medical-devices/,Add direct design and inspection answers; remove project assumptions,Project applicability PENDING
+P2,Aluminum Die Casting,de,Aluminium Druckguss DFM,https://kingship.alumcasting.com/de/aluminum-die-casting/,Link existing DFM guide to service and RFQ,Technical guidance supported
+P2,Aluminum Die Casting,es,fundición aluminio DFM,https://kingship.alumcasting.com/es/aluminum-die-casting/,Add concise DFM answer and link to CNC service,Technical guidance supported
+P2,Aluminum Die Casting,fr,fonderie aluminium DFM,https://kingship.alumcasting.com/fr/aluminum-die-casting/,Add concise DFM answer and RFQ checklist,Technical guidance supported
+P2,Tooling,it,costruzione stampi pressofusione alluminio,https://kingship.alumcasting.com/it/tooling/,Refine supplier-intent title and first paragraph,Tooling method PARTIALLY_VERIFIED
+P2,Tooling,ko,다이캐스팅 금형,https://kingship.alumcasting.com/ko/tooling/,Clarify tooling scope and RFQ inputs,Tooling method PARTIALLY_VERIFIED
+P2,Porosity,en,gas vs shrinkage porosity die casting,https://kingship.alumcasting.com/blog/advanced-porosity-control-aluminum-die-casting/,Create decision tree and inspection-plan internal links,Technical article exists
+P2,Quality,en,die casting x-ray sampling plan,https://kingship.alumcasting.com/aluminum-die-casting/,Add project-specific acceptance and sampling questions,Inspection method PENDING project scope
+P2,CNC Machining,en,casting to cnc datum strategy,https://kingship.alumcasting.com/cnc-machining/,Add datum and fixture planning module,General process guidance supported

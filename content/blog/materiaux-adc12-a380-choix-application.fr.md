@@ -11,7 +11,6 @@ tags: ["Material", "Aluminum", "DFM"]
 
 Le choix alliage influence directement porosite, performances mecaniques et rendement [usinage](/fr/cnc-machining).
 
-![Pieces en aluminium sous pression](/img/aluminum-die-casting-parts-storage.webp "Production aluminium")
 
 References: [ADC12 engineering guide](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) et [A380 alloy properties](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/).
 

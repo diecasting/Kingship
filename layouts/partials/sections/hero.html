@@ -17,14 +17,14 @@
         </div>
       </div>
       <!-- Media column -->
-      {{- with .image -}}
+      {{- if site.Params.publicMediaUseEnabled }}{{- with .image -}}
       <div class="relative">
         <div class="overflow-hidden rounded-3xl shadow-2xl ring-1 ring-black/5">
           <img src="{{ .url }}" alt="{{ .alt }}" title="{{ .title | default .alt }}" loading="lazy"
                class="w-full h-auto object-cover aspect-[4/3]">
         </div>
       </div>
-      {{- end -}}
+      {{- end -}}{{- end -}}
     </div>
   </div>
 </section>

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Quality"
 description: "Control de calidad en fundicion: rayos X, CMM, leak test y liberacion de serie."
 layout: "list"

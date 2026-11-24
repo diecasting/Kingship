@@ -13,7 +13,6 @@ tags: ["DFM", "Cost", "Tooling"]
 
 This breakdown helps teams compare tooling quotes on technical substance, not headline price.
 
-![Die casting tooling and mold planning](/img/yizumi-die-casting-machine-shop.webp "Tooling scope clarity prevents quote disputes")
 
 ## Typical Tooling Cost Structure
 

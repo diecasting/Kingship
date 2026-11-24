@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="KingShip engineering mark">
+  <rect width="64" height="64" rx="14" fill="#0c4a8e"/>
+  <path d="M14 18h24l12 12v16H26L14 34z" fill="none" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M38 18v12h12M23 36h16M23 42h11" fill="none" stroke="#d98c0c" stroke-width="4" stroke-linecap="round"/>
+</svg>

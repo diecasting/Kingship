@@ -1,22 +1,19 @@
 ---
 title: "다이캐스팅 부품 절삭·후가공 서비스"
-description: "다이캐스팅 부품의 절삭·후가공을 검토하는 설계·구매 담당자를 위한 안내입니다. A357·AZ91D·AM60B의 가공 여유 설계, 데이텀과 기하공차 지정, 후가공 공차의 판단 기준, 견적 의뢰에 필요한 도면·데이터를 정리했습니다. 주조부터 마감 가공까지 일괄 대응도 상의할 수 있습니다."
+description: "알루미늄·마그네슘 다이캐스팅 부품의 절삭·후가공을 검토하는 설계·구매 담당자를 위한 안내입니다. 가공 여유, 데이텀, 검사 계획 및 견적에 필요한 도면과 데이터를 정리합니다."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "청색 바닥 작업장에서 CNC 가공기가 양쪽으로 늘어선 통로"
 showTableOfContents: false
 url: "/ko/cnc-machining/"
 service:
   name: "CNC 가공"
   category: "정밀 가공"
-  tagline: "주조 후 다이캐스팅 부품에 도면 기준의 절삭·마감 가공"
+  tagline: "주조 후 다이캐스팅 부품의 CNC 가공으로, 완성품 도면에 따라 가공 전략과 검사 범위를 정합니다."
   materials:
-    - "알루미늄 합금 A357"
-    - "마그네슘 합금 AZ91D"
-    - "마그네슘 합금 AM60B"
+    - "알루미늄 주조 합금 — RFQ에서 확인"
+    - "마그네슘 주조 합금 — RFQ에서 확인"
   processes:
     - "다이캐스팅 후 CNC 밀링·면삭"
     - "드릴링·태핑·나사 가공"
@@ -29,7 +26,7 @@ service:
     - "도면·기하공차 기준 검사 공정 설정"
   specifications:
     - label: "가공 공차"
-      value: "±0.01 mm (후가공, 프로젝트 의존)"
+      value: "도면, 데이텀, 셋업 및 측정 방법을 기준으로 특징별 정의"
     - label: "최대 부품 크기"
       value: "도면·프로젝트별 정의"
     - label: "표면 조도"
@@ -58,22 +55,22 @@ service:
     - "다이캐스팅 부품 절삭가공 견적 도면 첨부"
     - "다이캐스팅 전용 지그 설계 대응 협력사"
   related_resources:
-    - title: "CNC 가공 공차 가이드"
-      url: "https://alumcasting.com/cnc-machining-tolerance-guide/"
-    - title: "5축 가공 플레이북"
-      url: "https://alumcasting.com/5-axis-machining-playbook/"
+    - title: "다이캐스팅 금형 설계"
+      url: "/ko/tooling/"
+    - title: "알루미늄 고압 다이캐스팅"
+      url: "/ko/aluminum-die-casting/"
   wordpress_resources:
-    - title: "주조 + CNC 턴키"
-      url: "https://alumcasting.com/one-stop-cast-cnc-turnkey/"
+    - title: "RFQ 기술 검토 요청"
+      url: "/ko/contact/"
   faq:
     - q: "다이캐스팅 가공 여유는 얼마나 두어야 하나요?"
       a: "가공 여유는 부위 기능, 주조 방안, 용탕 유동, 파팅선 위치에 따라 달라집니다. 도면과 DFM 검토에서 주조 표피·이젝터 자국을 고려해 프로젝트별로 정합니다. 일률 수치가 아니라 절삭으로 확실히 마감할 수 있는 여유를 데이텀과 함께 합의합니다."
     - q: "가공 후 달성 가능한 공차는 어느 정도인가요?"
-      a: "적절한 후가공 조건에서 정의된 부위에 ±0.01 mm 공차를 달성할 수 있습니다. 달성 가능한 공차는 부품 형상·재질·가공 공정 및 셋업·데이텀 전략·검사 방법·프로젝트 요구사항에 좌우되며, 도면과 DFM 검토에서 확인합니다. 모든 부위에 일괄 적용되는 값은 아닙니다."
+      a: "달성 가능한 공차는 부품 형상, 재질, 가공 공정과 셋업, 데이텀 체계 및 검사 방법에 따라 달라집니다. 도면과 DFM 검토에서 특징별로 확인하며 모든 부위에 일괄 적용하는 값으로 사용하지 않습니다."
     - q: "주조와 가공의 데이텀은 어떻게 맞추나요?"
       a: "주조 도면의 기준과 가공 도면의 데이텀 A·B·C를 대응시키고 기능 치수와 위치도를 같은 기준계로 지정합니다. 셋업 변경이 늘수록 공차가 누적되므로 단일 셋업에서 데이텀부터 가공할 수 있는 지그 계획을 DFM 단계에서 검토합니다. 기준 설정은 도면별로 정의합니다."
     - q: "주조부터 가공까지 일괄 대응이 가능한가요?"
-      a: "주조 방안·금형·절삭·표면처리의 인터페이스를 하나의 프로그램에서 조정하는 진행 방식을 상의할 수 있습니다. DFM 피드백과 공정 순서의 정합을 도면·수량·요구사항 확인 후 프로젝트별로 구성하며, 대응 범위는 프로젝트 단위로 합의합니다."
+      a: "주조와 후가공의 인터페이스를 함께 검토할 수 있습니다. DFM 피드백과 공정 순서, 설비 선택, 검사 범위 및 문서 수준은 도면과 수량, 요구사항을 확인한 뒤 프로젝트별로 정합니다."
     - q: "견적에 어떤 도면과 데이터가 필요한가요?"
       a: "3D 모델(STEP / IGES), 기하공차·데이텀 포함 2D 도면, 재질(A357 / AZ91D / AM60B), 연간 수량·로트, 부위별 목표 공차, 면조도, 검사·문서 범위, 시제품 또는 양산 여부를 준비해 주세요. 자료가 갖춰질수록 가공 방안과 공수 전망이 구체화됩니다."
     - q: "가공면에 기공이나 수축공이 드러나면 어떻게 하나요?"
@@ -85,10 +82,7 @@ service:
 다이캐스팅은 복잡한 형상을 한 번에 얻을 수 있지만, 실링면·압입 구멍·체결 좌면 같은 기능면은 주조 표피 그대로는 성립하지 않습니다. 이 페이지에서는 주조 방안과 후가공을 잇는 가공 여유 설계, 데이텀과 기하공차 지정, 달성 가능한 공차의 판단 기준, 견적 의뢰에 필요한 도면·데이터를 실무 순서대로 정리했습니다. 일반적인 공정 지식과 프로젝트별로 정의해야 할 사항을 구분해 읽어 주세요.
 
 <!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="청색 바닥 작업장에서 CNC 가공기가 양쪽으로 늘어선 통로" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC 가공 작업장</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -121,7 +115,7 @@ service:
 
 후가공 공차는 목록의 일률 값이 아니라 부위별로 조건부로 다룹니다. 다음은 달성 가능한 공차에 대한 기본적인 판단 기준입니다.
 
-**【달성 가능한 공차】** 적절한 후가공 조건에서 도면에 정의된 특정 부위에는 ±0.01 mm 공차를 달성할 수 있습니다. 다만 달성 가능한 공차는 부품 형상·재질·가공 공정 및 셋업·데이텀 전략·검사 방법·프로젝트 요구사항에 좌우됩니다. 도면과 DFM 검토 단계에서 부위별로 확인하는 사항이며, 모든 부품·모든 부위에 일괄 적용되는 전면 값은 아닙니다.
+**【달성 가능한 공차】** 달성 가능한 공차는 부품 형상·재질·가공 공정 및 셋업·데이텀 전략·검사 방법·프로젝트 요구사항에 좌우됩니다. 도면과 DFM 검토 단계에서 부위별로 확인하며, 모든 부품·모든 부위에 일괄 적용되는 값으로 사용하지 않습니다.
 
 그래서 도면에는 부위별 목표 공차와, 그 공차를 어떤 방법으로 측정할지 함께 적습니다. 판정은 측정 온도·측정점·측정구 정의에 따라 달라지므로 검사 방법까지 수용 기준에 포함해야 양산 시 흩어짐을 줄일 수 있습니다.
 
@@ -139,10 +133,7 @@ service:
 대상은 주조용 A357 알루미늄 합금과 AZ91D·AM60B 마그네슘 합금입니다. A357 은 절삭 중 열이 공구와 칩에 머물기 쉬워 날 끝 온도 관리와 칩 배출 경로가 공구 수명을 좌우합니다. 마그네슘 다이캐스팅 재는 비중이 작고 절삭 저항이 낮아 가볍게 깎이지만, 열팽창 계수가 커 가공열로 치수가 움직이므로 마감 전 온도 안정과 측정 환경 관리가 필요합니다. AZ91D 는 주조성이 좋고 단단한 편이며, AM60B 는 연신율이 높아 버와 찢김이 잘 생겨 이송과 절입 깊이를 다르게 잡습니다. 가는 마그네슘 칩은 발화성을 가지는 것으로 일반적으로 알려져 있어, 칩 회수·소방·절삭유 선정은 산업 안전 일반 지식으로 공정에 반영합니다. 자세한 합금 비교는 [마그네슘 다이캐스팅](https://kingship.alumcasting.com/ko/magnesium-die-casting/) 페이지에서 볼 수 있습니다.
 
 <!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="절삭 공구에 절삭유를 공급하며 긴 알루미늄 주조품을 CNC 밀링하는 장면" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">주조 부품의 CNC 밀링</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -193,8 +184,5 @@ service:
 
 
 <!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="가공 전 CNC 공작기계 테이블에 고정된 대형 트레이형 주조품" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC 공작기계 테이블에 고정된 주조품</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->

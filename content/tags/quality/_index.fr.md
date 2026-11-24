@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Quality"
 description: "Assurance qualite en fonderie: rayons X, CMM, leak test et validation serie."
 layout: "list"

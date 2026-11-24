@@ -1,12 +1,10 @@
 ---
 title: "Druckguss-Werkzeugbau & Formenbau für Aluminium und Magnesium"
-description: "DFM-gestützter Druckguss-Werkzeug- und Formenbau: Werkzeugkonstruktion, Fließsimulation, CNC-/EDM-Fertigung, T0/T1-Abnahme und Wartung. H13/SKD61-Werkzeuge mit 1–8 Kavitäten."
+description: "DFM-gestützter Druckguss-Werkzeug- und Formenbau: Werkzeugkonstruktion, Fließsimulation, CNC-/EDM-Fertigung, T0/T1-Abnahme und Wartung. H13-/SKD61-Werkzeuge; Kavitäten und Werkzeugumfang werden projektbezogen festgelegt."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "Vierkantiges verripptes Aluminium-Druckgussgehäuse mit bearbeiteten Flächen"
 showTableOfContents: true
 url: "/de/tooling/"
 service:
@@ -28,9 +26,9 @@ service:
     - label: "Werkzeugstahlqualität"
       value: "H13 / SKD61"
     - label: "Kavitätenanzahl"
-      value: "1–8 Kavitäten"
+      value: "Projektbezogen nach Volumen, Zykluszeit und Werkzeuggrenzen"
     - label: "Werkzeuglebensdauer (typisch, projektabhängig)"
-      value: "100k–500k Schüsse"
+      value: "Projektabhängig; keine pauschale Zusage"
     - label: "Fließsimulation"
       value: "Magma / Moldflow (projektbezogen)"
   industries:

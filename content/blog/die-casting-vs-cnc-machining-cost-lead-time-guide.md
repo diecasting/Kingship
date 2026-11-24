@@ -13,7 +13,6 @@ When teams compare die casting and [CNC machining](/cnc-machining), the right an
 
 This guide helps sourcing and product teams choose the process that minimizes total project risk.
 
-![Die casting and CNC process planning](/img/engineering-team-reviewing-cad-models.webp "Choose process by total cost and launch plan")
 
 ## Quick Decision Rule
 

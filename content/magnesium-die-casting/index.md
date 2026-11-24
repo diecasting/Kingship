@@ -1,21 +1,19 @@
 ---
 title: "Magnesium Die Casting — AZ91D vs AM60B Alloy Selection, Design & RFQ"
-description: "Magnesium HPDC in AZ91D and AM60B on a 400T–3000T range: alloy selection, thin-wall design, corrosion strategy, CNC integration and RFQ inputs for sourcing teams."
+description: "Magnesium HPDC engineering guide for AZ91D and AM60B: alloy selection, thin-wall design, corrosion strategy, CNC integration and the machine, tolerance and inspection details to confirm at RFQ."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/magnesium-die-casting-banner.webp"
-featureImageAlt: "High-precision magnesium alloy hot and cold chamber die casting production fleet"
 showTableOfContents: false
 service:
   name: "Magnesium Die Casting"
   category: "High-Pressure Die Casting"
-  tagline: "Magnesium HPDC in AZ91D and AM60B on a 400T–3000T machine range, with alloy and design decisions made in DFM."
+  tagline: "Magnesium HPDC engineering in AZ91D and AM60B, with machine scope, alloy and design decisions confirmed in DFM and at RFQ."
   materials:
     - "AZ91D magnesium casting alloy"
     - "AM60B magnesium casting alloy"
-    - "A357 aluminium casting alloy (for Mg-vs-Al comparisons)"
+    - "Project-specific aluminium comparison grade"
   processes:
     - "High-pressure die casting (HPDC)"
     - "Thixocasting and Vacuum-Assisted Rheocast"
@@ -23,16 +21,16 @@ service:
     - "CNC post-machining"
     - "Shot Blasting and Anodizing"
   equipment:
-    - "400T–3000T HPDC machine range"
+    - "HPDC machine scope confirmed at RFQ"
     - "Robotic Pouring Line"
     - "Machining and inspection scope defined per project"
   specifications:
     - label: "Machine tonnage"
-      value: "400T – 3000T"
+      value: "machine scope confirmed at RFQ"
     - label: "Min. wall thickness (typical, project-dependent)"
-      value: "1.0 – 1.2 mm, subject to material, geometry, flow distance and project conditions"
+      value: "confirmed against drawing, alloy and geometry"
     - label: "CNC tolerance (post-machining, project-dependent)"
-      value: "±0.01 mm achievable on defined features under appropriate post-machining conditions"
+      value: "feature-specific feasibility confirmed during DFM"
     - label: "Surface treatment"
       value: "Defined per project; Shot Blasting and Anodizing are confirmed processes"
   industries:
@@ -69,7 +67,7 @@ service:
     - q: "What wall thickness is feasible?"
       a: "Approximately 1.0–1.2 mm is a project-dependent guide for thin-wall HPDC work. The achievable value depends on the alloy, part geometry, flow distance and the specific project conditions, and is confirmed during drawing and DFM review — not treated as an unconditional minimum."
     - q: "What CNC tolerance is achievable on a magnesium casting?"
-      a: "A tolerance of ±0.01 mm can be achieved on defined features under appropriate post-machining conditions. It depends on part geometry, material, machining process and setup, datum strategy, inspection method and project requirements, and is confirmed per feature during DFM review."
+      a: "A tolerance of feature-specific feasibility confirmed during DFM can be achieved on defined features under appropriate post-machining conditions. It depends on part geometry, material, machining process and setup, datum strategy, inspection method and project requirements, and is confirmed per feature during DFM review."
     - q: "How is corrosion protection handled?"
       a: "Bare magnesium should not be assumed corrosion-resistant. Surface treatment is selected per project — Shot Blasting and Anodizing are confirmed processes, while conversion coatings, e-coating or micro-arc oxidation are general industry options to be evaluated for suitability and availability. Design measures against galvanic contact corrosion are reviewed at the same time."
     - q: "How are quality and dimensional requirements defined?"
@@ -84,7 +82,7 @@ service:
 
 Magnesium high-pressure die casting (HPDC) is chosen when mass reduction is a design driver rather than a marketing claim. With a density around 1.74–1.81 g/cm³ depending on the alloy, magnesium is roughly a third lighter than aluminium by volume and substantially lighter than steel — a **general material property**, not a Kingship achievement. The engineering question is not simply "is magnesium lighter?" but whether the part's stiffness, corrosion exposure, joining method, thermal duty and volume justify the alloy and process choices. This page is written for design engineers, process engineers, sourcing managers and quality engineers evaluating a magnesium casting program.
 
-The confirmed casting machine range is 400T–3000T, with AZ91D and AM60B as the confirmed magnesium casting alloys. A357 is the confirmed aluminium casting alloy and is referenced here only where an Mg-versus-Al decision is being made. Thixocasting and Vacuum-Assisted Rheocast are available process routes; Robotic Pouring Line, Shot Blasting and Anodizing are also confirmed capabilities. Where a figure below is a general industry range rather than a Kingship specification, it is labelled as such.
+The casting machine and process route must be confirmed against the part, die, shot weight and available production asset for each RFQ. AZ91D and AM60B are the documented magnesium alloys considered on this page. Aluminium grades are included only as comparison candidates and must be confirmed for the specific project. Where a figure below is a general industry range rather than a Kingship specification, it is labelled as such.
 
 ### Why lightweighting is a system decision
 
@@ -132,7 +130,7 @@ Bare magnesium should never be specified on the assumption of inherent corrosion
 
 ### Machining integration: allowance, datums and chip safety
 
-Most magnesium castings need CNC post-machining for sealing faces, threaded holes and assembly datums. The casting drawing must define the machining allowance and the stable surfaces used for the first setup; the finished-part drawing defines datum A|B|C and the geometric tolerances checked against them. A tolerance of ±0.01 mm can be achieved on defined features under appropriate post-machining conditions, but it depends on part geometry, material, machining process and setup, datum strategy, inspection method and project-specific requirements — it is confirmed during drawing and DFM review, not applied as a blanket value to every part. Magnesium's higher thermal expansion and its fine, ignitable chips also influence cutting parameters, coolant choice, chip evacuation and workshop safety procedures; these are general machining considerations to agree with the supplier. See the [CNC machining](https://kingship.alumcasting.com/cnc-machining/) page for the datum and tolerance discussion in detail.
+Most magnesium castings need CNC post-machining for sealing faces, threaded holes and assembly datums. The casting drawing must define the machining allowance and the stable surfaces used for the first setup; the finished-part drawing defines datum A|B|C and the geometric tolerances checked against them. A tolerance of feature-specific feasibility confirmed during DFM can be achieved on defined features under appropriate post-machining conditions, but it depends on part geometry, material, machining process and setup, datum strategy, inspection method and project-specific requirements — it is confirmed during drawing and DFM review, not applied as a blanket value to every part. Magnesium's higher thermal expansion and its fine, ignitable chips also influence cutting parameters, coolant choice, chip evacuation and workshop safety procedures; these are general machining considerations to agree with the supplier. See the [CNC machining](https://kingship.alumcasting.com/cnc-machining/) page for the datum and tolerance discussion in detail.
 
 ### Dimensional stability and project quality requirements
 
@@ -160,15 +158,15 @@ Laptop and camera housings exploit low mass, damping and EMI shielding, but need
 
 ### Magnesium versus aluminium, and where semi-solid fits
 
-Choosing between magnesium and aluminium is a trade-off between mass, absolute stiffness, thermal behaviour, corrosion strategy, cost and volume — not a simple substitution. A357 is the confirmed aluminium casting alloy. [Compare magnesium vs aluminium die casting](https://alumcasting.com/magnesium-vs-aluminum-die-casting/) for a broader discussion, and see [aluminium die casting](https://kingship.alumcasting.com/aluminum-die-casting/) for the aluminium route. For parts where a semi-solid route is of interest, [semi-solid rheocasting](https://kingship.alumcasting.com/semi-solid-rheocasting/) is a separate process with its own process window — the 30–65% solid-fraction range is a process window, not a universal guaranteed value. Thixocasting and Vacuum-Assisted Rheocast are confirmed process routes; the decision between HPDC and a semi-solid route belongs in DFM.
+Choosing between magnesium and aluminium is a trade-off between mass, absolute stiffness, thermal behaviour, corrosion strategy, cost and volume — not a simple substitution. The aluminium comparison grade must be confirmed for the project. [Compare magnesium vs aluminium die casting](https://alumcasting.com/magnesium-vs-aluminum-die-casting/) for a broader discussion, and see [aluminium die casting](https://kingship.alumcasting.com/aluminum-die-casting/) for the aluminium route. For parts where a semi-solid route is of interest, [semi-solid rheocasting](https://kingship.alumcasting.com/semi-solid-rheocasting/) is a separate engineering route with its own feasibility review — the 30–65% solid-fraction range is a general process window, not a Kingship capability or guaranteed value.
 
-| Decision axis | Magnesium HPDC | Aluminium HPDC (A357) |
+| Decision axis | Magnesium HPDC | Aluminium HPDC (project-specific grade) |
 |---|---|---|
 | Density | Lower — mass reduction driver | Higher |
 | Absolute stiffness | Lower; section design must compensate | Higher |
 | Corrosion strategy | Surface treatment + galvanic isolation essential | Anodizing available, design still matters |
 | Chip / melt safety | Specific general industry precautions | Conventional |
-| Alloy choice in this program | AZ91D / AM60B | A357 |
+| Alloy choice in this program | AZ91D / AM60B | Confirm for the specific project |
 
 ### Supplier selection and integrated programs
 

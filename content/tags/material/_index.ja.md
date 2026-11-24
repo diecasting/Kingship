@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Material"
 description: "Japanese material selection articles for die casting alloys."
 layout: "list"

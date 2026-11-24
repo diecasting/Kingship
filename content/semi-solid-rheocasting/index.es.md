@@ -1,35 +1,38 @@
 ---
-title: "Reofundición semisólida (SSR) — Aluminio A357 y piezas estructurales ligeras"
-description: "Reofundición semisólida (SSR) de aluminio A357 en parque 400T–3000T. Piezas estructurales ligeras de baja porosidad para EV y automoción. Proceso y cotización."
+title: "Reofundición semisólida — Guía técnica de proceso y RFQ"
+description: "Guía técnica de reofundición semisólida: ruta de proceso, aleaciones candidatas, consideraciones de diseño y capacidad, equipo e inspección que deben confirmarse para cada RFQ."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "Pieza alargada de aluminio con dos taladros circulares y nervios de refuerzo"
 showTableOfContents: true
+robots: "noindex, follow"
+sitemap:
+  disable: true
+excludeFromSearch: true
+xml: false
 url: "/es/semi-solid-rheocasting/"
 service:
   name: "Reofundición semisólida"
   category: "Colada semisólida"
-  tagline: "Reofundición semisólida de aluminio A357 de componentes estructurales con objetivo de baja porosidad en un parque de fundición 400T–3000T, con magnesio (AZ91D / AM60B) ofrecido como capacidad separada."
+  tagline: "La reofundición semisólida como opción de ingeniería; producción, aleación, equipo e inspección se confirman por proyecto."
   materials:
-    - "A357 (Aluminio — grado semisólido principal)"
+    - "aleación de aluminio según proyecto (Aluminio — grado semisólido principal)"
     - "A356 (Aluminio — grado relacionado, según proyecto)"
   processes:
     - "Reofundición semisólida (SSR)"
     - "Tixofundición"
     - "Reofundición asistida por vacío"
   equipment:
-    - "Parque de fundición 400T–3000T"
+    - "Parque de fundición rango de máquina confirmado por proyecto"
     - "Línea de colado robotizada"
   specifications:
     - label: "Tonelaje de máquina (rango de capacidad)"
-      value: "400T – 3000T"
+      value: "rango confirmado en el RFQ"
     - label: "Espesor mín. de pared (típico, según proyecto)"
-      value: "1.0 – 1.2 mm"
+      value: "confirmar en el RFQ"
     - label: "Tolerancia CNC (alcanzable, post-mecanizado, según proyecto)"
-      value: "±0.01 mm"
+      value: "viabilidad por característica en el DFM"
     - label: "Tratamiento de superficie"
       value: "Shot Blasting, Anodizing"
   industries:
@@ -47,11 +50,11 @@ service:
   seo_keywords:
     - "colada semisolida"
     - "fundición semisólida"
-    - "aleación A357"
+    - "aleación aleación de aluminio según proyecto"
     - "reofundición semisólida"
-    - "A357 fundición baja porosidad"
+    - "aleación de aluminio según proyecto fundición baja porosidad"
     - "carcasa batería EV colada semisolida"
-    - "aluminio A357 estructural"
+    - "aluminio aleación de aluminio según proyecto estructural"
     - "reofundición vs fundición a presión"
     - "piezas estructurales ligeras aluminio"
     - "proveedor colada semisolida china"
@@ -67,7 +70,7 @@ service:
     - q: "¿Qué es la reofundición semisólida?"
       a: "La SSR conforma el metal en su zona líquido-sólida \"pastosa\" (típicamente 30–65% de fracción sólida) para obtener componentes cercanos a la forma final con porosidad reducida frente a la HPDC. Es una evolución de la fundición a presión, no un reemplazo."
     - q: "¿Qué aleaciones procesan por vía semisólida?"
-      a: "A357 es nuestro grado semisólido principal de aluminio; A356 se evalúa por proyecto. El magnesio AZ91D y AM60B se ofrecen como una capacidad semisólida / de magnesio separada, no como materiales de este proceso de aluminio. Los certificados de material deben acompañar cada consulta."
+      a: "aleación de aluminio según proyecto es nuestro grado semisólido principal de aluminio; A356 se evalúa por proyecto. El magnesio AZ91D y AM60B se ofrecen como una capacidad semisólida / de magnesio separada, no como materiales de este proceso de aluminio. Los certificados de material deben acompañar cada consulta."
     - q: "¿Qué tan baja es la porosidad?"
       a: "Los procesos semisólidos buscan una porosidad sustancialmente menor que la HPDC (referencia del sector: la HPDC suele ser 2–5%). Un valor concreto válido para Kingship depende del material, la geometría, los parámetros de proceso y la inspección, y debe verificarse por proyecto."
     - q: "¿Respaldan la calidad automotriz y PPAP?"
@@ -77,16 +80,18 @@ service:
     - q: "¿Qué espesor de pared mínimo puede lograr la reofundición semisólida?"
       a: "El espesor de pared alcanzable típico es 1.0–1.2 mm, pero el mínimo real depende del recorrido de flujo, la geometría de la pared, el sistema de alimentación y el material, y se confirma en la revisión DFM. Es un objetivo dependiente del proyecto, no una garantía general."
     - q: "¿Pueden mecanizar las piezas reofundidas?"
-      a: "Sí. El mecanizado CNC es una operación secundaria estándar, con tolerancias post-mecanizado alcanzables de ±0.01 mm confirmadas por geometría y proyecto. Las tolerancias de colada son más amplias; el CNC se usa donde se requieren referencias ajustadas."
+      a: "Sí. El mecanizado CNC es una operación secundaria estándar, con tolerancias post-mecanizado alcanzables de viabilidad por característica en el DFM confirmadas por geometría y proyecto. Las tolerancias de colada son más amplias; el CNC se usa donde se requieren referencias ajustadas."
     - q: "¿Qué industrias usan piezas reofundidas semisólidas?"
       a: "Las carcasas y bandejas de batería EV y los soportes estructurales, los componentes de chasis y tren motriz automotrices, los soportes y carcasas aeroespaciales, y los recintos de telecomunicaciones / 5G son aplicaciones comunes donde importan la baja porosidad y la reducción de peso."
     - q: "¿Cómo solicito una cotización de reofundición?"
-      a: "Envíe un modelo 3D o plano (STEP / IGES / PDF), la aleación objetivo (p. ej., A357), el volumen anual estimado, las tolerancias críticas, el tratamiento de superficie y cualquier documentación de calidad requerida. Nuestros ingenieros devuelven comentarios DFM y una cotización."
+      a: "Envíe un modelo 3D o plano (STEP / IGES / PDF), la aleación objetivo (p. ej., aleación de aluminio según proyecto), el volumen anual estimado, las tolerancias críticas, el tratamiento de superficie y cualquier documentación de calidad requerida. Nuestros ingenieros devuelven comentarios DFM y una cotización."
 ---
 
 ## Reofundición semisólida para componentes estructurales ligeros
 
-La reofundición semisólida (SSR) cubre el vacío entre la fundición a presión convencional de alta presión (HPDC) y la forja. Entrega **componentes estructurales cercanos a la forma final, con objetivo de baja porosidad** para programas automotrices, de EV y aeroespaciales. Kingship opera SSR, tixofundición y reofundición asistida por vacío en un **parque de fundición 400T–3000T con líneas de colado robotizadas**, procesando **aluminio A357** como grado semisólido principal y ofreciendo **magnesio AZ91D / AM60B** como capacidad separada.
+> Nota de capacidad: esta página explica la ruta semisólida como opción de ingeniería. La disponibilidad de producción, la calificación de aleaciones, el equipo y el alcance de inspección deben confirmarse por escrito para cada RFQ.
+
+La reofundición semisólida (SSR) se sitúa como concepto entre la fundición a presión convencional (HPDC) y la forja. Esta página explica la ruta de ingeniería sin dar por confirmados la producción, la aleación, el equipo ni el alcance de inspección hasta revisarlos para cada RFQ.
 
 Esta página explica qué es la reofundición semisólida, cómo funciona el proceso, cómo se compara con la HPDC y la tixofundición, qué aleaciones y diseños son adecuados, cómo controlamos la calidad y exactamente qué enviar al solicitar una cotización.
 
@@ -122,7 +127,7 @@ La SSR es una ruta de un solo paso, con suspensión a demanda. Los pasos siguien
   </defs>
   <rect class="bx" x="6" y="45" width="118" height="58" rx="8"/>
   <text class="tx" x="65" y="70">1. Fusión y aleación</text>
-  <text class="txs" x="65" y="88">A357, desgasificar y refinar</text>
+  <text class="txs" x="65" y="88">aleación de aluminio según proyecto, desgasificar y refinar</text>
   <rect class="bx" x="150" y="45" width="118" height="58" rx="8"/>
   <text class="tx" x="209" y="70">2. Prep. suspensión</text>
   <text class="txs" x="209" y="88">enfriar + cortar a 30–65%</text>
@@ -145,7 +150,7 @@ La SSR es una ruta de un solo paso, con suspensión a demanda. Los pasos siguien
 
 *Diagrama de flujo del proceso — ilustrativo, no una célula de producción específica.*
 
-1. **Fusión y aleación.** Se funden A357 (o grado según proyecto), se desgasifican y refinan granularmente a una química controlada.
+1. **Fusión y aleación.** Se funden aleación de aluminio según proyecto (o grado según proyecto), se desgasifican y refinan granularmente a una química controlada.
 2. **Preparación de la suspensión.** Se enfría la colada a la región bifásica y se somete a esfuerzo cortante (agitación mecánica o electromagnética) hasta obtener una suspensión semisólida globular en la fracción sólida objetivo.
 3. **Dosificación e inyección.** Se inyecta en el molde un disparo controlado de suspensión. Como la suspensión es tixotrópica, el llenado es laminar y la absorción de aire es mínima.
 4. **Solidificación y expulsión.** La pieza solidifica rápidamente en el molde y se expulsa casi con la forma final. La asistencia por vacío puede reducir aún más la porosidad por gas cuando se especifica.
@@ -166,16 +171,16 @@ Elegir un proceso es un compromiso entre porosidad, resistencia, tolerancias, co
 | Rendimiento / costo | Nivel colada | Nivel colada (el más bajo) | Nivel colada | El más lento / más alto |
 | Mejor ajuste | Estructural, estanco, ligero | Paredes finas de alto volumen | Estructural, billete uniforme | Carga máxima, formas simples |
 
-### Materiales: aluminio A357 y grados relacionados
+### Materiales: aluminio aleación de aluminio según proyecto y grados relacionados
 
-**A357 es el grado semisólido principal de aluminio de Kingship.** Es una aleación Al–Si–Mg con más magnesio que A356, lo que da mayor resistencia y buena respuesta al tratamiento térmico T5/T6 — adecuada para componentes estructurales y de grado aeroespacial.
+**La aleación de aluminio debe seleccionarse para el proyecto.** La familia, la composición y la respuesta al tratamiento térmico deben confirmarse con el plano y una especificación de material aprobada.
 
 | Grado | Familia | Notas para uso semisólido |
 | --- | --- | --- |
-| **A357** | Al–Si–Mg (Mg mayor) | Grado principal. Mayor resistencia que A356; preferido para piezas estructurales / de alta fiabilidad. Tratable térmicamente (T5/T6). |
-| **A356** | Al–Si–Mg (Mg menor) | Grado de trabajo relacionado; evaluado por proyecto donde no se requiere la resistencia extra de A357. |
-| **319** | Al–Si–Cu | Grado *distinto* con cobre, usado para tren motriz / piezas a alta temperatura. **No** es lo mismo que A357 y no debe confundirse con ella; se cotiza solo donde la aplicación requiere sus propiedades. |
-| **A360 / 360.0** | Al–Si (alto Fe) | Grado *convencional de fundición a presión* estándar. **No es un grado semisólido ofrecido actualmente aquí.** Se lista solo para evitar confusión con A357. |
+| **aleación de aluminio según proyecto** | Al–Si–Mg (Mg mayor) | Grado principal. Mayor resistencia que A356; preferido para piezas estructurales / de alta fiabilidad. Tratable térmicamente (T5/T6). |
+| **A356** | Al–Si–Mg (Mg menor) | Grado de trabajo relacionado; evaluado por proyecto donde no se requiere la resistencia extra de aleación de aluminio según proyecto. |
+| **319** | Al–Si–Cu | Grado *distinto* con cobre, usado para tren motriz / piezas a alta temperatura. **No** es lo mismo que aleación de aluminio según proyecto y no debe confundirse con ella; se cotiza solo donde la aplicación requiere sus propiedades. |
+| **A360 / 360.0** | Al–Si (alto Fe) | Grado *convencional de fundición a presión* estándar. **No es un grado semisólido ofrecido actualmente aquí.** Se lista solo para evitar confusión con aleación de aluminio según proyecto. |
 
 **El magnesio es una capacidad separada.** El magnesio AZ91D y AM60B se ofrecen dentro de la misma familia semisólida / de reofundición de magnesio, pero **no** se listan como materiales de este proceso de aluminio. Si su programa es de magnesio, consulte nuestros [servicios de fundición de magnesio](https://kingship.alumcasting.com/es/magnesium-die-casting/) — los certificados de material acompañan cada consulta.
 
@@ -202,7 +207,7 @@ La tabla siguiente resume las directrices típicas de diseño. Cada valor es **d
 | Relación nervio–pared | ≤ ~0.6–0.8 | Controla la alimentación y la deformación. |
 | Bosses / apoyos | Soportados donde sea posible | Minimice características ciegas que atrapen la suspensión. |
 | Tolerancia de colada | CT5–CT7 (ISO 8062, indicativo) | Más amplia que el mecanizado; diseñe las referencias en consecuencia. |
-| Tolerancia CNC (post-mecanizado) | ±0.01 mm alcanzable | Aplica a características mecanizadas, confirmado por geometría. |
+| Tolerancia CNC (post-mecanizado) | viabilidad por característica en el DFM alcanzable | Aplica a características mecanizadas, confirmado por geometría. |
 | Variación de espesor de pared | Transiciones graduales | Evite escalones bruscos grueso–fino que causen contracción. |
 
 ### Control de calidad e inspección
@@ -223,14 +228,14 @@ La baja porosidad y la reducción de peso hacen que la SSR sea atractiva donde i
 - **Carcasas y bandejas de batería EV** — recintos estancos y ligeros.
 - **Soportes estructurales y subchasis** — miembros de chasis y suspensión.
 - **Componentes de tren motriz** — carcasas y portadores donde puede especificarse 319 (con cobre).
-- **Soportes y carcasas aeroespaciales** — donde ayudan la resistencia y el tratamiento térmico de A357.
+- **Soportes y carcasas aeroespaciales** — donde ayudan la resistencia y el tratamiento térmico de aleación de aluminio según proyecto.
 - **Recintos de telecomunicaciones / 5G y disipadores** — piezas de aluminio rígidas y ligeras.
 
 ### Operaciones secundarias
 
 Una pieza reofundida suele acabarse internamente para reducir la manipulación y el plazo:
 
-- **Mecanizado CNC** — tolerancia post-mecanizado alcanzable de ±0.01 mm, confirmada por geometría y proyecto.
+- **Mecanizado CNC** — tolerancia post-mecanizado alcanzable de viabilidad por característica en el DFM, confirmada por geometría y proyecto.
 - **Granallado** — preparación de superficie y acabado cosmético.
 - **Anodizado** — resistencia a la corrosión y apariencia.
 - **Impregnación / sellado** — donde se especifica estanqueidad.
@@ -243,7 +248,7 @@ Una consulta completa permite a nuestros ingenieros devolver comentarios DFM út
 | Qué proporcionar | Por qué importa |
 | --- | --- |
 | Modelo 3D / plano (STEP, IGES, PDF) | Permite la revisión DFM, de alimentación y de viabilidad. |
-| Aleación objetivo (p. ej., A357) | Define la ruta de proceso, la suspensión y el tratamiento térmico. |
+| Aleación objetivo (p. ej., aleación de aluminio según proyecto) | Define la ruta de proceso, la suspensión y el tratamiento térmico. |
 | Volumen anual estimado (EAU) | Determina la economía de herramental y proceso. |
 | Dimensiones y tolerancias críticas | Identifica qué características necesitan CNC vs. coladas. |
 | Tratamiento de superficie (anodizado, granallado) | Confirma la capacidad de operación secundaria. |

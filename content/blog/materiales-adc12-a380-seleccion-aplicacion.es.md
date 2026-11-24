@@ -11,7 +11,6 @@ tags: ["Material", "Aluminum", "DFM"]
 
 Elegir entre ADC12 y A380 impacta rendimiento mecanico, riesgo de porosidad y coste de [mecanizado](/es/cnc-machining).
 
-![Almacen de piezas de aluminio fundido](/img/aluminum-die-casting-parts-storage.webp "Piezas fundidas de aluminio")
 
 Revise [ADC12 guide](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) y [A380 properties](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/) para tomar decisiones con datos.
 

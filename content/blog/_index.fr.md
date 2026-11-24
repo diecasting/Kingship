@@ -4,8 +4,6 @@ description: "Guides pratiques sur la fonderie sous pression, l usinage CNC, la 
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "technical-blog-banner.webp"
-featureImageAlt: "Equipe technique analysant le process de fonderie"
 layout: "list"
 ---
 

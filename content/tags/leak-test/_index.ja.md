@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Leak Test"
 description: "Japanese leak test and sealing validation articles."
 layout: "list"

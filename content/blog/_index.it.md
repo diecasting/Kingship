@@ -1,11 +1,9 @@
 ---
 title: "Blog tecnico di produzione di precisione e progettazione di stampi"
-description: "Approfondite case study industriali, guide all'analisi del flusso di riempimento, mitigazione della porosità e consulenza ingegneristica basate su oltre 20 anni di esperienza nella pressofusione ad alta pressione."
+description: "Guide tecniche su pressofusione di alluminio e magnesio, stampi, controllo della porosità, lavorazione CNC, ispezione e preparazione delle RFQ."
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "technical-blog-banner.webp"
-featureImageAlt: "Team di ingegneria della pressofusione che analizza la simulazione del flusso di riempimento"
 layout: "list"
 ---
 

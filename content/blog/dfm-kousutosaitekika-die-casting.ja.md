@@ -11,7 +11,6 @@ tags: ["DFM", "Cost", "Process"]
 
 設計初期でDFMを実施すると、[金型](/ja/tooling)修正の手戻りを抑え、量産移行のリスクを低減できます。
 
-![自動化ダイカストライン](/img/automated-die-casting-production-line.webp "量産安定化")
 
 参考: [DFMによるコスト削減](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/)
 

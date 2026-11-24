@@ -1,22 +1,19 @@
 ---
 title: "Mecanizado CNC de piezas de fundición a presión: precisión en aluminio y magnesio"
-description: "Mecanizado CNC de piezas de fundición a presión en A357, AZ91D y AM60B: sobremetal, sistema de referencias y cotas según plano. Tolerancias por proyecto. Pedir presupuesto."
+description: "Mecanizado CNC de piezas de fundición a presión de aluminio y magnesio: sobremetal, referencias, planificación de inspección y datos para solicitar presupuesto."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "Pasillo entre hileras de centros de mecanizado CNC sobre suelo azul de taller"
 showTableOfContents: false
 url: "/es/cnc-machining/"
 service:
   name: "Mecanizado CNC"
   category: "Mecanizado de precisión"
-  tagline: "Mecanizado de precisión de piezas fundidas a presión en A357, AZ91D y AM60B: sobremetal y sistema de referencias según plano, alcance de inspección por proyecto."
+  tagline: "Mecanizado posterior de piezas fundidas a presión, con estrategia de mecanizado y alcance de inspección definidos según el plano de la pieza acabada."
   materials:
-    - "Aluminio fundido a presión A357"
-    - "Magnesio fundido a presión AZ91D"
-    - "Magnesio fundido a presión AM60B"
+    - "Aleaciones de aluminio para fundición: confirmar en la RFQ"
+    - "Aleaciones de magnesio para fundición: confirmar en la RFQ"
   processes:
     - "Fresado CNC de superficies de estanqueidad y apoyo"
     - "Torneado CNC de cotas cilíndricas y asientos"
@@ -30,7 +27,7 @@ service:
     - "Secuencias de mecanizado con capacidad de proceso en varios amarres"
   specifications:
     - label: "Tolerancia de mecanizado"
-      value: "±0,01 mm (tras el mecanizado, según proyecto)"
+      value: "Definida por característica según plano, referencias, amarre y método de medición"
     - label: "Tamaño máx. de pieza"
       value: "Según plano y tamaño de fundición, por proyecto"
     - label: "Acabado superficial"
@@ -58,22 +55,22 @@ service:
     - "cárter de caja de cambios fundición a presión mecanizado"
     - "pedir presupuesto de mecanizado de fundición a presión [ES]"
   related_resources:
-    - title: "Guía de tolerancias de mecanizado CNC"
-      url: "https://alumcasting.com/cnc-machining-tolerance-guide/"
-    - title: "Metodología de mecanizado de 5 ejes"
-      url: "https://alumcasting.com/5-axis-machining-playbook/"
+    - title: "Utillaje y diseño de moldes"
+      url: "/es/tooling/"
+    - title: "Fundición a presión de aluminio"
+      url: "/es/aluminum-die-casting/"
   wordpress_resources:
-    - title: "Programa llave en mano de fundición + CNC"
-      url: "https://alumcasting.com/one-stop-cast-cnc-turnkey/"
+    - title: "Enviar datos para revisión técnica"
+      url: "/es/contact/"
   faq:
     - q: "¿Cuánto sobremetal de mecanizado hay que prever?"
       a: "El sobremetal no se fija de forma general, sino que se deriva cota a cota de la geometría de fundición, la línea de partición, la posición de los expulsores y el comportamiento de deformación. Se indica en el plano de fundición y se ajusta al ciclo de mecanizado durante la revisión DFM. Un sobremetal escaso deja piel de fundición o rechupe; uno excesivo aumenta el tiempo de corte y el desgaste de herramienta."
     - q: "¿Qué tolerancia se puede alcanzar tras el mecanizado?"
-      a: "Una tolerancia de ±0,01 mm es alcanzable en cotas definidas bajo condiciones adecuadas de mecanizado posterior, pero no se plantea como valor general para cualquier pieza. Lo que se alcanza depende de la geometría de la pieza, del material, del proceso de mecanizado y del amarre, del sistema de referencias, del método de inspección y de los requisitos específicos del proyecto. El valor se confirma por cota en la revisión del plano y del DFM y queda ligado al método de medición acordado."
+      a: "La tolerancia alcanzable depende de la geometría, el material, el proceso de mecanizado, el amarre, el sistema de referencias y el método de inspección. Los requisitos se revisan y confirman cota por cota durante la revisión del plano y del DFM, sin aplicar un valor general a todas las piezas."
     - q: "¿Cómo se definen las referencias entre fundición y mecanizado?"
       a: "Las referencias A, B y C se eligen en el plano según GD&T de modo que puedan apoyarse con inequivocidad tanto en la pieza en bruto como en el amarre de mecanizado. Lo deseable es que el plano de fundición y el de mecanizado compartan el mismo sistema de referencias, para que las tolerancias geométricas no se acumulen entre amarres. La coordinación se cierra en la revisión DFM antes de diseñar el utillaje."
     - q: "¿Pueden suministrar fundición y mecanizado con un solo proveedor?"
-      a: "Fundición y mecanizado se agrupan en un programa coordinado: fundición a presión en el rango de máquinas de 400T–3000T, después mecanizado posterior e inspección acordada por proyecto. La ventaja es la realimentación DFM continua y la reducción de interfaces entre proveedores, no una promesa genérica sobre equipos concretos. El alcance y la documentación se definen por proyecto."
+      a: "La fundición y el mecanizado pueden revisarse como un programa coordinado. La ventaja es la realimentación DFM continua y la reducción de interfaces; la selección de máquina, el alcance de inspección y la documentación se definen para cada proyecto."
     - q: "¿Qué documentación necesita un presupuesto de mecanizado?"
       a: "Para un presupuesto sólido se necesitan modelo 3D (STEP/IGES), plano 2D con GD&T y referencias, aleación (A357, AZ91D o AM60B), volumen anual y tamaño de lote, tolerancias objetivo por cota, acabado superficial, alcance de inspección y documentación, y si se trata de prototipo o serie. Lo que falte se refleja como partida a acordar por proyecto, sin suposiciones implícitas."
     - q: "¿Cómo se acuerdan el alcance de inspección y la primera pieza?"
@@ -85,10 +82,7 @@ service:
 Una pieza de fundición a presión sale del molde con piel de fundición, línea de partición y variaciones de contracción que no sirven para una cara de estanqueidad, un alojamiento de rodamiento o un asiento roscado. El mecanizado CNC convierte el bruto en pieza funcional y fija cotas, posiciones y acabado según plano. Esta página se dirige a diseño, planificación de procesos y compras que especifican ese salto: sobremetal, sistema de referencias, tolerancia por cota y alcance de inspección, con A357, AZ91D y AM60B como aleaciones de partida.
 
 <!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Pasillo entre hileras de centros de mecanizado CNC sobre suelo azul de taller" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Taller de mecanizado CNC</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -126,7 +120,11 @@ Repartir la información entre dos planos evita contradicciones. El plano de fun
 
 Preguntar por «la tolerancia del proveedor» sin nombrar cota y amarre no describe una pieza fundida y mecanizada. Las cotas estrechas se generan tras la fundición y su precisión resulta de una cadena de geometría, material, proceso, referencias y medición. El enunciado siguiente se formula una sola vez.
 
-> **Enunciado de tolerancia (según proyecto, una sola vez):** Una tolerancia de ±0,01 mm puede alcanzarse en cotas definidas bajo condiciones adecuadas de mecanizado posterior. La tolerancia alcanzable depende de la geometría de la pieza, del material, del proceso de mecanizado y del amarre, del sistema de referencias, del método de inspección y de los requisitos específicos del proyecto; se confirma durante la revisión del plano y del DFM y no constituye un valor general aplicable a cualquier pieza.
+La tolerancia alcanzable se define cota por cota. Depende de la geometría de la
+pieza, el material, el proceso de mecanizado y el amarre, el sistema de referencias,
+el método de inspección y los requisitos del proyecto; se confirma durante la
+revisión del plano y del DFM y no constituye un valor general aplicable a
+cualquier pieza.
 
 El método de medición se define por proyecto; su incertidumbre forma parte del acuerdo de tolerancia.
 
@@ -144,10 +142,7 @@ El método de medición se define por proyecto; su incertidumbre forma parte del
 Las tres aleaciones confirmadas no se comportan igual ante la herramienta. A357, aluminio Al-Si-Mg con tratamiento térmico, da viruta corta a media; el silicio aporta abrasividad, por lo que recubrimiento y corte se ajustan a la piel de fundición. AZ91D y AM60B cortan con menor esfuerzo y viruta fina, pero su dilatación exige temperatura estable para no perder la cota en el acabado. Como conocimiento general de proceso, la viruta fina de magnesio es inflamable y se evacúa de forma controlada con extinción adecuada. Las tensiones residuales se liberan al arrancar material; separar desbaste, reposo y acabado reduce la deformación. En AM60B, más dúctil, se vigila la rebaba. Amplía la [fundición de magnesio](https://kingship.alumcasting.com/es/magnesium-die-casting/).
 
 <!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Fresado CNC de una pieza alargada de aluminio con refrigerante en la herramienta de corte" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Fresado CNC de una pieza fundida</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -162,12 +157,21 @@ Las tres aleaciones confirmadas no se comportan igual ante la herramienta. A357,
 
 ### Acabado superficial, desbarbado y tratamientos
 
-El acabado no es un valor fijo de taller, sino una especificación por superficie en el plano: el Ra de una cara de estanqueidad no es el de un contorno sin mecanizar. El orden del desbarbado importa: las rebabas en taladros y roscas no deben dañar ajustes ni juntas. Como procesos confirmados figuran el granallado (Shot Blasting) y el anodizado (Anodizing) en aluminio; su idoneidad se evalúa según aleación y plano. En magnesio, todo tratamiento exige análisis de corrosión y adherencia. Otros recubrimientos son opciones generales sujetas a revisión por proyecto. Rugosidad y rebabas quedan recogidos en el alcance de inspección.
+El acabado no es un valor fijo de taller, sino una especificación por superficie
+en el plano: el Ra de una cara de estanqueidad no es el de un contorno sin
+mecanizar. El orden del desbarbado importa: las rebabas en taladros y roscas no
+deben dañar ajustes ni juntas. La disponibilidad e idoneidad de los tratamientos
+secundarios se confirma en la RFQ. En magnesio, todo tratamiento exige analizar
+corrosión y adherencia para la aplicación concreta.
 
 
 ### Fundición y mecanizado en un único programa
 
-En un programa único, lo observado de sobremetal, partición o deformación realimenta el diseño del molde y del utillaje vía revisión DFM. La fundición a presión, en el rango de 400T–3000T, entrega el bruto; un eventual tratamiento térmico estabiliza la estructura; después vienen mecanizado e inspección acordada por proyecto. El orden no es arbitrario: al arrancar material se liberan tensiones que afectan a la cota final. La ventaja es de interfaz: cambios de plano, referencias y cotas de control se acuerdan una vez, no se traducen entre dos proveedores. Se conecta con [utillaje y moldes](https://kingship.alumcasting.com/es/tooling/), [fundición de magnesio](https://kingship.alumcasting.com/es/magnesium-die-casting/) y [rheocasting semi-sólido](https://kingship.alumcasting.com/es/semi-solid-rheocasting/).
+En un programa único, lo observado de sobremetal, partición o deformación
+realimenta el diseño del molde y del utillaje vía revisión DFM. La fundición a
+presión entrega el bruto; un eventual tratamiento térmico estabiliza la estructura;
+después vienen mecanizado e inspección acordada por proyecto. La ventaja es de
+interfaz: cambios de plano, referencias y cotas de control se acuerdan una vez.
 
 ### Alcance de inspección y documentación por proyecto
 
@@ -199,8 +203,5 @@ Un presupuesto fiable nace de documentación completa, no de una sola cifra de t
 
 
 <!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Gran pieza en forma de bandeja fijada sobre la mesa de una máquina CNC antes del mecanizado" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Pieza fijada en la mesa de una máquina CNC</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->

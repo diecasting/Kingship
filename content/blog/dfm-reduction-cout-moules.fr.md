@@ -11,7 +11,6 @@ tags: ["DFM", "Cost", "Process"]
 
 Un DFM bien structure en amont diminue les modifications tardives et se traduit par une meilleure stabilite de production.
 
-![Ligne automatisee de fonderie](/img/automated-die-casting-production-line.webp "Stabilite process")
 
 Reference utile: [DFM and die casting cost reduction](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/).
 

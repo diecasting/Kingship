@@ -2,6 +2,15 @@
    Data: hugo.Data.homepage.<lang>.quality */ -}}
 {{- $lang := .Lang -}}
 {{- $hp := index hugo.Data.homepage $lang | default hugo.Data.homepage.en -}}
+  {{- $gateCopy := dict
+    "en" "Quality planning is based on the agreed drawing, inspection scope and documented acceptance criteria. Certificate copies and current certification status are confirmed during supplier qualification."
+    "de" "Die Qualitätsplanung basiert auf Zeichnung, vereinbartem Prüfumfang und dokumentierten Abnahmekriterien. Zertifikatskopien und der aktuelle Zertifizierungsstatus werden in der Lieferantenqualifizierung bestätigt."
+    "es" "La planificación de la calidad se basa en el plano, el alcance de inspección acordado y criterios de aceptación documentados. Las copias de certificados y su estado actual se confirman durante la calificación del proveedor."
+    "fr" "La planification qualité repose sur le plan, le périmètre de contrôle convenu et des critères d'acceptation documentés. Les copies de certificats et leur statut actuel sont confirmés lors de la qualification fournisseur."
+    "ja" "品質計画は、合意した図面、検査範囲、文書化された受入基準に基づきます。証明書写しと現在の認証状態はサプライヤー資格認定時に確認します。"
+    "it" "La pianificazione qualità si basa sul disegno, sull'ambito ispettivo concordato e su criteri di accettazione documentati. Copie dei certificati e stato corrente vengono confermati durante la qualifica fornitore."
+    "ko" "품질 계획은 합의된 도면, 검사 범위 및 문서화된 승인 기준에 따릅니다. 인증서 사본과 현재 인증 상태는 공급업체 적격성 확인 단계에서 확인합니다."
+  -}}
 {{- with $hp.quality -}}
 <section class="bg-neutral-50 dark:bg-neutral-900/40 py-12 md:py-16">
   <div class="mx-auto max-w-screen-xl px-4">
@@ -9,25 +18,29 @@
       <div class="prose dark:prose-invert max-w-none order-2 lg:order-1">
         <h2 class="text-2xl md:text-3xl font-bold text-neutral-900 dark:text-white">{{ .heading }}</h2>
         {{- with .lead -}}<p class="mt-3 text-[#0c4a8e] dark:text-[#60a5fa] font-medium">{{ . }}</p>{{- end -}}
-        {{- with .body -}}<div class="mt-4">{{ . | markdownify }}</div>{{- end -}}
+        {{- if site.Params.publicMediaUseEnabled -}}
+          {{- with .body -}}<div class="mt-4">{{ . | markdownify }}</div>{{- end -}}
+        {{- else -}}
+          <p class="mt-4">{{ index $gateCopy $lang | default (index $gateCopy "en") }}</p>
+        {{- end -}}
         {{- with .methods -}}
         <ul class="mt-4 space-y-1 text-sm text-neutral-600 dark:text-neutral-300">
           {{- range . -}}<li class="flex items-center gap-2"><span class="text-[#d98c0c]">✓</span>{{ . }}</li>{{- end -}}
         </ul>
         {{- end -}}
       </div>
-      {{- with .image -}}
+      {{- if site.Params.publicMediaUseEnabled }}{{- with .image -}}
       <div class="order-1 lg:order-2">
         <img src="{{ .url }}" alt="{{ .alt }}" title="{{ .title }}" loading="lazy"
              class="w-full h-auto rounded-2xl shadow-lg">
       </div>
-      {{- end -}}
+      {{- end -}}{{- end -}}
     </div>
     {{- $stdCaption := .standard_caption | default "Quality management system standard" -}}
     {{- $statLabel := .stat_label | default "Quality management certifications" -}}
     {{- $statBadge := .stat_badge | default "QMS" -}}
     {{- $certLink := .cert_link | default "/certifications/" -}}
-    {{- with .standards -}}
+    {{- if site.Params.publicMediaUseEnabled }}{{- with .standards -}}
     <div class="mt-10">
       <div class="hy-grid hy-grid--4 gap-4">
         {{- range . -}}
@@ -38,13 +51,17 @@
         {{- end -}}
       </div>
     </div>
-    {{- end -}}
+    {{- end -}}{{- end -}}
     <div class="mt-8">
       <div class="hy-grid hy-grid--4 gap-4">
-        <div class="text-center"><div class="hy-stat__num">23</div><div class="hy-stat__label">Years of precision manufacturing (Since 2003)</div></div>
-        <div class="text-center"><div class="hy-stat__num">5000T</div><div class="hy-stat__label">Largest die casting machine</div></div>
+        <div class="text-center"><div class="hy-stat__num">DFM</div><div class="hy-stat__label">Drawing-led process planning</div></div>
+        <div class="text-center"><div class="hy-stat__num">RFQ</div><div class="hy-stat__label">Machine scope confirmed per project</div></div>
+        {{- if site.Params.publicMediaUseEnabled -}}
         <div class="text-center"><div class="hy-stat__num">{{ $statBadge }}</div><div class="hy-stat__label"><a class="kcert-stat-link" href="{{ $certLink }}">{{ $statLabel }}</a></div></div>
-        <div class="text-center"><div class="hy-stat__num">X-Ray</div><div class="hy-stat__label">Real-time porosity inspection</div></div>
+        {{- else -}}
+        <div class="text-center"><div class="hy-stat__num">QA</div><div class="hy-stat__label">Supplier documentation confirmed at RFQ</div></div>
+        {{- end -}}
+        <div class="text-center"><div class="hy-stat__num">X-Ray</div><div class="hy-stat__label">Inspection planned to project requirements</div></div>
       </div>
     </div>
   </div>

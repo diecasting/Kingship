@@ -1,0 +1,20 @@
+{{ define "main" }}
+  {{- $copy := dict
+    "en" (dict "title" "Quality Management Documentation" "p1" "Certificate copies and current certification status are made available for supplier qualification after the exact legal holder, scope, issuing body and current status are confirmed." "p2" "This page does not display certificate scans publicly while publication permission and current status verification remain outstanding." "cta" "Request supplier documentation")
+    "de" (dict "title" "Dokumentation zum Qualitätsmanagement" "p1" "Zertifikatskopien und der aktuelle Zertifizierungsstatus werden für die Lieferantenqualifizierung bereitgestellt, nachdem Inhaber, Geltungsbereich, Aussteller und aktueller Status bestätigt wurden." "p2" "Zertifikatsscans werden auf dieser Seite nicht öffentlich gezeigt, solange Veröffentlichungsfreigabe und Statusprüfung ausstehen." "cta" "Lieferantendokumentation anfordern")
+    "es" (dict "title" "Documentación de gestión de calidad" "p1" "Las copias de certificados y su estado actual se facilitan para la calificación de proveedores después de confirmar el titular legal, alcance, entidad emisora y estado vigente." "p2" "Esta página no muestra escaneos de certificados mientras sigan pendientes la autorización de publicación y la verificación del estado actual." "cta" "Solicitar documentación de proveedor")
+    "fr" (dict "title" "Documentation de management de la qualité" "p1" "Les copies de certificats et leur statut actuel sont fournis pour la qualification fournisseur après confirmation du titulaire légal, du périmètre, de l'organisme émetteur et du statut en vigueur." "p2" "Cette page n'affiche pas les scans de certificats tant que l'autorisation de publication et la vérification du statut actuel ne sont pas résolues." "cta" "Demander la documentation fournisseur")
+    "ja" (dict "title" "品質マネジメント文書" "p1" "証明書写しと現在の認証状態は、正確な名義人、適用範囲、発行機関、現在の状態を確認したうえで、サプライヤー資格認定時に提供します。" "p2" "公開許可と現在状態の確認が完了するまで、証明書スキャンは本ページに掲載しません。" "cta" "サプライヤー文書を依頼")
+    "it" (dict "title" "Documentazione del sistema qualità" "p1" "Copie dei certificati e stato corrente vengono forniti per la qualifica fornitore dopo la conferma di intestatario, ambito, ente emittente e stato attuale." "p2" "Questa pagina non mostra scansioni dei certificati finché autorizzazione alla pubblicazione e verifica dello stato corrente restano pendenti." "cta" "Richiedi documentazione fornitore")
+    "ko" (dict "title" "품질경영 문서" "p1" "인증서 사본과 현재 인증 상태는 정확한 법적 명의, 적용 범위, 발급 기관 및 현재 상태를 확인한 후 공급업체 적격성 심사용으로 제공합니다." "p2" "공개 허가와 현재 상태 검증이 완료될 때까지 인증서 스캔은 이 페이지에 표시하지 않습니다." "cta" "공급업체 문서 요청")
+  -}}
+  {{- $c := index $copy .Lang | default (index $copy "en") -}}
+  <section class="mx-auto max-w-3xl px-4 py-16">
+    <h1 class="text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-50">{{ $c.title }}</h1>
+    <div class="mt-6 space-y-4 text-lg text-neutral-700 dark:text-neutral-300">
+      <p>{{ $c.p1 }}</p>
+      <p>{{ $c.p2 }}</p>
+    </div>
+    <a href="{{ "/contact/" | relLangURL }}" class="mt-8 inline-flex rounded-lg bg-primary-600 px-6 py-3 font-semibold text-white hover:bg-primary-500">{{ $c.cta }}</a>
+  </section>
+{{ end }}

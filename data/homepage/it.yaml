@@ -6,13 +6,13 @@
 # ==========================================================================
 
 hero:
-  eyebrow: "Pressofusione ad alta pressione e lavorazione CNC dal 2003"
+  eyebrow: "Pressofusione ad alta pressione e lavorazione CNC"
   title: "Pressofusione di precisione in alluminio e magnesio per automotive, EV e aerospaziale"
-  subtitle: "KingShip progetta e realizza la produzione di pressofusione end-to-end — dalla simulazione del riempimento dello stampo e grandi strutture da 5000T alla finitura CNC a tolleranza stretta e al controllo porosità a raggi X in tempo reale."
+  subtitle: "KingShip esamina ogni progetto di pressofusione partendo dal disegno e dal DFM e pianifica colata, lavorazione CNC e un piano di ispezione specifico per il progetto."
   image:
-    url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
-    alt: "Pressa per pressofusione ad alta pressione da 5000 tonnellate per grandi componenti strutturali automotive"
-    title: "Pressa di pressofusione da 5000T per grandi parti strutturali"
+    url: "/img/large-aluminium-structural-casting.webp"
+    alt: "Grande pressa per pressofusione ad alta pressione in un reparto produttivo"
+    title: "Grande impianto di pressofusione ad alta pressione"
   primary_cta:
     label: "Richiedi un preventivo"
     url: "#rfq"
@@ -22,30 +22,23 @@ hero:
 
 intro:
   heading: "Chi siamo"
-  lead: "Un produttore B2B integrato verticalmente che garantisce affidabilità dal metallo fuso al componente finito."
+  lead: "Un produttore B2B verticalmente integrato con pianificazione produttiva e ispettiva specifica per ciascun progetto."
   body: |
     KingShip (Dongguan) Precision Manufacturing Co., Ltd. è un fornitore B2B dedicato di
     pressofusione ad alta pressione in leghe di alluminio e magnesio, lavorazione CNC interna
-    post-processo, rheocasting semi-solido e ingegneria professionale di attrezzature. Da oltre
-    due decenni aiutiamo clienti dei settori automotive, veicoli elettrici, aerospaziale,
-    medicale e industriale a trasformare geometrie impegnative in parti di produzione ripetibili
-    e ad alta integrità.
+    post-processo, valutazione dei processi di pressofusione e ingegneria degli stampi. L'azienda supporta programmi
+    automotive, veicoli elettrici, industriali e altre applicazioni produttive con ingegneria e
+    pianificazione della produzione specifiche per il progetto.
 
-    Non siamo una trading company. Ogni fusione viene prodotta all'interno del nostro stabilimento
-    di Dongguan, dove celle di pressofusione a camera fredda moderna sono integrate con estrazione
-    robotizzata completamente automatizzata, rilevamento porosità a raggi X in tempo reale e un
-    centro di lavorazione CNC ad alta precisione. Questa integrazione verticale ci consente di
-    controllare precisione dimensionale, qualità superficiale e tempi di consegna su tutto il
-    processo — progettazione, simulazione, fusione, lavorazione, finitura e ispezione — sotto un
-    unico sistema di gestione qualità certificato ISO 9001 e IATF 16949.
+    Non siamo una trading company. Le fusioni vengono prodotte nel nostro stabilimento di Dongguan.
+    Pressofusione a camera fredda, lavorazione CNC e metrologia supportano la pianificazione produttiva
+    specifica del progetto. Metodi di ispezione, campionamento e documentazione vengono concordati in
+    base al disegno e ai requisiti del cliente.
 
-    Il nostro team di ingegneria collabora con i clienti fin dalla prima revisione DFM, utilizzando
-    simulazioni Magma e Moldflow per eliminare ritiri a freddo, intrappolamento d'aria e porosità
-    da ritiro prima di realizzare il primo stampo. Il risultato è un ciclo di sviluppo più breve,
-    un costo per pezzo inferiore e componenti strutturali che superano la qualificazione al primo
-    tentativo. Che tu abbia bisogno di un supporto in magnesio leggero, di una parte rheocast
-    semisolida trattabile termicamente, o di una grande struttura da 5000T per una piattaforma
-    batteria EV, KingShip è costruita per essere il tuo partner manifatturiero a lungo termine.
+    Il nostro team di ingegneria collabora con i clienti dalla prima revisione DFM e utilizza
+    simulazioni di riempimento e solidificazione quando sono pertinenti al progetto. Prima del lancio
+    vengono confermati la sequenza produttiva e il piano di ispezione in base a disegno, volume e
+    requisiti qualitativi.
 
 overview:
   heading: "Panoramica delle capacità produttive"
@@ -59,20 +52,20 @@ overview:
       summary: "Pressofusione di magnesio AZ91D e AM60B leggero per componenti critici per il peso."
       url: "/it/magnesium-die-casting/"
       anchor: "capability-magnesium"
-    - name: "Rheocasting semi-solido"
-      summary: "Componenti rheocast a bassa porosità e trattabili termicamente per applicazioni strutturali."
+    - name: "Revisione del processo semisolido"
+      summary: "Percorso tecnico valutato rispetto a requisiti di capacità, materiale e ispezione definiti per progetto."
       url: "/it/semi-solid-rheocasting/"
       anchor: "capability-rheocasting"
-    - name: "Grandi strutture da 5000T"
-      summary: "Grandi fusioni strutturali a parete sottile sulla nostra pressa da 5000 tonnellate."
-      url: ""
-      anchor: "capability-5000t"
+    - name: "Grandi fusioni strutturali"
+      summary: "Le parti grandi e complesse vengono valutate in base a limiti confermati di macchina, stampo e ispezione."
+      url: "/it/aluminum-die-casting/"
+      anchor: "capability-structural"
     - name: "Lavorazione CNC di precisione"
-      summary: "Lavorazione CNC a 3, 4 e 5 assi e post-processo per componenti fusi."
+      summary: "Lavorazione CNC successiva e pianificazione ispettiva specifica per componenti pressofusi."
       url: "/it/cnc-machining/"
       anchor: "capability-cnc"
     - name: "Attrezzature per pressofusione"
-      summary: "Progettazione, produzione e manutenzione interna di stampi per una lunga vita dello stampo."
+      summary: "Progettazione stampo guidata dal DFM, verifica di alimentazione e raffreddamento, campionatura e pianificazione della manutenzione."
       url: "/it/tooling/"
       anchor: "capability-tooling"
 
@@ -85,23 +78,18 @@ capabilities:
       La pressofusione ad alta pressione di leghe di alluminio è la spina dorsale della nostra
       produzione. Coliamo un'ampia gamma di componenti strutturali e funzionali in leghe ADC12,
       A380, A356 e A360, bilanciando conduttività termica, resistenza alla corrosione e stabilità
-      dimensionale per ambienti di servizio impegnativi. Le nostre macchine a camera fredda vanno
-      da 400T a 5000T, permettendoci di realizzare tutto, da involucri sottili e complessi a grandi
-      parti strutturali automotive in un unico colpo.
+      dimensionale per ambienti di servizio impegnativi. La scelta della macchina viene verificata in
+      base alle dimensioni del componente, allo stampo, alla lega e al peso di colata richiesto.
 
-      Ogni programma di pressofusione di alluminio inizia con la simulazione del riempimento dello
-      stampo. Modellando riempimento, solidificazione e raffreddamento prima di costruire
-      l'attrezzatura, eliminiamo ritiri a freddo, mancati riempimenti e porosità da ritiro già in
-      fase di progettazione, anziché sulla linea di produzione. Dopo la colata, i centri di
-      lavorazione CNC interni mantengono le superfici di accoppiamento critiche a ±0,01 mm, e le
-      operazioni secondarie come anodizzazione, verniciatura a polvere, sabbiatura e impregnazione
-      sono coordinate all'interno dello stesso stabilimento.
+      Il DFM può includere simulazioni di riempimento, solidificazione e raffreddamento quando
+      pertinenti. La lavorazione CNC successiva supporta superfici funzionali, fori e superfici di
+      tenuta; la fattibilità di ciascuna tolleranza viene definita per singola caratteristica. La
+      disponibilità dei processi secondari viene confermata durante l'RFQ.
 
       Le applicazioni tipiche includono alloggiamenti per powertrain automotive, vasche e supporti
       per batterie EV, dissipatori di calore, alloggiamenti per illuminazione e involucri
-      elettronici. Per i clienti che necessitano di un comportamento del materiale verificato,
-      pubblichiamo riferimenti tecnici sulle proprietà dell'ADC12 e sull'integrità strutturale
-      dell'A356, così i team di progettazione possono specificare con sicurezza.
+      elettronici. La lega e lo stato finale vengono confermati in base al disegno, ai requisiti del
+      progetto e alla disponibilità corrente dei materiali.
     materials:
       - "ADC12"
       - "A380"
@@ -113,14 +101,14 @@ capabilities:
       - "Anodizzazione e verniciatura a polvere"
       - "Impregnazione"
     equipment:
-      - "Macchine a camera fredda 400T–5000T"
-      - "Centri di lavorazione CNC a 5 assi"
+      - "Selezione del processo HPDC a camera fredda"
+      - "Ambito di lavorazione CNC per progetto"
     applications:
       - "Powertrain automotive"
       - "Alloggiamenti batterie EV"
       - "Dissipatori e involucri"
     image:
-      url: "https://alumcasting.com/images/A356-aluminum-die-casting-porosity-control.webp"
+      url: "/img/aluminium-cast-structural-component.webp"
       alt: "Componente in alluminio A356 sottoposto a controllo porosità in ispezione"
       title: "Pressofusione di alluminio A356"
     learn_more: "/it/aluminum-die-casting/"
@@ -132,15 +120,14 @@ capabilities:
     body: |
       La pressofusione di magnesio offre la massima riduzione di peso — circa un terzo più leggera
       dell'alluminio a rigidezza paragonabile — rendendola il materiale preferito per componenti
-      automotive, aerospaziali ed elettronici di fascia alta critici per il peso. KingShip cola
-      leghe di magnesio AZ91D e AM60B su macchine dedicate a camera calda e fredda, con spessore
-      di parete minimo fino a 1,0 mm per geometrie sottili e complesse.
+      automotive, aerospaziali ed elettronici di fascia alta critici per il peso. I progetti in
+      magnesio vengono esaminati per lega, configurazione macchina, fattibilità delle pareti sottili
+      e strategia anticorrosione prima della conferma dell'ambito produttivo.
 
       L'elevato rapporto resistenza/peso e l'ottima schermatura EMI/RFI del magnesio sono preziosi
       per supporti per veicoli elettrici, alloggiamenti per sensori, telai per droni e dispositivi
-      portatili. Proteggiamo l'integrità superficiale con processi di passivazione e galvanica
-      ottimizzati per la resistenza alla corrosione del magnesio, e verifichiamo spessore di parete
-      e qualità interna con ispezione a raggi X in tempo reale prima della spedizione.
+      portatili. Il trattamento superficiale e i metodi di ispezione vengono scelti in base alla lega,
+      all'applicazione e ai requisiti del disegno.
 
       Poiché la colata del magnesio richiede un rigoroso controllo di processo, i nostri ingegneri
       gestiscono attentamente protezione del bagno, velocità di iniezione e temperatura dello stampo
@@ -155,14 +142,14 @@ capabilities:
       - "Passivazione"
       - "Galvanica"
     equipment:
-      - "Macchine di pressofusione di magnesio 160T–2250T"
-      - "Ispezione a raggi X in tempo reale"
+      - "Verifica del percorso HPDC magnesio"
+      - "Pianificazione radiografica per progetto"
     applications:
       - "Supporti automotive"
       - "Componenti aerospaziali"
       - "Dispositivi portatili di fascia alta"
     image:
-      url: "https://alumcasting.com/images/lightweight-magnesium-die-casting-3c-aerospace-parts.webp"
+      url: "/img/magnesium-die-casting-banner.webp"
       alt: "Parti aerospaziali e componenti elettronici 3C leggeri in magnesio pressofuso"
       title: "Parti in magnesio pressofuso"
     learn_more: "/it/magnesium-die-casting/"
@@ -172,83 +159,71 @@ capabilities:
     name: "Rheocasting semi-solido"
     heading: "Rheocasting semi-solido"
     body: |
-      Il rheocasting semi-solido è la nostra soluzione per parti che devono combinare bassa
-      porosità, alta duttilità e trattabilità termica. Formando la lega nel suo stato semisolido —
-      una sospensione di globuli solidi sospesi nel liquido — il rheocasting elimina quasi
-      completamente l'intrappolamento di gas e la porosità da ritiro che la pressofusione ad alta
-      pressione convenzionale non può evitare del tutto.
+      Il rheocasting semi-solido è un percorso ingegneristico per progetti che richiedono una
+      formazione controllata della sospensione, trattabilità termica e una strategia definita per la
+      porosità. Il piano di processo dipende da lega, geometria, stampo e criteri di accettazione.
 
-      Il risultato è una fusione che può essere trattata termicamente T5 o T6, saldata e lavorata
-      meccanicamente, aprendo la porta a componenti strutturali di sicurezza dove l'integrità
-      impeccabile è non negoziabile. KingShip utilizza un sistema di rheocasting semi-solido Yizumi
-      e convalida l'uniformità microstrutturale con metallografia e confronto a raggi X in tempo
-      reale, così i clienti possono qualificare parti rheocast per applicazioni critiche per
-      l'impatto e portanti.
+      Requisiti di trattamento termico, saldatura, lavorazione e ispezione vengono esaminati per ogni
+      applicazione. Capacità produttiva, attrezzature e qualificazione delle leghe vengono confermate
+      prima di accettare un progetto di rheocasting.
 
-      Il rheocasting è particolarmente interessante per nodi strutturali EV e aerospaziali, supporti
-      sospensioni e bracci dove conta la vita a fatica. Riducendo la porosità alla fonte, riduciamo
-      l'onere di ispezione a valle e miglioriamo la prevedibilità di ogni lotto spedito.
+      Il rheocasting viene valutato per progetti strutturali EV e aerospaziali in cui meccanismo di
+      processo, comportamento del materiale e pianificazione ispettiva devono essere considerati insieme.
     materials:
-      - "A356 Rheocast"
-      - "Slurry di alluminio personalizzati"
+      - "Grado di alluminio semisolido confermato all'RFQ"
+      - "Revisione del processo per progetto"
     processes:
       - "Rheocasting semi-solido"
       - "Trattamento termico T5 / T6"
       - "Convalida metallografica"
     equipment:
-      - "Sistema di rheocasting semi-solido Yizumi"
-      - "Test porosità a raggi X"
+      - "Percorso semisolido confermato all'RFQ"
+      - "Pianificazione radiografica per progetto"
     applications:
       - "Nodi strutturali EV"
       - "Supporti aerospaziali"
       - "Componenti critici per la fatica"
     image:
-      url: "https://alumcasting.com/images/semi-solid-casting-microstructure-vs-xray-porosity-test.webp"
-      alt: "Microstruttura rheocast semisolida confrontata con il test porosità a raggi X"
-      title: "Microstruttura rheocast semi-solida"
+      url: "/img/complex-aluminium-casting-with-ports.webp"
+      alt: "Componente strutturale in alluminio pressofuso"
+      title: "Pressofusione strutturale in alluminio"
     learn_more: "/it/semi-solid-rheocasting/"
 
-  - id: "5000t-structural-casting"
-    anchor: "capability-5000t"
-    name: "Grandi strutture da 5000T"
-    heading: "Grandi strutture da 5000T"
+  - id: "structural-casting"
+    anchor: "capability-structural"
+    name: "Grandi fusioni strutturali"
+    heading: "Grandi fusioni strutturali"
     body: |
-      La nostra pressa di pressofusione a camera fredda da 5000 tonnellate è costruita per i
-      componenti strutturali più grandi e a parete più sottile dell'industria automotive ed EV.
-      Le grandi fusioni strutturali — come binari laterali di vasche batteria, torri ammortizzatore,
-      alloggiamenti tunnel e traverse — consolidano ciò che un tempo erano decine di stampati e
-      saldati in un unico componente in alluminio rigido e leggero.
+      Le grandi fusioni strutturali possono riunire più componenti stampati o saldati in un unico
+      componente leggero. Gli esempi comprendono binari laterali di vasche batteria, torri
+      ammortizzatore, alloggiamenti tunnel e traverse.
 
-      Produrre queste parti richiede più della tonnellatura. Richiede un controllo preciso del colpo,
-      la gestione termica di uno stampo molto grande e finestre di processo disciplinate per mantenere
-      sotto controllo deformazione e porosità su un'impronta di scala metrica. Il team di ingegneria
-      di KingShip modella l'intero sistema di colata, quindi convalida i primi articoli con CMM,
-      raggi X e test di tenuta prima del ramp.
+      Queste parti richiedono un controllo preciso dell'iniezione, la gestione termica di uno stampo
+      grande e finestre di processo disciplinate per controllare deformazione e porosità. La revisione
+      ingegneristica considera dimensioni di macchina e stampo, peso di colata, lega e piano ispettivo
+      prima di confermare la fattibilità.
 
-      Integrando la grande struttura di colata con la lavorazione CNC interna e la finitura,
-      consegniamo un componente dimensionalmente completo, pronto per l'assemblaggio, non solo una
-      fusione grezza. Questo riduce la logistica in entrata del cliente, il rischio di distorsione
-      da saldatura e il costo totale del programma, migliorando al contempo la rigidità del veicolo
-      e le prestazioni in caso di impatto.
+      Il piano di processo può includere lavorazione CNC e finitura; il percorso di lavorazione e
+      l'ambito ispettivo vengono concordati in base al disegno del componente finito.
     materials:
       - "ADC12"
       - "A380"
       - "A356"
     processes:
-      - "Pressofusione ad alta pressione da 5000T"
+      - "Revisione HPDC di grandi strutture"
       - "Gestione termica di stampi di grandi dimensioni"
-      - "Finitura CNC pronta per l'assemblaggio"
+      - "Lavorazione CNC definita per progetto"
     equipment:
-      - "Pressa di pressofusione a camera fredda da 5000T"
-      - "CMM di grande formato"
+      - "Ingombro macchina e stampo confermato all'RFQ"
+      - "Metodo di ispezione scelto per progetto"
     applications:
       - "Strutture batterie EV"
       - "Torri ammortizzatore e traverse"
       - "Nodi strutturali"
     image:
-      url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
-      alt: "Pressa da 5000 tonnellate per la produzione di grandi componenti strutturali automotive"
-      title: "Grandi strutture da 5000T"
+      url: "/img/large-aluminium-structural-casting.webp"
+      alt: "Grande pressa per pressofusione ad alta pressione in un reparto produttivo"
+      title: "Grandi fusioni strutturali"
     learn_more: ""
 
   - id: "precision-cnc-machining"
@@ -258,9 +233,8 @@ capabilities:
     body: |
       La colata è solo metà della storia. Il reparto di lavorazione CNC ad alta precisione interno
       di KingShip completa il componente — foratura, filettatura, fresatura e alesatura delle
-      superfici di accoppiamento critiche che il processo di pressofusione non può raggiungere. I
-      nostri centri di lavorazione a 3, 4 e 5 assi ad alta velocità mantengono tolleranze fino a
-      ±0,01 mm su parti in alluminio e magnesio.
+      superfici di accoppiamento critiche. Specifiche macchina, setup e fattibilità di ciascuna
+      tolleranza vengono confermati per ogni progetto.
 
       Poiché la lavorazione si trova accanto alla colata, eliminiamo i ritardi di consegna e le
       dispute di qualità che derivano dall'esterno. I riferimenti sono coerenti dal grezzo al pezzo
@@ -269,25 +243,24 @@ capabilities:
       valore aggiunto come filettatura elicoidale, spianatura di boss e alesature a tolleranza
       stretta per superfici di tenuta.
 
-      Per componenti a tenuta in pressione aggiungiamo un test di perdita automatizzato subito dopo
-      la lavorazione, così l'ermeticità è confermata prima che la parte lasci l'edificio. L'effetto
-      netto è un componente finito e pronto per l'ispezione, consegnato da un unico fornitore.
+      Per i componenti a tenuta in pressione, metodo, intervallo e campionamento del test di perdita
+      vengono concordati nell'ambito del piano ispettivo del progetto.
     materials:
       - "Leghe di alluminio"
       - "Leghe di magnesio"
     processes:
-      - "Lavorazione CNC a 3 / 4 / 5 assi"
+      - "Fresatura, foratura e tornitura CNC"
       - "Foratura e filettatura di precisione"
-      - "Test di perdita automatizzato"
+      - "Pianificazione del test di perdita per progetto"
     equipment:
-      - "Centri CNC a 5 assi ad alta velocità"
-      - "Apparecchiature di test di perdita automatizzato"
+      - "Attrezzature per lavorazione CNC successiva"
+      - "Attrezzature per test di perdita"
     applications:
       - "Superfici di tenuta"
       - "Funzioni di accoppiamento critiche"
       - "Componenti finiti"
     image:
-      url: "https://alumcasting.com/images/precision-multi-axis-cnc-machining-tight-tolerance-parts.webp"
+      url: "/img/high-precision-cnc-workshop.webp"
       alt: "Lavorazione CNC multi-assi di precisione di parti pressofuse a tolleranza stretta"
       title: "Lavorazione CNC di precisione"
     learn_more: "/it/cnc-machining/"
@@ -297,68 +270,58 @@ capabilities:
     name: "Attrezzature per pressofusione"
     heading: "Attrezzature per pressofusione"
     body: |
-      La qualità dell'attrezzatura definisce tutto ciò che segue. KingShip gestisce un reparto
-      attrezzature interno utilizzando CAD/CAM avanzato, Pro/E, UG e simulazione Moldflow per
-      progettare e costruire stampi che durano più a lungo e producono parti più pulite. Sistemi
-      ottimizzati di alimentazione e raffreddamento riducono il tempo di ciclo, minimizzano la
-      porosità e prolungano la vita dello stampo oltre 100.000 colpi.
+      La qualità dello stampo condiziona tutto il processo. Progettazione, alimentazione, raffreddamento
+      e pianificazione della manutenzione vengono sviluppati in base al disegno del componente finito
+      e ai requisiti produttivi.
 
-      Mantenere l'attrezzatura sotto il nostro stesso tetto significa iterazioni più rapide:
-      modifiche di ingegneria, manutenzione e ricondizionamento avvengono senza i tempi di
-      consegna di terzi. Ciò consente inoltre di proteggere il know-how proprietario di
-      alimentazione e mantenerlo coerente all'interno di una famiglia di prodotti. Per i programmi
-      ponte a basso volume offriamo attrezzature ponte che portano i prototipi nelle tue mani
-      rapidamente prima di impegnarsi in uno stampo di produzione completo.
+      L'ambito di costruzione e manutenzione degli stampi viene confermato per ogni progetto. Uno
+      stampo ponte o prototipale può essere valutato quando un programma richiede una validazione
+      prima dello stampo di produzione.
 
-      Uno stampo progettato bene è la polizza assicurativa più economica contro scarti, fermi
-      macchina e guasti sul campo. Ecco perché KingShip tratta l'attrezzatura come una competenza
-      centrale, non una commodity acquistata.
+      La durata dello stampo dipende dal progetto e viene esaminata in base a progettazione, lega,
+      processo, manutenzione e criteri di accettazione.
     materials:
       - "Acciaio per stampi H13"
       - "Materiali per stampi personalizzati"
     processes:
       - "Progettazione e simulazione di stampi"
-      - "Produzione interna di attrezzature"
+      - "Ambito di costruzione confermato all'RFQ"
       - "Manutenzione e ricondizionamento"
     equipment:
-      - "CAD/CAM e Moldflow"
-      - "Reparto attrezzature CNC"
+      - "Revisione CAD/CAM e DFM"
+      - "Ambito stampi definito per progetto"
     applications:
       - "Stampi di produzione"
       - "Attrezzature ponte"
       - "Attrezzature di famiglia"
     image:
-      url: "https://alumcasting.com/images/vertically-integrated-manufacturing-process-casting-to-finishing.webp"
+      url: "/img/automated-die-casting-production-line.webp"
       alt: "Processo produttivo integrato verticalmente dalla colata alla finitura"
       title: "Attrezzature e processo integrati"
 
 quality:
   heading: "Controllo qualità e certificazioni"
-  lead: "Una mentalità zero-defetti supportata da certificazione internazionale e prove non distruttive."
+  lead: "Pianificazione della qualità basata sui requisiti del disegno, sull'ambito ispettivo e su criteri di accettazione documentati."
   body: |
-    KingShip opera un sistema di gestione qualità completo costruito per le aspettative automotive,
-    aerospaziali e di grado medicale. Il nostro stabilimento è certificato IATF 16949 e ISO 9001, e
-    ogni operazione di pressofusione ad alta pressione è governata da controllo di processo documentato,
-    monitoraggio statistico e miglioramento continuo.
+    Kingship (Dongguan) Precision Manufacturing Co., Ltd. dispone del certificato IATF 16949:2016
+    T207408 / 0613009 per la produzione di parti pressofuse e lavorate, con la progettazione di
+    prodotto secondo la clausola 8.3 esclusa. Il certificato ISO 9001:2015 DZ/CN/2411010Q copre
+    parti meccaniche di precisione e stampi per pressofusione.
 
-    L'integrità strutturale è verificata, non ipotizzata. I sistemi di rilevamento a raggi X in
-    tempo reale eseguono prove non distruttive per rivelare porosità interna, cricche e inclusioni
-    che l'ispezione superficiale mancherebbe. Le macchine a coordinate (CMM) confermano la precisione
-    dimensionale rispetto al modello CAD, mentre il test di perdita automatizzato convalida
-    l'ermeticità e le prestazioni di gestione dei fluidi per componenti a tenuta in pressione. I
-    passaggi di finitura come il trattamento superficiale SureTech 650 completano il processo a valle.
+    I metodi ispettivi disponibili comprendono raggi X, CMM e prove di tenuta e pressione per i
+    requisiti del progetto. Caratteristiche da ispezionare, frequenza di campionamento, criteri di
+    accettazione e formato del rapporto vengono concordati prima dell'approvazione della produzione.
 
-    Questa strategia di ispezione a più livelli significa che i clienti ricevono parti qualificate
-    prima della spedizione, non difettose scoperte sulla linea di assemblaggio — proteggendo la tua
-    linea, la tua pianificazione e il tuo marchio.
+    Ambito ispettivo e documentale vengono confermati in base a disegno, requisiti qualità del cliente
+    e capacità effettiva delle attrezzature.
   standards:
-    - "ISO 9001"
-    - "IATF 16949"
+    - "Copia del certificato ISO 9001:2015"
+    - "Copia del certificato IATF 16949:2016"
   methods:
-    - "Ispezione porosità a raggi X in tempo reale"
+    - "Ispezione radiografica secondo il progetto"
     - "Verifica dimensionale CMM"
-    - "Test di perdita automatizzato"
-    - "Trattamento superficiale SureTech 650"
+    - "Test di tenuta secondo il progetto"
+    - "Trattamento superficiale definito per progetto"
   image:
     url: "/img/certificates/iso-9001-2015-card.webp"
     alt: "Copia del documento del certificato ISO 9001:2015, numero DZ/CN/2411010Q, intestato a Kingship (Dongguan) Precision Manufacturing Co., Ltd., data di scadenza stampata 2027-12-17"
@@ -369,30 +332,30 @@ quality:
   cert_link: "/it/certifications/"
 equipment:
   heading: "Attrezzature di produzione"
-  lead: "Macchinari moderni e integrati che mantengono qualità e produttività sotto un unico tetto."
+  lead: "La scelta delle attrezzature viene confermata in base ai requisiti del progetto."
   items:
-    - name: "Pressa di pressofusione da 5000T"
-      desc: "Pressofusione ad alta pressione a camera fredda extra-large per componenti strutturali di scala metrica."
+    - name: "Impianti di pressofusione ad alta pressione"
+      desc: "La scelta della macchina viene confermata in base al componente, allo stampo e al processo."
       image:
-        url: "https://alumcasting.com/images/5000t-aluminum-die-casting-machine-large-structural-parts.webp"
-        alt: "Pressa di pressofusione ad alta pressione da 5000 tonnellate per grandi parti strutturali"
-        title: "Pressa da 5000T"
+        url: "/img/large-aluminium-structural-casting.webp"
+        alt: "Grande pressa per pressofusione ad alta pressione in un reparto produttivo"
+        title: "Impianti di pressofusione ad alta pressione"
     - name: "Centri di lavorazione CNC di precisione"
-      desc: "Lavorazione ad alta velocità a 3, 4 e 5 assi per post-processo a tolleranza stretta."
+      desc: "Lavorazione CNC successiva con macchina e tolleranza confermate per progetto."
       image:
-        url: "https://alumcasting.com/images/High-Precision-CNC-Wokshop.webp"
+        url: "/img/high-precision-cnc-workshop.webp"
         alt: "Reparto di lavorazione CNC ad alta precisione per il post-processo di pressofusione"
         title: "Reparto di lavorazione CNC"
     - name: "Apparecchiature di ispezione CMM"
       desc: "Le macchine a misurazione a coordinate verificano la precisione dimensionale rispetto ai modelli CAD."
       image:
-        url: "https://alumcasting.com/images/CMM-Inspection-Equipment.webp"
+        url: "/img/cmm-dimensional-inspection-lab.webp"
         alt: "Apparecchiature di ispezione CMM per la verifica dimensionale"
         title: "Ispezione CMM"
     - name: "Rilevamento porosità a raggi X"
-      desc: "Sistemi a raggi X in tempo reale eseguono ispezione non distruttiva della porosità interna."
+      desc: "L'ispezione radiografica può essere pianificata per progetto per verificare la porosità interna."
       image:
-        url: "https://alumcasting.com/images/X-Ray-Detector.webp"
+        url: "/img/x-ray-detector.webp"
         alt: "Rilevatore a raggi X in tempo reale per l'ispezione porosità nella pressofusione"
         title: "Rilevamento porosità a raggi X"
 
@@ -401,7 +364,7 @@ industries:
   lead: "Competenza sui materiali e sui processi tarata sulle esigenze di ciascun settore."
   items:
     - name: "Automotive"
-      desc: "Componenti powertrain, strutturali e di gestione termica con disciplina IATF 16949."
+      desc: "Componenti powertrain, strutturali e di gestione termica; i requisiti qualità vengono confermati all'RFQ."
     - name: "EV"
       desc: "Strutture batterie, alloggiamenti e supporti per piattaforme leggere e a lungo raggio."
     - name: "Industriale"
@@ -409,7 +372,7 @@ industries:
     - name: "Medicale"
       desc: "Componenti puliti e dimensionalmente stabili per applicazioni diagnostiche e dispositivi."
     - name: "Aerospaziale"
-      desc: "Parti leggere e ad alta integrità in magnesio e alluminio per applicazioni di volo."
+      desc: "Parti leggere in magnesio e alluminio per requisiti aerospaziali definiti dal progetto."
 
 technical_resources:
   heading: "Risorse tecniche"
@@ -420,30 +383,30 @@ technical_resources:
     risorse aiutano i team di progettazione e approvvigionamento a prendere decisioni migliori prima
     di richiedere un preventivo.
   link:
-    url: "https://alumcasting.com/"
-    label: "Esplora la libreria tecnica AlumCasting"
+    url: "/blog/"
+    label: "Esplora la libreria tecnica KingShip"
 
 faq:
   heading: "Domande frequenti"
   items:
     - question: "Quali leghe di alluminio e magnesio colate?"
-      answer: "Coliamo leghe di alluminio ADC12, A380, A356 e A360, oltre a leghe di magnesio AZ91D e AM60B. Sono disponibili su richiesta slurry rheocast e composizioni personalizzate."
+      answer: "Le leghe di alluminio e magnesio vengono esaminate in base a disegno, applicazione e disponibilità attuale dei materiali. Lega e stato finale vengono confermati per ciascuna RFQ."
     - question: "Qual è la tonnellatura massima della macchina di pressofusione?"
-      answer: "La nostra macchina più grande è una pressa di pressofusione ad alta pressione a camera fredda da 5000 tonnellate, in grado di produrre componenti strutturali a parete sottile di scala metrica per piattaforme automotive ed EV."
+      answer: "La scelta della macchina viene confermata in base a dimensioni del componente, stampo, lega e peso di colata richiesto. Prima del lancio viene eseguita una verifica di fattibilità specifica."
     - question: "Effettuate lavorazione CNC e ispezione interne?"
-      answer: "Sì. Operiamo centri di lavorazione CNC a 3, 4 e 5 assi e eseguiamo internamente verifica dimensionale CMM, ispezione porosità a raggi X in tempo reale e test di perdita automatizzato."
+      answer: "La lavorazione CNC successiva è disponibile internamente. Specifiche macchina, metodi ispettivi e fattibilità di ciascuna tolleranza vengono confermati per ogni progetto."
     - question: "Siete certificati secondo standard qualità automotive?"
-      answer: "KingShip è certificata ISO 9001 e IATF 16949, e il nostro sistema di gestione qualità è costruito per requisiti automotive, aerospaziali e di grado medicale."
+      answer: "Kingship (Dongguan) Precision Manufacturing Co., Ltd. dispone del certificato IATF 16949:2016 T207408 / 0613009 per la produzione di parti pressofuse e lavorate, clausola 8.3 esclusa, e del certificato ISO 9001:2015 DZ/CN/2411010Q per parti meccaniche di precisione e stampi per pressofusione."
     - question: "Potete aiutare con la progettazione per la fabbricabilità (DFM)?"
-      answer: "Assolutamente. Eseguiamo simulazioni Magma e Moldflow durante la fase di progettazione per eliminare porosità e ritiri a freddo prima dell'attrezzatura, accorciando i tempi di sviluppo e riducendo il costo per pezzo."
+      answer: "Il DFM può includere simulazioni di riempimento, solidificazione e raffreddamento quando pertinenti. Le decisioni su stampo e processo restano soggette a validazione specifica del componente."
     - question: "Qual è il tempo tipico di preventivo?"
-      answer: "Per un RFQ ben definito con disegni e requisiti, restituiamo tipicamente una revisione ingegneristica completa e un preventivo formale entro 24 ore."
+      answer: "Per una RFQ ben definita esaminiamo disegno, ambito produttivo, requisiti ispettivi e rischi di progetto prima di confermare i tempi del preventivo."
     - question: "Supportate attrezzature ponte a basso volume?"
       answer: "Sì. Offriamo attrezzature ponte per prototipazione e convalida efficienti in piccoli lotti prima di impegnarsi in uno stampo di produzione completo."
 
 rfq:
   heading: "Richiedi un preventivo"
-  lead: "Invia i tuoi disegni e requisiti — ottieni una revisione ingegneristica e un preventivo formale entro 24 ore."
+  lead: "Invia disegni e requisiti per la revisione tecnica e la preparazione della RFQ."
   body: |
     Raccontaci il tuo materiale, spessore di parete, tolleranze, trattamento superficiale e volume
     annuo stimato. Il nostro team di ingegneria esaminerà il tuo progetto e risponderà con un piano

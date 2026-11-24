@@ -1,26 +1,23 @@
 ---
-title: "Moulage sous pression automobile & usinage CNC | KingShip"
-description: "Moulage sous pression aluminium et magnésium IATF 16949, Semi-Solid Rheocasting et usinage CNC de précision pour les composants de groupe motopropulseur, structurels et de gestion thermique."
+title: "Moulage sous pression automobile & usinage CNC"
+description: "Revue d'ingénierie pour le moulage aluminium et magnésium et l'usinage CNC de composants de groupe motopropulseur, structurels et de gestion thermique ; périmètre confirmé au RFQ."
 translationKey: "industry-automotive"
 schema:
   faq:
     - question: "Quels composants automobiles KingShip fabrique-t-il ?"
-      answer: "KingShip produit des carters de groupe motopropulseur et de transmission, des structures moteur et supports, des pièces siège et critiques pour la sécurité, ainsi que des composants de gestion thermique tels que les chemises d'eau et les boîtiers d'onduleur, en moulage sous pression aluminium et magnésium complété par l'usinage CNC interne."
-    - question: "KingShip possède-t-il des certifications qualité automobile ?"
-      answer: "Oui. KingShip est certifié IATF 16949 et ISO 9001, et chaque pièce automobile est produite avec détection de porosité par rayons X en temps réel, tests d'étanchéité et de fuite sous pression, et une traçabilité complète de la production."
+      answer: "Les programmes automobiles peuvent être étudiés pour des applications de groupe motopropulseur, structure, gestion thermique et supports. Alliage, voie de fonderie, périmètre CNC et contrôle sont confirmés selon le plan à chaque RFQ."
+    - question: "Comment la documentation qualité fournisseur est-elle gérée ?"
+      answer: "Le contrôle, les essais, la traçabilité et la documentation fournisseur sont convenus pour chaque projet automobile. Le statut actuel du certificat et son périmètre sont confirmés lors de la qualification fournisseur."
     - question: "Quels alliages sont utilisés pour le moulage sous pression automobile ?"
       answer: "Nous coulons les alliages d'aluminium ADC12, A380 et A356 ainsi que les alliages de magnésium AZ91D et AM60B, sélectionnés selon le rapport résistance/poids, la performance thermique et la résistance à la corrosion requis."
     - question: "KingShip peut-il prendre en charge le prototypage et l'outillage automobile ?"
-      answer: "Oui. Notre équipe interne d'outillage de moulage sous pression conçoit, fabrique et entretient les moules, et notre capacité CNC 3/4/5 axes accompagne les pièces du prototype jusqu'à la production en série validée."
+      answer: "Le périmètre de l'outillage est défini lors de la RFQ. L'usinage CNC et les exigences de contrôle sont revus selon le plan et le plan qualité du projet."
 ---
 
-KingShip accompagne les programmes automobiles du prototype initial jusqu'à la production en grande série. Notre moulage sous pression haute pression aluminium et magnésium, le Semi-Solid Rheocasting et l'usinage CNC interne offrent la stabilité dimensionnelle et la répétabilité exigées par les plateformes véhicules modernes.
+KingShip étudie les programmes automobiles du DFM à la fonderie, à l'usinage CNC et au plan de contrôle. Alliage, périmètre machine, tolérances et documents sont confirmés selon le plan et le plan qualité client.
 
 <!-- KS-PHOTO-BEGIN automated-cell-with-stacked-castings -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/automated-cell-with-stacked-castings.webp" srcset="/img/automated-cell-with-stacked-castings-480w.webp 480w, /img/automated-cell-with-stacked-castings.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Cellule de production automatisée à portique à côté de palettes de pièces en aluminium empilées" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Cellule automatisée et pièces empilées</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -30,10 +27,10 @@ KingShip accompagne les programmes automobiles du prototype initial jusqu'à la 
 
 - Carters de groupe motopropulseur et de transmission en aluminium ADC12, A380 et A356
 - Composants structurels et siège légers en magnésium AZ91D et AM60B
-- Pièces Semi-Solid Rheocast à faible porosité pour les supports critiques pour la sécurité
-- Usinage CNC 3/4/5 axes, tests d'étanchéité et de fuite sous pression
+- Planification fonderie et contrôle définie par projet pour supports structurels ou de sécurité
+- Usinage CNC, essais d'étanchéité/pression et périmètre rayons X/CMM définis par projet
 
-Chaque pièce automobile est produite sous la discipline IATF 16949 avec détection de porosité par rayons X en temps réel et traçabilité complète, afin que les assemblages atteignent leurs objectifs de durabilité et de sécurité du premier article jusqu'à la livraison en série.
+Les exigences d'inspection, d'essai et de traçabilité sont convenues pour chaque projet automobile selon le plan, les caractéristiques critiques et les exigences client.
 
 
 
@@ -41,8 +38,5 @@ Chaque pièce automobile est produite sous la discipline IATF 16949 avec détect
 
 
 <!-- KS-PHOTO-BEGIN aluminium-cast-structural-component -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/aluminium-cast-structural-component.webp" srcset="/img/aluminium-cast-structural-component-480w.webp 480w, /img/aluminium-cast-structural-component.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="675" loading="lazy" decoding="async" alt="Pièce allongée en aluminium avec deux alésages circulaires et nervures de renfort" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Composant structurel en aluminium moulé</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->

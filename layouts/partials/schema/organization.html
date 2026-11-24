@@ -17,12 +17,9 @@
   "@id": "{{ $base }}#organization",
   "name": "{{ $company.shortName | default $company.name | safeJS }}",
   "legalName": "{{ $company.name | safeJS }}",
-  "alternateName": "{{ $company.brand | safeJS }}",
+  {{ if ne $company.brand $company.shortName }}"alternateName": "{{ $company.brand | safeJS }}",{{ end }}
   "url": "{{ $company.url | safeJS }}",
-  "logo": "{{ $company.logo | safeJS }}",
-  "image": [
-    {{ range $i, $img := $company.images }}{{ if $i }}, {{ end }}"{{ $img | safeJS }}"{{ end }}
-  ],
+  {{ with $company.logo }}"logo": "{{ . | safeJS }}",{{ end }}
   "description": "{{ $loc.description | safeJS }}",
   "address": {
     "@type": "PostalAddress",
@@ -37,9 +34,9 @@
   "knowsAbout": [
     {{ range $i, $ka := $company.knowsAbout }}{{ if $i }}, {{ end }}"{{ $ka | safeJS }}"{{ end }}
   ],
-  "certifications": [
+  {{ if $company.certifications }}"certifications": [
     {{ range $i, $c := $company.certifications }}{{ if $i }}, {{ end }}"{{ $c | safeJS }}"{{ end }}
-  ],
+  ],{{ end }}
   "areaServed": [
     {{ range $i, $ind := $company.industries }}{{ if $i }}, {{ end }}{{ $iLoc := index ($ind.languages | default dict) $lang | default dict }}"{{ ($iLoc.name | default $ind.name) | safeJS }}"{{ end }}
   ],
@@ -83,10 +80,7 @@
   "name": "{{ $company.shortName | default $company.name | safeJS }}",
   "legalName": "{{ $company.name | safeJS }}",
   "url": "{{ $company.url | safeJS }}",
-  "logo": "{{ $company.logo | safeJS }}",
-  "image": [
-    {{ range $i, $img := $company.images }}{{ if $i }}, {{ end }}"{{ $img | safeJS }}"{{ end }}
-  ],
+  {{ with $company.logo }}"logo": "{{ . | safeJS }}",{{ end }}
   "description": "{{ $loc.description | safeJS }}",
   "address": {
     "@type": "PostalAddress",
@@ -97,8 +91,8 @@
   "knowsAbout": [
     {{ range $i, $ka := $company.knowsAbout }}{{ if $i }}, {{ end }}"{{ $ka | safeJS }}"{{ end }}
   ],
-  "certifications": [
+  {{ if $company.certifications }}"certifications": [
     {{ range $i, $c := $company.certifications }}{{ if $i }}, {{ end }}"{{ $c | safeJS }}"{{ end }}
-  ]
+  ]{{ end }}
 }
 </script>

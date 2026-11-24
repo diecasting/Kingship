@@ -1,8 +1,9 @@
 ---
-title: "Certificati del sistema di gestione della qualità di Kingship"
-description: "Copie dei documenti dei certificati ISO 9001:2015, ISO 14001:2015, IATF 16949:2016 e ISO 13485:2016 di Kingship (Dongguan) Precision Manufacturing Co., Ltd., con titolare esatto, campo di applicazione, numeri di certificato, data di emissione e scadenze stampate."
+title: "Documentazione del sistema qualità"
+description: "Come richiedere documentazione aggiornata del fornitore, copie dei certificati e registrazioni ispettive specifiche del progetto durante la qualifica."
 url: "/it/certifications/"
 showTableOfContents: false
+excludeFromInternalSearch: true
 ---
 
 ## Documenti dei certificati
@@ -15,7 +16,7 @@ Questa pagina raccoglie le copie dei documenti dei certificati rilasciati a King
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iso-9001-2015" aria-label="Visualizza il certificato a dimensione intera: ISO 9001:2015">
-    <img src="/img/certificates/iso-9001-2015-card.webp" alt="Documento del certificato ISO 9001:2015, n. DZ/CN/2411010Q, rilasciato a Kingship (Dongguan) Precision Manufacturing Co., Ltd.; data di scadenza indicata: 2027-12-17" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">ISO 9001:2015</div>
@@ -27,7 +28,7 @@ Questa pagina raccoglie le copie dei documenti dei certificati rilasciati a King
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iso-14001-2015" aria-label="Visualizza il certificato a dimensione intera: ISO 14001:2015">
-    <img src="/img/certificates/iso-14001-2015-card.webp" alt="Documento del certificato ISO 14001:2015, n. DZ/CN/2411010E, rilasciato a Kingship (Dongguan) Precision Manufacturing Co., Ltd.; data di scadenza indicata: 2027-12-17" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">ISO 14001:2015</div>
@@ -39,7 +40,7 @@ Questa pagina raccoglie le copie dei documenti dei certificati rilasciati a King
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iatf-16949-2016" aria-label="Visualizza il certificato a dimensione intera: IATF 16949:2016">
-    <img src="/img/certificates/iatf-16949-2016-card.webp" alt="Documento del certificato IATF 16949:2016, n. NQA Certificate No. T207408 / IATF Certificate No. 0613009, rilasciato a Kingship (Dongguan) Precision Manufacturing Co., Ltd.; data di scadenza indicata: 2029-08-27" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">IATF 16949:2016</div>
@@ -52,7 +53,7 @@ Questa pagina raccoglie le copie dei documenti dei certificati rilasciati a King
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iso-13485-2016" aria-label="Visualizza il certificato a dimensione intera: ISO 13485:2016">
-    <img src="/img/certificates/iso-13485-2016-card.webp" alt="Documento del certificato ISO 13485:2016, n. 10135272M, rilasciato a Kingship (Dongguan) Precision Manufacturing Co., Ltd.; data di scadenza indicata: 2027-12-29 (Date of expiry)" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">ISO 13485:2016</div>
@@ -67,22 +68,22 @@ Questa pagina raccoglie le copie dei documenti dei certificati rilasciati a King
 
 <div id="kcert-iso-9001-2015" class="kcert-lb" role="dialog" aria-label="ISO 9001:2015">
   <div class="kcert-lb__bar"><a href="#kcert-close">Chiudi</a><a href="/img/certificates/iso-9001-2015-full.webp" target="_blank" rel="noopener">Apri l'immagine completa in una nuova scheda</a></div>
-  <img src="/img/certificates/iso-9001-2015-full.webp" alt="Documento del certificato ISO 9001:2015, n. DZ/CN/2411010Q, rilasciato a Kingship (Dongguan) Precision Manufacturing Co., Ltd.; data di scadenza indicata: 2027-12-17" loading="lazy" decoding="async">
+
 </div>
 
 <div id="kcert-iso-14001-2015" class="kcert-lb" role="dialog" aria-label="ISO 14001:2015">
   <div class="kcert-lb__bar"><a href="#kcert-close">Chiudi</a><a href="/img/certificates/iso-14001-2015-full.webp" target="_blank" rel="noopener">Apri l'immagine completa in una nuova scheda</a></div>
-  <img src="/img/certificates/iso-14001-2015-full.webp" alt="Documento del certificato ISO 14001:2015, n. DZ/CN/2411010E, rilasciato a Kingship (Dongguan) Precision Manufacturing Co., Ltd.; data di scadenza indicata: 2027-12-17" loading="lazy" decoding="async">
+
 </div>
 
 <div id="kcert-iatf-16949-2016" class="kcert-lb" role="dialog" aria-label="IATF 16949:2016">
   <div class="kcert-lb__bar"><a href="#kcert-close">Chiudi</a><a href="/img/certificates/iatf-16949-2016-full.webp" target="_blank" rel="noopener">Apri l'immagine completa in una nuova scheda</a></div>
-  <img src="/img/certificates/iatf-16949-2016-full.webp" alt="Documento del certificato IATF 16949:2016, n. NQA Certificate No. T207408 / IATF Certificate No. 0613009, rilasciato a Kingship (Dongguan) Precision Manufacturing Co., Ltd.; data di scadenza indicata: 2029-08-27" loading="lazy" decoding="async">
+
 </div>
 
 <div id="kcert-iso-13485-2016" class="kcert-lb" role="dialog" aria-label="ISO 13485:2016">
   <div class="kcert-lb__bar"><a href="#kcert-close">Chiudi</a><a href="/img/certificates/iso-13485-2016-full.webp" target="_blank" rel="noopener">Apri l'immagine completa in una nuova scheda</a></div>
-  <img src="/img/certificates/iso-13485-2016-full.webp" alt="Documento del certificato ISO 13485:2016, n. 10135272M, rilasciato a Kingship (Dongguan) Precision Manufacturing Co., Ltd.; data di scadenza indicata: 2027-12-29 (Date of expiry)" loading="lazy" decoding="async">
+
 </div>
 
 ## Verifica indipendente

@@ -8,15 +8,13 @@
 # --- Core identity ---
 name: "Kingship (Dongguan) Precision Manufacturing Co., Ltd."   # legal name (used as legalName)
 shortName: "KingShip"                                          # display name (Organization.name)
-brand: "AlumCasting"
+brand: "KingShip"
 url: "https://kingship.alumcasting.com"
 wordpressAuthority: "https://alumcasting.com/"
 
 # --- Visual assets (must return HTTP 200) ---
-logo: "https://kingship.alumcasting.com/favicon.png"
-images:
-  - "https://kingship.alumcasting.com/img/high-precision-cnc-workshop.webp"
-  - "https://kingship.alumcasting.com/img/x-ray-detector.webp"
+logo: ""
+images: []
 
 # --- Postal address ---
 address:
@@ -26,17 +24,15 @@ address:
 
 # --- Capabilities / expertise (ManufacturingBusiness.knowsAbout) ---
 knowsAbout:
-  - "Aluminum Die Casting (ADC12, A356, A380)"
-  - "Magnesium Die Casting (AZ91D, AM60B)"
-  - "Semi-Solid Rheocasting"
-  - "High-Precision CNC Post-Processing"
-  - "Non-Destructive Testing via real-time X-ray"
-  - "Airtightness and pressure leak testing"
+  - "Aluminum High-Pressure Die Casting"
+  - "Magnesium High-Pressure Die Casting"
+  - "CNC Post-Machining of Cast Components"
+  - "Die Casting DFM and Tooling Engineering"
+  - "Project-Specific X-Ray, CMM and Leak-Test Planning"
+  - "Manufacture of Die-Cast Parts and Machined Parts"
 
 # --- Certifications ---
-certifications:
-  - "ISO 9001"
-  - "IATF 16949"
+certifications: []
 
 # --- Sales contact point ---
 contactPoint:
@@ -46,59 +42,52 @@ contactPoint:
 # --- Multilingual marketing text (rendered at Organization / WebSite level) ---
 languages:
   en:
-    description: "KingShip is a premier B2B manufacturer specializing in high-precision aluminum and magnesium alloy high-pressure die casting, in-house CNC post-processing, real-time X-ray porosity detection, and professional tooling engineering."
+    description: "KingShip provides aluminum and magnesium high-pressure die casting, CNC post-machining, tooling engineering and project-specific inspection planning for B2B manufacturing programs."
     keywords:
       - "High Pressure Die Casting"
       - "Aluminum Die Casting Services"
       - "Magnesium Die Casting"
-      - "Semi-Solid Rheocasting"
       - "Precision CNC Machining"
       - "Porosity Detection"
       - "B2B Castings Supplier"
   de:
-    description: "KingShip ist ein führender B2B-Hersteller für Präzisions-Hochdruck-Druckguss aus Aluminium- und Magnesiumlegierungen mit interner CNC-Nachbearbeitung, Echtzeit-Röntgenporositätsprüfung und Werkzeugbau."
+    description: "KingShip bietet Aluminium- und Magnesium-Hochdruckguss, CNC-Nachbearbeitung, Werkzeugbau und projektbezogene Prüfplanung für B2B-Fertigungsprogramme."
     keywords:
       - "Hochdruck-Druckguss"
       - "Aluminium-Druckguss"
       - "Magnesium-Druckguss"
-      - "Semi-Solid-Rheocasting"
       - "Präzise CNC-Bearbeitung"
   es:
-    description: "KingShip es un fabricante B2B líder especializado en fundición a presión de alta precisión en aleaciones de aluminio y magnesio, mecanizado CNC interno, detección de porosidad por rayos X en tiempo real e ingeniería de moldes."
+    description: "KingShip ofrece fundición a presión de aluminio y magnesio, mecanizado CNC, ingeniería de utillaje y planificación de inspección por proyecto para programas de fabricación B2B."
     keywords:
       - "Fundición a presión de aluminio"
       - "Fundición a presión de magnesio"
-      - "Semi-Solid Rheocasting"
       - "Mecanizado CNC de precisión"
   fr:
-    description: "KingShip est un fabricant B2B de premier plan spécialisé dans le moulage sous pression de précision en alliages d'aluminium et de magnésium, l'usinage CN interne, la détection de porosité par rayons X en temps réel et la conception d'outillages."
+    description: "KingShip propose le moulage sous pression aluminium et magnésium, l'usinage CNC, l'ingénierie d'outillage et la planification du contrôle par projet pour les programmes de fabrication B2B."
     keywords:
       - "Moulage sous pression d'aluminium"
       - "Moulage sous pression de magnésium"
-      - "Semi-Solid Rheocasting"
       - "Usinage CNC de précision"
   ja:
-    description: "KingShipは、高精度アルミニウム・マグネシウム合金高圧ダイカスト、社内CNC後処理、リアルタイムX線気孔検査、専門的な金型設計を専門とする有力なB2Bメーカーです。"
+    description: "KingShipは、アルミニウム・マグネシウム高圧ダイカスト、CNC後加工、金型エンジニアリング、案件別の検査計画をB2B製造プログラム向けに提供します。"
     keywords:
       - "アルミダイカスト"
       - "マグネシウムダイカスト"
-      - "Semi-Solid Rheocasting"
       - "精密CNC加工"
   it:
-    description: "KingShip è un produttore B2B leader nella pressofusione di precisione in leghe di alluminio e magnesio, lavorazione CNC interna, rilevamento della porosità tramite raggi X in tempo reale e ingegneria di attrezzature professionali."
+    description: "KingShip offre pressofusione di alluminio e magnesio, lavorazione CNC, ingegneria degli stampi e pianificazione ispettiva per progetto per programmi manifatturieri B2B."
     keywords:
       - "Pressofusione ad alta pressione"
       - "Pressofusione di alluminio"
       - "Pressofusione di magnesio"
-      - "Rheocasting semi-solido"
       - "Lavorazione CNC di precisione"
   ko:
-    description: "KingShip은 고정밀 알루미늄 및 마그네슘 합금 고압 다이캐스팅, 사내 CNC 후가공, 실시간 X선 기공 검사, 전문 금형 엔지니어링을 전문으로 하는 선도적인 B2B 제조업체입니다."
+    description: "KingShip은 B2B 제조 프로그램을 위해 알루미늄·마그네슘 고압 다이캐스팅, CNC 후가공, 금형 엔지니어링 및 프로젝트별 검사 계획을 제공합니다."
     keywords:
       - "고압 다이캐스팅"
       - "알루미늄 다이캐스팅"
       - "마그네슘 다이캐스팅"
-      - "반용융 레오캐스팅"
       - "정밀 CNC 가공"
 
 # --- Services (drives Service schema + homepage OfferCatalog) ---
@@ -108,107 +97,98 @@ services:
     name: "Aluminum Die Casting"
     url_path: "/aluminum-die-casting/"
     schema_type: "AluminumDieCasting"
-    description: "High-pressure aluminum die casting in ADC12, A380 and A356 alloys with tight-tolerance dimensional control and in-house CNC finishing."
+    description: "Aluminum high-pressure die casting projects, with alloy selection, DFM and inspection scope reviewed per project."
     languages:
       es:
         name: "Fundición a presión de aluminio"
-        description: "Fundición a presión de aluminio de alta precisión en aleaciones ADC12, A380 y A356, con control dimensional de tolerancias ajustadas y acabado CNC interno."
+        description: "Proyectos de fundición a presión de aluminio, con selección de aleación, DFM y alcance de inspección revisados por proyecto."
       fr:
         name: "Moulage sous pression d'aluminium"
-        description: "Moulage sous pression d'aluminium haute pression en alliages ADC12, A380 et A356, avec un contrôle dimensionnel à tolérances serrées et une finition CNC interne."
+        description: "Projets de moulage sous pression aluminium, avec sélection d'alliage, DFM et périmètre de contrôle revus par projet."
       de:
         name: "Aluminium-Druckguss"
-        description: "Präzisions-Aluminiumdruckguss in den Legierungen ADC12, A380 und A356, mit eng tolerierter dimensionaler Kontrolle und interner CNC-Nachbearbeitung."
+        description: "Projekte im Aluminium-Hochdruckguss mit legierungs-, DFM- und projektbezogener Prüfplanung."
       ja:
         name: "アルミダイカスト"
+        description: "アルミニウム高圧ダイカスト案件。合金選定、DFM、検査範囲は案件ごとに確認します。"
       it:
         name: "Pressofusione di Alluminio"
+        description: "Progetti di pressofusione in alluminio con selezione lega, DFM e ambito ispettivo definiti per progetto."
       ko:
         name: "알루미늄 다이캐스팅"
+        description: "알루미늄 고압 다이캐스팅 프로젝트로, 합금 선택, DFM 및 검사 범위를 프로젝트별로 확인합니다."
   - id: "magnesium-die-casting"
     name: "Magnesium Die Casting"
     url_path: "/magnesium-die-casting/"
     schema_type: "MagnesiumDieCasting"
-    description: "Lightweight magnesium die casting in AZ91D and AM60B for automotive, EV and electronics enclosures."
+    description: "Magnesium high-pressure die casting projects, with alloy and application scope confirmed at RFQ."
     languages:
       es:
         name: "Fundición a presión de magnesio"
-        description: "Fundición a presión de magnesio ligero en AZ91D y AM60B para carrocerías automotrices, vehículos eléctricos y carcasas electrónicas."
+        description: "Proyectos de fundición a presión de magnesio; aleación y aplicación se confirman en la RFQ."
       fr:
         name: "Moulage sous pression de magnésium"
-        description: "Moulage sous pression de magnésium léger en AZ91D et AM60B pour les carrosseries automobiles, véhicules électriques et boîtiers électroniques."
+        description: "Projets de moulage sous pression magnésium ; alliage et application sont confirmés lors de la RFQ."
       de:
         name: "Magnesium-Druckguss"
-        description: "Leichter Magnesiumdruckguss in AZ91D und AM60B für Karosserieteile, Elektrofahrzeuge und elektronische Gehäuse."
+        description: "Projekte im Magnesium-Hochdruckguss; Legierung und Anwendung werden im RFQ bestätigt."
       ja:
         name: "マグネシウムダイカスト"
+        description: "マグネシウム高圧ダイカスト案件。合金と適用範囲はRFQで確認します。"
       it:
         name: "Pressofusione di Magnesio"
+        description: "Progetti di pressofusione in magnesio; lega e applicazione vengono confermate in RFQ."
       ko:
         name: "마그네슘 다이캐스팅"
-  - id: "semi-solid-rheocasting"
-    name: "Semi Solid Rheocasting"
-    url_path: "/semi-solid-rheocasting/"
-    schema_type: "Rheocasting"
-    description: "Semi-solid rheocasting for low-porosity, high-integrity structural components."
-    languages:
-      es:
-        name: "Reofundición semi-sólida"
-        description: "Reofundición semi-sólida para componentes estructurales de baja porosidad y alta integridad."
-      fr:
-        name: "Rhéocoulée semi-solide"
-        description: "Rhéocoulée semi-solide pour des composants structurels à faible porosité et haute intégrité."
-      de:
-        name: "Semi-Solid-Rheocasting"
-        description: "Semi-Solid-Rheocasting für strukturelle Bauteile mit geringer Porosität und hoher Integrität."
-      ja:
-        name: "半凝固レオキャスト"
-      it:
-        name: "Rheocasting Semi-Solido"
-      ko:
-        name: "반용융 레오캐스팅"
+        description: "마그네슘 고압 다이캐스팅 프로젝트로, 합금과 적용 범위는 RFQ에서 확인합니다."
   - id: "cnc-machining"
     name: "CNC Machining"
     url_path: "/cnc-machining/"
     schema_type: "CncMachining"
-    description: "Precision 3/4/5-axis CNC machining and post-processing for cast components."
+    description: "CNC post-machining for die-cast aluminum and magnesium components, with allowance, datum and inspection scope defined per project."
     languages:
       es:
         name: "Mecanizado CNC"
-        description: "Mecanizado CNC de precisión de 3, 4 y 5 ejes y posprocesado para componentes fundidos."
+        description: "Mecanizado CNC de piezas fundidas de aluminio y magnesio, con sobremetal, referencias e inspección definidos por proyecto."
       fr:
         name: "Usinage CNC"
-        description: "Usinage CNC de précision 3/4/5 axes et post-traitement pour les composants moulés."
+        description: "Usinage CNC de pièces moulées aluminium et magnésium, avec surépaisseur, références et contrôle définis par projet."
       de:
         name: "CNC-Bearbeitung"
-        description: "Präzise 3-/4-/5-Achs-CNC-Bearbeitung und Nachbearbeitung für druckgegossene Bauteile."
+        description: "CNC-Nachbearbeitung von Aluminium- und Magnesium-Druckgussteilen; Aufmaß, Bezugssystem und Prüfumfang werden pro Projekt festgelegt."
       ja:
         name: "CNC加工"
+        description: "アルミ・マグネシウムダイカスト部品のCNC後加工。取り代、基準、検査範囲は案件ごとに定義します。"
       it:
         name: "Lavorazione CNC"
+        description: "Lavorazione CNC di pressofusi in alluminio e magnesio; sovrametallo, datum e ambito ispettivo definiti per progetto."
       ko:
         name: "CNC 가공"
+        description: "알루미늄·마그네슘 다이캐스팅 부품의 CNC 후가공. 가공 여유, 데이텀 및 검사 범위는 프로젝트별로 정의합니다."
   - id: "die-casting-tooling"
     name: "Die Casting Tooling"
     url_path: "/tooling/"
     schema_type: "Tooling"
-    description: "In-house die casting tooling design, manufacturing and maintenance."
+    description: "Die-casting tooling design and project-specific tooling scope confirmed at RFQ."
     languages:
       es:
         name: "Utillaje de fundición a presión"
-        description: "Diseño, fabricación y mantenimiento de utillaje de fundición a presión en instalaciones propias."
+        description: "Diseño de utillaje de fundición y alcance de fabricación o mantenimiento confirmados en la RFQ."
       fr:
         name: "Outillage de moulage sous pression"
-        description: "Conception, fabrication et maintenance d'outillage de moulage sous pression en interne."
+        description: "Conception d'outillage de moulage sous pression et périmètre de fabrication ou maintenance confirmés lors de la RFQ."
       de:
         name: "Werkzeugbau"
-        description: "Interne Konstruktion, Fertigung und Wartung von Druckgusswerkzeugen."
+        description: "Konstruktion von Druckgusswerkzeugen sowie Fertigungs- oder Wartungsumfang werden im RFQ bestätigt."
       ja:
         name: "ダイカスト金型"
+        description: "ダイカスト金型設計。製作・保守の範囲はRFQで確認します。"
       it:
         name: "Stampi per Pressofusione"
+        description: "Progettazione stampi per pressofusione; ambito di costruzione e manutenzione confermato in RFQ."
       ko:
         name: "다이캐스팅 금형"
+        description: "다이캐스팅 금형 설계 및 제작·유지보수 범위는 RFQ에서 확인합니다."
 
 # --- Industries served (content model + areaServed) ---
 # Structured model driving /industries/<slug>/ landing pages (Phase 5C-2
@@ -222,24 +202,23 @@ industries:
   - slug: automotive
     name: "Automotive"
     url_path: "/industries/automotive/"
-    description: "Powertrain, structural and thermal-management components with IATF 16949 discipline."
+    description: "Powertrain, structural and thermal-management components; project quality requirements are confirmed at RFQ."
     languages:
       es:
         name: "Automotriz"
-        description: "Componentes de tren motriz, estructurales y de gestión térmica con la disciplina IATF 16949."
+        description: "Componentes de tren motriz, estructurales y de gestión térmica; los requisitos de calidad se confirman en la RFQ."
       fr:
         name: "Automobile"
-        description: "Composants de groupe motopropulseur, structurels et de gestion thermique selon la norme IATF 16949."
+        description: "Composants de groupe motopropulseur, structurels et de gestion thermique ; les exigences qualité sont confirmées lors de la RFQ."
       ja:
         name: "自動車"
-        description: "IATF 16949 の品質管理のもと、パワートレイン・構造部品・熱管理構成部品を提供。"
-    hero_image: "https://kingship.alumcasting.com/img/automated-die-casting-production-line.webp"
+        description: "パワートレイン・構造・熱管理部品。品質要件はRFQで確認します。"
+    hero_image: ""
     services:
       - aluminum-die-casting
       - magnesium-die-casting
       - cnc-machining
       - die-casting-tooling
-      - semi-solid-rheocasting
   - slug: electric-vehicle
     name: "Electric Vehicle"
     url_path: "/industries/electric-vehicle/"
@@ -254,13 +233,12 @@ industries:
       ja:
         name: "電気自動車"
         description: "軽量で航続距離の長いプラットフォーム向けのバッテリー構造体、ハウジング、ブラケット。"
-    hero_image: "https://kingship.alumcasting.com/img/leakaging-testing-equipment.webp"
+    hero_image: ""
     services:
       - aluminum-die-casting
       - magnesium-die-casting
       - cnc-machining
       - die-casting-tooling
-      - semi-solid-rheocasting
   - slug: aerospace
     name: "Aerospace"
     url_path: "/industries/aerospace/"
@@ -272,10 +250,9 @@ industries:
       fr:
         name: "Aéronautique"
         description: "Pièces légères et à haute intégrité en magnésium et aluminium pour applications aéronautiques."
-    hero_image: "https://kingship.alumcasting.com/img/magnesium-die-casting-banner.webp"
+    hero_image: ""
     services:
       - magnesium-die-casting
-      - semi-solid-rheocasting
     # Knowledge-cluster cross-links to the manufacturing blog (Phase 5C-4).
     # `ref` is a content-relative path resolved via Hugo GetPage so the URL
     # localizes automatically per language; title/URL come from the page.
@@ -293,7 +270,7 @@ industries:
       fr:
         name: "Industriel"
         description: "Boîtiers, cadres et pièces mécaniques durables pour environnements exigeants."
-    hero_image: "https://kingship.alumcasting.com/img/aluminum-die-casting-parts-storage.webp"
+    hero_image: ""
     services:
       - aluminum-die-casting
       - magnesium-die-casting
@@ -313,7 +290,7 @@ industries:
       ja:
         name: "医療機器"
         description: "診断機器および医療機器向けの、清潔で寸法安定性に優れた構成部品。"
-    hero_image: "https://kingship.alumcasting.com/img/hexagon-coordinate-measuring-machine-inspection.webp"
+    hero_image: ""
     services:
       - cnc-machining
     # Knowledge-cluster cross-links to the manufacturing blog (Phase 5C-4).

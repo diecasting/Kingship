@@ -11,7 +11,6 @@ tags: ["EV", "Leak Test", "Quality"]
 
 La hermeticidad en carcasas EV depende de un proceso estable desde la inyeccion hasta la inspeccion final. La [fundicion a vacio para componentes EV](https://alumcasting.com/ev-battery-housing-die-casting/) ayuda a reducir defectos internos y fuga en prueba de estanqueidad.
 
-![Linea de fundicion para piezas estructurales EV](/img/5000ton-die-casting-machine.webp "Fundicion a presion de gran tonelaje")
 
 ## Claves de proceso
 
@@ -25,7 +24,6 @@ Para comparar enfoques, revise [vacio vs HPDC convencional](https://alumcasting.
 
 Se recomienda combinar rayos X, CMM y leak test para validar la integridad de cada lote. Consulte [control de porosidad por rayos X](https://alumcasting.com/porosity-control-x-ray-inspection-castings/) para una referencia tecnica.
 
-![Inspeccion por rayos X de porosidad](/img/x-ray-detector.webp "Control interno de defectos")
 
 Para soporte de ingenieria, contacte en [alumcasting.com/contact](https://kingship.alumcasting.com/es/contact/).
 

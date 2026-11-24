@@ -31,6 +31,7 @@
 
 <!-- 注意：这里的 action 使用了免费的 Formspree 服务，可以直接把询盘转发到你的 hank@alumcasting.com 邮箱 -->
 <form action="https://formspree.io/f/xpqgbdly" method="POST" style="max-width: 100%; margin: 0 auto; font-family: sans-serif;">
+  <input type="hidden" name="_subject" value="KingShip RFQ - {{ .Lang | upper }}">
   
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-bottom: 24px;">
     <div>

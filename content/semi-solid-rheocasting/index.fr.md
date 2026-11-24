@@ -1,35 +1,38 @@
 ---
-title: "Rhéocoulage Semi-Solide (SSR) — Alliage d'aluminium A357 et pièces structurelles légères"
-description: "Rhéocoulage semi-solide (SSR) de l'aluminium A357 (flotte 400T–3000T) : pièces structurelles quasi-nets à faible porosité pour boîtiers batterie VE, automobile et aérospatiale."
+title: "Rhéocoulage semi-solide — Guide technique du procédé et du RFQ"
+description: "Guide technique du rhéocoulage semi-solide : voie de procédé, alliages candidats, conception et capacité, équipement et contrôle à confirmer pour chaque RFQ."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/semi-solid-rheocasting.webp"
-featureImageAlt: "Pièce allongée en aluminium avec deux alésages circulaires et nervures de renfort"
 showTableOfContents: true
+robots: "noindex, follow"
+sitemap:
+  disable: true
+excludeFromSearch: true
+xml: false
 url: "/fr/semi-solid-rheocasting/"
 service:
   name: "Rhéocoulage Semi-Solide"
   category: "Moulage Semi-Solide"
-  tagline: "Rhéocoulage semi-solide à porosité réduite ciblée de composants structurels en aluminium A357 sur flotte de coulée 400T–3000T, le magnésium (AZ91D / AM60B) étant proposé comme capacité distincte."
+  tagline: "Le rhéocoulage semi-solide comme option d'ingénierie ; production, alliage, équipement et contrôle sont confirmés par projet."
   materials:
-    - "A357 (Aluminium — alliage semi-solide principal)"
+    - "alliage d'aluminium selon projet (Aluminium — alliage semi-solide principal)"
     - "A356 (Aluminium — alliage associé, selon projet)"
   processes:
     - "Rhéocoulage Semi-Solide (SSR)"
     - "Thixocoulage"
     - "Rhéocoulage Assisté sous Vide"
   equipment:
-    - "400T–3000T Casting Fleet"
+    - "encombrement machine confirmé par projet Casting Fleet"
     - "Ligne de Coulée Robotisée"
   specifications:
     - label: "Tonnage des Machines (plage de capacité)"
-      value: "400T – 3000T"
+      value: "encombrement confirmé au RFQ"
     - label: "Épaisseur de Paroi Min. (typique, selon projet)"
-      value: "1.0 – 1.2 mm"
+      value: "à confirmer au RFQ"
     - label: "Tolérance CNC (atteignable, post-usinage, selon projet)"
-      value: "±0.01 mm"
+      value: "faisabilité par caractéristique au DFM"
     - label: "Traitement de Surface"
       value: "Grenaillage, Anodisation"
   industries:
@@ -48,8 +51,8 @@ service:
     - "moulage semi-solide"
     - "rhéocoulage"
     - "rhéocoulage semi-solide"
-    - "alliage A357"
-    - "moulage aluminium A357"
+    - "alliage alliage d'aluminium selon projet"
+    - "moulage aluminium alliage d'aluminium selon projet"
     - "boîtier batterie EV moulage semi-solide"
     - "moulage semi-solide faible porosité"
     - "rhéocoulage vs moulage sous pression"
@@ -67,7 +70,7 @@ service:
     - q: "Qu'est-ce que le rhéocoulage semi-solide ?"
       a: "Le SSR façonne le métal dans sa zone pâteuse liquide–solide (généralement 30–65 % de fraction solide) pour produire des composants quasi-nets dont la porosité est réduite par rapport au HPDC. C'est une évolution du moulage sous pression, non un remplacement."
     - q: "Quels alliages traitez-vous en semi-solide ?"
-      a: "L'A357 est notre alliage d'aluminium semi-solide principal ; l'A356 est évalué par projet. Les magnésiums AZ91D et AM60B sont proposés comme capacité semi-solide / magnésium distincte, non comme matériaux de ce procédé aluminium. Des certificats matière doivent accompagner chaque demande."
+      a: "L'alliage d'aluminium selon projet est notre alliage d'aluminium semi-solide principal ; l'A356 est évalué par projet. Les magnésiums AZ91D et AM60B sont proposés comme capacité semi-solide / magnésium distincte, non comme matériaux de ce procédé aluminium. Des certificats matière doivent accompagner chaque demande."
     - q: "Quel est le niveau de porosité ?"
       a: "Les procédés semi-solides visent une porosité nettement inférieure au HPDC (référence secteur : HPDC généralement 2–5 %). Une valeur concrète valable pour Kingship dépend du matériau, de la géométrie, des paramètres de procédé et de l'inspection, et doit être vérifiée par projet."
     - q: "Prenez-vous en charge la qualité automobile et le PPAP ?"
@@ -77,16 +80,18 @@ service:
     - q: "Quelle épaisseur de paroi minimale le rhéocoulage semi-solide peut-il atteindre ?"
       a: "L'épaisseur de paroi atteignable typique est de 1.0–1.2 mm, mais le minimum réel dépend de la longueur d'écoulement, de la géométrie de paroi, de l'attaque et du matériau, et est confirmé lors de la revue DFM. C'est une cible dépendant du projet, non une garantie généralisée."
     - q: "Pouvez-vous usiner les pièces rhéocoulées ?"
-      a: "Oui. L'usinage CNC est une opération secondaire standard, avec des tolérances post-usinage atteignables de ±0.01 mm confirmées selon géométrie et projet. Les tolérances de moulage sont plus larges ; le CNC est utilisé là où des références serrées sont requises."
+      a: "Oui. L'usinage CNC est une opération secondaire standard, avec des tolérances post-usinage atteignables de faisabilité par caractéristique au DFM confirmées selon géométrie et projet. Les tolérances de moulage sont plus larges ; le CNC est utilisé là où des références serrées sont requises."
     - q: "Quels secteurs utilisent les pièces rhéocoulées semi-solides ?"
       a: "Les boîtiers de batterie VE et consoles structurelles, les châssis et composants motopropulseurs automobile, les consoles et boîtiers aéronautiques, ainsi que les enveloppes télécom / 5G sont des applications courantes où la faible porosité et l'allègement priment."
     - q: "Comment demander un devis de rhéocoulage ?"
-      a: "Envoyez un modèle 3D ou un plan (STEP / IGES / PDF), l'alliage cible (ex. A357), le volume annuel estimé, les tolérances critiques, le traitement de surface et toute documentation qualité requise. Nos ingénieurs reviennent avec un retour DFM et un devis."
+      a: "Envoyez un modèle 3D ou un plan (STEP / IGES / PDF), l'alliage cible (ex. alliage d'aluminium selon projet), le volume annuel estimé, les tolérances critiques, le traitement de surface et toute documentation qualité requise. Nos ingénieurs reviennent avec un retour DFM et un devis."
 ---
 
 ## Rhéocoulage Semi-Solide pour Pièces Structurelles Légères
 
-Le rhéocoulage semi-solide (SSR) comble l'écart entre le moulage sous pression classique (HPDC) et la forge. Il produit des pièces structurelles quasi-nets dont la porosité est réduite par rapport au HPDC, pour les programmes automobile, véhicules électriques (VE) et aéronautiques. Kingship opère le SSR, le thixocoulage et le rhéocoulage assisté sous vide sur une flotte de coulée 400T–3000T équipée de lignes de coulée robotisées, en utilisant l'aluminium A357 comme alliage semi-solide principal et proposant le magnésium AZ91D / AM60B comme capacité distincte.
+> Note relative aux capacités : cette page présente la voie semi-solide comme une option d'ingénierie. La disponibilité de production, la qualification des alliages, l'équipement et le périmètre de contrôle doivent être confirmés par écrit pour chaque RFQ.
+
+Le rhéocoulage semi-solide (SSR) se situe comme concept entre le moulage sous pression classique (HPDC) et la forge. Cette page décrit la voie d'ingénierie sans considérer la production, la qualification d'alliage, l'équipement ou le contrôle comme confirmés avant leur revue au RFQ.
 
 Cette page explique ce qu'est le rhéocoulage semi-solide, son principe de fonctionnement, sa comparaison avec le HPDC et le thixocoulage, les alliages et conceptions adaptés, notre maîtrise de la qualité, ainsi que le contenu exact à transmettre pour votre demande de devis.
 
@@ -122,7 +127,7 @@ Le SSR est une voie à une étape, à pâte semi-solide à la demande. Les étap
   </defs>
   <rect class="bx" x="6" y="45" width="118" height="58" rx="8"/>
   <text class="tx" x="65" y="70">1. Fusion &amp; Alliage</text>
-  <text class="txs" x="65" y="88">A357, dégazage &amp; affinage</text>
+  <text class="txs" x="65" y="88">alliage d'aluminium selon projet, dégazage &amp; affinage</text>
   <rect class="bx" x="150" y="45" width="118" height="58" rx="8"/>
   <text class="tx" x="209" y="70">2. Prépa. Pâte</text>
   <text class="txs" x="209" y="88">refroidir + cisaillement 30–65%</text>
@@ -145,7 +150,7 @@ Le SSR est une voie à une étape, à pâte semi-solide à la demande. Les étap
 
 *Schéma de flux de procédé — à titre illustratif, ne représentant pas une cellule de production spécifique.*
 
-1. **Fusion et alliage.** L'A357 (ou un alliage spécifique au projet) est fondu, dégazé et affiné au niveau du grain pour obtenir une chimie maîtrisée.
+1. **Fusion et alliage.** L'alliage d'aluminium selon projet (ou un alliage spécifique au projet) est fondu, dégazé et affiné au niveau du grain pour obtenir une chimie maîtrisée.
 2. **Préparation de la pâte.** La fonte est refroidie dans le domaine biphasique puis cisailée (agitation mécanique ou électromagnétique) en une pâte semi-solide globulaire à la fraction solide visée.
 3. **Dosage et injection.** Une giclée contrôlée de pâte est injectée dans le moule. Comme la pâte est thixotrope, le remplissage est laminaire et l'entraînement d'air est minimal.
 4. **Solidification et éjection.** La pièce se solidifie rapidement dans le moule et est éjectée quasi-nette. L'assistance sous vide peut réduire encore la porosité gazeuse lorsque spécifiée.
@@ -166,16 +171,16 @@ Le choix d'un procédé implique un compromis entre porosité, résistance, tol�
 | Débit / coût | Niveau moulage | Niveau moulage (le plus bas) | Niveau moulage | Le plus lent / le plus élevé |
 | Meilleure adéquation | Structurel, étanche, léger | Parois fines à grand volume | Structurel, billette constante | Charges maximales, formes simples |
 
-### Matériaux : Aluminium A357 et Alliages Associés
+### Matériaux : Aluminium alliage d'aluminium selon projet et Alliages Associés
 
-**L'A357 est l'alliage d'aluminium semi-solide principal de Kingship.** C'est un alliage Al–Si–Mg à magnésium plus élevé qu'en A356, offrant une meilleure résistance et une bonne réponse aux traitements thermiques T5/T6 — adapté aux pièces structurelles et de qualité aéronautique.
+**L'alliage d'aluminium selon projet est l'alliage d'aluminium semi-solide principal de Kingship.** C'est un alliage Al–Si–Mg à magnésium plus élevé qu'en A356, offrant une meilleure résistance et une bonne réponse aux traitements thermiques T5/T6 — adapté aux pièces structurelles et de qualité aéronautique.
 
 | Alliage | Famille | Remarques pour l'usage semi-solide |
 | --- | --- | --- |
-| **A357** | Al–Si–Mg (Mg plus élevé) | Alliage principal. Résistance supérieure à l'A356 ; privilégié pour les pièces structurelles / à haute fiabilité. Traitable thermiquement (T5/T6). |
-| **A356** | Al–Si–Mg (Mg plus faible) | Alliage polyvalent associé ; évalué par projet lorsque la résistance supplémentaire de l'A357 n'est pas requise. |
-| **319** | Al–Si–Cu | Un alliage *distinct* contenant du cuivre, utilisé pour les pièces motopropulseuses / à température élevée. Il n'est **pas** identique à l'A357 et ne doit pas y être confondu ; coté uniquement lorsque l'application exige ses propriétés. |
-| **A360 / 360.0** | Al–Si (Fe élevé) | Un alliage *classique de moulage sous pression*. **Ne fait pas partie des alliages semi-solides actuellement proposés ici.** Indiqué uniquement pour éviter toute confusion avec l'A357. |
+| **alliage d'aluminium selon projet** | Al–Si–Mg (Mg plus élevé) | Alliage principal. Résistance supérieure à l'A356 ; privilégié pour les pièces structurelles / à haute fiabilité. Traitable thermiquement (T5/T6). |
+| **A356** | Al–Si–Mg (Mg plus faible) | Alliage polyvalent associé ; évalué par projet lorsque la résistance supplémentaire de l'alliage d'aluminium selon projet n'est pas requise. |
+| **319** | Al–Si–Cu | Un alliage *distinct* contenant du cuivre, utilisé pour les pièces motopropulseuses / à température élevée. Il n'est **pas** identique à l'alliage d'aluminium selon projet et ne doit pas y être confondu ; coté uniquement lorsque l'application exige ses propriétés. |
+| **A360 / 360.0** | Al–Si (Fe élevé) | Un alliage *classique de moulage sous pression*. **Ne fait pas partie des alliages semi-solides actuellement proposés ici.** Indiqué uniquement pour éviter toute confusion avec l'alliage d'aluminium selon projet. |
 
 **Le magnésium constitue une capacité distincte.** Les alliages magnésium AZ91D et AM60B sont proposés dans la même famille rhéocoulage semi-solide / magnésium, mais ils ne figurent pas parmi les matériaux de ce procédé aluminium. Si votre programme est à base de magnésium, consultez nos [prestations de moulage du magnésium](https://kingship.alumcasting.com/fr/magnesium-die-casting/) — des certificats matière accompagnent chaque demande.
 
@@ -202,7 +207,7 @@ Le tableau ci-dessous résume les recommandations de conception typiques. Chaque
 | Rapport nervure / paroi | ≤ ~0.6–0.8 | Maîtrise l'alimentation et la déformation. |
 | Bossages / entretoises | Supportés dans la mesure du possible | Réduire les formes pleines piégeant la pâte. |
 | Tolérance de moulage | CT5–CT7 (ISO 8062, indicatif) | Plus large que l'usinage ; prévoir les références en conséquence. |
-| Tolérance CNC (post-usinage) | ±0.01 mm atteignable | S'applique aux zones usinées, confirmée selon la géométrie. |
+| Tolérance CNC (post-usinage) | faisabilité par caractéristique au DFM atteignable | S'applique aux zones usinées, confirmée selon la géométrie. |
 | Variation d'épaisseur de paroi | Transitions progressives | Éviter les sauts brusques épais–mince provoquant du retrait. |
 
 ### Contrôle Qualité et Inspection
@@ -223,14 +228,14 @@ La faible porosité et l'allègement rendent le SSR attractif partout où les pe
 - **Boîtiers et plateaux de batterie VE** — enveloppes étanches et légères.
 - **Consoles structurelles et sous-ensembles** — éléments de châssis et de suspension.
 - **Composants motopropulseurs** — boîtiers et supports où le 319 (à cuivre) peut être spécifié.
-- **Consoles et boîtiers aéronautiques** — où la résistance et le traitement thermique de l'A357 sont utiles.
+- **Consoles et boîtiers aéronautiques** — où la résistance et le traitement thermique de l'alliage d'aluminium selon projet sont utiles.
 - **Enveloppes télécom / 5G et dissipateurs** — pièces aluminium rigides et légères.
 
 ### Opérations Secondaires
 
 Une pièce rhéocoulée est généralement finie en interne pour réduire la manipulation et les délais :
 
-- **Usinage CNC** — tolérance post-usinage atteignable de ±0.01 mm, confirmée selon géométrie et projet.
+- **Usinage CNC** — tolérance post-usinage atteignable de faisabilité par caractéristique au DFM, confirmée selon géométrie et projet.
 - **Grenaillage** — préparation de surface et finition esthétique.
 - **Anodisation** — résistance à la corrosion et aspect.
 - **Imprégnation / étanchéité** — lorsque l'étanchéité est spécifiée.
@@ -243,7 +248,7 @@ Une demande complète permet à nos ingénieurs de répondre rapidement avec un 
 | À fournir | Pourquoi c'est important |
 | --- | --- |
 | Modèle 3D / plan (STEP, IGES, PDF) | Permet la revue DFM, l'attaque et la faisabilité. |
-| Alliage cible (ex. A357) | Détermine le procédé, la pâte et le traitement thermique. |
+| Alliage cible (ex. alliage d'aluminium selon projet) | Détermine le procédé, la pâte et le traitement thermique. |
 | Volume annuel estimé (EAU) | Détermine l'outillage et la rentabilité du procédé. |
 | Dimensions et tolérances critiques | Identifie les zones nécessitant CNC plutôt qu'à l'état brut. |
 | Traitement de surface (anodisation, grenaillage) | Confirme la capacité d'opération secondaire. |

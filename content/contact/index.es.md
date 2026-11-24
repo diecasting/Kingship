@@ -5,7 +5,7 @@ layout: "background"
 showTableOfContents: false
 ---
 
-Nuestro equipo de ingenieria revisara geometria, espesores y tolerancias para entregar una propuesta tecnica en 24 horas.
+Nuestro equipo de ingeniería revisará geometría, espesores, tolerancias y documentación de calidad. El plazo de la propuesta técnica se confirma después de revisar el paquete de planos y el alcance del proyecto.
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Quality"
 description: "Japanese quality assurance articles for die casting."
 layout: "list"

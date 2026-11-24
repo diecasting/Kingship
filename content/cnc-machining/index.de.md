@@ -1,22 +1,19 @@
 ---
 title: "CNC-Zerspanung von Druckgussteilen: Präzisionsbearbeitung für Aluminium und Magnesium"
-description: "CNC-Zerspanung von Druckgussteilen in A357, AZ91D und AM60B. Bearbeitungsaufmaß, Bezugssystem und Maßhaltigkeit nach Zeichnung; Toleranzen projektspezifisch. Angebot anfragen."
+description: "CNC-Nachbearbeitung von Aluminium- und Magnesium-Druckgussteilen: Bearbeitungsaufmaß, Bezugssystem, Prüfplanung und Angaben für die RFQ."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "Werksgang zwischen Reihen von CNC-Bearbeitungszentren auf blauem Hallenboden"
 showTableOfContents: false
 url: "/de/cnc-machining/"
 service:
   name: "CNC-Bearbeitung"
   category: "Präzisionsbearbeitung"
-  tagline: "Präzise Zerspanung druckgegossener Bauteile aus A357, AZ91D und AM60B – Bearbeitungsaufmaß und Bezugssystem nach Zeichnung, Prüfumfang projektspezifisch."
+  tagline: "CNC-Nachbearbeitung druckgegossener Bauteile, mit Bearbeitungsstrategie und Prüfumfang nach der Fertigteilszeichnung."
   materials:
-    - "Aluminiumdruckguss A357"
-    - "Magnesiumdruckguss AZ91D"
-    - "Magnesiumdruckguss AM60B"
+    - "Aluminium-Druckgusslegierungen – im RFQ zu bestätigen"
+    - "Magnesium-Druckgusslegierungen – im RFQ zu bestätigen"
   processes:
     - "CNC-Fräsen von Dicht-, Pass- und Anlageflächen"
     - "CNC-Drehen rotationssymmetrischer Merkmale"
@@ -30,7 +27,7 @@ service:
     - "Prozessfähige Bearbeitungsfolgen über mehrere Aufspannungen"
   specifications:
     - label: "Bearbeitungstoleranz"
-      value: "±0,01 mm (Nachbearbeitung, projektabhängig)"
+      value: "Je Merkmal nach Zeichnung, Bezugssystem, Aufspannung und Messmethode definiert"
     - label: "Max. Bauteilgröße"
       value: "Nach Zeichnung und Gussgröße projektspezifisch"
     - label: "Oberflächengüte"
@@ -58,22 +55,22 @@ service:
     - "Druckgussgehäuse E-Mobility CNC-Nachbearbeitung"
     - "Angebot CNC-Nachbearbeitung Druckgussteil Stückpreis anfragen"
   related_resources:
-    - title: "Leitfaden zur CNC-Bearbeitungstoleranz"
-      url: "https://alumcasting.com/cnc-machining-tolerance-guide/"
-    - title: "Praxisleitfaden 5-Achs-Bearbeitung"
-      url: "https://alumcasting.com/5-axis-machining-playbook/"
+    - title: "Werkzeugbau und Werkzeugkonzept"
+      url: "/de/tooling/"
+    - title: "Aluminium-Hochdruckguss"
+      url: "/de/aluminum-die-casting/"
   wordpress_resources:
-    - title: "Komplettlösung Guss + CNC"
-      url: "https://alumcasting.com/one-stop-cast-cnc-turnkey/"
+    - title: "Technische RFQ prüfen"
+      url: "/de/contact/"
   faq:
     - q: "Wie groß ist das Bearbeitungsaufmaß bei Druckgussteilen?"
       a: "Das Bearbeitungsaufmaß wird nicht pauschal festgelegt, sondern je Merkmal aus Gussgeometrie, Formteilung, Auswerferlage und Verzugsverhalten abgeleitet. Es wird in der Gusszeichnung ausgewiesen und in der DFM-Prüfung mit dem Zerspanungskonzept abgestimmt. Zu knappes Aufmaß lässt Gusshaut oder Lunker stehen, zu reichliches erhöht Zerspanungszeit und Werkzeugverschleiß."
     - q: "Welche Toleranz ist nach der CNC-Bearbeitung erreichbar?"
-      a: "Eine Toleranz von ±0,01 mm ist an definierten Merkmalen unter geeigneten Bedingungen der Nachbearbeitung erreichbar; sie wird nicht für jedes Bauteil pauschal zugesagt. Was tatsächlich erreichbar ist, bestimmen Bauteilgeometrie, Werkstoff, Zerspanungsverfahren und Aufspannung, Bezugssystem- und Datumsstrategie, Prüfverfahren sowie die projektspezifischen Anforderungen. Der Wert wird je Merkmal in der Zeichnungs- und DFM-Prüfung bestätigt und hängt zusätzlich vom vereinbarten Messverfahren ab."
+      a: "Die erreichbare Toleranz hängt von Bauteilgeometrie, Werkstoff, Zerspanungsverfahren, Aufspannung, Bezugssystem und Prüfverfahren ab. Anforderungen werden je Merkmal in der Zeichnungs- und DFM-Prüfung bestätigt und nicht als pauschaler Wert für alle Bauteile behandelt."
     - q: "Wie werden Bezugsstellen zwischen Guss und Bearbeitung festgelegt?"
       a: "Die Bezugsstellen A, B und C werden in der Zeichnung so gewählt, dass sie sowohl am Rohteil als auch in der Zerspanungsaufspannung eindeutig aufnehmbar sind. Idealerweise tragen Guss- und Bearbeitungsbezug dasselbe Bezugssystem, damit Form- und Lagetoleranzen nach ISO 1101 nicht über mehrere Aufspannungen kumulieren. Die Abstimmung erfolgt in der DFM-Prüfung vor der Vorrichtungsauslegung."
     - q: "Können Guss und Zerspanung aus einer Hand geliefert werden?"
-      a: "Guss und Zerspanung werden in einem abgestimmten Programm gebündelt: Druckguss im Maschinenbereich 400T–3000T, anschließend Nachbearbeitung und projektspezifisch vereinbarte Prüfung. Der Vorteil liegt in der durchgängigen DFM-Rückkopplung und weniger Schnittstellen, nicht in einer pauschalen Zusage zu einzelnen Anlagen. Umfang und Dokumentation werden je Projekt festgelegt."
+      a: "Guss und Zerspanung können als abgestimmtes Programm geprüft werden. Der Vorteil liegt in der durchgängigen DFM-Rückkopplung und weniger Schnittstellen; Maschinenauswahl, Prüfumfang und Dokumentation werden je Projekt festgelegt."
     - q: "Welche Angaben braucht ein Angebot für die Nachbearbeitung?"
       a: "Für ein belastbares Angebot werden 3D-Modell (STEP/IGES), 2D-Zeichnung mit GD&T und Bezugsstellen, Werkstoff (A357, AZ91D oder AM60B), Jahresbedarf und Losgröße, Zieltoleranzen je Merkmal, Oberflächenanforderung, gewünschter Prüfumfang sowie die Angabe Prototyp oder Serie benötigt. Fehlende Prüf- oder Dokumentationsvorgaben werden als projektspezifisch zu vereinbarende Position ausgewiesen."
     - q: "Wie werden Prüfumfang und Erstmuster festgelegt?"
@@ -85,10 +82,7 @@ service:
 Druckgussteile verlassen die Form mit Gusshaut, Formteilung und Schwankungen, die für Dicht-, Pass- und Anlageflächen nicht ausreichen. Erst die CNC-Zerspanung erzeugt die Funktionsflächen, auf denen Maßhaltigkeit, Position und Oberfläche nach Zeichnung entstehen. Diese Seite richtet sich an Konstrukteure, Fertigungsplaner und Einkäufer, die den Übergang vom Rohguss zur bearbeiteten Komponente spezifizieren: Bearbeitungsaufmaß, Bezugssystem, Toleranzwahl und Prüfumfang. Sie zeigt, welche Entscheidungen im Zeichnungs- und DFM-Review getroffen werden – abgestimmt auf A357, AZ91D und AM60B.
 
 <!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Werksgang zwischen Reihen von CNC-Bearbeitungszentren auf blauem Hallenboden" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC-Bearbeitungswerkstatt</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -126,7 +120,10 @@ Nicht jede Angabe gehört in dieselbe Zeichnung. Die Gusszeichnung beschreibt Ro
 
 Eine einzige Toleranzzahl beschreibt Druckgussteile nicht. Eng tolerierte Funktionsflächen entstehen erst nach dem Guss; ihre Genauigkeit ergibt sich aus einer Kette aus Bauteil, Verfahren und Prüfung. Ein pauschaler Wert ohne Bezugsstellen und Messverfahren erzeugt Interpretationsspielraum. Die folgende Aussage ist daher an Bedingungen geknüpft und wird je Merkmal im DFM-Review bestätigt.
 
-> **Toleranzaussage (projektabhängig, einmalig):** Eine Toleranz von ±0,01 mm kann an definierten Merkmalen unter geeigneten Bedingungen der Nachbearbeitung erreicht werden. Die erreichbare Toleranz hängt von der Bauteilgeometrie, dem Werkstoff, dem Zerspanungsverfahren und der Aufspannung, der Bezugssystem- und Datumsstrategie, dem Prüfverfahren und den projektspezifischen Anforderungen ab; sie wird in der Zeichnungs- und DFM-Prüfung bestätigt und gilt nicht als pauschaler Wert für jedes Druckgussteil.
+Die erreichbare Toleranz wird je Merkmal definiert. Sie hängt von Bauteilgeometrie,
+Werkstoff, Zerspanungsverfahren, Aufspannung, Bezugssystem, Prüfverfahren und den
+Anforderungen des Projekts ab und wird nicht als pauschaler Wert für jedes
+Druckgussteil behandelt.
 
 Welches Prüfmittel zum Einsatz kommt, wird projektspezifisch nach Zeichnung und Abnahmekriterien festgelegt; die Messunsicherheit ist Teil der Toleranzvereinbarung, nicht deren nachträgliche Kontrolle.
 
@@ -141,13 +138,16 @@ Welches Prüfmittel zum Einsatz kommt, wird projektspezifisch nach Zeichnung und
 
 ### Aluminium A357 und Magnesium AZ91D/AM60B zerspanen
 
-Die drei bestätigten Werkstoffe verhalten sich an der Schneide unterschiedlich. A357, eine aushärtbare Aluminium-Silicium-Magnesium-Legierung, bildet kurze bis mittlere Späne; der Siliciumanteil erhöht den abrasiven Werkzeugverschleiß, weshalb Schneidstoff und Beschichtung auf die Gussrandzone abgestimmt werden. AZ91D und AM60B sind leichter, neigen zu feiner Spanbildung bei geringerer Schnittkraft, reagieren aber stärker auf Wärme: Ihre Wärmeausdehnung verlangt ruhige Temperaturführung, damit die Maßhaltigkeit erhalten bleibt. Als allgemeines Fachwissen gilt, dass feine Magnesiumspäne entzündlich sind und mit geregelter Spanabfuhr und geeigneten Löschmitteln gehandhabt werden. Eigenspannungen lösen sich beim Abtrag; Schruppen und Schlichten werden getrennt. Vertiefendes bietet die Seite zum [Magnesium-Druckguss](https://kingship.alumcasting.com/de/magnesium-die-casting/).
+A357-Aluminium sowie AZ91D/AM60B-Magnesium werden häufig in Druckgussprojekten
+diskutiert; Verfügbarkeit und Eignung sind jedoch für jedes RFQ zu bestätigen.
+Die Werkstoffe verhalten sich an der Schneide unterschiedlich. Magnesium hat eine
+geringere Dichte und eine höhere Wärmeausdehnung, erfordert eine kontrollierte
+Spanabfuhr und geeignete Brandschutzmaßnahmen. Eigenspannungen lösen sich beim
+Abtrag; Schruppen und Schlichten werden getrennt. Vertiefendes bietet die Seite
+zum [Magnesium-Druckguss](https://kingship.alumcasting.com/de/magnesium-die-casting/).
 
 <!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="CNC-Fräsen eines langen Aluminiumgussteils mit Kühlschmierstoff an der Schneidstelle" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">CNC-Fräsbearbeitung eines Gussteils</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -162,16 +162,26 @@ Die drei bestätigten Werkstoffe verhalten sich an der Schneide unterschiedlich.
 
 ### Oberfläche, Gratentfernung und Nachbehandlung
 
-Die Oberflächengüte wird nicht als fester Werkswert verstanden, sondern je Funktionsfläche in der Zeichnung als Ra-Vorgabe: Eine Dichtfläche verlangt eine andere Rauheit als eine unveränderte Außenkontur. Nach der Zerspanung folgt die Gratentfernung, wobei Grate an Bohrungsaustritten und Gewindegängen Passungen und Dichtflächen nicht beschädigen dürfen. Als bestätigte Verfahren stehen Strahlen (Shot Blasting) zur Reinigung sowie Eloxieren (Anodizing) für Aluminiumoberflächen zur Verfügung; ihre Eignung wird werkstoff- und zeichnungsabhängig geprüft. Bei Magnesium erfordert jede Behandlung eine gesonderte Bewertung von Korrosionsschutz und Haftung. Weitere Beschichtungen gelten nur als allgemeine Industrieoptionen und werden projektspezifisch bewertet, nicht als vorausgesetzte Leistung.
+Die Oberflächengüte wird nicht als fester Werkswert verstanden, sondern je
+Funktionsfläche in der Zeichnung als Ra-Vorgabe. Nach der Zerspanung folgt die
+Gratentfernung, wobei Grate an Bohrungsaustritten und Gewindegängen Passungen und
+Dichtflächen nicht beschädigen dürfen. Verfügbarkeit und Eignung von sekundären
+Oberflächenverfahren werden im RFQ bestätigt. Bei Magnesium erfordert jede
+Behandlung eine gesonderte Bewertung von Korrosionsschutz und Haftung.
 
 
 ### Guss und Zerspanung in einem Fertigungsablauf
 
-Werden Guss und Zerspanung in einem Programm geplant, fließen Erkenntnisse über Aufmaß, Formteilung oder Verzug als DFM-Rückkopplung in die Werkzeugauslegung zurück. Der Druckguss im Maschinenbereich 400T–3000T liefert die Rohkontur, eine etwaige Wärmebehandlung stabilisiert das Gefüge, danach folgen Zerspanung und die projektspezifisch vereinbarte Prüfung. Die Reihenfolge ist nicht beliebig, weil sich Eigenspannungen beim Abtrag lösen. Der Vorteil liegt in weniger Schnittstellen: Zeichnungsänderungen, Bezugsstellen und Prüfmerkmale werden einmal abgestimmt statt zwischen zwei Lieferanten übersetzt. Verknüpft wird dies mit dem [Werkzeug- und Formenbau](https://kingship.alumcasting.com/de/tooling/), dem [Magnesium-Druckguss](https://kingship.alumcasting.com/de/magnesium-die-casting/) und dem [semi-solid Rheocasting](https://kingship.alumcasting.com/de/semi-solid-rheocasting/).
+Werden Guss und Zerspanung in einem Programm geplant, fließen Erkenntnisse über
+Aufmaß, Formteilung oder Verzug als DFM-Rückkopplung in die Werkzeugauslegung
+zurück. Der Druckguss liefert die Rohkontur, eine etwaige Wärmebehandlung
+stabilisiert das Gefüge, danach folgen Zerspanung und die projektspezifisch
+vereinbarte Prüfung. Der Vorteil liegt in weniger Schnittstellen;
+Zeichnungsänderungen, Bezugsstellen und Prüfmerkmale werden einmal abgestimmt.
 
 | Schritt | Ziel | Schnittstelle zur Zerspanung |
 |---|---|---|
-| Druckguss (400T–3000T) | Endformnahe Rohkontur | Lage von Trennebene und Auswerfern |
+| Druckguss | Endformnahe Rohkontur | Lage von Trennebene und Auswerfern |
 | Wärmebehandlung, falls vorgesehen | Gefüge- und Spannungsstabilisierung | Maßänderung vor dem Schlichten |
 | DFM- und Zeichnungsreview | Aufmaß, Bezugsstellen, Toleranzen | Festlegung vor dem Vorrichtungsbau |
 | CNC-Zerspanung | Funktionsflächen, Passungen, Gewinde | Ein- oder Mehrfachaufspannung |
@@ -207,8 +217,5 @@ Ein belastbares Angebot entsteht aus vollständigen Unterlagen, nicht aus einer 
 
 
 <!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Großes wannenförmiges Gussteil auf dem CNC-Maschinentisch aufgespannt" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Auf dem CNC-Maschinentisch gespanntes Gussteil</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->

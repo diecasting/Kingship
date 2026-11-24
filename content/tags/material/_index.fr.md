@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Material"
 description: "Choix des materiaux en fonderie sous pression: ADC12, A380 et alliages magnesium."
 layout: "list"

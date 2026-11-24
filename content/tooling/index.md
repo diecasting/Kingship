@@ -1,12 +1,10 @@
 ---
 title: "Die Casting Tooling — DFM-Led Die Design & Project-Dependent Tool Life"
-description: "Die casting tooling for A357 aluminium and AZ91D/AM60B magnesium: DFM-led die design, gating and cooling review, sampling, and how tool life is defined per project."
+description: "Die casting tooling engineering for aluminium and magnesium: DFM-led die design, gating and cooling review, sampling, and how tool life is defined per project."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "Square ribbed aluminium die-cast housing with machined pads and bosses"
 showTableOfContents: false
 service:
   name: "Die Casting Tooling"
@@ -31,8 +29,8 @@ service:
       value: "Defined per project against annual volume and cycle time"
     - label: "Tool life"
       value: "Project-dependent — not a fixed Kingship standard; see influencing factors below"
-    - label: "Casting machine range"
-      value: "400T – 3000T HPDC"
+    - label: "Casting machine scope"
+      value: "Confirmed against the selected die, part and available machine"
   industries:
     - "Automotive"
     - "EV"
@@ -79,7 +77,7 @@ service:
 
 A high-pressure die casting die is the single largest fixed cost in a casting program, and most of the part's manufacturability is decided before steel is cut. Gating and venting determine fill behaviour, cooling layout determines cycle time and distortion, and draft, fillets and ejector placement determine whether the cast blank can be machined reliably afterwards. This page is written for design engineers, process engineers, sourcing managers and quality engineers who need to specify and evaluate a die — including what a "tool life" number can and cannot mean.
 
-The confirmed casting machine range is 400T–3000T, with A357 as the confirmed aluminium casting alloy and AZ91D / AM60B as the confirmed magnesium casting alloys. Tooling decisions are made against those process conditions and against the finished-part drawing, not against a generic capability list.
+The casting machine and process route are confirmed against the selected die, part size, shot weight and available production asset. Aluminium and magnesium grades remain candidate materials until confirmed for the project; tooling decisions are made against the agreed process route and the finished-part drawing, not a generic capability list.
 
 ### Tool life is project-dependent, not a fixed specification
 
@@ -89,7 +87,7 @@ The confirmed casting machine range is 400T–3000T, with A357 as the confirmed 
 |---|---|---|
 | Tooling design | Gating, overflow, venting and cooling layout govern thermal and mechanical load on the cavity | Part geometry, expected thermal hot spots |
 | Tool material | Hot-work die steel grade and heat treatment determine resistance to thermal fatigue and wear | Grade and treatment per project |
-| Casting alloy and process | A357 aluminium and AZ91D/AM60B magnesium differ in melt temperature, soldering tendency and thermal load | Confirmed alloy and process conditions |
+| Casting alloy and process | Aluminium and magnesium grades differ in melt temperature, soldering tendency and thermal load | Alloy and process conditions confirmed for the project |
 | Operating conditions | Cycle time, melt temperature, die temperature, lubrication and clamping force | Agreed process window |
 | Maintenance | Preventive maintenance, spare inserts, reconditioning and surface condition tracking | Maintenance plan and responsibilities |
 | Acceptance requirements | The dimensional and surface criteria that define when a cavity is no longer acceptable | Drawing tolerances, surface criteria, sampling plan |
@@ -111,7 +109,7 @@ DFM review happens before tool manufacture and again before steel cutting. It ch
 
 ### Cavity count, cycle time and annual volume
 
-Cavity count is a commercial and technical trade-off, not a fixed offering. More cavities raise output per shot but increase die size, complexity and the risk of cavity-to-cavity variation; fewer cavities simplify validation and reduce tool cost. The decision is made against annual volume, part size within the 400T–3000T machine range, cycle time and the sampling plan. A bridge or prototype tool can shorten time-to-first-part when a program needs validation parts before committing to a hardened production die.
+Cavity count is a commercial and technical trade-off, not a fixed offering. More cavities raise output per shot but increase die size, complexity and the risk of cavity-to-cavity variation; fewer cavities simplify validation and reduce tool cost. The decision is made against annual volume, confirmed machine envelope, cycle time and the sampling plan. A bridge or prototype tool can shorten time-to-first-part when a program needs validation parts before committing to a hardened production die.
 
 | Cavity strategy | When it is considered | Main trade-off |
 |---|---|---|
@@ -167,7 +165,7 @@ Because tooling, HPDC and post-machining interact, keeping them in one program s
 |---|---|
 | 3D model (STEP / IGES) | Geometry for DFM, gating and cooling layout |
 | 2D drawing with GD&T and datum A\|B\|C | Functional features, tolerances and verification basis |
-| Casting alloy (A357 / AZ91D / AM60B) | Melt conditions, thermal load, tool steel choice |
+| Casting alloy (project-confirmed) | Melt conditions, thermal load, tool steel choice |
 | Annual volume and lot size | Cavity count, tool class and amortisation |
 | Target tolerances and surface finish | Machining allowance and cavity surface requirement |
 | Prototype / bridge or production tool | Determines tool class and validation path |

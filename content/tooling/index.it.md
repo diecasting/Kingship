@@ -1,12 +1,10 @@
 ---
 title: "Costruzione stampi per pressofusione di alluminio e magnesio"
-description: "Attrezzaggio DFM per stampi di pressofusione: progettazione stampi, simulazione di flusso, lavorazione CNC/EDM, collaudo T0/T1 e manutenzione. Stampi in H13/SKD61 con 1–8 cavità per strutture leggere."
+description: "Attrezzaggio DFM per stampi di pressofusione: progettazione stampi, simulazione di flusso, lavorazione CNC/EDM, collaudo T0/T1 e manutenzione. Stampi in H13/SKD61; numero di cavità e ambito definiti per progetto."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "Cassa quadrata in alluminio pressofuso con alette e superfici lavorate"
 showTableOfContents: true
 url: "/it/tooling/"
 service:
@@ -28,9 +26,9 @@ service:
     - label: "Qualità acciaio da stampo"
       value: "H13 / SKD61"
     - label: "Numero cavità"
-      value: "1–8 cavità"
+      value: "Secondo volume, ciclo e limiti dello stampo"
     - label: "Vita utile dello stampo (tipica, secondo progetto)"
-      value: "100k–500k colpi"
+      value: "Secondo progetto; nessuna garanzia generale"
     - label: "Simulazione di flusso"
       value: "Magma / Moldflow (secondo progetto)"
   industries:

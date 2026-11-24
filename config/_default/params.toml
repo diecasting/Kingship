@@ -24,10 +24,11 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "/img/magnesium-die-casting-banner.webp"
-defaultFeaturedImage = "/img/automated-die-casting-production-line.webp"
-defaultSocialImage = "/img/magnesium-die-casting-banner.webp"
+defaultBackgroundImage = ""
+defaultFeaturedImage = ""
+defaultSocialImage = ""
 hotlinkFeatureImage = false
+publicMediaUseEnabled = false
 # imagePosition = "50% 50%"
 
 highlightCurrentMenuArea = true
@@ -40,7 +41,7 @@ smartTOCHideUnfocusedChildren = false
 fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384", "sha256"
 
 [main]
-  logo = "favicon.png"
+  logo = ""
 
 # 💡 强行注入全局作者信息，拦截并替换页脚版权所属人
 [author]
@@ -48,7 +49,7 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
 
 [header]
   layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
-  favicon = "/img/favicon.png"
+  favicon = "/img/engineering-mark.svg"
 
 [footer]
   showMenu = true

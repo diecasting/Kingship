@@ -1,5 +1,5 @@
 ---
 title: "Services de fonderie sous pression d’aluminium et de magnésium"
-description: "KingShip est un fabricant B2B de moulage sous pression aluminium et magnésium, rheocasting semi-solide, pièces structurelles 5000T, usinage CNC de précision et outillage."
+description: "KingShip étudie les projets de moulage sous pression aluminium et magnésium, de grandes pièces structurelles, d'usinage CNC complémentaire et d'outillage avec une planification propre à chaque projet."
 modular_homepage: true
 ---

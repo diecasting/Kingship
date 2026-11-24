@@ -1,12 +1,10 @@
 ---
 title: "Utillaje para fundición a presión y matricería de aluminio y magnesio"
-description: "Utillaje para fundición a presión con DFM: diseño de molde, simulación de flujo, mecanizado CNC/EDM, muestras T0/T1 y mantenimiento. Aceros H13/SKD61 con 1–8 cavidades."
+description: "Utillaje para fundición a presión con DFM: diseño de molde, simulación de flujo, mecanizado CNC/EDM, muestras T0/T1 y mantenimiento. Aceros H13/SKD61; las cavidades y el alcance del molde se definen por proyecto."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "Carcasa cuadrada de aluminio con aletas, superficies mecanizadas y salientes"
 showTableOfContents: true
 url: "/es/tooling/"
 service:
@@ -28,9 +26,9 @@ service:
     - label: "Calidad del acero de molde"
       value: "H13 / SKD61"
     - label: "Número de cavidades"
-      value: "1–8 cavidades"
+      value: "Según volumen, ciclo y límites del molde"
     - label: "Vida útil del molde (típica, según proyecto)"
-      value: "100.000–500.000 disparos"
+      value: "Según proyecto; sin garantía general"
     - label: "Simulación de flujo"
       value: "Magma / Moldflow (según proyecto)"
   industries:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "IATF 16949"
 description: "Articles en francais sur IATF 16949, qualification fournisseur et maitrise process."
 layout: "list"

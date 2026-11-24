@@ -1,4 +1,4 @@
-﻿---
+---
 title: "EV"
 description: "Japanese EV-related technical articles."
 layout: "list"

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Material"
 description: "Seleccion de materiales en fundicion a presion: ADC12, A380 y aleaciones de magnesio."
 layout: "list"

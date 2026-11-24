@@ -11,7 +11,6 @@ tags: ["DFM", "Prototype", "Low Volume", "Industrialization"]
 
 Zwischen Prototyp und Vollserie liegt oft eine kritische Phase mit hohem Zeitdruck. Ein [Brueckenwerkzeug fuer Kleinserien im Aluminium-Druckguss](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/) kann hier den Markteintritt deutlich beschleunigen.
 
-![Druckgussmaschine fuer flexible Kleinserienfertigung](/img/5000ton-die-casting-machine.webp "Skalierbare Produktion von Kleinserie bis Serie")
 
 ## Wann ein Bruecken[werkzeug](/de/tooling) sinnvoll ist
 
@@ -25,7 +24,6 @@ Typische Szenarien:
 
 Mit frueher [DFM-Optimierung](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/) lassen sich Nacharbeiten am Werkzeug reduzieren. Parallel koennen [skalierbare Produktionskonzepte von T0 bis 10.000+ Einheiten](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/) vorbereitet werden.
 
-![Automatisierte Druckgusslinie fuer reproduzierbare Kleinserien](/img/automated-die-casting-production-line.webp "Stabile Prozesse fuer den Serienhochlauf")
 
 ## Naechster Schritt Richtung Serienreife
 

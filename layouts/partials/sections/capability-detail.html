@@ -19,9 +19,9 @@
   </div>
   <div class="hy-process mt-8">
     <div class="hy-process__step"><div class="hy-process__dot">1</div><div class="font-semibold text-neutral-900 dark:text-white">DFM &amp; Simulation</div><p class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">Magma &amp; Moldflow flow &amp; solidification analysis</p></div>
-    <div class="hy-process__step"><div class="hy-process__dot">2</div><div class="font-semibold text-neutral-900 dark:text-white">Die Casting</div><p class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">400T–5000T cold-chamber high-pressure cells</p></div>
-    <div class="hy-process__step"><div class="hy-process__dot">3</div><div class="font-semibold text-neutral-900 dark:text-white">CNC Machining</div><p class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">3 / 4 / 5-axis finishing to ±0.01 mm</p></div>
-    <div class="hy-process__step"><div class="hy-process__dot">4</div><div class="font-semibold text-neutral-900 dark:text-white">Inspection</div><p class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">Real-time X-Ray porosity &amp; CMM</p></div>
+    <div class="hy-process__step"><div class="hy-process__dot">2</div><div class="font-semibold text-neutral-900 dark:text-white">Die Casting</div><p class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">Cold-chamber process scope confirmed against the part and die</p></div>
+    <div class="hy-process__step"><div class="hy-process__dot">3</div><div class="font-semibold text-neutral-900 dark:text-white">CNC Machining</div><p class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">Feature-specific machining and tolerance review</p></div>
+    <div class="hy-process__step"><div class="hy-process__dot">4</div><div class="font-semibold text-neutral-900 dark:text-white">Inspection</div><p class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">X-Ray and CMM scope agreed per project</p></div>
     <div class="hy-process__step"><div class="hy-process__dot">5</div><div class="font-semibold text-neutral-900 dark:text-white">Finishing</div><p class="mt-1 text-sm text-neutral-600 dark:text-neutral-300">Anodizing, powder coating &amp; impregnation</p></div>
   </div>
 </section>
@@ -57,12 +57,12 @@
       {{- end -}}
       {{- with .learn_more -}}<a href="{{ . }}" class="inline-block mt-5 px-5 py-2 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-700 transition">{{ $labels.learn }}</a>{{- end -}}
     </div>
-    {{- with .image -}}
+    {{- if site.Params.publicMediaUseEnabled }}{{- with .image -}}
     <div class="order-1 lg:order-2">
       <img src="{{ .url }}" alt="{{ .alt }}" title="{{ .title }}" loading="lazy"
            class="w-full h-auto rounded-2xl shadow-lg">
     </div>
-    {{- end -}}
+    {{- end -}}{{- end -}}
   </div>
 </section>
 {{- end -}}

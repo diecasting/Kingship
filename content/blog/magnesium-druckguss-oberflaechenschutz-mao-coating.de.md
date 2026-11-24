@@ -11,7 +11,6 @@ tags: ["Material", "Quality", "Surface", "Automotive"]
 
 [Magnesium](/de/magnesium-die-casting) ist im Leichtbau kaum zu ersetzen, verlangt aber ein konsequentes Korrosionskonzept. Dieser Beitrag zeigt, wie [MAO-Oberflaechenschutz fuer Magnesium-Druckguss](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/) in der Praxis robust umgesetzt wird.
 
-![Magnesium-Druckgusslinie fuer leichte Strukturteile](/img/magnesium-die-casting-banner.webp "Produktionslinie fuer Magnesium HPDC")
 
 ## Legierung zuerst: AZ91D oder AM60B?
 
@@ -27,7 +26,6 @@ Eine wirksame MAO-Prozesskette umfasst:
 2. Definierte MAO-Parameter je nach Legierung und Zielschicht.
 3. Nachgelagerte Dicht- oder Topcoat-Schritte fuer aggressive Medien.
 
-![Oberflaechenbehandlung fuer Magnesiumteile](/img/suretech-650-surface-treatment.webp "Anlage fuer industrielle Oberflaechenbehandlung")
 
 ## Pruefung und Freigabe in der Serie
 
@@ -37,7 +35,6 @@ Vor Serienfreigabe sollten Sie Porositaet, Masshaltigkeit und Dichtheit gemeinsa
 - [IATF 16949-konforme Prozesse fuer Automobilprojekte](https://alumcasting.com/iatf-16949-high-tolerance-automotive-cnc-machining-supplier/)
 - [Leitfaden zu Porositaetskontrolle bei Gussteilen](https://alumcasting.com/porosity-control-x-ray-inspection-castings/)
 
-![Praezisionsmessung mit CMM](/img/hexagon-coordinate-measuring-machine-inspection.webp "CMM-Messtechnik fuer enge Toleranzen")
 
 Wenn Sie eine konkrete Bauteilanfrage haben, starten Sie mit einer technischen Bewertung ueber [das Kontaktformular von alumcasting.com](https://kingship.alumcasting.com/de/contact/).
 

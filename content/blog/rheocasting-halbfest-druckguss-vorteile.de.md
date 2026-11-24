@@ -11,7 +11,6 @@ tags: ["Process", "Material", "Quality", "Aluminum"]
 
 [Rheocasting](/de/semi-solid-rheocasting) gewinnt an Bedeutung, wenn klassische HPDC-Fenster an Grenzen stossen. Die halbfeste Prozessfuehrung kann bei geeigneter Bauteilgeometrie Porositaet reduzieren und die mechanische Performance verbessern.
 
-![Moderne Druckgusswerkstatt mit fortschrittlichen Anlagen](/img/yizumi-die-casting-machine-shop.webp "Anlagenumgebung fuer moderne Druckgussverfahren")
 
 ## Wo Rheocasting technische Vorteile liefert
 
@@ -25,7 +24,6 @@ Als Grundlage fuer die Prozesswahl hilft ein Blick auf [Die-Casting-Defekte und 
 
 Auch beim Rheocasting entscheidet die fruehe DFM-Phase ueber die Wirtschaftlichkeit. Mit [cost-down DFM fuer Druckgusswerkzeuge](https://alumcasting.com/cost-down-dfm-design-aluminum-die-casting-molds/) und einer abgestimmten [CNC-Strategie](https://alumcasting.com/high-tolerance-automotive-cnc-machining/) lassen sich robuste Serienprozesse aufbauen.
 
-![CNC-Nachbearbeitung fuer kritische Funktionsflaechen](/img/high-precision-cnc-workshop.webp "Praezise Endbearbeitung fuer Strukturteile")
 
 Wenn Sie pruefen moechten, ob Rheocasting zu Ihrem Lastenheft passt, starten Sie mit einer [technischen Projektanfrage](https://kingship.alumcasting.com/de/contact/).
 

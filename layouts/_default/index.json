@@ -4,7 +4,7 @@
 {{ $pages = $pages | lang.Merge .Site.Pages }}
 {{ end }}
 {{- range $pages -}}
-  {{- if not .Params.excludeFromSearch -}}
+  {{- if and (not .Params.excludeFromSearch) (not .Params.excludeFromInternalSearch) -}}
     {{- $section := .Site.GetPage "section" .Section -}}
     {{- if .Date -}}
       {{- $index = $index | append (dict

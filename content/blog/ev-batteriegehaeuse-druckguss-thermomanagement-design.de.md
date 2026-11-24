@@ -11,7 +11,6 @@ tags: ["EV", "DFM", "Quality", "Thermal"]
 
 EV-Batteriegehaeuse muessen hohe Anforderungen an Steifigkeit, Dichtheit und Waermeabfuhr zugleich erfuellen. Deshalb lohnt ein integrierter Blick auf [EV-Battery-Housing-Druckguss](https://alumcasting.com/ev-battery-housing-die-casting/) und fruehe DFM-Abstimmung.
 
-![Grossformatige Druckgussmaschine fuer EV-Strukturteile](/img/5000ton-die-casting-machine.webp "5000T-HPDC fuer EV-Strukturkomponenten")
 
 ## Thermomanagement beginnt im Bauteildesign
 
@@ -21,7 +20,6 @@ Wandstaerken, Rippenlayout und Kontaktflaechen beeinflussen die Temperaturfuehru
 
 Fuer druckdichte Gehaeuse ist [Vakuum-unterstuetzter HPDC](https://alumcasting.com/vacuum-assisted-die-casting-vs-conventional-hpdc-air-tightness/) oft der robuste Weg. In Kombination mit [DFM-Analyse](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/) sinken Leckagerisiken in der Serie deutlich.
 
-![Automatisierte Produktionslinie fuer reproduzierbare Qualitaet](/img/automated-die-casting-production-line.webp "Automatisierung fuer stabile EV-Serien")
 
 ## Verifikation vor SOP
 

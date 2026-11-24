@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Leak Test"
 description: "Tests d etancheite en fonderie sous pression: criteres, methodes et validation."
 layout: "list"

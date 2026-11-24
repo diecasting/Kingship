@@ -1,5 +1,5 @@
 ---
-title: "Componentes de dispositivos médicos: mecanizado CNC de precisión | KingShip"
+title: "Componentes de dispositivos médicos: mecanizado CNC de precisión"
 description: "Componentes mecanizados limpios y dimensionalmente estables para instrumentos de diagnóstico y dispositivos médicos, construidos con controles de proceso rigurosos."
 translationKey: "industry-medical"
 schema:
@@ -7,9 +7,9 @@ schema:
     - question: "¿Qué componentes médicos fabrica KingShip?"
       answer: "KingShip produce piezas mecanizadas limpias y dimensionalmente estables para instrumentos de diagnóstico, cajas de dispositivos y fijaciones, con tolerancias ajustadas y calidad de superficie consistente."
     - question: "¿Cómo asegura KingShip la calidad de piezas médicas?"
-      answer: "Cada pieza se produce con controles de proceso rigurosos, inspección dimensional y trazabilidad completa, y aplicamos la misma disciplina que nuestras operaciones certificadas IATF 16949 e ISO 9001."
+      answer: "La calidad del proveedor y los requisitos de inspección se confirman para cada programa médico. El alcance del certificado y el paquete documental se acuerdan en la RFQ."
     - question: "¿Qué procesos se usan para piezas médicas?"
-      answer: "Los componentes médicos se producen principalmente mediante mecanizado CNC de precisión 3/4/5 ejes por la precisión y el acabado de superficie que requieren dispositivos e instrumentos."
+      answer: "Los componentes médicos pueden revisarse para mecanizado CNC, con máquina, tolerancia y alcance de inspección confirmados para la pieza concreta."
     - question: "¿KingShip puede apoyar el prototipado de dispositivos médicos?"
       answer: "Sí. Nuestra capacidad CNC lleva las piezas médicas del prototipo a la producción, manteniendo tolerancias ajustadas y calidad repetible a lo largo del ciclo de vida del programa."
 ---
@@ -22,7 +22,7 @@ Desde instrumentos de diagnóstico hasta dispositivos de terapia y monitoreo, lo
 
 ## Mecanizado CNC de precisión
 
-Nuestros centros de [mecanizado CNC](/cnc-machining/) ejecutan programas de 3, 4 y 5 ejes para las tolerancias ajustadas y acabados finos que requieren las piezas médicas. La capacidad multi-ejes nos permite mantener geometrías complejas en un solo montaje, reduciendo el manejo y mejorando la repetibilidad.
+El mecanizado CNC se revisa según plano, sistema de referencias, plan de utillaje y requisitos de inspección del proyecto. Las especificaciones de máquina se confirman por pieza.
 
 ## Fabricación de piezas de aluminio
 
@@ -30,17 +30,17 @@ Para estructuras de dispositivos más ligeras y resistentes a la corrosión, nue
 
 ## Capacidad de inspección
 
-Cada pieza médica se verifica mediante inspección dimensional y controles en proceso alineados con nuestro sistema certificado ISO 9001. Confirmamos características críticas, ajustes y acabados para que cada componente se envíe dentro de especificación, lote tras lote.
+Los métodos de inspección, características críticas, muestreo y criterios de aceptación se acuerdan para cada proyecto médico.
 
 ## Trazabilidad
 
-La trazabilidad completa de producción se integra en cada programa. Los lotes de material, los parámetros de proceso y los resultados de inspección se registran y son recuperables, brindando a los clientes de salud el control documentado y la responsabilidad que esperan sus programas regulatorios.
+El nivel de trazabilidad se define en la RFQ y puede incluir lote de material, registro de proceso y resultados de inspección del programa acordado.
 
 ## Capacidades para médico
 
-- Mecanado CNC de precisión 3/4/5 ejes para tolerancias ajustadas y acabados finos
+- Mecanizado CNC y planificación de inspección confirmados por pieza médica
 - Componentes estables y repetibles para cajas de diagnóstico y dispositivos
-- Inspección dimensional y trazabilidad completa de producción
-- Soporte de prototipo a producción bajo la disciplina ISO 9001
+- Inspección dimensional y trazabilidad definidas por proyecto
+- Cualificación del proveedor y documentación de calidad acordadas en la RFQ
 
-Nuestro flujo centrado en mecanado entrega la precisión y consistencia que exigen las aplicaciones médicas, con controles de calidad alineados a nuestro sistema de fabricación certificado.
+Los requisitos de inspección, trazabilidad y documentación se definen según el programa del dispositivo médico. Cualquier referencia a certificados o al sistema de fabricación debe comprobarse contra el titular y alcance exactos antes de su uso.

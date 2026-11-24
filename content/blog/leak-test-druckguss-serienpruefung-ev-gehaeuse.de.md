@@ -11,7 +11,6 @@ tags: ["Leak Test", "EV", "Quality", "Process"]
 
 Leak Tests sind bei EV-Gehaeusen kein optionaler Schritt, sondern zentraler Bestandteil der Serienfreigabe. Entscheidend ist die Kombination aus Pruefverfahren, Grenzwerten und Prozessrueckkopplung.
 
-![Roentgenanalyse als Basis fuer Dichtheitsverbesserung](/img/x-ray-detector.webp "Roentgenpruefung vor Leak-Test-Freigabe")
 
 ## Pruefstrategie richtig aufsetzen
 
@@ -28,7 +27,6 @@ Die Prozessbasis dazu liefern [Vakuum-HPDC fuer Air-Tightness](https://alumcasti
 
 Bereits in der Vorserie sollte Leak-Test mit CMM und optischer Pruefung gekoppelt werden. So lassen sich Musterteile und spaetere Serienlose konsistent vergleichen.
 
-![Automatisierte Linie fuer reproduzierbare Serienqualitaet](/img/automated-die-casting-production-line.webp "Stabile Produktionsbedingungen fuer Leak-Test-Anforderungen")
 
 ## Weitere Fachartikel (intern)
 

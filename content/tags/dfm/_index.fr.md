@@ -1,4 +1,4 @@
-﻿---
+---
 title: "DFM"
 description: "Contenus en francais sur DFM, reduction de couts et industrialisation."
 layout: "list"

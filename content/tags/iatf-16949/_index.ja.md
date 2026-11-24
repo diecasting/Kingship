@@ -1,4 +1,4 @@
-﻿---
+---
 title: "IATF 16949"
 description: "Japanese IATF 16949 and supplier quality articles."
 layout: "list"

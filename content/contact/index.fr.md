@@ -5,7 +5,7 @@ layout: "background"
 showTableOfContents: false
 ---
 
-Notre equipe analysera geometrie, epaisseurs et tolerances afin de fournir une reponse technique sous 24 heures.
+Notre équipe analysera la géométrie, les épaisseurs, les tolérances et les documents qualité. Le délai de la proposition technique est confirmé après examen du dossier de plans et du périmètre du projet.
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

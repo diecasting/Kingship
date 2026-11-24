@@ -1,22 +1,19 @@
 ---
 title: "Usinage de pièces de fonderie sous pression : reprise d'usinage, surépaisseur et cotation GPS"
-description: "Reprise d'usinage CNC de pièces de fonderie sous pression en A357, AZ91D et AM60B : surépaisseur, cotation GPS et tolérances selon le plan. Devis sur dossier complet."
+description: "Reprise d'usinage CNC de pièces de fonderie sous pression aluminium et magnésium : surépaisseur, références, contrôle et dossier de devis."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "Allée entre rangées de centres d'usinage CNC sur un sol d'atelier bleu"
 showTableOfContents: false
 url: "/fr/cnc-machining/"
 service:
   name: "Usinage CNC"
   category: "Usinage de précision"
-  tagline: "Reprise d'usinage des pièces de fonderie sous pression en A357, AZ91D et AM60B : surépaisseur, cotation GPS et tolérances définies par le plan."
+  tagline: "Reprise d'usinage des pièces de fonderie sous pression, avec stratégie d'usinage et périmètre de contrôle définis à partir du plan de la pièce finie."
   materials:
-    - "Aluminium de fonderie sous pression A357"
-    - "Magnésium de fonderie sous pression AZ91D"
-    - "Magnésium de fonderie sous pression AM60B"
+    - "Nuances d'aluminium pour fonderie : à confirmer dans la RFQ"
+    - "Nuances de magnésium pour fonderie : à confirmer dans la RFQ"
   processes:
     - "Fraisage CNC des portées d'étanchéité et faces d'appui"
     - "Tournage de reprise des alésages et portées cylindriques"
@@ -30,7 +27,7 @@ service:
     - "Séquences de reprise à capacité de procédé sur plusieurs montages"
   specifications:
     - label: "Tolérance d'usinage"
-      value: "±0,01 mm (après usinage, selon le projet)"
+      value: "Définie par caractéristique selon le plan, les références, le montage et la méthode de mesure"
     - label: "Dimension max. de pièce"
       value: "Selon le plan et la taille de fonderie, par projet"
     - label: "État de surface"
@@ -59,22 +56,22 @@ service:
     - "fonderie sous pression avec usinage intégré – fournisseur unique"
     - "demande de devis usinage pièces de fonderie sous pression"
   related_resources:
-    - title: "Guide des tolérances d'usinage CNC"
-      url: "https://alumcasting.com/cnc-machining-tolerance-guide/"
-    - title: "Méthodologie d'usinage 5 axes"
-      url: "https://alumcasting.com/5-axis-machining-playbook/"
+    - title: "Outillage et conception des moules"
+      url: "/fr/tooling/"
+    - title: "Fonderie sous pression aluminium"
+      url: "/fr/aluminum-die-casting/"
   wordpress_resources:
-    - title: "Programme clé en main fonderie + CNC"
-      url: "https://alumcasting.com/one-stop-cast-cnc-turnkey/"
+    - title: "Envoyer les plans pour revue technique"
+      url: "/fr/contact/"
   faq:
     - q: "Quelle surépaisseur d'usinage prévoir sur une pièce moulée ?"
       a: "La surépaisseur ne se fixe pas de façon générale : elle se déduit caractéristique par caractéristique de la géométrie de fonderie, du plan de joint, de la position des éjecteurs et du comportement au retrait. Elle figure sur le plan de fonderie et s'ajuste au cycle de reprise lors de la revue DFM. Trop faible, elle laisse subsister peau de fonderie ou retassure ; trop généreuse, elle accroît le temps de coupe et l'usure d'outil."
     - q: "Quelle tolérance peut-on atteindre après reprise d'usinage ?"
-      a: "Une tolérance de ±0,01 mm peut être atteinte sur des cotes définies dans des conditions de reprise adaptées, mais elle ne vaut pas comme valeur générale pour toute pièce. Ce qui est atteignable dépend de la géométrie de la pièce, du matériau, du procédé d'usinage et montage, du système de références, de la méthode de contrôle et des exigences du projet. Le chiffre se confirme caractéristique par caractéristique en revue du plan et du DFM et reste lié au moyen de mesure convenu."
+      a: "La tolérance atteignable dépend de la géométrie, du matériau, du procédé d'usinage et du montage, du système de références et de la méthode de contrôle. Les exigences sont confirmées caractéristique par caractéristique lors des revues du plan et du DFM, sans valeur générale applicable à toutes les pièces."
     - q: "Comment fixer les références entre fonderie et usinage ?"
       a: "Les références A, B et C se choisissent sur le plan selon la cotation GPS pour être appuyées sans ambiguïté sur la pièce brute comme sur le posage de reprise. L'idéal est que plan de fonderie et plan d'usinage partagent le même système de références, afin que les tolérances géométriques ne s'accumulent pas entre montages. La coordination se boucle en revue DFM avant la conception de l'outillage."
     - q: "Fonderie et usinage peuvent-ils être confiés à un seul fournisseur ?"
-      a: "Ils se regroupent dans un programme coordonné : fonderie sous pression sur la plage de machines de 400T–3000T, puis reprise d'usinage et contrôle convenu par projet. L'intérêt tient à la boucle DFM continue et à la réduction des interfaces entre fournisseurs, non à une annonce générique sur des équipements précis. Le périmètre et la documentation se définissent par projet."
+      a: "La fonderie et l'usinage peuvent être étudiés dans un programme coordonné. L'intérêt réside dans la boucle DFM continue et la réduction des interfaces ; le choix machine, le contrôle et la documentation sont définis pour chaque projet."
     - q: "Quelles pièces fournir pour un devis d'usinage ?"
       a: "Pour un devis solide : modèle 3D (STEP/IGES), plan 2D avec cotation GPS et références, alliage (A357, AZ91D ou AM60B), volume annuel et taille de lot, tolérances visées par caractéristique, état de surface, périmètre de contrôle et documentation, et stade prototype ou série. Ce qui manque est inscrit comme poste à convenir par projet, sans supposition implicite."
     - q: "Comment s'accordent le périmètre de contrôle et le premier article ?"
@@ -86,10 +83,7 @@ service:
 Une pièce de fonderie sous pression quitte le moule avec une peau de fonderie, un plan de joint et des variations de retrait qui ne conviennent ni à une portée d'étanchéité, ni à un alésage de roulement, ni à un siège fileté. La reprise d'usinage transforme ce brut en pièce fonctionnelle et fixe cotes, positions et états de surface selon le plan. Cette page s'adresse aux bureaux d'études et aux achats qui cadrent le passage : surépaisseur d'usinage, système de références, tolérance par caractéristique et périmètre de contrôle, avec A357, AZ91D et AM60B comme alliages de départ.
 
 <!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Allée entre rangées de centres d&#x27;usinage CNC sur un sol d&#x27;atelier bleu" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Atelier d&#x27;usinage CNC</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -127,7 +121,9 @@ Répartir les indications entre deux plans évite les contradictions. Le plan de
 
 Demander « la tolérance du fournisseur » sans nommer la caractéristique ni le montage ne décrit pas une pièce moulée puis usinée. Les cotes serrées se créent après la fonderie ; leur précision résulte d'une chaîne où géométrie, matériau, procédé, références et mesure s'additionnent. Un chiffre isolé laisse trop d'interprétations. L'énoncé suivant n'est formulé qu'une fois.
 
-> **Énoncé de tolérance (selon le projet, une seule fois) :** Une tolérance de ±0,01 mm peut être atteinte sur des caractéristiques définies, dans des conditions de reprise d'usinage adaptées. La tolérance atteignable dépend de la géométrie de la pièce, du matériau, du procédé d'usinage et montage, du système de références, de la méthode de contrôle et des exigences du projet ; elle est confirmée lors de la revue du plan et de l'analyse DFM et ne constitue pas une valeur forfaitaire valable pour toute pièce.
+La tolérance atteignable est définie caractéristique par caractéristique. Elle
+dépend de la géométrie, du matériau, du procédé d'usinage et du montage, du
+système de références, de la méthode de contrôle et des exigences du projet.
 
 Le moyen de mesure se définit par projet ; son incertitude fait partie de l'accord sur la tolérance.
 
@@ -142,13 +138,16 @@ Le moyen de mesure se définit par projet ; son incertitude fait partie de l'acc
 
 ### Usinage de l'A357, de l'AZ91D et de l'AM60B
 
-Les trois alliages confirmés ne réagissent pas de la même façon à l'arête coupante. L'A357, aluminium-silicium-magnésium apte au traitement thermique, donne un copeau court à moyen ; le silicium use l'outil par abrasion. L'AZ91D et l'AM60B coupent avec un effort réduit et un copeau fin, mais leur dilatation impose une température stable pour ne pas perdre la cote à la finition. Au titre du savoir-faire général, le copeau fin de magnésium est inflammable et s'évacue de façon contrôlée, sans fluide aqueux. Les contraintes résiduelles se libèrent à l'enlèvement de matière : dissocier ébauche, repos et finition limite la déformation. Sur l'AM60B, plus ductile, on surveille les bavures aux arêtes et aux entrées de trou. Approfondissement sur la [fonderie du magnésium](https://kingship.alumcasting.com/fr/magnesium-die-casting/).
+A357, AZ91D et AM60B sont des nuances fréquemment étudiées pour les pièces de
+fonderie, mais leur disponibilité et leur adéquation doivent être confirmées pour
+chaque RFQ. Le magnésium se coupe avec un effort réduit et produit un copeau fin ;
+sa dilatation impose une température stable. Le copeau fin de magnésium est
+inflammable et doit être évacué de manière contrôlée, avec des mesures de sécurité
+adaptées. Approfondissement sur la
+[fonderie du magnésium](https://kingship.alumcasting.com/fr/magnesium-die-casting/).
 
 <!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Fraisage CNC d&#x27;une pièce allongée en aluminium avec lubrifiant de coupe sur l&#x27;outil" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Fraisage CNC d&#x27;une pièce moulée</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -163,12 +162,23 @@ Les trois alliages confirmés ne réagissent pas de la même façon à l'arête 
 
 ### État de surface, ébavurage et traitements
 
-La finition n'est pas une constante d'atelier mais une spécification par surface sur le plan : le Ra d'une portée d'étanchéité n'est pas celui d'un contour laissé brut. L'ordre de l'ébavurage compte, car les bavures aux sorties de perçage et aux filetages ne doivent ni blesser les ajustements ni compromettre le joint. Le grenaillage (Shot Blasting) et l'anodisation (Anodizing) de l'aluminium figurent parmi les procédés confirmés ; leur pertinence s'évalue selon l'alliage et le plan. Sur magnésium, tout traitement demande une analyse particulière de la corrosion et de l'adhérence. Les autres revêtements restent des options générales de l'industrie, soumises à revue par projet. L'usinage peut aussi ouvrir des porosités ou retassures du brut, dont les critères d'acceptation se conviennent en amont.
+La finition n'est pas une constante d'atelier mais une spécification par surface
+sur le plan : le Ra d'une portée d'étanchéité n'est pas celui d'un contour laissé
+brut. L'ordre de l'ébavurage compte, car les bavures aux sorties de perçage et aux
+filetages ne doivent ni blesser les ajustements ni compromettre le joint. La
+disponibilité et l'adéquation des traitements secondaires sont confirmées dans la
+RFQ. Sur magnésium, tout traitement demande une analyse de la corrosion et de
+l'adhérence pour l'application.
 
 
 ### Fonderie et usinage dans un même programme
 
-Dans un programme unique, ce que l'on observe sur la surépaisseur, le plan de joint ou la déformation remonte vers la conception du moule par la revue DFM. La fonderie sous pression, sur la plage de machines de 400T–3000T, livre le brut ; un traitement thermique éventuel stabilise la structure ; viennent ensuite la reprise et le contrôle convenu par projet. L'ordre n'est pas arbitraire : l'enlèvement de matière libère des contraintes qui pèsent sur la cote finale. Le bénéfice est d'interface — modifications de plan, références et cotes de contrôle s'accordent une fois au lieu d'être traduites entre deux fournisseurs. Le dispositif se relie à l'[outillage](https://kingship.alumcasting.com/fr/tooling/), à la [fonderie du magnésium](https://kingship.alumcasting.com/fr/magnesium-die-casting/) et au [rhéocasting semi-solide](https://kingship.alumcasting.com/fr/semi-solid-rheocasting/).
+Dans un programme unique, les observations sur la surépaisseur, le plan de joint
+ou la déformation remontent vers la conception du moule par la revue DFM. La
+fonderie sous pression livre le brut ; un traitement thermique éventuel stabilise
+la structure ; viennent ensuite la reprise et le contrôle convenu par projet.
+Le bénéfice est d'interface : modifications de plan, références et cotes de
+contrôle s'accordent une fois au lieu d'être traduites entre deux fournisseurs.
 
 ### Contrôle dimensionnel et qualité définis par projet
 
@@ -200,8 +210,5 @@ Un devis fiable naît d'un dossier complet : modèle 3D (STEP/IGES), plan 2D ave
 
 
 <!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Grande pièce en forme de bac bridée sur la table d&#x27;une machine CNC avant usinage" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Pièce bridée sur la table d&#x27;une machine CNC</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->

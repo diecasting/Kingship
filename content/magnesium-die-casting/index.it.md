@@ -1,18 +1,16 @@
 ---
 title: "Pressofusione del magnesio (HPDC) – Leghe AZ91D e AM60B"
-description: "Kingship produce componenti strutturali in magnesio a parete sottile per HPDC (400T–3000T) per automotive, EV e industria. AZ91D/AM60B, protezione dalla corrosione, CNC di precisione."
+description: "Guida tecnica alla pressofusione del magnesio AZ91D e AM60B: scelta della lega, pareti sottili, corrosione, lavorazione CNC e requisiti di macchina e ispezione da confermare all'RFQ."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/magnesium-die-casting-banner.webp"
-featureImageAlt: "Linea di pressofusione del magnesio con flotta di macchine 400T–3000T"
 showTableOfContents: false
 url: "/it/magnesium-die-casting/"
 service:
   name: "Pressofusione del magnesio"
   category: "Pressofusione"
-  tagline: "HPDC del magnesio per l'alleggerimento da 400T a 3000T – componenti strutturali a parete sottile per automotive, EV e industria."
+  tagline: "Ingegneria HPDC del magnesio in AZ91D e AM60B; macchina, lega e progetto confermati in DFM e all'RFQ."
   materials:
     - "AZ91D"
     - "AM60B"
@@ -21,15 +19,15 @@ service:
     - "Lavorazione CNC"
     - "Analisi di flusso e DFM"
   equipment:
-    - "Flotta HPDC 400T–3000T"
+    - "Ambito macchina HPDC confermato all'RFQ"
     - "Officina CNC ad alta precisione"
   specifications:
     - label: "Forza di chiusura"
-      value: "400T – 3000T"
+      value: "intervallo confermato all'RFQ"
     - label: "Spessore min. parete"
-      value: "1,0–1,2 mm (in base al progetto)"
+      value: "da confermare all'RFQ"
     - label: "Tolleranza CNC"
-      value: "±0,01 mm (post-lavorazione)"
+      value: "fattibilità per caratteristica nel DFM"
     - label: "Trattamento superficiale"
       value: "In base al progetto; processi confermati: sabbiatura e anodizzazione"
   industries:
@@ -64,7 +62,7 @@ service:
     - q: "Quali leghe di magnesio fuse?"
       a: "Le leghe di magnesio confermate sono AZ91D e AM60B. AZ91D è la lega generale più diffusa; AM60B si sceglie quando contano duttilità e assorbimento di energia d'urto. Altre leghe vengono valutate in DFM in base al progetto, non offerte come standard."
     - q: "Qual è la dimensione massima del pezzo?"
-      a: "Le macchine HPDC 400T–3000T producono componenti strutturali a parete sottile. Uno spessore di circa 1,0–1,2 mm è un riferimento dipendente dal progetto (lega, geometria, distanza di flusso, condizioni del progetto). Una tolleranza di ±0,01 mm può essere raggiunta su caratteristiche definite in adeguate condizioni di post-lavorazione e viene confermata per quota nella revisione del disegno e DFM."
+      a: "Le macchine HPDC intervallo macchina confermato per progetto producono componenti strutturali a parete sottile. Uno spessore di circa 1,0–1,2 mm è un riferimento dipendente dal progetto (lega, geometria, distanza di flusso, condizioni del progetto). Una tolleranza di ±0,01 mm può essere raggiunta su caratteristiche definite in adeguate condizioni di post-lavorazione e viene confermata per quota nella revisione del disegno e DFM."
     - q: "Come vengono definite qualità e dimensioni?"
       a: "Le caratteristiche da controllare, il metodo di misura, il campionamento e la documentazione si definiscono per progetto in offerta. Primo articolo, documentazione PPAP e verifica CMM sono esempi di ambito da concordare, non dotazioni incluse per impostazione predefinita. Non si dichiara validità attuale dei certificati IATF 16949 o ISO 9001."
 ---
@@ -77,7 +75,6 @@ Il magnesio, con densità di **1,74 g/cm³**, è circa **33 % più leggero dell'
 
 [Confronta la pressofusione di magnesio e alluminio](https://alumcasting.com/magnesium-vs-aluminum-die-casting/) per capire perché molti clienti scelgono la [riduzione di peso tramite cambio materiale](https://alumcasting.com/aluminum-to-magnesium-conversion-weight-reduction/).
 
-![Linea di pressofusione del magnesio](/img/magnesium-die-casting-banner.webp)
 
 ### 🔬 Leghe di magnesio – AZ91D e AM60B
 
@@ -95,11 +92,10 @@ Fondiamo principalmente due leghe collaudate:
 
 ---
 
-## 🏭 Processo HPDC e attrezzature (400T–3000T)
+## 🏭 Processo HPDC e attrezzature (intervallo macchina confermato per progetto)
 
-Il programma dispone di un **range di macchine HPDC 400T–3000T**, completato dalla lavorazione CNC secondaria. L'atmosfera di gas protettivo e la gestione sicura di bagno e trucioli sono pratiche industriali generali del magnesio. L'analisi di flusso e DFM avviene fin dalla fase di preventivo; vedi la [capacità produttiva](https://alumcasting.com/manufacturing-capabilities/).
+Il programma dispone di un **range di macchine HPDC intervallo macchina confermato per progetto**, completato dalla lavorazione CNC secondaria. L'atmosfera di gas protettivo e la gestione sicura di bagno e trucioli sono pratiche industriali generali del magnesio. L'analisi di flusso e DFM avviene fin dalla fase di preventivo; vedi la [capacità produttiva](https://alumcasting.com/manufacturing-capabilities/).
 
-![Linea di produzione di pressofusione automatizzata](/img/automated-die-casting-production-line.webp)
 
 | Parametro | Specifica |
 | :--- | :--- |
@@ -118,7 +114,6 @@ Il magnesio richiede regole di progettazione specifiche. Ti supportiamo su:
 2. **Pareti sottili:** circa 1,0–1,2 mm come riferimento dipendente dal progetto; zone di fresatura e rinforzi pianificati a livello di stampo.
 3. **Protezione dalla corrosione:** il magnesio nudo non va considerato resistente alla corrosione. Sabbiatura e anodizzazione sono processi confermati; il [rivestimento MAO](https://alumcasting.com/magnesium-die-casting-corrosion-protection-mao-coating/), gli strati di conversione e l'E-Coating sono opzioni generali di settore da valutare per progetto, insieme a misure progettuali contro la corrosione da contatto.
 
-![Trattamento superficiale avanzato per pezzi in magnesio](/img/suretech-650-surface-treatment.webp)
 
 ---
 
@@ -126,7 +121,6 @@ Il magnesio richiede regole di progettazione specifiche. Ti supportiamo su:
 
 Le caratteristiche da controllare, il metodo di misura, il campionamento e la documentazione si definiscono per progetto in offerta; primo articolo, documentazione PPAP e verifica CMM sono esempi di ambito da concordare. Kingship opera secondo i requisiti concordati del progetto; non si dichiara validità attuale dei certificati IATF 16949 o ISO 9001.
 
-![Ispezione a raggi X per il controllo della porosità](/img/x-ray-detector.webp)
 
 ---
 

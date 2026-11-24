@@ -11,7 +11,6 @@ tags: ["Material", "Aluminum", "DFM", "Cost"]
 
 Die Legierungswahl bestimmt im Druckguss nicht nur die Festigkeit, sondern auch Zykluszeit, Ausschussquote und Nach[bearbeitung](/de/cnc-machining)saufwand. Fuer viele Projekte stehen [ADC12](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) und [A380](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/) im direkten Vergleich.
 
-![Aluminium-Druckgussteile fuer Serienanwendungen](/img/aluminum-die-casting-parts-storage.webp "Serienfertigung mit verschiedenen Legierungen")
 
 ## Wann ADC12 sinnvoll ist
 
@@ -21,7 +20,6 @@ ADC12 wird oft gewaehlt, wenn hohe Giessbarkeit und stabile Serienproduktion im 
 
 A380 ist fuer viele strukturelle Anwendungen attraktiv, wenn mechanische Kennwerte und robuste Prozessfenster priorisiert werden. In Kombination mit [One-Stop Druckguss und CNC](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/) lassen sich enge Spezifikationen effizient erreichen.
 
-![Yizumi-Druckgusswerkstatt mit modernem Maschinenpark](/img/yizumi-die-casting-machine-shop.webp "Moderne Fertigung fuer A380 und ADC12")
 
 ## Entscheidungs-Check fuer Einkaufs- und Technikteams
 

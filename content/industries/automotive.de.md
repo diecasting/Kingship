@@ -1,26 +1,23 @@
 ---
-title: "Automotive-Druckguss & CNC-Bearbeitung | KingShip"
-description: "IATF 16949 Aluminium- und Magnesium-Druckguss, Semi-Solid-Rheocasting und Präzisions-CNC-Bearbeitung für Antriebs-, Struktur- und Wärmemanagement-Bauteile im Automobilbau."
+title: "Automotive-Druckguss & CNC-Bearbeitung"
+description: "Engineering-Prüfung von Aluminium- und Magnesium-Druckguss sowie CNC-Nachbearbeitung für Antriebs-, Struktur- und Wärmemanagementbauteile; Umfang wird im RFQ bestätigt."
 translationKey: "industry-automotive"
 schema:
   faq:
     - question: "Welche Automobilbau-Teile fertigt KingShip?"
-      answer: "KingShip produziert Gehäuse für Antriebsstrang und Getriebe, Motor- und Trägerstrukturen, sitz- und sicherheitskritische Teile sowie Wärmemanagement-Komponenten wie Wasserjacken und Wechselrichtergehäuse aus Aluminium- und Magnesium-Druckguss mit integrierter CNC-Nachbearbeitung."
-    - question: "Verfügt KingShip über Automotive-Qualitätszertifikate?"
-      answer: "Ja. KingShip ist nach IATF 16949 und ISO 9001 zertifiziert, und jedes Automobilbau-Teil wird mit Echtzeit-Röntgen-Porositätsprüfung, Dichtheits- und Druckverlustprüfung sowie vollständiger Produktionsrückverfolgbarkeit gefertigt."
+      answer: "Automobilprogramme können für Antriebs-, Struktur-, Wärmemanagement- und Trägeranwendungen geprüft werden. Legierung, Gussroute, CNC-Umfang und Prüfanforderungen werden je RFQ anhand der Zeichnung bestätigt."
+    - question: "Wie werden Lieferanten-Qualitätsunterlagen behandelt?"
+      answer: "Prüf-, Test-, Rückverfolgungs- und Lieferantendokumente werden je Automobilprojekt vereinbart. Aktueller Zertifikatsstatus und Geltungsbereich werden in der Lieferantenqualifizierung bestätigt."
     - question: "Welche Legierungen werden für Automotive-Druckguss verwendet?"
       answer: "Wir gießen die Aluminiumlegierungen ADC12, A380 und A356 sowie die Magnesiumlegierungen AZ91D und AM60B, ausgewählt nach Festigkeit-Gewicht-Verhältnis, Wärmeleistung und Korrosionsbeständigkeit je nach Anwendung."
     - question: "Kann KingShip Automotive-Prototyping und -werkzeuge unterstützen?"
-      answer: "Ja. Unser internes Druckguss-Werkzeugteam konstruiert, baut und wartet Formen, und unsere 3/4/5-Achs-CNC-Kapazität begleitet Teile vom Prototyp bis zur validierten Großserienfertigung."
+      answer: "Der Werkzeugumfang wird im RFQ definiert. CNC-Nachbearbeitung und Prüfanforderungen werden anhand der Zeichnung und des Projekt-Qualitätsplans geprüft."
 ---
 
-KingShip unterstützt Automobilprogramme vom frühen Prototyping bis zur Großserienfertigung. Unser Aluminium- und Magnesium-Hochdruckdruckguss, Semi-Solid-Rheocasting und interne CNC-Nachbearbeitung liefern die Maßhaltigkeit und Prozesswiederholbarkeit, die moderne Fahrzeugplattformen verlangen.
+KingShip prüft Automobilprogramme vom DFM über Guss und CNC-Nachbearbeitung bis zur projektbezogenen Prüfplanung. Legierung, Maschinenumfang, Toleranzen und Dokumentationsanforderungen werden anhand der Zeichnung und des Kunden-Qualitätsplans bestätigt.
 
 <!-- KS-PHOTO-BEGIN automated-cell-with-stacked-castings -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/automated-cell-with-stacked-castings.webp" srcset="/img/automated-cell-with-stacked-castings-480w.webp 480w, /img/automated-cell-with-stacked-castings.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Automatisierte Portal-Fertigungszelle neben Paletten gestapelter Aluminiumgussteile" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Automatisierte Zelle und gestapelte Gussteile</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -30,10 +27,10 @@ KingShip unterstützt Automobilprogramme vom frühen Prototyping bis zur Großse
 
 - Antriebsstrang- und Getriebegehäuse aus ADC12, A380 und A356 Aluminium
 - Leichte Struktur- und Sitzbauteile aus AZ91D und AM60B Magnesium
-- Niedrigporöse Semi-Solid-Rheocast-Teile für sicherheitskritische Träger
-- 3/4/5-Achs-CNC-Bearbeitung, Dichtheits- und Druckverlustprüfung
+- Projektbezogene Guss- und Prüfplanung für strukturelle oder sicherheitsrelevante Träger
+- CNC-Nachbearbeitung, Dichtheits-/Druckprüfung sowie X-Ray-/KMG-Umfang je Automobilprojekt
 
-Jedes Automobilbau-Teil wird unter IATF 16949-Disziplin mit Echtzeit-Röntgen-Porositätsprüfung und vollständiger Rückverfolgbarkeit gefertigt, damit Baugruppen ihre Haltbarkeits- und Sicherheitsziele vom Erstmuster bis zur Serienlieferung erfüllen.
+Prüf-, Test- und Rückverfolgungsanforderungen werden für jedes Automobilprojekt anhand von Zeichnung, kritischen Merkmalen und Kundenanforderungen vereinbart.
 
 
 
@@ -41,8 +38,5 @@ Jedes Automobilbau-Teil wird unter IATF 16949-Disziplin mit Echtzeit-Röntgen-Po
 
 
 <!-- KS-PHOTO-BEGIN aluminium-cast-structural-component -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/aluminium-cast-structural-component.webp" srcset="/img/aluminium-cast-structural-component-480w.webp 480w, /img/aluminium-cast-structural-component.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="675" loading="lazy" decoding="async" alt="Längliches Aluminiumgussteil mit zwei runden Bohrungen und Verstärkungsrippen" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Aluminium-Gussstrukturbauteil</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->

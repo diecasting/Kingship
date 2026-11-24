@@ -1,8 +1,9 @@
 ---
-title: "Kingshipの品質マネジメントシステム証明書"
-description: "Kingship (Dongguan) Precision Manufacturing Co., Ltd. に発行された ISO 9001:2015、ISO 14001:2015、IATF 16949:2016、ISO 13485:2016 の証明書の写しを、証明書番号、認証機関、認証範囲、発行日および原票に記載の満了日とともに掲載しています。"
+title: "品質マネジメント文書"
+description: "サプライヤー資格認定時に、最新の品質文書、証明書写し、案件別検査記録を依頼する方法を案内します。"
 url: "/ja/certifications/"
 showTableOfContents: false
+excludeFromInternalSearch: true
 ---
 
 ## 証明書類
@@ -15,7 +16,7 @@ showTableOfContents: false
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iso-9001-2015" aria-label="証明書を原寸大で表示: ISO 9001:2015">
-    <img src="/img/certificates/iso-9001-2015-card.webp" alt="ISO 9001:2015 の証明書写し（番号 DZ/CN/2411010Q、名義人 Kingship (Dongguan) Precision Manufacturing Co., Ltd.、記載有効期限 2027-12-17）" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">ISO 9001:2015</div>
@@ -27,7 +28,7 @@ showTableOfContents: false
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iso-14001-2015" aria-label="証明書を原寸大で表示: ISO 14001:2015">
-    <img src="/img/certificates/iso-14001-2015-card.webp" alt="ISO 14001:2015 の証明書写し（番号 DZ/CN/2411010E、名義人 Kingship (Dongguan) Precision Manufacturing Co., Ltd.、記載有効期限 2027-12-17）" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">ISO 14001:2015</div>
@@ -39,7 +40,7 @@ showTableOfContents: false
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iatf-16949-2016" aria-label="証明書を原寸大で表示: IATF 16949:2016">
-    <img src="/img/certificates/iatf-16949-2016-card.webp" alt="IATF 16949:2016 の証明書写し（番号 NQA Certificate No. T207408 / IATF Certificate No. 0613009、名義人 Kingship (Dongguan) Precision Manufacturing Co., Ltd.、記載有効期限 2029-08-27）" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">IATF 16949:2016</div>
@@ -52,7 +53,7 @@ showTableOfContents: false
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iso-13485-2016" aria-label="証明書を原寸大で表示: ISO 13485:2016">
-    <img src="/img/certificates/iso-13485-2016-card.webp" alt="ISO 13485:2016 の証明書写し（番号 10135272M、名義人 Kingship (Dongguan) Precision Manufacturing Co., Ltd.、記載有効期限 2027-12-29 (Date of expiry)）" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">ISO 13485:2016</div>
@@ -67,22 +68,22 @@ showTableOfContents: false
 
 <div id="kcert-iso-9001-2015" class="kcert-lb" role="dialog" aria-label="ISO 9001:2015">
   <div class="kcert-lb__bar"><a href="#kcert-close">閉じる</a><a href="/img/certificates/iso-9001-2015-full.webp" target="_blank" rel="noopener">全画像を新しいタブで開く</a></div>
-  <img src="/img/certificates/iso-9001-2015-full.webp" alt="ISO 9001:2015 の証明書写し（番号 DZ/CN/2411010Q、名義人 Kingship (Dongguan) Precision Manufacturing Co., Ltd.、記載有効期限 2027-12-17）" loading="lazy" decoding="async">
+
 </div>
 
 <div id="kcert-iso-14001-2015" class="kcert-lb" role="dialog" aria-label="ISO 14001:2015">
   <div class="kcert-lb__bar"><a href="#kcert-close">閉じる</a><a href="/img/certificates/iso-14001-2015-full.webp" target="_blank" rel="noopener">全画像を新しいタブで開く</a></div>
-  <img src="/img/certificates/iso-14001-2015-full.webp" alt="ISO 14001:2015 の証明書写し（番号 DZ/CN/2411010E、名義人 Kingship (Dongguan) Precision Manufacturing Co., Ltd.、記載有効期限 2027-12-17）" loading="lazy" decoding="async">
+
 </div>
 
 <div id="kcert-iatf-16949-2016" class="kcert-lb" role="dialog" aria-label="IATF 16949:2016">
   <div class="kcert-lb__bar"><a href="#kcert-close">閉じる</a><a href="/img/certificates/iatf-16949-2016-full.webp" target="_blank" rel="noopener">全画像を新しいタブで開く</a></div>
-  <img src="/img/certificates/iatf-16949-2016-full.webp" alt="IATF 16949:2016 の証明書写し（番号 NQA Certificate No. T207408 / IATF Certificate No. 0613009、名義人 Kingship (Dongguan) Precision Manufacturing Co., Ltd.、記載有効期限 2029-08-27）" loading="lazy" decoding="async">
+
 </div>
 
 <div id="kcert-iso-13485-2016" class="kcert-lb" role="dialog" aria-label="ISO 13485:2016">
   <div class="kcert-lb__bar"><a href="#kcert-close">閉じる</a><a href="/img/certificates/iso-13485-2016-full.webp" target="_blank" rel="noopener">全画像を新しいタブで開く</a></div>
-  <img src="/img/certificates/iso-13485-2016-full.webp" alt="ISO 13485:2016 の証明書写し（番号 10135272M、名義人 Kingship (Dongguan) Precision Manufacturing Co., Ltd.、記載有効期限 2027-12-29 (Date of expiry)）" loading="lazy" decoding="async">
+
 </div>
 
 ## 認証内容の独自確認

@@ -11,7 +11,6 @@ tags: ["Quality", "CMM", "X-Ray", "Process"]
 
 Eine sichere Serienfreigabe entsteht nicht durch Einzelmessungen, sondern durch einen abgestimmten Pruefplan aus NDT und Geometriepruefung. Roentgen und CMM ergaenzen sich dabei ideal.
 
-![Roentgenpruefung fuer innere Fehlerbewertung](/img/x-ray-detector.webp "NDT fuer Porositaet und Einschluesse")
 
 ## Pruefplan-Struktur in der Praxis
 
@@ -25,7 +24,6 @@ Zur technischen Einordnung hilft der Ueberblick zu [CMM- und X-Ray-Inspektion im
 
 Messdaten sollten nicht im Reporting enden, sondern direkt in [Werkzeug](/de/tooling)- und Prozessanpassungen fliessen. Das senkt Ausschuss und stabilisiert die Serienkennzahlen.
 
-![CMM-Messtechnik fuer geometrische Toleranzen](/img/hexagon-coordinate-measuring-machine-inspection.webp "Geometrische Absicherung fuer die Serienfreigabe")
 
 ## Weitere Fachartikel (intern)
 

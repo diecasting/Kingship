@@ -1,4 +1,4 @@
-﻿---
+---
 title: "CNC"
 description: "Articulos en espanol sobre mecanizado CNC, tolerancias y control dimensional."
 layout: "list"

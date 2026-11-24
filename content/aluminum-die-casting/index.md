@@ -1,38 +1,35 @@
 ---
-title: "Advanced Aluminum Alloy High Pressure Die Casting Services"
-description: "Precision aluminum die casting supplier with 400T-5000T fleet. Specialized in ADC12, A380, A356 for automotive components & complex electronic enclosures."
+title: "Aluminum High-Pressure Die Casting Services"
+description: "Aluminum HPDC services for automotive, EV, electronics and industrial parts. Review alloy selection, DFM inputs, inspection scope and RFQ requirements."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/5000ton-die-casting-machine.webp"
-featureImageAlt: "5000-Ton High Pressure Die Casting Machine for Large Scale Automotive Structural Components"
 showTableOfContents: false
 service:
   name: "Aluminum Die Casting"
   category: "High-Pressure Die Casting"
-  tagline: "Precision aluminum HPDC from 400T to 5000T, engineered for automotive, EV, and electronics structural components."
+  tagline: "Aluminum high-pressure die casting for automotive, EV, electronics and industrial components, with the process route and inspection scope agreed per project."
   materials:
-    - "ADC12 / AlSi9Cu3"
-    - "A380 / AlSi8Cu3"
-    - "A356 / A360"
+    - "Aluminum casting grades — confirmed at RFQ"
+    - "Alloy selection based on part function and process"
   processes:
     - "High Pressure Die Casting"
     - "CNC Machining"
     - "Mold Flow & DFM Analysis"
   equipment:
-    - "5000T HPDC Machine"
-    - "400T–5000T Die Casting Fleet"
-    - "High-Precision CNC Workshop"
+    - "High-pressure die-casting process route"
+    - "Post-casting CNC scope confirmed at RFQ"
+    - "Inspection plan defined per project"
   specifications:
-    - label: "Machine Tonnage"
-      value: "400T – 5000T"
-    - label: "Min. Wall Thickness"
-      value: "1.5 mm"
-    - label: "CNC Tolerance"
-      value: "±0.01 mm"
+    - label: "Machine selection"
+      value: "Confirmed against part size, die design, alloy and required shot weight"
+    - label: "Thin-wall feasibility"
+      value: "Reviewed through DFM and flow analysis for the specific geometry"
+    - label: "Post-machining tolerance"
+      value: "Defined per feature after datum, setup and inspection-method review"
     - label: "Surface Treatment"
-      value: "Shot Blasting, Powder Coating, E-Coating"
+      value: "Drawing-defined; selected treatment and availability confirmed at RFQ"
   industries:
     - "Automotive"
     - "EV"
@@ -42,163 +39,192 @@ service:
     - "Heat Sinks"
     - "Housings & Enclosures"
   quality:
-    - "X-ray Porosity Inspection"
-    - "PPAP Documentation"
-    - "CMM Dimensional Verification"
-  certifications:
-    - "IATF 16949"
-    - "ISO 9001"
+    - "Inspection plan defined per project"
+    - "PPAP level agreed at RFQ"
+    - "X-ray and CMM scope subject to project requirements"
+  certifications: []
   seo_keywords:
     - "aluminum die casting"
     - "ADC12 A380 A356 die casting"
-    - "5000T aluminum die casting China"
-    - "5000T aluminum HPDC"
+    - "aluminum HPDC supplier"
+    - "aluminum die casting OEM ODM"
     - "automotive structural casting"
     - "EV battery housing die casting"
     - "aluminum heat sink casting"
   related_resources:
-    - title: "ADC12 Properties Engineering Guide"
-      url: "https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/"
-    - title: "A380 Alloy Properties"
-      url: "https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/"
+    - title: "Aluminum Die Casting Supplier Sourcing Checklist"
+      url: "/blog/aluminum-die-casting-supplier-china-sourcing-checklist/"
+    - title: "Sub-Surface Porosity Control Guide"
+      url: "/blog/advanced-porosity-control-aluminum-die-casting/"
   wordpress_resources:
-    - title: "One-stop Die Casting, CNC & Finishing"
-      url: "https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/"
+    - title: "Die Casting vs CNC Machining"
+      url: "/blog/die-casting-vs-cnc-machining-cost-lead-time-guide/"
   faq:
-    - q: "What aluminum alloys do you cast?"
-      a: "We routinely cast ADC12, A380, and A356, selected per your thermal, strength, and corrosion requirements."
-    - q: "What is your maximum part size?"
-      a: "Our 5000T machine supports large structural components; typical wall thickness starts at 1.5 mm with CNC tolerance to ±0.01 mm."
-    - q: "Do you support automotive quality standards?"
-      a: "Yes — we operate to IATF 16949 / ISO 9001 with X-ray porosity inspection and full PPAP documentation."
-    - q: "Can you cast large EV structural parts?"
-      a: "Yes — our 5000T machine handles large thin-wall structural components with vacuum-assisted HPDC and X-ray verified porosity control."
-    - q: "Do you offer finishing in-house?"
-      a: "Yes — shot blasting, powder coating, and E-coating are integrated with CNC post-machining under one PPAP."
+    - q: "Which information is needed to review an aluminum casting?"
+      a: "Provide the 3D model, 2D drawing with GD&T, alloy or candidate grade, annual volume, critical wall sections, sealing requirements and target inspection scope."
+    - q: "How are aluminum alloys selected?"
+      a: "Alloy selection is reviewed against castability, strength, ductility, corrosion requirements, surface finish, machining needs and heat-treatment requirements for the specific part."
+    - q: "How are inspection and documentation scoped?"
+      a: "Inspection methods, sampling, report format and PPAP level are agreed against the drawing and customer requirements before quotation or production approval."
+    - q: "Can large or thin-wall parts be evaluated?"
+      a: "Large and thin-wall projects are reviewed against the part geometry, die concept, process route, alloy, flow distance, machining allowance and agreed inspection requirements."
+    - q: "How is post-machining included?"
+      a: "Machining allowance, datum strategy, fixtures and tolerance requirements are reviewed together with the casting design. The final scope is confirmed during DFM and RFQ review."
 ---
 
 {{< center_style >}}
 
-## ⚙️ Engineering Excellence in Aluminum Casting
+## Aluminum HPDC Engineering and RFQ Scope
 
-Aluminum alloy high-pressure die casting (HPDC) is the bedrock of modern lightweight, high-strength industrial manufacturing. Our advanced facilities provide stable and high-precision casting engineering tailored for demanding sectors. With over 20 years of expertise in tool design, mold flow analysis, and mechanical engineering, we ensure that every shot complies with zero-defect delivery standards, ensuring your critical parts reach cross-border assembly lines ready for seamless installation. Learn more about our [one-stop die casting, CNC machining, and surface finishing services](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/).
+Aluminum high-pressure die casting is used for lightweight structural, housing and
+thermal-management components where cycle time and near-net-shape production
+matter. KingShip reviews each project from the finished-part drawing through die
+concept, casting process, post-machining, inspection planning and RFQ
+requirements.
+
+[Send an aluminum casting RFQ](/contact/) with the 3D model, 2D drawing, alloy or
+candidate grade, annual volume and required inspection scope.
 
 <!-- KS-PHOTO-BEGIN die-casting-machine-robotic-arm -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/die-casting-machine-robotic-arm.webp" srcset="/img/die-casting-machine-robotic-arm-480w.webp 480w, /img/die-casting-machine-robotic-arm.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Die casting machine cell with a robotic extraction arm in front of an open mould area" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Die casting production cell</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
 
 
-### 🔬 Superior Material Grades & Mechanical Integrity
-We work with specialized global aluminum alloy grades to optimize thermal conductivity, structural elasticity, and anti-corrosion properties:
+### Aluminum Alloy Selection
 
-* **ADC12 / AlSi9Cu3:** Excellent castability, perfect for complex geometric housings. Explore our [ADC12 properties engineering guide](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/).
-* **A380 / AlSi8Cu3Nb:** High mechanical properties; the global benchmark for heavy-duty industrial brackets. See [A380 alloy properties](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/).
-* **A356 / A360:** Superb structural ductility, ideal for airtight electronic heat sinks. Read our [A356 structural integrity guide](https://alumcasting.com/a356-aluminum-die-casting-for-automotive-parts-structural-integrity/).
+Alloy selection must start with the part function, not a generic material list.
+Castability, strength, ductility, corrosion requirements, surface finish,
+machining behaviour and any heat-treatment requirement should be reviewed
+together. The final grade and material condition are confirmed for the specific
+RFQ.
 
-![High volume aluminum high pressure die casting production line](/img/5000ton-die-casting-machine.webp)
-*Alt: Large scale 5000T aluminum die casting machine for automotive structural components.*
+Common industry grades such as ADC12, A380 and A356/A360 can be used as a starting
+point for engineering discussion, but their availability and suitability must be
+checked against the drawing and production plan.
+
 
 ---
 
-## 🏭 Manufacturing Spectrum & Capabilities
+## Manufacturing Review and Technical Inputs
 
-Our tool-making shop utilizes sophisticated CAD/CAM environments running Pro/E, UG, and advanced Magma/Moldflow simulations to [reduce die casting costs through DFM analysis](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/).
+The manufacturing review connects the finished-part drawing to the die concept,
+gate and thermal design, machine selection, post-machining and inspection plan.
+Where flow or solidification simulation is used, the results are reviewed against
+the specific part and tooling scope rather than treated as a universal process
+guarantee.
 
 ### Technical Limits for Aluminum Castings
-| Engineering Parameter | Production Specification |
+| Engineering Topic | How It Is Confirmed |
 | :--- | :--- |
-| **Machine Tonnage Range** | 400 Tons to 5000 Tons [Learn more](https://alumcasting.com/large-scale-5000t-aluminum-die-casting-factory-china/) |
-| **Wall Thickness Target** | Minimum 1.5 mm [Check DFM guide](https://alumcasting.com/minimum-draft-angle-for-aluminium-die-casting-dfm-guide/) |
-| **Machining Accuracy** | CNC tolerances down to ±0.01 mm |
-| **Surface Treatment** | Shot Blasting, Powder Coating, E-Coating [Finishing Guide](https://alumcasting.com/post-casting-treatments-finishing-options-aluminum/) |
+| **Machine selection** | Part size, die design, alloy, shot weight and production plan |
+| **Thin-wall feasibility** | DFM and flow review for the specific geometry |
+| **Machining tolerance** | Drawing, datum, setup, process and inspection method |
+| **Surface treatment** | Drawing requirement, availability and approved project scope |
 
-![Precision CNC machining workshop](/img/high-precision-cnc-workshop.webp)
+
 *Alt: High-precision CNC workshop for tight-tolerance die-cast post-processing.*
 
 ---
 
-## 🛡️ Robust Quality Testing
+## Quality and Inspection Planning
 
-Kingship implements a comprehensive Quality Management System [IATF 16949 certified](https://alumcasting.com/iatf-16949-high-tolerance-automotive-cnc-machining-supplier/).
+Inspection planning, traceability and supplier-quality documentation are agreed
+for each project. Current certificate status and applicable scope are confirmed
+during supplier qualification.
 
+1. **Porosity planning:** Agree critical regions, acceptance criteria, inspection method and sampling for the part.
+2. **Dimensional inspection:** Define characteristics, datum scheme, measurement method and report format.
+3. **Pressure or leak testing:** Where required, agree the fixture, test method, range, stabilization time and acceptance limit.
 
-1. **Porosity Control:** We use [5 methods to eliminate porosity](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/) in pressure die casting.
-2. **Inspection:** Our facility is equipped with advanced [X-ray defect detection and CMM equipment](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/).
-3. **Validation:** Automated leakage testing for airtightness in [EV battery housing](https://alumcasting.com/ev-battery-housing-die-casting/).
-
-![Real-time X-Ray inspection for porosity detection](/img/x-ray-detector.webp)
-*Alt: Real-time X-ray NDT testing to ensure internal structural integrity of castings.*
 
 ---
 
 ## 🚗 EV & Automotive Structural Casting
 
-Lightweighting mandates push automotive OEMs toward aluminum HPDC for structural and semi-structural parts. Our 400T–5000T fleet supports large thin-wall body and chassis components where stiffness-to-weight and crash performance matter. From battery tray housings to inverter enclosures, we hold dimensional stability across high-volume runs with PPAP-backed process control.
+Automotive and EV projects commonly use aluminum HPDC for structural,
+semi-structural, housing and thermal-management parts. Review the part size,
+load and sealing requirements, machining access, inspection plan and production
+volume before selecting the process route.
 
-Explore how our [die casting tooling](/tooling/) and [5-axis CNC post-machining](/cnc-machining/) close the loop from tool to finished structural part.
+Explore how [die casting tooling](/tooling/) and [CNC post-machining](/cnc-machining/)
+are reviewed together from tool concept to finished part.
 
 ### Battery Tray & Enclosure Programs
-EV battery housings demand airtight, porosity-controlled castings. We combine vacuum-assisted HPDC, X-ray porosity inspection, and automated leakage testing to meet EV pack sealing requirements. See our engineering notes on [EV battery housing die casting](https://alumcasting.com/ev-battery-housing-die-casting/).
+EV battery housings and similar pressure-tight parts require agreed leak-test
+limits, critical sealing areas and inspection access. Whether vacuum assistance
+or another process configuration is suitable must be confirmed for the specific
+part and die design.
 
 ---
 
 ## 🌡️ Thermal Management & Heat Sinks
 
-Aluminum's thermal conductivity makes HPDC ideal for heat sinks, inverter cold plates, and electronic enclosures. A356/A360 grades deliver the ductility and sealing needed for liquid-cooled thermal management. Tight ±0.01 mm CNC finish ensures flatness for thermal interface surfaces.
+Aluminum's thermal conductivity is relevant to heat sinks, inverter cold plates
+and electronic enclosures. For these parts, define the thermal-interface
+flatness, surface finish, sealing areas, wall sections and machining access on
+the drawing. Tolerance feasibility is confirmed feature by feature.
 
 <!-- KS-PHOTO-BEGIN large-aluminium-structural-casting -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/large-aluminium-structural-casting.webp" srcset="/img/large-aluminium-structural-casting-480w.webp 300w, /img/large-aluminium-structural-casting.webp 750w" sizes="(max-width: 768px) 100vw, 800px" width="750" height="1000" loading="lazy" decoding="async" alt="Large aluminium structural frame casting with cross ribs and runners, shown as cast" style="max-width:560px;width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Large as-cast aluminium structural component</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
 
 
-Our [ADC12 properties engineering guide](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/) covers castability trade-offs for high-volume thermal parts.
+For related engineering context, see the
+[aluminum die casting sourcing checklist](/blog/aluminum-die-casting-supplier-china-sourcing-checklist/).
 
 
 ---
 
 ## 🧪 DFM, Mold Flow & Simulation
 
-Every program starts with DFM and Magma/Moldflow simulation before steel is cut. We de-risk fill, cooling, and warpage, then validate with first-article inspection. This upfront engineering is what keeps die cost and scrap low across the 400T–5000T range.
+DFM should review fill, cooling, solidification, warpage, parting-line position,
+ejection, machining allowance and inspection access before the die design is
+released. Simulation can support this review where it fits the project scope, but
+the tooling and acceptance plan still require part-specific validation.
 
-Review our [DFM cost-reduction methodology](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/).
+Review the [RFQ data-pack guide](/blog/die-casting-quote-template-rfq-data-pack/)
+before requesting a tooling or production quotation.
 
 ---
 
 ## 🔧 Secondary Operations & Finishing
 
-Casting is half the job. We integrate shot blasting, powder coating, and E-coating, then finish on high-precision CNC centers to ±0.01 mm. Single-source accountability means one PPAP, one quality system, one shipment.
+Casting is only one stage of the finished component. Deburring, surface treatment,
+CNC post-machining, inspection and documentation must be defined together.
+Processing location, available treatments and inspection scope are confirmed at
+RFQ.
 
-See the [post-casting finishing options](https://alumcasting.com/post-casting-treatments-finishing-options-aluminum/) guide.
+See the [CNC machining service page](/cnc-machining/) for the casting-to-machining
+interface.
 
 ---
 
 ## 🚢 Supply Chain & Logistics
 
-With over 20 years supplying cross-border assembly lines, we manage tooling amortization, buffer stock, and bonded logistics so your line never stops. Bridge tooling supports low-volume validation; full-scale cells scale to 10,000+ units.
+Production planning should cover annual volume, lot size, tooling strategy,
+inspection frequency, packaging and the agreed delivery schedule. Capacity and
+lead time are quoted after the part, process route and production window are
+reviewed.
 
-Plan your ramp with our [production scaling playbook](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/).
+Use the [lead-time and RFQ-to-SOP guide](/blog/die-casting-lead-time-rfq-to-sop-playbook/)
+to prepare the project inputs.
 
 
 ---
 
-## 💼 Turnkey Solutions & Logistics
-We bridge rapid industrial prototyping with massive global scale manufacturing. Whether you need [bridge tooling for low-volume](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/) or [full-scale production scaling](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/), we provide end-to-end support.
+## From Tooling Review to Production
+
+Prototype or bridge-tooling requirements should be defined together with the
+expected production route. The project review covers the drawing, die concept,
+sampling items, post-machining, inspection plan and documentation needed for the
+next stage.
 
 <!-- KS-PHOTO-BEGIN deburring-finishing-workstations -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/deburring-finishing-workstations.webp" srcset="/img/deburring-finishing-workstations-480w.webp 480w, /img/deburring-finishing-workstations.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Row of stainless-steel downdraft workstations used for finishing cast components" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Finishing workstations</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -207,7 +233,7 @@ We bridge rapid industrial prototyping with massive global scale manufacturing. 
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">Request A Technical Quote</h2>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
-      Have a die casting project? <a href="/contact/">Contact our experts</a> for a formal quotation within 24 hours.
+      Have a die casting project? <a href="/contact/">Send the drawing package for engineering and RFQ review</a>.
     </p>
     {{< rfq_form >}}
   </div>

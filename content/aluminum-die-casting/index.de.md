@@ -1,12 +1,10 @@
 ---
-title: "Präzisions-Aluminium-Hochdruckguss-Dienstleistungen"
-description: "Spezialist für Aluminium-Druckguss mit 400T-5000T Maschinenpark. Expertise in ADC12, A380, A356 für Automobilkomponenten und komplexe Elektronikgehäuse."
+title: "Aluminium-Hochdruckguss-Dienstleistungen"
+description: "Aluminium-Hochdruckguss für Automotive-, EV-, Elektronik- und Industriebauteile. Legierungsauswahl, DFM-Anforderungen, Prüfumfang und RFQ-Daten im Überblick."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/5000ton-die-casting-machine.webp"
-featureImageAlt: "5000-Tonnen-Hochdruckgussmaschine für großflächige Strukturbauteile in der Automobilindustrie"
 showTableOfContents: false
 url: "/de/aluminum-die-casting/"
 ---
@@ -15,13 +13,17 @@ url: "/de/aluminum-die-casting/"
 
 ## ⚙️ Ingenieurskunst im Aluminiumguss
 
-Der Hochdruckguss (HPDC) von Aluminiumlegierungen ist das Fundament der modernen, gewichtsoptimierten und hochfesten industriellen Fertigung. Unsere fortschrittlichen Anlagen bieten stabile und hochpräzise Gusslösungen, die exakt auf anspruchsvolle Branchen zugeschnitten sind. Mit über 20 Jahren Erfahrung in Werkzeugkonstruktion, Formfließanalyse und Maschinenbau stellen wir sicher, dass jeder Schuss den Null-Fehler-Lieferstandards entspricht. So erreichen Ihre kritischen Bauteile die internationalen Montagelinien bereit für eine nahtlose Installation. Erfahren Sie mehr über unsere [Komplettlösungen für Druckguss, CNC-Bearbeitung und Oberflächenveredelung](https://alumcasting.com/one-stop-die-casting-cnc-machining-surface-finishing/).
+Aluminium-Hochdruckguss eignet sich für leichte Struktur-, Gehäuse- und
+Wärmemanagementbauteile, bei denen kurze Zykluszeiten und eine fertigungsnahe
+Form im Vordergrund stehen. KingShip prüft jedes Projekt von der
+Fertigteilszeichnung über das Werkzeugkonzept, den Gießprozess und die
+CNC-Nachbearbeitung bis zum Prüfplan und den RFQ-Anforderungen.
+
+[Senden Sie eine Aluminiumguss-RFQ](/de/contact/) mit 3D-Modell, 2D-Zeichnung,
+Legierung oder Kandidatenwerkstoff, Jahresvolumen und erforderlichem Prüfumfang.
 
 <!-- KS-PHOTO-BEGIN die-casting-machine-robotic-arm -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/die-casting-machine-robotic-arm.webp" srcset="/img/die-casting-machine-robotic-arm-480w.webp 480w, /img/die-casting-machine-robotic-arm.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Druckgusszelle mit Roboter-Entnahmearm vor dem geöffneten Werkzeugbereich" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Druckguss-Fertigungszelle</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -31,64 +33,66 @@ Der Hochdruckguss (HPDC) von Aluminiumlegierungen ist das Fundament der modernen
 Wir arbeiten mit spezialisierten globalen Aluminiumlegierungen, um Wärmeleitfähigkeit, strukturelle Elastizität und Korrosionsbeständigkeit zu optimieren:
 
 
-* **ADC12 / AlSi9Cu3:** Exzellente Gießbarkeit, perfekt für komplexe Gehäusestrukturen. Entdecken Sie unseren [Technischen Leitfaden zu ADC12-Eigenschaften](https://alumcasting.com/aluminum-alloy-adc12-properties-engineering-guide/).
-* **A380 / AlSi8Cu3Nb:** Hohe mechanische Eigenschaften; der globale Maßstab für hochbelastbare Industriehalterungen. Siehe [Eigenschaften der A380-Legierung](https://alumcasting.com/a380-aluminum-die-casting-alloy-properties/).
-* **A356 / A360:** Hervorragende strukturelle Duktilität, ideal für luftdichte elektronische Kühlkörper. Lesen Sie unseren [A356 Leitfaden zur strukturellen Integrität](https://alumcasting.com/a356-aluminum-die-casting-for-automotive-parts-structural-integrity/).
+ADC12, A380 und A356/A360 können als Ausgangspunkt für die technische Bewertung
+dienen. Verfügbarkeit und Eignung werden jedoch erst anhand von Zeichnung,
+Gießbarkeit, Festigkeit, Duktilität, Korrosionsanforderung, Oberfläche,
+Zerspanung und gegebenenfalls Wärmebehandlung für das konkrete Projekt bestätigt.
 
-![Hochvolumen-Produktionslinie für Aluminium-Hochdruckguss](/img/5000ton-die-casting-machine.webp)
-*Alt: Großformatige 5000T-Aluminium-Druckgussmaschine für Strukturbauteile der Automobilindustrie.*
 
 ---
 
-## 🏭 Fertigungsspektrum & Kapazitäten
+## Fertigungsprüfung und technische Eingaben
 
-Unsere Werkzeugbauabteilung nutzt hochentwickelte CAD/CAM-Umgebungen mit Pro/E, UG und fortschrittlichen Magma/Moldflow-Simulationen, um [Druckgusskosten durch DFM-Analyse zu reduzieren](https://alumcasting.com/how-dfm-analysis-reduces-die-casting-costs/).
+Die Fertigungsprüfung verbindet die Fertigteilszeichnung mit Werkzeugkonzept,
+Anguss- und Temperierungskonzept, Maschinenauswahl, Nachbearbeitung und Prüfplan.
+Eine Fließ- oder Erstarrungssimulation unterstützt die Bewertung, ersetzt jedoch
+keine bauteilspezifische Werkzeug- und Prozessvalidierung.
 
 <!-- KS-PHOTO-BEGIN large-aluminium-structural-casting -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/large-aluminium-structural-casting.webp" srcset="/img/large-aluminium-structural-casting-480w.webp 300w, /img/large-aluminium-structural-casting.webp 750w" sizes="(max-width: 768px) 100vw, 800px" width="750" height="1000" loading="lazy" decoding="async" alt="Großes Aluminium-Strukturgussbauteil mit Querrippen und Anguss, im Gusszustand" style="max-width:560px;width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Großes Aluminium-Strukturbauteil im Gusszustand</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
 
-### Technische Grenzwerte für Aluminiumgussteile
-| Engineering-Parameter | Fertigungsspezifikation |
+### Projektbezogen zu bestätigende technische Punkte
+| Engineering-Thema | Bestätigung |
 | :--- | :--- |
-| **Maschinentonnage-Bereich** | 400 Tonnen bis 5000 Tonnen [Mehr erfahren](https://alumcasting.com/large-scale-5000t-aluminum-die-casting-factory-china/) |
-| **Ziel-Wandstärke** | Minimum 1,5 mm [DFM-Leitfaden prüfen](https://alumcasting.com/minimum-draft-angle-for-aluminium-die-casting-dfm-guide/) |
-| **Bearbeitungsgenauigkeit** | CNC-Toleranzen bis zu ±0,01 mm |
-| **Oberflächenbehandlung** | Kugelstrahlen, Pulverbeschichten, E-Coating [Veredelungs-Leitfaden](https://alumcasting.com/post-casting-treatments-finishing-options-aluminum/) |
+| **Maschinenauswahl** | Bauteilgröße, Werkzeugkonzept, Legierung, Schussgewicht und Produktionsplan |
+| **Dünnwandigkeit** | DFM- und Fließbewertung für die konkrete Geometrie |
+| **Bearbeitungstoleranz** | Zeichnung, Bezugssystem, Aufspannung, Prozess und Messmethode |
+| **Oberflächenbehandlung** | Zeichnungsanforderung, Verfügbarkeit und freigegebener Projektumfang |
 
-![Hochpräzisions-CNC-Bearbeitungswerkstatt](/img/high-precision-cnc-workshop.webp)
+
 *Alt: Hochpräzisions-CNC-Werkstatt für die Nachbearbeitung von Druckgussteilen mit engen Toleranzen.*
 
 ---
 
 ## 🛡️ Robuste Qualitätsprüfung
 
-Kingship implementiert ein umfassendes Qualitätsmanagementsystem [IATF 16949 zertifiziert](https://alumcasting.com/iatf-16949-high-tolerance-automotive-cnc-machining-supplier/).
+Aktuelle Nachweise zum Managementsystem, Inhaber, Geltungsbereich und
+Gültigkeit werden im Lieferantenqualifizierungsprozess bereitgestellt. Der
+IATF-16949-Geltungsbereich umfasst `manufacture of die-cast parts and machined
+parts`; Produktdesign nach Clause 8.3 ist ausgeschlossen. Siehe
+[Zertifikatsdokumente](/de/certifications/).
 
 
-1. **Porositätskontrolle:** Wir nutzen [5 Methoden zur Beseitigung von Porosität](https://alumcasting.com/5-methods-eliminate-porosity-aluminum-pressure-die-casting/) beim Druckguss.
-2. **Inspektion:** Unsere Anlage ist mit fortschrittlichen [Röntgen-Fehlererkennungs- und KMG-Geräten](https://alumcasting.com/die-casting-factory-cmm-xray-inspection/) ausgestattet.
-3. **Validierung:** Automatisierte Dichtheitsprüfung für Luftdichtheit bei [EV-Batteriegehäusen](https://alumcasting.com/ev-battery-housing-die-casting/).
+1. **Porositätsplanung:** Kritische Bereiche, Annahmekriterien, Prüfmethode und Stichprobe werden je Bauteil vereinbart.
+2. **Dimensionsprüfung:** Merkmale, Bezugssystem, Messmethode und Berichtsformat werden projektbezogen festgelegt.
+3. **Dichtheitsprüfung:** Falls erforderlich, werden Vorrichtung, Prüfverfahren, Bereich, Stabilisierungszeit und Annahmegrenze abgestimmt.
 
 
-![Echtzeit-Röntgeninspektion zur Porositätsprüfung](/img/x-ray-detector.webp)
-*Alt: Echtzeit-Röntgen-ZfP-Prüfung zur Sicherstellung der internen strukturellen Integrität von Gussteilen.*
 
 ---
 
-## 💼 Komplettlösungen & Logistik
-Wir verbinden schnelle industrielle Prototypenentwicklung mit weltweiter Fertigung im großen Maßstab. Ob Sie [Brückenwerkzeuge für Kleinserien](https://alumcasting.com/bridge-tooling-low-volume-aluminum-die-casting-guide/) oder eine [vollständige Produktionsskalierung](https://alumcasting.com/scaling-die-casting-production-t0-to-10000-units/) benötigen, wir bieten Unterstützung von Anfang bis Ende.
+## Vom Werkzeugkonzept zur Serienvorbereitung
+
+Anforderungen an Prototypen oder Brückenwerkzeuge werden zusammen mit dem
+geplanten Serienweg definiert. Die Projektprüfung umfasst Zeichnung,
+Werkzeugkonzept, Bemusterung, Nachbearbeitung, Prüfplan und Dokumentation für
+die nächste Phase.
 
 <!-- KS-PHOTO-BEGIN deburring-finishing-workstations -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/deburring-finishing-workstations.webp" srcset="/img/deburring-finishing-workstations-480w.webp 480w, /img/deburring-finishing-workstations.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Reihe von Edelstahl-Absaugarbeitsplätzen für die Nachbearbeitung von Gussteilen" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Arbeitsplätze für die Nachbearbeitung</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -97,7 +101,7 @@ Wir verbinden schnelle industrielle Prototypenentwicklung mit weltweiter Fertigu
   <div class="max-w-3xl mx-auto">
     <h2 class="text-2xl font-bold mb-2 text-neutral-950 dark:text-neutral-50">Technisches Angebot anfragen</h2>
     <p class="text-sm text-neutral-600 dark:text-neutral-400 mb-6">
-      Haben Sie ein Druckgussprojekt? <a href="https://kingship.alumcasting.com/de/contact/">Kontaktieren Sie unsere Experten</a> für ein formelles Angebot innerhalb von 24 Stunden.
+      Haben Sie ein Druckgussprojekt? <a href="/de/contact/">Senden Sie das Zeichnungspaket für technische Prüfung und RFQ</a>.
     </p>
     {{< rfq_form >}}
   </div>

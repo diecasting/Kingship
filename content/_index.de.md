@@ -1,5 +1,5 @@
 ---
 title: "Präzisions-Druckguss für Aluminium & Magnesium"
-description: "KingShip ist ein B2B-Hersteller für Hochdruck-Druckguss aus Aluminium und Magnesium, Semi-Solid-Rheocasting, 5000T-Strukturguss, Präzisions-CNC-Bearbeitung und Werkzeugbau."
+description: "KingShip prüft Druckgussprojekte aus Aluminium und Magnesium, große Strukturbauteile, CNC-Nachbearbeitung und Werkzeuge mit projektbezogener Fertigungs- und Prüfplanung."
 modular_homepage: true
 ---

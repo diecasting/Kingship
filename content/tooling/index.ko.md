@@ -1,12 +1,10 @@
 ---
 title: "EV・자동차용 다이캐스팅 금형 및 금형 설계 — 알루미늄・마그네슘"
-description: "DFM 기반 다이캐스팅 금형 설계・유동 해석・CNC/EDM 가공・T0/T1 샘플링 및 유지보수. H13/SKD61 금형강, 1–8 캐비티. EV 구조재 및 배터리 하우징 부품에 최적화."
+description: "DFM 기반 다이캐스팅 금형 설계・유동 해석・CNC/EDM 가공・T0/T1 샘플링 및 유지보수. H13/SKD61 금형강을 사용하며 캐비티 수와 금형 범위는 프로젝트별로 정의합니다."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/die-casting-tooling.webp"
-featureImageAlt: "가공면과 보스를 갖춘 방열핀 부착 사각 알루미늄 다이캐스팅 하우징"
 showTableOfContents: true
 url: "/ko/tooling/"
 service:
@@ -28,9 +26,9 @@ service:
     - label: "금형강 품질"
       value: "H13 / SKD61"
     - label: "캐비티 수"
-      value: "1–8 캐비티"
+      value: "수량, 사이클 및 금형 한계에 따라 프로젝트별 확인"
     - label: "금형 수명 (전형적, 프로젝트 의존)"
-      value: "100k–500k 샷"
+      value: "프로젝트 의존. 일괄 보증값 아님"
     - label: "유동 해석"
       value: "Magma / Moldflow (프로젝트별)"
   industries:

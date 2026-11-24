@@ -1,22 +1,19 @@
 ---
 title: "Lavorazione meccanica dei pressofusi: sovrametallo, datum A-B-C e tolleranze"
-description: "Lavorazione meccanica CNC dei pressofusi in A357, AZ91D e AM60B: sovrametallo, datum e tolleranze definite dal disegno. Richiedi un preventivo con capitolato completo."
+description: "Lavorazione CNC di pressofusi in alluminio e magnesio: sovrametallo, datum, pianificazione ispettiva e dati necessari per la richiesta di preventivo."
 heroStyle: "background"
 layout: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "/img/cnc-machining.webp"
-featureImageAlt: "Corridoio tra file di centri di lavoro CNC su pavimento blu dell'officina"
 showTableOfContents: false
 url: "/it/cnc-machining/"
 service:
   name: "Lavorazione CNC"
   category: "Lavorazione di precisione"
-  tagline: "Lavorazione meccanica dei pressofusi in A357, AZ91D e AM60B: sovrametallo, datum A-B-C e tolleranze definite dal disegno, con piano di controllo concordato per progetto."
+  tagline: "Lavorazione CNC di componenti pressofusi, con strategia di lavorazione e ambito ispettivo definiti dal disegno del particolare finito."
   materials:
-    - "Alluminio da pressofusione A357"
-    - "Magnesio da pressofusione AZ91D"
-    - "Magnesio da pressofusione AM60B"
+    - "Leghe di alluminio per pressofusione — da confermare in RFQ"
+    - "Leghe di magnesio per pressofusione — da confermare in RFQ"
   processes:
     - "Fresatura CNC di superfici di tenuta e di appoggio"
     - "Tornitura di ripresa di alesaggi e sedi cilindriche"
@@ -30,7 +27,7 @@ service:
     - "Sequenze di lavorazione con capacità di processo su più riprese"
   specifications:
     - label: "Tolleranza di lavorazione"
-      value: "±0,01 mm (post-lavorazione, in base al progetto)"
+      value: "Definita per caratteristica in base a disegno, datum, setup e metodo di misura"
     - label: "Dimensione massima pezzo"
       value: "Secondo il disegno e l'ingombro di fusione, per progetto"
     - label: "Finitura superficiale"
@@ -59,22 +56,22 @@ service:
     - "lavorazioni meccaniche conto terzi pressofusi – attrezzaggio"
     - "richiesta preventivo lavorazione meccanica pressofusi"
   related_resources:
-    - title: "Guida alle tolleranze di lavorazione CNC"
-      url: "https://alumcasting.com/cnc-machining-tolerance-guide/"
-    - title: "Manuale di lavorazione a 5 assi"
-      url: "https://alumcasting.com/5-axis-machining-playbook/"
+    - title: "Stampi e attrezzaggi"
+      url: "/it/tooling/"
+    - title: "Pressofusione di alluminio"
+      url: "/it/aluminum-die-casting/"
   wordpress_resources:
-    - title: "Colata + CNC chiavi in mano"
-      url: "https://alumcasting.com/one-stop-cast-cnc-turnkey/"
+    - title: "Richiedi una revisione tecnica RFQ"
+      url: "/it/contact/"
   faq:
     - q: "Quanto sovrametallo prevedere su un pressofuso?"
       a: "Il sovrametallo non si fissa in via generale: si ricava caratteristica per caratteristica dalla geometria del getto, dal piano di separazione, dalla posizione degli espulsori e dal comportamento al ritiro. Viene riportato sul disegno del grezzo e rifinito rispetto al ciclo di asportazione in revisione DFM. Scarso lascia affiorare pelle di fusione o soffiature; eccessivo aumenta il tempo di taglio e l'usura dell'utensile."
     - q: "Quale tolleranza è raggiungibile dopo la lavorazione?"
-      a: "Una tolleranza di ±0,01 mm può essere raggiunta su caratteristiche definite in adeguate condizioni di post-lavorazione, ma non vale come dato generale per ogni pezzo. Ciò che si raggiunge dipende dalla geometria del pezzo, dal materiale, dal processo e attrezzaggio, dal datum, dal metodo di ispezione e dai requisiti di progetto. Il valore si conferma per singola caratteristica nella revisione del disegno e del DFM e resta vincolato al metodo di misura concordato."
+      a: "La tolleranza ottenibile dipende dalla geometria, dal materiale, dal processo di lavorazione e attrezzaggio, dal sistema di datum e dal metodo di ispezione. I requisiti vengono confermati caratteristica per caratteristica nella revisione del disegno e del DFM, senza un valore generale per tutti i componenti."
     - q: "Come si definiscono i datum tra getto e lavorazione?"
       a: "I datum A-B-C si scelgono sul disegno secondo la quotatura funzionale, in modo da risultare appoggiabili con inequivocabilità sia sul grezzo sia nell'attrezzaggio di lavorazione. È preferibile che disegno del getto e ciclo di lavorazione condividano lo stesso sistema di datum, così le tolleranze geometriche non si accumulano tra riprese successive. Il coordinamento si chiude in revisione DFM prima di progettare gli attrezzaggi."
     - q: "Pressofusione e lavorazione possono essere affidate a un solo fornitore?"
-      a: "Si riuniscono in un programma coordinato: pressofusione nel range di macchine 400T–3000T, poi asportazione di truciolo e ispezione concordata per progetto. Il vantaggio sta nel feedback DFM continuo e nella riduzione delle interfacce tra fornitori, non in una dichiarazione generica su impianti specifici. Perimetro e documentazione si definiscono per progetto."
+      a: "Pressofusione e lavorazione possono essere valutate in un programma coordinato. Il vantaggio sta nel feedback DFM continuo e nella riduzione delle interfacce; scelta della macchina, ambito ispettivo e documentazione vengono definiti per progetto."
     - q: "Quali documenti servono per un preventivo di lavorazione?"
       a: "Per un preventivo solido occorrono modello 3D (STEP/IGES), disegno 2D con GD&T e datum, lega (A357, AZ91D o AM60B), volume annuo e lotto, tolleranze target per caratteristica, finitura superficiale, piano di controllo e documentazione, e l'indicazione prototipo o serie. Ciò che manca viene indicato come voce da concordare per progetto, senza assunzioni implicite."
     - q: "Come si concordano piano di controllo e primo articolo?"
@@ -86,10 +83,7 @@ service:
 Un pressofuso esce dallo stampo con pelle di fusione, piano di separazione e variazioni di ritiro che non bastano a una superficie di tenuta, a una sede di cuscinetto o a un foro filettato. È l'asportazione di truciolo a trasformare il grezzo in componente funzionale, fissando quote, posizioni e finiture secondo il disegno. Questa pagina parla a progettazione, pianificazione di processo e acquisti che impostano quel passaggio: sovrametallo, datum A-B-C, tolleranza per caratteristica e piano di controllo. Le leghe di partenza sono A357, AZ91D e AM60B; ogni valore resta da confermare in revisione del disegno e analisi DFM.
 
 <!-- KS-PHOTO-BEGIN cnc-machining-workshop-aisle -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-machining-workshop-aisle.webp" srcset="/img/cnc-machining-workshop-aisle-480w.webp 480w, /img/cnc-machining-workshop-aisle.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Corridoio tra file di centri di lavoro CNC su pavimento blu dell&#x27;officina" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Officina di lavorazione CNC</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -127,7 +121,11 @@ Distribuire le indicazioni su due livelli evita contraddizioni. Il disegno del g
 
 Chiedere «la tolleranza del fornitore» senza nominare caratteristica e attrezzaggio non descrive un pressofuso lavorato. Le tolleranze strette nascono dopo la fusione e la loro precisione è l'esito di una catena di geometria, lega, processo, datum e misura. Un numero isolato lascia troppo spazio a interpretazioni. L'enunciato che segue è formulato una sola volta.
 
-> **Enunciato di tolleranza (in base al progetto, una sola volta):** Una tolleranza di ±0,01 mm può essere raggiunta su caratteristiche definite, in adeguate condizioni di post-lavorazione. La tolleranza raggiungibile dipende dalla geometria del pezzo, dal materiale, dal processo e attrezzaggio, dal datum, dal metodo di ispezione e dai requisiti di progetto; viene confermata durante la revisione del disegno e l'analisi DFM e non rappresenta un valore forfettario valido per ogni pezzo.
+La tolleranza raggiungibile viene definita caratteristica per caratteristica.
+Dipende dalla geometria del pezzo, dal materiale, dal processo e attrezzaggio,
+dal datum, dal metodo di ispezione e dai requisiti di progetto; viene confermata
+durante la revisione del disegno e del DFM e non rappresenta un valore forfettario
+valido per ogni pezzo.
 
 Il metodo di misura si definisce per progetto; la sua incertezza rientra nell'accordo sulla tolleranza.
 
@@ -145,10 +143,7 @@ Il metodo di misura si definisce per progetto; la sua incertezza rientra nell'ac
 Le tre leghe confermate non si comportano uguali al tagliente. L'A357, alluminio silicio-magnesio trattabile termicamente, dà truciolo corto o medio; il silicio abrasivo consuma l'utensile. AZ91D e AM60B tagliano con sforzo minore e truciolo fine, ma la dilatazione termica impone temperatura stabile per non perdere la quota in finitura. Come conoscenza generale di processo, il truciolo fine di magnesio è infiammabile e va evacuato in modo controllato, senza refrigerante acquoso. Le tensioni residue si liberano asportando materiale: separare sgrossatura, sosta e finitura riduce la deformazione. Sull'AM60B, più duttile, si controllano le bave su spigoli e imbocchi dei fori. Approfondimenti nella [pressofusione del magnesio](https://kingship.alumcasting.com/it/magnesium-die-casting/).
 
 <!-- KS-PHOTO-BEGIN cnc-milling-aluminium-housing-coolant -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/cnc-milling-aluminium-housing-coolant.webp" srcset="/img/cnc-milling-aluminium-housing-coolant-480w.webp 480w, /img/cnc-milling-aluminium-housing-coolant.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Fresatura CNC di un getto allungato in alluminio con refrigerante sull&#x27;utensile" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Fresatura CNC di un getto</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->
 
 
@@ -168,7 +163,12 @@ La finitura non è un dato fisso di officina, ma una prescrizione per superficie
 
 ### Pressofusione e lavorazione in un unico ciclo
 
-Se getto e lavorazione rientrano in un unico ciclo, quanto si osserva su sovrametallo, piano di separazione o deformazione ritorna alla progettazione dello stampo attraverso la revisione DFM. La pressofusione, nel range di macchine 400T–3000T, consegna il grezzo; un eventuale trattamento termico stabilizza la struttura; seguono asportazione di truciolo e ispezione concordata per progetto. L'ordine non è arbitrario: asportando materiale si liberano tensioni che pesano sulla quota finale. Il guadagno è di interfaccia: modifiche di disegno, datum e quote di controllo si concordano una volta, invece di essere tradotte tra due fornitori. Il collegamento è con [stampi e attrezzaggi](https://kingship.alumcasting.com/it/tooling/), la [pressofusione del magnesio](https://kingship.alumcasting.com/it/magnesium-die-casting/) e il [rheocasting semi-solido](https://kingship.alumcasting.com/it/semi-solid-rheocasting/).
+Se getto e lavorazione rientrano in un unico ciclo, quanto si osserva su
+sovrametallo, piano di separazione o deformazione ritorna alla progettazione dello
+stampo attraverso la revisione DFM. La pressofusione consegna il grezzo; un
+eventuale trattamento termico stabilizza la struttura; seguono asportazione di
+truciolo e ispezione concordata per progetto. L'ordine non è arbitrario:
+asportando materiale si liberano tensioni che pesano sulla quota finale.
 
 ### Controllo dimensionale e qualità per progetto
 
@@ -200,8 +200,5 @@ Un preventivo affidabile nasce da documentazione completa: modello 3D (STEP/IGES
 
 
 <!-- KS-PHOTO-BEGIN casting-fixtured-on-cnc-table -->
-<figure class="ks-photo" style="margin:2rem auto;text-align:center;">
-  <img src="/img/casting-fixtured-on-cnc-table.webp" srcset="/img/casting-fixtured-on-cnc-table-480w.webp 480w, /img/casting-fixtured-on-cnc-table.webp 1200w" sizes="(max-width: 768px) 100vw, 800px" width="1200" height="900" loading="lazy" decoding="async" alt="Grande getto a vasca fissato sul tavolo di una macchina CNC prima della lavorazione" style="max-width:100%;height:auto;border-radius:0.5rem;">
-  <figcaption style="margin-top:0.6rem;font-size:0.875rem;opacity:0.75;">Getto fissato sul tavolo di una macchina CNC</figcaption>
-</figure>
+
 <!-- KS-PHOTO-END -->

@@ -4,8 +4,6 @@ description: "高圧ダイカスト、CNC加工、ポロシティ対策、品質
 heroStyle: "background"
 layoutBackgroundBlur: false
 disableHeroImageFilter: true
-featureImage: "technical-blog-banner.webp"
-featureImageAlt: "技術チームによる工程解析"
 layout: "list"
 ---
 

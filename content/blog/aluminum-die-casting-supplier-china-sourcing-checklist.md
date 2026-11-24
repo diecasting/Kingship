@@ -13,7 +13,6 @@ If your team is searching for an aluminum die casting supplier in China, the big
 
 This checklist helps procurement and engineering teams shortlist suppliers that can support both pilot builds and long-term production.
 
-![Die casting production line for sourcing evaluation](/img/automated-die-casting-production-line.webp "Evaluate process stability, not only piece price")
 
 ## 1. Confirm Process Capability Before Price Negotiation
 
@@ -91,7 +90,7 @@ When the shortlist is set, compare each supplier's process scope against our [cu
 - [Die Casting vs CNC Machining: Cost and Lead Time Guide]({{< relref "blog/die-casting-vs-cnc-machining-cost-lead-time-guide.md" >}})
 - [Eliminating Sub-Surface Porosity in Aluminum Die Casting]({{< relref "blog/advanced-porosity-control-aluminum-die-casting.md" >}})
 
-If you want, our team can review your drawing and provide a manufacturability-first quote path with risk notes in 24 hours.
+If you want, our team can review the drawing and outline a manufacturability-first RFQ path with risk notes.
 
 <section class="w-full mt-6">
   <div class="max-w-3xl mx-auto">

@@ -11,7 +11,6 @@ tags: ["IATF 16949", "Quality", "Automotive", "Process"]
 
 Automotive-Projekte verlangen belastbare Prozess- und Qualitaetsnachweise. IATF 16949 bildet dafuer den Rahmen und verbindet technische Spezifikationen mit reproduzierbarer Serienfaehigkeit.
 
-![CMM-Pruefung fuer dokumentierte Serienqualitaet](/img/hexagon-coordinate-measuring-machine-inspection.webp "Messdaten als Teil der IATF-konformen Nachweise")
 
 ## Was Einkaeufer und SQE konkret erwarten
 
@@ -26,7 +25,6 @@ Ein guter Startpunkt ist die Referenz zu [IATF 16949 und hochpraeziser Automobil
 
 Die wirksamste Umsetzung verbindet Gussprozess, [CNC](/de/cnc-machining), Roentgen und Lecktest in einem konsistenten Datensystem. So werden Fehler frueh erkannt und nachhaltig beseitigt.
 
-![Roentgenpruefung zur Fehlerdetektion im Serienprozess](/img/x-ray-detector.webp "NDT-Analyse als Bestandteil der Lieferantenqualifikation")
 
 ## Weitere Fachartikel (intern)
 

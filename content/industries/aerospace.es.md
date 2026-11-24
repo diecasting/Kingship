@@ -1,20 +1,20 @@
 ---
-title: "Componentes aeroespaciales: fundición magnesio y aluminio | KingShip"
-description: "Componentes ligeros y de alta integridad en magnesio y aluminio fundidos a presión y Semi-Solid Rheocast para aplicaciones de vuelo y aeroespaciales."
+title: "Componentes aeroespaciales: fundición magnesio y aluminio"
+description: "Componentes ligeros de magnesio y aluminio fundidos a presión para aplicaciones aeroespaciales; aleación, proceso, inspección y calificación se confirman por proyecto."
 translationKey: "industry-aerospace"
 schema:
   faq:
     - question: "¿Qué piezas aeroespaciales fabrica KingShip?"
-      answer: "KingShip produce componentes estructurales ligeros de magnesio y aluminio, soportes y cajas donde la baja masa y la alta integridad son críticas, usando Semi-Solid Rheocasting y fundición a presión de precisión."
-    - question: "¿Por qué se usa Semi-Solid Rheocasting para piezas aeroespaciales?"
-      answer: "El Semi-Solid Rheocasting produce porosidad muy baja y microestructura fina y uniforme, dando a los componentes aeroespaciales mayor resistencia a la fatiga y fiabilidad que la fundición a presión convencional."
+      answer: "KingShip revisa proyectos de fundición de magnesio y aluminio para soportes, cajas y componentes estructurales. La aleación, la ruta de proceso y la inspección se confirman con el plano y los requisitos de calificación aeroespacial."
+    - question: "¿La reofundición semisólida es una capacidad de producción confirmada?"
+      answer: "La reofundición semisólida es una ruta técnica cuya disponibilidad de producción debe demostrarse para cada proyecto. Proceso, equipo, material e inspección no deben considerarse capacidades aeroespaciales confirmadas."
     - question: "¿Qué aleaciones se usan para la fundición aeroespacial?"
       answer: "Usamos magnesio AZ91D y AM60B para piezas críticas de peso y aluminio A356 donde se requiere mayor resistencia o corrosión."
     - question: "¿Cómo verifica KingShip la calidad de piezas aeroespaciales?"
-      answer: "Cada pieza se verifica con detección de porosidad por rayons X en tiempo real e inspección dimensional, y aplicamos controles de proceso rigurosos adecuados para aplicaciones críticas de vuelo."
+      answer: "Los métodos de inspección, muestreo y trazabilidad se definen durante la cualificación del programa aeroespacial; no se declara una inspección universal de todas las piezas."
 ---
 
-Los programas aeroespaciales empujan los límites de la relación resistencia-peso. KingShip entrega los componentes ligeros y de alta integridad en magnesio y aluminio de baja porosidad que ayudan a las estructuras de vuelo a reducir masa sin perder su sobre de rendimiento.
+Los programas aeroespaciales priorizan la relación resistencia-peso. KingShip revisa proyectos de fundición de aluminio y magnesio según plano, ruta de proceso, requisitos de inspección y evidencia disponible.
 
 ## Componentes aeroespaciales ligeros
 
@@ -24,9 +24,9 @@ Las estructuras de vuelo exigen la masa más baja posible sin sacrificar integri
 
 El magnesio es el metal estructural más ligero, y el [moldeo a presión de magnesio](/magnesium-die-casting/) permite formar en gran volumen piezas aeroespaciales complejas y críticas de peso en AZ91D y AM60B. Las aplicaciones típicas incluyen soportes, cajas, estructuras de asiento y cajas de actuador, donde cada gramo ahorrado mejora el consumo y la carga útil.
 
-## Aplicaciones del Semi-Solid Rheocasting
+## Revisión de la ruta de proceso
 
-Para las piezas más críticas para el vuelo, el [Semi-Solid Rheocasting](/semi-solid-rheocasting/) aporta una microestructura fina y uniforme de muy baja porosidad — muy por encima del moldeo a presión convencional. Eso se traduce en mayor resistencia a la fatiga y fiabilidad para componentes estructurales, palancas y soportes portantes.
+Para los componentes críticos de vuelo deben demostrarse la capacidad del proceso, los controles de material y la evidencia de inspección según la especificación del programa. La reofundición semisólida se presenta solo como opción técnica; su producción debe confirmarse para cada proyecto.
 
 ## Capacidad de fundición de aluminio
 
@@ -34,7 +34,7 @@ Nuestra capacidad de [fundición de aluminio](/aluminum-die-casting/) cubre el A
 
 ## Inspección de calidad
 
-Cada pieza aeroespacial se verifica con detección de porosidad por rayos X en tiempo real e inspección dimensional completa. Controles de proceso estrictos y monitoreo estadístico mantienen los componentes críticos para el vuelo dentro de especificación, lote tras lote.
+Los métodos de inspección, muestreo, criterios de aceptación y trazabilidad se definen para cada proyecto aeroespacial antes de aprobar la producción.
 
 ## Fabricación OEM
 
@@ -42,9 +42,9 @@ Como socio de fabricación OEM, KingShip apoya los programas aeroespaciales desd
 
 ## Capacidades para aeroespacial
 
-- Componentes estructurales Semi-Solid Rheocast con microestructura fina y uniforme
+- Planificación de fundición e inspección definida por proyecto
 - Soportes y cajas ligeras de magnesio en AZ91D y AM60B
 - Piezas de aluminio A356 para mayor resistencia o corrosión
-- Detección de porosidad por rayos X en tiempo real y control dimensional estricto
+- Planificación de rayos X, CMM e inspección dimensional definida por proyecto
 
-Nuestro proceso de rheocasting minimiza la porosidad y maximiza la resistencia a la fatiga, ofreciendo a los ingenieros aeroespaciales una ruta confiable del prototipo a la pieza de producción calificada.
+La ruta de fabricación, los criterios de aceptación y la evidencia de calificación se acuerdan antes de la aprobación de producción.

@@ -1,8 +1,9 @@
 ---
-title: "Kingship 품질경영시스템 증명서"
-description: "Kingship (Dongguan) Precision Manufacturing Co., Ltd. 에 발급된 ISO 9001:2015, ISO 14001:2015, IATF 16949:2016, ISO 13485:2016 증명서 사본으로, 증명서 번호, 인증기관, 인증 범위, 발행일 및 문서에 인쇄된 만료일을 원문 그대로 기재했습니다."
+title: "품질경영 문서"
+description: "공급업체 적격성 확인 시 최신 품질 문서, 인증서 사본 및 프로젝트별 검사 기록을 요청하는 방법을 안내합니다."
 url: "/ko/certifications/"
 showTableOfContents: false
+excludeFromInternalSearch: true
 ---
 
 ## 증명서 문서
@@ -15,7 +16,7 @@ showTableOfContents: false
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iso-9001-2015" aria-label="증명서 전체 크기로 보기: ISO 9001:2015">
-    <img src="/img/certificates/iso-9001-2015-card.webp" alt="ISO 9001:2015 증명서 사본(번호 DZ/CN/2411010Q, 명의인 Kingship (Dongguan) Precision Manufacturing Co., Ltd., 기재된 만료일 2027-12-17)" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">ISO 9001:2015</div>
@@ -27,7 +28,7 @@ showTableOfContents: false
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iso-14001-2015" aria-label="증명서 전체 크기로 보기: ISO 14001:2015">
-    <img src="/img/certificates/iso-14001-2015-card.webp" alt="ISO 14001:2015 증명서 사본(번호 DZ/CN/2411010E, 명의인 Kingship (Dongguan) Precision Manufacturing Co., Ltd., 기재된 만료일 2027-12-17)" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">ISO 14001:2015</div>
@@ -39,7 +40,7 @@ showTableOfContents: false
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iatf-16949-2016" aria-label="증명서 전체 크기로 보기: IATF 16949:2016">
-    <img src="/img/certificates/iatf-16949-2016-card.webp" alt="IATF 16949:2016 증명서 사본(번호 NQA Certificate No. T207408 / IATF Certificate No. 0613009, 명의인 Kingship (Dongguan) Precision Manufacturing Co., Ltd., 기재된 만료일 2029-08-27)" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">IATF 16949:2016</div>
@@ -52,7 +53,7 @@ showTableOfContents: false
 
 <div class="kcert-card">
   <a class="kcert-thumb" href="#kcert-iso-13485-2016" aria-label="증명서 전체 크기로 보기: ISO 13485:2016">
-    <img src="/img/certificates/iso-13485-2016-card.webp" alt="ISO 13485:2016 증명서 사본(번호 10135272M, 명의인 Kingship (Dongguan) Precision Manufacturing Co., Ltd., 기재된 만료일 2027-12-29 (Date of expiry))" width="900" height="1217" loading="lazy" decoding="async">
+
   </a>
   <div class="kcert-body">
     <div class="kcert-std">ISO 13485:2016</div>
@@ -67,22 +68,22 @@ showTableOfContents: false
 
 <div id="kcert-iso-9001-2015" class="kcert-lb" role="dialog" aria-label="ISO 9001:2015">
   <div class="kcert-lb__bar"><a href="#kcert-close">닫기</a><a href="/img/certificates/iso-9001-2015-full.webp" target="_blank" rel="noopener">전체 이미지를 새 탭에서 열기</a></div>
-  <img src="/img/certificates/iso-9001-2015-full.webp" alt="ISO 9001:2015 증명서 사본(번호 DZ/CN/2411010Q, 명의인 Kingship (Dongguan) Precision Manufacturing Co., Ltd., 기재된 만료일 2027-12-17)" loading="lazy" decoding="async">
+
 </div>
 
 <div id="kcert-iso-14001-2015" class="kcert-lb" role="dialog" aria-label="ISO 14001:2015">
   <div class="kcert-lb__bar"><a href="#kcert-close">닫기</a><a href="/img/certificates/iso-14001-2015-full.webp" target="_blank" rel="noopener">전체 이미지를 새 탭에서 열기</a></div>
-  <img src="/img/certificates/iso-14001-2015-full.webp" alt="ISO 14001:2015 증명서 사본(번호 DZ/CN/2411010E, 명의인 Kingship (Dongguan) Precision Manufacturing Co., Ltd., 기재된 만료일 2027-12-17)" loading="lazy" decoding="async">
+
 </div>
 
 <div id="kcert-iatf-16949-2016" class="kcert-lb" role="dialog" aria-label="IATF 16949:2016">
   <div class="kcert-lb__bar"><a href="#kcert-close">닫기</a><a href="/img/certificates/iatf-16949-2016-full.webp" target="_blank" rel="noopener">전체 이미지를 새 탭에서 열기</a></div>
-  <img src="/img/certificates/iatf-16949-2016-full.webp" alt="IATF 16949:2016 증명서 사본(번호 NQA Certificate No. T207408 / IATF Certificate No. 0613009, 명의인 Kingship (Dongguan) Precision Manufacturing Co., Ltd., 기재된 만료일 2029-08-27)" loading="lazy" decoding="async">
+
 </div>
 
 <div id="kcert-iso-13485-2016" class="kcert-lb" role="dialog" aria-label="ISO 13485:2016">
   <div class="kcert-lb__bar"><a href="#kcert-close">닫기</a><a href="/img/certificates/iso-13485-2016-full.webp" target="_blank" rel="noopener">전체 이미지를 새 탭에서 열기</a></div>
-  <img src="/img/certificates/iso-13485-2016-full.webp" alt="ISO 13485:2016 증명서 사본(번호 10135272M, 명의인 Kingship (Dongguan) Precision Manufacturing Co., Ltd., 기재된 만료일 2027-12-29 (Date of expiry))" loading="lazy" decoding="async">
+
 </div>
 
 ## 인증 정보 직접 확인

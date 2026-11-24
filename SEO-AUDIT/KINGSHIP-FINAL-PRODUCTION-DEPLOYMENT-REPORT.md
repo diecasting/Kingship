@@ -1,20 +1,21 @@
 # KingShip Final Production Deployment Report
 
 **Date:** 2026-11-24  
-**Status:** `FINAL PREFLIGHT PASS — DEPLOYMENT PENDING`
+**Status:** `IMPLEMENTATION COMPLETE — DEPLOYMENT BLOCKED`
 
 ## Release Target
 
 | Item | Value |
 |---|---|
 | GitHub repository | `diecasting/Kingship` |
-| Source branch | `main` |
+| Release base | `main` at `a63f5572d5e5cc584fafb721fc4c1c10e392f0f8` |
+| Local release branch | `release/kingship-seo-production-20261124` |
 | Production site | https://kingship.alumcasting.com |
 | Production workflow | `.github/workflows/pages.yml` |
-| Release commit | Pending |
-| Pull request | Pending |
-| GitHub Actions run | Pending |
-| Deployment time | Pending |
+| Release commit | `27164661abff8e4a801235f4cdb75bb0f64e2b5c` |
+| Pull request | Not created |
+| GitHub Actions run | Not created |
+| Deployment time | Not deployed |
 
 ## Preflight Evidence
 
@@ -78,9 +79,46 @@ Excluded:
 
 ## Deployment State
 
-No commit, push, merge or production deployment has been performed at the time this
-preflight snapshot was written.
+The reviewed release commit was created locally. No push, merge or production
+deployment was completed.
 
-This report will be updated with the final commit SHA, PR, Actions run, deployment
-time and production verification evidence after release.
+## Deployment Blocker
+
+`GITHUB AUTHENTICATION REQUIRED`
+
+- The local Git credential helper has no stored GitHub account.
+- No SSH key is available for an authenticated `git@github.com` push.
+- Direct access to `github.com:443` times out in the current environment.
+- The existing local SOCKS proxy can connect to GitHub, but Git still has no
+  authenticated user credential.
+- No unauthenticated GitHub API workaround or alternate deployment channel was
+  used.
+
+## Required User Action
+
+Authenticate this machine with the GitHub account authorized for
+`diecasting/Kingship` using Git Credential Manager or an approved SSH key.
+
+Do not provide a password or personal access token in chat.
+
+After authentication, the next execution should:
+
+1. Push `release/kingship-seo-production-20261124`.
+2. Create a pull request if required by branch protection.
+3. Wait for required checks and any required reviewer.
+4. Merge without bypassing protection.
+5. Verify the existing Pages deployment run.
+6. Run the production checks listed below.
+7. Replace this section with the final Actions run and production evidence.
+
+## Production Verification After Authorization
+
+- Homepage and seven-language homepages;
+- Aluminum Die Casting, Magnesium Die Casting, CNC Machining and Tooling;
+- Automotive, Aerospace and Medical;
+- Blog and Contact;
+- HTTP status, canonical, hreflang, Schema, robots and Sitemap;
+- RFQ rendering and no-attachment front-end validation;
+- no certificate scans or unauthorized photos;
+- no 404, 500, redirect loop or visible front-end error.
 

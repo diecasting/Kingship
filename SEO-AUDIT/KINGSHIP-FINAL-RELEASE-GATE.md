@@ -1,13 +1,13 @@
 # KingShip Final Release Gate
 
 **Date:** 2026-11-24  
-**Decision:** `READY FOR DEPLOYMENT AUTHORIZATION — HOLD REQUESTED`  
+**Decision:** `IMPLEMENTATION COMPLETE — DEPLOYMENT BLOCKED BY GITHUB AUTHENTICATION`  
 **Deployment performed:** No  
 **Commit/push performed:** No
 
 ## 1. Executive Summary
 
-All tested hard release gates pass:
+All tested website release gates pass:
 
 - Production and staging builds succeed;
 - Seven-language output is present;
@@ -20,10 +20,12 @@ All tested hard release gates pass:
   assets or high-risk capability claims;
 - Sitemap, robots, Schema, internal links, titles, descriptions and H1 checks pass.
 
-No hard blocker remains for the tested no-attachment RFQ flow.
+No content, SEO, image-rights or no-attachment RFQ hard blocker remains.
 
-The site is not deployed because the current instruction explicitly requires a
-hold pending the next authorization.
+The site is not deployed because this environment has no stored GitHub
+credential or SSH key. A direct GitHub mutation cannot satisfy authentication,
+and bypassing authentication or substituting a temporary deployment channel is
+not permitted.
 
 ## 2. Final Gate Summary
 
@@ -61,6 +63,11 @@ hold pending the next authorization.
 | GA4 `rfqSuccess` delivery | NON-BLOCKING POST-LAUNCH | UNKNOWN; no fabricated result |
 | CRM qualified-lead integration | NON-BLOCKING POST-LAUNCH | UNKNOWN / not connected |
 | External certificate-issuer recheck | NON-BLOCKING POST-LAUNCH | No public current-validity claim remains |
+| Release commit | PASS | Local commit `27164661abff8e4a801235f4cdb75bb0f64e2b5c` |
+| GitHub branch push | **HARD BLOCKER** | No stored GitHub credential/SSH key; authenticated push unavailable |
+| Pull request | NOT VERIFIED | Depends on branch push |
+| GitHub Actions | NOT VERIFIED | Depends on remote branch/merge |
+| Production deployment | NOT VERIFIED | Not started |
 
 ## 3. Build Evidence
 
@@ -295,20 +302,23 @@ after deployment. They do not block launch.
 
 ## 8. Deployment Readiness
 
-**Hard blockers found:** 0  
+**Website/content hard blockers found:** 0  
+**Operational deployment blockers found:** 1 — GitHub authentication  
 **Production build:** PASS  
 **Staging build:** PASS  
 **RFQ no-attachment delivery:** PASS  
 **External paid action required:** No for current no-attachment flow
 
-Deploy only after the next explicit instruction.
+Push and deployment require the user or an authorized local credential provider
+to authenticate this machine to GitHub. Do not send a password or token in chat.
 
 Recommended deployment sequence:
 
-1. Stage the intended KingShip tracked changes and relevant new release files.
-2. Exclude `SEO-BACKLINKS/` unless separately approved.
-3. Create a release commit from the reviewed state.
-4. Push to `main` using the existing GitHub Actions Pages workflow.
+1. Authenticate Git Credential Manager or install an authorized SSH key for the
+   `diecasting/Kingship` GitHub account.
+2. Push branch `release/kingship-seo-production-20261124`.
+3. Create and merge the pull request according to branch protection.
+4. Let the existing GitHub Actions Pages workflow deploy `main`.
 5. Verify the production homepage, seven-language homepages, core service,
    industry, blog, contact and RFQ pages.
 6. Recheck live canonical, hreflang, Schema, robots, sitemap and RFQ rendering.
@@ -320,8 +330,10 @@ Recommended deployment sequence:
 EMAIL DELIVERY = PASS
 NO-ATTACHMENT RFQ = PASS
 FILE UPLOAD = LIMITED BY FORMSPREE FREE PLAN
-HARD BLOCKERS = 0
-RELEASE GATE = READY FOR DEPLOYMENT AUTHORIZATION
-DEPLOYMENT = HELD BY USER INSTRUCTION
+CONTENT_AND_RFQ_HARD_BLOCKERS = 0
+DEPLOYMENT_BLOCKERS = 1
+DEPLOYMENT_BLOCKER = GITHUB AUTHENTICATION
+RELEASE GATE = IMPLEMENTATION COMPLETE — DEPLOYMENT BLOCKED
+DEPLOYMENT = BLOCKED BY GITHUB AUTHENTICATION
 ```
 
